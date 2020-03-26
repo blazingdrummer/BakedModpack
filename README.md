@@ -55,11 +55,11 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
 
 ## Recommended Settings
 - **Gameplay:** `sprint sensitivity reduction` = disabled
-  \- personal preference; this really messes with your sensitivity due to auto-sprint in my experience
+  - personal preference; this really messes with your sensitivity due to auto-sprint in my experience
 - **Video:** `resolution` = 1920x1080, `HUD scale` = 100%
-  \- This is by no means required, but I've only done very limited testing with resolutions other than this. Other resolutions or aspect ratios may cause UI issues. They should all be fixable, but will require you to adjust the configs to your own setup. Please consult the [Discord](https://discord.gg/QRtdUbV) if you need help doing this.
+  - This is by no means required, but I've only done very limited testing with resolutions other than this. Other resolutions or aspect ratios may cause UI issues. They should all be fixable, but will require you to adjust the configs to your own setup. Please consult the [Discord](https://discord.gg/QRtdUbV) if you need help doing this.
 - **Graphics:** `corpse clean-up` = immediate, `max corpses` = 0
-  \- I personally use this to remove clutter and increase performance. You don't have to do this, but I don't test without it, so your results may vary.
+  - I personally use this to remove clutter and increase performance. You don't have to do this, but I don't test without it, so your results may vary.
 
 ## New Keybindings
 | Key | Function |
@@ -83,7 +83,7 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
 ### [BakedLanguageEdits](https://thunderstore.io/package/blazingdrummer/BakedLanguageEdits/)
 - almost every item/equipment’s tooltips, as well as many menus and ability descriptions, have been modified to reflect any changes made by this modpack and give players more detail about mechanics
 - picking up items/equipment or hovering over them in the Tab menu shows a more complete description of what that item does, including exact damage values, cooldowns, and chances
-  \- don’t worry, there are still secrets hidden in the logbook ;)
+  - don’t worry, there are still secrets hidden in the logbook ;)
 ### [RTAutoSprintEx](https://thunderstore.io/package/JohnEdwa/RTAutoSprintEx/)
 - your character will automatically sprint whenever the base game would normally allow you to sprint
 - inverts the "sprint button" behavior; the "sprint button" is now a "walk button" which also cancels some channeled abilities, like Artificer's flamethrower
@@ -103,7 +103,7 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
 ### [ShareSuite](https://thunderstore.io/package/FunkFrog-and-Sipondo/ShareSuite/)
 **Multiplayer-Only**
 - picking up a white or green item gives every other **living** member of your party a random item of the same tier
-  \- red, yellow, and blue items are not shared
+  - red, yellow, and blue items are not shared
 - using 3D printers & cauldrons directly modifies your build, not the other players' builds
 - balance changes: bosses only drop 1 item, less interactables spawn in early rounds
 ### [Shrine of Dio](https://thunderstore.io/package/MagnusMagnuson/ShrineOfDio/)
@@ -125,28 +125,28 @@ Many of these issues are marked in-game with a wrench icon to indicate they are 
 Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 challenges from the base game that are nearly or completely impossible to complete when playing this pack. I'd recommend picking one of the presented solutions when you run into this situation.
 
 - `Prismatically Aligned`: Complete a Prismatic Trial
-  \- While you are playing a modded instance, prismatic trials are not available (to prevent cheating). Your options are: complete this challenge in vanilla RoR2 before returning to modded play, or modify your save file. For information on how to edit your save file directly, please visit the [Discord](https://discord.gg/QRtdUbV).
+  - While you are playing a modded instance, prismatic trials are not available (to prevent cheating). Your options are: complete this challenge in vanilla RoR2 before returning to modded play, or modify your save file. For information on how to edit your save file directly, please visit the [Discord](https://discord.gg/QRtdUbV).
 - `Mercenary: Ethereal`: As Mercenary, complete a Prismatic Trial without falling below 100% health.
-  \- Same as `Prismatically Aligned`.
+  - Same as `Prismatically Aligned`.
 - `Pause.`: Free the survivor suspended in time.
-  \- Because this challenge requires at minimum 10 lunar coins to complete, it is uniquely difficult in this modpack, because you'd need to achieve it in one run. Lunar coins' drop chance also decreases for that run every time one drops, making this challenge potentially nearly impossible. Your options are: disable the TemporaryLunarCoins mod in r2modman and play normally until you complete this challenge, use the `give_lunar 10` command to gain the necessary coins, or modify your save file. For information on how to edit your save file directly, please visit the [Discord](https://discord.gg/QRtdUbV).
+  - Because this challenge requires at minimum 10 lunar coins to complete, it is uniquely difficult in this modpack, because you'd need to achieve it in one run. Lunar coins' drop chance also decreases for that run every time one drops, making this challenge potentially nearly impossible. Your options are: disable the TemporaryLunarCoins mod in r2modman and play normally until you complete this challenge, use the `give_lunar 10` command to gain the necessary coins, or modify your save file. For information on how to edit your save file directly, please visit the [Discord](https://discord.gg/QRtdUbV).
 ### Known Bugs/Problems
 - spectral circlet has no texture and is invisible, making it nearly impossible to pick up if you didn't see it drop
 - loading into the Bazaar using a game save causes the BiggerBazaar chests to not spawn
-  \- simply don't save your game in the Bazaar or do your shopping beforehand
+  - simply don't save your game in the Bazaar or do your shopping beforehand
 - Playing on Diluvian is not properly counted as Monsoon by Starting Credits GUI, so you don't get any extra credits from the multipliers, only for the number of stages cleared. Options right now for getting lots of credits until Phedg can take a look at it are:
-  \- playing on monsoon instead of diluvian
-  \- doing the math yourself and adjusting your credit count manually by editing the config file that stores the credits
-    \> monsoon's consumable formula would be `({stage count} * {difficulty multiplier = 8} * {ending multiplier = 2.5 (win), 1.5 (loss), 2 (obliteration)}) - {stage count}`
-    \> monsoon's persistent formula would be `({stage count} * {difficulty multiplier = 4} * {ending multiplier = 2 (win), 1 (loss), 1.5 (obliteration)}) - {stage count}`
+  - playing on monsoon instead of diluvian
+  - doing the math yourself and adjusting your credit count manually by editing the config file that stores the credits
+    - monsoon's consumable formula would be `({stage count} * {difficulty multiplier = 8} * {ending multiplier = 2.5 (win), 1.5 (loss), 2 (obliteration)}) - {stage count}`
+    - monsoon's persistent formula would be `({stage count} * {difficulty multiplier = 4} * {ending multiplier = 2 (win), 1 (loss), 1.5 (obliteration)}) - {stage count}`
 - (not really a bug?) going to the next stage toggles `noclip` off and takes focus away from the console
 #### Multiplayer-Only
 - Smokebomb doesn't make Bandit go invisible when playing as client
 - price labels on the modded portions of the Bazaar display as gold rather than lunar coins for clients (e.g. $1 instead of 1 lunar); also affects fuel array chest
 - Scavengers and the Void Fields don't scale back items to compensate for item sharing, resulting in large power spikes for players
-  \- I'd recommend compensating by only picking up 1 item from the Void Field rewards instead of all of them; a similar approach could be taken with Scavengers, but they are more difficult to balance; maybe try picking up `{# of items}/{# of party members}` items
+  - I'd recommend compensating by only picking up 1 item from the Void Field rewards instead of all of them; a similar approach could be taken with Scavengers, but they are more difficult to balance; maybe try picking up `{# of items}/{# of party members}` items
 - the red item cauldron in the Bazaar gives the player a red item directly into their inventory, but also drops one on the ground, resulting in duplication
-  \- simply don't pick up this item; in the case that you accidentally do and want to remove it, simply use the command `remove_item {item_name} 1`
+  - simply don't pick up this item; in the case that you accidentally do and want to remove it, simply use the command `remove_item {item_name} 1`
 - when playing as Void Reaver as the client, you must use the alternate `Client Reave` ability available in his loadout for his special to function properly, albeit without the fancy effects
 
 For a more up-to-date list, check the `#known-issues` channel on the [Discord](https://discord.gg/QRtdUbV).
@@ -168,12 +168,12 @@ In order to not make this readme any longer than it already is, the pre-release 
 
 `v1.5.2`
 - updated DebugToolkit to v3.2.2
-  \- solved the errors caused by dying during `noclip`
+  - solved the errors caused by dying during `noclip`
 - updated DiluvianDifficulty to v1.0.3
 - README changes
-  \- added instructions for running commands in the console
-  \- added the reference to the #known-issues section of the Discord
-  \- added a changelog starting from initial public release only
-  \- added an "Updating" section
-  \- added instructions for transferring Starting Items credits
+  - added instructions for running commands in the console
+  - added the reference to the #known-issues section of the Discord
+  - added a changelog starting from initial public release only
+  - added an "Updating" section
+  - added instructions for transferring Starting Items credits
 - updated Known Issues
