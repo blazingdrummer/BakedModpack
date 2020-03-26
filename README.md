@@ -1,4 +1,4 @@
-####Please don't bug other devs with issues or feedback! Go to the [Contact Info](https://thunderstore.io/package/blazingdrummer/BakedModpack/#contact-info) section and I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!
+#### Please don't bug other devs with issues or feedback! Go to the [Contact Info](https://thunderstore.io/package/blazingdrummer/BakedModpack/#contact-info) section and I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!
 
 # Installation
 1. Install a mod manager that can automatically install dependencies (I'd recommend Ebkr's excellent [r2modman](https://thunderstore.io/package/ebkr/r2modman/) manager).
@@ -16,6 +16,7 @@
 2. Follow Step 2 in **Installation** above.
 
 (!) Before you do this last step, if you would like to transfer your credit count for Starting Items GUI so you aren't starting over, skip to the **Transferring Credits** section below.
+
 3. Delete your old profile if you'd like.
 
 4. Check the Changelog section at the bottom of this page for a quick rundown of what's different.
@@ -137,7 +138,7 @@ Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 
   \- playing on monsoon instead of diluvian
   \- doing the math yourself and adjusting your credit count manually by editing the config file that stores the credits
     \> monsoon's consumable formula would be `({stage count} * {difficulty multiplier = 8} * {ending multiplier = 2.5 (win), 1.5 (loss), 2 (obliteration)}) - {stage count}`
-    \> monsoon's persistent formula would be `({stage count} * {difficulty multiplier = 4} * {ending multiplier = 2 (win), 1 (loss), 1.5 (obliteration)}) - {stage count} (because it will still add credits for stage count no matter what)`\
+    \> monsoon's persistent formula would be `({stage count} * {difficulty multiplier = 4} * {ending multiplier = 2 (win), 1 (loss), 1.5 (obliteration)}) - {stage count}`
 - (not really a bug?) going to the next stage toggles `noclip` off and takes focus away from the console
 #### Multiplayer-Only
 - Smokebomb doesn't make Bandit go invisible when playing as client
