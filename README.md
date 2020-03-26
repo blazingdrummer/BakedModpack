@@ -144,7 +144,7 @@ Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 
 - Smokebomb doesn't make Bandit go invisible when playing as client
 - price labels on the modded portions of the Bazaar display as gold rather than lunar coins for clients (e.g. $1 instead of 1 lunar); also affects fuel array chest
 - Scavengers and the Void Fields don't scale back items to compensate for item sharing, resulting in large power spikes for players
-  \- I'd recommend compensating by only picking up 1 item from the Void Field rewards instead of all of them; a similar approach could be taken with Scavengers, but they are more difficult to balance; maybe try picking up `{# of items}/{# of party members`} items
+  \- I'd recommend compensating by only picking up 1 item from the Void Field rewards instead of all of them; a similar approach could be taken with Scavengers, but they are more difficult to balance; maybe try picking up `{# of items}/{# of party members}` items
 - the red item cauldron in the Bazaar gives the player a red item directly into their inventory, but also drops one on the ground, resulting in duplication
   \- simply don't pick up this item; in the case that you accidentally do and want to remove it, simply use the command `remove_item {item_name} 1`
 - when playing as Void Reaver as the client, you must use the alternate `Client Reave` ability available in his loadout for his special to function properly, albeit without the fancy effects
