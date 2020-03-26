@@ -1,0 +1,31 @@
+AlternativeAcrid on 0s Solus Control Unit:
+ticks for 6 @ full HP, 1 stack
+reached 60 dps max
+
+AcridPoisonBuffs (w/ stacking, 0.5 multiplier) on 0s Solus Control Unit:
+ticks for ~3.5, 1 stack
+reached 63 dps max
+
+vanilla Acrid on 0s Solus Control Unit:
+ticks for 7
+reached 39 dps max
+----------------------------------------------------------
+vanilla Acrid on 7200s Solus Control Unit:
+ticks for 111
+reached 350 dps max
+
+AcridPoisonBuffs (w/ stacking, 0.5 multiplier) on 7200s Solus Control Unit:
+ticks for 55, 1 stack
+reached 700 dps max
+
+AlternativeAcrid on 7200s Solus Control Unit:
+ticks for 13 @ full HP, 1 stack
+reached 185 dps max
+----------------------------------------------------------
+AcridPoisonBuffs (w/o stacking, 0.5 multiplier) on 7200s Solus Control Unit:
+ticks for 55
+reached 180 dps max
+
+AcridPoisonBuffs (w/o stacking, 0.5 multiplier on 0s Solus Control Unit:
+ticks for 3
+reached 25 dps max

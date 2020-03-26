@@ -1,0 +1,4 @@
+bandit client-side abilities and icons
+bazaar shows $1 instead of lunar coins, doesn't display chance shrine
+reaver ult doesn't take health away
+HAND has doubled values

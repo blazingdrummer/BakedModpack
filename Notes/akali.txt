@@ -1,0 +1,9 @@
+jump animation takes too long to end
+floats too long when jumping
+ability descriptions and icons are offset
+	descriptions should use %-based values to stay consistent with the rest of the game
+m1 should be able to be held down
+triggering passive on aerial enemies should have a vertical boundary as well?
+	either way, animation looks strange rn
+special should show time limit to use special2
+causes player name to disappear

@@ -1,0 +1,29 @@
+blast should state it doesn't scale w/ attack speed? might just be a game knowledge thing
+having limited shots w/ scatter makes its attack speed perk much less useful in some ways
+	my perception of it might be altered by BulletFalloffFix
+	does reload speed scale w/ attack speed? might solve this issue
+assassinate's knockback should be slightly buffed for a little extra distance?
+assassinate's stun should be longer to synergize easier with lights out?
+experiment with having Lights Out not reset itself?
+	would eliminate the one-button-gameplay problem early game
+		this is already decently addressed by changing the damage to only one-shot wisps and not lemurians or beetles, I think changing it to not reset itself shifts the whole identity of the character too much (in theory of course)
+does being able to reset-invis-repeat make him feel repetitive or cheesy?
+	imo, not if you have to combo any enemy other than wisps
+	having to look for wisps or combo down an enemy to get a reset adds way more interactivity to the character, I like this change w/ lights out for this
+sfx when trying to fire while out of ammo would be very useful, find myself constantly having to focus on that
+	could be too much noise when back-to-back with the reload sound, might just need to git gud
+lights out damage up just a tiny bit? can't one-shot lemurian w/ 2 crowbars, left at very low HP, feels pretty bad when you get the one item you need to kill the small stuff in one shot and you need 3 of them to get to that point
+	tbf that point might shift a lot throughout the game
+with only 2 grenades, lights out damage bonus feels pretty weak against beetle guards
+	at around 5 stacks, the damage starts feeling more significant
+	maybe have the bonus damage ignore armor?
+	1140 at 4 stacks to elite wisp, 180 at no stacks to elite imp
+		maybe i'm wrong about the damage here :)
+		does tons of damage at ~10 stacks, only got there with Ifrits, see debuffs discussion below for options on reaching that in a normal run
+definitely feeling the reload time nerf on Blast
+guess it feels strange that the rifle is being treated as burst damage, and the shotgun scales w/ attack speed; just inverted from normal logical shooter design
+	could this be reversed? have the rifle be more useful for attack speed and the shotgun used for hit-and-run? this might require a pretty large shift in numbers for each of them, curious as to your thoughts on it
+what "debuffs" count for bonus damage? bleed, chronobouable, Her Biting Embrace, poison?
+	might fix the initial feeling of not being able to stack debuffs for big damage
+	I'd personally really support any debuff you can get from items synergizing w/ Lights Out, I think this would add way more depth to his build options
+		like seriously, how often is Chronobauble actually useful? not very. that makes this option exciting for me

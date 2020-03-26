@@ -1,0 +1,4 @@
+client reave removes health properly in singleplayer, but didn't in multiplayer when playing as client?
+stacking buffs when using Shadowfade, need to test in clean profile
+targeter for m2 would be nice
+better crosshair for pinging
