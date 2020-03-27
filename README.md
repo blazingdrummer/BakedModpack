@@ -146,7 +146,6 @@ Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 
       - monsoon's persistent formula would be `({stage count} * {difficulty multiplier = 4} * {ending multiplier = 2 (win), 1 (loss), 1.5 (obliteration)}) - {stage count}`
   - (not really a bug?) going to the next stage toggles `noclip` off and takes focus away from the console
 #### Multiplayer-Only
-  - Smokebomb doesn't make Bandit go invisible when playing as client
   - price labels on the modded portions of the Bazaar display as gold rather than lunar coins for clients (e.g. $1 instead of 1 lunar); also affects fuel array chest
   - Scavengers and the Void Fields don't scale back items to compensate for item sharing, resulting in large power spikes for players
     - I'd recommend compensating by only picking up 1 item from the Void Field rewards instead of all of them; a similar approach could be taken with Scavengers, but they are more difficult to balance; maybe try picking up `{# of items}/{# of party members}` items
@@ -184,3 +183,5 @@ In order to not make this readme any longer than it already is, the pre-release 
     - added an "Updating" section
     - added instructions for transferring Starting Items credits
   - updated "Known Issues"
+  - updated BanditReloaded to v1.0.1
+    - this should resolve an issue where Smokebomb didn't make him invisible when playing as client
