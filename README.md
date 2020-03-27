@@ -15,7 +15,8 @@
 
 2. Follow Step 2 in **Installation** above.
 
-(!) Before you do this last step, if you would like to transfer your credit count for Starting Items GUI so you aren't starting over, skip to the **Transferring Credits** section below.  
+(!) Before you do this last step, if you would like to transfer your credit count for Starting Items GUI so you aren't starting over, skip to the **Transferring Credits** section below.
+
 3. Delete your old profile if you'd like.
 
 4. Check the Changelog section at the bottom of this page for a quick rundown of what's different.
@@ -100,20 +101,24 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
 ### [FixedSplitscreen](https://thunderstore.io/package/xiaoxiao921/FixedSplitscreen/)
   - better splitscreen support is available through this mod; see the [mod page](https://thunderstore.io/package/xiaoxiao921/FixedSplitscreen/) for details
 ### [ShareSuite](https://thunderstore.io/package/FunkFrog-and-Sipondo/ShareSuite/)
-**Multiplayer-Only**  
+**Multiplayer-Only**
+
   - picking up a white or green item gives every other **living** member of your party a random item of the same tier
     - red, yellow, and blue items are not shared
   - using 3D printers & cauldrons directly modifies your build, not the other players' builds
   - balance changes: bosses only drop 1 item, less interactables spawn in early rounds
 ### [Shrine of Dio](https://thunderstore.io/package/MagnusMagnuson/ShrineOfDio/)
-**Multiplayer-Only**  
+**Multiplayer-Only**
+
   - replaces the Shrine of the Woods with the Shrine of Dio, which lets you resurrect a random fallen teammate for a high gold cost
   - each normal stage spawns with a Shrine of Dio
 ### [TooManyFriends](https://thunderstore.io/package/wildbook/TooManyFriends/)
-**Multiplayer-Only**  
+**Multiplayer-Only**
+
   - Unlocks the multiplayer lobby size (default max = 16, adjustable in config)
 ### [VanillaTweaks](https://thunderstore.io/package/RyanPallesen/VanillaTweaks/)
-**Multiplayer-Only**  
+**Multiplayer-Only**
+
   - In multiplayer, you no longer pick up items by moving through them; You must press `Interact` (default E)
 
 There are dozens of other changes made to the game and addtional content, including characters and items, that are not mentioned in this brief overview. As previously mentioned, they should all be discoverable and learnable just by playing the game, but if you would like a full spoiler-heavy rundown of all of the changes made, you can find it in the User's Guide found in the `#links` section of the [Discord](https://discord.gg/QRtdUbV).
@@ -164,9 +169,11 @@ In particular, I'd like to thank Ebkr, Moffein, Rein, Magnus, Sipondo & Funkfrog
 In order to not make this readme any longer than it already is, the pre-release changes can be found in the `#changelog` section of the [Discord](https://discord.gg/QRtdUbV).
 
 `v1.5.1`
+
   - initial release
 
 `v1.5.2`
+
   - updated DebugToolkit to v3.2.2
     - solved the errors caused by dying during `noclip`
   - updated DiluvianDifficulty to v1.0.3
