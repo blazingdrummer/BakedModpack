@@ -182,6 +182,6 @@ In order to not make this readme any longer than it already is, the pre-release 
     - added a changelog starting from initial public release only
     - added an "Updating" section
     - added instructions for transferring Starting Items credits
-  - updated "Known Issues"
+  - updated "Known Bugs/Problems"
   - updated BanditReloaded to v1.0.1
     - this should resolve an issue where Smokebomb didn't make him invisible when playing as client
