@@ -1,43 +1,42 @@
 #### Please don't bug other devs with issues or feedback! Go to the [Contact Info](https://thunderstore.io/package/blazingdrummer/BakedModpack/#contact-info) section and I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!
 
 # Installation
-1. Install a mod manager that can automatically install dependencies (I'd recommend Ebkr's excellent [r2modman](https://thunderstore.io/package/ebkr/r2modman/) manager).
+  1. Install a mod manager that can automatically install dependencies (I'd recommend Ebkr's excellent [r2modman](https://thunderstore.io/package/ebkr/r2modman/) manager).
 
-2. Install the BakedModpack "mod" to automatically install all of the mods and configure them.
+  2. Install the BakedModpack "mod" to automatically install all of the mods and configure them.
+    - With r2modman, simply install the program, create a new profile, click the **Online** section, and search for "BakedModpack". Then click **Download**.
 
-  - With r2modman, simply install the program, create a new profile, click the **Online** section, and search for "BakedModpack". Then click **Download**.
+  3. Read the overview below for a brief rundown on the changes you need to know about before playing the modpack, join the [Discord](https://discord.gg/QRtdUbV) to stay up-to-date with any changes, and check out the [BakedMutators](https://thunderstore.io/package/blazingdrummer/BakedMutators/) addon package for some fun twists on the game.
 
-3. Read the overview below for a brief rundown on the changes you need to know about before playing the modpack, join the [Discord](https://discord.gg/QRtdUbV) to stay up-to-date with any changes, and check out the [BakedMutators](https://thunderstore.io/package/blazingdrummer/BakedMutators/) addon package for some fun twists on the game.
-
-4. Click **Play Modded**.
+  4. Click **Play Modded**.
 
 ## Updating
-1. Create a new profile in r2modman.
+  1. Create a new profile in r2modman.
 
-2. Follow Step 2 in **Installation** above.
+  2. Follow Step 2 in **Installation** above.
 
-(!) Before you do this last step, if you would like to transfer your credit count for Starting Items GUI so you aren't starting over, skip to the **Transferring Credits** section below.
+  (!) Before you do these last steps, if you would like to transfer your credit count for Starting Items GUI so you aren't starting over, skip to the **Transferring Credits** section below.
 
-3. Delete your old profile if you'd like.
+  3. Delete your old profile if you'd like.
 
-4. Check the Changelog section at the bottom of this page for a quick rundown of what's different.
+  4. Check the Changelog section at the bottom of this page for a quick rundown of what's different.
 
 ### Transferring Credits
-1. Click **Settings** in r2modman. Then click **Change Profile**. Select your *old* r2modman profile and enter into it.
+  1. Click **Settings** in r2modman. Then click **Change Profile**. Select your *old* r2modman profile and enter into it.
 
-2. Click **Settings** again. Then click **Browse Data Folder** to open Windows Explorer to the proper location.
+  2. Click **Settings** again. Then click **Browse Data Folder** to open Windows Explorer to the proper location.
 
-3. Navigate to `mods/profiles/<old profile name>/BepInEx/config/Phedg1 Studios/Starting Items GUI`.
+  3. Navigate to `mods/profiles/<old profile name>/BepInEx/config/Phedg1 Studios/Starting Items GUI`.
 
-4. Inside this folder, you will find a folder(s) labeled with your save file ID (e.g. 1ab2345c-678d-90ef-gh12-3i4567j89k01).
+  4. Inside this folder, you will find a folder(s) labeled with your save file ID (e.g. 1ab2345c-678d-90ef-gh12-3i4567j89k01).
 
-5. Copy this folder to your clipboard.
+  5. Copy this folder to your clipboard.
 
-6. Restart steps 1-3 using your *new* r2modman profile instead **OR** simply go up 5 directories to get back to `mods/profiles` and then continue into `...profiles/<new profile name>/BepInEx/config/Phedg1 Studios/Starting Items GUI`.
+  6. Restart steps 1-3 using your *new* r2modman profile instead **OR** simply go up 5 directories to get back to `mods/profiles` and then continue into `...profiles/<new profile name>/BepInEx/config/Phedg1 Studios/Starting Items GUI`.
 
-7. Paste the folder into that folder. If you already have an identical folder due to entering the Starting Items menu at least once or starting a run on this profile, then simply delete it, so your old credit count is transferred in.
+  7. Paste the folder into that folder. If you already have an identical folder due to entering the Starting Items menu at least once or starting a run on this profile, then simply delete it, so your old credit count is transferred in.
 
-8. Return to Step 3 of the **Updating** section.
+  8. Return to Step 3 of the **Updating** section.
 
 # Overview
 If you've never played RoR2 before, or have only played a little, welcome and you're in luck! This pack is made with you in mind. I'd maybe recommend playing at least a couple of runs of vanilla before diving into the pack just to get into the swing of things, but honestly you should be just fine jumping right in.
