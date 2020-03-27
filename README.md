@@ -2,11 +2,11 @@
 
 ---
 
-Note: It's come to my attention that anyone who installs the modpack fresh might end up getting the latest version of a mod, rather than the one desired by the modpack. This is fine, except if you are trying to play multiplayer and end up with a version mismatch. Ebkr and I have worked out a fix for it, but until he has a chance to release a patch for the mod manager, we'll have to compensate.
+It's come to my attention that anyone who installs the modpack fresh might end up getting the latest version of a mod, rather than the one desired by the modpack. This is fine, except if you are trying to play multiplayer and end up with a version mismatch. Ebkr and I have worked out a fix for it, but until he has a chance to release a patch for the mod manager, we'll have to compensate.
 
 To start with, I'll keep up with modpack updates as quickly as possible, even if the changes are a single mod update, so that we can avoid the mismatch situation. I realize this might get a bit spammy, so I apologize in advance if it gets annoying.
 
-As for you users, I'd highly recommend re-installing the pack if you are going to play with someone who recently installed or updated it to make sure you guys end up with the same mod versions. As long as there isn't a mod update introduced that seriously breaks things, these measures should work fine.
+As for you users, I'd highly recommend re-updating the pack if you are going to play with someone who recently installed or updated it to make sure you guys end up with the same mod versions. As long as there isn't a mod update introduced that seriously breaks things, these measures should work fine.
 
 ---
 
