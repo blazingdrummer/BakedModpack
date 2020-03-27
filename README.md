@@ -4,7 +4,7 @@
 1. Install a mod manager that can automatically install dependencies (I'd recommend Ebkr's excellent [r2modman](https://thunderstore.io/package/ebkr/r2modman/) manager).
 
 2. Install the BakedModpack "mod" to automatically install all of the mods and configure them.
-    - With r2modman, simply install the program, create a new profile, click the **Online** section, and search for "BakedModpack". Then click **Download**.
+  - With r2modman, simply install the program, create a new profile, click the **Online** section, and search for "BakedModpack". Then click **Download**.
 
 3. Read the overview below for a brief rundown on the changes you need to know about before playing the modpack, join the [Discord](https://discord.gg/QRtdUbV) to stay up-to-date with any changes, and check out the [BakedMutators](https://thunderstore.io/package/blazingdrummer/BakedMutators/) addon package for some fun twists on the game.
 
