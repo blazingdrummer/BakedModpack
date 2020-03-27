@@ -7,3 +7,4 @@ triggering passive on aerial enemies should have a vertical boundary as well?
 	either way, animation looks strange rn
 special should show time limit to use special2
 causes player name to disappear
+	i think this is resolved

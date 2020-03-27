@@ -1,5 +1,15 @@
 #### Please don't bug other devs with issues or feedback! Go to the [Contact Info](https://thunderstore.io/package/blazingdrummer/BakedModpack/#contact-info) section and I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!
 
+---
+
+Note: It's come to my attention that anyone who installs the modpack fresh might end up getting the latest version of a mod, rather than the one desired by the modpack. This is fine, except if you are trying to play multiplayer and end up with a version mismatch. Ebkr and I have worked out a fix for it, but until he has a chance to release a patch for the mod manager, we'll have to compensate.
+
+To start with, I'll keep up with modpack updates as quickly as possible, even if the changes are a single mod update, so that we can avoid the mismatch situation. I realize this might get a bit spammy, so I apologize in advance if it gets annoying.
+
+As for you users, I'd highly recommend re-installing the pack if you are going to play with someone who recently installed or updated it to make sure you guys end up with the same mod versions. As long as there isn't a mod update introduced that seriously breaks things, these measures should work fine.
+
+---
+
 # Installation
   1. Install a mod manager that can automatically install dependencies (I'd recommend Ebkr's excellent [r2modman](https://thunderstore.io/package/ebkr/r2modman/) manager).
 
@@ -185,3 +195,8 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated "Known Bugs/Problems"
   - updated BanditReloaded to v1.0.1
     - this should resolve an issue where Smokebomb didn't make him invisible when playing as client
+
+`v1.5.3`
+
+  - updated AcridPoisonBuffs to v0.3.0
+  - README: added a notice for dealing with potential update issues until r2modman adds modpack support

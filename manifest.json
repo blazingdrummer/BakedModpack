@@ -1,6 +1,6 @@
 {
   "name": "BakedModpack",
-  "version_number": "1.5.2",
+  "version_number": "1.5.3",
   "website_url": "https://discord.gg/QRtdUbV",
   "description": "A modpack designed for balanced play at all experience levels while expanding greatly upon the base game.",
   "dependencies": [
@@ -14,7 +14,7 @@
 	"xiaoxiao921-DPSMeter-0.0.6",
 	"Phedg1Studios-StartingItemsGUI-1.0.0",
 	"Moffein-No_Scrap_Launcher_Falloff-1.0.0",
-	"Jimmy-AcridPoisonBuffs-0.2.0",
+	"Jimmy-AcridPoisonBuffs-0.3.0",
 	"Moffein-AcridM1Heal-1.0.0",
 	"RyanPallesen-VanillaTweaks-1.2.0",
 	"MagnusMagnuson-TemporaryLunarCoins-0.1.0",
