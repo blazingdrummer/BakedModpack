@@ -16,7 +16,7 @@ As for you users, I'd highly recommend re-updating the pack if you are going to 
   2. Install the BakedModpack "mod" to automatically install all of the mods and configure them.
     - With r2modman, simply install the program, create a new profile, click the **Online** section, and search for "BakedModpack". Then click **Download**.
 
-  3. Read the overview below for a brief rundown on the changes you need to know about before playing the modpack, join the [Discord](https://discord.gg/QRtdUbV) to stay up-to-date with any changes, and check out the [BakedMutators](https://thunderstore.io/package/blazingdrummer/BakedMutators/) addon package for some fun twists on the game.
+  3. Read the Overview below for a brief rundown on the changes you need to know about before playing the modpack, join the [Discord](https://discord.gg/QRtdUbV) to stay up-to-date with any changes, and check out the [BakedMutators](https://thunderstore.io/package/blazingdrummer/BakedMutators/) addon package for some fun twists on the game.
 
   4. Click **Play Modded**.
 
@@ -29,7 +29,7 @@ As for you users, I'd highly recommend re-updating the pack if you are going to 
 
   3. Delete your old profile if you'd like.
 
-  4. Check the Changelog section at the bottom of this page for a quick rundown of what's different.
+  4. Check the **Changelog** section at the bottom of this page for a quick rundown of what's different.
 
 ### Transferring Credits
   1. Click **Settings** in r2modman. Then click **Change Profile**. Select your *old* r2modman profile and enter into it.
