@@ -200,3 +200,21 @@ In order to not make this readme any longer than it already is, the pre-release 
 
   - updated AcridPoisonBuffs to v0.3.0
   - README: added a notice for dealing with potential update issues until r2modman adds modpack support
+
+---
+
+  - updated BakedLanguage Edits to v1.2.2
+    - removed temporarily
+  - removed NetLib
+    - as per Rein's request
+  - updated RogueWisp
+  - updated ShareSuite
+  - updated Surgeon
+  - updated Pingprovements
+  - removed MULT scrap cannon fix; replaced by vanilla functionality
+  - removed InfusionStackFix; replaced by vanilla functionality
+  - disabled a few HarbTweaks features; replaced by vanilla functionality
+    - first stage spawn
+    - medkit delay
+  - updated BepInEx
+  - updated DiluvianDifficulty

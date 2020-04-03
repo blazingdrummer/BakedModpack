@@ -1,0 +1,39 @@
+Error-Throwing & Disabled:
+    TemporaryLunarCoins
+    VanillaTweaks
+    SavedGames
+    GeneralFixes
+    AlternativeArtificer
+    MakeMonsterToothGreatAgain
+    StartingItemsGUI
+    DiluvianDifficulty
+        causes game to hang at Welcome Screen
+    FasterTeleportCharge
+        threw an error on run start
+        need to consider interaction with Focused Convergence
+    Faster3DPrinters
+        threw an error on run start
+
+disabling BiggerBazaar for now for general game balance because VanillaTweaks is broken
+    heard that it might be broken anyways, need to test spawning into Bazaar
+
+Disabled:
+    BakedLanguageEdits
+        didn't want to create confusion with descriptions until updated
+    OrderedItems
+        causes inventory to display improperly
+        doesn't seem to affect TAB menu
+    R2API
+        using bleeding-edge version
+    DebugToolkit
+        using bleeding-edge version
+    BanditReloaded
+        causes problems w/ other character mods
+    Void Reaver
+        causes problems w/ other character mods
+    PlayableSora
+        causes problems w/ other character mods
+    PlayableAkali
+        causes problems w/ other character mods
+
+can't pick up lunar coins, lunar items
