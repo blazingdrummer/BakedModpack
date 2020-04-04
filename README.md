@@ -25,28 +25,9 @@ As for you users, I'd highly recommend re-updating the pack if you are going to 
 
   2. Follow Step 2 in **Installation** above.
 
-  (!) Before you do these last steps, if you would like to transfer your credit count for Starting Items GUI so you aren't starting over, skip to the **Transferring Credits** section below.
-
   3. Delete your old profile if you'd like.
 
   4. Check the **Changelog** section at the bottom of this page for a quick rundown of what's different.
-
-### Transferring Credits
-  1. Click **Settings** in r2modman. Then click **Change Profile**. Select your *old* r2modman profile and enter into it.
-
-  2. Click **Settings** again. Then click **Browse Data Folder** to open Windows Explorer to the proper location.
-
-  3. Navigate to `mods/profiles/<old profile name>/BepInEx/config/Phedg1 Studios/Starting Items GUI`.
-
-  4. Inside this folder, you will find a folder(s) labeled with your save file ID (e.g. 1ab2345c-678d-90ef-gh12-3i4567j89k01).
-
-  5. Copy this folder to your clipboard.
-
-  6. Restart steps 1-3 using your *new* r2modman profile instead **OR** simply go up 5 directories to get back to `mods/profiles` and then continue into `...profiles/<new profile name>/BepInEx/config/Phedg1 Studios/Starting Items GUI`.
-
-  7. Paste the folder into that folder. If you already have an identical folder due to entering the Starting Items menu at least once or starting a run on this profile, then simply delete it, so your old credit count is transferred in.
-
-  8. Return to Step 3 of the **Updating** section.
 
 # Overview
 If you've never played RoR2 before, or have only played a little, welcome and you're in luck! This pack is made with you in mind. I'd maybe recommend playing at least a couple of runs of vanilla before diving into the pack just to get into the swing of things, but honestly you should be just fine jumping right in.
@@ -149,16 +130,11 @@ Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 
   - spectral circlet has no texture and is invisible, making it nearly impossible to pick up if you didn't see it drop
   - loading into the Bazaar using a game save causes the BiggerBazaar chests to not spawn
     - simply don't save your game in the Bazaar or do your shopping beforehand
-  - Playing on Diluvian is not properly counted as Monsoon by Starting Credits GUI, so you don't get any extra credits from the multipliers, only for the number of stages cleared. Options right now for getting lots of credits until Phedg can take a look at it are:
-    - playing on monsoon instead of diluvian
-    - doing the math yourself and adjusting your credit count manually by editing the config file that stores the credits
-      - monsoon's consumable formula would be `({stage count} * {difficulty multiplier = 8} * {ending multiplier = 2.5 (win), 1.5 (loss), 2 (obliteration)}) - {stage count}`
-      - monsoon's persistent formula would be `({stage count} * {difficulty multiplier = 4} * {ending multiplier = 2 (win), 1 (loss), 1.5 (obliteration)}) - {stage count}`
   - (not really a bug?) going to the next stage toggles `noclip` off and takes focus away from the console
 #### Multiplayer-Only
   - price labels on the modded portions of the Bazaar display as gold rather than lunar coins for clients (e.g. $1 instead of 1 lunar); also affects fuel array chest
-  - Scavengers and the Void Fields don't scale back items to compensate for item sharing, resulting in large power spikes for players
-    - I'd recommend compensating by only picking up 1 item from the Void Field rewards instead of all of them; a similar approach could be taken with Scavengers, but they are more difficult to balance; maybe try picking up `{# of items}/{# of party members}` items
+  - Scavengers don't scale back items to compensate for item sharing, resulting in large power spikes for players
+    - try picking up `{# of items}/{# of party members}` items
   - the red item cauldron in the Bazaar gives the player a red item directly into their inventory, but also drops one on the ground, resulting in duplication
     - simply don't pick up this item; in the case that you accidentally do and want to remove it, simply use the command `remove_item {item_name} 1`
   - when playing as Void Reaver as the client, you must use the alternate `Client Reave` ability available in his loadout for his special to function properly, albeit without the fancy effects
@@ -201,20 +177,80 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated AcridPoisonBuffs to v0.3.0
   - README: added a notice for dealing with potential update issues until r2modman adds modpack support
 
----
+`v2.0.0`
 
-  - updated BakedLanguage Edits to v1.2.2
-    - removed temporarily
   - removed NetLib
-    - as per Rein's request
-  - updated RogueWisp
-  - updated ShareSuite
-  - updated Surgeon
-  - updated Pingprovements
-  - removed MULT scrap cannon fix; replaced by vanilla functionality
-  - removed InfusionStackFix; replaced by vanilla functionality
-  - disabled a few HarbTweaks features; replaced by vanilla functionality
-    - first stage spawn
-    - medkit delay
-  - updated BepInEx
-  - updated DiluvianDifficulty
+    - as per Rein's request; waiting for it to become more stable
+  - updated BepInEx to v3.2.0
+  - updated R2API to v2.4.10
+  - removed FasterTeleportCharge
+    - with the addition of Focused Convergence, waiting for teleporter to charge is less of an issue, and I don't want to make it a useless item
+    - I'll be testing and getting feedback on this change for the near future
+  - updated FixedSplitscreen to v0.1.0
+    - [ ] states that it brings back the controller cursors, does this apply when in singleplayer?
+  - updated Pingprovements to v1.4.3
+    - [x] regenerate and update config
+  - updated ShrineOfDio to v1.3.1
+    - [x] regenerate and update config
+  - updated RTAutoSprintEx to v1.0.6
+    - [x] regenerate and update config
+    - [ ] added console command notes to README, including FOV control
+    - [ ] investigate Visions of Heresy animation cancelling
+  - updated DiluvianDifficulty to v1.0.4
+  - updated ShareSuite to v1.15.1
+    - [x] regenerate and update config
+    - added player scale-back support for the Void Fields
+  - [ ] README: changed update instructions for new r2modman support
+  - updated BiggerBazaar to v1.9.2
+    - [x] regenerate and update config
+    - increased price of chests from 1, 2, 3 -> 1, 3, 5
+  - updated TemporaryLunarCoins to v0.2.0
+  - removed No_Scrap_Launcher_Falloff; replaced by vanilla functionality
+  - updated InfusionStackFix to v5.0.1
+    - [x] regenerate and update config, check new README?
+    - [x] re-order in list
+  - [x] adjusted AI item blacklist to be more threatening and to account for new items
+    - due to vanilla changes to Capacitor and the new counterplay potential, Capacitor has been enabled
+    - [x] might need to add ceremonial dagger due to vanilla change
+  - updated Rampage to v1.1.4
+  - updated RogueWisp to v2.1.3
+  - updated BanditReloaded to v1.0.2
+    - [x] regenerate and update config
+  - updated TheSurgeon to v1.4.1
+  - updated Void_Reaver to v0.1.1
+  - [x] adjusted HarbTweaks for vanilla changes
+    - disabled First Stage Spawns; replaced by vanilla functionality
+    - disabled Shorter Medkits; vanilla changes make this too strong
+  - updated StartingItemsGUI to v1.1.0
+    - README: removed **Transferring Credits** section due to new r2modman update functionality
+    - now compatible with DiluvianDifficulty
+    - increased scrolling speed of the menu
+
+  - temporarily removed AlternativeArtificer
+    - waiting on compatibility update
+  - temporarily removed VanillaTweaks
+    - waiting on compatibility update
+  - temporarily removed SavedGames
+    - waiting on compatibility update
+  - temporarily removed GeneralFixes
+    - waiting on compatibility update
+  - temporarily removed MakeMonsterToothGreatAgain
+    - waiting on compatibility update
+  - temporarily removed Void_Reaver
+    - waiting on bugfixes
+    - M2 has no proc coefficient like vanilla Void Reavers
+  - temporarily removed LunarCoinShareOnPickup
+    - won't allow you to pickup lunar coins
+  - temporarily removed FixedSplitscreen
+    - causes menu interaction problems
+    - [ ] edit changelog to reflect this
+  - removed PlayableSora
+  - removed PlayableAkali
+
+known bugs:
+  - need new version of debugtoolkit; using bleeding-edge (local version v1.1.1)
+    - remove macros temporarily
+  - InfusionStackFix currently causes problems w/ `kill_all`
+
+TODO: add printer to Bazaar?
+TODO: remove EngiShieldNotification? might not be needed with vanilla changes, test
