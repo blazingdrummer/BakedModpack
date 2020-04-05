@@ -1,15 +1,5 @@
 #### Please don't bug other devs with issues or feedback! Go to the [Contact Info](https://thunderstore.io/package/blazingdrummer/BakedModpack/#contact-info) section and I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!
 
----
-
-It's come to my attention that anyone who installs the modpack fresh might end up getting the latest version of a mod, rather than the one desired by the modpack. This is fine, except if you are trying to play multiplayer and end up with a version mismatch. Ebkr and I have worked out a fix for it, but until he has a chance to release a patch for the mod manager, we'll have to compensate.
-
-To start with, I'll keep up with modpack updates as quickly as possible, even if the changes are a single mod update, so that we can avoid the mismatch situation. I realize this might get a bit spammy, so I apologize in advance if it gets annoying.
-
-As for you users, I'd highly recommend re-updating the pack if you are going to play with someone who recently installed or updated it to make sure you guys end up with the same mod versions. As long as there isn't a mod update introduced that seriously breaks things, these measures should work fine.
-
----
-
 # Installation
   1. Install a mod manager that can automatically install dependencies (I'd recommend Ebkr's excellent [r2modman](https://thunderstore.io/package/ebkr/r2modman/) manager).
 
@@ -21,28 +11,23 @@ As for you users, I'd highly recommend re-updating the pack if you are going to 
   4. Click **Play Modded**.
 
 ## Updating
-  1. Create a new profile in r2modman.
+  1. Select the **BakedModpack** entry in r2modman and click **Update**.
 
-  2. Follow Step 2 in **Installation** above.
-
-  3. Delete your old profile if you'd like.
-
-  4. Check the **Changelog** section at the bottom of this page for a quick rundown of what's different.
+  2. Check the **Changelog** section at the bottom of this page for a quick rundown of what's different. If there are any mods that have been removed, please manually uninstall them to prevent issues or create a new profile and follow the [Installation](https://thunderstore.io/package/blazingdrummer/BakedModpack/#installation) instructions again.
 
 # Overview
 If you've never played RoR2 before, or have only played a little, welcome and you're in luck! This pack is made with you in mind. I'd maybe recommend playing at least a couple of runs of vanilla before diving into the pack just to get into the swing of things, but honestly you should be just fine jumping right in.
 
-If you're already a battered survivor of the storm, this pack should provide fresh new challenges and content, alongside much-appreciated QOL and balance changes. You can find all the details of everything that has been changed in the User's Guide found in the `#links` section of the [Discord](https://discord.gg/QRtdUbV).
+If you're already a battered survivor of the storm, this pack should provide fresh new challenges and content, alongside much-appreciated QOL and balance changes. You can find all the details of everything that has been changed in the [User's Guide](https://github.com/blazingdrummer/BakedModpack/wiki/User's-Guide).
 
 These are the basic changes/differences you'll need to know to get started with the pack. You should be able to learn everything else by just playing the game.
 
-
-# IMPORTANT DISCLAIMERS
+## IMPORTANT DISCLAIMERS
 This pack relies on lunar coins being a temporary currency that resets every run. You will be warned that your coins will be reset when you start a new game, and will need to type `tlc_aye` in chat before you can move at the beginning of the run.
 
 If you value your lunar coins or the integrity of your save file in general, I'd recommend creating a new profile to use when playing this pack. However, the risk should be relatively low, as I test pretty thoroughly before releasing, and, worst case, you can always edit your coins using the `give_lunar {number_to_add}` command or edit the save file directly.
 
-Speaking of commands and save files, I've left all of the admin tools I use active for your use if needed. This does leave the door open for cheating, but I think the potential usefulness in cases where glitches or mistakes happen outweighs this. Ultimately, you are in control of your own fun anways. See the [DebugToolkit commands list](https://thunderstore.io/package/Harb/DebugToolkit/#commands) and the admin keybindings below for more information. To use a command, press `F5` to bring up the console and then type the command in there. If you are copying the command from a Thunderstore page, make sure to ignore curly braces `{}` and replace them with the desired variable (e.g. `give_lunar {number_to_add}` becomes `give_lunar -5` to subtract 5 lunar coins). For information on how to edit your save file directly, please visit the [Discord](https://discord.gg/QRtdUbV).
+Speaking of commands and save files, I've left all of the admin tools I use active for your use if needed. This does leave the door open for cheating, but I think the potential usefulness in cases where glitches or mistakes happen outweighs this. Ultimately, you are in control of your own fun anyways. See the [DebugToolkit commands list](https://thunderstore.io/package/Harb/DebugToolkit/#commands) and the admin keybindings below for more information. To use a command, press `F5` to bring up the console and then type the command in there. If you are copying the command from a Thunderstore page, make sure to ignore curly braces `{}` and replace them with the desired variable (e.g. `give_lunar {number_to_add}` becomes `give_lunar -5` to subtract 5 lunar coins). For information on how to edit your save file directly, please visit the [Discord](https://discord.gg/QRtdUbV).
 
 ## Recommended Settings
   - **Gameplay:** `sprint sensitivity reduction` = disabled
@@ -53,22 +38,22 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
     - I personally use this to remove clutter and increase performance. You don't have to do this, but I don't test without it, so your results may vary.
 
 ## New Keybindings
-| Key | Function |
-| --- | -------- |
-| F1 | configure mods |
-| F9 | quicksave |
-| F10 | quickload |
-| X | reset DPS meter |
+| Key      | Function                      |
+| -------- | ----------------------------- |
+| F1       | configure mods                |
+| F9       | quicksave                     |
+| F10      | quickload                     |
+| X        | reset DPS meter               |
 | "sprint" | walk/cancel channeled ability |
 
 ## Admin Keybindings
-| Key | Function |
-| --- | -------- |
-| F2 | macro: god, noclip |
-| F3 | macro: no_enemies, kill_all |
-| F5 | open console |
-| F6 | reload RPGMod config |
-| F8 | give players a starter pack |
+| Key | Function                        |
+| --- | ------------------------------- |
+| F2  | macro: `god`, `noclip`          |
+| F3  | macro: `no_enemies`, `kill_all` |
+| F5  | open console                    |
+| F6  | reload RPGMod config            |
+| F7  | give players a starter pack     |
 
 ## Basic Changes
 ### [BakedLanguageEdits](https://thunderstore.io/package/blazingdrummer/BakedLanguageEdits/)
@@ -112,7 +97,7 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
 
   - In multiplayer, you no longer pick up items by moving through them; You must press `Interact` (default E)
 
-There are dozens of other changes made to the game and addtional content, including characters and items, that are not mentioned in this brief overview. As previously mentioned, they should all be discoverable and learnable just by playing the game, but if you would like a full spoiler-heavy rundown of all of the changes made, you can find it in the User's Guide found in the `#links` section of the [Discord](https://discord.gg/QRtdUbV).
+There are dozens of other changes made to the game and additional content, including characters and items, that are not mentioned in this brief overview. As previously mentioned, they should all be discoverable and learnable just by playing the game, but if you would like a full spoiler-heavy rundown of all of the changes made, you can find it in the [User's Guide](https://github.com/blazingdrummer/BakedModpack/wiki/User's-Guide).
 
 # Known Issues
 Many of these issues are marked in-game with a wrench icon to indicate they are known. Please refer back to this section if you see one.
@@ -146,7 +131,7 @@ Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitte
 **Please don't bug other devs with issues or feedback! I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!**
 
 ## Credits
-I'd like to give a massive shoutout to all of the developers and other members of the RoR2 modding community for all of their help and support so far. This project started in January 2020 and has been immmensely satisfying to work on, so I really hope everyone enjoys it.
+I'd like to give a massive shoutout to all of the developers and other members of the RoR2 modding community for all of their help and support so far. This project started in January 2020 and has been immensely satisfying to work on, so I really hope everyone enjoys it.
 
 In particular, I'd like to thank Ebkr, Moffein, Rein, Magnus, Sipondo & Funkfrog, Mythic, Harb, Fubuki, and Phedg1 for their hard work and graciously both providing and considering input. And, of course, a big thank you to Hopoo Games!
 
@@ -186,27 +171,25 @@ In order to not make this readme any longer than it already is, the pre-release 
   - removed FasterTeleportCharge
     - with the addition of Focused Convergence, waiting for teleporter to charge is less of an issue, and I don't want to make it a useless item
     - I'll be testing and getting feedback on this change for the near future
-  - updated FixedSplitscreen to v0.1.0
-    - [ ] states that it brings back the controller cursors, does this apply when in singleplayer?
   - updated Pingprovements to v1.4.3
     - [x] regenerate and update config
-  - updated ShrineOfDio to v1.3.1
+  - updated ShrineOfDio to v1.3.2
     - [x] regenerate and update config
   - updated RTAutoSprintEx to v1.0.6
     - [x] regenerate and update config
     - [ ] added console command notes to README, including FOV control
-    - [ ] investigate Visions of Heresy animation cancelling
+    - [x] investigate Visions of Heresy animation cancelling
   - updated DiluvianDifficulty to v1.0.4
   - updated ShareSuite to v1.15.1
     - [x] regenerate and update config
     - added player scale-back support for the Void Fields
   - [ ] README: changed update instructions for new r2modman support
-  - updated BiggerBazaar to v1.9.2
+  - updated BiggerBazaar to v1.9.3
     - [x] regenerate and update config
     - increased price of chests from 1, 2, 3 -> 1, 3, 5
   - updated TemporaryLunarCoins to v0.2.0
   - removed No_Scrap_Launcher_Falloff; replaced by vanilla functionality
-  - updated InfusionStackFix to v5.0.1
+  - updated InfusionStackFix to v5.0.2
     - [x] regenerate and update config, check new README?
     - [x] re-order in list
   - [x] adjusted AI item blacklist to be more threatening and to account for new items
@@ -221,36 +204,44 @@ In order to not make this readme any longer than it already is, the pre-release 
   - [x] adjusted HarbTweaks for vanilla changes
     - disabled First Stage Spawns; replaced by vanilla functionality
     - disabled Shorter Medkits; vanilla changes make this too strong
-  - updated StartingItemsGUI to v1.1.0
+  - [x] updated HarbTweaks to v1.2.2
+    - [x] regenerate config
+  - updated StartingItemsGUI to v1.1.1
     - README: removed **Transferring Credits** section due to new r2modman update functionality
     - now compatible with DiluvianDifficulty
     - increased scrolling speed of the menu
+  - [x] updated DebugToolkit to v3.3.0
 
-  - temporarily removed AlternativeArtificer
+  - removed AlternativeArtificer
     - waiting on compatibility update
-  - temporarily removed VanillaTweaks
+  - removed SavedGames
     - waiting on compatibility update
-  - temporarily removed SavedGames
+  - removed GeneralFixes
     - waiting on compatibility update
-  - temporarily removed GeneralFixes
+  - removed MakeMonsterToothGreatAgain
     - waiting on compatibility update
-  - temporarily removed MakeMonsterToothGreatAgain
-    - waiting on compatibility update
-  - temporarily removed Void_Reaver
+  - removed Void_Reaver
     - waiting on bugfixes
     - M2 has no proc coefficient like vanilla Void Reavers
-  - temporarily removed LunarCoinShareOnPickup
+  - removed LunarCoinShareOnPickup
     - won't allow you to pickup lunar coins
-  - temporarily removed FixedSplitscreen
-    - causes menu interaction problems
-    - [ ] edit changelog to reflect this
+    - waiting on bugfix
+  - removed FixedSplitscreen
+    - menu is slightly buggy now, but usable
+    - can still be installed separately
+    - [x] edit changelog to reflect this
+  - removed VanillaTweaks
   - removed PlayableSora
   - removed PlayableAkali
 
-known bugs:
-  - need new version of debugtoolkit; using bleeding-edge (local version v1.1.1)
-    - remove macros temporarily
-  - InfusionStackFix currently causes problems w/ `kill_all`
-
 TODO: add printer to Bazaar?
 TODO: remove EngiShieldNotification? might not be needed with vanilla changes, test
+
+TODO: convert User's Guide to GitHub wiki
+TODO: convert relevant notes to markdown for easier formatting
+TODO: remove access to mod list/PvP list in exchange for the new wiki
+TODO: add Discord bot for role management
+TODO: talk to Mythic about front page sorting on Thunderstore
+TODO: remove VanillaTweaks and adjust BakedLanguageEdits accordingly
+TODO: add SolidIceWall and a replacement for autopickup behavior
+TODO: write up a description for Wispy and send to Rein
