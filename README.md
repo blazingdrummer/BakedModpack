@@ -162,7 +162,7 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated AcridPoisonBuffs to v0.3.0
   - README: added a notice for dealing with potential update issues until r2modman adds modpack support
 
-`v2.0.1`
+`v2.0.2`
 
   - removed NetLib
     - as per Rein's request; waiting for it to become more stable
@@ -240,7 +240,6 @@ TODO: remove EngiShieldNotification? might not be needed with vanilla changes, t
 TODO: convert User's Guide to GitHub wiki
 TODO: convert relevant notes to markdown for easier formatting
 TODO: remove access to mod list/PvP list in exchange for the new wiki
-TODO: add Discord bot for role management
 TODO: talk to Mythic about front page sorting on Thunderstore
 TODO: remove VanillaTweaks and adjust BakedLanguageEdits accordingly
 TODO: add SolidIceWall and a replacement for autopickup behavior
