@@ -100,17 +100,17 @@
   loaders: []
   dependencies:
     - wildbook-MiniRpcLib-0.0.1
-    - tristanmcpherson-R2API-2.4.2
-    - bbepis-BepInExPack-3.1.0
+    - tristanmcpherson-R2API-2.4.10
+    - bbepis-BepInExPack-3.2.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 2
-    patch: 2
-  enabled: false
+    minor: 3
+    patch: 0
+  enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DebugToolkit\3.2.2\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DebugToolkit\3.3.0\icon.png
 - manifestVersion: 1
   name: kristiansja-KeyBindForConsole
   authorName: kristiansja
@@ -237,17 +237,17 @@
   installMode: managed
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-3.0.0
-    - tristanmcpherson-R2API-2.3.22
+    - bbepis-BepInExPack-3.2.0
+    - tristanmcpherson-R2API-2.4.10
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 2
-    patch: 0
+    patch: 2
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-HarbTweaks\1.2.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-HarbTweaks\1.2.2\icon.png
 - manifestVersion: 1
   name: kookehs-StatsDisplay
   authorName: kookehs
@@ -293,30 +293,6 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\gog909-OrderedItems\2.1.0\icon.png
 - manifestVersion: 1
-  name: xiaoxiao921-FixedSplitscreen
-  authorName: xiaoxiao921
-  websiteUrl: https://thunderstore.io/package/xiaoxiao921/FixedSplitscreen/
-  displayName: FixedSplitscreen
-  description: A mod that fixes most issues with the current implementation of the
-    Splitscreen Mode
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.10
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 1
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\xiaoxiao921-FixedSplitscreen\0.1.0\icon.png
-- manifestVersion: 1
   name: pixeldesu-Pingprovements
   authorName: pixeldesu
   websiteUrl: https://thunderstore.io/package/pixeldesu/Pingprovements/
@@ -359,35 +335,10 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-ShrineOfDio\1.3.1\icon.png
-- manifestVersion: 1
-  name: dan8991iel-LunarCoinShareOnPickup
-  authorName: dan8991iel
-  websiteUrl: https://thunderstore.io/package/dan8991iel/LunarCoinShareOnPickup/
-  displayName: LunarCoinShareOnPickup
-  description: When one player in the lobby picks up a lunar coin, each player in the lobby
-    will receive one. No more hate and envy against the person who grabs them
-    the quickest. Change Lunar Coin shared and unshared amount via config.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.2.32
-    - bbepis-BepInExPack-2.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 3
-    minor: 5
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\dan8991iel-LunarCoinShareOnPickup\3.5.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-ShrineOfDio\1.3.2\icon.png
 - manifestVersion: 1
   name: JohnEdwa-RTAutoSprintEx
   authorName: JohnEdwa
@@ -557,8 +508,8 @@
   authorName: JackPendarvesRead
   websiteUrl: https://thunderstore.io/package/JackPendarvesRead/InfusionStackFix/
   displayName: InfusionStackFix
-  description: Infusions give you 1hp/kill/stack. E.g. 5 infusions gives you 5hp per kill.
-    Can also configure maximum value (legacy infusion)
+  description: Adds extra configuration to Infusion. Extra interaction with Engineer
+    turrets, configurable maximum values, etc.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -572,33 +523,10 @@
   versionNumber:
     major: 5
     minor: 0
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JackPendarvesRead-InfusionStackFix\5.0.1\icon.png
-- manifestVersion: 1
-  name: SirSquiddle-MakeMonsterToothGreatAgain
-  authorName: SirSquiddle
-  websiteUrl: https://thunderstore.io/package/SirSquiddle/MakeMonsterToothGreatAgain/
-  displayName: MakeMonsterToothGreatAgain
-  description: Turns Monster Tooth into an actual useful item.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.3.22
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 1
-    patch: 1
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\SirSquiddle-MakeMonsterToothGreatAgain\2.1.1\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JackPendarvesRead-InfusionStackFix\5.0.2\icon.png
 - manifestVersion: 1
   name: TheRealElysium-WaxQuailMultiJump
   authorName: TheRealElysium
@@ -762,30 +690,6 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-AllyPing\1.0.0\icon.png
 - manifestVersion: 1
-  name: Rein-AlternativeArtificer
-  authorName: Rein
-  websiteUrl: https://thunderstore.io/package/Rein/AlternativeArtificer/
-  displayName: AlternativeArtificer
-  description: Adds a selectable new 3-part passive to Artificer along with a reworked Ion
-    Surge, a totally new skin (not just recolors), and minor changes to NanoBomb
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.0.0
-    - tristanmcpherson-R2API-2.3.22
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 5
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-AlternativeArtificer\1.0.5\icon.png
-- manifestVersion: 1
   name: Unordinal-AI_Blacklister
   authorName: Unordinal
   websiteUrl: https://thunderstore.io/package/Unordinal/AI_Blacklister/
@@ -855,53 +759,6 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\hlista-SimpleRoll\1.0.0\icon.png
 - manifestVersion: 1
-  name: Kazzababe-SavedGames
-  authorName: Kazzababe
-  websiteUrl: https://thunderstore.io/package/Kazzababe/SavedGames/
-  displayName: SavedGames
-  description: Saves your current run
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.3.7
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 3
-    patch: 4
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Kazzababe-SavedGames\2.3.4\icon.png
-- manifestVersion: 1
-  name: Rein-GeneralFixes
-  authorName: Rein
-  websiteUrl: https://thunderstore.io/package/Rein/GeneralFixes/
-  displayName: GeneralFixes
-  description: Fixes various bugs in game. Also contains some QOL, and a balance pass
-    (Including gesture, glass, and corpsebloom fixes)
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.0.0
-    - tristanmcpherson-R2API-2.3.22
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 2
-    patch: 1
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-GeneralFixes\2.2.1\icon.png
-- manifestVersion: 1
   name: Rein-ArchaicWisps
   authorName: Rein
   websiteUrl: https://thunderstore.io/package/Rein/ArchaicWisps/
@@ -967,10 +824,10 @@
   versionNumber:
     major: 1
     minor: 9
-    patch: 2
+    patch: 3
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-BiggerBazaar\1.9.2\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-BiggerBazaar\1.9.3\icon.png
 - manifestVersion: 1
   name: MagnusMagnuson-TemporaryLunarCoins
   authorName: MagnusMagnuson
@@ -994,52 +851,6 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-TemporaryLunarCoins\0.2.0\icon.png
-- manifestVersion: 1
-  name: RyanPallesen-VanillaTweaks
-  authorName: RyanPallesen
-  websiteUrl: https://thunderstore.io/package/RyanPallesen/VanillaTweaks/
-  displayName: VanillaTweaks
-  description: Fixes and expands upon many things in a vanilla fashion.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.0.0
-    - tristanmcpherson-R2API-2.3.7
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\RyanPallesen-VanillaTweaks\1.2.0\icon.png
-- manifestVersion: 1
-  name: Moffein-AcridM1Heal
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/AcridM1Heal/
-  displayName: AcridM1Heal
-  description: Makes Acrid's M1 heal when attacking poisoned enemies.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.3.5
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-AcridM1Heal\1.0.0\icon.png
 - manifestVersion: 1
   name: Jimmy-AcridPoisonBuffs
   authorName: Jimmy
@@ -1085,10 +896,10 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 0
+    patch: 2
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-StartingItemsGUI\1.1.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-StartingItemsGUI\1.1.2\icon.png
 - manifestVersion: 1
   name: xiaoxiao921-DPSMeter
   authorName: xiaoxiao921
@@ -1138,6 +949,100 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\xiaoxiao921-Rampage\1.1.4\icon.png
+- manifestVersion: 1
+  name: Legendsmith-SolidIceWall
+  authorName: Legendsmith
+  websiteUrl: https://thunderstore.io/package/Legendsmith/SolidIceWall/
+  displayName: SolidIceWall
+  description: Makes Artificer Ice Wall Solid
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.0.5
+    - bbepis-BepInExPack-2.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Legendsmith-SolidIceWall\1.1.0\icon.png
+- manifestVersion: 1
+  name: NotTsunami-ShowDeathCause
+  authorName: NotTsunami
+  websiteUrl: https://thunderstore.io/package/NotTsunami/ShowDeathCause/
+  displayName: ShowDeathCause
+  description: A Risk of Rain 2 mod that tells you and your friends how you were killed in
+    chat.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.2.0
+    - tristanmcpherson-R2API-2.4.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\NotTsunami-ShowDeathCause\1.0.2\icon.png
+- manifestVersion: 1
+  name: MagnusMagnuson-BazaarPrinter
+  authorName: MagnusMagnuson
+  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/BazaarPrinter/
+  displayName: BazaarPrinter
+  description: Adds 3D Printers to the Bazaar (configurable)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.4.2
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-BazaarPrinter\0.2.0\icon.png
+- manifestVersion: 1
+  name: SushiDev-DropinMultiplayer
+  authorName: SushiDev
+  websiteUrl: https://thunderstore.io/package/SushiDev/DropinMultiplayer/
+  displayName: DropinMultiplayer
+  description: Drop in and out of multiplayer with your friends. Automatically adds items
+    to help you catch up. Now updated for the new patch with new config options!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.4.10
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 5
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\SushiDev-DropinMultiplayer\1.1.5\icon.png
 - manifestVersion: 1
   name: Rein-RogueWisp
   authorName: Rein
@@ -1211,53 +1116,29 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\DevinWeaver-TheSurgeon\1.4.1\icon.png
 - manifestVersion: 1
-  name: Matarra-PlayableSora
-  authorName: Matarra
-  websiteUrl: https://thunderstore.io/package/Matarra/PlayableSora/
-  displayName: PlayableSora
-  description: Play as final form sora!
+  name: Rein-AlternativeArtificer
+  authorName: Rein
+  websiteUrl: https://thunderstore.io/package/Rein/AlternativeArtificer/
+  displayName: AlternativeArtificer
+  description: Adds a selectable new 3-part passive to Artificer along with a reworked Ion
+    Surge, a totally new skin (not just recolors), and minor changes to NanoBomb
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - wildbook-MiniRpcLib-0.0.1
-    - tristanmcpherson-R2API-2.3.22
     - bbepis-BepInExPack-3.0.0
+    - tristanmcpherson-R2API-2.3.22
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 6
+    patch: 5
   enabled: false
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Matarra-PlayableSora\1.0.6\icon.png
-- manifestVersion: 1
-  name: Matarra-PlayableAkali
-  authorName: Matarra
-  websiteUrl: https://thunderstore.io/package/Matarra/PlayableAkali/
-  displayName: PlayableAkali
-  description: Play as Akali from League of Legends!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - wildbook-MiniRpcLib-0.0.1
-    - tristanmcpherson-R2API-2.3.22
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 2
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Matarra-PlayableAkali\1.0.2\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-AlternativeArtificer\1.0.5\icon.png
 - manifestVersion: 1
   name: LuaFubuki-Void_Reaver
   authorName: LuaFubuki

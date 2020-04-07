@@ -63,7 +63,7 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
 ### [RTAutoSprintEx](https://thunderstore.io/package/JohnEdwa/RTAutoSprintEx/)
   - your character will automatically sprint whenever the base game would normally allow you to sprint
   - inverts the "sprint button" behavior; the "sprint button" is now a "walk button" which also cancels some channeled abilities, like Artificer's flamethrower
-  - stops the FOV from changing, eliminates the speedlines, and gets rid of the chevron crosshair when sprinting (adjustable in config)
+  - stops the FOV from changing, eliminates the speedlines, and gets rid of the chevron crosshair when sprinting
 ### [Pingprovements](https://thunderstore.io/package/pixeldesu/Pingprovements/)
   - there is no longer any limit to how many pings you can have active at once
   - ping duration now depends on type: interactable pings last a long time, allowing you to ping things like chests or the teleporter that you want to return to later; this also applies to items on the ground, so you can leave them for a teammate
@@ -92,10 +92,6 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
 **Multiplayer-Only**
 
   - Unlocks the multiplayer lobby size (default max = 16, adjustable in config)
-### [VanillaTweaks](https://thunderstore.io/package/RyanPallesen/VanillaTweaks/)
-**Multiplayer-Only**
-
-  - In multiplayer, you no longer pick up items by moving through them; You must press `Interact` (default E)
 
 There are dozens of other changes made to the game and additional content, including characters and items, that are not mentioned in this brief overview. As previously mentioned, they should all be discoverable and learnable just by playing the game, but if you would like a full spoiler-heavy rundown of all of the changes made, you can find it in the [User's Guide](https://github.com/blazingdrummer/BakedModpack/wiki/User's-Guide).
 
@@ -112,7 +108,6 @@ Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 
     - Because this challenge requires at minimum 10 lunar coins to complete, it is uniquely difficult in this modpack, because you'd need to achieve it in one run. Lunar coins' drop chance also decreases for that run every time one drops, making this challenge potentially nearly impossible. Your options are: disable the TemporaryLunarCoins mod in r2modman and play normally until you complete this challenge, use the `give_lunar 10` command to gain the necessary coins, or modify your save file. For information on how to edit your save file directly, please visit the [Discord](https://discord.gg/QRtdUbV).
 
 ### Known Bugs/Problems
-  - spectral circlet has no texture and is invisible, making it nearly impossible to pick up if you didn't see it drop
   - loading into the Bazaar using a game save causes the BiggerBazaar chests to not spawn
     - simply don't save your game in the Bazaar or do your shopping beforehand
   - (not really a bug?) going to the next stage toggles `noclip` off and takes focus away from the console
@@ -122,7 +117,7 @@ Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 
     - try picking up `{# of items}/{# of party members}` items
   - the red item cauldron in the Bazaar gives the player a red item directly into their inventory, but also drops one on the ground, resulting in duplication
     - simply don't pick up this item; in the case that you accidentally do and want to remove it, simply use the command `remove_item {item_name} 1`
-  - when playing as Void Reaver as the client, you must use the alternate `Client Reave` ability available in his loadout for his special to function properly, albeit without the fancy effects
+  - prices for the BiggerBazaar chests show up as money and not lunar coins when playing as client; the values are still accurate
 
 For a more up-to-date list, check the `#known-issues` channel on the [Discord](https://discord.gg/QRtdUbV).
 
@@ -183,7 +178,7 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated ShareSuite to v1.15.1
     - [x] regenerate and update config
     - added player scale-back support for the Void Fields
-  - [ ] README: changed update instructions for new r2modman support
+  - [x] README: changed update instructions for new r2modman support
   - updated BiggerBazaar to v1.9.3
     - [x] regenerate and update config
     - increased price of chests from 1, 2, 3 -> 1, 3, 5
@@ -200,7 +195,6 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated BanditReloaded to v1.0.2
     - [x] regenerate and update config
   - updated TheSurgeon to v1.4.1
-  - updated Void_Reaver to v0.1.1
   - [x] adjusted HarbTweaks for vanilla changes
     - disabled First Stage Spawns; replaced by vanilla functionality
     - disabled Shorter Medkits; vanilla changes make this too strong
@@ -214,33 +208,34 @@ In order to not make this readme any longer than it already is, the pre-release 
 
   - removed AlternativeArtificer
     - waiting on compatibility update
-  - removed SavedGames
-    - waiting on compatibility update
   - removed GeneralFixes
-    - waiting on compatibility update
-  - removed MakeMonsterToothGreatAgain
     - waiting on compatibility update
   - removed Void_Reaver
     - waiting on bugfixes
     - M2 has no proc coefficient like vanilla Void Reavers
   - removed LunarCoinShareOnPickup
     - won't allow you to pickup lunar coins
-    - waiting on bugfix
   - removed FixedSplitscreen
     - menu is slightly buggy now, but usable
     - can still be installed separately
     - [x] edit changelog to reflect this
+  - removed SavedGames
+    - waiting on compatibility update
+    - still think it caused lunar drop rate to reset; no proof of this
   - removed VanillaTweaks
   - removed PlayableSora
   - removed PlayableAkali
+  - removed MakeMonsterToothGreatAgain
+  - removed AcridM1Heal
 
-TODO: add printer to Bazaar?
-TODO: remove EngiShieldNotification? might not be needed with vanilla changes, test
+  - added SolidIceWall v1.1.0
+  - added ShowDeathCause v1.0.2
+  - added BazaarPrinter v0.2.0
 
-TODO: convert User's Guide to GitHub wiki
-TODO: convert relevant notes to markdown for easier formatting
-TODO: remove access to mod list/PvP list in exchange for the new wiki
 TODO: talk to Mythic about front page sorting on Thunderstore
-TODO: remove VanillaTweaks and adjust BakedLanguageEdits accordingly
-TODO: add SolidIceWall and a replacement for autopickup behavior
 TODO: write up a description for Wispy and send to Rein
+
+Drop-In Multiplayer:
+- [ ] test functionality in multiplayer
+- [ ] test if custom characters work, even if the unrestricted version isn't enabled
+- [ ] add section to README and changelog

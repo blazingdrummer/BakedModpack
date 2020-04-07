@@ -1,4 +1,5 @@
-bandit client-side abilities and icons
-bazaar shows $1 instead of lunar coins, doesn't display chance shrine
-reaver ult doesn't take health away
-HAND has doubled values
+bazaar shows $ instead of lunar coins
+reaver ult only removes 25% hp
+health bar doesn't show up on magma worm/doesn't show up after fighting AWU
+overgrown printer duplication bug
+red item cauldron duplication bug
