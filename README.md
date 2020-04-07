@@ -232,6 +232,10 @@ In order to not make this readme any longer than it already is, the pre-release 
   - added ShowDeathCause v1.0.2
   - added BazaarPrinter v0.2.0
 
+#### CURRENT BETA FILES:
+  - RogueWisp
+  - GeneralFixes
+
 TODO: talk to Mythic about front page sorting on Thunderstore
 TODO: write up a description for Wispy and send to Rein
 
