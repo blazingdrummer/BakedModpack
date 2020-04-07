@@ -157,7 +157,7 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated AcridPoisonBuffs to v0.3.0
   - README: added a notice for dealing with potential update issues until r2modman adds modpack support
 
-`v2.0.2`
+`v2.0.3`
 
   - removed NetLib
     - as per Rein's request; waiting for it to become more stable
