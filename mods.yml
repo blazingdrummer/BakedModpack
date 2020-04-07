@@ -1020,30 +1020,6 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-BazaarPrinter\0.2.0\icon.png
 - manifestVersion: 1
-  name: SushiDev-DropinMultiplayer
-  authorName: SushiDev
-  websiteUrl: https://thunderstore.io/package/SushiDev/DropinMultiplayer/
-  displayName: DropinMultiplayer
-  description: Drop in and out of multiplayer with your friends. Automatically adds items
-    to help you catch up. Now updated for the new patch with new config options!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.10
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 5
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\SushiDev-DropinMultiplayer\1.1.5\icon.png
-- manifestVersion: 1
   name: Rein-RogueWisp
   authorName: Rein
   websiteUrl: https://thunderstore.io/package/Rein/RogueWisp/

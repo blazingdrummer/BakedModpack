@@ -240,6 +240,5 @@ TODO: talk to Mythic about front page sorting on Thunderstore
 TODO: write up a description for Wispy and send to Rein
 
 Drop-In Multiplayer:
-- [ ] test functionality in multiplayer
-- [ ] test if custom characters work, even if the unrestricted version isn't enabled
-- [ ] add section to README and changelog
+- test functionality in multiplayer
+  - causes a game-breaking issue w/ TLC, removing from beta
