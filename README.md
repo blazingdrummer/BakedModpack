@@ -159,61 +159,48 @@ In order to not make this readme any longer than it already is, the pre-release 
 
 `v2.0.3`
 
-  - removed NetLib
-    - as per Rein's request; waiting for it to become more stable
   - updated BepInEx to v3.2.0
   - updated R2API to v2.4.10
-  - removed FasterTeleportCharge
-    - with the addition of Focused Convergence, waiting for teleporter to charge is less of an issue, and I don't want to make it a useless item
-    - I'll be testing and getting feedback on this change for the near future
   - updated Pingprovements to v1.5.1
     - [ ] regenerate and update config
   - updated ShrineOfDio to v1.3.2
-    - [x] regenerate and update config
   - updated RTAutoSprintEx to v1.0.6
-    - [x] regenerate and update config
     - [ ] added console command notes to README, including FOV control
-    - [x] investigate Visions of Heresy animation cancelling
   - updated DiluvianDifficulty to v1.0.4
   - updated ShareSuite to v1.15.1
-    - [x] regenerate and update config
     - added player scale-back support for the Void Fields
-  - [x] README: changed update instructions for new r2modman support
   - updated BiggerBazaar to v1.9.3
-    - [x] regenerate and update config
     - increased price of chests from 1, 2, 3 -> 1, 3, 5
   - updated TemporaryLunarCoins to v0.2.0
   - removed No_Scrap_Launcher_Falloff; replaced by vanilla functionality
   - updated InfusionStackFix to v5.0.2
-    - [x] regenerate and update config, check new README?
-    - [x] re-order in list
-  - [x] adjusted AI item blacklist to be more threatening and to account for new items
+  - adjusted AI item blacklist to be more threatening and to account for new items
     - due to vanilla changes to Capacitor and the new counterplay potential, Capacitor has been enabled
-    - [x] might need to add ceremonial dagger due to vanilla change
   - updated Rampage to v1.1.4
-  - updated RogueWisp to v2.1.3
   - updated BanditReloaded to v1.0.2
-    - [x] regenerate and update config
   - updated TheSurgeon to v1.4.1
-  - [x] adjusted HarbTweaks for vanilla changes
+  - adjusted HarbTweaks for vanilla changes
     - disabled First Stage Spawns; replaced by vanilla functionality
     - disabled Shorter Medkits; vanilla changes make this too strong
-  - [x] updated HarbTweaks to v1.2.2
-    - [x] regenerate config
+  - updated HarbTweaks to v1.2.2
   - updated StartingItemsGUI to v1.1.1
     - README: removed **Transferring Credits** section due to new r2modman update functionality
     - now compatible with DiluvianDifficulty
     - increased scrolling speed of the menu
-  - [x] updated DebugToolkit to v3.3.0
+  - updated DebugToolkit to v3.3.0
   - added SolidIceWall v1.1.0
   - added ShowDeathCause v1.0.2
   - added BazaarPrinter v0.2.0
+  - added LighterPatcher v1.0.0
   - updated Void_Reaver to v0.2.0
   - updated LunarCoinShareOnPickup to v3.6.0
   - updated GeneralFixes to v2.3.0
   - updated RogueWisp to v2.1.4
   - updated AlternativeArtificer to v1.1.0
 
+  - removed FasterTeleportCharge
+    - with the addition of Focused Convergence, waiting for teleporter to charge is less of an issue, and I don't want to make it a useless item
+    - I'll be testing and getting feedback on this change for the near future
   - removed FixedSplitscreen
     - menu is slightly buggy now, but usable
     - can still be installed separately
@@ -221,15 +208,9 @@ In order to not make this readme any longer than it already is, the pre-release 
   - removed SavedGames
     - waiting on compatibility update
     - still think it caused lunar drop rate to reset; no proof of this
+  - removed NetLib
   - removed VanillaTweaks
   - removed PlayableSora
   - removed PlayableAkali
   - removed MakeMonsterToothGreatAgain
   - removed AcridM1Heal
-
-TODO: talk to Mythic about front page sorting on Thunderstore
-TODO: write up a description for Wispy and send to Rein
-
-Drop-In Multiplayer:
-- test functionality in multiplayer
-  - causes a game-breaking issue w/ TLC, removing from beta

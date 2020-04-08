@@ -42,6 +42,29 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.4.10\icon.png
 - manifestVersion: 1
+  name: Harb-LighterPatcher
+  authorName: Harb
+  websiteUrl: https://thunderstore.io/package/Harb/LighterPatcher/
+  displayName: LighterPatcher
+  description: Preloading optimisation for mods.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.4.10
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-LighterPatcher\1.0.0\icon.png
+- manifestVersion: 1
   name: Harb-AssetPlusRequester
   authorName: Harb
   websiteUrl: https://thunderstore.io/package/Harb/AssetPlusRequester/
@@ -1090,7 +1113,8 @@
     minor: 1
     patch: 4
   enabled: true
-  icon: ""
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-RogueWisp\2.1.4\icon.png
 - manifestVersion: 1
   name: Moffein-BanditReloaded
   authorName: Moffein
