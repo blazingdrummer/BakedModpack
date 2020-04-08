@@ -1,0 +1,10 @@
+﻿{
+  "name": "FluffyLabsConfigManagerTools",
+  "version_number": "1.0.1",
+  "website_url": "https://github.com/JackPendarvesRead/FluffyLabsConfigManagerTools/tree/master/FluffyLabsConfigManagerTools",
+  "description": "Tools to help build configuration with Bepinex.ConfigurationManager",
+  "dependencies": [
+    "bbepis-BepInExPack-3.0.0",
+    "JackPendarvesRead-BepinexConfigurationManager-2.0.0"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "StealthySpawn",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/Timmeh42/StealthySpawn",
+    "description": "Tired of getting shotgunned by Elder Lemurians? Now get a short duration cloak effect on spawn!",
+    "dependencies": [
+        "bbepis-BepInExPack-1.3.1"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ArchaicWisps",
+  "version_number": "2.0.1",
+  "website_url": "https://discord.gg/TgaDGNh",
+  "description": "Adds Archaic Wisps to the game.",
+  "dependencies": [
+    "tristanmcpherson-R2API-2.3.22",
+    "bbepis-BepInExPack-3.0.0"
+  ]
+}

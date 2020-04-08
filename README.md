@@ -166,8 +166,8 @@ In order to not make this readme any longer than it already is, the pre-release 
   - removed FasterTeleportCharge
     - with the addition of Focused Convergence, waiting for teleporter to charge is less of an issue, and I don't want to make it a useless item
     - I'll be testing and getting feedback on this change for the near future
-  - updated Pingprovements to v1.4.3
-    - [x] regenerate and update config
+  - updated Pingprovements to v1.5.1
+    - [ ] regenerate and update config
   - updated ShrineOfDio to v1.3.2
     - [x] regenerate and update config
   - updated RTAutoSprintEx to v1.0.6
@@ -205,16 +205,15 @@ In order to not make this readme any longer than it already is, the pre-release 
     - now compatible with DiluvianDifficulty
     - increased scrolling speed of the menu
   - [x] updated DebugToolkit to v3.3.0
+  - added SolidIceWall v1.1.0
+  - added ShowDeathCause v1.0.2
+  - added BazaarPrinter v0.2.0
+  - updated Void_Reaver to v0.2.0
+  - updated LunarCoinShareOnPickup to v3.6.0
+  - updated GeneralFixes to v2.3.0
+  - updated RogueWisp to v2.1.4
+  - updated AlternativeArtificer to v1.1.0
 
-  - removed AlternativeArtificer
-    - waiting on compatibility update
-  - removed GeneralFixes
-    - waiting on compatibility update
-  - removed Void_Reaver
-    - waiting on bugfixes
-    - M2 has no proc coefficient like vanilla Void Reavers
-  - removed LunarCoinShareOnPickup
-    - won't allow you to pickup lunar coins
   - removed FixedSplitscreen
     - menu is slightly buggy now, but usable
     - can still be installed separately
@@ -227,14 +226,6 @@ In order to not make this readme any longer than it already is, the pre-release 
   - removed PlayableAkali
   - removed MakeMonsterToothGreatAgain
   - removed AcridM1Heal
-
-  - added SolidIceWall v1.1.0
-  - added ShowDeathCause v1.0.2
-  - added BazaarPrinter v0.2.0
-
-#### CURRENT BETA FILES:
-  - RogueWisp
-  - GeneralFixes
 
 TODO: talk to Mythic about front page sorting on Thunderstore
 TODO: write up a description for Wispy and send to Rein

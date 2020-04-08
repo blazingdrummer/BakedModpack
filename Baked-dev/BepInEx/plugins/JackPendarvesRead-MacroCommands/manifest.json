@@ -1,0 +1,9 @@
+{
+  "name": "MacroCommands",
+  "version_number": "2.0.0",
+  "website_url": "https://github.com/JackPendarvesRead/RoR2FluffyMods",
+  "description": "Assign keybinds and chain console commands together to give easy access to frequently used commands",
+  "dependencies": [
+    "bbepis-BepInExPack-3.0.0"
+  ]
+}

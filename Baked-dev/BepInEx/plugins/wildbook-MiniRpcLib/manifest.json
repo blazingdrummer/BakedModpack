@@ -1,0 +1,9 @@
+{
+    "name": "MiniRpcLib",
+    "version_number": "0.0.1",
+    "website_url": "https://github.com/wildbook/R2Mods/tree/develop/MiniRpcLib",
+    "description": "This is an alpha/beta library. It works, but there are breaking changes planned. It's released here to allow developers to reference it as a dependency.",
+    "dependencies": [
+        "bbepis-BepInExPack-2.0.0"
+    ]
+}

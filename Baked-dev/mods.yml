@@ -305,16 +305,16 @@
   installMode: managed
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-3.0.0
+    - bbepis-BepInExPack-3.2.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 4
-    patch: 3
+    minor: 5
+    patch: 1
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\pixeldesu-Pingprovements\1.4.3\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\pixeldesu-Pingprovements\1.5.1\icon.png
 - manifestVersion: 1
   name: MagnusMagnuson-ShrineOfDio
   authorName: MagnusMagnuson
@@ -339,6 +339,31 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-ShrineOfDio\1.3.2\icon.png
+- manifestVersion: 1
+  name: dan8991iel-LunarCoinShareOnPickup
+  authorName: dan8991iel
+  websiteUrl: https://thunderstore.io/package/dan8991iel/LunarCoinShareOnPickup/
+  displayName: LunarCoinShareOnPickup
+  description: When one player in the lobby picks up a lunar coin, each player in the lobby
+    will receive one. No more hate and envy against the person who grabs them
+    the quickest. Change Lunar Coin shared and unshared amount via config.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.2.32
+    - bbepis-BepInExPack-2.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 6
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\dan8991iel-LunarCoinShareOnPickup\3.6.0\icon.png
 - manifestVersion: 1
   name: JohnEdwa-RTAutoSprintEx
   authorName: JohnEdwa
@@ -759,6 +784,29 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\hlista-SimpleRoll\1.0.0\icon.png
 - manifestVersion: 1
+  name: Rein-GeneralFixes
+  authorName: Rein
+  websiteUrl: https://thunderstore.io/package/Rein/GeneralFixes/
+  displayName: GeneralFixes
+  description: Fixes various bugs in game. Also contains some QOL, and a balance pass
+    (Including gesture, glass, and corpsebloom fixes)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.1.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-GeneralFixes\2.3.0\icon.png
+- manifestVersion: 1
   name: Rein-ArchaicWisps
   authorName: Rein
   websiteUrl: https://thunderstore.io/package/Rein/ArchaicWisps/
@@ -1040,10 +1088,9 @@
   versionNumber:
     major: 2
     minor: 1
-    patch: 3
+    patch: 4
   enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-RogueWisp\2.1.3\icon.png
+  icon: ""
 - manifestVersion: 1
   name: Moffein-BanditReloaded
   authorName: Moffein
@@ -1097,24 +1144,24 @@
   websiteUrl: https://thunderstore.io/package/Rein/AlternativeArtificer/
   displayName: AlternativeArtificer
   description: Adds a selectable new 3-part passive to Artificer along with a reworked Ion
-    Surge, a totally new skin (not just recolors), and minor changes to NanoBomb
+    Surge and minor changes to NanoBomb
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-3.0.0
-    - tristanmcpherson-R2API-2.3.22
+    - bbepis-BepInExPack-3.1.0
+    - tristanmcpherson-R2API-2.4.10
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 5
-  enabled: false
+    minor: 1
+    patch: 0
+  enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-AlternativeArtificer\1.0.5\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-AlternativeArtificer\1.1.0\icon.png
 - manifestVersion: 1
   name: LuaFubuki-Void_Reaver
   authorName: LuaFubuki
@@ -1128,13 +1175,13 @@
   loaders: []
   dependencies:
     - bbepis-BepInExPack-3.2.0
-    - tristanmcpherson-R2API-2.4.2
+    - tristanmcpherson-R2API-2.4.10
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 1
-    patch: 1
-  enabled: false
+    minor: 2
+    patch: 0
+  enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Void_Reaver\0.1.1\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Void_Reaver\0.2.0\icon.png

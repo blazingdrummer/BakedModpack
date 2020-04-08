@@ -1,0 +1,10 @@
+{
+    "name": "ShowDeathCause",
+    "version_number": "1.0.2",
+    "website_url": "https://github.com/NotTsunami/ShowDeathCause",
+    "description": "A Risk of Rain 2 mod that tells you and your friends how you were killed in chat.",
+    "dependencies": [
+        "tristanmcpherson-R2API-2.4.10",
+        "bbepis-BepInExPack-3.2.0"
+    ]
+}

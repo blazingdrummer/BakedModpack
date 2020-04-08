@@ -1,0 +1,10 @@
+{
+    "name": "ScalingBloodShrines",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/TheRealElysium/R2Mods/tree/master/ScalingBloodShrines",
+    "description": "Makes Blood Shrines viable into the late game.",
+	"dependencies": [
+		"bbepis-BepInExPack-2.0.0",
+		"tristanmcpherson-R2API-2.2.32"
+	]
+}

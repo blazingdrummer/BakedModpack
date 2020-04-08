@@ -1,0 +1,10 @@
+{
+  "name": "InfusionStackFix",
+  "version_number": "5.0.2",
+  "website_url": "https://github.com/JackPendarvesRead/RoR2FluffyMods/tree/master/InfusionStackFix",
+  "description": "Adds extra configuration to Infusion. Extra interaction with Engineer turrets, configurable maximum values, etc.",
+  "dependencies": [
+    "bbepis-BepInExPack-3.2.0",
+    "JackPendarvesRead-FluffyLabsConfigManagerTools-1.0.1"
+  ]
+}

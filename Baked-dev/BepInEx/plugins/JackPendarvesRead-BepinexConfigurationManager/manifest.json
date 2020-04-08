@@ -1,0 +1,9 @@
+{
+  "name": "BepinexConfigurationManager",
+  "version_number": "2.0.0",
+  "website_url": "https://github.com/BepInEx/BepInEx.ConfigurationManager",
+  "description": "An easy way to let user configure how a plugin behaves without the need to make your own GUI. The user can change any of the settings you expose, even keyboard shortcuts.",
+  "dependencies": [
+   "bbepis-BepInExPack-3.0.0"
+  ]
+}

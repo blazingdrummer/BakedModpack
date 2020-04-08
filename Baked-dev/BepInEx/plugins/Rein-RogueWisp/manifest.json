@@ -1,0 +1,9 @@
+{
+  "name": "RogueWisp",
+  "version_number": "2.1.4",
+  "website_url": "https://discord.gg/TgaDGNh",
+  "description": "Includes an entirely original survivor and a new late game boss. The survivor is a close range caster with very high damage potential but no mobility and limited defensive options. The boss is someone you might have missed from RoR1.",
+  "dependencies": [
+    "bbepis-BepInExPack-3.1.0"
+  ]
+}

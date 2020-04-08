@@ -1,0 +1,10 @@
+{
+    "name": "BiggerBazaar",
+    "version_number": "1.9.3",
+    "website_url": "",
+    "description": "Expands the Bazaar with random items that can be bought with money you have left at the end of the stage (now lunar coins, too).",
+    "dependencies": [
+        "bbepis-BepInExPack-3.2.0",
+        "tristanmcpherson-R2API-2.4.2"
+    ]
+}

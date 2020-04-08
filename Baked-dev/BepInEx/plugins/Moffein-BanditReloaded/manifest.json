@@ -1,0 +1,10 @@
+{
+  "name": "BanditReloaded",
+  "version_number": "1.0.2",
+  "website_url": "",
+  "description": "Adds Bandit as a playable survivor with 3 new alt skills and HD skill icons!",
+  "dependencies": [
+    "bbepis-BepInExPack-3.2.0",
+    "tristanmcpherson-R2API-2.4.10"
+  ]
+}

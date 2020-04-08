@@ -1,0 +1,9 @@
+{
+    "name": "StatsDisplay",
+    "version_number": "2.3.0",
+    "website_url": "https://github.com/kookehs/risk-of-raindrops",
+    "description": "Displays character stats on Info Screen.",
+    "dependencies": [
+        "bbepis-BepInExPack-1.3.1"
+    ]
+}

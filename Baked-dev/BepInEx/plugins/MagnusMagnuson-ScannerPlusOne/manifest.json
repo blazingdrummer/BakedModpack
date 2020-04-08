@@ -1,0 +1,10 @@
+{
+    "name": "ScannerPlusOne",
+    "version_number": "2.5.0",
+    "website_url": "",
+    "description": "Radar Scanner replaces question marks with ping icons and info is posted into the chat.",
+    "dependencies": [
+        "bbepis-BepInExPack-3.0.0",
+        "tristanmcpherson-R2API-2.3.5"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "ItemExchangeNotifier",
+    "version_number": "1.3.0",
+    "website_url": "",
+    "description": "Notification for which items you exchange at the 3D Printer/Forge.",
+    "dependencies": [
+        "bbepis-BepInExPack-2.0.0",
+        "tristanmcpherson-R2API-2.0.10"
+    ]
+}

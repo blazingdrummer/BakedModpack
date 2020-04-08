@@ -1,0 +1,10 @@
+{
+    "name": "AllyPing",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/mistername/RiskOfRainModding/tree/master/AllyPing",
+    "description": "Remake of AllyPing, with HJupdaterAPI support",
+    "dependencies": [
+      "bbepis-BepInExPack-3.0.0",
+      "tristanmcpherson-R2API-2.3.7"
+    ]
+}

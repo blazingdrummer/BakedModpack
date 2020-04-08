@@ -1,0 +1,7 @@
+{
+    "name": "WaxQuailMultiJump",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/TheRealElysium/R2Mods/tree/master/WaxQuailMultiJump",
+    "description": "Makes Wax Quail apply to feather jumps.",
+	"dependencies": ["bbepis-BepInExPack-2.0.0"]
+}

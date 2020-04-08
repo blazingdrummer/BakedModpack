@@ -1,0 +1,1 @@
+Makes the Artificer's Ice Wall solid, it can be stand on and will block projectiles.

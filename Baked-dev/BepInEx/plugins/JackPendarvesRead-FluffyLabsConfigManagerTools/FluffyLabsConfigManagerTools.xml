@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FluffyLabsConfigManagerTools</name>
+    </assembly>
+    <members>
+        <member name="T:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes">
+            <summary>
+            Special class that controls how a setting is displayed inside ConfigurationManager.
+            To use, make a new instance, assign any fields that you want to override, and pass it as a setting tag.
+            
+            If a field is null (default), it will be ignored and won't change how the setting is displayed.
+            If a field is non-null (you assigned a value to it), it will override default behavior.
+            </summary>
+            
+            <example> 
+            Here's an example of overriding order of settings and marking one of the settings as advanced:
+            <code>
+            // Override IsAdvanced and Order
+            Config.AddSetting("X", "1", 1, new ConfigDescription("", null, new ConfigurationManagerAttributes { IsAdvanced = true, Order = 3 }));
+            // Override only Order, IsAdvanced stays as the default value assigned by ConfigManager
+            Config.AddSetting("X", "2", 2, new ConfigDescription("", null, new ConfigurationManagerAttributes { Order = 1 }));
+            Config.AddSetting("X", "3", 3, new ConfigDescription("", null, new ConfigurationManagerAttributes { Order = 2 }));
+            </code>
+            </example>
+            
+            <remarks> 
+            You can read more and see examples in the readme at https://github.com/BepInEx/BepInEx.ConfigurationManager
+            You can optionally remove fields that you won't use from this class, it's the same as leaving them null.
+            </remarks>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.ShowRangeAsPercent">
+            <summary>
+            Should the setting be shown as a percentage (only use with value range settings).
+            </summary>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.CustomDrawer">
+            <summary>
+            Custom setting editor (OnGUI code that replaces the default editor provided by ConfigurationManager).
+            See below for a deeper explanation. Using a custom drawer will cause many of the other fields to do nothing.
+            </summary>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.Browsable">
+            <summary>
+            Show this setting in the settings screen at all? If false, don't show.
+            </summary>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.Category">
+            <summary>
+            Category the setting is under. Null to be directly under the plugin.
+            </summary>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.DefaultValue">
+            <summary>
+            If set, a "Default" button will be shown next to the setting to allow resetting to default.
+            </summary>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.HideDefaultButton">
+            <summary>
+            Force the "Reset" button to not be displayed, even if a valid DefaultValue is available. 
+            </summary>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.Description">
+            <summary>
+            Optional description shown when hovering over the setting.
+            Not recommended, provide the description when creating the setting instead.
+            </summary>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.DispName">
+            <summary>
+            Name of the setting.
+            </summary>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.Order">
+            <summary>
+            Order of the setting on the settings list relative to other settings in a category.
+            0 by default, higher number is higher on the list.
+            </summary>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.ReadOnly">
+            <summary>
+            Only show the value, don't allow editing it.
+            </summary>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.IsAdvanced">
+            <summary>
+            If true, don't show the setting by default. User has to turn on showing advanced settings or search for it.
+            </summary>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.ObjToStr">
+            <summary>
+            Custom converter from setting type to string for the built-in editor textboxes.
+            </summary>
+        </member>
+        <member name="F:FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes.StrToObj">
+            <summary>
+            Custom converter from string to setting type for the built-in editor textboxes.
+            </summary>
+        </member>
+        <member name="T:FluffyLabsConfigManagerTools.Util.ButtonUtil">
+            <summary>
+            Class to help add button configurations
+            </summary>
+        </member>
+        <member name="M:FluffyLabsConfigManagerTools.Util.ButtonUtil.#ctor(BepInEx.Configuration.ConfigFile)">
+            <summary>
+            Class to help add button configurations
+            </summary>
+            <param name="config">The ConfigFile which to add ConfigEntry to</param>
+        </member>
+        <member name="M:FluffyLabsConfigManagerTools.Util.ButtonUtil.AddButtonConfig(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Action})">
+            <summary>
+            Add a button configuration
+            </summary>
+            <param name="section">Button config section</param>
+            <param name="key">Button config key</param>
+            <param name="description">Button description</param>
+            <param name="buttonDic">Dictionary of buttons where string=buttonName, Action=buttonLogic</param>
+        </member>
+        <member name="M:FluffyLabsConfigManagerTools.Util.ButtonUtil.AddButtonConfig(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Action},System.Boolean)">
+            <summary>
+            Add a button configuration
+            </summary>
+            <param name="section">Button config section</param>
+            <param name="key">Button config key</param>
+            <param name="description">Button description</param>
+            <param name="buttonDic">Dictionary of buttons where string=buttonName, Action=buttonLogic</param>
+            <param name="showLastPressedString">Set true to show string next to buttons of last button pressed</param>
+        </member>
+        <member name="M:FluffyLabsConfigManagerTools.Util.ButtonUtil.AddButtonConfig(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Action},System.Boolean,FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes)">
+            <summary>
+            Add a button configuration - define your own ConfigurationManagerAttributes
+            </summary>
+            <param name="section">Button config section</param>
+            <param name="key">Button config key</param>
+            <param name="description">Button description</param>
+            <param name="buttonDic">Dictionary of buttons where string=buttonName, Action=buttonLogic</param>
+            <param name="showLastPressedString">Set true to show string next to buttons of last button pressed</param>
+            <param name="attributes">Define your own custom attributes</param>
+        </member>
+        <member name="T:FluffyLabsConfigManagerTools.Util.ConditionalUtil">
+            <summary>
+            Class to add conditional configurations
+            </summary>
+        </member>
+        <member name="M:FluffyLabsConfigManagerTools.Util.ConditionalUtil.#ctor(BepInEx.Configuration.ConfigFile)">
+            <summary>
+            Class to add conditional configurations
+            </summary>
+            <param name="config">The ConfigFile which to add ConfigEntry to</param>
+        </member>
+        <member name="M:FluffyLabsConfigManagerTools.Util.ConditionalUtil.AddConditionalConfig``1(System.String,System.String,``0,System.Boolean,BepInEx.Configuration.ConfigDescription)">
+            <summary>
+            Class to add conditional configurations
+            </summary>
+            <typeparam name="T">Conditional type</typeparam>
+            <param name="section">Conditional config section</param>
+            <param name="key">Conditional config key</param>
+            <param name="defaultValue">Default value of conditional type</param>
+            <param name="defaultCondition">Default condition</param>
+            <param name="description">Description of conditional config</param>
+            <returns>ConfigEntry</returns>
+        </member>
+        <member name="T:FluffyLabsConfigManagerTools.Util.MacroUtil">
+            <summary>
+            Set up a MacroConfigEntry specifically designed to be used for macro configurations
+            </summary>
+        </member>
+        <member name="M:FluffyLabsConfigManagerTools.Util.MacroUtil.#ctor(BepInEx.Configuration.ConfigFile)">
+            <summary>
+            Set up a MacroConfigEntry specifically designed to be used for macro configurations
+            </summary>
+            <param name="config">The ConfigFile which to add ConfigEntry to</param>
+        </member>
+        <member name="M:FluffyLabsConfigManagerTools.Util.MacroUtil.AddMacroConfig(System.String,System.String,System.String)">
+            <summary>
+            Set up a MacroConfigEntry specifically designed to be used for macro configurations
+            </summary>
+            <param name="section">MacroConfigEntry section</param>
+            <param name="key">MacroConfigEntry key</param>
+            <param name="description">MacroConfigEntry description</param>
+            <returns>MacroConfigEntry</returns>
+        </member>
+        <member name="M:FluffyLabsConfigManagerTools.Util.MacroUtil.AddMacroConfig(System.String,System.String,System.String,FluffyLabsConfigManagerTools.Infrastructure.ConfigurationManagerAttributes)">
+            <summary>
+            Set up a MacroConfigEntry specifically designed to be used for macro configurations
+            </summary>
+            <param name="section">MacroConfigEntry section</param>
+            <param name="key">MacroConfigEntry key</param>
+            <param name="description">MacroConfigEntry description</param>
+            <param name="isAdvanced">true if setting is advanced</param>
+            <returns>MacroConfigEntry</returns>
+        </member>
+    </members>
+</doc>

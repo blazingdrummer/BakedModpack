@@ -1,0 +1,10 @@
+{
+    "name": "TemporaryLunarCoins",
+    "version_number": "0.2.0",
+    "website_url": "https://github.com/MagnusMagnuson/RoR2Mods/tree/master/TemporaryLunarCoins",
+    "description": "Makes Lunar Coins reset every run with options for drop chance.",
+    "dependencies": [
+        "bbepis-BepInExPack-3.2.0",
+        "tristanmcpherson-R2API-2.4.2"
+    ]
+}

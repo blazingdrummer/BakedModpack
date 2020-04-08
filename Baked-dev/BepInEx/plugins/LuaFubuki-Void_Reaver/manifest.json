@@ -1,0 +1,10 @@
+{
+    "name": "Void_Reaver",
+    "version_number": "0.2.0",
+    "website_url": "",
+    "description": "Adds a playable Void Reaver with customized abilities to RoR2.",
+    "dependencies": [
+    "tristanmcpherson-R2API-2.4.10",
+    "bbepis-BepInExPack-3.2.0"
+    ]
+}

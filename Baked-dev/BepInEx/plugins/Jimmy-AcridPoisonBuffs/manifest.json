@@ -1,0 +1,9 @@
+{
+  "name": "AcridPoisonBuffs",
+  "version_number": "0.3.0",
+  "website_url": "",
+  "description": "Adds configurable proc coefficient and critical strike chance to Acrid's poison.",
+  "dependencies": [
+    "bbepis-BepInExPack-3.0.0"
+  ]
+}
