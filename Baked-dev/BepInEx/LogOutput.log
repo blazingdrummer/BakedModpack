@@ -59,7 +59,7 @@
 [Info   : Preloader] Collecting methods from: ScalingBloodShrines
 [Info   : Preloader] Collecting methods from: WaxQuailMultiJump
 [Info   : Preloader] Collecting methods from: StealthySpawn
-[Info   : Preloader] Lighter MMHOOK found!(hash:-7978491316)
+[Info   : Preloader] Vanilla MMHOOK found!
 [Info   : Preloader] Collecting methods from: R2API
 [Info   : Preloader] Collecting methods from: AIBlacklister
 [Info   : Preloader] Collecting methods from: MiniRpcLib
@@ -67,7 +67,7 @@
 [Info   : Preloader] Collecting methods from: Rampage
 [Message: Preloader] Found 39 mods with a MMHook dependency.
 [Info   : Preloader] Number of neededtypes for hooks : 224
-[Info   : Preloader] LighterhHook has already run for these mods. Using that old file again.
+[Info   : Preloader] Stripping types. This may take a while.
 [Message: Preloader] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
@@ -201,7 +201,10 @@
 [Info   : Unity Log] Initializing system: RunArtifactManager
 [Info   : Unity Log] Initializing system: ItemCatalog
 [Info   :     R2API] Custom Item: Bisco's Leash added
+[Warning:AI Blacklister] SquidTurret is not a valid ItemIndex.
 [Info   :AI Blacklister] Added item 'ShockNearby' to AI blacklist.
+[Info   :AI Blacklister] Removed item 'Squid' from AI blacklist.
+[Info   :AI Blacklister] Removed item 'FocusConvergence' from AI blacklist.
 [Info   : Unity Log] Initializing system: MasterCatalog
 [Info   : Unity Log] Initializing system: PickupCatalog
 [Info   : Unity Log] Initializing system: PickupTransmutationManager
@@ -270,20 +273,3 @@
 [Info   :MiniRpcLib] 2769529076[2] Registering action | Client
 [Error  : Unity Log] Error registering effect "GrandparentGroundSwipeTrailEffect (UnityEngine.GameObject)": Prefab does not have EffectComponent attached.
 [Error  : Unity Log] Error registering effect "GrandparentGroundSwipeTrailEffect (UnityEngine.GameObject)": Prefab does not have EffectComponent attached.
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (131446 bytes)
-[Info   : Unity Log] Shutting down Steamworks...
-[Info   : Unity Log] Shut down Steamworks.
-[Error  : Unity Log] NullReferenceException
-Stack trace:
-RoR2.UI.LogBook.LogBookController.GetSurvivorStatus (RoR2.UserProfile userProfile, RoR2.UI.LogBook.Entry entry) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
-RoR2.UI.LogBook.LogBookController+<>c__DisplayClass76_1.<RegisterViewables>g__Check|0 (RoR2.UserProfile userProfile) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
-RoR2.ViewablesCatalog+Node.DefaultShouldShowUnviewedTest (RoR2.UserProfile userProfile) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
-RoR2.ViewablesCatalog+Node.DefaultShouldShowUnviewedTest (RoR2.UserProfile userProfile) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
-RoR2.UI.ViewableTag.Check () (at <824f54130ac5475b922a7de0bd33b9e0>:0)
-RoR2.UI.ViewableTag.Refresh () (at <824f54130ac5475b922a7de0bd33b9e0>:0)
-RoR2.UI.ViewableTag.OnDisable () (at <824f54130ac5475b922a7de0bd33b9e0>:0)
-
-[Info   : Unity Log] AutoSprint: Disabling sprinting crosshair:
-[Info   : Unity Log] AutoSprint: Disabling Sprint FOV Change:
-[Info   : Unity Log] AutoSprint: Disabling Speedlines:
-[Info   : Unity Log] AutoSprint: CameraRigController.Update IL edits done.

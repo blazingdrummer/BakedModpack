@@ -20,28 +20,6 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\bbepis-BepInExPack\3.2.0\icon.png
 - manifestVersion: 1
-  name: tristanmcpherson-R2API
-  authorName: tristanmcpherson
-  websiteUrl: https://thunderstore.io/package/tristanmcpherson/R2API/
-  displayName: R2API
-  description: A modding API for Risk of Rain 2
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 4
-    patch: 10
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.4.10\icon.png
-- manifestVersion: 1
   name: Harb-LighterPatcher
   authorName: Harb
   websiteUrl: https://thunderstore.io/package/Harb/LighterPatcher/
@@ -1209,3 +1187,24 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Void_Reaver\0.2.0\icon.png
+- manifestVersion: 1
+  name: tristanmcpherson-R2API
+  authorName: tristanmcpherson
+  websiteUrl: https://thunderstore.io/package/tristanmcpherson/R2API/
+  displayName: R2API
+  description: A modding API for Risk of Rain 2
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 4
+    patch: 10
+  enabled: true
+  icon: ""
