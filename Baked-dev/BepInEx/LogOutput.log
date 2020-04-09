@@ -1,0 +1,289 @@
+﻿[Message: Preloader] BepInEx 5.0.1.0 - Risk of Rain 2
+[Info   : Preloader] Running under Unity v2018.4.16.15133130
+[Info   : Preloader] CLR runtime version: 4.0.30319.17020
+[Info   : Preloader] Supports SRE: False
+[Message: Preloader] Preloader started
+[Info   : Preloader] Loaded 1 patcher methods from BepInEx.MonoMod.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Info   : Preloader] Loaded 1 patcher methods from LighterPatcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Info   : Preloader] 3 patcher plugin(s) loaded
+[Info   : Preloader] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Info   : Preloader] Collecting target assemblies from mods
+[Info   : Preloader] Patching [Assembly-CSharp] with [BepInEx.MonoMod.Loader.Patcher]
+[Message: Preloader] [Main] Scanning for mods in directory.
+[Message: Preloader] [ReadMod] Loading mod dir: G:\SteamLibrary\steamapps\common\Risk of Rain 2\r2modman\BepInEx\monomod
+[Message: Preloader] [ReadMod] Loading mod dir: G:\SteamLibrary\steamapps\common\Risk of Rain 2\r2modman\BepInEx\monomod\tristanmcpherson-R2API
+[Message: Preloader] [ReadMod] Loading mod: G:\SteamLibrary\steamapps\common\Risk of Rain 2\r2modman\BepInEx\monomod\tristanmcpherson-R2API\Assembly-CSharp.R2API.mm.dll
+[Message: Preloader] [Main] Found 1 mods
+[Message: Preloader] [Main] mm.PatchRefs(); fixup pre-pass
+[Message: Preloader] [Main] mm.AutoPatch();
+[Message: Preloader] [AutoPatch] Parsing rules in loaded mods
+[Info   : Preloader] [MonoMod] [RulesModder] 
+[Info   : Preloader] [Write] Writing modded module into output stream.
+[Message: Preloader] [AutoPatch] PrePatch pass
+[Message: Preloader] [AutoPatch] Patch pass
+[Message: Preloader] [AutoPatch] PatchRefs pass
+[Message: Preloader] [PostProcessor] PostProcessor pass #1
+[Message: Preloader] [Main] Done.
+[Info   : Preloader] Collecting information for new MMHook
+[Info   : Preloader] Collecting methods from: LunarCoinShareOnPickup
+[Info   : Preloader] Collecting methods from: RoR2_Surgeon
+[Info   : Preloader] Collecting methods from: ShareSuite
+[Info   : Preloader] Collecting methods from: OrderedItems
+[Info   : Preloader] Collecting methods from: DebugToolkit
+[Info   : Preloader] Collecting methods from: Diluvian
+[Info   : Preloader] Collecting methods from: HarbTweaks
+[Info   : Preloader] Collecting methods from: SimpleRoll
+[Info   : Preloader] Collecting methods from: BulletFalloffFix
+[Info   : Preloader] Collecting methods from: EngiShieldNotification
+[Info   : Preloader] Collecting methods from: InfusionStackFix
+[Info   : Preloader] Collecting methods from: JarlykMods.Raincoat
+[Info   : Preloader] Collecting methods from: AcridDamageMod
+[Info   : Preloader] Collecting methods from: RTAutoSprintEx
+[Info   : Preloader] Collecting methods from: VoidReaver
+[Info   : Preloader] Collecting methods from: BazaarPrinter
+[Info   : Preloader] Collecting methods from: BiggerBazaar
+[Info   : Preloader] Collecting methods from: ItemExchangeNotifier
+[Info   : Preloader] Collecting methods from: ScannerPlusOne
+[Info   : Preloader] Collecting methods from: ShrineOfDio
+[Info   : Preloader] Collecting methods from: TemporaryLunarCoins
+[Info   : Preloader] Collecting methods from: AllyPing
+[Info   : Preloader] Collecting methods from: BanditReloaded
+[Info   : Preloader] Collecting methods from: ShowDeathCause
+[Info   : Preloader] Collecting methods from: StartingItemsGUI
+[Info   : Preloader] Collecting methods from: Pingprovements
+[Info   : Preloader] Collecting methods from: AlternateArtificer
+[Info   : Preloader] Collecting methods from: ReinLunarWickedRing
+[Info   : Preloader] Collecting methods from: IncreaseHuntressRange
+[Info   : Preloader] Collecting methods from: EmptyChestsBeGone
+[Info   : Preloader] Collecting methods from: Faster3DPrinters
+[Info   : Preloader] Collecting methods from: ScalingBloodShrines
+[Info   : Preloader] Collecting methods from: WaxQuailMultiJump
+[Info   : Preloader] Collecting methods from: StealthySpawn
+[Info   : Preloader] Lighter MMHOOK found!(hash:-7978491316)
+[Info   : Preloader] Collecting methods from: R2API
+[Info   : Preloader] Collecting methods from: AIBlacklister
+[Info   : Preloader] Collecting methods from: MiniRpcLib
+[Info   : Preloader] Collecting methods from: DPSMeter
+[Info   : Preloader] Collecting methods from: Rampage
+[Message: Preloader] Found 39 mods with a MMHook dependency.
+[Info   : Preloader] Number of neededtypes for hooks : 224
+[Info   : Preloader] LighterhHook has already run for these mods. Using that old file again.
+[Message: Preloader] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 52 plugins to load
+[Warning:   BepInEx] Skipping because a newer version exists [Rein Assembly-PreLoad 1.0.0.242]
+[Info   :   BepInEx] Loading [Rein Assembly-PreLoad 1.0.0.242]
+[Message:  ReinCore] ReinCore successfully loaded
+[Info   :   BepInEx] Loading [R2API 2.4.10]
+[Info   :     R2API] Enabling R2API Submodule: DifficultyAPI
+[Info   :     R2API] Enabling R2API Submodule: DirectorAPI
+[Info   :     R2API] Enabling R2API Submodule: EffectAPI
+[Info   :     R2API] Enabling R2API Submodule: ItemAPI
+[Info   :     R2API] Enabling R2API Submodule: ItemDropAPI
+[Info   :     R2API] Enabling R2API Submodule: LoadoutAPI
+[Info   :     R2API] Enabling R2API Submodule: PrefabAPI
+[Info   :     R2API] Enabling R2API Submodule: ResourcesAPI
+[Info   :     R2API] Enabling R2API Submodule: SurvivorAPI
+[Info   :     R2API] Enabling R2API Submodule: CommandHelper
+[Info   :     R2API] Enabling R2API Submodule: AssetPlus
+[Info   :   BepInEx] Loading [AssetPlusRequester 1.0.0]
+[Info   :   BepInEx] Loading [Configuration Manager 15.1]
+[Info   :   BepInEx] Loading [LunarCoinShareOnPickup 3.6.0]
+[Info   :   BepInEx] Loading [The Surgeon 1.4.1]
+[Info   :   BepInEx] Loading [EmptyChestsBeGone 1.1.0]
+[Info   :   BepInEx] Loading [Faster3DPrinters 1.0.0]
+[Info   :   BepInEx] Loading [ScalingBloodShrines 1.0.0]
+[Info   :   BepInEx] Loading [WaxQuailMultiJump 1.0.1]
+[Info   :   BepInEx] Loading [FluffyLabsConfigManagerTools 1.0.1]
+[Info   :   BepInEx] Loading [BulletFalloffFix 2.0.1]
+[Info   :   BepInEx] Loading [EngiShieldNotification 3.0.0]
+[Info   :   BepInEx] Loading [InfusionStackFix 5.0.2]
+[Info   :   BepInEx] Loading [MacroCommands 2.0.0]
+[Info   :   BepInEx] Loading [Void Reaver Survivor 0.2.0]
+[Info   :   BepInEx] Loading [ShareSuite 1.15.1]
+[Info   :   BepInEx] Loading [Ordered Items 2.1.0]
+[Info   :   BepInEx] Loading [MiniRpcLib 1.0]
+[Info   :MiniRpcLib] Initializing Logger
+[Info   :MiniRpcLib] Initializing MiniRpc
+[Info   :MiniRpcLib] 3923704355[0] Registering action | Server
+[Info   :MiniRpcLib] 3923704355[1] Registering action | Client
+[Info   :MiniRpcLib] 3923704355[2] Registering action | Client
+[Info   :MiniRpcLib] 3923704355[3] Registering action | Server
+[Info   :   BepInEx] Loading [DebugToolkit 3.3.0]
+[Info   :MiniRpcLib] 1008579798[0] Registering action | Client
+[Info   :DebugToolkit] Created by Harb, iDeathHD and . Based on RoR2Cheats by Morris1927.
+[Info   :MiniRpcLib] 1008579798[1] Registering action | Client
+[Info   :MiniRpcLib] 1008579798[2] Registering action | Client
+[Info   :MiniRpcLib] 1008579798[3] Registering action | Client
+[Info   :   BepInEx] Loading [Diluvian 1.0.3]
+[Info   :   BepInEx] Loading [HarbTweaks 1.0.0]
+[Message:HarbTweaks] Loaded Tweak: Bigger Lockboxes.
+[Message:HarbTweaks] Loaded Tweak: Commando Grenades are Impact.
+[Message:HarbTweaks] Prepared Tweak: First Stage Spawns.
+[Message:HarbTweaks] Prepared Tweak: Greedy Lockboxes.
+[Message:HarbTweaks] Loaded Tweak: Multishop Improvements.
+[Message:HarbTweaks] Loaded Tweak: No Forward Saw.
+[Message:HarbTweaks] Loaded Tweak: Silent Altar.
+[Info   :   BepInEx] Loading [DPSMeter 0.0.6]
+[Info   :MiniRpcLib] 3276788072[0] Registering action | Client
+[Info   :   BepInEx] Loading [Rampage 1.1.4]
+[Info   :MiniRpcLib] 59172005[0] Registering action | Client
+[Info   :MiniRpcLib] 59172005[1] Registering action | Server
+[Info   :MiniRpcLib] 59172005[2] Registering action | Server
+[Info   :MiniRpcLib] 59172005[3] Registering action | Server
+[Info   :   BepInEx] Loading [Raincoat 0.2.2]
+[Info   :   BepInEx] Loading [Acrid On-Hit effects for Poisons 1.0.0]
+[Info   : Unity Log] Loaded AcridPoisonOnHitEffects!
+[Info   :   BepInEx] Loading [RTAutoSprintEx 1.0.5]
+[Info   : Unity Log] AutoSprint: Disabling sprinting crosshair:
+[Info   : Unity Log] AutoSprint: Disabling Sprint FOV Change:
+[Info   : Unity Log] AutoSprint: Disabling Speedlines:
+[Info   : Unity Log] AutoSprint: CameraRigController.Update IL edits done.
+[Info   :   BepInEx] Loading [StatsDisplay 1.3]
+[Info   : Unity Log] Loaded StatsDisplayMod
+[Info   :   BepInEx] Loading [KeyBindForConsole 2.0.0]
+[Info   :   BepInEx] Loading [BazaarPrinter 0.2.0]
+[Info   :   BepInEx] Loading [BiggerBazaar 1.9.3]
+[Info   :   BepInEx] Loading [ItemExchangeNotifier 1.3.0]
+[Info   :   BepInEx] Loading [ScannerPlusOne 2.5.0]
+[Info   :   BepInEx] Loading [ShrineOfDio 1.3.1]
+[Info   :   BepInEx] Loading [TemporaryLunarCoins 0.1.0]
+[Info   :   BepInEx] Loading [AllyPing 1.0.0]
+[Info   :   BepInEx] Loading [Bandit Reloaded 1.0.2]
+[Info   :   BepInEx] Loading [SimpleRoll 1.0]
+[Info   :   BepInEx] Loading [StartingItemsBundle 1.0]
+[Info   :   BepInEx] Loading [Pingprovements 1.5.1]
+[Info   :   BepInEx] Loading [General Balance + Fixes 2.3.0.95]
+[Info   :   BepInEx] Loading [ReinArchWisps 2.0.1]
+[Info   :   BepInEx] Loading [ReinWickedRing 1.2.1]
+[Info   :   BepInEx] Loading [Rogue Wisp 2.1.4.189]
+[Message:Rogue Wisp] NetLib is not installed, loading fallback networking.
+[Info   : Unity Log] AutoSprint: Disabling sprinting crosshair:
+[Info   : Unity Log] AutoSprint: Disabling Sprint FOV Change:
+[Info   : Unity Log] AutoSprint: Disabling Speedlines:
+[Info   : Unity Log] AutoSprint: CameraRigController.Update IL edits done.
+[Info   :   BepInEx] Loading [Rein-AlternativeArtificer 1.1.0.89]
+[Info   :Rein-AlternativeArtificer] Loaded successfully
+[Info   :   BepInEx] Loading [Increase Huntress Range 1.0.0]
+[Info   :   BepInEx] Loading [SolidIceWall 1.1.0]
+[Info   : Unity Log] Loaded SolidIcewall!
+[Info   :   BepInEx] Loading [StealthySpawn 1.0.0]
+[Info   : Unity Log] Stealthy Spawn duration: 4s
+[Info   :   BepInEx] Loading [AI Blacklister 1.0.0]
+[Info   :   BepInEx] Loading [ShowDeathCause 1.0.2]
+[Info   :   BepInEx] Loading [TooManyFriends 1.0]
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] WwiseUnity: Sound engine initialized successfully.
+[Info   : Unity Log] Bloom: True
+[Info   : Unity Log] english
+[Info   : Unity Log] Setting current language to "en"
+[Info   : Unity Log] 2
+[Info   : Unity Log] arg[0]="G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2.exe"
+[Info   : Unity Log] arg[1]="--doorstop-enable"
+[Info   : Unity Log] arg[2]="true"
+[Info   : Unity Log] arg[3]="--doorstop-target"
+[Info   : Unity Log] arg[4]="r2modman\BepInEx\core\BepInEx.Preloader.dll"
+[Info   : Unity Log] Initializing system: ArtifactCatalog
+[Info   : Unity Log] Initializing system: BodyCatalog
+[Info   : Unity Log] Initializing system: BuffCatalog
+[Info   :     R2API] Custom Buff: Anaesthetized added
+[Info   :     R2API] Custom Buff: AltArtiFireBuff added
+[Info   :     R2API] Custom Buff: BanditReloadedMarkedForDeath added
+[Info   : Unity Log] Initializing system: CostTypeCatalog
+[Info   : Unity Log] Initializing system: EffectCatalog
+[Error  : Unity Log] Error registering effect "GrandparentGroundSwipeTrailEffect (UnityEngine.GameObject)": Prefab does not have EffectComponent attached.
+[Info   : Unity Log] Initializing system: EliteCatalog
+[Info   : Unity Log] Initializing system: EquipmentCatalog
+[Info   : Unity Log] Initializing system: GenericPickupController
+[Info   : Unity Log] Initializing system: NetworkUIPromptController
+[Info   : Unity Log] Initializing system: PickupDropletController
+[Info   : Unity Log] Initializing system: RunArtifactManager
+[Info   : Unity Log] Initializing system: ItemCatalog
+[Info   :     R2API] Custom Item: Bisco's Leash added
+[Info   :AI Blacklister] Added item 'ShockNearby' to AI blacklist.
+[Info   : Unity Log] Initializing system: MasterCatalog
+[Info   : Unity Log] Initializing system: PickupCatalog
+[Info   : Unity Log] Initializing system: PickupTransmutationManager
+[Info   : Unity Log] Initializing system: ProjectileCatalog
+[Info   : Unity Log] Initializing system: RuleCatalog
+[Info   : Unity Log] Initializing system: SceneCatalog
+[Info   : Unity Log] Initializing system: SteamworksServerManager
+[Info   : Unity Log] Initializing system: SurvivorCatalog
+[Warning: Unity Log] Unregistered survivor Bandit!
+[Info   :     R2API] Survivor: Surgeon added
+[Info   :     R2API] Survivor: Void Reaver added
+[Info   :     R2API] Survivor: Bandit added
+[Info   : Unity Log] Initializing system: UnlockableCatalog
+[Info   : Unity Log] Initializing system: UserProfile
+[Info   : Unity Log] Initializing system: SkinCatalog
+[Info   : Unity Log] Initializing system: StatDef
+[Info   : Unity Log] Initializing system: StatManager
+[Info   : Unity Log] Initializing system: StatSheet
+[Info   : Unity Log] Initializing system: SkillCatalog
+[Info   : Unity Log] Initializing system: EnemyInfoPanel
+[Info   : Unity Log] Initializing system: UILayerKey
+[Info   : Unity Log] Initializing system: NetworkSoundEventCatalog
+[Info   : Unity Log] Initializing system: BombArtifactManager
+[Info   : Unity Log] Initializing system: CommandArtifactManager
+[Info   : Unity Log] Initializing system: DoppelgangerInvasionManager
+[Info   : Unity Log] Initializing system: EnigmaArtifactManager
+[Info   : Unity Log] Initializing system: FriendlyFireArtifactManager
+[Info   : Unity Log] Initializing system: MonsterTeamGainsItemsArtifactManager
+[Info   : Unity Log] Initializing system: SacrificeArtifactManager
+[Info   : Unity Log] Initializing system: SwarmsArtifactManager
+[Info   : Unity Log] Initializing system: TeamDeathArtifactManager
+[Info   : Unity Log] Initializing system: ProjectileGhostReplacementManager
+[Info   : Unity Log] Initializing system: NetworkExtensions
+[Info   : Unity Log] Initializing system: AchievementManager
+[Info   : Unity Log] Initializing system: ArtifactMask
+[Info   : Unity Log] Initializing system: BuffMask
+[Info   : Unity Log] Initializing system: LunarItemOrEquipmentCostTypeHelper
+[Info   : Unity Log] Initializing system: ItemDisplayRuleSet
+[Info   : Unity Log] Initializing system: EquipmentMask
+[Info   : Unity Log] Initializing system: PreGameRuleVoteController
+[Info   : Unity Log] Initializing system: ShrineCleanseBehavior
+[Info   : Unity Log] Initializing system: GameModeCatalog
+[Info   : Unity Log] Registered gamemode BaseDefenseRun True
+[Info   : Unity Log] Registered gamemode ClassicRun True
+[Info   : Unity Log] Registered gamemode WeeklyRun True
+[Info   : Unity Log] Initializing system: BodyLoadoutManager
+[Info   : Unity Log] Initializing system: RuleBook
+[Info   : Unity Log] SystemInitializerAttribute infinite loop detected. currentMethod=RoR2.CharacterSpawnCardInit
+[Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
+[Info   : Unity Log] stream.Length=138908
+[Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
+[Info   : Unity Log] stream.Length=131446
+[Info   : Unity Log] english
+[Info   : Unity Log] Setting current language to "en"
+[Info   : Unity Log] 2
+[Info   : Unity Log] Loaded archived convars.
+[Info   : Unity Log] Could not load config /Config/autoexec.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\autoexec.cfg"
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=2
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/NULLIFIER_BODY_NAME
+[Info   :DebugToolkit] Loading all CSC's: 43
+[Info   :DebugToolkit] Loading all ISC's: 45
+[Message:HarbTweaks] Prepared Tweak: Shorter Medkits.
+[Info   :MiniRpcLib] 2769529076[0] Registering action | Server
+[Info   :MiniRpcLib] 2769529076[1] Registering action | Server
+[Info   :MiniRpcLib] 2769529076[2] Registering action | Client
+[Error  : Unity Log] Error registering effect "GrandparentGroundSwipeTrailEffect (UnityEngine.GameObject)": Prefab does not have EffectComponent attached.
+[Error  : Unity Log] Error registering effect "GrandparentGroundSwipeTrailEffect (UnityEngine.GameObject)": Prefab does not have EffectComponent attached.
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (131446 bytes)
+[Info   : Unity Log] Shutting down Steamworks...
+[Info   : Unity Log] Shut down Steamworks.
+[Error  : Unity Log] NullReferenceException
+Stack trace:
+RoR2.UI.LogBook.LogBookController.GetSurvivorStatus (RoR2.UserProfile userProfile, RoR2.UI.LogBook.Entry entry) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+RoR2.UI.LogBook.LogBookController+<>c__DisplayClass76_1.<RegisterViewables>g__Check|0 (RoR2.UserProfile userProfile) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+RoR2.ViewablesCatalog+Node.DefaultShouldShowUnviewedTest (RoR2.UserProfile userProfile) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+RoR2.ViewablesCatalog+Node.DefaultShouldShowUnviewedTest (RoR2.UserProfile userProfile) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+RoR2.UI.ViewableTag.Check () (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+RoR2.UI.ViewableTag.Refresh () (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+RoR2.UI.ViewableTag.OnDisable () (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+
+[Info   : Unity Log] AutoSprint: Disabling sprinting crosshair:
+[Info   : Unity Log] AutoSprint: Disabling Sprint FOV Change:
+[Info   : Unity Log] AutoSprint: Disabling Speedlines:
+[Info   : Unity Log] AutoSprint: CameraRigController.Update IL edits done.

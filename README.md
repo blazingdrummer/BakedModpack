@@ -64,6 +64,14 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
   - your character will automatically sprint whenever the base game would normally allow you to sprint
   - inverts the "sprint button" behavior; the "sprint button" is now a "walk button" which also cancels some channeled abilities, like Artificer's flamethrower
   - stops the FOV from changing, eliminates the speedlines, and gets rid of the chevron crosshair when sprinting
+
+| Command                            | Function                                                     |
+| ---------------------------------- | ------------------------------------------------------------ |
+| `rt_help`                          | list all possible console commands                           |
+| `rt_enabled`                       | disable/enable most of the sprinting functionality           |
+| `rt_fov`                           | changes CustomFOV (vertical) variable {1 - 359, default: 60} |
+| `rt_artificer_flamethrower_toggle` | sets the flamethrower mode                                   |
+
 ### [Pingprovements](https://thunderstore.io/package/pixeldesu/Pingprovements/)
   - there is no longer any limit to how many pings you can have active at once
   - ping duration now depends on type: interactable pings last a long time, allowing you to ping things like chests or the teleporter that you want to return to later; this also applies to items on the ground, so you can leave them for a teammate
@@ -162,10 +170,9 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated BepInEx to v3.2.0
   - updated R2API to v2.4.10
   - updated Pingprovements to v1.5.1
-    - [ ] regenerate and update config
   - updated ShrineOfDio to v1.3.2
   - updated RTAutoSprintEx to v1.0.6
-    - [ ] added console command notes to README, including FOV control
+    - added console command notes to README, including FOV control
   - updated DiluvianDifficulty to v1.0.4
   - updated ShareSuite to v1.15.1
     - added player scale-back support for the Void Fields
@@ -204,10 +211,9 @@ In order to not make this readme any longer than it already is, the pre-release 
   - removed FixedSplitscreen
     - menu is slightly buggy now, but usable
     - can still be installed separately
-    - [x] edit changelog to reflect this
   - removed SavedGames
     - waiting on compatibility update
-    - still think it caused lunar drop rate to reset; no proof of this
+    - think it causes lunar drop rate to reset; no proof of this, not sure where the value is stored
   - removed NetLib
   - removed VanillaTweaks
   - removed PlayableSora
