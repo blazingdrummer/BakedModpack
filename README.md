@@ -160,7 +160,7 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated AcridPoisonBuffs to v0.3.0
   - README: added a notice for dealing with potential update issues until r2modman adds modpack support
 
-`v2.0.3`
+`v2.0.4`
   
   - updated this page's link to direct to this project's GitHub
   - updated BepInEx to v3.2.0
