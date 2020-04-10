@@ -4,7 +4,7 @@
 [Info   : Preloader] Supports SRE: False
 [Message: Preloader] Preloader started
 [Info   : Preloader] Loaded 1 patcher methods from BepInEx.MonoMod.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[Info   : Preloader] Loaded 1 patcher methods from LighterPatcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Info   : Preloader] Loaded 1 patcher methods from LighterPatcher, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null
 [Info   : Preloader] 3 patcher plugin(s) loaded
 [Info   : Preloader] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Info   : Preloader] Collecting target assemblies from mods
@@ -100,22 +100,11 @@
 [Info   :   BepInEx] Loading [EngiShieldNotification 3.0.0]
 [Info   :   BepInEx] Loading [InfusionStackFix 5.0.2]
 [Info   :   BepInEx] Loading [MacroCommands 2.0.0]
-[Info   :   BepInEx] Loading [Void Reaver Survivor 0.2.0]
+[Info   :   BepInEx] Loading [Void Reaver Survivor 0.2.1]
 [Info   :   BepInEx] Loading [ShareSuite 1.15.1]
 [Info   :   BepInEx] Loading [Ordered Items 2.1.0]
-[Info   :   BepInEx] Loading [MiniRpcLib 1.0]
-[Info   :MiniRpcLib] Initializing Logger
-[Info   :MiniRpcLib] Initializing MiniRpc
-[Info   :MiniRpcLib] 3923704355[0] Registering action | Server
-[Info   :MiniRpcLib] 3923704355[1] Registering action | Client
-[Info   :MiniRpcLib] 3923704355[2] Registering action | Client
-[Info   :MiniRpcLib] 3923704355[3] Registering action | Server
 [Info   :   BepInEx] Loading [DebugToolkit 3.3.0]
-[Info   :MiniRpcLib] 1008579798[0] Registering action | Client
 [Info   :DebugToolkit] Created by Harb, iDeathHD and . Based on RoR2Cheats by Morris1927.
-[Info   :MiniRpcLib] 1008579798[1] Registering action | Client
-[Info   :MiniRpcLib] 1008579798[2] Registering action | Client
-[Info   :MiniRpcLib] 1008579798[3] Registering action | Client
 [Info   :   BepInEx] Loading [Diluvian 1.0.3]
 [Info   :   BepInEx] Loading [HarbTweaks 1.0.0]
 [Message:HarbTweaks] Loaded Tweak: Bigger Lockboxes.
@@ -125,6 +114,13 @@
 [Message:HarbTweaks] Loaded Tweak: Multishop Improvements.
 [Message:HarbTweaks] Loaded Tweak: No Forward Saw.
 [Message:HarbTweaks] Loaded Tweak: Silent Altar.
+[Info   :   BepInEx] Loading [MiniRpcLib 1.0]
+[Info   :MiniRpcLib] Initializing Logger
+[Info   :MiniRpcLib] Initializing MiniRpc
+[Info   :MiniRpcLib] 3923704355[0] Registering action | Server
+[Info   :MiniRpcLib] 3923704355[1] Registering action | Client
+[Info   :MiniRpcLib] 3923704355[2] Registering action | Client
+[Info   :MiniRpcLib] 3923704355[3] Registering action | Server
 [Info   :   BepInEx] Loading [DPSMeter 0.0.6]
 [Info   :MiniRpcLib] 3276788072[0] Registering action | Client
 [Info   :   BepInEx] Loading [Rampage 1.1.4]
@@ -201,10 +197,7 @@
 [Info   : Unity Log] Initializing system: RunArtifactManager
 [Info   : Unity Log] Initializing system: ItemCatalog
 [Info   :     R2API] Custom Item: Bisco's Leash added
-[Warning:AI Blacklister] SquidTurret is not a valid ItemIndex.
 [Info   :AI Blacklister] Added item 'ShockNearby' to AI blacklist.
-[Info   :AI Blacklister] Removed item 'Squid' from AI blacklist.
-[Info   :AI Blacklister] Removed item 'FocusConvergence' from AI blacklist.
 [Info   : Unity Log] Initializing system: MasterCatalog
 [Info   : Unity Log] Initializing system: PickupCatalog
 [Info   : Unity Log] Initializing system: PickupTransmutationManager
@@ -256,7 +249,7 @@
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
 [Info   : Unity Log] stream.Length=138908
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
-[Info   : Unity Log] stream.Length=131446
+[Info   : Unity Log] stream.Length=131960
 [Info   : Unity Log] english
 [Info   : Unity Log] Setting current language to "en"
 [Info   : Unity Log] 2
@@ -273,3 +266,39 @@
 [Info   :MiniRpcLib] 2769529076[2] Registering action | Client
 [Error  : Unity Log] Error registering effect "GrandparentGroundSwipeTrailEffect (UnityEngine.GameObject)": Prefab does not have EffectComponent attached.
 [Error  : Unity Log] Error registering effect "GrandparentGroundSwipeTrailEffect (UnityEngine.GameObject)": Prefab does not have EffectComponent attached.
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] gridColumns=8,totalElements=14,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] FlashWindow.Flash(2755108)
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
+[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
+[Info   : Unity Log] FlashWindow.Flash(2755108)
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Error  : Unity Log] A connection has already been set as ready. There can only be one.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
+[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
+[Warning: Unity Log] Could not find transform "HuntressArmature/ROOT/base/BowRoot/BowStringIKTarget/ArrowDisplay/Flash" relative to "mdlHuntress".
+[Warning: Unity Log] Could not find transform "HuntressArmature/ROOT/base/BowRoot/BowStringIKTarget/ArrowDisplay/Flash" relative to "mdlHuntress".
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (132428 bytes)
+[Warning: Unity Log] Could not find transform "HuntressArmature/ROOT/base/BowRoot/BowStringIKTarget/ArrowDisplay/Flash" relative to "mdlHuntress".
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (131960 bytes)
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
+[Info   : Unity Log] Network shutting down...
+[Info   : Unity Log] Server shutting down...
+[Info   : Unity Log] Issued kick message to all remote clients.
+[Info   : Unity Log] Finished waiting for clients to disconnect.
+[Info   : Unity Log] StopHost()
+[Info   : Unity Log] Server shutdown complete.
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (131960 bytes)
+[Info   : Unity Log] Shutting down Steamworks...
+[Info   : Unity Log] Shut down Steamworks.
+[Info   : Unity Log] AutoSprint: Disabling sprinting crosshair:
+[Info   : Unity Log] AutoSprint: Disabling Sprint FOV Change:
+[Info   : Unity Log] AutoSprint: Disabling Speedlines:
+[Info   : Unity Log] AutoSprint: CameraRigController.Update IL edits done.

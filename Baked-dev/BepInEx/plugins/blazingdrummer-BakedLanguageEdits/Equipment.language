@@ -1,0 +1,132 @@
+{
+	"strings":
+	{
+	"EQUIPMENT_COMMANDMISSILE_NAME": "Disposable Missile Launcher",
+	"EQUIPMENT_COMMANDMISSILE_PICKUP": "Fire a swarm of <style=cIsDamage>12</style> missiles that deal <style=cIsDamage>12x300% damage</style>.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+	"EQUIPMENT_COMMANDMISSILE_DESC": "Fire a swarm of <style=cIsDamage>12</style> missiles that deal <style=cIsDamage>12x300% damage</style>.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+
+	"EQUIPMENT_FRUIT_NAME": "Foreign Fruit",
+	"EQUIPMENT_FRUIT_PICKUP": "Instantly <style=cIsHealing>heal</style> for <style=cIsHealth>50% of your maximum health</style>.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+	"EQUIPMENT_FRUIT_DESC": "Instantly <style=cIsHealing>heal</style> for <style=cIsHealth>50% of your maximum health</style>.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+
+	"EQUIPMENT_METEOR_NAME": "Glowing Meteorite",
+	"EQUIPMENT_METEOR_PICKUP": "<style=cIsDamage>Rain meteors</style> from the sky, damaging ALL characters for <style=cIsDamage>600% damage per blast</style>. Lasts 20 seconds.\n<style=cStack>Base Cooldown: 140 seconds</style>",
+	"EQUIPMENT_METEOR_DESC": "<style=cIsDamage>Rain meteors</style> from the sky, damaging ALL characters for <style=cIsDamage>600% damage per blast</style>. Lasts 20 seconds.\n<style=cStack>Base Cooldown: 140 seconds</style>",
+
+	"EQUIPMENT_SOULJAR_NAME": "<sprite name=\"WIP\"> Jar of Souls <sprite name=\"WIP\">",
+	"EQUIPMENT_SOULJAR_PICKUP": "<sprite name=\"WIP\"> Duplicate every enemy as a ghost to fight on your side for 15 seconds. <sprite name=\"WIP\">",
+	"EQUIPMENT_SOULJAR_DESC": "<sprite name=\"WIP\"> Duplicate every enemy as a ghost to fight on your side for 15 seconds. <sprite name=\"WIP\">",
+
+	"EQUIPMENT_BLACKHOLE_NAME": "Primordial Cube",
+	"EQUIPMENT_BLACKHOLE_PICKUP": "Fire a black hole that <style=cIsUtility>draws enemies within 30m into its center</style>. Lasts 10 seconds.\n<style=cStack>Base Cooldown: 60 seconds</style>",
+	"EQUIPMENT_BLACKHOLE_DESC": "Fire a black hole that <style=cIsUtility>draws enemies within 30m into its center</style>. Lasts 10 seconds.\n<style=cStack>Base Cooldown: 60 seconds</style>",
+
+	"EQUIPMENT_GHOSTGUN_NAME": "<sprite name=\"WIP\"> Reaper's Remorse <sprite name=\"WIP\">",
+	"EQUIPMENT_GHOSTGUN_PICKUP": "<sprite name=\"WIP\"> Summon a ghostly revolver that doubles damage on kill. <sprite name=\"WIP\">",
+	"EQUIPMENT_GHOSTGUN_DESC": "<sprite name=\"WIP\"> Summon a ghostly revolver that doubles damage on kill. <sprite name=\"WIP\">",
+
+	"EQUIPMENT_CRITONUSE_NAME": "Ocular HUD",
+	"EQUIPMENT_CRITONUSE_PICKUP": "Gain <style=cIsDamage>+100% Critical Strike Chance</style> for 8 seconds.\n<style=cStack>Base Cooldown: 60 seconds</style>",
+	"EQUIPMENT_CRITONUSE_DESC": "Gain <style=cIsDamage>+100% Critical Strike Chance</style> for 8 seconds.\n<style=cStack>Base Cooldown: 60 seconds</style>",
+
+	"EQUIPMENT_DRONEBACKUP_NAME": "The Back-up",
+	"EQUIPMENT_DRONEBACKUP_PICKUP": "Call <style=cIsDamage>4 Strike Drones</style> to fight for you. Lasts 25 seconds.\n<style=cStack>Base Cooldown: 100 seconds</style>",
+	"EQUIPMENT_DRONEBACKUP_DESC": "Call <style=cIsDamage>4 Strike Drones</style> to fight for you. Lasts 25 seconds.\n<style=cStack>Base Cooldown: 100 seconds</style>",
+	"EQUIPMENT_DRONEBACKUP_LORE": "\"The inclusion of Rapid Response Drone Squadrons (RRDS) by local law enforcement marked a dire turning point of Plank's Rebellion. After its massive \"success\" in quelling the Rebellion - and subsequent implementation across Mercury - underground drone hackers became highly sought after by black market users.\"\r\n\r\n-Overview of Drone Technology, Vol.2\r\n",
+
+	"EQUIPMENT_BFG_NAME": "Preon Accumulator",
+	"EQUIPMENT_BFG_PICKUP": "Fires preon tendrils, zapping enemies within 35m for up to <style=cIsDamage>600% damage/second</style>. On contact, detonate in an enormous 20m explosion for <style=cIsDamage>4000% damage</style>.\n<style=cStack>Base Cooldown: 140 seconds</style>",
+	"EQUIPMENT_BFG_DESC": "Fires preon tendrils, zapping enemies within 35m for up to <style=cIsDamage>600% damage/second</style>. On contact, detonate in an enormous 20m explosion for <style=cIsDamage>4000% damage</style>.\n<style=cStack>Base Cooldown: 140 seconds</style>",
+
+	"EQUIPMENT_JETPACK_NAME": "Milky Chrysalis",
+    "EQUIPMENT_JETPACK_PICKUP": "Sprout wings and <style=cIsUtility>fly for 15 seconds</style>. Gain <style=cIsUtility>+20% movement speed</style> for the duration.\n<style=cStack>Base Cooldown: 60 seconds</style>",
+    "EQUIPMENT_JETPACK_DESC": "Sprout wings and <style=cIsUtility>fly for 15 seconds</style>. Gain <style=cIsUtility>+20% movement speed</style> for the duration.\n<style=cStack>Base Cooldown: 60 seconds</style>",
+
+	"EQUIPMENT_LIGHTNING_NAME": "Royal Capacitor",
+    "EQUIPMENT_LIGHTNING_PICKUP": "Call down a lightning strike on a targeted monster after 0.3 seconds, dealing <style=cIsDamage>3000% damage</style> and <style=cIsDamage>stunning</style> nearby monsters.\n<style=cStack>Base Cooldown: 20 seconds</style>",
+    "EQUIPMENT_LIGHTNING_DESC": "Call down a lightning strike on a targeted monster after 0.3 seconds, dealing <style=cIsDamage>3000% damage</style> and <style=cIsDamage>stunning</style> nearby monsters.\n<style=cStack>Base Cooldown: 20 seconds</style>",
+
+	"EQUIPMENT_GOLDGAT_NAME": "The Crowdfunder",
+    "EQUIPMENT_GOLDGAT_PICKUP": "Fires a continuous barrage that deals <style=cIsDamage>100% damage per bullet</style>. Costs $1 per bullet. Cost increases over time.",
+    "EQUIPMENT_GOLDGAT_DESC": "Fires a continuous barrage that deals <style=cIsDamage>100% damage per bullet</style>. Costs $1 per bullet. Cost increases over time.",
+
+	"EQUIPMENT_PASSIVEHEALING_NAME": "Gnarled Woodsprite",
+	"EQUIPMENT_PASSIVEHEALING_PICKUP": "Gain a Woodsprite follower that <style=cIsHealing>heals</style> for <style=cIsHealth>1.5% of your maximum health/second</style>. Can be sent to an ally to <style=cIsHealing>heal</style> them for <style=cIsHealth>10% of their maximum health</style>.\n<style=cStack>Base Cooldown: 15 seconds</style>",
+	"EQUIPMENT_PASSIVEHEALING_DESC": "Gain a Woodsprite follower that <style=cIsHealing>heals</style> for <style=cIsHealth>1.5% of your maximum health/second</style>. Can be sent to an ally to <style=cIsHealing>heal</style> them for <style=cIsHealth>10% of their maximum health</style>.\n<style=cStack>Base Cooldown: 15 seconds</style>",
+
+	"EQUIPMENT_AFFIXRED_NAME": "Ifrit's Distinction",
+    "EQUIPMENT_AFFIXRED_PICKUP": "<color=#007fff>Become an aspect of fire.</color>\n\nLeave behind a <style=cIsDamage>flame trail</style> that <style=cIsDamage>burns</style> enemies on contact. Attacks also <style=cIsDamage>ignite</style> enemies, which take <style=cIsDamage>100%</style> damage over 4 seconds per <style=cIsDamage>ignition stack</style>. Damage is capped at <style=cIsHealth>1% of the target's health</style>.",
+    "EQUIPMENT_AFFIXRED_DESC": "<color=#007fff>Become an aspect of fire.</color>\n\nLeave behind a <style=cIsDamage>flame trail</style> that <style=cIsDamage>burns</style> enemies on contact. Attacks also <style=cIsDamage>ignite</style> enemies, which take <style=cIsDamage>100%</style> damage over 4 seconds per <style=cIsDamage>ignition stack</style>. Damage is capped at <style=cIsHealth>1% of the target's health</style>.",
+
+	"EQUIPMENT_AFFIXBLUE_NAME": "Silence Between Two Strikes",
+    "EQUIPMENT_AFFIXBLUE_PICKUP": "<color=#007fff>Become an aspect of lightning.</color>\n\nConvert <style=cIsHealth>50% of your health</style> to <style=cIsHealing>shield</style> that recharges outside of danger. Upon striking, attacks attach a <style=cIsDamage>bomb</style> that explodes for <style=cIsDamage>50% of the damage</style> after 1.5 seconds.",
+    "EQUIPMENT_AFFIXBLUE_DESC": "<color=#007fff>Become an aspect of lightning.</color>\n\nConvert <style=cIsHealth>50% of your health</style> to <style=cIsHealing>shield</style> that recharges outside of danger. Upon striking, attacks attach a <style=cIsDamage>bomb</style> that explodes for <style=cIsDamage>50% of the damage</style> after 1.5 seconds.",
+
+	"EQUIPMENT_AFFIXGOLD_NAME": "Coven of Gold",
+    "EQUIPMENT_AFFIXGOLD_PICKUP": "<color=#007fff>Luck smiles upon you. His strength fills you... Become an aspect of fortune.",
+    "EQUIPMENT_AFFIXGOLD_DESC": "<color=#007fff>Luck smiles upon you. His strength fills you... Become an aspect of fortune.",
+
+	"EQUIPMENT_AFFIXWHITE_NAME": "<color=#ad41f1>Her Biting Embrace</color>",
+    "EQUIPMENT_AFFIXWHITE_PICKUP": "<color=#007fff>Become an aspect of ice.</color>\n\nAttacks apply an <style=cIsUtility>80% slow</style> on hit for 1.5 seconds. <style=cDeath>Upon death</style>, leave behind an <style=cIsDamage>ice bomb</style> that explodes for <style=cIsDamage>150%</style> damage after 2 seconds. All enemies in the radius are <style=cIsUtility>frozen</style> for 1.5 seconds.",
+    "EQUIPMENT_AFFIXWHITE_DESC": "<color=#007fff>Become an aspect of ice.</color>\n\nAttacks apply an <style=cIsUtility>80% slow</style> on hit for 1.5 seconds. <style=cDeath>Upon death</style>, leave behind an <style=cIsDamage>ice bomb</style> that explodes for <style=cIsDamage>150%</style> damage after 2 seconds. All enemies in the radius are <style=cIsUtility>frozen</style> for 1.5 seconds.",
+
+	"EQUIPMENT_AFFIXPOISON_NAME": "<color=#ad41f1>N'kuhana's Retort</color>",
+    "EQUIPMENT_AFFIXPOISON_PICKUP": "<color=#007fff>Become an aspect of corruption.</color>\n\nPeriodically release 3-4 spiked balls that sprout <style=cIsDamage>spike pits</style> where they land. Attacks nullify the target's <style=cIsHealing>healing</style> for 8 seconds. <style=cDeath>Upon death</style>, spawn a <style=cIsDamage>Malachite Urchin</style> that fires <style=cIsDamage>spikes</style> at enemies.",
+    "EQUIPMENT_AFFIXPOISON_DESC": "<color=#007fff>Become an aspect of corruption.</color>\n\nPeriodically release 3-4 spiked balls that sprout <style=cIsDamage>spike pits</style> where they land. Attacks nullify the target's <style=cIsHealing>healing</style> for 8 seconds. <style=cDeath>Upon death</style>, spawn a <style=cIsDamage>Malachite Urchin</style> that fires <style=cIsDamage>spikes</style> at enemies.",
+
+	"EQUIPMENT_AFFIXHAUNTED_NAME": "Spectral Circlet",
+    "EQUIPMENT_AFFIXHAUNTED_PICKUP": "<color=#007fff>Become an aspect of incorporeality.</color>\n\nGain a spherical <style=cIsUtility>aura</style> that grants allies without this item <style=cIsUtility>invisibility</style>. Attacks apply an <style=cIsUtility>80% slow</style> on hit for 3 seconds.",
+    "EQUIPMENT_AFFIXHAUNTED_DESC": "<color=#007fff>Become an aspect of incorporeality.</color>\n\nGain a spherical <style=cIsUtility>aura</style> that grants allies without this item <style=cIsUtility>invisibility</style>. Attacks apply an <style=cIsUtility>80% slow</style> on hit for 3 seconds.",
+
+	"EQUIPMENT_BURNNEARBY_NAME" : "Helfire Tincture",
+	"EQUIPMENT_BURNNEARBY_PICKUP" : "Ignite ALL characters within 8m for 10 seconds. Deal <style=cIsDamage>5% of your maximum health/second as burning</style> to yourself. The burn is <style=cIsDamage>0.5x</style> stronger on allies, and <style=cIsDamage>24x</style> stronger on enemies.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+	"EQUIPMENT_BURNNEARBY_DESC" : "Ignite ALL characters within 8m for 10 seconds. Deal <style=cIsDamage>5% of your maximum health/second as burning</style> to yourself. The burn is <style=cIsDamage>0.5x</style> stronger on allies, and <style=cIsDamage>24x</style> stronger on enemies.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+	"EQUIPMENT_BURNNEARBY_LORE" : "<style=cMono>\n========================================\n====   MyBabel Machine Translator   ====\n====     [Version 12.45.1.009 ]   ======\n========================================\nTraining� <100000000 cycles>\nTraining� <1453461 cycles>\nComplete!\nDisplay result? Y/N\nY\n================================</style>\n[Grix] ignites. We measure the time. \n.....\n.....\n.....\n...\n..\n.\n\nToo ordered. Composition is settling - I scrape the mixture from the bottom.  \n[Ouju] ignites. We measure the time.\n....\n...\n...\n..\n.\n\nToo smooth. Ratio can be greater. I flatten the mixture. Black ichor of [Ouju] begins to pool around my feet. \n[Rhisko] ignites. I measure the time.\n...\n.\n\nI increase the ratio of Tetrafoil. I saturate the mixture. Ichor floods the chamber. Ash flutters in the air before settling on the floor.\n...\nI ignite. <He> measures my time.\n...\n...\n...\n..\n..\n..\n.\n\n<Perfect.>\n<style=cMono>\n================================\n",
+
+	"EQUIPMENT_SOULCORRUPTOR_NAME": "<sprite name=\"WIP\"> EQUIPMENT_SOULCORRUPTOR_NAME <sprite name=\"WIP\">",
+	"EQUIPMENT_SOULCORRUPTOR_PICKUP": "<sprite name=\"WIP\"> EQUIPMENT_SOULCORRUPTOR_PICKUP <sprite name=\"WIP\">",
+	"EQUIPMENT_SOULCORRUPTOR_DESC": "<sprite name=\"WIP\"> EQUIPMENT_SOULCORRUPTOR_DESC <sprite name=\"WIP\">",
+
+	"EQUIPMENT_SCANNER_NAME": "Radar Scanner",
+	"EQUIPMENT_SCANNER_PICKUP": "<style=cIsUtility>Reveal</style> all interactables within 500m for <style=cIsUtility>10 seconds</style> and print color-coded results in chat.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+	"EQUIPMENT_SCANNER_DESC": "<style=cIsUtility>Reveal</style> all interactables within 500m for <style=cIsUtility>10 seconds</style> and print color-coded results in chat.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+
+	"EQUIPMENT_CRIPPLEWARD_NAME" : "Effigy of Grief",
+	"EQUIPMENT_CRIPPLEWARD_PICKUP" : "Drop an effigy on the ground that creates an <style=cIsUtility>aura</style>. ALL characters within are <style=cIsUtility>slowed by 50%</style> and have their <style=cIsDamage>armor reduced by 20</style>. Can be picked back up.",
+	"EQUIPMENT_CRIPPLEWARD_DESC" :  "Drop an effigy on the ground that creates an <style=cIsUtility>aura</style>. ALL characters within are <style=cIsUtility>slowed by 50%</style> and have their <style=cIsDamage>armor reduced by 20</style>. Can be picked back up.",
+
+	"EQUIPMENT_GATEWAY_NAME" : "Eccentric Vase",
+	"EQUIPMENT_GATEWAY_PICKUP" : "Create a <style=cIsUtility>quantum tunnel</style> between two locations of up to <style=cIsUtility>1000m</style> in length. Lasts 30 seconds.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+	"EQUIPMENT_GATEWAY_DESC" : "Create a <style=cIsUtility>quantum tunnel</style> between two locations of up to <style=cIsUtility>1000m</style> in length. Lasts 30 seconds.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+
+	"EQUIPMENT_TONIC_NAME" : "Spinel Tonic",
+	"EQUIPMENT_TONIC_PICKUP" : "Drink the Tonic, gaining a boost for 20 seconds. Grants <style=cIsDamage>+100% damage</style>, <style=cIsDamage>+70% attack speed</style>, <style=cIsHealing>+20 armor</style>, <style=cIsHealth>+50% maximum health</style>, <style=cIsHealing>+300% passive health regeneration</style>, and <style=cIsUtility>+30% movespeed</style>. When the Tonic wears off, you have a <style=cDeath>20% chance</style> to gain a <style=cDeath>Tonic Affliction</style>.\n<style=cStack>Base Cooldown: 60 seconds</style>",
+	"EQUIPMENT_TONIC_DESC" : "Drink the Tonic, gaining a boost for 20 seconds. Grants <style=cIsDamage>+100% damage</style>, <style=cIsDamage>+70% attack speed</style>, <style=cIsHealing>+20 armor</style>, <style=cIsHealth>+50% maximum health</style>, <style=cIsHealing>+300% passive health regeneration</style>, and <style=cIsUtility>+30% movespeed</style>. When the Tonic wears off, you have a <style=cDeath>20% chance</style> to gain a <style=cDeath>Tonic Affliction</style>.\n<style=cStack>Base Cooldown: 60 seconds</style>",
+
+	"EQUIPMENT_QUESTVOLATILEBATTERY_NAME" : "Fuel Array",
+	"EQUIPMENT_QUESTVOLATILEBATTERY_PICKUP" : "Looks like it could power something. <style=cDeath>EXTREMELY unstable...</style>",
+	"EQUIPMENT_QUESTVOLATILEBATTERY_DESC" : "Falling below <style=cIsHealth>50% of your health bar</style> causes the Fuel Array to <style=cIsDamage>explode</style>, <style=cDeath>destroying it</style> and dealing <style=cIsHealth>300% of your maximum health</style>.",
+
+	"EQUIPMENT_CLEANSE_NAME" : "Blast Shower",
+	"EQUIPMENT_CLEANSE_PICKUP" : "<style=cIsUtility>Cleanse</style> all negative effects. Includes debuffs, damage over time, and nearby projectiles.\n<style=cStack>Base Cooldown: 20 seconds</style>",
+	"EQUIPMENT_CLEANSE_DESC" : "<style=cIsUtility>Cleanse</style> all negative effects. Includes debuffs, damage over time, and nearby projectiles.\n<style=cStack>Base Cooldown: 20 seconds</style>",
+
+	"EQUIPMENT_FIREBALLDASH_NAME" : "Volcanic Egg",
+	"EQUIPMENT_FIREBALLDASH_PICKUP" : "Turn into a <style=cIsDamage>draconic fireball</style> for <style=cIsDamage>5</style> seconds. Deal <style=cIsDamage>500% damage</style> on impact. Detonates at the end for <style=cIsDamage>800% damage</style>.\n<style=cStack>Base Cooldown: 30 seconds</style>",
+	"EQUIPMENT_FIREBALLDASH_DESC" : "Turn into a <style=cIsDamage>draconic fireball</style> for <style=cIsDamage>5</style> seconds. Deal <style=cIsDamage>500% damage</style> on impact. Detonates at the end for <style=cIsDamage>800% damage</style>.\n<style=cStack>Base Cooldown: 30 seconds</style>",
+
+	"EQUIPMENT_GAINARMOR_NAME" : "Jade Elephant",
+	"EQUIPMENT_GAINARMOR_PICKUP" : "Gain <style=cIsDamage>500 armor</style> <style=cStack>(83% damage reduction)</style> for <style=cIsUtility>5 seconds</style>.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+	"EQUIPMENT_GAINARMOR_DESC" : "Gain <style=cIsDamage>500 armor</style> <style=cStack>(83% damage reduction)</style> for <style=cIsUtility>5 seconds</style>.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+
+	"EQUIPMENT_SAWMERANG_NAME": "Sawmerang",
+	"EQUIPMENT_SAWMERANG_PICKUP": "Throw <style=cIsDamage>three large saw blades</style> that slice through enemies for <style=cIsDamage>3x400%</style> damage. Also deals an additional <style=cIsDamage>3x100% damage per second</style> while <style=cIsDamage>bleeding</style> enemies. Can <style=cIsDamage>strike</style> enemies again on the way back.",
+	"EQUIPMENT_SAWMERANG_DESC": "Throw <style=cIsDamage>three large saw blades</style> that slice through enemies for <style=cIsDamage>3x400%</style> damage. Also deals an additional <style=cIsDamage>3x100% damage per second</style> while <style=cIsDamage>bleeding</style> enemies. Can <style=cIsDamage>strike</style> enemies again on the way back.",
+	"EQUIPMENT_SAWMERANG_LORE": "I'm so happy they let me bring my trusty Frisbee on this trip! Trees need cutting? Frisbee. Baddies getting a little too close? Frisbee. Fun after-hours game of catch? Frisbee... but only if you're trained to catch it.",
+
+	"EQUIPMENT_RECYCLER_NAME": "Recycler",
+	"EQUIPMENT_RECYCLER_PICKUP": "<style=cIsUtility>Transform</style> an Item or Equipment you target into a different one of the same tier. <style=cIsUtility>Can only be converted once.</style>",
+	"EQUIPMENT_RECYCLER_DESC": "<style=cIsUtility>Transform</style> an Item or Equipment you target into a different one of the same tier. <style=cIsUtility>Can only be converted once.</style>",
+	"EQUIPMENT_RECYCLER_LORE": "Order: \u201CTY-6G Recycler\u201D\r\nTracking Number: 02******\r\nEstimated Delivery: 11\\06\\2056\\\r\nShipping Method: Standard\r\nShipping Address: 700 Baler Ave, Seattle, Earth\r\nShipping Details:\r\n\r\nStandard issue recycling apparatus TY-6G. Please read the manual before operating. KEEP HANDS CLEAR OF THE TOP OPENING.\r\n\r\nUse included recycler rod to pack refuse into top. Our patented smart technology will find a new, usable form for the matter you insert. \r\n\r\nThank you for recycling!\r\n",
+	}
+}

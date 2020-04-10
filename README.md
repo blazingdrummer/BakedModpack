@@ -6,7 +6,7 @@
   2. Install the BakedModpack "mod" to automatically install all of the mods and configure them.
     - With r2modman, simply install the program, create a new profile, click the **Online** section, and search for "BakedModpack". Then click **Download**.
 
-  3. Read the Overview below for a brief rundown on the changes you need to know about before playing the modpack, join the [Discord](https://discord.gg/QRtdUbV) to stay up-to-date with any changes, and check out the [BakedMutators](https://thunderstore.io/package/blazingdrummer/BakedMutators/) addon package for some fun twists on the game.
+  3. Read the Overview below for a brief rundown on the changes you need to know about before playing the modpack and join the [Discord](https://discord.gg/QRtdUbV) to stay up-to-date with any changes.
 
   4. Click **Play Modded**.
 
@@ -23,7 +23,7 @@ If you're already a battered survivor of the storm, this pack should provide fre
 These are the basic changes/differences you'll need to know to get started with the pack. You should be able to learn everything else by just playing the game.
 
 ## IMPORTANT DISCLAIMERS
-This pack relies on lunar coins being a temporary currency that resets every run. You will be warned that your coins will be reset when you start a new game, and will need to type `tlc_aye` in chat before you can move at the beginning of the run.
+This pack relies on lunar coins being a temporary currency that resets every run. You will be warned that your coins will be reset when you start a new game, and will need to type `TLC_AYE` in chat before you can move at the beginning of the run.
 
 If you value your lunar coins or the integrity of your save file in general, I'd recommend creating a new profile to use when playing this pack. However, the risk should be relatively low, as I test pretty thoroughly before releasing, and, worst case, you can always edit your coins using the `give_lunar {number_to_add}` command or edit the save file directly.
 
@@ -69,7 +69,7 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
 | ---------------------------------- | ------------------------------------------------------------ |
 | `rt_help`                          | list all possible console commands                           |
 | `rt_enabled`                       | disable/enable most of the sprinting functionality           |
-| `rt_fov`                           | changes CustomFOV (vertical) variable {1 - 359, default: 60} |
+| `rt_fov`                           | changes CustomFOV variable {1 - 359, default: 60} |
 | `rt_artificer_flamethrower_toggle` | sets the flamethrower mode                                   |
 
 ### [Pingprovements](https://thunderstore.io/package/pixeldesu/Pingprovements/)
@@ -77,13 +77,9 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
   - ping duration now depends on type: interactable pings last a long time, allowing you to ping things like chests or the teleporter that you want to return to later; this also applies to items on the ground, so you can leave them for a teammate
 ### [AllyPing](https://thunderstore.io/package/mistername/AllyPing/)
   - pinging an enemy now makes your minions target them
-### [FasterTeleportCharge](https://thunderstore.io/package/TheRealElysium/FasterTeleportCharge/)
-  - after the teleporter boss is killed, the charge rate is 1000x its normal speed; the saved time is still tracked and added to the run timer to preserve difficulty
 ### [Starting Items GUI](https://thunderstore.io/package/Phedg1Studios/StartingItemsGUI/)
   - You now earn credits based on stages cleared, game difficulty, and run ending (higher rewards for wins/obliterations)
   - Credits can be spent in the `Starting Items` section of the main menu for a boost on your next run
-### [FixedSplitscreen](https://thunderstore.io/package/xiaoxiao921/FixedSplitscreen/)
-  - better splitscreen support is available through this mod; see the [mod page](https://thunderstore.io/package/xiaoxiao921/FixedSplitscreen/) for details
 ### [ShareSuite](https://thunderstore.io/package/FunkFrog-and-Sipondo/ShareSuite/)
 **Multiplayer-Only**
 
@@ -101,7 +97,7 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
 
   - Unlocks the multiplayer lobby size (default max = 16, adjustable in config)
 
-There are dozens of other changes made to the game and additional content, including characters and items, that are not mentioned in this brief overview. As previously mentioned, they should all be discoverable and learnable just by playing the game, but if you would like a full spoiler-heavy rundown of all of the changes made, you can find it in the [User's Guide](https://github.com/blazingdrummer/BakedModpack/wiki/User's-Guide).
+There are dozens of other changes made to the game and additional content, including characters and items, that are not mentioned in this brief overview. As previously mentioned, they should all be discoverable and learnable just by playing the game, but if you would like a full spoiler-heavy rundown (EDIT: COMING SOON) of all of the changes made, you can find it in the [User's Guide](https://github.com/blazingdrummer/BakedModpack/wiki/User's-Guide).
 
 # Known Issues
 Many of these issues are marked in-game with a wrench icon to indicate they are known. Please refer back to this section if you see one.
@@ -120,17 +116,16 @@ Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 
     - simply don't save your game in the Bazaar or do your shopping beforehand
   - (not really a bug?) going to the next stage toggles `noclip` off and takes focus away from the console
 #### Multiplayer-Only
-  - price labels on the modded portions of the Bazaar display as gold rather than lunar coins for clients (e.g. $1 instead of 1 lunar); also affects fuel array chest
+  - price labels on the modded portions of the Bazaar display as gold rather than lunar coins for clients (e.g. $1 instead of 1 lunar)
   - Scavengers don't scale back items to compensate for item sharing, resulting in large power spikes for players
     - try picking up `{# of items}/{# of party members}` items
-  - the red item cauldron in the Bazaar gives the player a red item directly into their inventory, but also drops one on the ground, resulting in duplication
+  - the red item cauldron in the Bazaar and the Overgrown printer both give the player an item directly into their inventory, but also drop one on the ground, resulting in duplication
     - simply don't pick up this item; in the case that you accidentally do and want to remove it, simply use the command `remove_item {item_name} 1`
-  - prices for the BiggerBazaar chests show up as money and not lunar coins when playing as client; the values are still accurate
 
 For a more up-to-date list, check the `#known-issues` channel on the [Discord](https://discord.gg/QRtdUbV).
 
 # Contact Info
-Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM on Discord or Twitter [@blazingdrummer](https://twitter.com/blazingdrummer).
+Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM me on Discord or Twitter [@blazingdrummer](https://twitter.com/blazingdrummer).
 **Please don't bug other devs with issues or feedback! I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!**
 
 ## Credits
@@ -166,7 +161,8 @@ In order to not make this readme any longer than it already is, the pre-release 
   - README: added a notice for dealing with potential update issues until r2modman adds modpack support
 
 `v2.0.3`
-
+  
+  - updated this page's link to direct to this project's GitHub
   - updated BepInEx to v3.2.0
   - updated R2API to v2.4.10
   - updated Pingprovements to v1.5.1
@@ -194,12 +190,12 @@ In order to not make this readme any longer than it already is, the pre-release 
     - README: removed **Transferring Credits** section due to new r2modman update functionality
     - now compatible with DiluvianDifficulty
     - increased scrolling speed of the menu
-  - updated DebugToolkit to v3.3.0
+  - updated DebugToolkit to v3.3.1
   - added SolidIceWall v1.1.0
   - added ShowDeathCause v1.0.2
   - added BazaarPrinter v0.2.0
-  - added LighterPatcher v1.0.0
-  - updated Void_Reaver to v0.2.0
+  - added LighterPatcher v1.0.1
+  - updated Void_Reaver to v0.2.1
   - updated LunarCoinShareOnPickup to v3.6.0
   - updated GeneralFixes to v2.3.0
   - updated RogueWisp to v2.1.4

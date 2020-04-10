@@ -43,3 +43,9 @@ Ver 0.2.0
  - Special got a bit wonkey with the latest update so I went over it and found I did a lot of things wrong, so I worked on effects and networking and fixed the health values so it should now function as intended!
  - Alt Special (Client Reave) is GONE!! Now Reave works on both host and client!!
  - I learned quite a bit since I last worked on Void Reaver and I made plenty of mistakes back then, so I took some time to really fix it up and give it some polish...!
+
+Ver 0.2.1
+ - Forgot to set immunity to executes! (Such as being frozen)
+ - M2 now has an area indicator so you know where it'll fire!
+ - Fixed the mod icon's outline to be the correct color.
+ - Death animation now instantly explodes to differentiate it between the Reave ability.

@@ -20,6 +20,28 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\bbepis-BepInExPack\3.2.0\icon.png
 - manifestVersion: 1
+  name: tristanmcpherson-R2API
+  authorName: tristanmcpherson
+  websiteUrl: https://thunderstore.io/package/tristanmcpherson/R2API/
+  displayName: R2API
+  description: A modding API for Risk of Rain 2
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 4
+    patch: 10
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.4.10\icon.png
+- manifestVersion: 1
   name: Harb-LighterPatcher
   authorName: Harb
   websiteUrl: https://thunderstore.io/package/Harb/LighterPatcher/
@@ -38,10 +60,10 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-LighterPatcher\1.0.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-LighterPatcher\1.0.1\icon.png
 - manifestVersion: 1
   name: Harb-AssetPlusRequester
   authorName: Harb
@@ -64,6 +86,29 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-AssetPlusRequester\1.0.0\icon.png
+- manifestVersion: 1
+  name: blazingdrummer-BakedLanguageEdits
+  authorName: blazingdrummer
+  websiteUrl: https://thunderstore.io/package/blazingdrummer/BakedLanguageEdits/
+  displayName: BakedLanguageEdits
+  description: A language pack originally created for the Baked modpack. Adds detailed
+    tooltips and descriptions, explains changes made by the mods, and enhances
+    the game's lore.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - Harb-AssetPlusRequester-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: ""
 - manifestVersion: 1
   name: wildbook-MiniRpcLib
   authorName: wildbook
@@ -100,7 +145,6 @@
   installMode: managed
   loaders: []
   dependencies:
-    - wildbook-MiniRpcLib-0.0.1
     - tristanmcpherson-R2API-2.4.10
     - bbepis-BepInExPack-3.2.0
   incompatibilities: []
@@ -108,10 +152,10 @@
   versionNumber:
     major: 3
     minor: 3
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DebugToolkit\3.3.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DebugToolkit\3.3.1\icon.png
 - manifestVersion: 1
   name: kristiansja-KeyBindForConsole
   authorName: kristiansja
@@ -1183,28 +1227,7 @@
   versionNumber:
     major: 0
     minor: 2
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Void_Reaver\0.2.0\icon.png
-- manifestVersion: 1
-  name: tristanmcpherson-R2API
-  authorName: tristanmcpherson
-  websiteUrl: https://thunderstore.io/package/tristanmcpherson/R2API/
-  displayName: R2API
-  description: A modding API for Risk of Rain 2
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 4
-    patch: 10
-  enabled: true
-  icon: ""
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Void_Reaver\0.2.1\icon.png
