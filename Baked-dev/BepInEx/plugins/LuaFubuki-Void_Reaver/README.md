@@ -49,3 +49,8 @@ Ver 0.2.1
  - M2 now has an area indicator so you know where it'll fire!
  - Fixed the mod icon's outline to be the correct color.
  - Death animation now instantly explodes to differentiate it between the Reave ability.
+
+Ver 0.2.2
+ - Removed hitstun all together instead of making it "only if 100% health damage taken" due to a bug in Transcendence (Enemies who pick up this item should have issues in the vanilla game if I'm understanding correctly?)
+ - Made Void Reaver's Collision Cylinder slightly smaller so they can fit in the legendary chest cave (Size and hitboxes should still be the same size)
+ - Slightly altered how the M2 works. If no ground is nearby, it will spawn in the general area of the indicator.

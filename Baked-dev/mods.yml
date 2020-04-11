@@ -108,7 +108,8 @@
     minor: 0
     patch: 5
   enabled: true
-  icon: ""
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\blazingdrummer-BakedLanguageEdits\2.0.5\icon.png
 - manifestVersion: 1
   name: wildbook-MiniRpcLib
   authorName: wildbook
@@ -701,17 +702,17 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.4.2
+    - tristanmcpherson-R2API-2.4.10
     - bbepis-BepInExPack-3.2.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 4
+    patch: 5
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DiluvianDifficulty\1.0.4\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DiluvianDifficulty\1.0.5\icon.png
 - manifestVersion: 1
   name: FunkFrog-and-Sipondo-ShareSuite
   authorName: FunkFrog-and-Sipondo
@@ -725,17 +726,16 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.3.7
-    - bbepis-BepInExPack-3.0.0
+    - tristanmcpherson-R2API-2.4.10
+    - bbepis-BepInExPack-3.2.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
-    minor: 15
-    patch: 1
+    major: 2
+    minor: 0
+    patch: 0
   enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\FunkFrog-and-Sipondo-ShareSuite\1.15.1\icon.png
+  icon: ""
 - manifestVersion: 1
   name: mistername-AllyPing
   authorName: mistername
@@ -1155,11 +1155,11 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 2
+    minor: 1
+    patch: 1
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-BanditReloaded\1.0.2\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-BanditReloaded\1.1.1\icon.png
 - manifestVersion: 1
   name: DevinWeaver-TheSurgeon
   authorName: DevinWeaver
@@ -1227,7 +1227,7 @@
   versionNumber:
     major: 0
     minor: 2
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Void_Reaver\0.2.1\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Void_Reaver\0.2.2\icon.png

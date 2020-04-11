@@ -32,8 +32,8 @@ Speaking of commands and save files, I've left all of the admin tools I use acti
 ## Recommended Settings
   - **Gameplay:** `sprint sensitivity reduction` = disabled
     - personal preference; this really messes with your sensitivity due to auto-sprint in my experience
-  - **Video:** `resolution` = 1920x1080, `HUD scale` = 100%
-    - This is by no means required, but I've only done very limited testing with resolutions other than this. Other resolutions or aspect ratios may cause UI issues. They should all be fixable, but will require you to adjust the configs to your own setup. Please consult the [Discord](https://discord.gg/QRtdUbV) if you need help doing this.
+  - **Video:** aspect ratio = 16:9, `HUD scale` = 100%
+    - This is by no means required, but other aspect ratios may cause UI issues. They should all be fixable, but will require you to adjust the configs to your own setup. Please consult the [Discord](https://discord.gg/QRtdUbV) if you need help doing this.
   - **Graphics:** `corpse clean-up` = immediate, `max corpses` = 0
     - I personally use this to remove clutter and increase performance. You don't have to do this, but I don't test without it, so your results may vary.
 
@@ -114,15 +114,21 @@ Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 
 ### Known Bugs/Problems
   - loading into the Bazaar using a game save causes the BiggerBazaar chests to not spawn
     - simply don't save your game in the Bazaar or do your shopping beforehand
+  - DebugToolkit currently has a problem with its commands where you need to use the "true name" of items/equipment when spawning them in, and specify how many every time
+    - use the names listed [here](https://github.com/risk-of-thunder/R2Wiki/wiki/Item-&-Equipment-IDs-and-Names)
   - (not really a bug?) going to the next stage toggles `noclip` off and takes focus away from the console
 #### Multiplayer-Only
   - price labels on the modded portions of the Bazaar display as gold rather than lunar coins for clients (e.g. $1 instead of 1 lunar)
-  - Scavengers don't scale back items to compensate for item sharing, resulting in large power spikes for players
-    - try picking up `{# of items}/{# of party members}` items
   - the red item cauldron in the Bazaar and the Overgrown printer both give the player an item directly into their inventory, but also drop one on the ground, resulting in duplication
     - simply don't pick up this item; in the case that you accidentally do and want to remove it, simply use the command `remove_item {item_name} 1`
 
 For a more up-to-date list, check the `#known-issues` channel on the [Discord](https://discord.gg/QRtdUbV).
+
+# TODO
+- updating the  wiki to include a complete description of all of the mods and how they are setup, and a guide for handling save edits and other aspect ratios
+- working on adding custom achievements to replace the impossible challenges
+- possibly bringing back BakedMutators once I figure out what would still be fun
+- as always, I'm keeping a look at for new content and QOL mods...
 
 # Contact Info
 Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM me on Discord or Twitter [@blazingdrummer](https://twitter.com/blazingdrummer).
@@ -216,3 +222,14 @@ In order to not make this readme any longer than it already is, the pre-release 
   - removed PlayableAkali
   - removed MakeMonsterToothGreatAgain
   - removed AcridM1Heal
+
+`v2.1.0`
+
+- README: updated 1920x1080 resolution recommendation to 16:9 aspect ratio
+  - thanks to CarlosPCMR for checking this for me!
+- updated BanditReloaded to v1.1.1
+  - adds Vengeance support (both RogueWisp and BanditReloaded now have this)
+- updated Void_Reaver to v0.2.2
+- updated DiluvianDifficulty to v1.0.5
+- updated ShareSuite to v2.0.0(!)
+  - fixes the scavenger bug

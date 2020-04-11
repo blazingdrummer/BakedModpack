@@ -1,17 +1,16 @@
 ## BanditReloaded
-- The most comprehensive Bandit rework yet. Highly configurable!
+- The most comprehensive Bandit rework yet. Highly configurable! Now with support for Vengeance!
 	- Bandit's Blast skill allows him to shoot faster if you click faster, but the mod is balanced around the autofire fire rate. Mashing to click faster was enabled due to popular demand.
 
 ## IMPORTANT: READ THIS
 - The host must have the mod installed for it to work.
 - The first option in the config is "Enable Body Clones" which is disabled by default. Enabling this will improve compatibility with other Bandit mods, BUT will break compatibility with unmodded players and any BanditReloaded user who doesn't have it enabled. Leave this setting disabled unless you plan to ensure that every player will have it enabled.
 - The Crowdfunder doesn't work on Bandit currently.
-- Bandit currently does not support the Artifact of Vengeance
 
 ## The Skills
 - Click the images to see a short gameplay clip.
-[![Default Skills](https://steamuserimages-a.akamaihd.net/ugc/780752310276224728/925F67DE23A5DA2F6CF9E58EE1CF0EA3A04A3A11/)](https://streamable.com/0braj)
-[![Alt Skills](https://steamuserimages-a.akamaihd.net/ugc/780752310276224855/BF7253E227AB3AAB91B98FC6D53A2CFC8B639F93/)](https://streamable.com/t0fav)
+[![Default Skills](https://i.imgur.com/fkThqIM.jpg)](https://streamable.com/0braj)
+[![Alt Skills](https://i.imgur.com/o9y1pyu.jpg)](https://streamable.com/t0fav)
 
 ## Installation
 Drop BanditReloaded.dll into \BepInEx\plugins\
@@ -41,3 +40,9 @@ Ping me in the RoR2 Modding Discord (@Moffein#8244) or DM me if you have any fee
 - Increased Assassinate max barrier gain from 12% to 20%.
 - Reduced Lights Out debuff bonus damage from 350% to 250%.
 - Fixed skills being broken in multiplayer.
+`1.1.0`
+- Added support for Vengeance.
+- Fixed Smokebomb being able to proc items on the user when Chaos is enabled.
+- Increased Lights Out debuff bonus damage from 250% to 300%.
+`1.1.1`
+- Fixed elite enemies instakilling Bandit.
