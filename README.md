@@ -23,11 +23,24 @@ If you're already a battered survivor of the storm, this pack should provide fre
 These are the basic changes/differences you'll need to know to get started with the pack. You should be able to learn everything else by just playing the game.
 
 ## IMPORTANT DISCLAIMERS
+
+### Lunar Coins
 This pack relies on lunar coins being a temporary currency that resets every run. You will be warned that your coins will be reset when you start a new game, and will need to type `TLC_AYE` in chat before you can move at the beginning of the run.
 
 If you value your lunar coins or the integrity of your save file in general, I'd recommend creating a new profile to use when playing this pack. However, the risk should be relatively low, as I test pretty thoroughly before releasing, and, worst case, you can always edit your coins using the `give_lunar {number_to_add}` command or edit the save file directly (see the next paragraph for more information on this).
 
+### Commands & Cheating Policy
 Speaking of commands and save files, I've left all of the admin tools I use active for your use if needed. This does leave the door open for cheating, but I think the potential usefulness in cases where glitches or mistakes happen outweighs this. Ultimately, you are in control of your own fun anyways. See the [DebugToolkit commands list](https://thunderstore.io/package/Harb/DebugToolkit/#commands) and the admin keybindings below for more information. To use a command, press `F5` to bring up the console and then type the command in there. If you are copying the command from a Thunderstore page, make sure to ignore curly braces `{}` and replace them with the desired variable (e.g. `give_lunar {number_to_add}` becomes `give_lunar -5` to subtract 5 lunar coins). For information on how to edit your save file directly, check out [this guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1704500228) or visit the [Discord](https://discord.gg/QRtdUbV) if you have questions.
+
+### Modifying The Pack
+This pack is meant to be a framework. The entire purpose of it is to give people who are new to the scene a starting point. Because of this, I am totally fine with modifying the pack in whatever way you desire... adding mods, removing mods, changing options, etc. I only have two requests if you choose to do so.
+
+1. Please shoot me a message or something about why you chose to make a change. One of the biggest things that hurts a scene is when people don't give devs feedback, and I want to know if there's something that's a problem or just not fun. There's multiple way to get in touch in the [Contact Info](https://thunderstore.io/package/blazingdrummer/BakedModpack/#contact-info) section. We might have differences of opinion, but I'm not going to judge you, don't worry :)
+2. If you make major changes (like not just disabling auto-sprint, the DPS meter, or something else client-side), then please mention that when asking for troubleshooting help. I'd be happy to help out however I can, but I won't take responsibility for something outside of my control like that.
+
+"So how do I actually change things?" Well, that part's actually pretty simple. For example, if you don't like automatically sprinting, the good news is that RTAutoSprintEx is a client-side mod and you can simply click it in **r2modman** and then click **Disable** without affecting anyone else. Other mods (ie ShareSuite) might affect multiplayer, so disabling them will affect your friends if you are the host. Still other mods have issues if not loaded on both sides (ie mods that add characters or other assets not in the base game). Installing new mods is as simple as going to the **Online** tab and clicking **Install**, running the game once to generate the config, and then using the config editor to adjust them.
+
+Note: One quirk of a modpack setup like this is that disabling/uninstalling a mod will prompt Thunderstore to warn you that BakedModpack will also be affected. This isn't a problem, as the actual BakedModpack "mod" is just used as a dependency hook to load the other mods and doesn't have an effect on gameplay after installation. I'd recommend disabling mods rather than uninstalling, because then you can see when the BakedModpack entry needs an update by the little cloud icon next to it. Updating mods with that icon manually should be fine, but does have the potential to introduce new problems that I won't have tested.
 
 ## Recommended Settings
   - **Gameplay:** `sprint sensitivity reduction` = disabled
@@ -233,3 +246,7 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated DiluvianDifficulty to v1.0.5
   - updated ShareSuite to v2.0.0(!)
     - fixes the scavenger bug
+    - resolves issue with Sacrifice dropping way too many items
+  - README:
+    - added a notice about modifying the pack
+    - added section headers to **Disclaimers**
