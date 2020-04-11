@@ -168,7 +168,7 @@ In order to not make this readme any longer than it already is, the pre-release 
   - README: added a notice for dealing with potential update issues until r2modman adds modpack support
 
 `v2.0.4`
-  
+
   - updated this page's link to direct to this project's GitHub
   - updated BepInEx to v3.2.0
   - updated R2API to v2.4.10
@@ -225,11 +225,11 @@ In order to not make this readme any longer than it already is, the pre-release 
 
 `v2.1.0`
 
-- README: updated 1920x1080 resolution recommendation to 16:9 aspect ratio
-  - thanks to CarlosPCMR for checking this for me!
-- updated BanditReloaded to v1.1.1
-  - adds Vengeance support (both RogueWisp and BanditReloaded now have this)
-- updated Void_Reaver to v0.2.2
-- updated DiluvianDifficulty to v1.0.5
-- updated ShareSuite to v2.0.0(!)
-  - fixes the scavenger bug
+  - README: updated 1920x1080 resolution recommendation to 16:9 aspect ratio
+    - thanks to CarlosPCMR for checking this for me!
+  - updated BanditReloaded to v1.1.1
+    - adds Vengeance support (both RogueWisp and BanditReloaded now have this)
+  - updated Void_Reaver to v0.2.2
+  - updated DiluvianDifficulty to v1.0.5
+  - updated ShareSuite to v2.0.0(!)
+    - fixes the scavenger bug
