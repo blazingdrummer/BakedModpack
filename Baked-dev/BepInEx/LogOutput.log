@@ -59,7 +59,7 @@
 [Info   : Preloader] Collecting methods from: ScalingBloodShrines
 [Info   : Preloader] Collecting methods from: WaxQuailMultiJump
 [Info   : Preloader] Collecting methods from: StealthySpawn
-[Info   : Preloader] Vanilla MMHOOK found!
+[Info   : Preloader] Lighter MMHOOK found!(hash:-8651655472)
 [Info   : Preloader] Collecting methods from: R2API
 [Info   : Preloader] Collecting methods from: AIBlacklister
 [Info   : Preloader] Collecting methods from: MiniRpcLib
@@ -67,7 +67,7 @@
 [Info   : Preloader] Collecting methods from: Rampage
 [Message: Preloader] Found 39 mods with a MMHook dependency.
 [Info   : Preloader] Number of neededtypes for hooks : 232
-[Info   : Preloader] Stripping types. This may take a while.
+[Info   : Preloader] LighterhHook has already run for these mods. Using that old file again.
 [Message: Preloader] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
@@ -249,7 +249,7 @@
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
 [Info   : Unity Log] stream.Length=138929
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
-[Info   : Unity Log] stream.Length=131851
+[Info   : Unity Log] stream.Length=131052
 [Info   : Unity Log] english
 [Info   : Unity Log] Setting current language to "en"
 [Info   : Unity Log] 2
@@ -266,3 +266,354 @@
 [Info   :MiniRpcLib] 2769529076[2] Registering action | Client
 [Error  : Unity Log] Error registering effect "GrandparentGroundSwipeTrailEffect (UnityEngine.GameObject)": Prefab does not have EffectComponent attached.
 [Error  : Unity Log] Error registering effect "GrandparentGroundSwipeTrailEffect (UnityEngine.GameObject)": Prefab does not have EffectComponent attached.
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] gridColumns=8,totalElements=14,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] FlashWindow.Flash(656598)
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
+[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
+[Info   : Unity Log] FlashWindow.Flash(656598)
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Error  : Unity Log] A connection has already been set as ready. There can only be one.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
+[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
+[Info   : Unity Log] Network shutting down...
+[Info   : Unity Log] Server shutting down...
+[Info   : Unity Log] Issued kick message to all remote clients.
+[Info   : Unity Log] Finished waiting for clients to disconnect.
+[Info   : Unity Log] StopHost()
+[Info   : Unity Log] Server shutdown complete.
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] gridColumns=8,totalElements=14,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] FlashWindow.Flash(656598)
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
+[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
+[Info   : Unity Log] FlashWindow.Flash(656598)
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Error  : Unity Log] A connection has already been set as ready. There can only be one.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
+[Info   : Unity Log] Applying persistent ballot of votes for LocalUser Unlocked.
+[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] Active scene changed from  to blackbeach
+[Info   : Unity Log] Loaded scene blackbeach loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=blackbeach currentSceneName=blackbeach
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Spending 180 credits on interactables...
+[Info   : Unity Log] MAP_BLACKBEACH_TITLE
+[Info   : Unity Log] reorder list
+[Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'TextMeshPro-1.0.55.2017.1.0b11, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+Stack trace:
+StatsDisplay.StatsDisplay.Update () (at <372153f7ecc04005aa28b4f525d700b7>:0)
+
+[Info   : Unity Log] Chatbox showInput:True
+[Info   : Unity Log] Chatbox showInput:False
+[Info   : Unity Log] Chatbox showInput:True
+[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
+[Info   : Unity Log] Submitting say cmd.
+[Info   : Unity Log] SubmitChat() submittedText=tlc_aye
+[Info   : Unity Log] Chatbox showInput:False
+[Info   : Unity Log] <color=#e5eefc><noparse>blazingdrummer</noparse>: <noparse>tlc_aye</noparse></color>
+[Info   : Unity Log]  -- Temporary Lunar Coins --
+<size=15px>If you wish to participate in this run, you need to agree to have your lunar coins reset. Type <color=#00cc00>"tlc_aye"</color> in the chat if you agree. Otherwise leave the game and keep your coins. The game will resume once everyone present agreed.</size>
+[Info   :MacroCommands] Macro triggered! - KBS = F3
+[Info   : Unity Log] No_enemies set to True
+[Info   : Unity Log] Killed 7 of team Monster.
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Gave 1 Syringe to blazingdrummer
+[Error  : Unity Log] InvalidCastException: Specified cast is not valid.
+Stack trace:
+(wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
+R2API.Utils.Reflection.GetFieldGetDelegate[TReturn] (System.Reflection.FieldInfo field) (at <97405be437ad4ebeb62748db4b205cb8>:0)
+R2API.Utils.Reflection.GetFieldValue[TReturn] (System.Type staticType, System.String fieldName) (at <97405be437ad4ebeb62748db4b205cb8>:0)
+DebugToolkit.StringFinder.GetItemFromPartial (System.String name) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DebugToolkit.Commands.Items.CCGiveItem (RoR2.ConCommandArgs args) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DMD<RunCmd>?623947776._RoR2_Console::RunCmd (RoR2.Console this, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <8859c697acdb4e3ca940d621b9aa9ae3>:0)
+DMD<>?623947776._Trampoline<RoR2_Console::RunCmd>?-1693989888 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <06400293b7974e4a8e57f34fc3a71b46>:0)
+DebugToolkit.Hooks.LogNetworkCommandsAndCheckPermissions (RoR2.Console self, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DMD<>?623947776._Hook<RoR2_Console::RunCmd>?1867923968 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <4fa221d98b3a49648d3973feda289355>:0)
+RoR2.Console.SubmitCmd (RoR2.NetworkUser sender, System.String cmd, System.Boolean recordSubmit) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+RoR2.UI.ConsoleWindow.Submit (System.String text) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:0)
+TMPro.TMP_InputField.SendOnSubmit () (at <003a57f5ac9a476c9c282f6568d8ce63>:0)
+TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) (at <003a57f5ac9a476c9c282f6568d8ce63>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <f08606670e35461fb3330c99208b0ac8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <f08606670e35461fb3330c99208b0ac8>:0)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:SendUpdateEventToSelectedObject()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+RoR2.UI.MPEventSystem:Update()
+
+[Error  : Unity Log] InvalidCastException: Specified cast is not valid.
+Stack trace:
+(wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
+R2API.Utils.Reflection.GetFieldGetDelegate[TReturn] (System.Reflection.FieldInfo field) (at <97405be437ad4ebeb62748db4b205cb8>:0)
+R2API.Utils.Reflection.GetFieldValue[TReturn] (System.Type staticType, System.String fieldName) (at <97405be437ad4ebeb62748db4b205cb8>:0)
+DebugToolkit.StringFinder.GetItemFromPartial (System.String name) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DebugToolkit.Commands.Items.CCGiveItem (RoR2.ConCommandArgs args) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DMD<RunCmd>?623947776._RoR2_Console::RunCmd (RoR2.Console this, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <8859c697acdb4e3ca940d621b9aa9ae3>:0)
+DMD<>?623947776._Trampoline<RoR2_Console::RunCmd>?-1693989888 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <06400293b7974e4a8e57f34fc3a71b46>:0)
+DebugToolkit.Hooks.LogNetworkCommandsAndCheckPermissions (RoR2.Console self, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DMD<>?623947776._Hook<RoR2_Console::RunCmd>?1867923968 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <4fa221d98b3a49648d3973feda289355>:0)
+RoR2.Console.SubmitCmd (RoR2.NetworkUser sender, System.String cmd, System.Boolean recordSubmit) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+RoR2.UI.ConsoleWindow.Submit (System.String text) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:0)
+TMPro.TMP_InputField.SendOnSubmit () (at <003a57f5ac9a476c9c282f6568d8ce63>:0)
+TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) (at <003a57f5ac9a476c9c282f6568d8ce63>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <f08606670e35461fb3330c99208b0ac8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <f08606670e35461fb3330c99208b0ac8>:0)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:SendUpdateEventToSelectedObject()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+RoR2.UI.MPEventSystem:Update()
+
+[Error  : Unity Log] InvalidCastException: Specified cast is not valid.
+Stack trace:
+(wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
+R2API.Utils.Reflection.GetFieldGetDelegate[TReturn] (System.Reflection.FieldInfo field) (at <97405be437ad4ebeb62748db4b205cb8>:0)
+R2API.Utils.Reflection.GetFieldValue[TReturn] (System.Type staticType, System.String fieldName) (at <97405be437ad4ebeb62748db4b205cb8>:0)
+DebugToolkit.StringFinder.GetItemFromPartial (System.String name) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DebugToolkit.Commands.Items.CCGiveItem (RoR2.ConCommandArgs args) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DMD<RunCmd>?623947776._RoR2_Console::RunCmd (RoR2.Console this, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <8859c697acdb4e3ca940d621b9aa9ae3>:0)
+DMD<>?623947776._Trampoline<RoR2_Console::RunCmd>?-1693989888 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <06400293b7974e4a8e57f34fc3a71b46>:0)
+DebugToolkit.Hooks.LogNetworkCommandsAndCheckPermissions (RoR2.Console self, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DMD<>?623947776._Hook<RoR2_Console::RunCmd>?1867923968 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <4fa221d98b3a49648d3973feda289355>:0)
+RoR2.Console.SubmitCmd (RoR2.NetworkUser sender, System.String cmd, System.Boolean recordSubmit) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+RoR2.UI.ConsoleWindow.Submit (System.String text) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:0)
+TMPro.TMP_InputField.SendOnSubmit () (at <003a57f5ac9a476c9c282f6568d8ce63>:0)
+TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) (at <003a57f5ac9a476c9c282f6568d8ce63>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <f08606670e35461fb3330c99208b0ac8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <f08606670e35461fb3330c99208b0ac8>:0)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:SendUpdateEventToSelectedObject()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+RoR2.UI.MPEventSystem:Update()
+
+[Error  : Unity Log] InvalidCastException: Specified cast is not valid.
+Stack trace:
+(wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
+R2API.Utils.Reflection.GetFieldGetDelegate[TReturn] (System.Reflection.FieldInfo field) (at <97405be437ad4ebeb62748db4b205cb8>:0)
+R2API.Utils.Reflection.GetFieldValue[TReturn] (System.Type staticType, System.String fieldName) (at <97405be437ad4ebeb62748db4b205cb8>:0)
+DebugToolkit.StringFinder.GetItemFromPartial (System.String name) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DebugToolkit.Commands.Items.CCGiveItem (RoR2.ConCommandArgs args) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DMD<RunCmd>?623947776._RoR2_Console::RunCmd (RoR2.Console this, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <8859c697acdb4e3ca940d621b9aa9ae3>:0)
+DMD<>?623947776._Trampoline<RoR2_Console::RunCmd>?-1693989888 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <06400293b7974e4a8e57f34fc3a71b46>:0)
+DebugToolkit.Hooks.LogNetworkCommandsAndCheckPermissions (RoR2.Console self, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DMD<>?623947776._Hook<RoR2_Console::RunCmd>?1867923968 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <4fa221d98b3a49648d3973feda289355>:0)
+RoR2.Console.SubmitCmd (RoR2.NetworkUser sender, System.String cmd, System.Boolean recordSubmit) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+RoR2.UI.ConsoleWindow.Submit (System.String text) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:0)
+TMPro.TMP_InputField.SendOnSubmit () (at <003a57f5ac9a476c9c282f6568d8ce63>:0)
+TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) (at <003a57f5ac9a476c9c282f6568d8ce63>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <f08606670e35461fb3330c99208b0ac8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <f08606670e35461fb3330c99208b0ac8>:0)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:SendUpdateEventToSelectedObject()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+RoR2.UI.MPEventSystem:Update()
+
+[Error  : Unity Log] InvalidCastException: Specified cast is not valid.
+Stack trace:
+(wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
+R2API.Utils.Reflection.GetFieldGetDelegate[TReturn] (System.Reflection.FieldInfo field) (at <97405be437ad4ebeb62748db4b205cb8>:0)
+R2API.Utils.Reflection.GetFieldValue[TReturn] (System.Type staticType, System.String fieldName) (at <97405be437ad4ebeb62748db4b205cb8>:0)
+DebugToolkit.StringFinder.GetItemFromPartial (System.String name) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DebugToolkit.Commands.Items.CCGiveItem (RoR2.ConCommandArgs args) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DMD<RunCmd>?623947776._RoR2_Console::RunCmd (RoR2.Console this, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <8859c697acdb4e3ca940d621b9aa9ae3>:0)
+DMD<>?623947776._Trampoline<RoR2_Console::RunCmd>?-1693989888 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <06400293b7974e4a8e57f34fc3a71b46>:0)
+DebugToolkit.Hooks.LogNetworkCommandsAndCheckPermissions (RoR2.Console self, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DMD<>?623947776._Hook<RoR2_Console::RunCmd>?1867923968 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <4fa221d98b3a49648d3973feda289355>:0)
+RoR2.Console.SubmitCmd (RoR2.NetworkUser sender, System.String cmd, System.Boolean recordSubmit) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+RoR2.UI.ConsoleWindow.Submit (System.String text) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:0)
+TMPro.TMP_InputField.SendOnSubmit () (at <003a57f5ac9a476c9c282f6568d8ce63>:0)
+TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) (at <003a57f5ac9a476c9c282f6568d8ce63>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <f08606670e35461fb3330c99208b0ac8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <f08606670e35461fb3330c99208b0ac8>:0)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:SendUpdateEventToSelectedObject()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+RoR2.UI.MPEventSystem:Update()
+
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
+[Info   : Unity Log] Network shutting down...
+[Info   : Unity Log] Server shutting down...
+[Info   : Unity Log] Issued kick message to all remote clients.
+[Info   : Unity Log] Finished waiting for clients to disconnect.
+[Info   : Unity Log] StopHost()
+[Info   : Unity Log] Server shutdown complete.
+[Info   : Unity Log] Unloaded scene blackbeach
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] gridColumns=8,totalElements=14,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] FlashWindow.Flash(656598)
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
+[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
+[Info   : Unity Log] FlashWindow.Flash(656598)
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Error  : Unity Log] A connection has already been set as ready. There can only be one.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
+[Info   : Unity Log] Applying persistent ballot of votes for LocalUser Unlocked.
+[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
+[Info   : Unity Log] Network shutting down...
+[Info   : Unity Log] Server shutting down...
+[Info   : Unity Log] Issued kick message to all remote clients.
+[Info   : Unity Log] Finished waiting for clients to disconnect.
+[Info   : Unity Log] StopHost()
+[Info   : Unity Log] Server shutdown complete.
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] (x:0.00, y:-270.00, width:1920.00, height:270.00)
+[Info   : Unity Log] (x:0.00, y:-270.00, width:1920.00, height:270.00)
+[Info   : Unity Log] 1920
+[Info   : Unity Log] Setting offline scene to logbook
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] Active scene changed from  to logbook
+[Info   : Unity Log] Loaded scene logbook loadSceneMode=Single
+[Info   : Unity Log] Building category buttons.
+[Info   : Unity Log] Setting offline scene to title
+[Info   : Unity Log] Unloaded scene logbook
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] gridColumns=8,totalElements=14,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] FlashWindow.Flash(656598)
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
+[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
+[Info   : Unity Log] FlashWindow.Flash(656598)
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Error  : Unity Log] A connection has already been set as ready. There can only be one.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
+[Info   : Unity Log] Applying persistent ballot of votes for LocalUser Unlocked.
+[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
+[Info   : Unity Log] NetworkUser(Clone) (RoR2.NetworkUser)
+[Info   : Unity Log] maxRuleCount=2, currentChoiceIndex=1
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] Active scene changed from  to golemplains2
+[Info   : Unity Log] Loaded scene golemplains2 loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=golemplains2 currentSceneName=golemplains2
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Spending 220 credits on interactables...
+[Info   : Unity Log] MAP_GOLEMPLAINS_TITLE
+[Info   : Unity Log] reorder list
+[Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'TextMeshPro-1.0.55.2017.1.0b11, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+Stack trace:
+StatsDisplay.StatsDisplay.Update () (at <372153f7ecc04005aa28b4f525d700b7>:0)
+
+[Info   : Unity Log] Chatbox showInput:True
+[Info   : Unity Log] Chatbox showInput:False
+[Info   : Unity Log] Chatbox showInput:True
+[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
+[Info   : Unity Log] Submitting say cmd.
+[Info   : Unity Log] SubmitChat() submittedText=tlc_aye
+[Info   : Unity Log] Chatbox showInput:False
+[Info   : Unity Log] <color=#e5eefc><noparse>blazingdrummer</noparse>: <noparse>tlc_aye</noparse></color>
+[Info   : Unity Log]  -- Temporary Lunar Coins --
+<size=15px>If you wish to participate in this run, you need to agree to have your lunar coins reset. Type <color=#00cc00>"tlc_aye"</color> in the chat if you agree. Otherwise leave the game and keep your coins. The game will resume once everyone present agreed.</size>
+[Info   : Unity Log] $$$
+[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
+[Info   : Unity Log] <style=cEvent>You picked up <color=#E7543A>Bisco's Leash</color></color>
+[Info   : Unity Log] Granting starter items for body CommandoBody
+[Info   : Unity Log] <style=cShrine>You have summoned Stone Golems to fight.</color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine, but gain nothing.</color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Medkit</color></color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Stun Grenade</color></color>
+[Error  : Unity Log] InvalidCastException: Specified cast is not valid.
+Stack trace:
+(wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
+R2API.Utils.Reflection.GetFieldGetDelegate[TReturn] (System.Reflection.FieldInfo field) (at <97405be437ad4ebeb62748db4b205cb8>:0)
+R2API.Utils.Reflection.GetFieldValue[TReturn] (System.Type staticType, System.String fieldName) (at <97405be437ad4ebeb62748db4b205cb8>:0)
+DebugToolkit.StringFinder.GetItemFromPartial (System.String name) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DebugToolkit.Commands.Items.CCGiveItem (RoR2.ConCommandArgs args) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DMD<RunCmd>?623947776._RoR2_Console::RunCmd (RoR2.Console this, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <8859c697acdb4e3ca940d621b9aa9ae3>:0)
+DMD<>?623947776._Trampoline<RoR2_Console::RunCmd>?-1693989888 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <06400293b7974e4a8e57f34fc3a71b46>:0)
+DebugToolkit.Hooks.LogNetworkCommandsAndCheckPermissions (RoR2.Console self, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <02aff9b1caf9494dbf323f5add5ba72c>:0)
+DMD<>?623947776._Hook<RoR2_Console::RunCmd>?1867923968 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <4fa221d98b3a49648d3973feda289355>:0)
+RoR2.Console.SubmitCmd (RoR2.NetworkUser sender, System.String cmd, System.Boolean recordSubmit) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+RoR2.UI.ConsoleWindow.Submit (System.String text) (at <824f54130ac5475b922a7de0bd33b9e0>:0)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:0)
+TMPro.TMP_InputField.SendOnSubmit () (at <003a57f5ac9a476c9c282f6568d8ce63>:0)
+TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) (at <003a57f5ac9a476c9c282f6568d8ce63>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <f08606670e35461fb3330c99208b0ac8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <f08606670e35461fb3330c99208b0ac8>:0)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:SendUpdateEventToSelectedObject()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+RoR2.UI.MPEventSystem:Update()
+
+[Info   :MacroCommands] Macro triggered! - KBS = F3
+[Info   : Unity Log] No_enemies set to False
+[Info   : Unity Log] Killed 0 of team Monster.
+[Info   : Unity Log] Transfered 8 monster credits from ShrineCombat(Clone) (UnityEngine.GameObject) to Director (UnityEngine.GameObject)
+[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Gasoline</color></color>
+[Info   : Unity Log] <style=cIsHealing>blazingdrummer wants to move here.</style>
+[Info   : Unity Log] Ping target ShrineChance(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of Chance (<nobr><color=#EFEB1A>$32</color></nobr>).</style>
+[Info   : Unity Log] PP (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] PP (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] PP (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] PP (UnityEngine.GameObject) is missing surface def
+[Error  : Unity Log] WwiseUnity: EventCallbackPackage not found for <1195409408>.
+[Error  : Unity Log] WwiseUnity: EventCallbackPackage not found for <-1443938560>.
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
+[Info   : Unity Log] Network shutting down...
+[Info   : Unity Log] Server shutting down...
+[Info   : Unity Log] Issued kick message to all remote clients.
+[Info   : Unity Log] Finished waiting for clients to disconnect.
+[Info   : Unity Log] StopHost()
+[Info   : Unity Log] Server shutdown complete.
+[Info   : Unity Log] Unloaded scene golemplains2
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (131854 bytes)
+[Info   : Unity Log] Shutting down Steamworks...
+[Info   : Unity Log] Shut down Steamworks.
+[Info   : Unity Log] AutoSprint: Disabling sprinting crosshair:
+[Info   : Unity Log] AutoSprint: Disabling Sprint FOV Change:
+[Info   : Unity Log] AutoSprint: Disabling Speedlines:
+[Info   : Unity Log] AutoSprint: CameraRigController.Update IL edits done.

@@ -25,15 +25,15 @@ These are the basic changes/differences you'll need to know to get started with 
 ## IMPORTANT DISCLAIMERS
 This pack relies on lunar coins being a temporary currency that resets every run. You will be warned that your coins will be reset when you start a new game, and will need to type `TLC_AYE` in chat before you can move at the beginning of the run.
 
-If you value your lunar coins or the integrity of your save file in general, I'd recommend creating a new profile to use when playing this pack. However, the risk should be relatively low, as I test pretty thoroughly before releasing, and, worst case, you can always edit your coins using the `give_lunar {number_to_add}` command or edit the save file directly.
+If you value your lunar coins or the integrity of your save file in general, I'd recommend creating a new profile to use when playing this pack. However, the risk should be relatively low, as I test pretty thoroughly before releasing, and, worst case, you can always edit your coins using the `give_lunar {number_to_add}` command or edit the save file directly (see the next paragraph for more information on this).
 
-Speaking of commands and save files, I've left all of the admin tools I use active for your use if needed. This does leave the door open for cheating, but I think the potential usefulness in cases where glitches or mistakes happen outweighs this. Ultimately, you are in control of your own fun anyways. See the [DebugToolkit commands list](https://thunderstore.io/package/Harb/DebugToolkit/#commands) and the admin keybindings below for more information. To use a command, press `F5` to bring up the console and then type the command in there. If you are copying the command from a Thunderstore page, make sure to ignore curly braces `{}` and replace them with the desired variable (e.g. `give_lunar {number_to_add}` becomes `give_lunar -5` to subtract 5 lunar coins). For information on how to edit your save file directly, please visit the [Discord](https://discord.gg/QRtdUbV).
+Speaking of commands and save files, I've left all of the admin tools I use active for your use if needed. This does leave the door open for cheating, but I think the potential usefulness in cases where glitches or mistakes happen outweighs this. Ultimately, you are in control of your own fun anyways. See the [DebugToolkit commands list](https://thunderstore.io/package/Harb/DebugToolkit/#commands) and the admin keybindings below for more information. To use a command, press `F5` to bring up the console and then type the command in there. If you are copying the command from a Thunderstore page, make sure to ignore curly braces `{}` and replace them with the desired variable (e.g. `give_lunar {number_to_add}` becomes `give_lunar -5` to subtract 5 lunar coins). For information on how to edit your save file directly, check out [this guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1704500228) or visit the [Discord](https://discord.gg/QRtdUbV) if you have questions.
 
 ## Recommended Settings
   - **Gameplay:** `sprint sensitivity reduction` = disabled
     - personal preference; this really messes with your sensitivity due to auto-sprint in my experience
   - **Video:** aspect ratio = 16:9, `HUD scale` = 100%
-    - This is by no means required, but other aspect ratios may cause UI issues. They should all be fixable, but will require you to adjust the configs to your own setup. Please consult the [Discord](https://discord.gg/QRtdUbV) if you need help doing this.
+    - This is by no means required, but other aspect ratios may cause UI issues because the custom UI positions are all based on screen percentage. They should all be fixable, but will require you to adjust the configs to your own setup. Please ask me in the [Discord](https://discord.gg/QRtdUbV) if you need help doing this.
   - **Graphics:** `corpse clean-up` = immediate, `max corpses` = 0
     - I personally use this to remove clutter and increase performance. You don't have to do this, but I don't test without it, so your results may vary.
 
@@ -105,11 +105,11 @@ Many of these issues are marked in-game with a wrench icon to indicate they are 
 Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 challenges from the base game that are nearly or completely impossible to complete when playing this pack. I'd recommend picking one of the presented solutions when you run into this situation.
 
   - `Prismatically Aligned`: Complete a Prismatic Trial
-    - While you are playing a modded instance, prismatic trials are not available (to prevent cheating). Your options are: complete this challenge in vanilla RoR2 before returning to modded play, or modify your save file. For information on how to edit your save file directly, please visit the [Discord](https://discord.gg/QRtdUbV).
+    - While you are playing a modded instance, prismatic trials are not available (to prevent cheating). Your options are: complete this challenge in vanilla RoR2 before returning to modded play, or modify your save file. For information on how to edit your save file directly, check out [this guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1704500228) or visit the [Discord](https://discord.gg/QRtdUbV) if you have questions.
   - `Mercenary: Ethereal`: As Mercenary, complete a Prismatic Trial without falling below 100% health.
     - Same as `Prismatically Aligned`.
   - `Pause.`: Free the survivor suspended in time.
-    - Because this challenge requires at minimum 10 lunar coins to complete, it is uniquely difficult in this modpack, because you'd need to achieve it in one run. Lunar coins' drop chance also decreases for that run every time one drops, making this challenge potentially nearly impossible. Your options are: disable the TemporaryLunarCoins mod in r2modman and play normally until you complete this challenge, use the `give_lunar 10` command to gain the necessary coins, or modify your save file. For information on how to edit your save file directly, please visit the [Discord](https://discord.gg/QRtdUbV).
+    - Because this challenge requires at minimum 10 lunar coins to complete, it is uniquely difficult in this modpack, because you'd need to achieve it in one run. Lunar coins' drop chance also decreases for that run every time one drops, making this challenge potentially nearly impossible. Your options are: disable the TemporaryLunarCoins mod in r2modman and play normally until you complete this challenge, use the `give_lunar 10` command to gain the necessary coins, or modify your save file. For information on how to edit your save file directly, check out [this guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1704500228) or visit the [Discord](https://discord.gg/QRtdUbV) if you have questions.
 
 ### Known Bugs/Problems
   - loading into the Bazaar using a game save causes the BiggerBazaar chests to not spawn
@@ -127,7 +127,8 @@ For a more up-to-date list, check the `#known-issues` channel on the [Discord](h
 # TODO
 - updating the  wiki to include a complete description of all of the mods and how they are setup, and a guide for handling save edits and other aspect ratios
 - working on adding custom achievements to replace the impossible challenges
-- possibly bringing back BakedMutators once I figure out what would still be fun
+- possibly bringing back BakedMutators once I figure out what would still be fun #PvPModeIncoming
+- possibly extending BakedLanguageEdits that allows me to edit the description of items added by mods (ie Rampage, Wicked Ring)
 - as always, I'm keeping a look at for new content and QOL mods...
 
 # Contact Info
@@ -206,7 +207,6 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated GeneralFixes to v2.3.0
   - updated RogueWisp to v2.1.4
   - updated AlternativeArtificer to v1.1.0
-
   - removed FasterTeleportCharge
     - with the addition of Focused Convergence, waiting for teleporter to charge is less of an issue, and I don't want to make it a useless item
     - I'll be testing and getting feedback on this change for the near future
