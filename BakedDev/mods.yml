@@ -735,7 +735,8 @@
     minor: 0
     patch: 0
   enabled: true
-  icon: ""
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\FunkFrog-and-Sipondo-ShareSuite\2.0.0\icon.png
 - manifestVersion: 1
   name: mistername-AllyPing
   authorName: mistername
@@ -1112,6 +1113,52 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-BazaarPrinter\0.2.0\icon.png
+- manifestVersion: 1
+  name: Sciman101-PocketPrinter
+  authorName: Sciman101
+  websiteUrl: https://thunderstore.io/package/Sciman101/PocketPrinter/
+  displayName: PocketPrinter
+  description: Adds a Adaptive Filament, which turns into copies of items you pick up
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.4.1
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Sciman101-PocketPrinter\1.1.0\icon.png
+- manifestVersion: 1
+  name: Rico-GiganticAmethyst
+  authorName: Rico
+  websiteUrl: https://thunderstore.io/package/Rico/GiganticAmethyst/
+  displayName: GiganticAmethyst
+  description: Adds the Gigantic Amethyst, an equipment that resets ability cooldowns
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.4.1
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rico-GiganticAmethyst\1.0.0\icon.png
 - manifestVersion: 1
   name: Rein-RogueWisp
   authorName: Rein

@@ -38,9 +38,9 @@ This pack is meant to be a framework. The entire purpose of it is to give people
 1. Please shoot me a message or something about why you chose to make a change. One of the biggest things that hurts a scene is when people don't give devs feedback, and I want to know if there's something that's a problem or just not fun. There's multiple way to get in touch in the [Contact Info](https://thunderstore.io/package/blazingdrummer/BakedModpack/#contact-info) section. We might have differences of opinion, but I'm not going to judge you, don't worry :)
 2. If you make major changes (like not just disabling auto-sprint, the DPS meter, or something else client-side), then please mention that when asking for troubleshooting help. I'd be happy to help out however I can, but I won't take responsibility for something outside of my control like that.
 
-"So how do I actually change things?" Well, that part's actually pretty simple. For example, if you don't like automatically sprinting, the good news is that RTAutoSprintEx is a client-side mod and you can simply click it in **r2modman** and then click **Disable** without affecting anyone else. Other mods (ie ShareSuite) might affect multiplayer, so disabling them will affect your friends if you are the host. Still other mods have issues if not loaded on both sides (ie mods that add characters or other assets not in the base game). Installing new mods is as simple as going to the **Online** tab and clicking **Install**, running the game once to generate the config, and then using the config editor to adjust them.
+"So how do I actually change things?" Well, that part's actually pretty simple. For example, if you don't like the DPS meter, the good news is that DPSMeter is a client-side mod and you can simply click it in **r2modman** and then click **Disable** without affecting anyone else. Some mods (eg RTAutoSprintEx) have in-game commands that let you adjust them. Other mods (eg ShareSuite) might affect multiplayer, so disabling them will affect your friends if you are the host. Still other mods have issues if not loaded on both sides (ie mods that add characters or other assets not in the base game). Installing new mods is as simple as going to the **Online** tab and clicking **Install**, running the game once to generate the config, and then using the config editor to adjust them.
 
-Note: One quirk of a modpack setup like this is that disabling/uninstalling a mod will prompt Thunderstore to warn you that BakedModpack will also be affected. This isn't a problem, as the actual BakedModpack "mod" is just used as a dependency hook to load the other mods and doesn't have an effect on gameplay after installation. I'd recommend disabling mods rather than uninstalling, because then you can see when the BakedModpack entry needs an update by the little cloud icon next to it. Updating mods with that icon manually should be fine, but does have the potential to introduce new problems that I won't have tested.
+Note: One quirk of a modpack setup like this is that disabling/uninstalling a mod will prompt r2modman to warn you that BakedModpack will also be affected. This isn't a problem, as the actual BakedModpack "mod" is just used as a dependency hook to load the other mods and doesn't have an effect on gameplay after installation. I'd recommend disabling mods rather than uninstalling, because then you can see when the BakedModpack entry needs an update by the little cloud icon next to it. Updating mods with that icon manually should be fine, but does have the potential to introduce new problems that I will not have tested.
 
 ## Recommended Settings
   - **Gameplay:** `sprint sensitivity reduction` = disabled
@@ -250,3 +250,8 @@ In order to not make this readme any longer than it already is, the pre-release 
   - README:
     - added a notice about modifying the pack
     - added section headers to **Disclaimers**
+
+TODO: `v2.2.0`
+
+  - added PocketPrinter v1.1.0
+  - added GiganticAmethyst v1.0.0
