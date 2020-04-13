@@ -251,7 +251,9 @@ In order to not make this readme any longer than it already is, the pre-release 
     - added a notice about modifying the pack
     - added section headers to **Disclaimers**
 
-TODO: `v2.2.0`
+TODO: `v2.2.1`
 
   - added PocketPrinter v1.1.0
   - added GiganticAmethyst v1.0.0
+  - [ ] added bleeding-edge DebugToolkit
+  - disabled OrderedItems due to UI issue

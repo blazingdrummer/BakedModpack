@@ -1,7 +1,8 @@
 *.zip
 *.dll
 *.backup
-Baked-dev/BepInEx/config/Phedg1 Studios/Starting Items GUI/7ef3426e-253f-48ae-bb68-7d3897e57a30/
-Baked-dev/BepInEx/config/Phedg1 Studios/Starting Items GUI/c0910e0f-b1a7-48d9-ac14-82f02f0114f0/
+BakedDev/BepInEx/config/Phedg1 Studios/Starting Items GUI/7ef3426e-253f-48ae-bb68-7d3897e57a30/
+BakedDev/BepInEx/config/Phedg1 Studios/Starting Items GUI/c0910e0f-b1a7-48d9-ac14-82f02f0114f0/
 !LogOutput.log
 release_checklist.md
+*.dll.old

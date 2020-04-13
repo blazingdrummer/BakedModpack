@@ -154,7 +154,7 @@
     major: 3
     minor: 3
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DebugToolkit\3.3.1\icon.png
 - manifestVersion: 1
@@ -335,7 +335,7 @@
     major: 2
     minor: 1
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\gog909-OrderedItems\2.1.0\icon.png
 - manifestVersion: 1
