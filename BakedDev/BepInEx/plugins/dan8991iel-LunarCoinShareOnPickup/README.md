@@ -36,6 +36,8 @@
    My username is dan8991iel.
 
 #Patchnotes
+	v 3.6.1
+		Corrected the dependencies list on thunderstore
 	v 3.6.0
 		Updated the mod to work with the newest version of Risk of Rain 2.
 		(Fixed a problem with picking up "Lunar Coins" and "Lunar Items")

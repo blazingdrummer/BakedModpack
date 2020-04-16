@@ -1,10 +1,10 @@
 {
   "name": "LunarCoinShareOnPickup",
-  "version_number": "3.6.0",
+  "version_number": "3.6.1",
   "website_url": "",
   "description": "When one player in the lobby picks up a lunar coin, each player in the lobby will receive one. No more hate and envy against the person who grabs them the quickest. Change Lunar Coin shared and unshared amount via config.",
   "dependencies": [
-    "bbepis-BepInExPack-2.0.0",
-    "tristanmcpherson-R2API-2.2.32"
+    "bbepis-BepInExPack-3.2.0",
+    "tristanmcpherson-R2API-2.4.10"
   ]
 }

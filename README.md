@@ -130,12 +130,13 @@ Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 
   - DebugToolkit currently has a problem with its commands where you need to use the "true name" of items/equipment when spawning them in, and specify how many every time
     - use the names listed [here](https://github.com/risk-of-thunder/R2Wiki/wiki/Item-&-Equipment-IDs-and-Names)
   - (not really a bug?) going to the next stage toggles `noclip` off and takes focus away from the console
+  - [GitHub link](https://github.com/blazingdrummer/BakedModpack/issues/2): OrderedItems currently causes the top inventory bar to improperly display items at times. Waiting on a fix for now.
 #### Multiplayer-Only
   - price labels on the modded portions of the Bazaar display as gold rather than lunar coins for clients (e.g. $1 instead of 1 lunar)
   - the red item cauldron in the Bazaar and the Overgrown printer both give the player an item directly into their inventory, but also drop one on the ground, resulting in duplication
     - simply don't pick up this item; in the case that you accidentally do and want to remove it, simply use the command `remove_item {item_name} 1`
 
-For a more up-to-date list, check the `#known-issues` channel on the [Discord](https://discord.gg/QRtdUbV).
+For a more up-to-date list, check the [GitHub issues page](https://github.com/blazingdrummer/BakedModpack/issues) and the `#known-issues` channel on the [Discord](https://discord.gg/QRtdUbV).
 
 # TODO
 - updating the  wiki to include a complete description of all of the mods and how they are setup, and a guide for handling save edits and other aspect ratios
@@ -251,9 +252,15 @@ In order to not make this readme any longer than it already is, the pre-release 
     - added a notice about modifying the pack
     - added section headers to **Disclaimers**
 
-TODO: `v2.2.1`
+TODO: `v2.2.2`
 
   - added PocketPrinter v1.1.0
-  - added GiganticAmethyst v1.0.0
-  - [ ] added bleeding-edge DebugToolkit
-  - disabled OrderedItems due to UI issue
+  - [ ] added bleeding-edge DebugToolkit; remove this before main release
+  - disabled OrderedItems due to current UI issue
+  - updated HarbTweaks to v1.3.0
+  - updated TheSurgeon to v1.4.2
+  - disabled the chat function for ScannerPlusOne
+    - this option tended to spam the chat when you had low equipment cooldown
+    - scanner icons are still color-coded, so learning the colors shouldn't be too hard
+  - updated LunarCoinShareOnPickup to v3.6.1
+  - added RestackShrineBehaviour v2.0.1

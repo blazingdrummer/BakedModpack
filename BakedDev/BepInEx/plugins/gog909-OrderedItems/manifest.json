@@ -1,9 +1,0 @@
-{
-    "name": "OrderedItems",
-    "version_number": "2.1.0",
-    "website_url": "https://github.com/gog909/Ordered-Items",
-    "description": "Organizes items in inventory by ID and Tier.",
-    "dependencies": [
-        "bbepis-BepInExPack-1.3.1"
-    ]
-}

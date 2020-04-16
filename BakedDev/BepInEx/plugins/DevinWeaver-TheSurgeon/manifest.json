@@ -1,6 +1,6 @@
 {
 		"name": "TheSurgeon",
-		"version_number": "1.4.1",
+		"version_number": "1.4.2",
 		"website_url": "",
 		"description": "Adds the Surgeon, a new survivor who overcomes their low base damage by manipulating the cooldown of their powerful special.",
 		"dependencies": [

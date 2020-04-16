@@ -15,6 +15,7 @@ Recommend that you use [Configuration Manager](https://thunderstore.io/package/J
 * **Bigger Lockboxes** makes the rusted lockbox spawned from rusted keys  increase in size as you acquire more keys. It can be configured to just all scale up all boxes in the first place and not scale with keys. **Multiplayer:** entirely clientside.
 * **MultiShopImprovements** prevents multishop terminals roll a question mark more than once, and also prevents them from rolling three times the same item. Can be configured to disallow question marks and duplicates completely. **Multiplayer:** Hostside.
 * **Silent Altar** Disables that stupid windnoise that you can hear from everywhere on the Wetland Aspect. God I hate that noise. I really do.
+* **Grandparent Effect Disable** Are you tired of seeing the pointless error about a boss that isn't even in the game? This fixed the problem by attaching the thing it request for to it. By [SushiDev](https://thunderstore.io/package/SushiDev/) 
 
 ---
 
@@ -26,7 +27,7 @@ These are niche features asked for by a small subset of people.
 * **No Forward Saw** sets the force applied on the player when using MUL-T's Power Saw to `0`. Can be configured. **Multiplayer:** Let me know.
 * **Shorter Medkits** makes the time you have to wait for a medkit to apply to `0.9` seconds. Can be configured. **Multiplayer:** Hostside.
 * **Commando Grenades are Impact** makes commando's grenades explode on impact. By [SushiDev](https://thunderstore.io/package/SushiDev/) **Multiplayer:** Let me know.
-* **First Stage Spawns** aims to improves the pace of the game's start. Twice as many enemies appear prespawned on the first stage. Can be configured for different densities. **Multiplayer:** entirely hostside
+* **First Stage Spawns** aims to improves the pace of the game's start. Twice as many enemies appear prespawned on the first stage. Can be configured for different densities or to just apply to all stages. **Multiplayer:** entirely hostside
 
 ---
 

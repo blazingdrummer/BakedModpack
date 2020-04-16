@@ -1,3 +1,0 @@
-queen's gland plus elite equipment summons infinite allies with no cooldown
-would be nice if networked text on shrine of chance would disappear after shrine has been fully used
-might be the cause of the client text issue in the bazaar? possibly Bigger Bazaar as well

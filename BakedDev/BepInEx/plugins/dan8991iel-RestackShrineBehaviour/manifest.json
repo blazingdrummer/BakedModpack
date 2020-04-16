@@ -1,0 +1,10 @@
+{
+  "name": "RestackShrineBehaviour",
+  "version_number": "2.0.1",
+  "website_url": "",
+  "description": "Instead of only receiving one item of each tier you will receive random items of each tier according to the numbers of items you have in each tier. This makes the Shrine of Order useful and fun. Change other shrine values via config",
+  "dependencies": [
+    "bbepis-BepInExPack-3.2.0",
+    "tristanmcpherson-R2API-2.4.10"
+  ]
+}

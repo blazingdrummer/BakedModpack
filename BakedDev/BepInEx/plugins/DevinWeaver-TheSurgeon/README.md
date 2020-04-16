@@ -59,6 +59,9 @@
 
 ## Changelog
 
+### 1.4.2
+- Fixed a bug where certain abilities wouldn't work properly if used by a non-host in multiplayer.
+
 ### 1.4.1
 - Fixed a bug where Transfusion did not heal stored damage properly.
 
@@ -110,7 +113,6 @@
 
 
 ## To-Do List
-- Fix a bug where certain abilities don't work properly if used by a non-host in multiplayer.
 - Add UI elements near the crosshair for things such as current special charge, Hemorrhage's cooldown, or Transfusion's stored damage, to lessen the amount of time spent looking at health and skill icons instead of the actual game.
 - The Surgeon uses Artificer as a base for a lot of non-gameplay things. The model and animations used aren't going to change, but the ability icons, skins, and ENV Suit eventually might.
 - As a result, mods that change Artificer *may* have knock-on effects on the Surgeon. The mod may be restructured in the future to reduce such incompatibilities.
