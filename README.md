@@ -1,7 +1,7 @@
 #### Please don't bug other devs with issues or feedback! Go to the [Contact Info](https://thunderstore.io/package/blazingdrummer/BakedModpack/#contact-info) section and I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!
 
 # Installation
-  1. Install a mod manager that can automatically install dependencies (I'd recommend Ebkr's excellent [r2modman](https://thunderstore.io/package/ebkr/r2modman/) manager).
+  1. Install a mod manager that can automatically install dependencies **and** handle modpack installations. (I'd recommend Ebkr's excellent [r2modman](https://thunderstore.io/package/ebkr/r2modman/) manager).
 
   2. Install the BakedModpack "mod" to automatically install all of the mods and configure them.
     - With r2modman, simply install the program, create a new profile, click the **Online** section, and search for "BakedModpack". Then click **Download**.
@@ -252,7 +252,7 @@ In order to not make this readme any longer than it already is, the pre-release 
     - added a notice about modifying the pack
     - added section headers to **Disclaimers**
 
-TODO: `v2.2.2`
+TODO: `v2.2.3`
 
   - added PocketPrinter v1.1.0
   - [ ] added bleeding-edge DebugToolkit; remove this before main release
@@ -264,3 +264,4 @@ TODO: `v2.2.2`
     - scanner icons are still color-coded, so learning the colors shouldn't be too hard
   - updated LunarCoinShareOnPickup to v3.6.1
   - added RestackShrineBehaviour v2.0.1
+  - added ItemDropList v1.1.1

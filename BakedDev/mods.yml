@@ -1141,6 +1141,53 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\dan8991iel-RestackShrineBehaviour\2.0.1\icon.png
 - manifestVersion: 1
+  name: Rico-GiganticAmethyst
+  authorName: Rico
+  websiteUrl: https://thunderstore.io/package/Rico/GiganticAmethyst/
+  displayName: GiganticAmethyst
+  description: Adds the Gigantic Amethyst, an equipment that resets ability cooldowns
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.4.1
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rico-GiganticAmethyst\1.1.1\icon.png
+- manifestVersion: 1
+  name: Phedg1Studios-ItemDropList
+  authorName: Phedg1Studios
+  websiteUrl: https://thunderstore.io/package/Phedg1Studios/ItemDropList/
+  displayName: ItemDropList
+  description: This mod will allow players to choose which items can be found in chests and
+    from boss drops.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.3.22
+    - bbepis-BepInExPack-3.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: false
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-ItemDropList\1.1.1\icon.png
+- manifestVersion: 1
   name: Rein-RogueWisp
   authorName: Rein
   websiteUrl: https://thunderstore.io/package/Rein/RogueWisp/
