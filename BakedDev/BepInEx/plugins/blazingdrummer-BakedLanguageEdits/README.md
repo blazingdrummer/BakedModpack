@@ -6,27 +6,27 @@ Using these edits without the associated modpack might give you some confusing r
 ## What Does It Do?
 BLE (BakedLanguageEdits) makes changes to the in-game text to support changes made by the modpack and to give users more information while they are playing.
 
-Pinging & picking up an item gives you more exact stats as to what it does, where in vanilla, this would simply say something like "increases attack speed". Normally, this information is only available in a wiki while you are playing, or in the logbook. It could be argued that this is a skill aspect of the game, and I agree that memorizing what items do is important, but personally I think that it's an unnecessary step. If you have to read every description, you'll be keeping a slower pace than if you already have an item's function memorized. And having this resource allows you to potentially theorycraft build options on the fly (eg figuring out if your current build will support infinite tonic).
-
-![ItemPingDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/ItemPingDescription.png)
-
-Hovering over an item in the Tab menu gives you a similar description.
+Hovering over an item in the Tab menu or picking it up gives you more exact stats as to what it does, where in vanilla, this would simply say something like "increases attack speed". Normally, this information is only available in a wiki while you are playing, or in the logbook. It could be argued that this is a skill aspect of the game, and I agree that memorizing what items do is important, but personally I think that it's an unnecessary step. If you have to read every description, you'll be keeping a slower pace than if you already have an item's function memorized. And having this resource allows you to potentially theorycraft build options on the fly (eg figuring out if your current build will support infinite tonic).
 
 ![ItemHoverDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/ItemHoverDescription.png)
 
+Assuming you are playing with the highly recommended [Pingprovements](https://thunderstore.io/package/pixeldesu/Pingprovements/), pinging an item gives you a similar description.
+
+![ItemPingDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/ItemPingDescription.png)
+
 Equipment also shows more exact numbers, as well as the base cooldown.
-
-![EquipmentPingDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/EquipmentPingDescription.png)
-
-And supports hovering.
 
 ![EquipmentHoverDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/EquipmentHoverDescription.png)
 
-This become particularly useful with something like Tonic, which has a lot of effects. Items like this I've done a large amount of formatting and editing on longer description like this in order to ensure they don't run offscreen. This might have problems on different resolutions, which I could consider looking into potential solutions for.
+And supports pings.
+
+![EquipmentPingDescription](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/EquipmentPingDescription.png)
+
+This becomes particularly useful with something like Spinel Tonic, which has a lot of effects. I've done a large amount of formatting and editing on longer descriptions like this in order to ensure they don't run offscreen. This might have problems on different resolutions, which I could consider looking into potential solutions for.
 
 ![SpinelTonic](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/SpinelTonic.png)
 
-I also moved the negative effects onto the description for Tonic Affliction, and various other small tweaks like this.
+I also moved the negative effects onto the description for Tonic Affliction. There are many other small tweaks like this.
 
 ![TonicAffliction](https://raw.githubusercontent.com/blazingdrummer/BakedLanguageEdits/master/Images/TonicAffliction.png)
 
@@ -44,7 +44,7 @@ This might be a useful example for how to use AssetPlus to replace the game's la
 I've also included a file named "styles.txt" that I used as my personal notes when creating this that contains all of the formatting syntax I (and originally Hopoo) used. If you are interested in doing any language edits yourself, I hope you will find that useful.
 
 # Contact Info
-Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM me on Discord or Twitter [@blazingdrummer](https://twitter.com/blazingdrummer).
+Join the [Baked Discord](https://discord.gg/CYYJdrz), or DM me on Discord or Twitter [@blazingdrummer](https://twitter.com/blazingdrummer).
 **Please don't bug other devs with issues or feedback. I'd be happy to help you and can pass on any information that they will need. Thanks!**
 
 If you do find something that looks off or needs editing, please send me a screenshot like this. I only have two eyes and am sure I miss a lot of detail.
@@ -116,3 +116,11 @@ If you do find something that looks off or needs editing, please send me a scree
   - started to modify a few character's ability descriptions; this is just the start of a large process of adding more detail to character select
   - fixed wording on Recycler to be more clear
   - clarified that the pack's User Guide is on the wiki
+
+`v2.0.6`
+
+  - added credit for new authors that I've worked with to the Welcome screen
+  - slight edits to the Thunderstore page to clear up confusion with the synergy with Pingprovements
+  - changed Bandolier description to clarify it only restores 1 charge, instead of completely resetting skills
+  - removed chat readout reference from Scanner to reflect modpack change
+  - sneaky Mad Max: Fury Road reference...

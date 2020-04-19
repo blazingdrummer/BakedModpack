@@ -63,8 +63,8 @@
     "EQUIPMENT_AFFIXBLUE_DESC": "<color=#007fff>Become an aspect of lightning.</color>\n\nConvert <style=cIsHealth>50% of your health</style> to <style=cIsHealing>shield</style> that recharges outside of danger. Upon striking, attacks attach a <style=cIsDamage>bomb</style> that explodes for <style=cIsDamage>50% of the damage</style> after 1.5 seconds.",
 
 	"EQUIPMENT_AFFIXGOLD_NAME": "Coven of Gold",
-    "EQUIPMENT_AFFIXGOLD_PICKUP": "<color=#007fff>Luck smiles upon you. His strength fills you... Become an aspect of fortune.",
-    "EQUIPMENT_AFFIXGOLD_DESC": "<color=#007fff>Luck smiles upon you. His strength fills you... Become an aspect of fortune.",
+    "EQUIPMENT_AFFIXGOLD_PICKUP": "<color=#007fff>\"I myself will carry you to the Gates...\nYou will ride eternal... Shiny and chrome...\"</color>",
+    "EQUIPMENT_AFFIXGOLD_DESC": "<color=#007fff>\"I myself will carry you to the Gates...\nYou will ride eternal... Shiny and chrome...\"</color>",
 
 	"EQUIPMENT_AFFIXWHITE_NAME": "<color=#ad41f1>Her Biting Embrace</color>",
     "EQUIPMENT_AFFIXWHITE_PICKUP": "<color=#007fff>Become an aspect of ice.</color>\n\nAttacks apply an <style=cIsUtility>80% slow</style> on hit for 1.5 seconds. <style=cDeath>Upon death</style>, leave behind an <style=cIsDamage>ice bomb</style> that explodes for <style=cIsDamage>150%</style> damage after 2 seconds. All enemies in the radius are <style=cIsUtility>frozen</style> for 1.5 seconds.",
@@ -88,8 +88,8 @@
 	"EQUIPMENT_SOULCORRUPTOR_DESC": "<sprite name=\"WIP\"> EQUIPMENT_SOULCORRUPTOR_DESC <sprite name=\"WIP\">",
 
 	"EQUIPMENT_SCANNER_NAME": "Radar Scanner",
-	"EQUIPMENT_SCANNER_PICKUP": "<style=cIsUtility>Reveal</style> all interactables within 500m for <style=cIsUtility>10 seconds</style> and print color-coded results in chat.\n<style=cStack>Base Cooldown: 45 seconds</style>",
-	"EQUIPMENT_SCANNER_DESC": "<style=cIsUtility>Reveal</style> all interactables within 500m for <style=cIsUtility>10 seconds</style> and print color-coded results in chat.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+	"EQUIPMENT_SCANNER_PICKUP": "<style=cIsUtility>Reveal</style> all interactables within 500m for <style=cIsUtility>10 seconds</style>.\n<style=cStack>Base Cooldown: 45 seconds</style>",
+	"EQUIPMENT_SCANNER_DESC": "<style=cIsUtility>Reveal</style> all interactables within 500m for <style=cIsUtility>10 seconds</style>.\n<style=cStack>Base Cooldown: 45 seconds</style>",
 
 	"EQUIPMENT_CRIPPLEWARD_NAME" : "Effigy of Grief",
 	"EQUIPMENT_CRIPPLEWARD_PICKUP" : "Drop an effigy on the ground that creates an <style=cIsUtility>aura</style>. ALL characters within are <style=cIsUtility>slowed by 50%</style> and have their <style=cIsDamage>armor reduced by 20</style>. Can be picked back up.",

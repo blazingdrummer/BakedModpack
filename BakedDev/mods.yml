@@ -106,10 +106,10 @@
   versionNumber:
     major: 2
     minor: 0
-    patch: 5
+    patch: 6
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\blazingdrummer-BakedLanguageEdits\2.0.5\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\blazingdrummer-BakedLanguageEdits\2.0.6\icon.png
 - manifestVersion: 1
   name: wildbook-MiniRpcLib
   authorName: wildbook

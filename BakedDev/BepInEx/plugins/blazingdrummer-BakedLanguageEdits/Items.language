@@ -168,8 +168,8 @@
 	"ITEM_FIREWORK_LORE" : "\"Hey, happy anniversary!\r\n\r\nYou really thought I forgot?\r\n\r\nAh, I thought I was the dumb one in our relationship. C'mon T, of course not! Well, I wasn't going to let a little alien death planet ruin our night. Right? Shh, just watch. Just watch. It's okay. Just watch. You'll love it - you really will. Then we can go home.\r\n\r\nYou can keep your eyes closed. Just listen. Ah - here it comes! In five... four... three... two... ONE...!\"\r\n",
 
 	"ITEM_BANDOLIER_NAME": "Bandolier",
-	"ITEM_BANDOLIER_PICKUP": "Chance on kill to drop an ammo pack that <style=cIsUtility>resets all skill cooldowns</style>. <style=cStack>Increases drop chance per stack.</style>",
-	"ITEM_BANDOLIER_DESC": "Chance on kill to drop an ammo pack that <style=cIsUtility>resets all skill cooldowns</style>. <style=cStack>Increases drop chance per stack.</style>",
+	"ITEM_BANDOLIER_PICKUP": "Chance on kill to drop an ammo pack that <style=cIsUtility>restores 1 charge to all skill cooldowns</style>. <style=cStack>Increases drop chance per stack.</style>",
+	"ITEM_BANDOLIER_DESC": "Chance on kill to drop an ammo pack that <style=cIsUtility>restores 1 charge to all skill cooldowns</style>. <style=cStack>Increases drop chance per stack.</style>",
 
 	"ITEM_STUNCHANCEONHIT_NAME": "Stun Grenade",
 	"ITEM_STUNCHANCEONHIT_PICKUP": "Chance on hit to <style=cIsUtility>stun</style> enemies for <style=cIsUtility>2 seconds</style>. <style=cStack>Stacks hyperbolically.\n(1 = 4%, 10 = 33%, 50 = 71%)</style>",
