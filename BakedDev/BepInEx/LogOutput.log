@@ -47,7 +47,7 @@
 [Info   : Preloader] Collecting methods from: TemporaryLunarCoins
 [Info   : Preloader] Collecting methods from: AllyPing
 [Info   : Preloader] Collecting methods from: BanditReloaded
-[Info   : Preloader] Collecting methods from: ShowDeathCause
+[Info   : Preloader] Collecting methods from: ItemDropList
 [Info   : Preloader] Collecting methods from: StartingItemsGUI
 [Info   : Preloader] Collecting methods from: Pingprovements
 [Info   : Preloader] Collecting methods from: AlternateArtificer
@@ -68,8 +68,8 @@
 [Info   : Preloader] Collecting methods from: Rampage
 [Info   : Preloader] Collecting methods from: DebugToolkit
 [Message: Preloader] Found 41 mods with a MMHook dependency.
-[Info   : Preloader] Number of neededtypes for hooks : 234
-[Info   : Preloader] Stripping types. This may take a while.
+[Info   : Preloader] Number of neededtypes for hooks : 238
+[Info   : Preloader] LighterhHook has already run for these mods. Using that old file again.
 [Message: Preloader] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
@@ -153,6 +153,7 @@
 [Info   :   BepInEx] Loading [AllyPing 1.0.0]
 [Info   :   BepInEx] Loading [Bandit Reloaded 1.1.1]
 [Info   :   BepInEx] Loading [SimpleRoll 1.0]
+[Info   :   BepInEx] Loading [ItemDropList 1.0]
 [Info   :   BepInEx] Loading [StartingItemsBundle 1.0]
 [Info   :   BepInEx] Loading [Pingprovements 1.5.1]
 [Info   :   BepInEx] Loading [General Balance + Fixes 2.3.0.95]
@@ -173,7 +174,6 @@
 [Info   :   BepInEx] Loading [StealthySpawn 1.0.0]
 [Info   : Unity Log] Stealthy Spawn duration: 4s
 [Info   :   BepInEx] Loading [AI Blacklister 1.0.0]
-[Info   :   BepInEx] Loading [ShowDeathCause 1.0.2]
 [Info   :   BepInEx] Loading [TooManyFriends 1.0]
 [Info   :   BepInEx] Loading [PocketPrinter 1.1.0]
 [Message:   BepInEx] Chainloader startup complete
@@ -205,9 +205,7 @@
 [Info   : Unity Log] Initializing system: ItemCatalog
 [Info   :     R2API] Custom Item: Bisco's Leash added
 [Info   :     R2API] Custom Item: Adaptive Filament added
-[Warning:AI Blacklister] 110 is not a valid ItemIndex.
 [Info   :AI Blacklister] Added item 'ShockNearby' to AI blacklist.
-[Info   :AI Blacklister] Removed item '110' from AI blacklist.
 [Info   : Unity Log] Initializing system: MasterCatalog
 [Info   : Unity Log] Initializing system: PickupCatalog
 [Info   : Unity Log] Initializing system: PickupTransmutationManager
@@ -257,9 +255,9 @@
 [Info   : Unity Log] Initializing system: RuleBook
 [Info   : Unity Log] SystemInitializerAttribute infinite loop detected. currentMethod=RoR2.CharacterSpawnCardInit
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
-[Info   : Unity Log] stream.Length=139516
+[Info   : Unity Log] stream.Length=139565
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
-[Info   : Unity Log] stream.Length=132162
+[Info   : Unity Log] stream.Length=132394
 [Info   : Unity Log] english
 [Info   : Unity Log] Setting current language to "en"
 [Info   : Unity Log] 2
@@ -274,3 +272,66 @@
 [Info   :MiniRpcLib] 2769529076[0] Registering action | Server
 [Info   :MiniRpcLib] 2769529076[1] Registering action | Server
 [Info   :MiniRpcLib] 2769529076[2] Registering action | Client
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] gridColumns=8,totalElements=14,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] FlashWindow.Flash(526010)
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
+[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
+[Info   : Unity Log] FlashWindow.Flash(526010)
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Error  : Unity Log] A connection has already been set as ready. There can only be one.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
+[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] Active scene changed from  to golemplains
+[Info   : Unity Log] Loaded scene golemplains loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=golemplains currentSceneName=golemplains
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Spending 220 credits on interactables...
+[Info   : Unity Log] MAP_GOLEMPLAINS_TITLE
+[Info   : Unity Log] reorder list
+[Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'TextMeshPro-1.0.55.2017.1.0b11, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+Stack trace:
+StatsDisplay.StatsDisplay.Update () (at <372153f7ecc04005aa28b4f525d700b7>:0)
+
+[Info   : Unity Log] Chatbox showInput:True
+[Info   : Unity Log] Chatbox showInput:False
+[Info   : Unity Log] Chatbox showInput:True
+[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
+[Info   : Unity Log]  -- Temporary Lunar Coins --
+<size=15px>If you wish to participate in this run, you need to agree to have your lunar coins reset. Type <color=#00cc00>"tlc_aye"</color> in the chat if you agree. Otherwise leave the game and keep your coins. The game will resume once everyone present agreed.</size>
+[Info   : Unity Log] Submitting say cmd.
+[Info   : Unity Log] SubmitChat() submittedText=tlc_aye
+[Info   : Unity Log] Chatbox showInput:False
+[Info   : Unity Log] <color=#e5eefc><noparse>blazingdrummer</noparse>: <noparse>tlc_aye</noparse></color>
+[Info   : Unity Log] blazingdrummer is spawning as ScavBody
+[Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'TextMeshPro-1.0.55.2017.1.0b11, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+Stack trace:
+StatsDisplay.StatsDisplay.Update () (at <372153f7ecc04005aa28b4f525d700b7>:0)
+
+[Info   : Unity Log] Gave 1 110 to blazingdrummer
+[Info   : Unity Log] MONSTER_PICKUP_2P
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
+[Info   : Unity Log] Network shutting down...
+[Info   : Unity Log] Server shutting down...
+[Info   : Unity Log] Issued kick message to all remote clients.
+[Info   : Unity Log] Finished waiting for clients to disconnect.
+[Info   : Unity Log] StopHost()
+[Info   : Unity Log] Server shutdown complete.
+[Info   : Unity Log] Unloaded scene golemplains
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (132427 bytes)
+[Info   : Unity Log] Shutting down Steamworks...
+[Info   : Unity Log] Shut down Steamworks.
+[Info   : Unity Log] AutoSprint: Disabling sprinting crosshair:
+[Info   : Unity Log] AutoSprint: Disabling Sprint FOV Change:
+[Info   : Unity Log] AutoSprint: Disabling Speedlines:
+[Info   : Unity Log] AutoSprint: CameraRigController.Update IL edits done.

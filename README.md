@@ -1,12 +1,12 @@
 #### Please don't bug other devs with issues or feedback! Go to the [Contact Info](https://thunderstore.io/package/blazingdrummer/BakedModpack/#contact-info) section and I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!
 
 # Installation
-  1. Install a mod manager that can automatically install dependencies **and** handle modpack installations. (I'd recommend Ebkr's excellent [r2modman](https://thunderstore.io/package/ebkr/r2modman/) manager).
+  1. Install a mod manager that can automatically install dependencies **and** handle modpack (packages that include a `.modpack` file) installation. (Ebkr's excellent [r2modman](https://thunderstore.io/package/ebkr/r2modman/) is the **ONLY** manager that I know of that currently supports both of these. Using another manager might result in version mismatch and multiplayer issues.)
 
   2. Install the BakedModpack "mod" to automatically install all of the mods and configure them.
-    - With r2modman, simply install the program, create a new profile, click the **Online** section, and search for "BakedModpack". Then click **Download**.
+      - With r2modman, simply install the program, create a new profile, click the **Online** section, and search for "BakedModpack". Then click **Download**.
 
-  3. Read the Overview below for a brief rundown on the changes you need to know about before playing the modpack and join the [Discord](https://discord.gg/QRtdUbV) to stay up-to-date with any changes.
+  3. Read the Overview below for a brief rundown on the changes you need to know about before playing the modpack and join the [Discord](https://discord.gg/CYYJdrz) to stay up-to-date with any changes.
 
   4. Click **Play Modded**.
 
@@ -46,7 +46,7 @@ Note: One quirk of a modpack setup like this is that disabling/uninstalling a mo
   - **Gameplay:** `sprint sensitivity reduction` = disabled
     - personal preference; this really messes with your sensitivity due to auto-sprint in my experience
   - **Video:** aspect ratio = 16:9, `HUD scale` = 100%
-    - This is by no means required, but other aspect ratios may cause UI issues because the custom UI positions are all based on screen percentage. They should all be fixable, but will require you to adjust the configs to your own setup. Please ask me in the [Discord](https://discord.gg/QRtdUbV) if you need help doing this.
+    - This is by no means required, but other aspect ratios may cause UI issues because the custom UI positions are all based on screen percentage. They should all be fixable, but will require you to adjust the configs to your own setup. Please ask me in the [Discord](https://discord.gg/CYYJdrz) if you need help doing this.
   - **Graphics:** `corpse clean-up` = immediate, `max corpses` = 0
     - I personally use this to remove clutter and increase performance. You don't have to do this, but I don't test without it, so your results may vary.
 
@@ -88,6 +88,7 @@ Note: One quirk of a modpack setup like this is that disabling/uninstalling a mo
 ### [Pingprovements](https://thunderstore.io/package/pixeldesu/Pingprovements/)
   - there is no longer any limit to how many pings you can have active at once
   - ping duration now depends on type: interactable pings last a long time, allowing you to ping things like chests or the teleporter that you want to return to later; this also applies to items on the ground, so you can leave them for a teammate
+  - pinging an item/equipment now shows its description as if you had picked it up
 ### [AllyPing](https://thunderstore.io/package/mistername/AllyPing/)
   - pinging an enemy now makes your minions target them
 ### [Starting Items GUI](https://thunderstore.io/package/Phedg1Studios/StartingItemsGUI/)
@@ -109,53 +110,55 @@ Note: One quirk of a modpack setup like this is that disabling/uninstalling a mo
 **Multiplayer-Only**
 
   - Unlocks the multiplayer lobby size (default max = 16, adjustable in config)
+### [SimpleRoll](https://thunderstore.io/package/hlista/SimpleRoll/)
+
+  - for the MMO fans; adds a /roll command to chat (not to console) that gives a number from 1-100
+  - useful for solving item disputes; other options include finding nicer friends ;)
 
 There are dozens of other changes made to the game and additional content, including characters and items, that are not mentioned in this brief overview. As previously mentioned, they should all be discoverable and learnable just by playing the game, but if you would like a full spoiler-heavy rundown (EDIT: COMING SOON) of all of the changes made, you can find it in the [User's Guide](https://github.com/blazingdrummer/BakedModpack/wiki/User's-Guide).
 
 # Known Issues
 Many of these issues are marked in-game with a wrench icon to indicate they are known. Please refer back to this section if you see one.
-### Impossible Challenges
+## Impossible Challenges
 Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 challenges from the base game that are nearly or completely impossible to complete when playing this pack. I'd recommend picking one of the presented solutions when you run into this situation.
 
   - `Prismatically Aligned`: Complete a Prismatic Trial
-    - While you are playing a modded instance, prismatic trials are not available (to prevent cheating). Your options are: complete this challenge in vanilla RoR2 before returning to modded play, or modify your save file. For information on how to edit your save file directly, check out [this guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1704500228) or visit the [Discord](https://discord.gg/QRtdUbV) if you have questions.
+    - While you are playing a modded instance, prismatic trials are not available (to prevent cheating). Your options are: complete this challenge in vanilla RoR2 before returning to modded play, or modify your save file. For information on how to edit your save file directly, check out [this guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1704500228) or visit the [Discord](https://discord.gg/CYYJdrz) if you have questions.
   - `Mercenary: Ethereal`: As Mercenary, complete a Prismatic Trial without falling below 100% health.
     - Same as `Prismatically Aligned`.
-  - `Pause.`: Free the survivor suspended in time.
-    - Because this challenge requires at minimum 10 lunar coins to complete, it is uniquely difficult in this modpack, because you'd need to achieve it in one run. Lunar coins' drop chance also decreases for that run every time one drops, making this challenge potentially nearly impossible. Your options are: disable the TemporaryLunarCoins mod in r2modman and play normally until you complete this challenge, use the `give_lunar 10` command to gain the necessary coins, or modify your save file. For information on how to edit your save file directly, check out [this guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1704500228) or visit the [Discord](https://discord.gg/QRtdUbV) if you have questions.
 
-### Known Bugs/Problems
+## Known Bugs/Problems
   - loading into the Bazaar using a game save causes the BiggerBazaar chests to not spawn
     - simply don't save your game in the Bazaar or do your shopping beforehand
-  - DebugToolkit currently has a problem with its commands where you need to use the "true name" of items/equipment when spawning them in, and specify how many every time
+  - DebugToolkit currently has a problem with its commands where you need to use the "true name" of items/equipment when using commands, and specify how many every time
     - use the names listed [here](https://github.com/risk-of-thunder/R2Wiki/wiki/Item-&-Equipment-IDs-and-Names)
+    - alternatively, install the bleeding-edge DebugToolkit available on their Discord; join the Discord and ask if you don't know how to do that, I'll likely also be including it in beta versions until R2API receives an update
   - (not really a bug?) going to the next stage toggles `noclip` off and takes focus away from the console
-  - [GitHub link](https://github.com/blazingdrummer/BakedModpack/issues/2): OrderedItems currently causes the top inventory bar to improperly display items at times. Waiting on a fix for now.
-#### Multiplayer-Only
-  - price labels on the modded portions of the Bazaar display as gold rather than lunar coins for clients (e.g. $1 instead of 1 lunar)
-  - the red item cauldron in the Bazaar and the Overgrown printer both give the player an item directly into their inventory, but also drop one on the ground, resulting in duplication
+### Multiplayer-Only
+  - price labels on the modded portions of the Bazaar display as gold rather than lunar coins for clients (e.g. $1 instead of 1 lunar); reported to Magnus
+  - [GitHub link](https://github.com/blazingdrummer/BakedModpack/issues/3): the red item cauldron in the Bazaar, the Overgrown printer, and the Cleansing Pool all give the player an item directly into their inventory, but also drop one on the ground, resulting in duplication
     - simply don't pick up this item; in the case that you accidentally do and want to remove it, simply use the command `remove_item {item_name} 1`
 
-For a more up-to-date list, check the [GitHub issues page](https://github.com/blazingdrummer/BakedModpack/issues) and the `#known-issues` channel on the [Discord](https://discord.gg/QRtdUbV).
+For a more up-to-date list, check the [GitHub issues page](https://github.com/blazingdrummer/BakedModpack/issues) and the `#known-issues` channel on the [Discord](https://discord.gg/CYYJdrz).
 
 # TODO
 - updating the  wiki to include a complete description of all of the mods and how they are setup, and a guide for handling save edits and other aspect ratios
-- working on adding custom achievements to replace the impossible challenges
+- working on solutions for the impossible challenges
 - possibly bringing back BakedMutators once I figure out what would still be fun #PvPModeIncoming
 - possibly extending BakedLanguageEdits that allows me to edit the description of items added by mods (ie Rampage, Wicked Ring)
 - as always, I'm keeping a look at for new content and QOL mods...
 
 # Contact Info
-Join the [Baked Discord](https://discord.gg/QRtdUbV), or DM me on Discord or Twitter [@blazingdrummer](https://twitter.com/blazingdrummer).
+Join the [Baked Discord](https://discord.gg/CYYJdrz), or DM me on Discord or Twitter [@blazingdrummer](https://twitter.com/blazingdrummer).
 **Please don't bug other devs with issues or feedback! I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!**
 
 ## Credits
 I'd like to give a massive shoutout to all of the developers and other members of the RoR2 modding community for all of their help and support so far. This project started in January 2020 and has been immensely satisfying to work on, so I really hope everyone enjoys it.
 
-In particular, I'd like to thank Ebkr, Moffein, Rein, Magnus, Sipondo & Funkfrog, Mythic, Harb, Fubuki, and Phedg1 for their hard work and graciously both providing and considering input. And, of course, a big thank you to Hopoo Games!
+In particular, I'd like to thank Ebkr, Moffein, Rein, Magnus, Sipondo & Funkfrog, Mythic, Harb, Fubuki, Phedg1, Rico, and Sciman101 for their hard work and graciously both providing and considering input. And, of course, a big thank you to Hopoo Games!
 
 ## Changelog
-In order to not make this readme any longer than it already is, the pre-release changes can be found in the `#changelog` section of the [Discord](https://discord.gg/QRtdUbV).
+In order to not make this readme any longer than it already is, the pre-release changes can be found in the `#changelog` section of the [Discord](https://discord.gg/CYYJdrz).
 
 `v1.5.1`
 
@@ -252,16 +255,25 @@ In order to not make this readme any longer than it already is, the pre-release 
     - added a notice about modifying the pack
     - added section headers to **Disclaimers**
 
-TODO: `v2.2.3`
+`v2.2.4`
 
+  - removed ShowDeathCause
+    - was causing certain setups to hang when closing to desktop
   - added PocketPrinter v1.1.0
-  - [ ] added bleeding-edge DebugToolkit; remove this before main release
-  - disabled OrderedItems due to current UI issue
+    - *Shoutout to Sciman101 for working with me to balance this mod and resolve issues*
+  - removed OrderedItems due to current UI issue
+    - [GitHub link](https://github.com/blazingdrummer/BakedModpack/issues/2): OrderedItems currently causes the top inventory bar to improperly display items at times
+    - currently working with the author to hopefully reach a solution
   - updated HarbTweaks to v1.3.0
   - updated TheSurgeon to v1.4.2
   - disabled the chat function for ScannerPlusOne
     - this option tended to spam the chat when you had low equipment cooldown
     - scanner icons are still color-coded, so learning the colors shouldn't be too hard
   - updated LunarCoinShareOnPickup to v3.6.1
-  - added RestackShrineBehaviour v2.0.1
-  - added ItemDropList v1.1.1
+  - added GiganticAmethyst v1.1.1
+    - *Shoutout to Rico for working with me to balance this mod*
+  - updated StartingItemsGUI to v1.1.3
+    - increased prices slightly; based on average run yield and balanced around Consumable mode
+  - added ItemDropList v1.1.2
+    - this mod will be disabled in-game by default to prevent mass confusion; you can enable it in-game using its menu button
+    - *Shoutout to Phedg1 for working with me to make these compatible with modpack default configurations and changing his config system to work with r2modman's editor*
