@@ -1,0 +1,10 @@
+{
+  "name": "DeathMarkFix",
+  "version_number": "1.0.1",
+  "website_url": " ",
+  "description": "Fixes a small oversight with Death Mark that prevented its damage from scaling",
+  "dependencies": [
+    "tristanmcpherson-R2API-2.4.10",
+    "bbepis-BepInExPack-3.1.0"
+  ]
+}

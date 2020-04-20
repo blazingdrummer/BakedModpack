@@ -40,7 +40,7 @@ This pack is meant to be a framework. The entire purpose of it is to give people
 
 "So how do I actually change things?" Well, that part's actually pretty simple. For example, if you don't like the DPS meter, the good news is that DPSMeter is a client-side mod and you can simply click it in **r2modman** and then click **Disable** without affecting anyone else. Some mods (eg RTAutoSprintEx) have in-game commands that let you adjust them. Other mods (eg ShareSuite) might affect multiplayer, so disabling them will affect your friends if you are the host. Still other mods have issues if not loaded on both sides (ie mods that add characters or other assets not in the base game). Installing new mods is as simple as going to the **Online** tab and clicking **Install**, running the game once to generate the config, and then using the config editor to adjust them.
 
-Note: One quirk of a modpack setup like this is that disabling/uninstalling a mod will prompt r2modman to warn you that BakedModpack will also be affected. This isn't a problem, as the actual BakedModpack "mod" is just used as a dependency hook to load the other mods and doesn't have an effect on gameplay after installation. I'd recommend disabling mods rather than uninstalling, because then you can see when the BakedModpack entry needs an update by the little cloud icon next to it. Updating mods with that icon manually should be fine, but does have the potential to introduce new problems that I will not have tested.
+Note: One quirk of a modpack set up like this is that disabling/uninstalling a mod will prompt r2modman to warn you that BakedModpack will also be affected. This isn't a problem, as the actual BakedModpack "mod" is just used as a dependency hook to load the other mods and doesn't have an effect on gameplay after installation. I'd recommend disabling mods rather than uninstalling, because then you can see when the BakedModpack entry needs an update by the little cloud icon next to it. Updating mods with that icon manually should be fine, but does have the potential to introduce new problems that I will not have tested.
 
 ## Recommended Settings
   - **Gameplay:** `sprint sensitivity reduction` = disabled
@@ -65,7 +65,6 @@ Note: One quirk of a modpack setup like this is that disabling/uninstalling a mo
 | F2  | macro: `god`, `noclip`          |
 | F3  | macro: `no_enemies`, `kill_all` |
 | F5  | open console                    |
-| F6  | reload RPGMod config            |
 | F7  | give players a starter pack     |
 
 ## Basic Changes
@@ -120,7 +119,7 @@ There are dozens of other changes made to the game and additional content, inclu
 # Known Issues
 Many of these issues are marked in-game with a wrench icon to indicate they are known. Please refer back to this section if you see one.
 ## Impossible Challenges
-Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 challenges from the base game that are nearly or completely impossible to complete when playing this pack. I'd recommend picking one of the presented solutions when you run into this situation.
+Due to the nature of modded RoR2 and a lack of access to Prismatic Trials, there are 2 challenges from the base game that are currently impossible to complete while playing this pack. I'd recommend picking one of the presented solutions when you run into this situation.
 
   - `Prismatically Aligned`: Complete a Prismatic Trial
     - While you are playing a modded instance, prismatic trials are not available (to prevent cheating). Your options are: complete this challenge in vanilla RoR2 before returning to modded play, or modify your save file. For information on how to edit your save file directly, check out [this guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1704500228) or visit the [Discord](https://discord.gg/CYYJdrz) if you have questions.
@@ -128,11 +127,9 @@ Due to the nature of modded RoR2 and how the pack uses lunar coins, there are 3 
     - Same as `Prismatically Aligned`.
 
 ## Known Bugs/Problems
-  - loading into the Bazaar using a game save causes the BiggerBazaar chests to not spawn
-    - simply don't save your game in the Bazaar or do your shopping beforehand
   - DebugToolkit currently has a problem with its commands where you need to use the "true name" of items/equipment when using commands, and specify how many every time
     - use the names listed [here](https://github.com/risk-of-thunder/R2Wiki/wiki/Item-&-Equipment-IDs-and-Names)
-    - alternatively, install the bleeding-edge DebugToolkit available on their Discord; join the Discord and ask if you don't know how to do that, I'll likely also be including it in beta versions until R2API receives an update
+    - alternatively, install the bleeding-edge DebugToolkit available on their Discord; join my Discord and ask if you don't know how to do that, I'll likely also be including it in beta versions until R2API receives an update
   - (not really a bug?) going to the next stage toggles `noclip` off and takes focus away from the console
 ### Multiplayer-Only
   - price labels on the modded portions of the Bazaar display as gold rather than lunar coins for clients (e.g. $1 instead of 1 lunar); reported to Magnus
@@ -277,3 +274,10 @@ In order to not make this readme any longer than it already is, the pre-release 
   - added ItemDropList v1.1.2
     - this mod will be disabled in-game by default to prevent mass confusion; you can enable it in-game using its menu button
     - *Shoutout to Phedg1 for working with me to make these compatible with modpack default configurations and changing his config system to work with r2modman's editor*
+
+`v2.2.5`
+
+  - README: removed confusing references to old mods
+  - added DeathMarkFix v1.0.1
+  - added SpeedyBeetles v1.0.3
+  - added MobileTurretBuff v1.0.0

@@ -27,6 +27,7 @@
 [Info   : Preloader] Collecting information for new MMHook
 [Info   : Preloader] Collecting methods from: LunarCoinShareOnPickup
 [Info   : Preloader] Collecting methods from: RoR2_Surgeon
+[Info   : Preloader] Collecting methods from: DeathMarkFix
 [Info   : Preloader] Collecting methods from: ShareSuite
 [Info   : Preloader] Collecting methods from: Diluvian
 [Info   : Preloader] Collecting methods from: HarbTweaks
@@ -66,13 +67,13 @@
 [Info   : Preloader] Collecting methods from: DPSMeter
 [Info   : Preloader] Collecting methods from: Rampage
 [Info   : Preloader] Collecting methods from: DebugToolkit
-[Message: Preloader] Found 40 mods with a MMHook dependency.
+[Message: Preloader] Found 41 mods with a MMHook dependency.
 [Info   : Preloader] Number of neededtypes for hooks : 236
 [Info   : Preloader] LighterhHook has already run for these mods. Using that old file again.
 [Message: Preloader] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 53 plugins to load
+[Info   :   BepInEx] 56 plugins to load
 [Warning:   BepInEx] Skipping because a newer version exists [Rein Assembly-PreLoad 1.0.0.242]
 [Info   :   BepInEx] Loading [Rein Assembly-PreLoad 1.0.0.242]
 [Message:  ReinCore] ReinCore successfully loaded
@@ -90,6 +91,8 @@
 [Info   :     R2API] Enabling R2API Submodule: AssetPlus
 [Info   :   BepInEx] Loading [AssetPlusRequester 1.0.0]
 [Info   :   BepInEx] Loading [Configuration Manager 15.1]
+[Info   :   BepInEx] Loading [DeathMarkFix 1.0.1]
+[Info   :   BepInEx] Loading [SpeedyBeetles 1.0.3]
 [Info   :   BepInEx] Loading [LunarCoinShareOnPickup 3.6.1]
 [Info   :   BepInEx] Loading [The Surgeon 1.4.2]
 [Info   :   BepInEx] Loading [EmptyChestsBeGone 1.1.0]
@@ -150,6 +153,7 @@
 [Info   :   BepInEx] Loading [TemporaryLunarCoins 0.1.0]
 [Info   :   BepInEx] Loading [AllyPing 1.0.0]
 [Info   :   BepInEx] Loading [Bandit Reloaded 1.1.1]
+[Info   :   BepInEx] Loading [MobileTurretBuff 1.0.0]
 [Info   :   BepInEx] Loading [SimpleRoll 1.0]
 [Info   :   BepInEx] Loading [ItemDropList 1.0]
 [Info   :   BepInEx] Loading [StartingItemsBundle 1.0]
@@ -255,7 +259,7 @@
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
 [Info   : Unity Log] stream.Length=139567
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
-[Info   : Unity Log] stream.Length=132427
+[Info   : Unity Log] stream.Length=132428
 [Info   : Unity Log] english
 [Info   : Unity Log] Setting current language to "en"
 [Info   : Unity Log] 2
@@ -270,10 +274,3 @@
 [Info   :MiniRpcLib] 2769529076[0] Registering action | Server
 [Info   :MiniRpcLib] 2769529076[1] Registering action | Server
 [Info   :MiniRpcLib] 2769529076[2] Registering action | Client
-[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (139567 bytes)
-[Info   : Unity Log] Shutting down Steamworks...
-[Info   : Unity Log] Shut down Steamworks.
-[Info   : Unity Log] AutoSprint: Disabling sprinting crosshair:
-[Info   : Unity Log] AutoSprint: Disabling Sprint FOV Change:
-[Info   : Unity Log] AutoSprint: Disabling Speedlines:
-[Info   : Unity Log] AutoSprint: CameraRigController.Update IL edits done.

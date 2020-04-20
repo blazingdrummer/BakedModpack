@@ -1138,6 +1138,76 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-ItemDropList\1.1.2\icon.png
 - manifestVersion: 1
+  name: duckduckgreyduck-DeathMarkFix
+  authorName: duckduckgreyduck
+  websiteUrl: https://thunderstore.io/package/duckduckgreyduck/DeathMarkFix/
+  displayName: DeathMarkFix
+  description: Fixes a small oversight with Death Mark that prevented its damage from
+    scaling
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.1.0
+    - tristanmcpherson-R2API-2.4.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-DeathMarkFix\1.0.1\icon.png
+- manifestVersion: 1
+  name: duckduckgreyduck-SpeedyBeetles
+  authorName: duckduckgreyduck
+  websiteUrl: https://thunderstore.io/package/duckduckgreyduck/SpeedyBeetles/
+  displayName: SpeedyBeetles
+  description: Balances beetles by making them go FAST
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.1.0
+    - tristanmcpherson-R2API-2.4.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-SpeedyBeetles\1.0.3\icon.png
+- manifestVersion: 1
+  name: Moffein-MobileTurretBuff
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/MobileTurretBuff/
+  displayName: MobileTurretBuff
+  description: Buffs the survivability of Mobile Turrets and provides options for tweaking
+    their attributes.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-MobileTurretBuff\1.0.0\icon.png
+- manifestVersion: 1
   name: Rein-RogueWisp
   authorName: Rein
   websiteUrl: https://thunderstore.io/package/Rein/RogueWisp/

@@ -1,0 +1,10 @@
+{
+  "name": "SpeedyBeetles",
+  "version_number": "1.0.3",
+  "website_url": " ",
+  "description": "Balances beetles by making them go FAST",
+  "dependencies": [
+    "tristanmcpherson-R2API-2.4.10",
+    "bbepis-BepInExPack-3.1.0"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "MobileTurretBuff",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Buffs the survivability of Mobile Turrets and provides options for tweaking their attributes.",
+  "dependencies": [
+    "bbepis-BepInExPack-3.2.0"
+  ]
+}

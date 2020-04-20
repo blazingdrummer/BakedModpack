@@ -1,6 +1,6 @@
 {
   "name": "BakedModpack",
-  "version_number": "2.2.4",
+  "version_number": "2.2.5",
   "website_url": "https://github.com/blazingdrummer/BakedModpack",
   "description": "A modpack designed for balanced play at all experience levels while expanding greatly upon the base game.",
   "dependencies": [
@@ -9,6 +9,9 @@
 	"DevinWeaver-TheSurgeon-1.4.2",
 	"Moffein-BanditReloaded-1.1.1",
 	"Rein-RogueWisp-2.1.4",
+	"Moffein-MobileTurretBuff-1.0.0",
+	"duckduckgreyduck-SpeedyBeetles-1.0.3",
+	"duckduckgreyduck-DeathMarkFix-1.0.1",
 	"Phedg1Studios-ItemDropList-1.1.2",
 	"Rico-GiganticAmethyst-1.1.1",
 	"Sciman101-PocketPrinter-1.1.0",
