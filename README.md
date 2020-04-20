@@ -281,3 +281,8 @@ In order to not make this readme any longer than it already is, the pre-release 
   - added DeathMarkFix v1.0.1
   - added SpeedyBeetles v1.0.3
   - added MobileTurretBuff v1.0.0
+
+`v2.2.6`
+
+  - emergency removal of ItemDropList due to a bug
+  - forgot to disable console last time...

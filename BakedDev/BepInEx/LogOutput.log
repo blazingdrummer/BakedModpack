@@ -257,7 +257,7 @@
 [Info   : Unity Log] Initializing system: RuleBook
 [Info   : Unity Log] SystemInitializerAttribute infinite loop detected. currentMethod=RoR2.CharacterSpawnCardInit
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
-[Info   : Unity Log] stream.Length=139567
+[Info   : Unity Log] stream.Length=139566
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
 [Info   : Unity Log] stream.Length=132428
 [Info   : Unity Log] english
@@ -274,3 +274,10 @@
 [Info   :MiniRpcLib] 2769529076[0] Registering action | Server
 [Info   :MiniRpcLib] 2769529076[1] Registering action | Server
 [Info   :MiniRpcLib] 2769529076[2] Registering action | Client
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (139566 bytes)
+[Info   : Unity Log] Shutting down Steamworks...
+[Info   : Unity Log] Shut down Steamworks.
+[Info   : Unity Log] AutoSprint: Disabling sprinting crosshair:
+[Info   : Unity Log] AutoSprint: Disabling Sprint FOV Change:
+[Info   : Unity Log] AutoSprint: Disabling Speedlines:
+[Info   : Unity Log] AutoSprint: CameraRigController.Update IL edits done.
