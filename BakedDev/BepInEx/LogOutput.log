@@ -47,8 +47,6 @@
 [Info   : Preloader] Collecting methods from: TemporaryLunarCoins
 [Info   : Preloader] Collecting methods from: AllyPing
 [Info   : Preloader] Collecting methods from: BanditReloaded
-[Info   : Preloader] Collecting methods from: ItemDropList
-[Info   : Preloader] Collecting methods from: StartingItemsGUI
 [Info   : Preloader] Collecting methods from: Pingprovements
 [Info   : Preloader] Collecting methods from: AlternateArtificer
 [Info   : Preloader] Collecting methods from: ReinLunarWickedRing
@@ -60,22 +58,22 @@
 [Info   : Preloader] Collecting methods from: ScalingBloodShrines
 [Info   : Preloader] Collecting methods from: WaxQuailMultiJump
 [Info   : Preloader] Collecting methods from: StealthySpawn
-[Info   : Preloader] Lighter MMHOOK found!(hash:-7925033108)
+[Info   : Preloader] Lighter MMHOOK found!(hash:-8651655472)
 [Info   : Preloader] Collecting methods from: R2API
 [Info   : Preloader] Collecting methods from: AIBlacklister
 [Info   : Preloader] Collecting methods from: MiniRpcLib
 [Info   : Preloader] Collecting methods from: DPSMeter
 [Info   : Preloader] Collecting methods from: Rampage
 [Info   : Preloader] Collecting methods from: DebugToolkit
-[Message: Preloader] Found 41 mods with a MMHook dependency.
-[Info   : Preloader] Number of neededtypes for hooks : 236
+[Message: Preloader] Found 39 mods with a MMHook dependency.
+[Info   : Preloader] Number of neededtypes for hooks : 232
 [Info   : Preloader] LighterhHook has already run for these mods. Using that old file again.
 [Message: Preloader] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 56 plugins to load
+[Info   :   BepInEx] 54 plugins to load
 [Warning:   BepInEx] Skipping because a newer version exists [Rein Assembly-PreLoad 1.0.0.242]
-[Info   :   BepInEx] Loading [Rein Assembly-PreLoad 1.0.0.242]
+[Info   :   BepInEx] Loading [Rein Assembly-PreLoad 1.0.0.279]
 [Message:  ReinCore] ReinCore successfully loaded
 [Info   :   BepInEx] Loading [R2API 2.4.10]
 [Info   :     R2API] Enabling R2API Submodule: DifficultyAPI
@@ -92,7 +90,7 @@
 [Info   :   BepInEx] Loading [AssetPlusRequester 1.0.0]
 [Info   :   BepInEx] Loading [Configuration Manager 15.1]
 [Info   :   BepInEx] Loading [DeathMarkFix 1.0.1]
-[Info   :   BepInEx] Loading [SpeedyBeetles 1.0.3]
+[Info   :   BepInEx] Loading [SpeedyBeetles 1.0.4]
 [Info   :   BepInEx] Loading [LunarCoinShareOnPickup 3.6.1]
 [Info   :   BepInEx] Loading [The Surgeon 1.4.2]
 [Info   :   BepInEx] Loading [EmptyChestsBeGone 1.1.0]
@@ -155,10 +153,8 @@
 [Info   :   BepInEx] Loading [Bandit Reloaded 1.1.1]
 [Info   :   BepInEx] Loading [MobileTurretBuff 1.0.0]
 [Info   :   BepInEx] Loading [SimpleRoll 1.0]
-[Info   :   BepInEx] Loading [ItemDropList 1.0]
-[Info   :   BepInEx] Loading [StartingItemsBundle 1.0]
 [Info   :   BepInEx] Loading [Pingprovements 1.5.1]
-[Info   :   BepInEx] Loading [General Balance + Fixes 2.3.0.95]
+[Info   :   BepInEx] Loading [General Balance + Fixes 2.3.2.4]
 [Info   :   BepInEx] Loading [ReinArchWisps 2.0.1]
 [Info   :   BepInEx] Loading [ReinWickedRing 1.2.1]
 [Info   :   BepInEx] Loading [Rogue Wisp 2.1.4.189]
@@ -179,11 +175,13 @@
 [Info   :   BepInEx] Loading [TooManyFriends 1.0]
 [Info   :   BepInEx] Loading [PocketPrinter 1.1.0]
 [Message:   BepInEx] Chainloader startup complete
+[Warning:     R2API] This version of R2API was built for build id "4811921", you are running "4892828".
+[Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
 [Info   : Unity Log] WwiseUnity: Sound engine initialized successfully.
 [Info   : Unity Log] Bloom: True
 [Info   : Unity Log] english
 [Info   : Unity Log] Setting current language to "en"
-[Info   : Unity Log] 2
+[Info   : Unity Log] 0
 [Info   : Unity Log] arg[0]="G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2.exe"
 [Info   : Unity Log] arg[1]="--doorstop-enable"
 [Info   : Unity Log] arg[2]="true"
@@ -253,16 +251,18 @@
 [Info   : Unity Log] Registered gamemode BaseDefenseRun True
 [Info   : Unity Log] Registered gamemode ClassicRun True
 [Info   : Unity Log] Registered gamemode WeeklyRun True
+[Info   : Unity Log] Initializing system: Loadout
 [Info   : Unity Log] Initializing system: BodyLoadoutManager
 [Info   : Unity Log] Initializing system: RuleBook
-[Info   : Unity Log] SystemInitializerAttribute infinite loop detected. currentMethod=RoR2.CharacterSpawnCardInit
+[Info   : Unity Log] Initializing system: SerializableLoadout
+[Info   : Unity Log] Initializing system: CharacterSpawnCard
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
-[Info   : Unity Log] stream.Length=139566
+[Info   : Unity Log] stream.Length=139563
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
 [Info   : Unity Log] stream.Length=132428
 [Info   : Unity Log] english
 [Info   : Unity Log] Setting current language to "en"
-[Info   : Unity Log] 2
+[Info   : Unity Log] 0
 [Info   : Unity Log] Loaded archived convars.
 [Info   : Unity Log] Could not load config /Config/autoexec.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\autoexec.cfg"
 [Info   : Unity Log] Active scene changed from  to title
@@ -271,13 +271,59 @@
 [Info   :DebugToolkit] Loading all CSC's: 43
 [Info   :DebugToolkit] Loading all ISC's: 45
 [Message:HarbTweaks] Prepared Tweak: Shorter Medkits.
-[Info   :MiniRpcLib] 2769529076[0] Registering action | Server
-[Info   :MiniRpcLib] 2769529076[1] Registering action | Server
-[Info   :MiniRpcLib] 2769529076[2] Registering action | Client
-[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (139566 bytes)
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] gridColumns=8,totalElements=14,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] FlashWindow.Flash(400854)
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
+[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
+[Info   : Unity Log] FlashWindow.Flash(400854)
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Error  : Unity Log] A connection has already been set as ready. There can only be one.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
+[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
+[Info   : Unity Log] Received vote from blazingdrummer
+[Info   : Unity Log] Accepting vote from blazingdrummer
+[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
+[Warning: Unity Log] Could not find transform "ToolbotArmature/ROOT/base/stomach/chest/upper_arm.l/lower_arm.l/toolbase/speargun.base/speargun.spear/RebarMesh" relative to "mdlToolbot".
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] Active scene changed from  to blackbeach
+[Info   : Unity Log] Loaded scene blackbeach loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=blackbeach currentSceneName=blackbeach
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Spending 180 credits on interactables...
+[Info   : Unity Log] MAP_BLACKBEACH_TITLE
+[Info   : Unity Log] reorder list
+[Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'TextMeshPro-1.0.55.2017.1.0b11, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+Stack trace:
+StatsDisplay.StatsDisplay.Update () (at <372153f7ecc04005aa28b4f525d700b7>:0)
+
+[Info   : Unity Log] Chatbox showInput:True
+[Info   : Unity Log] Chatbox showInput:False
+[Info   : Unity Log] Chatbox showInput:True
+[Info   : Unity Log] Submitting say cmd.
+[Info   : Unity Log] SubmitChat() submittedText=tlc_aye
+[Info   : Unity Log] Chatbox showInput:False
+[Info   : Unity Log] <color=#e5eefc><noparse>blazingdrummer</noparse>: <noparse>tlc_aye</noparse></color>
+[Info   : Unity Log]  -- Temporary Lunar Coins --
+<size=15px>If you wish to participate in this run, you need to agree to have your lunar coins reset. Type <color=#00cc00>"tlc_aye"</color> in the chat if you agree. Otherwise leave the game and keep your coins. The game will resume once everyone present agreed.</size>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cIsHealing>blazingdrummer wants to move here.</style>
+[Info   : Unity Log] Ping target Duplicator(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: 3D Printer (Tougher Times) (<nobr><color=#FFFFFF>1 Items</color></nobr>).</style>
+[Info   : Unity Log] Ping target Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Teleporter.</style>
+[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Tougher Times</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (139564 bytes)
 [Info   : Unity Log] Shutting down Steamworks...
 [Info   : Unity Log] Shut down Steamworks.
-[Info   : Unity Log] AutoSprint: Disabling sprinting crosshair:
-[Info   : Unity Log] AutoSprint: Disabling Sprint FOV Change:
-[Info   : Unity Log] AutoSprint: Disabling Speedlines:
-[Info   : Unity Log] AutoSprint: CameraRigController.Update IL edits done.

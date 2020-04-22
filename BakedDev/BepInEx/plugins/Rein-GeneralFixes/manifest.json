@@ -1,6 +1,6 @@
 {
   "name": "GeneralFixes",
-  "version_number": "2.3.0",
+  "version_number": "2.3.3",
   "website_url": "https://discord.gg/TgaDGNh",
   "description": "Fixes various bugs in game. Also contains some QOL, and a balance pass (Including gesture, glass, and corpsebloom fixes)",
   "dependencies": [

@@ -15,8 +15,16 @@
 ### Uninstall
 - Delete the files that come with the mod from the plugins folder
 
+### Minor update
+- Fixed compat with latest ror2 version.
+- Improved some logic with how death marks from multiple sources stack (if you have more of the item than someone else, you will write over their debuff with your stronger one)
+- Acrid blight damage now is based on distance to the enemy. This should help keep it in line with certain items.
+- Disabled Sacrifice cloaked chests changes, as I have yet to run numbers with recent changes to sacrifice.
+- Death mark now requires 35 total instead of 30 (so rex can't apply it with a single chronobauble...)
+- Slightly toned down the rate bonus for focused convergence to match the decrease in radius more accurately.
+
 ### New this update
-- Removed unneded R2API dependency
+- Removed unneeded R2API dependency
 - Compatible with Artifacts update
 - Added Blight balance
 - Added Focused Convergence balance
@@ -124,7 +132,7 @@
 - Generally just gives you a reason to pick up the item.
 
 ### Death Mark
-- Now activates at 30 debuffs.
+- Now activates at 35 debuffs.
 - Each stack of a debuff is counted seperately.
 - Debuffs that cannot stack count as 10 debuffs.
 - This change is aimed at making Death Mark more accessible without needing hyper specific combinations of items.

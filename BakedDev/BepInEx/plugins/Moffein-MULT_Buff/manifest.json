@@ -1,0 +1,9 @@
+{
+  "name": "MULT_Buff",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Remember when MUL-T was good?",
+  "dependencies": [
+    "bbepis-BepInExPack-3.2.0"
+  ]
+}
