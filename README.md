@@ -284,8 +284,9 @@ In order to not make this readme any longer than it already is, the pre-release 
   - emergency removal of ItemDropList due to a bug
   - forgot to disable console last time...
 
-`v2.3.0`
+`v2.3.1`
 
   - removed StartingItemsGUI & ItemDropList until issues (hopefully) can be resolved
   - added MULT_Buff v1.0.0
   - updated GeneralFixes to v2.3.3
+  - updated SpeedyBeetles to v1.0.4
