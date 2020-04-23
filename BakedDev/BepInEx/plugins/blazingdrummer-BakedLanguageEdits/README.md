@@ -124,3 +124,8 @@ If you do find something that looks off or needs editing, please send me a scree
   - changed Bandolier description to clarify it only restores 1 charge, instead of completely resetting skills
   - removed chat readout reference from Scanner to reflect modpack change
   - sneaky Mad Max: Fury Road reference...
+
+`v2.0.7`
+
+  - small tweaks to stay up-to-date w/ GeneralFixes and BakedModpack update
+  - fixed some strange indenting (no in-game impact)

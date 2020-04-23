@@ -5,8 +5,8 @@
   "description": "A modpack designed for balanced play at all experience levels while expanding greatly upon the base game.",
   "dependencies": [
 	"LuaFubuki-Void_Reaver-0.2.2",
-	"Rein-AlternativeArtificer-1.1.0",
 	"DevinWeaver-TheSurgeon-1.4.2",
+	"Rein-AlternativeArtificer-1.1.0",
 	"Moffein-BanditReloaded-1.1.1",
 	"Rein-RogueWisp-2.1.4",
 	"Moffein-MULT_Buff-1.0.0",

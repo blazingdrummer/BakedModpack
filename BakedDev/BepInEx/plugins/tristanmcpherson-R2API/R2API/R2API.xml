@@ -54,11 +54,6 @@
             </summary>
                 // ReSharper disable once InconsistentNaming
         </member>
-        <member name="M:R2API.AssetPlus.FontPlus.FontStart">
-            <summary>
-            Checks for for amount of fonts after all Awake()
-            </summary>
-        </member>
         <member name="T:R2API.AssetPlus.Fonts">
             <summary>
             use this class to add fonts
@@ -176,19 +171,9 @@
             Reloads the game language if it is already loaded
             </summary>
         </member>
-        <member name="M:R2API.AssetPlus.SoundPlus.LoadBanks">
-            <summary>
-            Loads all the banks, can only be called once and after RoR2.RoR2Application.OnLoad because of the initialization of the init bank
-            </summary>
-        </member>
         <member name="T:R2API.AssetPlus.SoundBanks">
             <summary>
             class for SoundBanks to load
-            </summary>
-        </member>
-        <member name="F:R2API.AssetPlus.SoundBanks.Loaded">
-            <summary>
-            Makes sure to correctly load banks added before or after RoR2.RoR2Application.OnLoad()
             </summary>
         </member>
         <member name="M:R2API.AssetPlus.SoundBanks.Add(System.Byte[])">
@@ -210,50 +195,40 @@
             <param name="ID">BankID</param>
             <returns></returns>
         </member>
-        <member name="T:R2API.AssetPlus.SoundBanks.Bank">
+        <member name="M:R2API.BuffAPI.Add(R2API.CustomBuff)">
             <summary>
-            Class containing all the information of a bank
+            Add a custom buff to the list of available buffs.
+            Value for BuffDef.buffIndex can be ignored.
+            If this is called after the BuffCatalog inits then this will return false and ignore the custom buff.
+            </summary>
+            <param name="buff">The buff to add.</param>
+            <returns>the BuffIndex of your item if added. -1 otherwise</returns>
+        </member>
+        <member name="T:R2API.CustomBuff">
+            <summary>
+            Class that defines a custom buff type for use in the game;
+            you may omit the buffIndex in the BuffDef, as that will
+            be assigned by the API.
+            If you are doing a buff for a custom elite, don't forget to register your CustomElite before too to fill the eliteIndex field !
             </summary>
         </member>
-        <member name="F:R2API.AssetPlus.SoundBanks.Bank._bankIteration">
+        <member name="F:R2API.CustomBuff.BuffDef">
             <summary>
-            Number keeping track of PublicID to give
+            Definition of the Buff
             </summary>
         </member>
-        <member name="F:R2API.AssetPlus.SoundBanks.Bank.BankData">
+        <member name="M:R2API.CustomBuff.#ctor(System.String,System.String,UnityEngine.Color,System.Boolean,System.Boolean)">
             <summary>
-            BankData supplied by the user
+            you may omit the buffIndex in the BuffDef, as that will
+            be assigned by the API.
+            If you are doing a buff for a custom elite, don't forget to register your CustomElite before too to fill the eliteIndex field !
             </summary>
         </member>
-        <member name="F:R2API.AssetPlus.SoundBanks.Bank.PublicID">
+        <member name="M:R2API.CustomBuff.#ctor(RoR2.BuffDef)">
             <summary>
-            Identifier for the User
-            </summary>
-        </member>
-        <member name="F:R2API.AssetPlus.SoundBanks.Bank.Memory">
-            <summary>
-            Pointer for the wwise engine
-            </summary>
-        </member>
-        <member name="F:R2API.AssetPlus.SoundBanks.Bank.BankID">
-            <summary>
-            Identifier for the engine
-            </summary>
-        </member>
-        <member name="M:R2API.AssetPlus.SoundBanks.Bank.Load">
-            <summary>
-            Loads the bank into the wwise engine
-            </summary>
-        </member>
-        <member name="M:R2API.AssetPlus.SoundBanks.Bank.UnLoad">
-            <summary>
-            Unloads the bank from the wwise engine
-            </summary>
-            <returns>The AKRESULT of unloading itself</returns>
-        </member>
-        <member name="F:R2API.AssetPlus.SoundBanks.soundBanks">
-            <summary>
-            List of all the Banks
+            you may omit the buffIndex in the BuffDef, as that will
+            be assigned by the API.
+            If you are doing a buff for a custom elite, don't forget to register your CustomElite before too to fill the eliteIndex field !
             </summary>
         </member>
         <member name="M:R2API.DifficultyAPI.AddDifficulty(RoR2.DifficultyDef)">
@@ -674,6 +649,69 @@
             <param name="effect">The EffectDef to addZ</param>
             <returns>False if the EffectDef was null</returns>
         </member>
+        <member name="M:R2API.EliteAPI.Add(R2API.CustomElite)">
+            <summary>
+            Add a custom item to the list of available elites.
+            Value for EliteDef.eliteIndex can be ignored.
+            If this is called after the ItemCatalog inits then this will return false and ignore the custom elite.
+            </summary>
+            <param name="elite">The elite to add.</param>
+            <returns>the EliteIndex of your item if added. -1 otherwise</returns>
+        </member>
+        <member name="T:R2API.CustomElite">
+            <summary>
+            Class that defines a custom Elite type for use in the game
+            All Elites consistent of an Elite definition, a <see cref="T:R2API.CustomEquipment"/>
+            and a <see cref="T:R2API.CustomBuff"/>. The equipment is automatically provided to
+            the Elite when it spawns and is configured to passively apply the buff
+            Note that if Elite Spawning Overhaul is enabled, you'll also want to create a EliteAffixCard/
+            to allow the combat director to spawn your elite type
+            </summary>
+        </member>
+        <member name="F:R2API.CustomElite.EliteDef">
+            <summary>
+            Elite definition
+            </summary>
+        </member>
+        <member name="M:R2API.CustomElite.#ctor(System.String,RoR2.EquipmentIndex,UnityEngine.Color32,System.String)">
+            <summary>
+            You can omit the index references for the EliteDef, as those will be filled in automatically by the API.
+            If you are doing an equipment for a custom elite, don't forget to register your CustomEquipment before too to fill the equipmentIndex field !
+            </summary>
+        </member>
+        <member name="M:R2API.CustomElite.#ctor(RoR2.EliteDef)">
+            <summary>
+            You can omit the index references for the EliteDef, as those will be filled in automatically by the API.
+            </summary>
+        </member>
+        <member name="T:R2API.FontAPI">
+            <summary>
+            API for replacing the ingame font
+            </summary>
+        </member>
+        <member name="T:R2API.FontAPI.Fonts">
+            <summary>
+            use this class to add fonts
+            </summary>
+        </member>
+        <member name="M:R2API.FontAPI.Fonts.Add(System.String)">
+            <summary>
+            for adding an TMP_FontAsset inside an seperate assetbundle (.font is loaded automatically)
+            </summary>
+            <param name="path">absolute path to the assetbundle</param>
+        </member>
+        <member name="M:R2API.FontAPI.Fonts.Add(System.Byte[])">
+            <summary>
+            for adding an TMP_FontAsset while it is still in an assetbundle
+            </summary>
+            <param name="fontFile">the assetbundle file</param>
+        </member>
+        <member name="M:R2API.FontAPI.Fonts.Add(TMPro.TMP_FontAsset)">
+            <summary>
+            for adding an TMP_FontAsset directly
+            </summary>
+            <param name="fontAsset">The loaded fontasset</param>
+        </member>
         <member name="M:R2API.ItemAPI.Add(R2API.CustomItem)">
             <summary>
             Add a custom item to the list of available items.
@@ -692,24 +730,6 @@
             <param name="item">The equipment item to add.</param>
             <returns>the EquipmentIndex of your item if added. -1 otherwise</returns>
         </member>
-        <member name="M:R2API.ItemAPI.Add(R2API.CustomBuff)">
-            <summary>
-            Add a custom buff to the list of available buffs.
-            Value for BuffDef.buffIndex can be ignored.
-            If this is called after the BuffCatalog inits then this will return false and ignore the custom buff.
-            </summary>
-            <param name="buff">The buff to add.</param>
-            <returns>the BuffIndex of your item if added. -1 otherwise</returns>
-        </member>
-        <member name="M:R2API.ItemAPI.Add(R2API.CustomElite)">
-            <summary>
-            Add a custom item to the list of available elites.
-            Value for EliteDef.eliteIndex can be ignored.
-            If this is called after the ItemCatalog inits then this will return false and ignore the custom elite.
-            </summary>
-            <param name="elite">The elite to add.</param>
-            <returns>the EliteIndex of your item if added. -1 otherwise</returns>
-        </member>
         <member name="M:R2API.ItemDisplayRuleDict.Add(System.String,RoR2.ItemDisplayRule[])">
             <summary>
             Equivalent to using the set property of the indexer, but added bonus is the ability to ignore the array wrapper normally needed.
@@ -725,63 +745,56 @@
             <param name="itemDisplayRules">The specific rules for this model, or if false is returned, the default rules.</param>
             <returns></returns>
         </member>
-        <member name="T:R2API.CustomBuff">
+        <member name="T:R2API.LanguageAPI">
             <summary>
-            Class that defines a custom buff type for use in the game;
-            you may omit the index in the BuffDef, as that will
-            be assigned by ItemAPI.
+            class for language files to load
             </summary>
         </member>
-        <member name="F:R2API.CustomBuff.Name">
+        <member name="M:R2API.LanguageAPI.Add(System.String,System.String)">
             <summary>
-            Name of the Buff for the purposes of looking up its index
+            Adds a single languagetoken and value
             </summary>
+            <param name="key">Token the game asks</param>
+            <param name="value">Value it gives back</param>
         </member>
-        <member name="F:R2API.CustomBuff.BuffDef">
+        <member name="M:R2API.LanguageAPI.Add(System.String,System.String,System.String)">
             <summary>
-            Definition of the Buff
+            Adds a single languagetoken and value to a specific language
             </summary>
+            <param name="key">Token the game asks</param>
+            <param name="value">Value it gives back</param>
+            <param name="language">Language you want to add this to</param>
         </member>
-        <member name="T:R2API.CustomElite">
+        <member name="M:R2API.LanguageAPI.AddPath(System.String)">
             <summary>
-            Class that defines a custom Elite type for use in the game.
-            All Elites consistent of an Elite definition, a <see cref="T:R2API.CustomEquipment"/>
-            and a <see cref="T:R2API.CustomBuff"/>.  The equipment is automatically provided to
-            the Elite when it spawns and is configured to passively apply the buff.
-            Note that if Elite Spawning Overhaul is enabled, you'll also want to create a EliteAffixCard/>
-            to allow the combat director to spawn your elite type.
+            adding an file via path (.language is added automatically )
             </summary>
+            <param name="path">absolute path to file</param>
         </member>
-        <member name="F:R2API.CustomElite.Name">
+        <member name="M:R2API.LanguageAPI.Add(System.String)">
             <summary>
-            Name of the Elite, for purposes of looking up its index
+            Adding an file which is read into an string
             </summary>
+            <param name="file">entire file as string</param>
         </member>
-        <member name="F:R2API.CustomElite.EliteDef">
+        <member name="M:R2API.LanguageAPI.Add(System.Collections.Generic.Dictionary{System.String,System.String})">
             <summary>
-            Elite definition (you can omit the index references, as those will be filled in automatically by ItemLib)
+            Adds multiple languagetokens and value
             </summary>
+            <param name="tokenDictionary">dictionaries of key-value (eg ["mytoken"]="mystring")</param>
         </member>
-        <member name="F:R2API.CustomElite.Equipment">
+        <member name="M:R2API.LanguageAPI.Add(System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
             <summary>
-            Custom equipment that the Elite will carry; do note that this is something that may (rarely) drop from the Elite when killed,
-            so players can also end up with this equipment
+            Adds multiple languagetokens and value to a specific language
             </summary>
+            <param name="tokenDictionary">dictionaries of key-value (eg ["mytoken"]="mystring")</param>
+            <param name="language">Language you want to add this to</param>
         </member>
-        <member name="F:R2API.CustomElite.Buff">
+        <member name="M:R2API.LanguageAPI.Add(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.String}})">
             <summary>
-            Custom buff that is applied passively by the equipment; note that this can be active on the player
-            if they're using Wake of Vultures or pick up the equipment, so you'll need to decide what impact
-            the elite buff should have on players.
+            Adds multiple languagetokens and value to languages
             </summary>
-        </member>
-        <member name="F:R2API.CustomElite.Tier">
-            <summary>
-            Tier for the elite, where 1 is standard elites (Fire, Ice, Lightning) and 2 is currently just Poison (Malachite).
-            If Elite Spawning Overhaul is disabled, it will use this tier to set cost/hp/dmg scaling.  Even if your mod is
-            only intended to work with ESO enabled, this should still be set to a valid number 1-2 for compatibility with
-            the underlying game code.
-            </summary>
+            <param name="languageDictionary">dictionary of languages containing dictionaries of key-value (eg ["en"]["mytoken"]="mystring")</param>
         </member>
         <member name="P:R2API.LoadoutAPI.Loaded">
             <summary>
@@ -1220,6 +1233,91 @@
             </summary>
             <param name="skin"></param>
             <returns></returns>
+        </member>
+        <member name="T:R2API.SoundAPI">
+            <summary>
+            API for adding music with Wwise
+            </summary>
+        </member>
+        <member name="M:R2API.SoundAPI.LoadBanks">
+            <summary>
+            Loads all the banks, can only be called once and after RoR2.RoR2Application.OnLoad because of the initialization of the init bank
+            </summary>
+        </member>
+        <member name="T:R2API.SoundAPI.SoundBanks">
+            <summary>
+            class for SoundBanks to load
+            </summary>
+        </member>
+        <member name="F:R2API.SoundAPI.SoundBanks.Loaded">
+            <summary>
+            Makes sure to correctly load banks added before or after RoR2.RoR2Application.OnLoad()
+            </summary>
+        </member>
+        <member name="M:R2API.SoundAPI.SoundBanks.Add(System.Byte[])">
+            <summary>
+            Adds a soundbank to load, returns the ID used for unloading
+            </summary>
+            <param name="bank">byte array of the entire .bnk file</param>
+        </member>
+        <member name="M:R2API.SoundAPI.SoundBanks.Add(System.String)">
+            <summary>
+            Adds an external soundbank to load, returns the ID used for unloading (.sound files are loaded automatically)
+            </summary>
+            <param name="path">the absolute path to the file</param>
+        </member>
+        <member name="M:R2API.SoundAPI.SoundBanks.Remove(System.UInt32)">
+            <summary>
+            Unloads an bank using the ID (ID is returned at the Add() of the bank)
+            </summary>
+            <param name="ID">BankID</param>
+            <returns></returns>
+        </member>
+        <member name="T:R2API.SoundAPI.SoundBanks.Bank">
+            <summary>
+            Class containing all the information of a bank
+            </summary>
+        </member>
+        <member name="F:R2API.SoundAPI.SoundBanks.Bank._bankIteration">
+            <summary>
+            Number keeping track of PublicID to give
+            </summary>
+        </member>
+        <member name="F:R2API.SoundAPI.SoundBanks.Bank.BankData">
+            <summary>
+            BankData supplied by the user
+            </summary>
+        </member>
+        <member name="F:R2API.SoundAPI.SoundBanks.Bank.PublicID">
+            <summary>
+            Identifier for the User
+            </summary>
+        </member>
+        <member name="F:R2API.SoundAPI.SoundBanks.Bank.Memory">
+            <summary>
+            Pointer for the wwise engine
+            </summary>
+        </member>
+        <member name="F:R2API.SoundAPI.SoundBanks.Bank.BankID">
+            <summary>
+            Identifier for the engine
+            </summary>
+        </member>
+        <member name="M:R2API.SoundAPI.SoundBanks.Bank.Load">
+            <summary>
+            Loads the bank into the wwise engine
+            </summary>
+        </member>
+        <member name="M:R2API.SoundAPI.SoundBanks.Bank.UnLoad">
+            <summary>
+            Unloads the bank from the wwise engine
+            </summary>
+            <returns>The AKRESULT of unloading itself</returns>
+        </member>
+        <member name="F:R2API.SoundAPI.SoundBanks.soundBanks">
+            <summary>
+            List of all the Banks
+            </summary>
         </member>
         <member name="P:R2API.SurvivorAPI.Loaded">
             <summary>

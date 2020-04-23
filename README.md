@@ -290,3 +290,8 @@ In order to not make this readme any longer than it already is, the pre-release 
   - added MULT_Buff v1.0.0
   - updated GeneralFixes to v2.3.3
   - updated SpeedyBeetles to v1.0.4
+
+`v2.3.2`
+
+  - updated MobileTurretBuff to v1.1.0
+  - updated R2API to v2.4.21

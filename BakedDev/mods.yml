@@ -37,10 +37,10 @@
   versionNumber:
     major: 2
     minor: 4
-    patch: 10
+    patch: 21
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.4.10\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.4.21\icon.png
 - manifestVersion: 1
   name: Harb-LighterPatcher
   authorName: Harb
@@ -106,10 +106,10 @@
   versionNumber:
     major: 2
     minor: 0
-    patch: 6
+    patch: 7
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\blazingdrummer-BakedLanguageEdits\2.0.6\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\blazingdrummer-BakedLanguageEdits\2.0.7\icon.png
 - manifestVersion: 1
   name: wildbook-MiniRpcLib
   authorName: wildbook
@@ -1139,8 +1139,8 @@
   authorName: Moffein
   websiteUrl: https://thunderstore.io/package/Moffein/MobileTurretBuff/
   displayName: MobileTurretBuff
-  description: Buffs the survivability of Mobile Turrets and provides options for tweaking
-    their attributes.
+  description: Buffs the survivability of Mobile Turrets, makes them sprint whenever
+    possible, and provides options for tweaking their attributes.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1152,11 +1152,11 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
+    minor: 1
     patch: 0
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-MobileTurretBuff\1.0.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-MobileTurretBuff\1.1.0\icon.png
 - manifestVersion: 1
   name: Moffein-MULT_Buff
   authorName: Moffein
