@@ -1,5 +1,7 @@
 #### Please don't bug other devs with issues or feedback! Go to the [Contact Info](https://thunderstore.io/package/blazingdrummer/BakedModpack/#contact-info) section and I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!
 
+### PLEASE read this page carefully before beginning to play the modpack! I get a lot of questions that have easy answers right here. I promise I kept all unnecessary information out of it and and won't waste your time.
+
 # Installation
   1. Install a mod manager that can automatically install dependencies **and** handle modpack (packages that include a `.modpack` file) installation. (Ebkr's excellent [r2modman](https://thunderstore.io/package/ebkr/r2modman/) is the **ONLY** manager that I know of that currently supports both of these. Using another manager might result in version mismatch and multiplayer issues.)
 
@@ -124,9 +126,6 @@ Due to the nature of modded RoR2 and a lack of access to Prismatic Trials, there
     - Same as `Prismatically Aligned`.
 
 ## Known Bugs/Problems
-  - DebugToolkit currently has a problem with its commands where you need to use the "true name" of items/equipment when using commands, and specify how many every time
-    - use the names listed [here](https://github.com/risk-of-thunder/R2Wiki/wiki/Item-&-Equipment-IDs-and-Names)
-    - alternatively, install the bleeding-edge DebugToolkit available on their Discord; join my Discord and ask if you don't know how to do that, I'll likely also be including it in beta versions until R2API receives an update
   - (not really a bug?) going to the next stage toggles `noclip` off and takes focus away from the console
 ### Multiplayer-Only
   - price labels on the modded portions of the Bazaar display as gold rather than lunar coins for clients (e.g. $1 instead of 1 lunar); reported to Magnus
@@ -295,3 +294,4 @@ In order to not make this readme any longer than it already is, the pre-release 
 
   - updated MobileTurretBuff to v1.1.0
   - updated R2API to v2.4.21
+    - this fixed the bug with DebugToolkit concerning commands
