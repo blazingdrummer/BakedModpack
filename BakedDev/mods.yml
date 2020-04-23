@@ -947,32 +947,6 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Jimmy-AcridPoisonBuffs\0.3.0\icon.png
 - manifestVersion: 1
-  name: Phedg1Studios-StartingItemsGUI
-  authorName: Phedg1Studios
-  websiteUrl: https://thunderstore.io/package/Phedg1Studios/StartingItemsGUI/
-  displayName: StartingItemsGUI
-  description: "This mod will allow players to use a GUI to select which items will be
-    given to them at the start of a run. There are 3 modes: Free, Earnt
-    Persistent and Earnt Consumable."
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - wildbook-MiniRpcLib-0.0.1
-    - tristanmcpherson-R2API-2.3.22
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 3
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-StartingItemsGUI\1.1.3\icon.png
-- manifestVersion: 1
   name: xiaoxiao921-DPSMeter
   authorName: xiaoxiao921
   websiteUrl: https://thunderstore.io/package/xiaoxiao921/DPSMeter/
@@ -1113,30 +1087,6 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rico-GiganticAmethyst\1.1.1\icon.png
-- manifestVersion: 1
-  name: Phedg1Studios-ItemDropList
-  authorName: Phedg1Studios
-  websiteUrl: https://thunderstore.io/package/Phedg1Studios/ItemDropList/
-  displayName: ItemDropList
-  description: This mod will allow players to choose which items can be found in chests and
-    from boss drops.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.3.22
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 2
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-ItemDropList\1.1.2\icon.png
 - manifestVersion: 1
   name: duckduckgreyduck-DeathMarkFix
   authorName: duckduckgreyduck

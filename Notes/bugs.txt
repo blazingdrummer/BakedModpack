@@ -1,5 +1,0 @@
-bazaar shows $ instead of lunar coins
-reaver ult only removes 25% hp
-health bar doesn't show up on magma worm/doesn't show up after fighting AWU
-overgrown printer duplication bug
-red item cauldron duplication bug

@@ -90,9 +90,6 @@ Note: One quirk of a modpack set up like this is that disabling/uninstalling a m
   - pinging an item/equipment now shows its description as if you had picked it up
 ### [AllyPing](https://thunderstore.io/package/mistername/AllyPing/)
   - pinging an enemy now makes your minions target them
-### [Starting Items GUI](https://thunderstore.io/package/Phedg1Studios/StartingItemsGUI/)
-  - You now earn credits based on stages cleared, game difficulty, and run ending (higher rewards for wins/obliterations)
-  - Credits can be spent in the `Starting Items` section of the main menu for a boost on your next run
 ### [ShareSuite](https://thunderstore.io/package/FunkFrog-and-Sipondo/ShareSuite/)
 **Multiplayer-Only**
 
