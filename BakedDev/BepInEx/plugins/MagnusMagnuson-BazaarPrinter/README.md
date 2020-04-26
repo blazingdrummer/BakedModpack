@@ -28,6 +28,8 @@ If you want to change the config
 ![contact](https://i.imgur.com/gPBrPrQ.png)
 
 ## Changelog
+- 0.2.2 Re-added boss printers per request.
+- 0.2.1 Boss item printers were spawning instead of red item ones. Oops. Thanks NetherCrowCSOLYOO for the report.
 - 0.2.0 Update for Artifacts Update
 - 0.1.1 Added some description
 - 0.1.0 Initial release

@@ -295,3 +295,7 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated MobileTurretBuff to v1.1.0
   - updated R2API to v2.4.21
     - this fixed the bug with DebugToolkit concerning commands
+
+`v2.4.0`
+
+  - updated BazaarPrinter to v0.2.2
