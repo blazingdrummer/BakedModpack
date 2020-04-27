@@ -1,6 +1,6 @@
-#### Please don't bug other devs with issues or feedback! Go to the [Contact Info](https://thunderstore.io/package/blazingdrummer/BakedModpack/#contact-info) section and I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!
-
 ### PLEASE read this page carefully before beginning to play the modpack! I get a lot of questions that have easy answers listed right here. I promise I kept all unnecessary information out of it and and won't waste your time.
+
+#### Please don't bug other devs with issues or feedback! Go to the [Contact Info](https://thunderstore.io/package/blazingdrummer/BakedModpack/#contact-info) section and I'd be happy to help you! I'll pass on any information the others will need, so try steer clear of the #tech-support channel of the main modding Discord with Baked-related questions if possible. Thanks!
 
 # Installation
   1. Install a mod manager that can automatically install dependencies **and** handle modpack (packages that include a `.modpack` file) installation. (Ebkr's excellent [r2modman](https://thunderstore.io/package/ebkr/r2modman/) is the **ONLY** manager that I know of that currently supports both of these. Using another manager might result in version mismatch and multiplayer issues.)
@@ -299,3 +299,4 @@ In order to not make this readme any longer than it already is, the pre-release 
 `v2.4.0`
 
   - updated BazaarPrinter to v0.2.2
+  - added ProperSave v1.0.1
