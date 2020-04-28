@@ -1180,29 +1180,6 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-MULT_Buff\1.0.0\icon.png
 - manifestVersion: 1
-  name: KingEnderBrine-ProperSave
-  authorName: KingEnderBrine
-  websiteUrl: https://thunderstore.io/package/KingEnderBrine/ProperSave/
-  displayName: ProperSave
-  description: Saves your progress at the start of the stage so you can load later
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.21
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\KingEnderBrine-ProperSave\1.0.1\icon.png
-- manifestVersion: 1
   name: Rein-RogueWisp
   authorName: Rein
   websiteUrl: https://thunderstore.io/package/Rein/RogueWisp/
