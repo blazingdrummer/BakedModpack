@@ -53,17 +53,17 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.4.10
+    - tristanmcpherson-R2API-2.4.21
     - bbepis-BepInExPack-3.2.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-LighterPatcher\1.0.1\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-LighterPatcher\1.0.2\icon.png
 - manifestVersion: 1
   name: Harb-AssetPlusRequester
   authorName: Harb
