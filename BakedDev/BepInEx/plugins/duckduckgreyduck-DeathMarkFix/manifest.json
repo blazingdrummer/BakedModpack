@@ -1,6 +1,6 @@
 {
   "name": "DeathMarkFix",
-  "version_number": "1.0.1",
+  "version_number": "1.0.2",
   "website_url": " ",
   "description": "Fixes a small oversight with Death Mark that prevented its damage from scaling",
   "dependencies": [

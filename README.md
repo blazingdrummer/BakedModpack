@@ -299,5 +299,6 @@ In order to not make this readme any longer than it already is, the pre-release 
 `v2.4.0`
 
   - updated BazaarPrinter to v0.2.2
-  - added ProperSave v1.0.1
   - updated LighterPatcher to v1.0.2
+  - updated DeathMarkFix to v1.0.2
+  - updated SpeedyBeetles to v1.0.5

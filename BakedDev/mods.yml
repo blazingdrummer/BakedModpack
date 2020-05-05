@@ -1107,10 +1107,10 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-DeathMarkFix\1.0.1\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-DeathMarkFix\1.0.2\icon.png
 - manifestVersion: 1
   name: duckduckgreyduck-SpeedyBeetles
   authorName: duckduckgreyduck
@@ -1130,10 +1130,10 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 4
+    patch: 5
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-SpeedyBeetles\1.0.4\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-SpeedyBeetles\1.0.5\icon.png
 - manifestVersion: 1
   name: Moffein-MobileTurretBuff
   authorName: Moffein
@@ -1298,3 +1298,26 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Void_Reaver\0.2.2\icon.png
+- manifestVersion: 1
+  name: KingEnderBrine-ProperSave
+  authorName: KingEnderBrine
+  websiteUrl: https://thunderstore.io/package/KingEnderBrine/ProperSave/
+  displayName: ProperSave
+  description: Saves your progress at the start of the stage so you can load later
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.4.21
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\KingEnderBrine-ProperSave\1.1.0\icon.png
