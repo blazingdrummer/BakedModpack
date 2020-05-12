@@ -302,5 +302,5 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated SpeedyBeetles to v1.0.5
   - added IlLine v1.0.0
   - added StartingItemsGUI v1.1.4
-  - added ItemDropList v1.1.5
   - added OrderedItems v2.2.1
+  - added Phase_Round_Lightning v1.0.0

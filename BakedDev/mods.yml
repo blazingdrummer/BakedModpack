@@ -1228,30 +1228,6 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-StartingItemsGUI\1.1.4\icon.png
 - manifestVersion: 1
-  name: Phedg1Studios-ItemDropList
-  authorName: Phedg1Studios
-  websiteUrl: https://thunderstore.io/package/Phedg1Studios/ItemDropList/
-  displayName: ItemDropList
-  description: This mod will allow players to choose which items can be found in chests and
-    from boss drops.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.21
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 5
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-ItemDropList\1.1.5\icon.png
-- manifestVersion: 1
   name: gog909-OrderedItems
   authorName: gog909
   websiteUrl: https://thunderstore.io/package/gog909/OrderedItems/
@@ -1274,6 +1250,28 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\gog909-OrderedItems\2.2.1\icon.png
+- manifestVersion: 1
+  name: Moffein-Phase_Round_Lightning
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/Phase_Round_Lightning/
+  displayName: Phase_Round_Lightning
+  description: Gives Commando's Phase Round a lightning AOE that zaps nearby enemies.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-Phase_Round_Lightning\1.0.0\icon.png
 - manifestVersion: 1
   name: Rein-RogueWisp
   authorName: Rein
