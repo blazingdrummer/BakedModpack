@@ -1345,6 +1345,30 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-AlternativeArtificer\1.1.0\icon.png
 - manifestVersion: 1
+  name: duckduckgreyduck-ArtificerExtended
+  authorName: duckduckgreyduck
+  websiteUrl: https://thunderstore.io/package/duckduckgreyduck/ArtificerExtended/
+  displayName: ArtificerExtended
+  description: Introduces a variety of new skills for artificer
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - Rein-AlternativeArtificer-1.1.0
+    - bbepis-BepInExPack-3.1.0
+    - tristanmcpherson-R2API-2.4.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-ArtificerExtended\1.0.0\icon.png
+- manifestVersion: 1
   name: DevinWeaver-TheSurgeon
   authorName: DevinWeaver
   websiteUrl: https://thunderstore.io/package/DevinWeaver/TheSurgeon/

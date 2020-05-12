@@ -1,0 +1,11 @@
+{
+  "name": "ArtificerExtended",
+  "version_number": "1.0.0",
+  "website_url": " ",
+  "description": "Introduces a variety of new skills for artificer",
+  "dependencies": [
+    "tristanmcpherson-R2API-2.4.10",
+    "bbepis-BepInExPack-3.1.0",
+    "Rein-AlternativeArtificer-1.1.0"
+  ]
+}
