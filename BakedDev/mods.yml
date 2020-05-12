@@ -1180,6 +1180,101 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-MULT_Buff\1.0.0\icon.png
 - manifestVersion: 1
+  name: mistername-IlLine
+  authorName: mistername
+  websiteUrl: https://thunderstore.io/package/mistername/IlLine/
+  displayName: IlLine
+  description: changes the 0 at the end of stacktrace lines to the illine
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-IlLine\1.0.0\icon.png
+- manifestVersion: 1
+  name: Phedg1Studios-StartingItemsGUI
+  authorName: Phedg1Studios
+  websiteUrl: https://thunderstore.io/package/Phedg1Studios/StartingItemsGUI/
+  displayName: StartingItemsGUI
+  description: "This mod will allow players to use a GUI to select which items will be
+    given to them at the start of a run. There are 3 modes: Free, Earnt
+    Persistent and Earnt Consumable."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - wildbook-MiniRpcLib-0.0.1
+    - tristanmcpherson-R2API-2.4.21
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 4
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-StartingItemsGUI\1.1.4\icon.png
+- manifestVersion: 1
+  name: Phedg1Studios-ItemDropList
+  authorName: Phedg1Studios
+  websiteUrl: https://thunderstore.io/package/Phedg1Studios/ItemDropList/
+  displayName: ItemDropList
+  description: This mod will allow players to choose which items can be found in chests and
+    from boss drops.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.4.21
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 5
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-ItemDropList\1.1.5\icon.png
+- manifestVersion: 1
+  name: gog909-OrderedItems
+  authorName: gog909
+  websiteUrl: https://thunderstore.io/package/gog909/OrderedItems/
+  displayName: OrderedItems
+  description: Organises items in inventory by ID and Tier.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.4.21
+    - bbepis-BepInExPack-1.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\gog909-OrderedItems\2.2.1\icon.png
+- manifestVersion: 1
   name: Rein-RogueWisp
   authorName: Rein
   websiteUrl: https://thunderstore.io/package/Rein/RogueWisp/
@@ -1298,75 +1393,3 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Void_Reaver\0.2.2\icon.png
-- manifestVersion: 1
-  name: mistername-IlLine
-  authorName: mistername
-  websiteUrl: https://thunderstore.io/package/mistername/IlLine/
-  displayName: IlLine
-  description: changes the 0 at the end of stacktrace lines to the illine
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-IlLine\1.0.0\icon.png
-- manifestVersion: 1
-  name: Phedg1Studios-StartingItemsGUI
-  authorName: Phedg1Studios
-  websiteUrl: https://thunderstore.io/package/Phedg1Studios/StartingItemsGUI/
-  displayName: StartingItemsGUI
-  description: "This mod will allow players to use a GUI to select which items will be
-    given to them at the start of a run. There are 3 modes: Free, Earnt
-    Persistent and Earnt Consumable."
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - wildbook-MiniRpcLib-0.0.1
-    - tristanmcpherson-R2API-2.4.21
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 4
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-StartingItemsGUI\1.1.4\icon.png
-- manifestVersion: 1
-  name: Phedg1Studios-ItemDropList
-  authorName: Phedg1Studios
-  websiteUrl: https://thunderstore.io/package/Phedg1Studios/ItemDropList/
-  displayName: ItemDropList
-  description: This mod will allow players to choose which items can be found in chests and
-    from boss drops.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.21
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 5
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-ItemDropList\1.1.5\icon.png

@@ -56,8 +56,6 @@ Note: One quirk of a modpack set up like this is that disabling/uninstalling a m
 | Key      | Function                      |
 | -------- | ----------------------------- |
 | F1       | configure mods                |
-| F9       | quicksave                     |
-| F10      | quickload                     |
 | X        | reset DPS meter               |
 | "sprint" | walk/cancel channeled ability |
 
@@ -305,3 +303,4 @@ In order to not make this readme any longer than it already is, the pre-release 
   - added IlLine v1.0.0
   - added StartingItemsGUI v1.1.4
   - added ItemDropList v1.1.5
+  - added OrderedItems v2.2.1
