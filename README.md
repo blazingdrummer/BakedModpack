@@ -302,3 +302,6 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated LighterPatcher to v1.0.2
   - updated DeathMarkFix to v1.0.2
   - updated SpeedyBeetles to v1.0.5
+  - added IlLine v1.0.0
+  - added StartingItemsGUI v1.1.4
+  - added ItemDropList v1.1.5
