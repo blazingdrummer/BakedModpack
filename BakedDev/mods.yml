@@ -334,11 +334,11 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 5
-    patch: 1
+    minor: 6
+    patch: 0
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\pixeldesu-Pingprovements\1.5.1\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\pixeldesu-Pingprovements\1.6.0\icon.png
 - manifestVersion: 1
   name: MagnusMagnuson-ShrineOfDio
   authorName: MagnusMagnuson
@@ -826,10 +826,10 @@
   versionNumber:
     major: 2
     minor: 3
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-GeneralFixes\2.3.3\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-GeneralFixes\2.3.4\icon.png
 - manifestVersion: 1
   name: Rein-ArchaicWisps
   authorName: Rein

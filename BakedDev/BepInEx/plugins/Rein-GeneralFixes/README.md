@@ -15,25 +15,12 @@
 ### Uninstall
 - Delete the files that come with the mod from the plugins folder
 
-### Minor update
-- Fixed compat with latest ror2 version.
-- Improved some logic with how death marks from multiple sources stack (if you have more of the item than someone else, you will write over their debuff with your stronger one)
-- Acrid blight damage now is based on distance to the enemy. This should help keep it in line with certain items.
-- Disabled Sacrifice cloaked chests changes, as I have yet to run numbers with recent changes to sacrifice.
-- Death mark now requires 35 total instead of 30 (so rex can't apply it with a single chronobauble...)
-- Slightly toned down the rate bonus for focused convergence to match the decrease in radius more accurately.
-
 ### New this update
-- Removed unneeded R2API dependency
-- Compatible with Artifacts update
-- Added Blight balance
-- Added Focused Convergence balance
-- Added Death Mark balance
-- Added WilloWisp balance
-- Added DoT stacking fix
-- Added Engi turret QoL
-- Added Sacrifice QoL
-- Made sure Gesture changes work properly with enigma (Gesture will not break enigma, I hope)
+- Fixed bug with engi turrets not inheriting properly.
+- Changed rate factor on focused convergence from 0.9 to 0.8 (this is a substantial buff)
+- Disabled cloaked chests change for sacrifice (the changes made by hopoo made it fairly consistent)
+
+- Gesture is still a chance to break. I'm working on an alternative solution though. There is a temporary option in config for people who absolutely hate the inconsistency of the break chance, it will be going away once my new system is finished.
 
 
 # What's Inside
@@ -64,11 +51,6 @@
 - Vanilla blacklist: Warbanner, Beetle Gland, Lepton Daisy.
 - Mainly added things that are similar to what vanilla disallows.
 
-### Sacrifice
-- Cloaked chests are no longer blacklisted from spawning when sacrifice is enabled.
-- They also will spawn a bit more frequently. Very good chance there is at least 1 on every stage.
-- This helps smooth out periods of poor RnG, and also gives radar scanner a use case when Sacrifice is on.
-
 ## Bugfix
 
 ### Bandolier
@@ -92,9 +74,7 @@
 ## Balance
 
 ### Commando Secondary
-- Swapped the cooldowns on Phase Blast and Phase Round.
-- (This means phase round has 2s, and phase blast has 3s)
-- Significantly closes the dps gap between them.
+- Phase round CD changed to 2s
 
 ### Corpsebloom
 - Maximum reserved healing increased to 200% (+200% per stack) from 100% (+0% per stack).
@@ -127,8 +107,8 @@
 ### Focused Convergence
 - Cap increased from 3 stacks to 10 stacks.
 - Teleporter radius is now multiplied by 0.75 per stack. (Exponential)
-- Charge rate is now divided by 0.75 per stack. (Exponential)
-- For reference. At 7 stacks the TP zone is the size of the teleporter itself. At 7 stacks the teleporter also will charge to full in roughly 12 seconds.
+- Charge rate is now divided by 0.8 per stack. (Exponential)
+- For reference. At 7 stacks the TP zone is the size of the teleporter itself. At 7 stacks the teleporter also will charge to full in roughly 21 seconds.
 - Generally just gives you a reason to pick up the item.
 
 ### Death Mark
