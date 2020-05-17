@@ -308,3 +308,4 @@ In order to not make this readme any longer than it already is, the pre-release 
   - added HarbCrate v1.0.2
   - updated Pingprovements to v1.6.0
   - updated GeneralFixes to v1.3.4
+  - added ProperSave v2.0.0
