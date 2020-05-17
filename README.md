@@ -146,7 +146,7 @@ Join the [Baked Discord](https://discord.gg/CYYJdrz), or DM me on Discord or Twi
 ## Credits
 I'd like to give a massive shoutout to all of the developers and other members of the RoR2 modding community for all of their help and support so far. This project started in January 2020 and has been immensely satisfying to work on, so I really hope everyone enjoys it.
 
-In particular, I'd like to thank Ebkr, Moffein, Rein, Magnus, Sipondo & Funkfrog, Mythic, Harb, Fubuki, Phedg1, Rico, and Sciman101 for their hard work and graciously both providing and considering input. And, of course, a big thank you to Hopoo Games!
+In particular, I'd like to thank Ebkr, Moffein, Rein, Magnus, Sipondo & Funkfrog, Mythic, Harb, Fubuki, Phedg1, Rico, Sciman101, Atlas_, and KingEnderBrine for their hard work and graciously both providing and considering input. And, of course, a big thank you to Hopoo Games!
 
 ## Changelog
 In order to not make this readme any longer than it already is, the pre-release changes can be found in the `#changelog` section of the [Discord](https://discord.gg/CYYJdrz).
