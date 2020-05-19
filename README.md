@@ -309,3 +309,4 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated Pingprovements to v1.6.0
   - updated GeneralFixes to v1.3.4
   - added ProperSave v2.0.0
+  - updated BanditReloaded to v1.2.0
