@@ -304,7 +304,7 @@ In order to not make this readme any longer than it already is, the pre-release 
   - added StartingItemsGUI v1.1.4
   - added OrderedItems v2.2.1
   - added Phase_Round_Lightning v1.0.0
-  - added ArtificerExtended v1.0.0
+  - added ArtificerExtended v1.1.1
   - added HarbCrate v1.0.2
   - updated Pingprovements to v1.6.0
   - updated GeneralFixes to v1.3.4

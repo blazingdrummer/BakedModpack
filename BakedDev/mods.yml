@@ -1395,7 +1395,8 @@
   authorName: duckduckgreyduck
   websiteUrl: https://thunderstore.io/package/duckduckgreyduck/ArtificerExtended/
   displayName: ArtificerExtended
-  description: Introduces a variety of new skills for artificer
+  description: Introduces a variety of new skills for artificer that range in style from
+    highly accessible to extreme risk/reward gameplay
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1409,11 +1410,11 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 0
+    minor: 1
+    patch: 1
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-ArtificerExtended\1.0.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-ArtificerExtended\1.1.1\icon.png
 - manifestVersion: 1
   name: DevinWeaver-TheSurgeon
   authorName: DevinWeaver
