@@ -5,7 +5,7 @@ A new boss enemy that spawns late game (stage 8ish). Currently early in developm
 
 Note that in order to use this mod in multiplayer, everyone must have this mod installed and be on the same version. It takes the same networking approach as the vanilla game, meaning it assumes that every client has the same, or nearly the same, internal setup in order to greatly reduce the amount of network traffic. 
 
-## Feedback (Please? I'll beg if needed)
+## Feedback
 - I am extremely open to any kind of feedback, question, suggestion, bug report, or really anything.
 - I have a simple discord set up to help keep bug reports and feedback organized for all my mods, feel free to join and all that.
 - https://discord.gg/TgaDGNh
@@ -28,24 +28,13 @@ Note that in order to use this mod in multiplayer, everyone must have this mod i
 
 
 ## New this update
-### Minor patch 2.1.4
-- Moved death mark changes over to GeneralFixes (another mod)
-- Wispy now interacts properly with Vengeance Artifact. (Overall really happy with the fight, I suggest chaos + vengeance for maximum fun, even better if you bring friends.)
-- Adjusted visuals on many effects. Should be less bright, but also more visible for the darker skins.
-- Adjusted visuals for burn effect. No longer makes entire enemy glow brightly.
-- Barrier gain early on increased significantly, but it does scale up a bit less later on.
-- Removed april fools skill names.
-- Improved names of skills.
+### Minor patch 2.1.5
+- Performance improvements across the board. Primarily for the boss.
+- Added config for a low performance mode for the boss. This reduces the visual quality. Generally this should not be needed for the vast majority of people.
+- Boss director cost increased to 4000 from 2000
+- Adjusted boss base stats accordingly
+- Adjusted minimum stage to account for addition of stage 5
 
-
-### About the boss
-As I've mentioned in many places above: Any feedback of any kind on the boss is really helpful. Numbers tuning is still very much underway, and every bit of information I can get is great.
-
-The new boss is intended to be a late game hurdle, much like Scavangers and Overloading Worms. Most of its attacks are designed around the core theme of forcing potentially uncomfortable movement and keeping you on your toes.
-
-The boss has a very high director cost, meaning you aren't likely to see more than 1-2 at a time until much later on (Barring mountain shrines, in which case: Well it is called challenge of the mountain, not free items of the mountain)
-
-The boss *can* spawn as an elite, although that would have a cost comparable to 3+ overloading worms at once.
 
 ## Testimonials
 - "Thats kinda hot" -Violet Chaolan
@@ -86,7 +75,6 @@ The boss *can* spawn as an elite, although that would have a cost comparable to 
 - New item(s?)
 - Skill variants
 - Improved animations
-- More skin options
 - A bunch of challenges for unlocking wispy, skill variants, and other content.
 
 
@@ -97,31 +85,27 @@ With that being said, due to the scope of this mod I end up hooking and touching
 
 As a general note: if your mod is working in an area where it may end up working with the wispy gameobject, make sure to air on safe side with null checks (which you should be doing anyway). Some of the character's structure is a bit unothodox from vanilla survivors, particularly around the model and skins area to accomodate my custom skin system, and allowing for the skinning of projectiles and other effects.
 
-Also note that this mod does overwrite a few of the hooks in r2api to clean up their functionality. None of these hooks will cause behaviour any different from standard r2api, but they may log a warning for some networking issues that r2api isn't set up to detect, such as duplicated networkhandlers and skills that are not registered fully (LoadoutAPI.AddSkill(typeof(YourStateHere)), before you call new SerializableEntityStateType)
-
-(the network handler scan uses cecil rather than reflection, meaning it will not call any static constructors while scanning)
+Also note that this mod does overwrite a few of the hooks in r2api to clean up their functionality. None of these hooks will cause behaviour any different from standard r2api, but they may log a warning for some networking issues that r2api isn't set up to detect, such as skills that are not registered fully (LoadoutAPI.AddSkill(typeof(YourStateHere)), before you call new SerializableEntityStateType)
 
 To make things easier, I've listed all the methods I hook below.
 ### On hooks
-- RoR2.SkinDef.Awake
-- RoR2.CharacterSpawnCard.Awake
-- RoR2.GlobalEventManager.OnHitEnemy (the event doesn't work properly for this case)
+- RoR2.CameraRigController.Start
 - RoR2.CharacterBody.Start
-- RoR2.CharacterBody.RecalculateStats
 - RoR2.CharacterBody.FixedUpdate
+- RoR2.CharacterBody.RecalculateStats
+- RoR2.CharacterSpawnCard.Awake
 - RoR2.Projectile.ProjectileController.Start
 - RoR2.UI.CharacterSelectController.Awake
 
+
 ### IL hooks
-- R2API.LoadoutAPI.BodyLoadout_ToXml (this is a very very temporary fix for an issue that should be resolved in the next RoR2 Update)
-- RoR2.SurvivorCatalog.Init (Some housekeeping stuff to make sure that the catalog doesn't have issues with my modified skin system)
-- RoR2.UnlockableCatalog.Init (Same as above, undoes the housekeeping stuff so the character works again)
-- RoR2.GlobalEventManager.OnHitEnemy
 - RoR2.CharacterBody.RecalculateStats
 - RoR2.UI.CrosshairManager.UpdateCrosshair
 - RoR2.CameraRigController.Update
 - RoR2.SetStateOnHurt.OnTakeDamageServer
-- RoR2.EffectManager.SpawnEffect
+- RoR2.GlobalEventManager.OnHitEnemy
+- RoR2.CharacterModel.UpdateRendererMaterials
+- RoR2.EffectManager.SpawnEffect void(EffectIndex EffectData Boolean)
 - RoR2.Projectile.ProjectileImpactExplosion.FixedUpdate
 - RoR2.UI.LoadoutPanelController.Rebuild
 - RoR2.UI.CharacterSelectController.RebuildLocal

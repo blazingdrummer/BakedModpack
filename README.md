@@ -310,3 +310,4 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated GeneralFixes to v1.3.4
   - added ProperSave v2.0.0
   - updated BanditReloaded to v1.2.0
+  - updated RogueWisp to v2.1.5

@@ -1325,8 +1325,8 @@
   displayName: RogueWisp
   description: Includes an entirely original survivor and a new late game boss. The
     survivor is a close range caster with very high damage potential but no
-    mobility and limited defensive options. The boss is someone you might have
-    missed from RoR1.
+    mobility and limited defensive options. You may recognize the boss from
+    RoR1.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1339,10 +1339,10 @@
   versionNumber:
     major: 2
     minor: 1
-    patch: 4
+    patch: 5
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-RogueWisp\2.1.4\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-RogueWisp\2.1.5\icon.png
 - manifestVersion: 1
   name: Moffein-BanditReloaded
   authorName: Moffein
