@@ -827,7 +827,7 @@
     major: 2
     minor: 3
     patch: 4
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-GeneralFixes\2.3.4\icon.png
 - manifestVersion: 1
