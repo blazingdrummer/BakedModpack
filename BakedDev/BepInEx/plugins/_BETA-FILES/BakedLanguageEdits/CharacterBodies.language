@@ -19,7 +19,7 @@
 	"COMMANDO_PRIMARY_NAME": "Double Tap",
 	"COMMANDO_PRIMARY_DESCRIPTION" : "Shoot twice for <style=cIsDamage>2x90% damage</style>.",
 	"COMMANDO_SECONDARY_NAME": "Phase Round",
-	"COMMANDO_SECONDARY_DESCRIPTION" : "Fire a piercing bullet that hits all enemies in a line for <style=cIsDamage>300% damage</style>.",
+	"COMMANDO_SECONDARY_DESCRIPTION" : "Fire a piercing bullet that hits all enemies in a line for <style=cIsDamage>300% damage</style> while striking nearby enemies once with lightning for <style=cIsDamage>150% damage</style>.",
 	"COMMANDO_SECONDARY_ALT1_NAME": "Phase Blast",
 	"COMMANDO_SECONDARY_ALT1_DESCRIPTION" : "Fire two close-range blasts that deal <style=cIsDamage>8x200% damage</style> total.",
 	"COMMANDO_UTILITY_NAME": "Tactical Dive",
