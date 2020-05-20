@@ -1,0 +1,36 @@
+<style=c></style> //useful for copying around and then completing with desired style
+
+<style=cIsDamage> = yellow-orange
+<style=cIsUtility> = blue
+<style=cIsHealth> = red-orange
+<style=cIsHealing> = green
+<style=cStack> = grey, smaller font size
+
+<color=#FF7F7F> = light red (use death instead)
+//<color=#9912ED> = dark purple (too dark)
+<color=#007fff> = azure (lore text)
+<color=#ccd3e0> = chat message for achievement (very light grey)
+<color=#BDE151> = achievement name (yellow-green)
+
+<style=cSub> = very light grey, used for sub-section in character descriptions
+<style=cEvent>
+<style=cDeath> = red
+<style=cWorldEvent>
+<color=#f37aff>Time Crystals</color> (prismatic-specific, light purple/pink)
+<color=#ad41f1> = N'kuhana
+<sprite name=\"TP\" tint=1>
+<sprite name=\"WIP\">
+<sprite name=\"Skull\">
+
+<i><\/i>
+<b><\/b>
+<u><\/u>
+
+https://www.colorhexa.com/
+
+726 characters for tonic desc is close to max for pickups
+health highlights included entire phrase
+damage highlights only include the number
+utility highlights might vary
+time amounts should not be highlighted
+try to keep highlights limited to single words rather than whole phrases

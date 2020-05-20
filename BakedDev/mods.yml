@@ -107,7 +107,7 @@
     major: 2
     minor: 0
     patch: 7
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\blazingdrummer-BakedLanguageEdits\2.0.7\icon.png
 - manifestVersion: 1
