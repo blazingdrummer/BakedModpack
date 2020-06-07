@@ -90,6 +90,10 @@ Note: One quirk of a modpack set up like this is that disabling/uninstalling a m
   - pinging an item/equipment now shows its description as if you had picked it up
 ### [AllyPing](https://thunderstore.io/package/mistername/AllyPing/)
   - pinging an enemy now makes your minions target them
+### [StartingItemsGUI](https://thunderstore.io/package/Phedg1Studios/StartingItemsGUI/)
+  - earn credits by killing late-game bosses (currently only Lunar Scavengers) to gain a one-time boost for future runs
+  - credits earned are based on the difficulty you play on (50 credits per kill, 2x/4x/8x multipliers for drizzle/rainstorm/monsoon respectively)
+  - click the **Starting Items** button on the main menu to view earned credits and available items; the list is based on your discovered items, so flesh out your logbook to expand your options!
 ### [ShareSuite](https://thunderstore.io/package/FunkFrog-and-Sipondo/ShareSuite/)
 **Multiplayer-Only**
 
@@ -136,7 +140,7 @@ For a more up-to-date list, check the [GitHub issues page](https://github.com/bl
 - updating the  wiki to include a complete description of all of the mods and how they are setup, and a guide for handling save edits and other aspect ratios
 - working on solutions for the impossible challenges
 - possibly bringing back BakedMutators once I figure out what would still be fun #PvPModeIncoming
-- possibly extending BakedLanguageEdits that allows me to edit the description of items added by mods (ie Rampage, Wicked Ring)
+- possibly extending BakedLanguageEdits to allow me to edit the descriptions of items added by mods (ie Rampage, Wicked Ring)
 - as always, I'm keeping a look at for new content and QOL mods...
 
 # Contact Info
@@ -294,14 +298,14 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated R2API to v2.4.21
     - this fixed the bug with DebugToolkit concerning commands
 
-`v2.4.0`
+`v2.4.1`
 
   - updated BazaarPrinter to v0.2.2
   - updated LighterPatcher to v1.0.2
   - updated DeathMarkFix to v1.0.2
   - updated SpeedyBeetles to v1.0.5
   - added IlLine v1.0.0
-  - added StartingItemsGUI v1.1.4
+  - added StartingItemsGUI v1.1.5
   - added OrderedItems v2.2.1
   - added Phase_Round_Lightning v1.0.0
   - added ArtificerExtended v1.1.1
@@ -311,3 +315,4 @@ In order to not make this readme any longer than it already is, the pre-release 
   - added ProperSave v2.0.0
   - updated BanditReloaded to v1.2.0
   - updated RogueWisp to v2.1.5
+  - updated TemporaryLunarCoins to v0.2.1

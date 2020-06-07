@@ -912,17 +912,17 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.4.2
+    - tristanmcpherson-R2API-2.4.21
     - bbepis-BepInExPack-3.2.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 2
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-TemporaryLunarCoins\0.2.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-TemporaryLunarCoins\0.2.1\icon.png
 - manifestVersion: 1
   name: Jimmy-AcridPoisonBuffs
   authorName: Jimmy
@@ -1223,10 +1223,10 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 4
+    patch: 5
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-StartingItemsGUI\1.1.4\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-StartingItemsGUI\1.1.5\icon.png
 - manifestVersion: 1
   name: gog909-OrderedItems
   authorName: gog909

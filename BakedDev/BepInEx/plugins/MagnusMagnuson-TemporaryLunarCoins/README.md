@@ -32,5 +32,6 @@ If you want to change the config
 ![contact](https://i.imgur.com/gPBrPrQ.png)
 
 ## Changelog
+- 0.2.1 Feature Request: Automatic removal of coins in single player mode via config. Additionally, "tic_aye" will now also be accepted as command.
 - 0.2.0 Update for Artifacts Update
 - 0.1.0 Initial release
