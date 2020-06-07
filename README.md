@@ -155,29 +155,88 @@ In particular, I'd like to thank Ebkr, Moffein, Rein, Magnus, Sipondo & Funkfrog
 ## Changelog
 In order to not make this readme any longer than it already is, the pre-release changes can be found in the `#changelog` section of the [Discord](https://discord.gg/CYYJdrz).
 
-`v1.5.1`
+`v2.5.0`
 
-  - initial release
+  - updated BazaarPrinter to v0.2.2
+  - updated LighterPatcher to v1.0.2
+  - updated DeathMarkFix to v1.0.2
+  - updated SpeedyBeetles to v1.0.5
+  - added IlLine v1.0.0
+  - added StartingItemsGUI v1.1.5
+  - added OrderedItems v2.2.1
+  - added Phase_Round_Lightning v1.0.0
+  - added ArtificerExtended v1.1.1
+  - added HarbCrate v1.0.2
+  - updated Pingprovements to v1.6.0
+  - updated GeneralFixes to v1.3.4
+  - added ProperSave v2.0.0
+  - updated BanditReloaded to v1.2.0
+  - updated RogueWisp to v2.1.5
+  - updated TemporaryLunarCoins to v0.2.1
+  - README: inverted changelog to make it easier to find changes
 
-`v1.5.2`
+`v2.3.2`
 
-  - updated DebugToolkit to v3.2.2
-    - solved the errors caused by dying during `noclip`
-  - updated DiluvianDifficulty to v1.0.3
-  - README changes
-    - added instructions for running commands in the console
-    - added the reference to the #known-issues section of the Discord
-    - added a changelog starting from initial public release only
-    - added an "Updating" section
-    - added instructions for transferring Starting Items credits
-  - updated "Known Bugs/Problems"
-  - updated BanditReloaded to v1.0.1
-    - this should resolve an issue where Smokebomb didn't make him invisible when playing as client
+  - updated MobileTurretBuff to v1.1.0
+  - updated R2API to v2.4.21
+    - this fixed the bug with DebugToolkit concerning commands
 
-`v1.5.3`
+`v2.3.1`
 
-  - updated AcridPoisonBuffs to v0.3.0
-  - README: added a notice for dealing with potential update issues until r2modman adds modpack support
+  - removed StartingItemsGUI & ItemDropList until issues (hopefully) can be resolved
+  - added MULT_Buff v1.0.0
+  - updated GeneralFixes to v2.3.3
+  - updated SpeedyBeetles to v1.0.4
+
+`v2.2.6`
+
+  - emergency removal of ItemDropList due to a bug
+  - forgot to disable console last time...
+
+`v2.2.5`
+
+  - README: removed confusing references to old mods
+  - added DeathMarkFix v1.0.1
+  - added SpeedyBeetles v1.0.3
+  - added MobileTurretBuff v1.0.0
+
+`v2.2.4`
+
+  - removed ShowDeathCause
+    - was causing certain setups to hang when closing to desktop
+  - added PocketPrinter v1.1.0
+    - *Shoutout to Sciman101 for working with me to balance this mod and resolve issues*
+  - removed OrderedItems due to current UI issue
+    - [GitHub link](https://github.com/blazingdrummer/BakedModpack/issues/2): OrderedItems currently causes the top inventory bar to improperly display items at times
+    - currently working with the author to hopefully reach a solution
+  - updated HarbTweaks to v1.3.0
+  - updated TheSurgeon to v1.4.2
+  - disabled the chat function for ScannerPlusOne
+    - this option tended to spam the chat when you had low equipment cooldown
+    - scanner icons are still color-coded, so learning the colors shouldn't be too hard
+  - updated LunarCoinShareOnPickup to v3.6.1
+  - added GiganticAmethyst v1.1.1
+    - *Shoutout to Rico for working with me to balance this mod*
+  - updated StartingItemsGUI to v1.1.3
+    - increased prices slightly; based on average run yield and balanced around Consumable mode
+  - added ItemDropList v1.1.2
+    - this mod will be disabled in-game by default to prevent mass confusion; you can enable it in-game using its menu button
+    - *Shoutout to Phedg1 for working with me to make these compatible with modpack default configurations and changing his config system to work with r2modman's editor*
+
+`v2.1.0`
+
+  - README: updated 1920x1080 resolution recommendation to 16:9 aspect ratio
+    - thanks to CarlosPCMR for checking this for me!
+  - updated BanditReloaded to v1.1.1
+    - adds Vengeance support (both RogueWisp and BanditReloaded now have this)
+  - updated Void_Reaver to v0.2.2
+  - updated DiluvianDifficulty to v1.0.5
+  - updated ShareSuite to v2.0.0(!)
+    - fixes the scavenger bug
+    - resolves issue with Sacrifice dropping way too many items
+  - README:
+    - added a notice about modifying the pack
+    - added section headers to **Disclaimers**
 
 `v2.0.4`
 
@@ -235,84 +294,26 @@ In order to not make this readme any longer than it already is, the pre-release 
   - removed MakeMonsterToothGreatAgain
   - removed AcridM1Heal
 
-`v2.1.0`
+`v1.5.3`
 
-  - README: updated 1920x1080 resolution recommendation to 16:9 aspect ratio
-    - thanks to CarlosPCMR for checking this for me!
-  - updated BanditReloaded to v1.1.1
-    - adds Vengeance support (both RogueWisp and BanditReloaded now have this)
-  - updated Void_Reaver to v0.2.2
-  - updated DiluvianDifficulty to v1.0.5
-  - updated ShareSuite to v2.0.0(!)
-    - fixes the scavenger bug
-    - resolves issue with Sacrifice dropping way too many items
-  - README:
-    - added a notice about modifying the pack
-    - added section headers to **Disclaimers**
+  - updated AcridPoisonBuffs to v0.3.0
+  - README: added a notice for dealing with potential update issues until r2modman adds modpack support
 
-`v2.2.4`
+`v1.5.2`
 
-  - removed ShowDeathCause
-    - was causing certain setups to hang when closing to desktop
-  - added PocketPrinter v1.1.0
-    - *Shoutout to Sciman101 for working with me to balance this mod and resolve issues*
-  - removed OrderedItems due to current UI issue
-    - [GitHub link](https://github.com/blazingdrummer/BakedModpack/issues/2): OrderedItems currently causes the top inventory bar to improperly display items at times
-    - currently working with the author to hopefully reach a solution
-  - updated HarbTweaks to v1.3.0
-  - updated TheSurgeon to v1.4.2
-  - disabled the chat function for ScannerPlusOne
-    - this option tended to spam the chat when you had low equipment cooldown
-    - scanner icons are still color-coded, so learning the colors shouldn't be too hard
-  - updated LunarCoinShareOnPickup to v3.6.1
-  - added GiganticAmethyst v1.1.1
-    - *Shoutout to Rico for working with me to balance this mod*
-  - updated StartingItemsGUI to v1.1.3
-    - increased prices slightly; based on average run yield and balanced around Consumable mode
-  - added ItemDropList v1.1.2
-    - this mod will be disabled in-game by default to prevent mass confusion; you can enable it in-game using its menu button
-    - *Shoutout to Phedg1 for working with me to make these compatible with modpack default configurations and changing his config system to work with r2modman's editor*
+  - updated DebugToolkit to v3.2.2
+    - solved the errors caused by dying during `noclip`
+  - updated DiluvianDifficulty to v1.0.3
+  - README changes
+    - added instructions for running commands in the console
+    - added the reference to the #known-issues section of the Discord
+    - added a changelog starting from initial public release only
+    - added an "Updating" section
+    - added instructions for transferring Starting Items credits
+  - updated "Known Bugs/Problems"
+  - updated BanditReloaded to v1.0.1
+    - this should resolve an issue where Smokebomb didn't make him invisible when playing as client
 
-`v2.2.5`
+`v1.5.1`
 
-  - README: removed confusing references to old mods
-  - added DeathMarkFix v1.0.1
-  - added SpeedyBeetles v1.0.3
-  - added MobileTurretBuff v1.0.0
-
-`v2.2.6`
-
-  - emergency removal of ItemDropList due to a bug
-  - forgot to disable console last time...
-
-`v2.3.1`
-
-  - removed StartingItemsGUI & ItemDropList until issues (hopefully) can be resolved
-  - added MULT_Buff v1.0.0
-  - updated GeneralFixes to v2.3.3
-  - updated SpeedyBeetles to v1.0.4
-
-`v2.3.2`
-
-  - updated MobileTurretBuff to v1.1.0
-  - updated R2API to v2.4.21
-    - this fixed the bug with DebugToolkit concerning commands
-
-`v2.4.1`
-
-  - updated BazaarPrinter to v0.2.2
-  - updated LighterPatcher to v1.0.2
-  - updated DeathMarkFix to v1.0.2
-  - updated SpeedyBeetles to v1.0.5
-  - added IlLine v1.0.0
-  - added StartingItemsGUI v1.1.5
-  - added OrderedItems v2.2.1
-  - added Phase_Round_Lightning v1.0.0
-  - added ArtificerExtended v1.1.1
-  - added HarbCrate v1.0.2
-  - updated Pingprovements to v1.6.0
-  - updated GeneralFixes to v1.3.4
-  - added ProperSave v2.0.0
-  - updated BanditReloaded to v1.2.0
-  - updated RogueWisp to v2.1.5
-  - updated TemporaryLunarCoins to v0.2.1
+  - initial release
