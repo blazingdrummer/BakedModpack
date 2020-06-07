@@ -704,17 +704,17 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.4.10
+    - tristanmcpherson-R2API-2.4.21
     - bbepis-BepInExPack-3.2.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 0
-    patch: 0
-  enabled: false
+    patch: 1
+  enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\FunkFrog-and-Sipondo-ShareSuite\2.0.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\FunkFrog-and-Sipondo-ShareSuite\2.0.1\icon.png
 - manifestVersion: 1
   name: mistername-AllyPing
   authorName: mistername

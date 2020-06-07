@@ -174,6 +174,8 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated RogueWisp to v2.1.5
   - updated TemporaryLunarCoins to v0.2.1
   - README: inverted changelog to make it easier to find changes
+  - updated ShareSuite to v2.0.1
+    - resolves the issue where Scavengers would only drop 2 items at all times, should now scale based on party size
 
 `v2.3.2`
 
