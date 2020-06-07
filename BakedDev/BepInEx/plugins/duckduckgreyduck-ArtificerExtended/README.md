@@ -7,7 +7,7 @@ ArtificerExtended introduces a handful of new skills for Artificer with the inte
 Snowballs are an ICE m1 that, unlike her other bolts, are un-limited by cooldown. This means they can scale perfectly with attack speed - a great asset for lategame and ion surge users!
 
 ### Stats:
-- Fires once every 0.6 seconds 
+- 0.6 second attack duration
 - 180% damage per hit
 - 0.7 proc coefficient
 - 50% slow on hit
@@ -17,7 +17,7 @@ Snowballs are an ICE m1 that, unlike her other bolts, are un-limited by cooldown
 Ice Shards are another ICE m1 with a low range shotgun-like fire. This skill is designed for high risk, high reward play - it synergizes great with her other low range skills, like flamethrower, and the new Napalm!
 
 ### Stats:
-- Fires once every 0.3 seconds (like her other bolts)
+- 0.3 second attack duration (like her other bolts)
 - 1.25s cooldown, 4 charges max (like her other bolts)
 - 3x140% damage per hit (420% total)
 - 0.6 proc coefficient
@@ -36,7 +36,27 @@ Napalm Barrage is a FIRE alternative to snapfreeze, with the aim to create a mor
 - 0.6 proc coefficient on impact
 - The Napalm itself burns with identical stats to Artificer's "Ignite" debuffs, and also scales damage per tick with the "fire" part AlternateArtificer's passive.
 
+
+## New Utility: "Rolling Thunder" (icon coming soon)
+Rolling Thunder is a LIGHTNING utility skill, which is uniquely capable of targeting aerial enemies. It presents an alternative with snapfreeze, which offers controlled, instant damage and a stun on command. Thunder's charge system allows the choice to either use strikes as they come off cooldown, or save them up to stunlock a target for a longer time.
+
+### Stats:
+- 0.5 second attack duration (can be sprint-canceled like snapfreeze)
+- 6s cooldown, 3 charges max
+- 200% damage per hit
+- 1.0 proc coefficient
+- 2.5m max blast radius 
+- 1 second stun on hit
+
 ## Changelog
+### 1.2.1
+- Changed Snowball velocity from 40 to 80
+(*Snowballs now match the velocity of firebolts and plasmabolts)
+### 1.2.0
+- Added 1 new skill: ROLLING THUNDER
+- Further reduced Napalm AOE/decal "dot" damage from 5 to 3
+- Fixed a few errors regarding networking
+- Updated Thunderstore formatting in some spots
 ### 1.1.1
 - Reduced Napalm projectile count from 15 to 12
 - Increase Napalm AOE/decal size from 2 to 3
