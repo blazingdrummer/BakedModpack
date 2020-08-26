@@ -37,10 +37,10 @@
   versionNumber:
     major: 2
     minor: 4
-    patch: 21
+    patch: 29
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.4.21\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.4.29\icon.png
 - manifestVersion: 1
   name: Harb-LighterPatcher
   authorName: Harb
@@ -60,10 +60,10 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 2
+    patch: 3
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-LighterPatcher\1.0.2\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-LighterPatcher\1.0.3\icon.png
 - manifestVersion: 1
   name: Harb-AssetPlusRequester
   authorName: Harb
@@ -180,75 +180,27 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\kristiansja-KeyBindForConsole\2.0.1\icon.png
 - manifestVersion: 1
-  name: JackPendarvesRead-BepinexConfigurationManager
-  authorName: JackPendarvesRead
-  websiteUrl: https://thunderstore.io/package/JackPendarvesRead/BepinexConfigurationManager/
-  displayName: BepinexConfigurationManager
-  description: An easy way to let user configure how a plugin behaves without the need to
-    make your own GUI. The user can change any of the settings you expose, even
-    keyboard shortcuts.
+  name: IFixYourRoR2Mods-Bepinex_ConfigurationManager
+  authorName: IFixYourRoR2Mods
+  websiteUrl: https://thunderstore.io/package/IFixYourRoR2Mods/Bepinex_ConfigurationManager/
+  displayName: Bepinex_ConfigurationManager
+  description: Ingame editing of mod config
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-3.0.0
+    - bbepis-BepInExPack-3.2.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 2
+    major: 16
     minor: 0
     patch: 0
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JackPendarvesRead-BepinexConfigurationManager\2.0.0\icon.png
-- manifestVersion: 1
-  name: JackPendarvesRead-FluffyLabsConfigManagerTools
-  authorName: JackPendarvesRead
-  websiteUrl: https://thunderstore.io/package/JackPendarvesRead/FluffyLabsConfigManagerTools/
-  displayName: FluffyLabsConfigManagerTools
-  description: Tools to help build configuration with Bepinex.ConfigurationManager
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - JackPendarvesRead-BepinexConfigurationManager-2.0.0
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JackPendarvesRead-FluffyLabsConfigManagerTools\1.0.1\icon.png
-- manifestVersion: 1
-  name: JackPendarvesRead-MacroCommands
-  authorName: JackPendarvesRead
-  websiteUrl: https://thunderstore.io/package/JackPendarvesRead/MacroCommands/
-  displayName: MacroCommands
-  description: Assign keybinds and chain console commands together to give easy access to
-    frequently used commands
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JackPendarvesRead-MacroCommands\2.0.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\IFixYourRoR2Mods-Bepinex_ConfigurationManager\16.0.0\icon.png
 - manifestVersion: 1
   name: TheRealElysium-EmptyChestsBeGone
   authorName: TheRealElysium
@@ -505,30 +457,6 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\wildbook-TooManyFriends\1.0.0\icon.png
 - manifestVersion: 1
-  name: JackPendarvesRead-BulletFalloffFix
-  authorName: JackPendarvesRead
-  websiteUrl: https://thunderstore.io/package/JackPendarvesRead/BulletFalloffFix/
-  displayName: BulletFalloffFix
-  description: Makes bullet attacks more effective at a distance by rebalancing falloff
-    damage of bullet attacks (e.g. commando).
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - JackPendarvesRead-FluffyLabsConfigManagerTools-1.0.1
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JackPendarvesRead-BulletFalloffFix\2.0.1\icon.png
-- manifestVersion: 1
   name: TeaBoneJones-IncreaseHuntressRange
   authorName: TeaBoneJones
   websiteUrl: https://thunderstore.io/package/TeaBoneJones/IncreaseHuntressRange/
@@ -552,30 +480,6 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TeaBoneJones-IncreaseHuntressRange\1.0.0\icon.png
-- manifestVersion: 1
-  name: JackPendarvesRead-InfusionStackFix
-  authorName: JackPendarvesRead
-  websiteUrl: https://thunderstore.io/package/JackPendarvesRead/InfusionStackFix/
-  displayName: InfusionStackFix
-  description: Adds extra configuration to Infusion. Extra interaction with Engineer
-    turrets, configurable maximum values, etc.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - JackPendarvesRead-FluffyLabsConfigManagerTools-1.0.1
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 5
-    minor: 0
-    patch: 2
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JackPendarvesRead-InfusionStackFix\5.0.2\icon.png
 - manifestVersion: 1
   name: TheRealElysium-WaxQuailMultiJump
   authorName: TheRealElysium
@@ -1313,11 +1217,11 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 0
-    patch: 0
+    minor: 1
+    patch: 1
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\KingEnderBrine-ProperSave\2.0.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\KingEnderBrine-ProperSave\2.1.1\icon.png
 - manifestVersion: 1
   name: Rein-RogueWisp
   authorName: Rein

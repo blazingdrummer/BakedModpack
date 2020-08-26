@@ -155,10 +155,9 @@ In particular, I'd like to thank Ebkr, Moffein, Rein, Magnus, Sipondo & Funkfrog
 ## Changelog
 In order to not make this readme any longer than it already is, the pre-release changes can be found in the `#changelog` section of the [Discord](https://discord.gg/CYYJdrz).
 
-`v2.5.0`
+`v3.0.0`
 
   - updated BazaarPrinter to v0.2.2
-  - updated LighterPatcher to v1.0.2
   - updated DeathMarkFix to v1.0.2
   - updated SpeedyBeetles to v1.0.5
   - added IlLine v1.0.0
@@ -169,13 +168,19 @@ In order to not make this readme any longer than it already is, the pre-release 
   - added HarbCrate v1.0.2
   - updated Pingprovements to v1.6.0
   - updated GeneralFixes to v1.3.4
-  - added ProperSave v2.0.0
   - updated BanditReloaded to v1.2.0
   - updated RogueWisp to v2.1.5
   - updated TemporaryLunarCoins to v0.2.1
   - README: inverted changelog to make it easier to find changes
   - updated ShareSuite to v2.0.1
     - resolves the issue where Scavengers would only drop 2 items at all times, should now scale based on party size
+
+  - updated R2API to v2.4.29
+  - updated LighterPatcher to v1.0.3
+  - added ProperSave v2.1.1
+  - replaced Bepinex ConfigurationManager (now v16.0.0)
+  - removed FluffyLabsConfigManagerTools, BulletFalloffFix, InfusionStackfix, MacroCommands
+    TODO: replace MacroCommands with SimpleMacros
 
 `v2.3.2`
 

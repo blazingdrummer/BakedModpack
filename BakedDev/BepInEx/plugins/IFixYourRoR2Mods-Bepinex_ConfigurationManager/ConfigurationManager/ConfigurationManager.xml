@@ -4,6 +4,11 @@
         <name>ConfigurationManager</name>
     </assembly>
     <members>
+        <member name="M:ConfigurationManager.LegacySettingSearcher.GetLegacyPluginConfig(BepInEx.BaseUnityPlugin)">
+            <summary>
+            Used by bepinex 4 plugins
+            </summary>
+        </member>
         <member name="M:ConfigurationManager.SettingSearcher.GetBepInExCoreConfig">
             <summary>
             Bepinex 5 config
@@ -12,11 +17,6 @@
         <member name="M:ConfigurationManager.SettingSearcher.GetPluginConfig(BepInEx.BaseUnityPlugin)">
             <summary>
             Used by bepinex 5 plugins
-            </summary>
-        </member>
-        <member name="M:ConfigurationManager.SettingSearcher.GetLegacyPluginConfig(BepInEx.BaseUnityPlugin)">
-            <summary>
-            Used by bepinex 4 plugins
             </summary>
         </member>
         <member name="M:ConfigurationManager.Utilities.Utils.FilterBrowsable``1(System.Collections.Generic.IEnumerable{``0},System.Boolean,System.Boolean)">
@@ -47,7 +47,7 @@
         </member>
         <member name="F:ConfigurationManager.ConfigurationManager.OverrideHotkey">
             <summary>
-            Disable the hotkey check used by config manager. If enabled you have to set DisplayingWindow to show the manager.
+            Disable the hotkey check used by config manager. If enabled you have to set <see cref="P:ConfigurationManager.ConfigurationManager.DisplayingWindow"/> to show the manager.
             </summary>
         </member>
         <member name="M:ConfigurationManager.ConfigurationManager.#ctor">
@@ -120,6 +120,12 @@
             Force the "Reset" button to not be displayed, even if a valid DefaultValue is available. 
             </summary>
         </member>
+        <member name="P:ConfigurationManager.SettingEntryBase.HideSettingName">
+            <summary>
+            Force the setting name to not be displayed. Should only be used with a <see cref="P:ConfigurationManager.SettingEntryBase.CustomDrawer"/> to get more space.
+            Can be used together with <see cref="P:ConfigurationManager.SettingEntryBase.HideDefaultButton"/> to gain even more space.
+            </summary>
+        </member>
         <member name="P:ConfigurationManager.SettingEntryBase.Description">
             <summary>
             Optional description shown when hovering over the setting
@@ -170,6 +176,11 @@
             Set the value of this setting
             </summary>
         </member>
+        <member name="M:ConfigurationManager.SettingEntryBase.SetValue(System.Object)">
+            <summary>
+            Implementation of <see cref="M:ConfigurationManager.SettingEntryBase.Set(System.Object)"/>
+            </summary>
+        </member>
         <member name="P:ConfigurationManager.SettingEntryBase.ObjToStr">
             <summary>
             Custom converter from setting type to string for the textbox
@@ -183,6 +194,14 @@
         <member name="T:ConfigurationManager.ValueChangedEventArgs`1">
             <summary>
             Arguments representing a change in value
+            </summary>
+        </member>
+        <member name="M:ConfigurationManager.ValueChangedEventArgs`1.#ctor(`0)">
+            <inheritdoc />
+        </member>
+        <member name="P:ConfigurationManager.ValueChangedEventArgs`1.NewValue">
+            <summary>
+            Newly assigned value
             </summary>
         </member>
         <member name="T:BepInEx.AcceptableValueListAttribute">

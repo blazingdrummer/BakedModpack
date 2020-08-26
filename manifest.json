@@ -42,9 +42,7 @@
 	"Timmeh42-2-StealthySpawn-1.0.0",
 	"TheRealElysium-ScalingBloodShrines-1.0.1",
 	"TheRealElysium-WaxQuailMultiJump-1.0.1",
-	"JackPendarvesRead-InfusionStackFix-5.0.2",
 	"TeaBoneJones-IncreaseHuntressRange-1.0.0",
-	"JackPendarvesRead-BulletFalloffFix-2.0.1",
 	"wildbook-TooManyFriends-1.0.0",
 	"MagnusMagnuson-ItemExchangeNotifier-1.3.0",
 	"TheRealElysium-Faster3DPrinters-1.0.0",
@@ -56,16 +54,14 @@
 	"kookehs-StatsDisplay-2.3.0",
 	"Harb-HarbTweaks-1.3.0",
 	"TheRealElysium-EmptyChestsBeGone-1.1.1",
-	"JackPendarvesRead-MacroCommands-2.0.0",
-	"JackPendarvesRead-FluffyLabsConfigManagerTools-1.0.1",
-	"JackPendarvesRead-BepinexConfigurationManager-2.0.0",
+	"IFixYourRoR2Mods-Bepinex_ConfigurationManager-16.0.0",
 	"kristiansja-KeyBindForConsole-2.0.1",
 	"Harb-DebugToolkit-3.3.1",
 	"wildbook-MiniRpcLib-0.0.1",
 	"blazingdrummer-BakedLanguageEdits-2.0.7",
 	"Harb-AssetPlusRequester-1.0.0",
 	"Harb-LighterPatcher-1.0.2",
-	"tristanmcpherson-R2API-2.4.21",
+	"tristanmcpherson-R2API-2.4.29",
 	"bbepis-BepInExPack-3.2.0"
   ]
 }
