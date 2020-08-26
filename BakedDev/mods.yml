@@ -201,6 +201,30 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\blazingdrummer-BakedLanguageEdits\2.0.7\icon.png
 - manifestVersion: 1
+  name: JohnEdwa-RTAutoSprintEx
+  authorName: JohnEdwa
+  websiteUrl: https://thunderstore.io/package/JohnEdwa/RTAutoSprintEx/
+  displayName: RTAutoSprintEx
+  description: RT AutoSprint fixed and enhanced with more features. Sprint automatically,
+    but only when you would be allowed to do so in the first place.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.6
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JohnEdwa-RTAutoSprintEx\1.1.1\icon.png
+- manifestVersion: 1
   name: TheRealElysium-EmptyChestsBeGone
   authorName: TheRealElysium
   websiteUrl: https://thunderstore.io/package/TheRealElysium/EmptyChestsBeGone/
@@ -339,31 +363,6 @@
   enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\dan8991iel-LunarCoinShareOnPickup\3.6.1\icon.png
-- manifestVersion: 1
-  name: JohnEdwa-RTAutoSprintEx
-  authorName: JohnEdwa
-  websiteUrl: https://thunderstore.io/package/JohnEdwa/RTAutoSprintEx/
-  displayName: RTAutoSprintEx
-  description: "(BuildID: 4811921) RT AutoSprint fixed and enhanced with more features.
-    Sprint automatically, but only when you would be allowed to do so in the
-    first place."
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.10
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 6
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JohnEdwa-RTAutoSprintEx\1.0.6\icon.png
 - manifestVersion: 1
   name: MagnusMagnuson-ScannerPlusOne
   authorName: MagnusMagnuson
