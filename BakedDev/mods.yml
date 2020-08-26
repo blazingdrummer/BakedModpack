@@ -13,12 +13,12 @@
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 3
-    minor: 2
-    patch: 0
+    major: 5
+    minor: 3
+    patch: 1
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\bbepis-BepInExPack\3.2.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\bbepis-BepInExPack\5.3.1\icon.png
 - manifestVersion: 1
   name: tristanmcpherson-R2API
   authorName: tristanmcpherson
@@ -36,11 +36,11 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 4
-    patch: 29
+    minor: 5
+    patch: 11
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.4.29\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.5.11\icon.png
 - manifestVersion: 1
   name: Harb-LighterPatcher
   authorName: Harb
@@ -65,75 +65,28 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-LighterPatcher\1.0.3\icon.png
 - manifestVersion: 1
-  name: Harb-AssetPlusRequester
-  authorName: Harb
-  websiteUrl: https://thunderstore.io/package/Harb/AssetPlusRequester/
-  displayName: AssetPlusRequester
-  description: Tell R2API to enable the AssetPlus module
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.3.22
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-AssetPlusRequester\1.0.0\icon.png
-- manifestVersion: 1
-  name: blazingdrummer-BakedLanguageEdits
-  authorName: blazingdrummer
-  websiteUrl: https://thunderstore.io/package/blazingdrummer/BakedLanguageEdits/
-  displayName: BakedLanguageEdits
-  description: A language pack originally created for the Baked modpack. Adds detailed
-    tooltips and descriptions, explains changes made by the mods, and enhances
-    the game's lore.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - Harb-AssetPlusRequester-1.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 0
-    patch: 7
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\blazingdrummer-BakedLanguageEdits\2.0.7\icon.png
-- manifestVersion: 1
   name: wildbook-MiniRpcLib
   authorName: wildbook
   websiteUrl: https://thunderstore.io/package/wildbook/MiniRpcLib/
   displayName: MiniRpcLib
-  description: This is an alpha/beta library. It works, but there are breaking changes
-    planned. It's released here to allow developers to reference it as a
-    dependency.
+  description: A relatively simple networking library.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-2.0.0
+    - tristanmcpherson-R2API-2.5.0
+    - bbepis-BepInExPack-5.3.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 0
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\wildbook-MiniRpcLib\0.0.1\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\wildbook-MiniRpcLib\0.0.2\icon.png
 - manifestVersion: 1
   name: Harb-DebugToolkit
   authorName: Harb
@@ -146,17 +99,17 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.4.10
-    - bbepis-BepInExPack-3.2.0
+    - tristanmcpherson-R2API-2.5.6
+    - bbepis-BepInExPack-5.3.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 3
-    patch: 1
-  enabled: false
+    minor: 4
+    patch: 0
+  enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DebugToolkit\3.3.1\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DebugToolkit\3.4.0\icon.png
 - manifestVersion: 1
   name: kristiansja-KeyBindForConsole
   authorName: kristiansja
@@ -202,6 +155,52 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\IFixYourRoR2Mods-Bepinex_ConfigurationManager\16.0.0\icon.png
 - manifestVersion: 1
+  name: Harb-AssetPlusRequester
+  authorName: Harb
+  websiteUrl: https://thunderstore.io/package/Harb/AssetPlusRequester/
+  displayName: AssetPlusRequester
+  description: Tell R2API to enable the AssetPlus module
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.3.22
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: false
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-AssetPlusRequester\1.0.0\icon.png
+- manifestVersion: 1
+  name: blazingdrummer-BakedLanguageEdits
+  authorName: blazingdrummer
+  websiteUrl: https://thunderstore.io/package/blazingdrummer/BakedLanguageEdits/
+  displayName: BakedLanguageEdits
+  description: A language pack originally created for the Baked modpack. Adds detailed
+    tooltips and descriptions, explains changes made by the mods, and enhances
+    the game's lore.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - Harb-AssetPlusRequester-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 7
+  enabled: false
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\blazingdrummer-BakedLanguageEdits\2.0.7\icon.png
+- manifestVersion: 1
   name: TheRealElysium-EmptyChestsBeGone
   authorName: TheRealElysium
   websiteUrl: https://thunderstore.io/package/TheRealElysium/EmptyChestsBeGone/
@@ -220,7 +219,7 @@
     major: 1
     minor: 1
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-EmptyChestsBeGone\1.1.1\icon.png
 - manifestVersion: 1
@@ -243,7 +242,7 @@
     major: 1
     minor: 3
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-HarbTweaks\1.3.0\icon.png
 - manifestVersion: 1
@@ -265,7 +264,7 @@
     major: 2
     minor: 3
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\kookehs-StatsDisplay\2.3.0\icon.png
 - manifestVersion: 1
@@ -288,7 +287,7 @@
     major: 1
     minor: 6
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\pixeldesu-Pingprovements\1.6.0\icon.png
 - manifestVersion: 1
@@ -312,7 +311,7 @@
     major: 1
     minor: 3
     patch: 2
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-ShrineOfDio\1.3.2\icon.png
 - manifestVersion: 1
@@ -337,7 +336,7 @@
     major: 3
     minor: 6
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\dan8991iel-LunarCoinShareOnPickup\3.6.1\icon.png
 - manifestVersion: 1
@@ -362,7 +361,7 @@
     major: 1
     minor: 0
     patch: 6
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JohnEdwa-RTAutoSprintEx\1.0.6\icon.png
 - manifestVersion: 1
@@ -386,7 +385,7 @@
     major: 2
     minor: 5
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-ScannerPlusOne\2.5.0\icon.png
 - manifestVersion: 1
@@ -408,7 +407,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-Faster3DPrinters\1.0.0\icon.png
 - manifestVersion: 1
@@ -431,7 +430,7 @@
     major: 1
     minor: 3
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-ItemExchangeNotifier\1.3.0\icon.png
 - manifestVersion: 1
@@ -453,7 +452,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\wildbook-TooManyFriends\1.0.0\icon.png
 - manifestVersion: 1
@@ -477,7 +476,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TeaBoneJones-IncreaseHuntressRange\1.0.0\icon.png
 - manifestVersion: 1
@@ -499,7 +498,7 @@
     major: 1
     minor: 0
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-WaxQuailMultiJump\1.0.1\icon.png
 - manifestVersion: 1
@@ -522,7 +521,7 @@
     major: 1
     minor: 0
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-ScalingBloodShrines\1.0.1\icon.png
 - manifestVersion: 1
@@ -545,7 +544,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Timmeh42-2-StealthySpawn\1.0.0\icon.png
 - manifestVersion: 1
@@ -569,7 +568,7 @@
     major: 0
     minor: 2
     patch: 2
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Jarlyk-Raincoat\0.2.2\icon.png
 - manifestVersion: 1
@@ -592,7 +591,7 @@
     major: 1
     minor: 0
     patch: 5
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DiluvianDifficulty\1.0.5\icon.png
 - manifestVersion: 1
@@ -616,7 +615,7 @@
     major: 2
     minor: 0
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\FunkFrog-and-Sipondo-ShareSuite\2.0.1\icon.png
 - manifestVersion: 1
@@ -639,7 +638,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-AllyPing\1.0.0\icon.png
 - manifestVersion: 1
@@ -663,7 +662,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Unordinal-AI_Blacklister\1.0.0\icon.png
 - manifestVersion: 1
@@ -686,7 +685,7 @@
     major: 3
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JackPendarvesRead-EngiShieldNotification\3.0.0\icon.png
 - manifestVersion: 1
@@ -708,7 +707,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\hlista-SimpleRoll\1.0.0\icon.png
 - manifestVersion: 1
@@ -754,7 +753,7 @@
     major: 2
     minor: 0
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-ArchaicWisps\2.0.1\icon.png
 - manifestVersion: 1
@@ -777,7 +776,7 @@
     major: 1
     minor: 2
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-LunarWickedRing\1.2.1\icon.png
 - manifestVersion: 1
@@ -801,7 +800,7 @@
     major: 1
     minor: 9
     patch: 3
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-BiggerBazaar\1.9.3\icon.png
 - manifestVersion: 1
@@ -824,7 +823,7 @@
     major: 0
     minor: 2
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-TemporaryLunarCoins\0.2.1\icon.png
 - manifestVersion: 1
@@ -847,7 +846,7 @@
     major: 0
     minor: 3
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Jimmy-AcridPoisonBuffs\0.3.0\icon.png
 - manifestVersion: 1
@@ -871,7 +870,7 @@
     major: 0
     minor: 0
     patch: 6
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\xiaoxiao921-DPSMeter\0.0.6\icon.png
 - manifestVersion: 1
@@ -896,7 +895,7 @@
     major: 1
     minor: 1
     patch: 4
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\xiaoxiao921-Rampage\1.1.4\icon.png
 - manifestVersion: 1
@@ -919,7 +918,7 @@
     major: 1
     minor: 1
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Legendsmith-SolidIceWall\1.1.0\icon.png
 - manifestVersion: 1
@@ -942,7 +941,7 @@
     major: 0
     minor: 2
     patch: 2
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-BazaarPrinter\0.2.2\icon.png
 - manifestVersion: 1
@@ -965,7 +964,7 @@
     major: 1
     minor: 1
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Sciman101-PocketPrinter\1.1.0\icon.png
 - manifestVersion: 1
@@ -988,7 +987,7 @@
     major: 1
     minor: 1
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rico-GiganticAmethyst\1.1.1\icon.png
 - manifestVersion: 1
@@ -1012,7 +1011,7 @@
     major: 1
     minor: 0
     patch: 2
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-DeathMarkFix\1.0.2\icon.png
 - manifestVersion: 1
@@ -1035,7 +1034,7 @@
     major: 1
     minor: 0
     patch: 5
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-SpeedyBeetles\1.0.5\icon.png
 - manifestVersion: 1
@@ -1058,7 +1057,7 @@
     major: 1
     minor: 1
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-MobileTurretBuff\1.1.0\icon.png
 - manifestVersion: 1
@@ -1080,7 +1079,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-MULT_Buff\1.0.0\icon.png
 - manifestVersion: 1
@@ -1102,7 +1101,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-IlLine\1.0.0\icon.png
 - manifestVersion: 1
@@ -1128,7 +1127,7 @@
     major: 1
     minor: 1
     patch: 5
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-StartingItemsGUI\1.1.5\icon.png
 - manifestVersion: 1
@@ -1151,7 +1150,7 @@
     major: 2
     minor: 2
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\gog909-OrderedItems\2.2.1\icon.png
 - manifestVersion: 1
@@ -1173,7 +1172,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-Phase_Round_Lightning\1.0.0\icon.png
 - manifestVersion: 1
@@ -1196,7 +1195,7 @@
     major: 1
     minor: 0
     patch: 2
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-HarbCrate\1.0.2\icon.png
 - manifestVersion: 1
@@ -1219,7 +1218,7 @@
     major: 2
     minor: 1
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\KingEnderBrine-ProperSave\2.1.1\icon.png
 - manifestVersion: 1
@@ -1244,7 +1243,7 @@
     major: 2
     minor: 1
     patch: 5
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-RogueWisp\2.1.5\icon.png
 - manifestVersion: 1
@@ -1267,7 +1266,7 @@
     major: 1
     minor: 2
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-BanditReloaded\1.2.0\icon.png
 - manifestVersion: 1
@@ -1291,7 +1290,7 @@
     major: 1
     minor: 1
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-AlternativeArtificer\1.1.0\icon.png
 - manifestVersion: 1
@@ -1316,7 +1315,7 @@
     major: 1
     minor: 2
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-ArtificerExtended\1.2.1\icon.png
 - manifestVersion: 1
@@ -1340,7 +1339,7 @@
     major: 1
     minor: 4
     patch: 2
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\DevinWeaver-TheSurgeon\1.4.2\icon.png
 - manifestVersion: 1
@@ -1363,6 +1362,6 @@
     major: 0
     minor: 2
     patch: 2
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Void_Reaver\0.2.2\icon.png

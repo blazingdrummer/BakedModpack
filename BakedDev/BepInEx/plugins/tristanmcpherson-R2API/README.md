@@ -1,7 +1,18 @@
 
 # R2API – a modding API for Risk of Rain 2
-[![Build Status](https://raegous.visualstudio.com/Risk%20of%20Rain%202%20Modding/_apis/build/status/Risk%20of%20Rain%202%20Modding-.NET%20Desktop-CI?branchName=master)](https://raegous.visualstudio.com/Risk%20of%20Rain%202%20Modding/_build/latest?definitionId=1&branchName=master)
+[![Build Status - DEPRECATED](https://raegous.visualstudio.com/Risk%20of%20Rain%202%20Modding/_apis/build/status/Risk%20of%20Rain%202%20Modding-.NET%20Desktop-CI?branchName=master)](https://raegous.visualstudio.com/Risk%20of%20Rain%202%20Modding/_build/latest?definitionId=1&branchName=master)
+![GitHub Actions Build](https://github.com/risk-of-thunder/R2API/workflows/CI%20Build/badge.svg)
 
+
+## RoR2 1.0 - IMPORTANT NOTICE
+
+In the Release version of RoR2, Hopoo Games made a `NetworkModCompatibilityHelper` class, which can be given a mod list that is then transformed into a hash that will be checked upon client connection in multiplayer.
+If the hash doesnt correspond between the server and the connecting client, the connection is refused.
+
+R2API will add mods to that mod list if they:
+
+* Use the `NetworkCompatibility` Attribute, either as an custom assembly attribute, or at the top of their plugin class inheriting from `BaseUnityPlugin` with the first argument being `CompatibilityLevel.EveryoneMustHaveMod`.
+* Don't have the `NetworkCompatibility` Attribute or the `ManualNetworkRegistrationAttribute` anywhere in their assembly.
 
 ## About
 
@@ -36,12 +47,35 @@ The most recent changelog can always be found on the [Github](https://github.com
 
 **Current**
 
+* Fix things for 1.0 release
+* **IMPORTANT FOR MOD DEVS:** [Add NetworkCompatibility Helper](https://github.com/risk-of-thunder/R2API/pull/188)
+* [Remove 'MOD' from dedicated server listings as it's already shown in the tags](https://github.com/risk-of-thunder/R2API/pull/150)
+* [Fixed bug with ConvertToFullpath by enforcing that ModPrefix start with @](https://github.com/risk-of-thunder/R2API/pull/168)
+* [Fixed being unable to have assets with the same path but different type in UnbundledResourceProvider](https://github.com/risk-of-thunder/R2API/pull/167)
+* [Added NetworkingAPI now integrating networking components into R2API!](https://github.com/risk-of-thunder/R2API/pull/163)
+* [Added DotAPI to handle Dots](https://github.com/risk-of-thunder/R2API/pull/161)
+* [Update EliteAPI to spawn correctly](https://github.com/risk-of-thunder/R2API/pull/160)
+* [Add UnlockablesAPI](https://github.com/risk-of-thunder/R2API/pull/156)
+
+**2.4.29**
+
+* [disable ConCommand steam_quickplay_start](https://github.com/risk-of-thunder/R2API/pull/154)
+* [Add Skymeadow to directorAPI](https://github.com/risk-of-thunder/R2API/pull/153)
+* [ItemDropAPI: Allow public removal of items from the default drop lists](https://github.com/risk-of-thunder/R2API/pull/149)
+* [Fix SurvivorAPI misidentifies survivors with missing newline characters](https://github.com/risk-of-thunder/R2API/pull/148)
+* [Prevent adding XML unsafe items](https://github.com/risk-of-thunder/R2API/pull/146)
+* [Fix Custom equipment not displaying on bodies](https://github.com/risk-of-thunder/R2API/pull/144)
+* [Converted LoadRequest to use cecil](https://github.com/risk-of-thunder/R2API/pull/143)
+
+**2.4.16**
+
 * [Fix R2API plugin dependency of MonoMod patcher file](https://github.com/risk-of-thunder/R2API/pull/140)
 * [Remove faulty hook around chests' item rolling.](https://github.com/risk-of-thunder/R2API/pull/138)
 * [Remove savety hooks for userprofile as RoR2 does that now out of the box](https://github.com/risk-of-thunder/R2API/pull/135)
 * [Seperate BuffAPI and EliteAPI from ItemAPI](https://github.com/risk-of-thunder/R2API/pull/135)
 * [Fix Reflection utils](https://github.com/risk-of-thunder/R2API/pull/135)
 * [Update to latest BepInEx for building](https://github.com/risk-of-thunder/R2API/pull/134)
+
 
 **2.4.10**
 

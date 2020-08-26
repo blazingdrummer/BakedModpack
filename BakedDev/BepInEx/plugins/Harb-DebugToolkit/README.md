@@ -19,7 +19,6 @@ Mods recommended for combined use:
 
 * [KeyBindForConsole](https://thunderstore.io/package/kristiansja/KeyBindForConsole/) for easier enabling of the console. Especially useful for non-US keyboard layouts.
 * [SimpleMacros](https://thunderstore.io/package/recursiveGecko/SimpleMacros/) for binding console commands to keys.
-* [MacroCommands](https://thunderstore.io/package/JackPendarvesRead/MacroCommands/) for binding console commands to keys.
 * [R2DSE](https://thunderstore.io/package/Harb/R2DSEssentials/) for running DT on dedicated servers.
 
 You may contact us at any time through [issues on GitHub](https://github.com/harbingerofme/DebugToolkit/issues/new/choose), the [dedicated discord server]((https://discord.gg/yTfsMWP) or through the [Risk of Rain 2 modding Discord](https://discord.gg/5MbXZvd) found at the top of the Thunderstore website. 
@@ -45,6 +44,9 @@ Verbiage: if an argument is encapsulated with brackets, it means it's either `(c
 * **list_player** - Shows list of players with their ID
 * **list_body** - List all Bodies and their language invariants.
 * **list_ai** - List all Masters and their language invariants
+* **list_item** - List all items and if they are in the current drop pool.
+* **list_equip** - List all equipment and if they are in the current drop pool.
+    
 
 * **give_item** - Give item directly to the player's inventory: `give_item {localised_object_name} [count def 1] [player def *you]`
 * **random_items** - Generate random items from the available droptables. `random_items {Count} [player def *you]`
@@ -94,21 +96,34 @@ Verbiage: if an argument is encapsulated with brackets, it means it's either `(c
 
 ## Changelog ##
 
+### 3.4 ###
+
+* "Full Release"
+* **General**
+    * Updated for game version `1.0`.
+    * We are considering adding macros and keybinds to the base mod. [We would like your input on this.](https://github.com/harbingerofme/DebugToolkit/issues/101)
+* **Additions**
+    * `list_item` When we removed this command, we forgot that people can forget. As the game now counts over 100 items, there's value in adding these lists back. They have been improved for more user readability.
+    * `list_equip` (see list_item)
+
 ### 3.3 ###
 
 * "Artifacts"
 * **General**
+    * **3.3.2** Improved networking
     * **3.3.1** Removed minirpclib as a dependency. [Learn how for your own mod here](https://github.com/risk-of-thunder/R2Wiki/wiki/Networking-with-Weaver---The-Unity-Way)
     * Updated for artifacts.
     * `give_money` is now compatible with ShareSuite's money sharing.
     * We did a lot of cleanup behind the scenes. You won't notice this (hopefully), but it makes everything easier to maintain.
     * We've added some predefined macros for testing. We still recommend the macro plugins linked in our description if you want to define your own macros.
 * **Additions**
+    * **3.3.2** Permission System can now be enabled on the RoR2 Assembly Console Commands.
     * `random_items` generates an inventory of items for you.
     * `give_equip random` now gives you a random equipment from your available drop pool.
     * `midgame` and `lategame` allow you to test your mod in a typical mid/endgame scenario. The presets come from HopooGames.
     * `dtzoom` gives you some items to make you move around the map faster. This is a macro that was present in the original release of RoR2.
 * **Fixes**
+    * **3.3.2** Fix noclip failing to work in any subsequent run after it was activated.
     * **3.3.1** Fix incorrect parsing on some arguments in commands. Thank you Violet for reporting these!
     * **3.3.1** Removed double embbeded dependency. This shaves off about half the file size!
     * Fix a faulty ILHook in CCSetScene
