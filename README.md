@@ -166,7 +166,6 @@ In order to not make this readme any longer than it already is, the pre-release 
   - added Phase_Round_Lightning v1.0.0
   - added ArtificerExtended v1.2.1
   - added HarbCrate v1.0.2
-  - updated Pingprovements to v1.6.0
   - updated GeneralFixes to v1.3.4
   - updated BanditReloaded to v1.2.0
   - updated RogueWisp to v2.1.5
@@ -185,6 +184,7 @@ In order to not make this readme any longer than it already is, the pre-release 
     - macros have been remapped using DebugToolkit's new system, replacing the functionality of MacroCommands
     BUG: command autofills can't be generated unless `Microsoft.CSharp.dll` is placed next to `DebugToolkit.dll`; Will this have an impact on pack installation?
     TODO: adjusted HarbTweaks config to disable redundant and undesired features; need to update to 1.0 compatible version, Harb indicated he would be updating the mod soon
+  - updated Pingprovements to v1.7.0
 
 `v2.3.2`
 
