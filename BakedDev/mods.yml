@@ -37,10 +37,10 @@
   versionNumber:
     major: 2
     minor: 5
-    patch: 11
+    patch: 14
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.5.11\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.5.14\icon.png
 - manifestVersion: 1
   name: Harb-LighterPatcher
   authorName: Harb
@@ -53,17 +53,16 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.4.21
-    - bbepis-BepInExPack-3.2.0
+    - bbepis-BepInExPack-5.3.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-LighterPatcher\1.0.3\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-LighterPatcher\1.0.4\icon.png
 - manifestVersion: 1
   name: wildbook-MiniRpcLib
   authorName: wildbook
@@ -99,17 +98,17 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.5.6
+    - tristanmcpherson-R2API-2.5.14
     - bbepis-BepInExPack-5.3.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 3
     minor: 4
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DebugToolkit\3.4.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DebugToolkit\3.4.1\icon.png
 - manifestVersion: 1
   name: kristiansja-KeyBindForConsole
   authorName: kristiansja
@@ -213,17 +212,17 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.5.6
+    - tristanmcpherson-R2API-2.5.14
     - bbepis-BepInExPack-5.3.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JohnEdwa-RTAutoSprintEx\1.1.1\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JohnEdwa-RTAutoSprintEx\1.1.2\icon.png
 - manifestVersion: 1
   name: TheRealElysium-EmptyChestsBeGone
   authorName: TheRealElysium

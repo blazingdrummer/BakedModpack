@@ -175,12 +175,15 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated ShareSuite to v2.0.1
     - resolves the issue where Scavengers would only drop 2 items at all times, should now scale based on party size
 
-  - updated R2API to v2.4.29
-  - updated LighterPatcher to v1.0.3
   - added ProperSave v2.1.1
   - replaced Bepinex ConfigurationManager (now v16.0.0)
   - removed FluffyLabsConfigManagerTools, BulletFalloffFix, InfusionStackfix, MacroCommands
-    TODO: replace MacroCommands with SimpleMacros
+
+  - updated R2API to v2.5.14
+  - updated LighterPatcher to v1.0.4
+  - updated DebugToolkit to v3.4.1
+    - macros have been remapped using DebugToolkit's new system, replacing the functionality of MacroCommands
+    BUG: command autofills can't be generated unless `Microsoft.CSharp.dll` is placed next to `DebugToolkit.dll`; Will this have an impact on pack installation?
 
 `v2.3.2`
 
