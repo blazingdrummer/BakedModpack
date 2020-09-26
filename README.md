@@ -184,6 +184,7 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated DebugToolkit to v3.4.1
     - macros have been remapped using DebugToolkit's new system, replacing the functionality of MacroCommands
     BUG: command autofills can't be generated unless `Microsoft.CSharp.dll` is placed next to `DebugToolkit.dll`; Will this have an impact on pack installation?
+    TODO: adjusted HarbTweaks config to disable redundant and undesired features; need to update to 1.0 compatible version, Harb indicated he would be updating the mod soon
 
 `v2.3.2`
 
