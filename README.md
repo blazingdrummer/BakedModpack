@@ -171,8 +171,6 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated RogueWisp to v2.1.5
   - updated TemporaryLunarCoins to v0.2.1
   - README: inverted changelog to make it easier to find changes
-  - updated ShareSuite to v2.0.1
-    - resolves the issue where Scavengers would only drop 2 items at all times, should now scale based on party size
 
   - added ProperSave v2.1.1
   - replaced Bepinex ConfigurationManager (now v16.0.0)
@@ -185,6 +183,9 @@ In order to not make this readme any longer than it already is, the pre-release 
     BUG: command autofills can't be generated unless `Microsoft.CSharp.dll` is placed next to `DebugToolkit.dll`; Will this have an impact on pack installation?
     TODO: adjusted HarbTweaks config to disable redundant and undesired features; need to update to 1.0 compatible version, Harb indicated he would be updating the mod soon
   - updated Pingprovements to v1.7.0
+  - updated ShareSuite to v2.3.0
+  - updated ShrineOfDio to v1.4.1
+    TODO: should Captain be able to hack Shrine of Dio?
 
 `v2.3.2`
 

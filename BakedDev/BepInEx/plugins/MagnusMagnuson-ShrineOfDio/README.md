@@ -1,4 +1,7 @@
+
 # ShrineOfDio
+
+[Host only required for functionality, but descriptions might not be correct for clients if they don't have the mod]
 
 This mod replaces the Shrine of the Woods with the Shrine of Dio, which lets you resurrect fallen teammates.
 Depending on the setting in the config, you can pay with gold or offer a Dio's Best Friend to the Shrine.
@@ -11,7 +14,15 @@ Depending on the setting in the config, you can pay with gold or offer a Dio's B
 - Choose via config whether you want to resurrect using gold or an offering of Dio's Best Friend
 	- The gold cost can be adjusted in the config as well
 	- The cost scales with difficulty (like everything else), but not with repeated usages
+- Now also compatible with [Fallen Friends](https://thunderstore.io/package/evGiac/FallenFriends/)
 
+## Compatibility
+(No known issues)
+
+- [Fallen Friends](https://thunderstore.io/package/evGiac/FallenFriends/)
+	- Thanks to [Evaisa's](https://thunderstore.io/package/evGiac/) efforts these two mods work nicely together
+	- Dead players that aren't controlling an ally are resurrected as per usual. 
+	- If a player is dead and controlling an ally, they can still be resurrected if someone else activates the Shrine of Dio
 
 ## Limitations
 - If a client does not have this mod installed, Shrine of Dio will still work, but the text displayed will be incorrect. 
@@ -32,6 +43,11 @@ Therefore it's recommended that everyone has the mod installed to avoid confusio
 
 
 ## Changelog
+- 1.4.1 Added config to make Shrine of Dio unhackable
+- 1.4.0 Added compatibility with FallenFriends (Thanks for the help [Evaisa](https://thunderstore.io/package/evGiac/)!)
+- 1.3.5 Changed a hook entry so this mod is no longer falsely reported as broken lel
+- 1.3.4 Added option to allow Shrine of Dio usage while the teleporter charges
+- 1.3.3 Added Network Compatibility Level
 - 1.3.2 Disconnected players were not taken out of the pool of possible resurrection targets
 - 1.3.1 Forgot to remove some testing stuff that broke things
 - 1.3.0 Update for Artifacts update
