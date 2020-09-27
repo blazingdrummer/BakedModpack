@@ -536,18 +536,18 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.1.16
-    - wildbook-MiniRpcLib-0.0.1
-    - bbepis-BepInExPack-2.0.0
+    - tristanmcpherson-R2API-2.5.14
+    - wildbook-MiniRpcLib-0.0.2
+    - bbepis-BepInExPack-5.3.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 0
-    minor: 2
-    patch: 2
-  enabled: false
+    major: 1
+    minor: 0
+    patch: 5
+  enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Jarlyk-Raincoat\0.2.2\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Jarlyk-Raincoat\1.0.5\icon.png
 - manifestVersion: 1
   name: kookehs-StatsDisplay
   authorName: kookehs

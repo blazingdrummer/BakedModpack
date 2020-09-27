@@ -190,6 +190,7 @@ In order to not make this readme any longer than it already is, the pre-release 
     TODO: add `mod_tmf {lobby size}` command to README; maybe make a section and move link to DebugToolkit commands there as well
   - updated ScannerPlusOne to v2.6.1
   - updated ItemExchangeNotifier to v1.3.1
+  - updated Raincoat to v1.0.5
 
 `v2.3.2`
 
