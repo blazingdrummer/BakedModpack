@@ -1,5 +1,7 @@
 # Scanner+1
 
+[Client-side]
+
 This mod adds a customizable feature to the Radar Scanner.
 
 After the recent update (especially), a lot of things pop up on the Radar Scanner. This mod helps realizing whether you already grabbed all possible items/equipment you want without having to hunt every question mark down.
@@ -46,6 +48,8 @@ With this mod you can replace the question marks with ping icons and get a notif
 
 ## Changelog
 
+- 2.6.1 - Added Network Compatibility Level
+- 2.6.0 - Added scrapper ping and chat notification
 - 2.5.0 - Update for Hidden Realms Update (mostly just made it work. Added config for cleansing pool)
 - 2.4.0 - Added config for individual shrines (this config file is getting out of hand)
 - 2.3.0 - Update for Skills 2.0 Update

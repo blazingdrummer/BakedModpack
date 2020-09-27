@@ -186,6 +186,8 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated ShareSuite to v2.3.0
   - updated ShrineOfDio to v1.4.1
     TODO: should Captain be able to hack Shrine of Dio?
+  - updated TooManyFriends to v1.1.0
+    TODO: add `mod_tmf {lobby size}` command to README; maybe make a section and move link to DebugToolkit commands there as well
 
 `v2.3.2`
 
