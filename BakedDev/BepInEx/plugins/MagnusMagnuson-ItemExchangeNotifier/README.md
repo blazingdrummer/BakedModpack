@@ -1,5 +1,7 @@
 # ItemExchangeNotifier
 
+[Client-side]
+
 This mod lets you know which items you gave up at the 3D Printer/Cauldron when exchanging.
 
 **The host needs to be running the mod.**
@@ -24,6 +26,7 @@ No, it's required that the host has this mod and the only one that needs it. Cli
 ![contact](https://i.imgur.com/gPBrPrQ.png)
 
 ## Changelog
+- 1.3.1 - Added Network Compatibility Level
 - 1.3.0 - Update for Scorched Acres patch
 - 1.2.0 - Unwanted side effects since 1.1.0. Reverting to host mod (sorry).
 - 1.1.1 - Modified readme.

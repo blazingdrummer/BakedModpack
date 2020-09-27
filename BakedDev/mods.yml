@@ -430,7 +430,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: false
+  enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-Faster3DPrinters\1.0.0\icon.png
 - manifestVersion: 1
@@ -445,17 +445,17 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.0.10
-    - bbepis-BepInExPack-2.0.0
+    - tristanmcpherson-R2API-2.5.0
+    - bbepis-BepInExPack-5.3.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 3
-    patch: 0
-  enabled: false
+    patch: 1
+  enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-ItemExchangeNotifier\1.3.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-ItemExchangeNotifier\1.3.1\icon.png
 - manifestVersion: 1
   name: TheRealElysium-WaxQuailMultiJump
   authorName: TheRealElysium
@@ -475,9 +475,32 @@
     major: 1
     minor: 0
     patch: 1
-  enabled: false
+  enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-WaxQuailMultiJump\1.0.1\icon.png
+- manifestVersion: 1
+  name: mistername-AllyPing
+  authorName: mistername
+  websiteUrl: https://thunderstore.io/package/mistername/AllyPing/
+  displayName: AllyPing
+  description: Remake of AllyPing, with HJupdaterAPI support
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.3.7
+    - bbepis-BepInExPack-3.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-AllyPing\1.0.0\icon.png
 - manifestVersion: 1
   name: Timmeh42-2-StealthySpawn
   authorName: Timmeh42-2
@@ -498,9 +521,33 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: false
+  enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Timmeh42-2-StealthySpawn\1.0.0\icon.png
+- manifestVersion: 1
+  name: Jarlyk-Raincoat
+  authorName: Jarlyk
+  websiteUrl: https://thunderstore.io/package/Jarlyk/Raincoat/
+  displayName: Raincoat
+  description: Collection of optional tweaks for an improved Risk of Rain experience
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.1.16
+    - wildbook-MiniRpcLib-0.0.1
+    - bbepis-BepInExPack-2.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 2
+  enabled: false
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Jarlyk-Raincoat\0.2.2\icon.png
 - manifestVersion: 1
   name: kookehs-StatsDisplay
   authorName: kookehs
@@ -571,30 +618,6 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-ScalingBloodShrines\1.0.1\icon.png
 - manifestVersion: 1
-  name: Jarlyk-Raincoat
-  authorName: Jarlyk
-  websiteUrl: https://thunderstore.io/package/Jarlyk/Raincoat/
-  displayName: Raincoat
-  description: Collection of optional tweaks for an improved Risk of Rain experience
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.1.16
-    - wildbook-MiniRpcLib-0.0.1
-    - bbepis-BepInExPack-2.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 2
-    patch: 2
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Jarlyk-Raincoat\0.2.2\icon.png
-- manifestVersion: 1
   name: Harb-DiluvianDifficulty
   authorName: Harb
   websiteUrl: https://thunderstore.io/package/Harb/DiluvianDifficulty/
@@ -617,29 +640,6 @@
   enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DiluvianDifficulty\1.0.5\icon.png
-- manifestVersion: 1
-  name: mistername-AllyPing
-  authorName: mistername
-  websiteUrl: https://thunderstore.io/package/mistername/AllyPing/
-  displayName: AllyPing
-  description: Remake of AllyPing, with HJupdaterAPI support
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.3.7
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-AllyPing\1.0.0\icon.png
 - manifestVersion: 1
   name: Unordinal-AI_Blacklister
   authorName: Unordinal
