@@ -265,11 +265,11 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 3
+    minor: 4
     patch: 0
   enabled: true
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\FunkFrog-and-Sipondo-ShareSuite\2.3.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\FunkFrog-and-Sipondo-ShareSuite\2.4.0\icon.png
 - manifestVersion: 1
   name: dan8991iel-LunarCoinShareOnPickup
   authorName: dan8991iel
@@ -664,29 +664,6 @@
   enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Unordinal-AI_Blacklister\1.0.0\icon.png
-- manifestVersion: 1
-  name: JackPendarvesRead-EngiShieldNotification
-  authorName: JackPendarvesRead
-  websiteUrl: https://thunderstore.io/package/JackPendarvesRead/EngiShieldNotification/
-  displayName: EngiShieldNotification
-  description: Plays a sound when the Engineer's bubble shield is about to time out.
-    Includes volume control.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 3
-    minor: 0
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JackPendarvesRead-EngiShieldNotification\3.0.0\icon.png
 - manifestVersion: 1
   name: hlista-SimpleRoll
   authorName: hlista

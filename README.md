@@ -156,6 +156,7 @@ In particular, I'd like to thank Ebkr, Moffein, Rein, Magnus, Sipondo & Funkfrog
 In order to not make this readme any longer than it already is, the pre-release changes can be found in the `#changelog` section of the [Discord](https://discord.gg/CYYJdrz).
 
 `v3.0.0`
+  TODO: update BakedLanguageEdits, package https://github.com/ebkr/ConfigurableUI and give README credit
 
   - updated BazaarPrinter to v0.2.2
   - updated DeathMarkFix to v1.0.2
@@ -183,7 +184,7 @@ In order to not make this readme any longer than it already is, the pre-release 
     BUG: command autofills can't be generated unless `Microsoft.CSharp.dll` is placed next to `DebugToolkit.dll`; Will this have an impact on pack installation?
     TODO: adjusted HarbTweaks config to disable redundant and undesired features; need to update to 1.0 compatible version, Harb indicated he would be updating the mod soon
   - updated Pingprovements to v1.7.0
-  - updated ShareSuite to v2.3.0
+  - updated ShareSuite to v2.4.0
   - updated ShrineOfDio to v1.4.1
     TODO: should Captain be able to hack Shrine of Dio?
   - updated TooManyFriends to v1.1.0
