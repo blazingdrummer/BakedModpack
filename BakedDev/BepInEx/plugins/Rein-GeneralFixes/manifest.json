@@ -1,9 +1,9 @@
 {
   "name": "GeneralFixes",
-  "version_number": "2.3.4",
+  "version_number": "2.4.4",
   "website_url": "https://discord.gg/TgaDGNh",
-  "description": "Fixes various bugs in game. Also contains some QOL, and a balance pass (Including gesture, glass, and corpsebloom fixes)",
+  "description": "Now with harder eclipse modifiers! Fixes bugs, adds QoL, and addresses major balance issues.",
   "dependencies": [
-    "bbepis-BepInExPack-3.1.0"
+    "bbepis-BepInExPack-5.3.1"
   ]
 }

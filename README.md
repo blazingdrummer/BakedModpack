@@ -192,6 +192,7 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated ScannerPlusOne to v2.6.1
   - updated ItemExchangeNotifier to v1.3.1
   - updated Raincoat to v1.0.5
+  - updated GeneralFixes to v2.4.4
 
 `v2.3.2`
 

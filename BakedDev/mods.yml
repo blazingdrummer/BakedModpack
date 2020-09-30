@@ -154,6 +154,28 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\IFixYourRoR2Mods-Bepinex_ConfigurationManager\16.0.0\icon.png
 - manifestVersion: 1
+  name: mistername-IlLine
+  authorName: mistername
+  websiteUrl: https://thunderstore.io/package/mistername/IlLine/
+  displayName: IlLine
+  description: changes the 0 at the end of stacktrace lines to the illine
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-IlLine\1.0.0\icon.png
+- manifestVersion: 1
   name: Harb-AssetPlusRequester
   authorName: Harb
   websiteUrl: https://thunderstore.io/package/Harb/AssetPlusRequester/
@@ -246,6 +268,29 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\pixeldesu-Pingprovements\1.7.0\icon.png
+- manifestVersion: 1
+  name: KingEnderBrine-ProperSave
+  authorName: KingEnderBrine
+  websiteUrl: https://thunderstore.io/package/KingEnderBrine/ProperSave/
+  displayName: ProperSave
+  description: Saves your progress at the start of the stage so you can load later
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.4.21
+    - bbepis-BepInExPack-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 1
+    patch: 1
+  enabled: false
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\KingEnderBrine-ProperSave\2.1.1\icon.png
 - manifestVersion: 1
   name: FunkFrog-and-Sipondo-ShareSuite
   authorName: FunkFrog-and-Sipondo
@@ -479,28 +524,28 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-WaxQuailMultiJump\1.0.1\icon.png
 - manifestVersion: 1
-  name: mistername-AllyPing
-  authorName: mistername
-  websiteUrl: https://thunderstore.io/package/mistername/AllyPing/
-  displayName: AllyPing
-  description: Remake of AllyPing, with HJupdaterAPI support
+  name: Legendsmith-SolidIceWall
+  authorName: Legendsmith
+  websiteUrl: https://thunderstore.io/package/Legendsmith/SolidIceWall/
+  displayName: SolidIceWall
+  description: Makes Artificer Ice Wall Solid
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.3.7
-    - bbepis-BepInExPack-3.0.0
+    - tristanmcpherson-R2API-2.0.5
+    - bbepis-BepInExPack-2.0.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
+    minor: 1
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-AllyPing\1.0.0\icon.png
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Legendsmith-SolidIceWall\1.1.0\icon.png
 - manifestVersion: 1
   name: Timmeh42-2-StealthySpawn
   authorName: Timmeh42-2
@@ -524,6 +569,29 @@
   enabled: true
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Timmeh42-2-StealthySpawn\1.0.0\icon.png
+- manifestVersion: 1
+  name: mistername-AllyPing
+  authorName: mistername
+  websiteUrl: https://thunderstore.io/package/mistername/AllyPing/
+  displayName: AllyPing
+  description: Remake of AllyPing, with HJupdaterAPI support
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.3.7
+    - bbepis-BepInExPack-3.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-AllyPing\1.0.0\icon.png
 - manifestVersion: 1
   name: Jarlyk-Raincoat
   authorName: Jarlyk
@@ -570,6 +638,75 @@
   enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\kookehs-StatsDisplay\2.3.0\icon.png
+- manifestVersion: 1
+  name: hlista-SimpleRoll
+  authorName: hlista
+  websiteUrl: https://thunderstore.io/package/hlista/SimpleRoll/
+  displayName: SimpleRoll
+  description: Adds a /roll command to chat that outputs a random number from 1-100
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-1.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: false
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\hlista-SimpleRoll\1.0.0\icon.png
+- manifestVersion: 1
+  name: Rein-GeneralFixes
+  authorName: Rein
+  websiteUrl: https://thunderstore.io/package/Rein/GeneralFixes/
+  displayName: GeneralFixes
+  description: Now with harder eclipse modifiers! Fixes bugs, adds QoL, and addresses major
+    balance issues.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 4
+    patch: 4
+  enabled: true
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-GeneralFixes\2.4.4\icon.png
+- manifestVersion: 1
+  name: Jarlyk-EquipmentDurability
+  authorName: Jarlyk
+  websiteUrl: https://thunderstore.io/package/Jarlyk/EquipmentDurability/
+  displayName: EquipmentDurability
+  description: Equipment no longer lasts forever; you'll have to improvise
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-2.5.0
+    - wildbook-MiniRpcLib-0.0.2
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: false
+  icon: C:\Users\Matthew
+    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Jarlyk-EquipmentDurability\1.0.0\icon.png
 - manifestVersion: 1
   name: TeaBoneJones-IncreaseHuntressRange
   authorName: TeaBoneJones
@@ -664,51 +801,6 @@
   enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Unordinal-AI_Blacklister\1.0.0\icon.png
-- manifestVersion: 1
-  name: hlista-SimpleRoll
-  authorName: hlista
-  websiteUrl: https://thunderstore.io/package/hlista/SimpleRoll/
-  displayName: SimpleRoll
-  description: Adds a /roll command to chat that outputs a random number from 1-100
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-1.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\hlista-SimpleRoll\1.0.0\icon.png
-- manifestVersion: 1
-  name: Rein-GeneralFixes
-  authorName: Rein
-  websiteUrl: https://thunderstore.io/package/Rein/GeneralFixes/
-  displayName: GeneralFixes
-  description: Fixes various bugs in game. Also contains some QOL, and a balance pass
-    (Including gesture, glass, and corpsebloom fixes)
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.1.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 3
-    patch: 4
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-GeneralFixes\2.3.4\icon.png
 - manifestVersion: 1
   name: Rein-ArchaicWisps
   authorName: Rein
@@ -875,29 +967,6 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\xiaoxiao921-Rampage\1.1.4\icon.png
 - manifestVersion: 1
-  name: Legendsmith-SolidIceWall
-  authorName: Legendsmith
-  websiteUrl: https://thunderstore.io/package/Legendsmith/SolidIceWall/
-  displayName: SolidIceWall
-  description: Makes Artificer Ice Wall Solid
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.0.5
-    - bbepis-BepInExPack-2.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Legendsmith-SolidIceWall\1.1.0\icon.png
-- manifestVersion: 1
   name: MagnusMagnuson-BazaarPrinter
   authorName: MagnusMagnuson
   websiteUrl: https://thunderstore.io/package/MagnusMagnuson/BazaarPrinter/
@@ -1059,28 +1128,6 @@
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-MULT_Buff\1.0.0\icon.png
 - manifestVersion: 1
-  name: mistername-IlLine
-  authorName: mistername
-  websiteUrl: https://thunderstore.io/package/mistername/IlLine/
-  displayName: IlLine
-  description: changes the 0 at the end of stacktrace lines to the illine
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-IlLine\1.0.0\icon.png
-- manifestVersion: 1
   name: Phedg1Studios-StartingItemsGUI
   authorName: Phedg1Studios
   websiteUrl: https://thunderstore.io/package/Phedg1Studios/StartingItemsGUI/
@@ -1174,29 +1221,6 @@
   enabled: false
   icon: C:\Users\Matthew
     Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-HarbCrate\1.0.2\icon.png
-- manifestVersion: 1
-  name: KingEnderBrine-ProperSave
-  authorName: KingEnderBrine
-  websiteUrl: https://thunderstore.io/package/KingEnderBrine/ProperSave/
-  displayName: ProperSave
-  description: Saves your progress at the start of the stage so you can load later
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.21
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 1
-    patch: 1
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\KingEnderBrine-ProperSave\2.1.1\icon.png
 - manifestVersion: 1
   name: Rein-RogueWisp
   authorName: Rein
