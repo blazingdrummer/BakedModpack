@@ -173,7 +173,6 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated TemporaryLunarCoins to v0.2.1
   - README: inverted changelog to make it easier to find changes
 
-  - added ProperSave v2.1.1
   - replaced Bepinex ConfigurationManager (now v16.0.0)
   - removed FluffyLabsConfigManagerTools, BulletFalloffFix, InfusionStackfix, MacroCommands
 
@@ -193,6 +192,7 @@ In order to not make this readme any longer than it already is, the pre-release 
   - updated ItemExchangeNotifier to v1.3.1
   - updated Raincoat to v1.0.5
   - updated GeneralFixes to v2.4.4
+  - updated ProperSave to v2.5.1
 
 `v2.3.2`
 
