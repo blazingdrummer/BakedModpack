@@ -14,33 +14,31 @@
   optionalDependencies: []
   versionNumber:
     major: 5
-    minor: 3
-    patch: 1
+    minor: 4
+    patch: 9
   enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\bbepis-BepInExPack\5.3.1\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\bbepis-BepInExPack\5.4.9\icon.png
 - manifestVersion: 1
-  name: tristanmcpherson-R2API
-  authorName: tristanmcpherson
-  websiteUrl: https://thunderstore.io/package/tristanmcpherson/R2API/
-  displayName: R2API
-  description: A modding API for Risk of Rain 2
+  name: RiskofThunder-HookGenPatcher
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/HookGenPatcher/
+  displayName: HookGenPatcher
+  description: MMHOOK generation at runtime.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-3.0.0
+    - bbepis-BepInExPack-5.4.9
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 2
-    minor: 5
-    patch: 14
+    major: 1
+    minor: 2
+    patch: 1
   enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\tristanmcpherson-R2API\2.5.14\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-HookGenPatcher\icon.png
 - manifestVersion: 1
   name: Harb-LighterPatcher
   authorName: Harb
@@ -59,199 +57,38 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 4
+    patch: 5
   enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-LighterPatcher\1.0.4\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Harb-LighterPatcher\icon.png
 - manifestVersion: 1
-  name: wildbook-MiniRpcLib
-  authorName: wildbook
-  websiteUrl: https://thunderstore.io/package/wildbook/MiniRpcLib/
-  displayName: MiniRpcLib
-  description: A relatively simple networking library.
+  name: tristanmcpherson-R2API
+  authorName: tristanmcpherson
+  websiteUrl: https://thunderstore.io/package/tristanmcpherson/R2API/
+  displayName: R2API
+  description: A modding API for Risk of Rain 2
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.5.0
-    - bbepis-BepInExPack-5.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 0
-    patch: 2
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\wildbook-MiniRpcLib\0.0.2\icon.png
-- manifestVersion: 1
-  name: Harb-DebugToolkit
-  authorName: Harb
-  websiteUrl: https://thunderstore.io/package/Harb/DebugToolkit/
-  displayName: DebugToolkit
-  description: Adds console command for debugging mods.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.5.14
-    - bbepis-BepInExPack-5.3.1
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 4
-    patch: 1
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DebugToolkit\3.4.1\icon.png
-- manifestVersion: 1
-  name: kristiansja-KeyBindForConsole
-  authorName: kristiansja
-  websiteUrl: https://thunderstore.io/package/kristiansja/KeyBindForConsole/
-  displayName: KeyBindForConsole
-  description: Now With Configuration☺
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-1.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
     minor: 0
-    patch: 1
+    patch: 71
   enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\kristiansja-KeyBindForConsole\2.0.1\icon.png
-- manifestVersion: 1
-  name: IFixYourRoR2Mods-Bepinex_ConfigurationManager
-  authorName: IFixYourRoR2Mods
-  websiteUrl: https://thunderstore.io/package/IFixYourRoR2Mods/Bepinex_ConfigurationManager/
-  displayName: Bepinex_ConfigurationManager
-  description: Ingame editing of mod config
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 16
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\IFixYourRoR2Mods-Bepinex_ConfigurationManager\16.0.0\icon.png
-- manifestVersion: 1
-  name: mistername-IlLine
-  authorName: mistername
-  websiteUrl: https://thunderstore.io/package/mistername/IlLine/
-  displayName: IlLine
-  description: changes the 0 at the end of stacktrace lines to the illine
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-IlLine\1.0.0\icon.png
-- manifestVersion: 1
-  name: Harb-AssetPlusRequester
-  authorName: Harb
-  websiteUrl: https://thunderstore.io/package/Harb/AssetPlusRequester/
-  displayName: AssetPlusRequester
-  description: Tell R2API to enable the AssetPlus module
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.3.22
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-AssetPlusRequester\1.0.0\icon.png
-- manifestVersion: 1
-  name: blazingdrummer-BakedLanguageEdits
-  authorName: blazingdrummer
-  websiteUrl: https://thunderstore.io/package/blazingdrummer/BakedLanguageEdits/
-  displayName: BakedLanguageEdits
-  description: A language pack originally created for the Baked modpack. Adds detailed
-    tooltips and descriptions, explains changes made by the mods, and enhances
-    the game's lore.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - Harb-AssetPlusRequester-1.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 0
-    patch: 7
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\blazingdrummer-BakedLanguageEdits\2.0.7\icon.png
-- manifestVersion: 1
-  name: JohnEdwa-RTAutoSprintEx
-  authorName: JohnEdwa
-  websiteUrl: https://thunderstore.io/package/JohnEdwa/RTAutoSprintEx/
-  displayName: RTAutoSprintEx
-  description: RT AutoSprint fixed and enhanced with more features. Sprint automatically,
-    but only when you would be allowed to do so in the first place.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.5.14
-    - bbepis-BepInExPack-5.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 2
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\JohnEdwa-RTAutoSprintEx\1.1.2\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\tristanmcpherson-R2API\3.0.71\icon.png
 - manifestVersion: 1
   name: pixeldesu-Pingprovements
   authorName: pixeldesu
   websiteUrl: https://thunderstore.io/package/pixeldesu/Pingprovements/
   displayName: Pingprovements
-  description: Several improvements to Pings, like multiple pings and adjustable timers or
-    colors per type
+  description: Several improvements to Pings, like multiple pings and adjustable
+    timers or colors per type
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -266,22 +103,45 @@
     minor: 7
     patch: 0
   enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\pixeldesu-Pingprovements\1.7.0\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\pixeldesu-Pingprovements\icon.png
 - manifestVersion: 1
-  name: KingEnderBrine-ProperSave
-  authorName: KingEnderBrine
-  websiteUrl: https://thunderstore.io/package/KingEnderBrine/ProperSave/
-  displayName: ProperSave
-  description: Saves your progress at the start of the stage so you can load later
+  name: MagnusMagnuson-ScannerPlusOne
+  authorName: MagnusMagnuson
+  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/ScannerPlusOne/
+  displayName: ScannerPlusOne
+  description: Radar Scanner replaces question marks with ping icons and info is
+    posted into the chat.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.5.14
     - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 6
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-ScannerPlusOne\icon.png
+- manifestVersion: 1
+  name: FunkFrog-and-Sipondo-ShareSuite
+  authorName: FunkFrog-and-Sipondo
+  websiteUrl: https://thunderstore.io/package/FunkFrog-and-Sipondo/ShareSuite/
+  displayName: ShareSuite
+  description: Share gear between members of your party - Highly Balanced -
+    Completely Customisable
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.14
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
@@ -289,218 +149,7 @@
     minor: 5
     patch: 1
   enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\KingEnderBrine-ProperSave\2.5.1\icon.png
-- manifestVersion: 1
-  name: FunkFrog-and-Sipondo-ShareSuite
-  authorName: FunkFrog-and-Sipondo
-  websiteUrl: https://thunderstore.io/package/FunkFrog-and-Sipondo/ShareSuite/
-  displayName: ShareSuite
-  description: Share gear between members of your party - Highly Balanced - Completely
-    Customisable
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.5.14
-    - bbepis-BepInExPack-5.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 4
-    patch: 0
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\FunkFrog-and-Sipondo-ShareSuite\2.4.0\icon.png
-- manifestVersion: 1
-  name: dan8991iel-LunarCoinShareOnPickup
-  authorName: dan8991iel
-  websiteUrl: https://thunderstore.io/package/dan8991iel/LunarCoinShareOnPickup/
-  displayName: LunarCoinShareOnPickup
-  description: When one player in the lobby picks up a lunar coin, each player in the lobby
-    will receive one. No more hate and envy against the person who grabs them
-    the quickest. Change Lunar Coin shared and unshared amount via config.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.10
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 3
-    minor: 6
-    patch: 1
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\dan8991iel-LunarCoinShareOnPickup\3.6.1\icon.png
-- manifestVersion: 1
-  name: MagnusMagnuson-ShrineOfDio
-  authorName: MagnusMagnuson
-  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/ShrineOfDio/
-  displayName: ShrineOfDio
-  description: Resurrect fallen teammates. Spawns a Shrine of Dio on every stage (replaces
-    the Shrine of the Woods).
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.5.14
-    - bbepis-BepInExPack-5.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 4
-    patch: 1
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-ShrineOfDio\1.4.1\icon.png
-- manifestVersion: 1
-  name: Harb-HarbTweaks
-  authorName: Harb
-  websiteUrl: https://thunderstore.io/package/Harb/HarbTweaks/
-  displayName: HarbTweaks
-  description: Completely configurable set of tweaks.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.2.0
-    - tristanmcpherson-R2API-2.4.10
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 3
-    patch: 0
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-HarbTweaks\1.3.0\icon.png
-- manifestVersion: 1
-  name: TheRealElysium-EmptyChestsBeGone
-  authorName: TheRealElysium
-  websiteUrl: https://thunderstore.io/package/TheRealElysium/EmptyChestsBeGone/
-  displayName: EmptyChestsBeGone
-  description: Removes empty lootables upon opening them.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-1.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-EmptyChestsBeGone\1.1.1\icon.png
-- manifestVersion: 1
-  name: wildbook-TooManyFriends
-  authorName: wildbook
-  websiteUrl: https://thunderstore.io/package/wildbook/TooManyFriends/
-  displayName: TooManyFriends
-  description: Ever felt like 4 players wasn't enough?
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.5.6
-    - bbepis-BepInExPack-1.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\wildbook-TooManyFriends\1.1.1\icon.png
-- manifestVersion: 1
-  name: MagnusMagnuson-ScannerPlusOne
-  authorName: MagnusMagnuson
-  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/ScannerPlusOne/
-  displayName: ScannerPlusOne
-  description: Radar Scanner replaces question marks with ping icons and info is posted
-    into the chat.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.5.0
-    - bbepis-BepInExPack-5.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 6
-    patch: 1
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-ScannerPlusOne\2.6.1\icon.png
-- manifestVersion: 1
-  name: TheRealElysium-Faster3DPrinters
-  authorName: TheRealElysium
-  websiteUrl: https://thunderstore.io/package/TheRealElysium/Faster3DPrinters/
-  displayName: Faster3DPrinters
-  description: Makes 3D Printers produce items quickly.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-1.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-Faster3DPrinters\1.0.0\icon.png
-- manifestVersion: 1
-  name: MagnusMagnuson-ItemExchangeNotifier
-  authorName: MagnusMagnuson
-  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/ItemExchangeNotifier/
-  displayName: ItemExchangeNotifier
-  description: Notification for which items you exchange at the 3D Printer/Forge.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.5.0
-    - bbepis-BepInExPack-5.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 3
-    patch: 1
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-ItemExchangeNotifier\1.3.1\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\FunkFrog-and-Sipondo-ShareSuite\icon.png
 - manifestVersion: 1
   name: TheRealElysium-WaxQuailMultiJump
   authorName: TheRealElysium
@@ -521,216 +170,122 @@
     minor: 0
     patch: 1
   enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-WaxQuailMultiJump\1.0.1\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TheRealElysium-WaxQuailMultiJump\icon.png
 - manifestVersion: 1
-  name: Legendsmith-SolidIceWall
-  authorName: Legendsmith
-  websiteUrl: https://thunderstore.io/package/Legendsmith/SolidIceWall/
-  displayName: SolidIceWall
-  description: Makes Artificer Ice Wall Solid
+  name: JohnEdwa-RTAutoSprintEx
+  authorName: JohnEdwa
+  websiteUrl: https://thunderstore.io/package/JohnEdwa/RTAutoSprintEx/
+  displayName: RTAutoSprintEx
+  description: RTAutoSprint fixed and enhanced with more features. Sprint
+    automatically, but only when you would be allowed to do so in the first
+    place.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.0.5
-    - bbepis-BepInExPack-2.0.0
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.30
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
-    minor: 1
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Legendsmith-SolidIceWall\1.1.0\icon.png
-- manifestVersion: 1
-  name: Timmeh42-2-StealthySpawn
-  authorName: Timmeh42-2
-  websiteUrl: https://thunderstore.io/package/Timmeh42-2/StealthySpawn/
-  displayName: StealthySpawn
-  description: Tired of getting shotgunned by Elder Lemurians? Now get a short duration
-    cloak effect on spawn!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-1.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
+    major: 2
     minor: 0
-    patch: 0
+    patch: 2
   enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Timmeh42-2-StealthySpawn\1.0.0\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\JohnEdwa-RTAutoSprintEx\icon.png
 - manifestVersion: 1
-  name: mistername-AllyPing
-  authorName: mistername
-  websiteUrl: https://thunderstore.io/package/mistername/AllyPing/
-  displayName: AllyPing
-  description: Remake of AllyPing, with HJupdaterAPI support
+  name: MagnusMagnuson-ShrineOfDio
+  authorName: MagnusMagnuson
+  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/ShrineOfDio/
+  displayName: ShrineOfDio
+  description: "[R2/ET] Resurrect fallen teammates. Spawns a Shrine of Dio on
+    every stage (replaces the Shrine of the Woods)."
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.3.7
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\mistername-AllyPing\1.0.0\icon.png
-- manifestVersion: 1
-  name: Jarlyk-Raincoat
-  authorName: Jarlyk
-  websiteUrl: https://thunderstore.io/package/Jarlyk/Raincoat/
-  displayName: Raincoat
-  description: Collection of optional tweaks for an improved Risk of Rain experience
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.5.14
-    - wildbook-MiniRpcLib-0.0.2
     - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.14
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 5
+    minor: 5
+    patch: 1
   enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Jarlyk-Raincoat\1.0.5\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-ShrineOfDio\icon.png
 - manifestVersion: 1
-  name: kookehs-StatsDisplay
-  authorName: kookehs
-  websiteUrl: https://thunderstore.io/package/kookehs/StatsDisplay/
-  displayName: StatsDisplay
-  description: Displays character stats on Info Screen.
+  name: SSM24-FadeEmptyChests
+  authorName: SSM24
+  websiteUrl: https://thunderstore.io/package/SSM24/FadeEmptyChests/
+  displayName: FadeEmptyChests
+  description: Makes chests and barrels partially fade out after being opened.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-1.3.1
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.14
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\SSM24-FadeEmptyChests\icon.png
+- manifestVersion: 1
+  name: IHarbHD-DebugToolkit
+  authorName: IHarbHD
+  websiteUrl: https://thunderstore.io/package/IHarbHD/DebugToolkit/
+  displayName: DebugToolkit
+  description: Adds console command for debugging mods.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.59
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 6
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\IHarbHD-DebugToolkit\icon.png
+- manifestVersion: 1
+  name: XoXFaby-BetterUI
+  authorName: XoXFaby
+  websiteUrl: https://thunderstore.io/package/XoXFaby/BetterUI/
+  displayName: BetterUI
+  description: Now with better buff tooltips! Various UI improvements like ordered
+    items with multiple ways of sorting, DPSMeter, Item Counters,
+    Skill/Equipment/Item Information, Command/Scrapper counters and other
+    improvements, customizable StatsDisplay, and much more.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 3
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\kookehs-StatsDisplay\2.3.0\icon.png
-- manifestVersion: 1
-  name: hlista-SimpleRoll
-  authorName: hlista
-  websiteUrl: https://thunderstore.io/package/hlista/SimpleRoll/
-  displayName: SimpleRoll
-  description: Adds a /roll command to chat that outputs a random number from 1-100
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-1.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\hlista-SimpleRoll\1.0.0\icon.png
-- manifestVersion: 1
-  name: Rein-GeneralFixes
-  authorName: Rein
-  websiteUrl: https://thunderstore.io/package/Rein/GeneralFixes/
-  displayName: GeneralFixes
-  description: Now with harder eclipse modifiers! Fixes bugs, adds QoL, and addresses major
-    balance issues.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 4
-    patch: 4
+    patch: 1
   enabled: true
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-GeneralFixes\2.4.4\icon.png
-- manifestVersion: 1
-  name: Jarlyk-EquipmentDurability
-  authorName: Jarlyk
-  websiteUrl: https://thunderstore.io/package/Jarlyk/EquipmentDurability/
-  displayName: EquipmentDurability
-  description: Equipment no longer lasts forever; you'll have to improvise
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.5.0
-    - wildbook-MiniRpcLib-0.0.2
-    - bbepis-BepInExPack-5.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Jarlyk-EquipmentDurability\1.0.0\icon.png
-- manifestVersion: 1
-  name: TeaBoneJones-IncreaseHuntressRange
-  authorName: TeaBoneJones
-  websiteUrl: https://thunderstore.io/package/TeaBoneJones/IncreaseHuntressRange/
-  displayName: IncreaseHuntressRange
-  description: Increase the range of Huntress every time you level up. Or turn on God Mode
-    and increase the range to encompass the whole map.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.0.10
-    - bbepis-BepInExPack-2.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TeaBoneJones-IncreaseHuntressRange\1.0.0\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\XoXFaby-BetterUI\icon.png
 - manifestVersion: 1
   name: TheRealElysium-ScalingBloodShrines
   authorName: TheRealElysium
@@ -743,229 +298,330 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.2.32
     - bbepis-BepInExPack-2.0.0
+    - tristanmcpherson-R2API-2.2.32
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
     patch: 1
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\TheRealElysium-ScalingBloodShrines\1.0.1\icon.png
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TheRealElysium-ScalingBloodShrines\icon.png
 - manifestVersion: 1
-  name: Harb-DiluvianDifficulty
-  authorName: Harb
-  websiteUrl: https://thunderstore.io/package/Harb/DiluvianDifficulty/
-  displayName: DiluvianDifficulty
-  description: Adds a new harder difficulty to the game.
+  name: Timmeh42-2-StealthySpawn
+  authorName: Timmeh42-2
+  websiteUrl: https://thunderstore.io/package/Timmeh42-2/StealthySpawn/
+  displayName: StealthySpawn
+  description: Tired of getting shotgunned by Elder Lemurians? Now get a short
+    duration cloak effect on spawn!
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.4.10
-    - bbepis-BepInExPack-3.2.0
+    - bbepis-BepInExPack-1.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Timmeh42-2-StealthySpawn\icon.png
+- manifestVersion: 1
+  name: XoXFaby-MMHOOK_Standalone
+  authorName: XoXFaby
+  websiteUrl: https://thunderstore.io/package/XoXFaby/MMHOOK_Standalone/
+  displayName: MMHOOK_Standalone
+  description: Standalone MMHOOK_Assembly-CSharp for other mods to depend on.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - RiskofThunder-HookGenPatcher-1.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\XoXFaby-MMHOOK_Standalone\icon.png
+- manifestVersion: 1
+  name: Dragonyck-InstantTeleporter
+  authorName: Dragonyck
+  websiteUrl: https://thunderstore.io/package/Dragonyck/InstantTeleporter/
+  displayName: InstantTeleporter
+  description: Instantly charges the teleporter on boss kill.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - XoXFaby-MMHOOK_Standalone-1.0.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
     patch: 5
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-DiluvianDifficulty\1.0.5\icon.png
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Dragonyck-InstantTeleporter\icon.png
 - manifestVersion: 1
-  name: Unordinal-AI_Blacklister
-  authorName: Unordinal
-  websiteUrl: https://thunderstore.io/package/Unordinal/AI_Blacklister/
-  displayName: AI_Blacklister
-  description: Lets you blacklist certain items and equipment so that Scavengers and
-    enemies in the Void Fields will never receieve them.
+  name: KingEnderBrine-ProperSave
+  authorName: KingEnderBrine
+  websiteUrl: https://thunderstore.io/package/KingEnderBrine/ProperSave/
+  displayName: ProperSave
+  description: Saves your progress at the start of the stage so you can load later
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-3.0.0
-    - tristanmcpherson-R2API-2.3.7
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Unordinal-AI_Blacklister\1.0.0\icon.png
-- manifestVersion: 1
-  name: Rein-ArchaicWisps
-  authorName: Rein
-  websiteUrl: https://thunderstore.io/package/Rein/ArchaicWisps/
-  displayName: ArchaicWisps
-  description: Adds Archaic Wisps to the game.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.0.0
-    - tristanmcpherson-R2API-2.3.22
+    - bbepis-BepInExPack-5.3.1
+    - XoXFaby-MMHOOK_Standalone-1.0.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 0
-    patch: 1
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-ArchaicWisps\2.0.1\icon.png
-- manifestVersion: 1
-  name: Rein-LunarWickedRing
-  authorName: Rein
-  websiteUrl: https://thunderstore.io/package/Rein/LunarWickedRing/
-  displayName: LunarWickedRing
-  description: Adds Wicked Ring to the game as a lunar item with a major downside.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.0.0
-    - tristanmcpherson-R2API-2.3.20
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 1
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-LunarWickedRing\1.2.1\icon.png
-- manifestVersion: 1
-  name: MagnusMagnuson-BiggerBazaar
-  authorName: MagnusMagnuson
-  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/BiggerBazaar/
-  displayName: BiggerBazaar
-  description: Expands the Bazaar with random items that can be bought with money you have
-    left at the end of the stage (now lunar coins, too).
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.2
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 9
-    patch: 3
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-BiggerBazaar\1.9.3\icon.png
-- manifestVersion: 1
-  name: MagnusMagnuson-TemporaryLunarCoins
-  authorName: MagnusMagnuson
-  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/TemporaryLunarCoins/
-  displayName: TemporaryLunarCoins
-  description: Makes Lunar Coins reset every run with options for drop chance.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.21
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 2
-    patch: 1
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-TemporaryLunarCoins\0.2.1\icon.png
-- manifestVersion: 1
-  name: Jimmy-AcridPoisonBuffs
-  authorName: Jimmy
-  websiteUrl: https://thunderstore.io/package/Jimmy/AcridPoisonBuffs/
-  displayName: AcridPoisonBuffs
-  description: Adds configurable proc coefficient and critical strike chance to Acrid's
-    poison.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 3
+    minor: 7
     patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Jimmy-AcridPoisonBuffs\0.3.0\icon.png
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\KingEnderBrine-ProperSave\icon.png
 - manifestVersion: 1
-  name: xiaoxiao921-DPSMeter
-  authorName: xiaoxiao921
-  websiteUrl: https://thunderstore.io/package/xiaoxiao921/DPSMeter/
-  displayName: DPSMeter
-  description: A mod that shows a dps meter on your screen.
+  name: MagnusMagnuson-ItemExchangeNotifier
+  authorName: MagnusMagnuson
+  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/ItemExchangeNotifier/
+  displayName: ItemExchangeNotifier
+  description: Notification for which items you exchange at the 3D Printer/Forge.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - wildbook-MiniRpcLib-0.0.1
-    - tristanmcpherson-R2API-2.3.7
-    - bbepis-BepInExPack-3.0.0
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 0
-    minor: 0
-    patch: 6
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\xiaoxiao921-DPSMeter\0.0.6\icon.png
+    major: 1
+    minor: 3
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-ItemExchangeNotifier\icon.png
 - manifestVersion: 1
-  name: xiaoxiao921-Rampage
-  authorName: xiaoxiao921
-  websiteUrl: https://thunderstore.io/package/xiaoxiao921/Rampage/
-  displayName: Rampage
-  description: CUSTOM ADDED RED TIER ITEM ! Introduces the Rampage mechanic from Path of
-    Exile.
+  name: TheRealElysium-Faster3DPrinters
+  authorName: TheRealElysium
+  websiteUrl: https://thunderstore.io/package/TheRealElysium/Faster3DPrinters/
+  displayName: Faster3DPrinters
+  description: Makes 3D Printers produce items quickly.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - wildbook-MiniRpcLib-0.0.1
-    - tristanmcpherson-R2API-2.4.10
-    - bbepis-BepInExPack-3.2.0
+    - bbepis-BepInExPack-1.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TheRealElysium-Faster3DPrinters\icon.png
+- manifestVersion: 1
+  name: duckduckgreyduck-ArtificerExtended
+  authorName: duckduckgreyduck
+  websiteUrl: https://thunderstore.io/package/duckduckgreyduck/ArtificerExtended/
+  displayName: ArtificerExtended
+  description: MORE ARTI PASSIVES, SKILLS, AND UNLOCKS - LIKE A TON MORE
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-3.0.30
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 1
+    patch: 8
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\duckduckgreyduck-ArtificerExtended\icon.png
+- manifestVersion: 1
+  name: TeaBoneJones-IncreaseHuntressRange
+  authorName: TeaBoneJones
+  websiteUrl: https://thunderstore.io/package/TeaBoneJones/IncreaseHuntressRange/
+  displayName: IncreaseHuntressRange
+  description: Increase the range of Huntress every time you level up. Or turn on
+    God Mode and increase the range to encompass the whole map.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-2.0.0
+    - tristanmcpherson-R2API-2.0.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TeaBoneJones-IncreaseHuntressRange\icon.png
+- manifestVersion: 1
+  name: Moffein-MobileTurretBuff
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/MobileTurretBuff/
+  displayName: MobileTurretBuff
+  description: Buffs the survivability of Mobile Turrets, makes them sprint
+    whenever possible, and increases their range. Server-side and
+    Vanilla-Compatible.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - RiskofThunder-HookGenPatcher-1.2.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 4
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\xiaoxiao921-Rampage\1.1.4\icon.png
+    patch: 5
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-MobileTurretBuff\icon.png
+- manifestVersion: 1
+  name: Moffein-Frag_Grenade_Cooking
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/Frag_Grenade_Cooking/
+  displayName: Frag_Grenade_Cooking
+  description: Reworks Commando's Frag Grenades to be cookable.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.52
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Frag_Grenade_Cooking\icon.png
+- manifestVersion: 1
+  name: Legendsmith-SolidIceWall
+  authorName: Legendsmith
+  websiteUrl: https://thunderstore.io/package/Legendsmith/SolidIceWall/
+  displayName: SolidIceWall
+  description: Makes Artificer Ice Wall Solid
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-2.0.0
+    - tristanmcpherson-R2API-2.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Legendsmith-SolidIceWall\icon.png
+- manifestVersion: 1
+  name: Chen-ChensHelpers
+  authorName: Chen
+  websiteUrl: https://thunderstore.io/package/Chen/ChensHelpers/
+  displayName: ChensHelpers
+  description: This mod includes helpers that may aid other mod creators. Fully
+    documented, so feel free to check it out.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.44
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 15
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Chen-ChensHelpers\icon.png
+- manifestVersion: 1
+  name: Chen-ChensMinionRetarget
+  authorName: Chen
+  websiteUrl: https://thunderstore.io/package/Chen/ChensMinionRetarget/
+  displayName: ChensMinionRetarget
+  description: Assign a priority target for your minions by pinging enemies. They
+    will only acknowledge this command from their owner/master.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.30
+    - Chen-ChensHelpers-1.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 7
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Chen-ChensMinionRetarget\icon.png
+- manifestVersion: 1
+  name: MagnusMagnuson-BiggerBazaar
+  authorName: MagnusMagnuson
+  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/BiggerBazaar/
+  displayName: BiggerBazaar
+  description: Expands the Bazaar with random items that can be bought with money
+    you have left at the end of the stage (now lunar coins, too).
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.25
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 12
+    patch: 13
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-BiggerBazaar\icon.png
 - manifestVersion: 1
   name: MagnusMagnuson-BazaarPrinter
   authorName: MagnusMagnuson
@@ -978,390 +634,151 @@
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.4.10
-    - bbepis-BepInExPack-3.2.0
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.6
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 2
-    patch: 2
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\MagnusMagnuson-BazaarPrinter\0.2.2\icon.png
+    patch: 4
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-BazaarPrinter\icon.png
 - manifestVersion: 1
-  name: Sciman101-PocketPrinter
-  authorName: Sciman101
-  websiteUrl: https://thunderstore.io/package/Sciman101/PocketPrinter/
-  displayName: PocketPrinter
-  description: Adds a Adaptive Filament, which turns into copies of items you pick up
+  name: wildbook-MiniRpcLib
+  authorName: wildbook
+  websiteUrl: https://thunderstore.io/package/wildbook/MiniRpcLib/
+  displayName: MiniRpcLib
+  description: A relatively simple networking library.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-2.4.1
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Sciman101-PocketPrinter\1.1.0\icon.png
-- manifestVersion: 1
-  name: Rico-GiganticAmethyst
-  authorName: Rico
-  websiteUrl: https://thunderstore.io/package/Rico/GiganticAmethyst/
-  displayName: GiganticAmethyst
-  description: Adds the Gigantic Amethyst, an equipment that resets ability cooldowns
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.1
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rico-GiganticAmethyst\1.1.1\icon.png
-- manifestVersion: 1
-  name: duckduckgreyduck-DeathMarkFix
-  authorName: duckduckgreyduck
-  websiteUrl: https://thunderstore.io/package/duckduckgreyduck/DeathMarkFix/
-  displayName: DeathMarkFix
-  description: Fixes a small oversight with Death Mark that prevented its damage from
-    scaling
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.1.0
-    - tristanmcpherson-R2API-2.4.10
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 2
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-DeathMarkFix\1.0.2\icon.png
-- manifestVersion: 1
-  name: duckduckgreyduck-SpeedyBeetles
-  authorName: duckduckgreyduck
-  websiteUrl: https://thunderstore.io/package/duckduckgreyduck/SpeedyBeetles/
-  displayName: SpeedyBeetles
-  description: Balances beetles by making them go FAST
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.1.0
-    - tristanmcpherson-R2API-2.4.10
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 5
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-SpeedyBeetles\1.0.5\icon.png
-- manifestVersion: 1
-  name: Moffein-MobileTurretBuff
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/MobileTurretBuff/
-  displayName: MobileTurretBuff
-  description: Buffs the survivability of Mobile Turrets, makes them sprint whenever
-    possible, and provides options for tweaking their attributes.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-MobileTurretBuff\1.1.0\icon.png
-- manifestVersion: 1
-  name: Moffein-MULT_Buff
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/MULT_Buff/
-  displayName: MULT_Buff
-  description: Remember when MUL-T was good?
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-MULT_Buff\1.0.0\icon.png
-- manifestVersion: 1
-  name: Phedg1Studios-StartingItemsGUI
-  authorName: Phedg1Studios
-  websiteUrl: https://thunderstore.io/package/Phedg1Studios/StartingItemsGUI/
-  displayName: StartingItemsGUI
-  description: "This mod will allow players to use a GUI to select which items will be
-    given to them at the start of a run. There are 3 modes: Free, Earnt
-    Persistent and Earnt Consumable."
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - wildbook-MiniRpcLib-0.0.1
-    - tristanmcpherson-R2API-2.4.21
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 5
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Phedg1Studios-StartingItemsGUI\1.1.5\icon.png
-- manifestVersion: 1
-  name: gog909-OrderedItems
-  authorName: gog909
-  websiteUrl: https://thunderstore.io/package/gog909/OrderedItems/
-  displayName: OrderedItems
-  description: Organises items in inventory by ID and Tier.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.21
-    - bbepis-BepInExPack-1.3.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 2
-    patch: 1
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\gog909-OrderedItems\2.2.1\icon.png
-- manifestVersion: 1
-  name: Moffein-Phase_Round_Lightning
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/Phase_Round_Lightning/
-  displayName: Phase_Round_Lightning
-  description: Gives Commando's Phase Round a lightning AOE that zaps nearby enemies.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-Phase_Round_Lightning\1.0.0\icon.png
-- manifestVersion: 1
-  name: Harb-HarbCrate
-  authorName: Harb
-  websiteUrl: https://thunderstore.io/package/Harb/HarbCrate/
-  displayName: HarbCrate
-  description: 3 new items and 3 new equipment
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.2.0
-    - tristanmcpherson-R2API-2.4.21
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 2
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Harb-HarbCrate\1.0.2\icon.png
-- manifestVersion: 1
-  name: Rein-RogueWisp
-  authorName: Rein
-  websiteUrl: https://thunderstore.io/package/Rein/RogueWisp/
-  displayName: RogueWisp
-  description: Includes an entirely original survivor and a new late game boss. The
-    survivor is a close range caster with very high damage potential but no
-    mobility and limited defensive options. You may recognize the boss from
-    RoR1.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.1.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 1
-    patch: 5
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-RogueWisp\2.1.5\icon.png
-- manifestVersion: 1
-  name: Moffein-BanditReloaded
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/BanditReloaded/
-  displayName: BanditReloaded
-  description: Adds Bandit as a playable survivor with 3 new alt skills and HD skill icons!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.4.21
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Moffein-BanditReloaded\1.2.0\icon.png
-- manifestVersion: 1
-  name: Rein-AlternativeArtificer
-  authorName: Rein
-  websiteUrl: https://thunderstore.io/package/Rein/AlternativeArtificer/
-  displayName: AlternativeArtificer
-  description: Adds a selectable new 3-part passive to Artificer along with a reworked Ion
-    Surge and minor changes to NanoBomb
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.1.0
-    - tristanmcpherson-R2API-2.4.10
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 0
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\Rein-AlternativeArtificer\1.1.0\icon.png
-- manifestVersion: 1
-  name: duckduckgreyduck-ArtificerExtended
-  authorName: duckduckgreyduck
-  websiteUrl: https://thunderstore.io/package/duckduckgreyduck/ArtificerExtended/
-  displayName: ArtificerExtended
-  description: Introduces a variety of new skills for artificer that range in style from
-    highly accessible to extreme risk/reward gameplay
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - Rein-AlternativeArtificer-1.1.0
-    - bbepis-BepInExPack-3.1.0
-    - tristanmcpherson-R2API-2.4.10
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 1
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\duckduckgreyduck-ArtificerExtended\1.2.1\icon.png
-- manifestVersion: 1
-  name: DevinWeaver-TheSurgeon
-  authorName: DevinWeaver
-  websiteUrl: https://thunderstore.io/package/DevinWeaver/TheSurgeon/
-  displayName: TheSurgeon
-  description: Adds the Surgeon, a new survivor who overcomes their low base damage by
-    manipulating the cooldown of their powerful special.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-2.3.20
-    - bbepis-BepInExPack-3.2.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 4
-    patch: 2
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\DevinWeaver-TheSurgeon\1.4.2\icon.png
-- manifestVersion: 1
-  name: LuaFubuki-Void_Reaver
-  authorName: LuaFubuki
-  websiteUrl: https://thunderstore.io/package/LuaFubuki/Void_Reaver/
-  displayName: Void_Reaver
-  description: Adds a playable Void Reaver with customized abilities to RoR2.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-3.2.0
-    - tristanmcpherson-R2API-2.4.10
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 2
+    minor: 0
     patch: 2
-  enabled: false
-  icon: C:\Users\Matthew
-    Strobel\AppData\Roaming\r2modmanPlus-local\mods\cache\LuaFubuki-Void_Reaver\0.2.2\icon.png
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\wildbook-MiniRpcLib\icon.png
+- manifestVersion: 1
+  name: Jarlyk-EquipmentDurability
+  authorName: Jarlyk
+  websiteUrl: https://thunderstore.io/package/Jarlyk/EquipmentDurability/
+  displayName: EquipmentDurability
+  description: Equipment no longer lasts forever; you'll have to improvise
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - wildbook-MiniRpcLib-0.0.2
+    - tristanmcpherson-R2API-2.5.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Jarlyk-EquipmentDurability\icon.png
+- manifestVersion: 1
+  name: VarnaScelestus-Ephemeral_Coins
+  authorName: VarnaScelestus
+  websiteUrl: https://thunderstore.io/package/VarnaScelestus/Ephemeral_Coins/
+  displayName: Ephemeral_Coins
+  description: Lunar Coins become a per-run currency, with changes to Lunar Pods,
+    BBT, and more.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.30
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\VarnaScelestus-Ephemeral_Coins\icon.png
+- manifestVersion: 1
+  name: dan8991iel-LunarCoinShareOnPickup
+  authorName: dan8991iel
+  websiteUrl: https://thunderstore.io/package/dan8991iel/LunarCoinShareOnPickup/
+  displayName: LunarCoinShareOnPickup
+  description: When one player in the lobby picks up a lunar coin, each player in
+    the lobby will receive one. No more hate and envy against the person who
+    grabs them the quickest. Change Lunar Coin shared and unshared amount via
+    config.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-3.2.0
+    - tristanmcpherson-R2API-2.4.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 6
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\dan8991iel-LunarCoinShareOnPickup\icon.png
+- manifestVersion: 1
+  name: HIFU-HuntressAutoaimFix
+  authorName: HIFU
+  websiteUrl: https://thunderstore.io/package/HIFU/HuntressAutoaimFix/
+  displayName: HuntressAutoaimFix
+  description: Makes Huntress able to target enemies nearest to her crosshair
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.50
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 6
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\HIFU-HuntressAutoaimFix\icon.png
+- manifestVersion: 1
+  name: HIFU-HIFUHuntressTweaks
+  authorName: HIFU
+  websiteUrl: https://thunderstore.io/package/HIFU/HIFUHuntressTweaks/
+  displayName: HIFUHuntressTweaks
+  description: Tweaks Huntress to be more in line with other survivors.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.52
+    - HIFU-HuntressAutoaimFix-1.0.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 7
+    patch: 4
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\HIFU-HIFUHuntressTweaks\icon.png

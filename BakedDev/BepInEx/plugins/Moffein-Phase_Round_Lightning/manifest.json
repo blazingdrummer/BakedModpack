@@ -1,9 +1,0 @@
-{
-  "name": "Phase_Round_Lightning",
-  "version_number": "1.0.0",
-  "website_url": "",
-  "description": "Gives Commando's Phase Round a lightning AOE that zaps nearby enemies.",
-  "dependencies": [
-    "bbepis-BepInExPack-3.2.0"
-  ]
-}

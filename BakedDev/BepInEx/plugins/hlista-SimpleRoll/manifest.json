@@ -1,9 +1,0 @@
-{
-    "name": "SimpleRoll",
-    "version_number": "1.0.0",
-    "website_url": "",
-    "description": "Adds a /roll command to chat that outputs a random number from 1-100",
-    "dependencies": [
-        "bbepis-BepInExPack-1.2.0"
-    ]
-}

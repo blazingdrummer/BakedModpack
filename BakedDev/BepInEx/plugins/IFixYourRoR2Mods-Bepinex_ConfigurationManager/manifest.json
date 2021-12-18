@@ -1,9 +1,0 @@
-{
-    "name": "Bepinex_ConfigurationManager",
-    "version_number": "16.0.0",
-    "website_url": "https://github.com/BepInEx/BepInEx.ConfigurationManager",
-    "description": "Ingame editing of mod config",
-    "dependencies": [
-        "bbepis-BepInExPack-3.2.0"
-    ]
-}

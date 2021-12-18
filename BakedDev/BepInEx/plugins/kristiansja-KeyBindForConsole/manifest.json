@@ -1,8 +1,0 @@
-{
-  "name": "KeyBindForConsole",
-  "version_number": "2.0.1",
-  "website_url": "",
-  "description": "Now With Configuration☺",
-  "dependencies": ["bbepis-BepInExPack-1.2.0"
-  ]
-}

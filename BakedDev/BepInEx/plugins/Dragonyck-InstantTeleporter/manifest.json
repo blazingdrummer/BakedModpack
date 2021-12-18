@@ -1,0 +1,10 @@
+{
+	"name": "InstantTeleporter",
+	"version_number": "1.0.5",
+	"website_url": "",
+	"description": " Instantly charges the teleporter on boss kill. ",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1",
+		"XoXFaby-MMHOOK_Standalone-1.0.1"
+	]
+}

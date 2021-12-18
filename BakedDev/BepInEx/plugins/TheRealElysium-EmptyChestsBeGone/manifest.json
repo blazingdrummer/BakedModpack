@@ -1,7 +1,0 @@
-{
-    "name": "EmptyChestsBeGone",
-    "version_number": "1.1.1",
-    "website_url": "",
-    "description": "Removes empty lootables upon opening them.",
-	"dependencies": ["bbepis-BepInExPack-1.3.1"]
-}

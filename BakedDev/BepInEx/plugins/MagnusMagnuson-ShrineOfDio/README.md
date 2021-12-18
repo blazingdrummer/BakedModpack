@@ -1,6 +1,8 @@
 
 # ShrineOfDio
 
+(Includes Enigmatic Thunder Version)
+
 [Host only required for functionality, but descriptions might not be correct for clients if they don't have the mod]
 
 This mod replaces the Shrine of the Woods with the Shrine of Dio, which lets you resurrect fallen teammates.
@@ -43,6 +45,8 @@ Therefore it's recommended that everyone has the mod installed to avoid confusio
 
 
 ## Changelog
+- 1.5.1 Added Enigmatic Thunder Version in correspondig zip.
+- 1.5.0 Fix for recent game update
 - 1.4.1 Added config to make Shrine of Dio unhackable
 - 1.4.0 Added compatibility with FallenFriends (Thanks for the help [Evaisa](https://thunderstore.io/package/evGiac/)!)
 - 1.3.5 Changed a hook entry so this mod is no longer falsely reported as broken lel

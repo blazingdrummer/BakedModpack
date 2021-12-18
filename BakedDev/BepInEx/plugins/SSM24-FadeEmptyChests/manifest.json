@@ -1,0 +1,10 @@
+{
+    "name": "FadeEmptyChests",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/SuperSupermario24/FadeEmptyChests",
+    "description": "Makes chests and barrels partially fade out after being opened.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.3.1",
+        "tristanmcpherson-R2API-2.5.14"
+    ]
+}

@@ -1,9 +1,0 @@
-{
-    "name": "AssetPlusRequester",
-    "version_number": "1.0.0",
-    "website_url": "https://github.com/risk-of-thunder/R2API/wiki/AssetPlus",
-    "description": "Tell R2API to enable the AssetPlus module",
-    "dependencies": [
-        "tristanmcpherson-R2API-2.3.22"
-    ]
-}

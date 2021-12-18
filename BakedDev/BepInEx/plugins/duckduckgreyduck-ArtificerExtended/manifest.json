@@ -1,11 +1,10 @@
 {
   "name": "ArtificerExtended",
-  "version_number": "1.2.1",
+  "version_number": "3.1.8",
   "website_url": " ",
-  "description": "Introduces a variety of new skills for artificer that range in style from highly accessible to extreme risk/reward gameplay",
+  "description": "MORE ARTI PASSIVES, SKILLS, AND UNLOCKS - LIKE A TON MORE",
   "dependencies": [
-    "tristanmcpherson-R2API-2.4.10",
-    "bbepis-BepInExPack-3.1.0",
-    "Rein-AlternativeArtificer-1.1.0"
+    "tristanmcpherson-R2API-3.0.30",
+    "bbepis-BepInExPack-5.3.1"
   ]
 }

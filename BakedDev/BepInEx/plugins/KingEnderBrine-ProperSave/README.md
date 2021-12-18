@@ -37,6 +37,26 @@ I tried to save all necessary data so that when you load the game would continue
 - I've not tested this mod much with achievements unlocking, but for most, if not all cases, it should be working as intended. 
 
 # Changelog
+**2.7.0**
+
+* Remove r2api dependency
+
+**2.6.1**
+
+* Fixed time display in lobby save info.
+
+**2.6.0**
+
+* Added tooltip with short save info when hower over `Load` button or hold load button on a gamepad.
+
+**2.5.3**
+
+* Added text to a quit confirmation dialog which informs you when the game was saved last time.
+* Updated chat message, now it includes a stage name at which the game was saved.
+
+**2.5.2**
+
+* Fixed an issue where the mod was trying to save while being a client in a multiplayer game.
 
 **2.5.1**
 
