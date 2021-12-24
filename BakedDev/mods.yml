@@ -81,7 +81,29 @@
     minor: 0
     patch: 71
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\tristanmcpherson-R2API\3.0.71\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\tristanmcpherson-R2API\icon.png
+- manifestVersion: 1
+  name: IHarbHD-DebugToolkit
+  authorName: IHarbHD
+  websiteUrl: https://thunderstore.io/package/IHarbHD/DebugToolkit/
+  displayName: DebugToolkit
+  description: Adds console command for debugging mods.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.59
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 6
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\IHarbHD-DebugToolkit\icon.png
 - manifestVersion: 1
   name: pixeldesu-Pingprovements
   authorName: pixeldesu
@@ -196,6 +218,29 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\JohnEdwa-RTAutoSprintEx\icon.png
 - manifestVersion: 1
+  name: JohnEdwa-RTAutoSprintAddon
+  authorName: JohnEdwa
+  websiteUrl: https://thunderstore.io/package/JohnEdwa/RTAutoSprintAddon/
+  displayName: RTAutoSprintAddon
+  description: Adds AutoSprint support for a few custom survivors/skill packs, as
+    well as a config option to add them manually.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - JohnEdwa-RTAutoSprintEx-2.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\JohnEdwa-RTAutoSprintAddon\icon.png
+- manifestVersion: 1
   name: MagnusMagnuson-ShrineOfDio
   authorName: MagnusMagnuson
   websiteUrl: https://thunderstore.io/package/MagnusMagnuson/ShrineOfDio/
@@ -240,28 +285,6 @@
     patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\SSM24-FadeEmptyChests\icon.png
-- manifestVersion: 1
-  name: IHarbHD-DebugToolkit
-  authorName: IHarbHD
-  websiteUrl: https://thunderstore.io/package/IHarbHD/DebugToolkit/
-  displayName: DebugToolkit
-  description: Adds console command for debugging mods.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - tristanmcpherson-R2API-3.0.59
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 3
-    minor: 6
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\IHarbHD-DebugToolkit\icon.png
 - manifestVersion: 1
   name: XoXFaby-BetterUI
   authorName: XoXFaby
@@ -600,51 +623,6 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Chen-ChensMinionRetarget\icon.png
 - manifestVersion: 1
-  name: MagnusMagnuson-BiggerBazaar
-  authorName: MagnusMagnuson
-  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/BiggerBazaar/
-  displayName: BiggerBazaar
-  description: Expands the Bazaar with random items that can be bought with money
-    you have left at the end of the stage (now lunar coins, too).
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - tristanmcpherson-R2API-3.0.25
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 12
-    patch: 13
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-BiggerBazaar\icon.png
-- manifestVersion: 1
-  name: MagnusMagnuson-BazaarPrinter
-  authorName: MagnusMagnuson
-  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/BazaarPrinter/
-  displayName: BazaarPrinter
-  description: Adds 3D Printers to the Bazaar (configurable)
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.3.1
-    - tristanmcpherson-R2API-2.5.6
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 2
-    patch: 4
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-BazaarPrinter\icon.png
-- manifestVersion: 1
   name: wildbook-MiniRpcLib
   authorName: wildbook
   websiteUrl: https://thunderstore.io/package/wildbook/MiniRpcLib/
@@ -737,6 +715,51 @@
     patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\dan8991iel-LunarCoinShareOnPickup\icon.png
+- manifestVersion: 1
+  name: MagnusMagnuson-BiggerBazaar
+  authorName: MagnusMagnuson
+  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/BiggerBazaar/
+  displayName: BiggerBazaar
+  description: Expands the Bazaar with random items that can be bought with money
+    you have left at the end of the stage (now lunar coins, too).
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.25
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 12
+    patch: 13
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-BiggerBazaar\icon.png
+- manifestVersion: 1
+  name: MagnusMagnuson-BazaarPrinter
+  authorName: MagnusMagnuson
+  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/BazaarPrinter/
+  displayName: BazaarPrinter
+  description: Adds 3D Printers to the Bazaar (configurable)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 4
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-BazaarPrinter\icon.png
 - manifestVersion: 1
   name: HIFU-HuntressAutoaimFix
   authorName: HIFU
