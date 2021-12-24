@@ -15,9 +15,9 @@
   versionNumber:
     major: 5
     minor: 4
-    patch: 9
+    patch: 19
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\bbepis-BepInExPack\5.4.9\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\bbepis-BepInExPack\5.4.19\icon.png
 - manifestVersion: 1
   name: RiskofThunder-HookGenPatcher
   authorName: RiskofThunder
