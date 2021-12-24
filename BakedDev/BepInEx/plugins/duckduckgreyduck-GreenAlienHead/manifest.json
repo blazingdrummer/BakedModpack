@@ -1,0 +1,10 @@
+{
+  "name": "GreenAlienHead",
+  "version_number": "2.0.5",
+  "website_url": " ",
+  "description": "Makes Alien Head reduce cooldowns by less per stack and also turns it into a Green item because god damn if this game Does Not have enough CDR and I'm So Tired Of It. Now includes config!",
+  "dependencies": [
+    "tristanmcpherson-R2API-3.0.13",
+    "bbepis-BepInExPack-5.3.1"
+  ]
+}

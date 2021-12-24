@@ -16,7 +16,10 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   :LighterPatcher] Collecting methods from: ChensHelpers
 [Info   :LighterPatcher] Collecting methods from: ChensMinionRetarget
 [Info   :LighterPatcher] Collecting methods from: LunarCoinShareOnPickup
+[Info   :LighterPatcher] Collecting methods from: ArtifactGesture
 [Info   :LighterPatcher] Collecting methods from: AltArtificerExtended
+[Info   :LighterPatcher] Collecting methods from: BORBO
+[Info   :LighterPatcher] Collecting methods from: GreenAlienHead
 [Info   :LighterPatcher] Collecting methods from: ShareSuite
 [Info   :LighterPatcher] Collecting methods from: HuntressTweaks
 [Info   :LighterPatcher] Collecting methods from: HuntressFix
@@ -29,7 +32,7 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   :LighterPatcher] Collecting methods from: ItemExchangeNotifier
 [Info   :LighterPatcher] Collecting methods from: ScannerPlusOne
 [Info   :LighterPatcher] Collecting methods from: ShrineOfDio
-[Info   :LighterPatcher] Lighter MMHOOK found!(hash:30954120599)
+[Info   :LighterPatcher] Lighter MMHOOK found!(hash:28133528125)
 [Info   :LighterPatcher] Collecting methods from: MobileTurretBuff
 [Info   :LighterPatcher] Collecting methods from: Pingprovements
 [Info   :LighterPatcher] Collecting methods from: FadeEmptyChests
@@ -41,50 +44,56 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   :LighterPatcher] Collecting methods from: R2API
 [Info   :LighterPatcher] Collecting methods from: EphemeralCoins
 [Info   :LighterPatcher] Collecting methods from: MiniRpcLib
-[Message:LighterPatcher] Found 27 mods with a MMHook dependency.
-[Info   :LighterPatcher] Number of neededtypes for hooks : 397
+[Message:LighterPatcher] Found 30 mods with a MMHook dependency.
+[Info   :LighterPatcher] Number of neededtypes for hooks : 447
 [Message:LighterPatcher] LighterhHook has already run for these mods. Using that old file again.
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 33 plugins to load
+[Info   :   BepInEx] 36 plugins to load
 [Info   :   BepInEx] Loading [R2API 3.0.71]
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.UnitySystemConsoleRedirector.Redirect
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.RoR2Application+<>c.<LoadGameContent>b__61_1
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.RoR2Application+<>c.<LoadGameContent>b__61_1
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.RoR2Content.LoadStaticContentAsync
-[Debug  :     R2API] ArtifactAPI has no static method registered for LoadCheck
 [Debug  :     R2API] ArtifactCodeAPI has no static method registered for LoadCheck
 [Debug  :     R2API] DamageAPI has no static method registered for LoadCheck
 [Debug  :     R2API] DeployableAPI has no static method registered for LoadCheck
 [Debug  :     R2API] DifficultyAPI has no static method registered for LoadCheck
-[Debug  :     R2API] DirectorAPI has no static method registered for LoadCheck
 [Debug  :     R2API] DotAPI has no static method registered for LoadCheck
 [Debug  :     R2API] EliteAPI has no static method registered for LoadCheck
 [Debug  :     R2API] InteractablesAPI has no static method registered for LoadCheck
-[Debug  :     R2API] ItemAPI has no static method registered for LoadCheck
 [Debug  :     R2API] ItemDropAPI has no static method registered for LoadCheck
 [Debug  :     R2API] LobbyConfigAPI has no static method registered for LoadCheck
 [Debug  :     R2API] MonsterItemsAPI has no static method registered for LoadCheck
 [Debug  :     R2API] OrbAPI has no static method registered for LoadCheck
-[Debug  :     R2API] RecalculateStatsAPI has no static method registered for LoadCheck
 [Debug  :     R2API] SceneAssetAPI has no static method registered for LoadCheck
 [Debug  :     R2API] SurvivorAPI has no static method registered for LoadCheck
 [Debug  :     R2API] TempVisualEffectAPI has no static method registered for LoadCheck
 [Debug  :     R2API] UnlockableAPI has no static method registered for LoadCheck
+[Info   :     R2API] Enabling R2API Submodule: ArtifactAPI
 [Info   :     R2API] Enabling R2API Submodule: BuffAPI
+[Info   :     R2API] Enabling R2API Submodule: DirectorAPI
 [Info   :     R2API] Enabling R2API Submodule: EffectAPI
+[Info   :     R2API] Enabling R2API Submodule: ItemAPI
 [Info   :     R2API] Enabling R2API Submodule: LanguageAPI
 [Info   :     R2API] Enabling R2API Submodule: LoadoutAPI
 [Info   :     R2API] Enabling R2API Submodule: PrefabAPI
 [Info   :     R2API] Enabling R2API Submodule: ProjectileAPI
+[Info   :     R2API] Enabling R2API Submodule: RecalculateStatsAPI
 [Info   :     R2API] Enabling R2API Submodule: ResourcesAPI
 [Info   :     R2API] Enabling R2API Submodule: SoundAPI
 [Info   :     R2API] Enabling R2API Submodule: CommandHelper
 [Info   :     R2API] Enabling R2API Submodule: ILLine
 [Info   :     R2API] Enabling R2API Submodule: NetworkingAPI
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.ClassicStageInfo.Awake
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.CharacterModel.UpdateMaterials
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterModel.UpdateMaterials
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.ItemDisplayRuleSet.Init
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.Language.GetLocalizedStringByToken
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.Language.TokenIsRegistered
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.RecalculateStats
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: AkWwiseInitializationSettings.InitializeSoundEngine
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: AkWwiseInitializationSettings.InitializeSoundEngine
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.MusicController.Start
@@ -94,12 +103,16 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.Console.InitConVars
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: System.Diagnostics.StackTrace.AddFrames
 [Debug  :     R2API] Hook added by assembly:  for: System.Diagnostics.StackTrace.AddFrames
+[Debug  :     R2API] ArtifactAPI has no static method registered for Load
 [Debug  :     R2API] BuffAPI has no static method registered for Load
+[Debug  :     R2API] DirectorAPI has no static method registered for Load
 [Debug  :     R2API] EffectAPI has no static method registered for Load
+[Debug  :     R2API] ItemAPI has no static method registered for Load
 [Debug  :     R2API] LanguageAPI has no static method registered for Load
 [Debug  :     R2API] LoadoutAPI has no static method registered for Load
 [Debug  :     R2API] PrefabAPI has no static method registered for Load
 [Debug  :     R2API] ProjectileAPI has no static method registered for Load
+[Debug  :     R2API] RecalculateStatsAPI has no static method registered for Load
 [Debug  :     R2API] ResourcesAPI has no static method registered for Load
 [Debug  :     R2API] SoundAPI has no static method registered for Load
 [Debug  :     R2API] CommandHelper has no static method registered for Load
@@ -108,6 +121,10 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.DisableIfGameModded.OnEnable
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.SteamworksLobbyDataGenerator.RebuildLobbyData
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.SteamworksLobbyDataGenerator.RebuildLobbyData
+[Info   :   BepInEx] Loading [This Mod Turns Gesture Into An Artifact So That People Can Stop Telling Me Removing Gesture In BalanceOverhaulRBO Was Unnecessary 1.0.0]
+[Debug  :     R2API] Hook added by assembly: ArtifactGesture.dll for: RoR2.EquipmentSlot.FixedUpdate
+[Debug  :     R2API] Hook added by assembly: ArtifactGesture.dll for: RoR2.ItemCatalog.Init
+[Debug  :     R2API] Hook added by assembly: ArtifactGesture.dll for: RoR2.Inventory.CalculateEquipmentCooldownScale
 [Info   :   BepInEx] Loading [RTAutoSprintEx 2.0.2]
 [Debug  :     R2API] Hook added by assembly: RTAutoSprintEx.dll for: RoR2.PlayerCharacterMasterController.FixedUpdate
 [Debug  :     R2API] Hook added by assembly: RTAutoSprintEx.dll for: RoR2.CameraRigController.Update
@@ -154,6 +171,131 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.CharacterBody.AddBuff
 [Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.CharacterMaster.OnBodyStart
 [Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.Inventory.SetEquipmentIndex
+[Info   :   BepInEx] Loading [Yeah Thats Right Alien Head Is A Green Item Now 2.0.4]
+[Debug  :     R2API] Hook added by assembly: GreenAlienHead.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly: GreenAlienHead.dll for: RoR2.ItemCatalog.Init
+[Info   : Unity Log] Green Alien Head Initialized! Cooldowns should now be multiplied by 0.875 per stack.
+[Info   :   BepInEx] Loading [BORBO 0.4.11]
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.OnInventoryChanged
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.ItemCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.BodyCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.OnInventoryChanged
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.OnInventoryChanged
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.OnInventoryChanged
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterMaster.GiveMoney
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.Run.BeginStage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.BuffCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.OnSkillActivated
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.SkillLocator.ApplyAmmoPack
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.OnInventoryChanged
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.OnSkillActivated
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.SkillLocator.ApplyAmmoPack
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.BodyCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.BodyCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.EquipmentSlot.PerformEquipmentAction
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.EquipmentSlot.UpdateTargets
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.EquipmentSlot.UpdateTargets
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnCharacterDeath
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.ItemCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.BodyCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.EquipmentSlot.PerformEquipmentAction
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.BodyCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.EquipmentSlot.PerformEquipmentAction
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnCharacterDeath
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.ItemCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.BodyCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.Orbs.DevilOrb.OnArrival
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.Orbs.DevilOrb.OnArrival
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.EquipmentSlot.FireGainArmor
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.ServerFixedUpdate
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.HealthComponent.ServerFixedUpdate
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GravitatePickup.OnTriggerEnter
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnCrit
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnCrit
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnCharacterDeath
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnCharacterDeath
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.RemoveBuff
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.RemoveBuff
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnCharacterDeath
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnCharacterDeath
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.FixedUpdate
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.LaserTurbineController.Awake
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: EntityStates.VagrantMonster.ChargeMegaNova.OnEnter
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: EntityStates.VagrantNovaItem.ChargeState.OnEnter
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.BodyCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.BossGroup.Awake
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnCharacterDeath
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.ItemCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.EquipmentCatalog.Init
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.Inventory.SetEquipmentIndex
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnHitAll
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnHitAll
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.OnInventoryChanged
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GrandParentSunController.Start
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.Orbs.DevilOrb.Begin
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.Orbs.LightningOrb.Begin
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.Orbs.SimpleLightningStrikeOrb.Begin
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnCharacterDeath
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnCharacterDeath
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.ProcIgniteOnKill
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.ProcIgniteOnKill
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.MeteorStormController.DetonateMeteor
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.MeteorStormController.DetonateMeteor
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.DeathRewards.Awake
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.Run.GetDifficultyScaledCost
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.TeleporterInteraction.Awake
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: EntityStates.RoboBallBoss.SpawnState.OnEnter
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.ShrineBloodBehavior.Start
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.Run.BeginStage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.SceneDirector.Start
+[Warning: Unity Log] RoR2.BuffDef must be instantiated using the ScriptableObject.CreateInstance method instead of new BuffDef.
+[Warning: Unity Log] RoR2.BuffDef must be instantiated using the ScriptableObject.CreateInstance method instead of new BuffDef.
+[Warning: Unity Log] RoR2.BuffDef must be instantiated using the ScriptableObject.CreateInstance method instead of new BuffDef.
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.GetHealthBarValues
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.AddTimedBuff
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.RemoveBuff
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Info   : Unity Log] Core Module: Borbo.CoreModules.Assets Initialized!
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly: BORBO.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Info   : Unity Log] Core Module: Borbo.CoreModules.StatHooks Initialized!
 [Info   :   BepInEx] Loading [This Loads An Extension For ArtificerExtended That Makes Some Strings Change If You Dont Have BalanceOverhaulRBO Installed 0.0.0]
 [Info   :   BepInEx] Loading [ChensHelpers 1.0.15]
 [Info   :   BepInEx] Loading [ChensMinionRetarget 1.0.7]
@@ -350,14 +492,42 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 
 [Info   : Unity Log] Loaded archived convars.
 [Info   : Unity Log] Could not load config /Config/autoexec.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\autoexec.cfg"
+[Info   :     R2API] Custom Artifact:  added
 [Info   :     R2API] Custom Effect: RiskyRebalanceCommandoNadeOvercookEffect added
+[Info   :     R2API] Custom Item: ITEM_MISSILEMISSILEMISSILE added
+[Info   :     R2API] Custom Item: ITEM_BIRDBAND added
+[Info   :     R2API] Custom Item: ITEM_CHEFITEM added
+[Info   :     R2API] Custom Item: ITEM_FLOWERCROWN added
+[Info   :     R2API] Custom Item: ITEM_FROZENSHELL added
+[Info   :     R2API] Custom Item: ITEM_ECONOMYWEAPON added
+[Info   :     R2API] Custom Item: ITEM_MAGICQUIVER added
+[Info   :     R2API] Custom Item: ITEM_DANGERCRIT added
+[Info   :     R2API] Custom Item: ITEM_GOODEXECUTIONITEM added
+[Info   :     R2API] Custom Item: ITEM_BORBOBARRIERBELT added
+[Info   :     R2API] Custom Item: ITEM_WICKEDBAND added
+[Info   :     R2API] Custom Equipment: EQUIPMENT_GUILLOTINEEQUIPMENT added
+[Info   :     R2API] Custom Equipment: EQUIPMENT_NINJAGEAR added
+[Info   :     R2API] Custom Equipment: EQUIPMENT_TESLAEQUIPMENT added
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.Run.Start
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.Run.BuildDropTable
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.SceneDirector.PopulateScene
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.ShopTerminalBehavior.GenerateNewPickupServer
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.DirectorCore.TrySpawnObject
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.BossGroup.DropRewards
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.PickupPickerController.SetOptionsServer
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.ArenaMissionController.EndRound
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.GlobalEventManager.OnCharacterDeath
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: Xoroshiro128Plus.NextElementUniform
 [Info   :     R2API] Custom Projectile: RiskyRebalanceCommandoNade added
 [Info   : Unity Log] LoadContentPacks() start
 [Info   : Unity Log] Active scene changed from  to loadingbasic
 [Info   : Unity Log] Loaded scene loadingbasic loadSceneMode=2
 [Info   :     R2API] [NetworkCompatibility] Adding to the networkModList : 
 [Info   :     R2API] com.bepis.r2api;3.0.71
+[Info   :     R2API] com.Borbo.ArtifactGesture;1.0.0
 [Info   :     R2API] com.Borbo.ArtificerExtended;3.1.5
+[Info   :     R2API] com.Borbo.BORBO;0.4.11
+[Info   :     R2API] com.Borbo.GreenAlienHead;2.0.4
 [Info   :     R2API] com.Chen.ChensHelpers;1.0.15
 [Info   :     R2API] com.Chen.ChensMinionRetarget;1.0.7
 [Info   :     R2API] com.dan8991iel.LunarCoinShareOnPickup;3.6.1
@@ -375,7 +545,7 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   :DebugToolkit] Loading all vanilla ISC's: 46
 [Debug  :     R2API] Hook added by assembly: DebugToolkit.dll for: RoR2.ClassicStageInfo.Start
 [Info   : Unity Log] LoadContentPacks() end
-[Info   : Unity Log] Game content load completed in 1170ms.
+[Info   : Unity Log] Game content load completed in 1349ms.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.ReturnToBase (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.TravelToEnd (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.WaitAtTop (RoR2.EntityStateConfiguration)) failed: state type is null.
@@ -391,7 +561,7 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/3a421f90-56ed-4531-b380-d9c183f90432.xml
 [Info   : Unity Log] stream.Length=126413
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
-[Info   : Unity Log] stream.Length=163424
+[Info   : Unity Log] stream.Length=161840
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
 [Info   : Unity Log] stream.Length=155187
 [Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: EntityStates.Mage.MageCharacterMain.OnEnter
@@ -404,6 +574,56 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   : Unity Log] Unloaded scene splash
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=Single
-[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (161840 bytes)
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
+[Info   :     R2API] Server Handlers registered
+[Info   :     R2API] Client Handlers registered
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] gridColumns=8,totalElements=11,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
+[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Error  : Unity Log] A connection has already been set as ready. There can only be one.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Could not load config /Config/server_pregame.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\server_pregame.cfg"
+[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
+[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
+[Info   : Unity Log] Received vote from blazingdrummer
+[Info   : Unity Log] Accepting vote from blazingdrummer
+[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
+[Info   : Unity Log] <color=#beeca1><size=15px>A new moon rises...</size></color>
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] BORBO MODIFYING PRINTER STAGES
+[Info   : Unity Log] Active scene changed from  to golemplains2
+[Info   : Unity Log] Loaded scene golemplains2 loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=golemplains2 currentSceneName=golemplains2
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Spending 220 credits on interactables...
+[Info   : Unity Log] MAP_GOLEMPLAINS_TITLE
+[Info   : Unity Log] reorder list
+[Info   : Unity Log] Element counter sdfhfdgh
+[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
+[Info   : Unity Log] Network shutting down...
+[Info   : Unity Log] Server shutting down...
+[Info   : Unity Log] Issued kick message to all remote clients.
+[Info   : Unity Log] Finished waiting for clients to disconnect.
+[Info   : Unity Log] StopHost()
+[Info   : Unity Log] Server shutdown complete.
+[Info   : Unity Log] Unloaded scene golemplains2
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] Setting offline scene to logbook
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] Active scene changed from  to logbook
+[Info   : Unity Log] Loaded scene logbook loadSceneMode=Single
+[Info   : Unity Log] Building category buttons.
+[Info   : Unity Log] Setting offline scene to title
+[Info   : Unity Log] Unloaded scene logbook
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (163425 bytes)
 [Info   : Unity Log] Shutting down Steamworks...
 [Info   : Unity Log] Shut down Steamworks.

@@ -1,0 +1,12 @@
+{
+  "name": "BalanceOverhaulRBO",
+  "version_number": "0.4.25",
+  "website_url": " ",
+  "description": "Overhauls ROR2 gameplay via a massive pass through item balance and related content. BORBO places a far greater emphasis on player defense and combat agency, with less 'autoplay' and a harder but more fair feeling level of difficulty.",
+  "dependencies": [
+    "tristanmcpherson-R2API-3.0.50",
+    "bbepis-BepInExPack-5.4.9",
+    "duckduckgreyduck-GreenAlienHead-2.0.5",
+    "duckduckgreyduck-ArtifactOfTheDrowned-1.1.0"
+  ]
+}
