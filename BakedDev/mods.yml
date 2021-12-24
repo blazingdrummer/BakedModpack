@@ -329,8 +329,8 @@
     major: 1
     minor: 0
     patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TheRealElysium-ScalingBloodShrines\icon.png
+  enabled: false
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\TheRealElysium-ScalingBloodShrines\1.0.1\icon.png
 - manifestVersion: 1
   name: Timmeh42-2-StealthySpawn
   authorName: Timmeh42-2
@@ -665,8 +665,8 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Jarlyk-EquipmentDurability\icon.png
+  enabled: false
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\Jarlyk-EquipmentDurability\1.0.0\icon.png
 - manifestVersion: 1
   name: VarnaScelestus-Ephemeral_Coins
   authorName: VarnaScelestus
@@ -878,4 +878,4 @@
     minor: 4
     patch: 25
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\duckduckgreyduck-BalanceOverhaulRBO\0.4.25\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\duckduckgreyduck-BalanceOverhaulRBO\icon.png

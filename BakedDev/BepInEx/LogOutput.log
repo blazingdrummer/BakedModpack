@@ -24,7 +24,6 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   :LighterPatcher] Collecting methods from: HuntressTweaks
 [Info   :LighterPatcher] Collecting methods from: HuntressFix
 [Info   :LighterPatcher] Collecting methods from: DebugToolkit
-[Info   :LighterPatcher] Collecting methods from: JarlykMods.Durability
 [Info   :LighterPatcher] Collecting methods from: RTAutoSprintEx
 [Info   :LighterPatcher] Collecting methods from: ProperSave
 [Info   :LighterPatcher] Collecting methods from: BazaarPrinter
@@ -38,19 +37,17 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   :LighterPatcher] Collecting methods from: FadeEmptyChests
 [Info   :LighterPatcher] Collecting methods from: IncreaseHuntressRange
 [Info   :LighterPatcher] Collecting methods from: Faster3DPrinters
-[Info   :LighterPatcher] Collecting methods from: ScalingBloodShrines
 [Info   :LighterPatcher] Collecting methods from: WaxQuailMultiJump
 [Info   :LighterPatcher] Collecting methods from: StealthySpawn
 [Info   :LighterPatcher] Collecting methods from: R2API
 [Info   :LighterPatcher] Collecting methods from: EphemeralCoins
 [Info   :LighterPatcher] Collecting methods from: MiniRpcLib
-[Message:LighterPatcher] Found 30 mods with a MMHook dependency.
-[Info   :LighterPatcher] Number of neededtypes for hooks : 447
-[Message:LighterPatcher] LighterhHook has already run for these mods. Using that old file again.
+[Message:LighterPatcher] Found 28 mods with a MMHook dependency.
+[Info   :LighterPatcher] Number of neededtypes for hooks : 441
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 36 plugins to load
+[Info   :   BepInEx] 34 plugins to load
 [Info   :   BepInEx] Loading [R2API 3.0.71]
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.UnitySystemConsoleRedirector.Redirect
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.RoR2Application+<>c.<LoadGameContent>b__61_1
@@ -309,8 +306,6 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Debug  :     R2API] Hook added by assembly: Faster3DPrinters.dll for: RoR2.Stage.Start
 [Debug  :     R2API] Hook added by assembly: Faster3DPrinters.dll for: EntityStates.Duplicator.Duplicating.DropDroplet
 [Debug  :     R2API] Hook added by assembly: Faster3DPrinters.dll for: EntityStates.Duplicator.Duplicating.BeginCooking
-[Info   :   BepInEx] Loading [ScalingBloodShrines 1.0.0]
-[Debug  :     R2API] Hook added by assembly: ScalingBloodShrines.dll for: RoR2.ShrineBloodBehavior.Start
 [Info   :   BepInEx] Loading [WaxQuailMultiJump 1.0.1]
 [Debug  :     R2API] Hook added by assembly: WaxQuailMultiJump.dll for: EntityStates.GenericCharacterMain.ProcessJump
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.GenericCharacterMain.ProcessJump
@@ -344,19 +339,6 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Debug  :     R2API] Hook added by assembly: ShareSuite-R2.dll for: RoR2.GenericPickupController.GrantItem
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.GenericPickupController.GrantItem
 [Debug  :     R2API] Hook added by assembly: ShareSuite-R2.dll for: RoR2.GenericPickupController.GrantEquipment
-[Info   :   BepInEx] Loading [MiniRpcLib 1.1]
-[Info   :MiniRpcLib] Initializing Logger
-[Info   :MiniRpcLib] Initializing MiniRpc
-[Debug  :     R2API] Hook added by assembly: MiniRpcLib.dll for: RoR2.Networking.NetworkMessageHandlerAttribute.CollectHandlers
-[Warning: Unity Log] Network message MsgType.Highest + 22 is unregistered.
-[Info   :   BepInEx] Loading [EquipmentDurability 1.0.0]
-[Debug  :     R2API] Hook added by assembly: JarlykMods.Durability.dll for: RoR2.EquipmentSlot.ExecuteIfReady
-[Debug  :     R2API] Hook added by assembly: JarlykMods.Durability.dll for: RoR2.GenericPickupController.GrantEquipment
-[Debug  :     R2API] Hook added by assembly: JarlykMods.Durability.dll for: RoR2.GenericPickupController.CreatePickup
-[Debug  :     R2API] Hook added by assembly:  for: RoR2.GenericPickupController.CreatePickup
-[Debug  :     R2API] Hook added by assembly: JarlykMods.Durability.dll for: RoR2.PickupDropletController.OnCollisionEnter
-[Debug  :     R2API] Hook added by assembly:  for: RoR2.PickupDropletController.OnCollisionEnter
-[Debug  :     R2API] Hook added by assembly: JarlykMods.Durability.dll for: RoR2.UI.EquipmentIcon.Update
 [Info   :   BepInEx] Loading [RTAutoSprintAddon 1.0.1]
 [Info   :RTAutoSprintAddon] Adding RTAutoSprintEx custom skill/survivor patches: 
 [Info   :RTAutoSprintAddon] ...Artificer Extended.
@@ -453,6 +435,11 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Debug  :     R2API] Hook added by assembly: BetterUI.dll for: RoR2.UI.ContextManager.Awake
 [Debug  :     R2API] Hook added by assembly: BetterUI.dll for: RoR2.GenericPickupController.GetContextString
 [Debug  :     R2API] Hook added by assembly: BetterUI.dll for: RoR2.UI.HUD.Awake
+[Info   :   BepInEx] Loading [MiniRpcLib 1.1]
+[Info   :MiniRpcLib] Initializing Logger
+[Info   :MiniRpcLib] Initializing MiniRpc
+[Debug  :     R2API] Hook added by assembly: MiniRpcLib.dll for: RoR2.Networking.NetworkMessageHandlerAttribute.CollectHandlers
+[Warning: Unity Log] Network message MsgType.Highest + 22 is unregistered.
 [Info   :   BepInEx] Loading [HIFUHuntressTweaks 3.7.4]
 [Debug  :     R2API] Hook added by assembly: HuntressTweaks.dll for: EntityStates.Huntress.HuntressWeapon.FireSeekingArrow.OnEnter
 [Debug  :     R2API] Hook added by assembly: HuntressTweaks.dll for: EntityStates.Huntress.HuntressWeapon.FireFlurrySeekingArrow.OnEnter
@@ -531,7 +518,6 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   :     R2API] com.Chen.ChensHelpers;1.0.15
 [Info   :     R2API] com.Chen.ChensMinionRetarget;1.0.7
 [Info   :     R2API] com.dan8991iel.LunarCoinShareOnPickup;3.6.1
-[Info   :     R2API] com.jarlyk.durability;1.0.0
 [Info   :     R2API] com.Moffein.Frag_Grenade_Cooking;1.1.2
 [Info   :     R2API] com.pixeldesu.pingprovements;1.7.0
 [Info   :     R2API] com.SSM24.FadeEmptyChests;1.0.0
@@ -545,7 +531,7 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   :DebugToolkit] Loading all vanilla ISC's: 46
 [Debug  :     R2API] Hook added by assembly: DebugToolkit.dll for: RoR2.ClassicStageInfo.Start
 [Info   : Unity Log] LoadContentPacks() end
-[Info   : Unity Log] Game content load completed in 1349ms.
+[Info   : Unity Log] Game content load completed in 1343ms.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.ReturnToBase (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.TravelToEnd (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.WaitAtTop (RoR2.EntityStateConfiguration)) failed: state type is null.
@@ -561,7 +547,7 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/3a421f90-56ed-4531-b380-d9c183f90432.xml
 [Info   : Unity Log] stream.Length=126413
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
-[Info   : Unity Log] stream.Length=161840
+[Info   : Unity Log] stream.Length=163425
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
 [Info   : Unity Log] stream.Length=155187
 [Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: EntityStates.Mage.MageCharacterMain.OnEnter
@@ -574,6 +560,18 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   : Unity Log] Unloaded scene splash
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Debug  :     R2API] Hook removed by assembly: AltArtificerExtended.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook removed by assembly: AltArtificerExtended.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook removed by assembly: AltArtificerExtended.dll for: EntityStates.Mage.MageCharacterMain.OnEnter
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (163425 bytes)
+[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: EntityStates.Mage.MageCharacterMain.OnEnter
+[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.SetStateOnHurt.OnTakeDamageServer
+[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.SetStateOnHurt.OnTakeDamageServer
+[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.BuffCatalog.Init
+[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.SetStateOnHurt.OnTakeDamageServer
 [Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
 [Info   :     R2API] Server Handlers registered
 [Info   :     R2API] Client Handlers registered
@@ -595,16 +593,35 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   : Unity Log] <color=#beeca1><size=15px>A new moon rises...</size></color>
 [Info   : Unity Log] Unloaded scene lobby
 [Info   : Unity Log] BORBO MODIFYING PRINTER STAGES
-[Info   : Unity Log] Active scene changed from  to golemplains2
-[Info   : Unity Log] Loaded scene golemplains2 loadSceneMode=Single
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=golemplains2 currentSceneName=golemplains2
+[Info   : Unity Log] Active scene changed from  to blackbeach
+[Info   : Unity Log] Loaded scene blackbeach loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=blackbeach currentSceneName=blackbeach
 [Info   : Unity Log] Client ready.
 [Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] Spending 220 credits on interactables...
-[Info   : Unity Log] MAP_GOLEMPLAINS_TITLE
+[Info   : Unity Log] Spending 180 credits on interactables...
+[Info   : Unity Log] MAP_BLACKBEACH_TITLE
 [Info   : Unity Log] reorder list
 [Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] <color=#beeca1>Unlocked's</color> <nobr><color=#C6ADFA><sprite name="LunarCoin" tint=1>102</color></nobr> vanished into the aether...
 [Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Info   : Unity Log] God mode enabled.
+[Info   : Unity Log] No_enemies set to True
+[Info   : Unity Log] Killed 7 of team Monster.
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Gave 1 96 to blazingdrummer
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Gave 19 to blazingdrummer
+[Info   : Unity Log] 3.65279
+[Info   : Unity Log] 3.65279
+[Info   : Unity Log] 4.194383
+[Info   : Unity Log] 3.65279
+[Info   : Unity Log] 3.65279
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Gave 20 to blazingdrummer
+[Info   : Unity Log] Gave 1 57 to blazingdrummer
+[Info   : Unity Log] Gave 1 63 to blazingdrummer
+[Info   : Unity Log] Gave 1 62 to blazingdrummer
 [Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
 [Info   : Unity Log] Network shutting down...
 [Info   : Unity Log] Server shutting down...
@@ -612,7 +629,7 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   : Unity Log] Finished waiting for clients to disconnect.
 [Info   : Unity Log] StopHost()
 [Info   : Unity Log] Server shutdown complete.
-[Info   : Unity Log] Unloaded scene golemplains2
+[Info   : Unity Log] Unloaded scene blackbeach
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=Single
 [Info   : Unity Log] Setting offline scene to logbook
@@ -624,6 +641,1481 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   : Unity Log] Unloaded scene logbook
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=Single
-[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (163425 bytes)
-[Info   : Unity Log] Shutting down Steamworks...
-[Info   : Unity Log] Shut down Steamworks.
+[Info   : Unity Log] Request to join lobby 109775240996568085 received. Attempting to join lobby.
+[Info   : Unity Log] Steamworks lobby join succeeded. Lobby id = 109775240996568085
+[Info   : Unity Log] Left lobby 109775240996568085.
+[Debug  :     R2API] Hook removed by assembly: AltArtificerExtended.dll for: RoR2.BuffCatalog.Init
+[Debug  :     R2API] Hook removed by assembly: AltArtificerExtended.dll for: RoR2.SetStateOnHurt.OnTakeDamageServer
+[Debug  :     R2API] Hook removed by assembly: AltArtificerExtended.dll for: RoR2.SetStateOnHurt.OnTakeDamageServer
+[Debug  :     R2API] Hook removed by assembly: AltArtificerExtended.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook removed by assembly: AltArtificerExtended.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook removed by assembly: AltArtificerExtended.dll for: RoR2.SetStateOnHurt.OnTakeDamageServer
+[Debug  :     R2API] Hook removed by assembly: AltArtificerExtended.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook removed by assembly: AltArtificerExtended.dll for: EntityStates.Mage.MageCharacterMain.OnEnter
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (156849 bytes)
+[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: EntityStates.Mage.MageCharacterMain.OnEnter
+[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Info   : Unity Log] OnGameRichPresenceJoinRequested connectString="+steam_lobby_join 109775240996568085" steamFriend="gman1234789"
+[Info   : Unity Log] Enqueuing join for lobby 109775240996568085...
+[Info   : Unity Log] Steamworks lobby join succeeded. Lobby id = 109775240996568085
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Steam steamId=76561198217043517 }
+[Info   :     R2API] Client Handlers registered
+[Info   : Unity Log] Initiating connection to server 76561198217043517...
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] gridColumns=8,totalElements=11,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] Press Enter to chat.
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: 0 connectionId: 0 isReady: False channel count: 8
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Error  : Unity Log] A connection has already been set as ready. There can only be one.
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: 0 connectionId: 0 isReady: False channel count: 8
+[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
+[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
+[Info   : Unity Log] NetworkUser(Clone) (RoR2.NetworkUser)
+[Info   : Unity Log] maxRuleCount=11, currentChoiceIndex=2
+[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
+[Info   : Unity Log] <color=#beeca1><size=15px>A new moon rises...</size></color>
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] BORBO MODIFYING PRINTER STAGES
+[Info   : Unity Log] Active scene changed from  to blackbeach
+[Info   : Unity Log] Loaded scene blackbeach loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=blackbeach currentSceneName=blackbeach
+[Info   : Unity Log] Player 0 already added, aborting.
+[Error  : Unity Log] SpawnObject for DebugToolKitComponentsNetworked(Clone) (UnityEngine.GameObject), NetworkServer is not active. Cannot spawn objects without an active server.
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::AddBuff(RoR2.BuffDef)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::AddTimedBuff(RoR2.BuffIndex,System.Single)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::AddBuff(RoR2.BuffDef)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::AddTimedBuff(RoR2.BuffIndex,System.Single)' called on client
+[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::RemoveBuff(RoR2.BuffDef)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::RemoveBuff(RoR2.BuffDef)' called on client
+[Info   : Unity Log] Ping target Chest2(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Large Chest (<nobr><color=#EFEB1A>$76</color></nobr>).</style>
+[Info   : Unity Log] Ping target Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Teleporter.</style>
+[Info   : Unity Log] Ping target ShrineHealing(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of Dio (<nobr><color=#EFEB1A>$416</color></nobr>).</style>
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Info   : Unity Log] Ping target ShrineHealing(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Shrine of Dio (<nobr><color=#EFEB1A>$456</color></nobr>).</style>
+[Info   : Unity Log] Ping target CategoryChestUtility(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Chest - Utility (<nobr><color=#EFEB1A>$45</color></nobr>).</style>
+[Info   : Unity Log] Ping target Chest2(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Large Chest (<nobr><color=#EFEB1A>$76</color></nobr>).</style>
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Chest (<nobr><color=#EFEB1A>$38</color></nobr>).</style>
+[Info   : Unity Log] Ping target CategoryChestHealing(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest - Healing (<nobr><color=#EFEB1A>$45</color></nobr>).</style>
+[Info   : Unity Log] Ping target ShrineChance(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Shrine of Chance (<nobr><color=#EFEB1A>$25</color></nobr>).</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Ping target GenericPickup(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Lunar Coin.</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent><noparse>gman1234789</noparse> picked up <color=#307FFF>Lunar Coin</color></color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#307FFF>Lunar Coin</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlChest2
+[Debug  :Fade Empty Chests] Object name: mdlChest2
+[Info   : Unity Log] Ping target GenericPickup(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Borbo's Band.</style>
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#77FF17>Borbo's Band (1)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#77FF17>Red Whip (1)</color>
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] Ping target GenericPickup(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Personal Shield Generator.</style>
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Personal Shield Generator (1)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Crowbar (1)</color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Did not find target for sync message for 178
+[Debug  :Fade Empty Chests] Object name: mdlChest2
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#77FF17>Bandolier (1)</color><color=#7e91af>, and</color> <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#77FF17>Borbo's Band (2)</color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Debug  :Fade Empty Chests] Object name: mdlCategoryChest
+[Info   : Unity Log] Ping target GenericPickup(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Repulsion Armor Plate.</style>
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Repulsion Armor Plate (1)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Tougher Times (1)</color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlCategoryChest
+[Debug  :Fade Empty Chests] Object name: mdlCategoryChest
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>picked up</color> <color=#77FF17>Lepton Daisy (1)</color> <color=#7e91af>for themselves. </color><color=#f07d6e>(Item Set to NOT be Shared)</color>
+[Info   : Unity Log] <style=cEvent><noparse>gman1234789</noparse> activated the <style=cDeath>Teleporter <sprite name="TP" tint=1></style>.</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Error  : Unity Log] Object TitanRechargeRocksEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Error  : Unity Log] Object TitanRechargeRocksEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Error  : Unity Log] Cannot set the parent of the GameObject 'Sparks,Wiggly' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
+[Error  : Unity Log] Cannot set the parent of the GameObject 'Sparks, Trail' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
+[Error  : Unity Log] Cannot set the parent of the GameObject '3DDebris' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent><noparse>gman1234789</noparse> picked up <color=#307FFF>Lunar Coin</color></color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#307FFF>Lunar Coin</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Ping target GenericPickup(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Razorwire.</style>
+[Info   : Unity Log] <style=cEvent><noparse>gman1234789</noparse> picked up <color=#307FFF>Lunar Coin</color></color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#307FFF>Lunar Coin</color></color>
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#77FF17>Razorwire (1)</color><color=#7e91af>, and</color> <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#77FF17>Old War Stealthkit (1)</color>
+[Info   : Unity Log] Unloaded scene blackbeach
+[Info   : Unity Log] BORBO MODIFYING PRINTER STAGES
+[Info   : Unity Log] Active scene changed from  to goolake
+[Info   : Unity Log] Loaded scene goolake loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=goolake currentSceneName=goolake
+[Info   : Unity Log] Player 0 already added, aborting.
+[Error  : Unity Log] SpawnObject for DebugToolKitComponentsNetworked(Clone) (UnityEngine.GameObject), NetworkServer is not active. Cannot spawn objects without an active server.
+[Info   : Unity Log] <b>[ProperSave]</b> The game saved (Stage: Abandoned Aqueduct)
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::AddTimedBuff(RoR2.BuffIndex,System.Single)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::AddTimedBuff(RoR2.BuffIndex,System.Single)' called on client
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$94</color></nobr>).</style>
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Info   : Unity Log] Ping target ShrineChance(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Shrine of Chance (<nobr><color=#EFEB1A>$64</color></nobr>).</style>
+[Info   : Unity Log] Ping target CategoryChestDamage(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Chest - Damage (<nobr><color=#EFEB1A>$113</color></nobr>).</style>
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$94</color></nobr>).</style>
+[Warning: Unity Log] Did not find target for sync message for 411
+[Info   : Unity Log] Ping target Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Teleporter.</style>
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$94</color></nobr>).</style>
+[Info   : Unity Log] Ping target Duplicator(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: 3D Printer (Rusted Key) (<nobr><color=#FFFFFF>1 Item(s)</color></nobr>).</style>
+[Info   : Unity Log] Ping target CategoryChestUtility(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest - Utility (<nobr><color=#EFEB1A>$113</color></nobr>).</style>
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Bundle of Fireworks (1)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Tri-Tip Dagger (1)</color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlCategoryChest
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Personal Shield Generator (1)</color><color=#7e91af>, and</color> <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Soldier's Syringe (1)</color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#77FF17>Hopoo Feather (1)</color><color=#7e91af>, and</color> <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#77FF17>Wax Quail (1)</color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Info   : Unity Log] Ping target GLPressurePlate 2 (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: ???.</style>
+[Info   : Unity Log] Mesh (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] Mesh (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] Mesh (UnityEngine.GameObject) is missing surface def
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlCategoryChest
+[Debug  :Fade Empty Chests] Object name: mdlCategoryChest
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Armor-Piercing Rounds (1)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Monster Tooth (1)</color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Info   : Unity Log] Mesh (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] Mesh (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] <style=cWorldEvent>An ancient gate begins to shift..</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Info   : Unity Log] OnPlayerEnterEvent called on RingEventController
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterMaster::SpawnBodyHere()' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterMaster::SpawnBodyHere()' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Error  : Unity Log] SpawnObject for PickupDroplet(Clone) (UnityEngine.GameObject), NetworkServer is not active. Cannot spawn objects without an active server.
+[Warning: Unity Log] Object mdlLemurianBruiser lacks ChildLocator entry "MouthMuzzle" to handle Footstep event!
+[Error  : Unity Log] RPC Function RpcGrantAchievement called on client.
+[Error  : Unity Log] SpawnObject for PickupDroplet(Clone) (UnityEngine.GameObject), NetworkServer is not active. Cannot spawn objects without an active server.
+[Warning: Unity Log] Object mdlLemurianBruiser lacks ChildLocator entry "MouthMuzzle" to handle Footstep event!
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#77FF17>Kjaro's Band (1)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#77FF17>Squid Polyp (1)</color>
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#77FF17>Runald's Band (1)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#77FF17>Rose Buckler (1)</color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Info   : Unity Log] Ping target ShrineHealing(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of Dio (<nobr><color=#EFEB1A>$848</color></nobr>).</style>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Info   : Unity Log] <style=cShrine><noparse>gman1234789</noparse> offered to the shrine and was rewarded!</color>
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Monster Tooth (1)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Cautious Slug (1)</color>
+[Info   : Unity Log] <style=cShrine><noparse>gman1234789</noparse> offered to the shrine and gained nothing.</color>
+[Info   : Unity Log] <style=cShrine><noparse>gman1234789</noparse> offered to the shrine and gained nothing.</color>
+[Info   : Unity Log] <style=cShrine><noparse>gman1234789</noparse> offered to the shrine and was rewarded!</color>
+[Info   : Unity Log] Ping target GenericPickup(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Super Massive Leech.</style>
+[Info   : Unity Log] <style=cEvent><noparse>gman1234789</noparse> picked up <color=#FF8000>Super Massive Leech</color></color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] Did not find target for sync message for 705
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Info   : Unity Log] Ping target ExplosivePotDestructibleBody(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsHealth>gman1234789 wants to attack: Pot.</style>
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] Ping target ShrineChance(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Shrine of Chance (<nobr><color=#EFEB1A>$64</color></nobr>).</style>
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Soldier's Syringe (1)</color><color=#7e91af>, and</color> <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Monster Tooth (2)</color>
+[Info   : Unity Log] Ping target MultiShopTerminal(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Multishop Terminal (Medkit) (<nobr><color=#EFEB1A>$94</color></nobr>).</style>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Medkit (1)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Lens-Maker's Glasses (1)</color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Info   : Unity Log] <style=cEvent>You activated the <style=cDeath>Teleporter <sprite name="TP" tint=1></style>.</style>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] Did not find target for sync message for 814
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Did not find target for sync message for 401
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#77FF17>Kjaro's Band (2)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#77FF17>Infusion (1)</color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Info   : Unity Log] Unloaded scene goolake
+[Info   : Unity Log] BORBO MODIFYING PRINTER STAGES
+[Info   : Unity Log] Active scene changed from  to wispgraveyard
+[Info   : Unity Log] Loaded scene wispgraveyard loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=wispgraveyard currentSceneName=wispgraveyard
+[Info   : Unity Log] Player 0 already added, aborting.
+[Error  : Unity Log] SpawnObject for DebugToolKitComponentsNetworked(Clone) (UnityEngine.GameObject), NetworkServer is not active. Cannot spawn objects without an active server.
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::AddTimedBuff(RoR2.BuffIndex,System.Single)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.PickupPickerController::SetAvailable(System.Boolean)' called on client
+[Info   : Unity Log] <b>[ProperSave]</b> The game saved (Stage: Scorched Acres)
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::AddTimedBuff(RoR2.BuffIndex,System.Single)' called on client
+[Info   : Unity Log] Ping target CategoryChestHealing(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest - Healing (<nobr><color=#EFEB1A>$278</color></nobr>).</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Ping target NewtStatue (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Newt Altar (<nobr><color=#C6ADFA> <sprite name="LunarCoin" tint=1>1</color></nobr>).</style>
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Info   : Unity Log] Ping target NewtStatue (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Newt Altar (<nobr><color=#C6ADFA> <sprite name="LunarCoin" tint=1>1</color></nobr>).</style>
+[Info   : Unity Log] Ping target MultiShopTerminal(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Multishop Terminal (Medkit) (<nobr><color=#EFEB1A>$232</color></nobr>).</style>
+[Info   : Unity Log] Ping target CasinoChest(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Adaptive Chest (<nobr><color=#EFEB1A>$464</color></nobr>).</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Focus Crystal (1)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Stun Grenade (1)</color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$232</color></nobr>).</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$232</color></nobr>).</style>
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$232</color></nobr>).</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent><noparse>gman1234789</noparse> picked up <color=#307FFF>Lunar Coin</color></color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#307FFF>Lunar Coin</color></color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Chest (<nobr><color=#EFEB1A>$232</color></nobr>).</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cIsHealing>blazingdrummer wants to move here.</style>
+[Info   : Unity Log] Ping target Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Teleporter.</style>
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Info   : Unity Log] Ping target Chest2(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Large Chest (<nobr><color=#EFEB1A>$464</color></nobr>).</style>
+[Info   : Unity Log] Ping target GenericPickup(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Primordial Cube.</style>
+[Info   : Unity Log] Ping target Scrapper(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Scrapper.</style>
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Info   : Unity Log] Ping target GenericPickup(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Red Whip.</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#77FF17>Red Whip (1)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#77FF17>Leeching Seed (1)</color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Debug  :Fade Empty Chests] Object name: mdlChest2
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>picked up</color> <color=#77FF17>Lepton Daisy (2)</color> <color=#7e91af>for themselves. </color><color=#f07d6e>(Item Set to NOT be Shared)</color>
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] Ping target GenericPickup(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Lens-Maker's Glasses.</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Chest (<nobr><color=#EFEB1A>$232</color></nobr>).</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Bison Steak (1)</color><color=#7e91af>, and</color> <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Lens-Maker's Glasses (1)</color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Info   : Unity Log] Ping target MultiShopEquipmentTerminal(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Multishop Terminal (Sawmerang) (<nobr><color=#EFEB1A>$464</color></nobr>).</style>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Info   : Unity Log] Ping target ShrineHealing(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of Dio (<nobr><color=#EFEB1A>$1710</color></nobr>).</style>
+[Info   : Unity Log] <style=cEvent><noparse>gman1234789</noparse> picked up <color=#307FFF>Lunar Coin</color></color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#307FFF>Lunar Coin</color></color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Bison Steak (2)</color><color=#7e91af>, and</color> <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Lens-Maker's Glasses (2)</color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Backup Magazine (1)</color><color=#7e91af>, and</color> <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Monster Tooth (3)</color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Lens-Maker's Glasses (2)</color><color=#7e91af>, and</color> <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Gasoline (1)</color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Armor-Piercing Rounds (2)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Tri-Tip Dagger (2)</color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning:Fade Empty Chests] Renderers became null, refreshing reference to renderers
+[Debug  :Fade Empty Chests] Object name: mdlCategoryChest
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Cautious Slug (2)</color><color=#7e91af>, and</color> <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Personal Shield Generator (2)</color>
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] Ping target GenericPickup(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Hopoo Feather.</style>
+[Info   : Unity Log] <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#77FF17>Hopoo Feather (1)</color><color=#7e91af>, and</color> <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#77FF17>Wax Quail (1)</color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FF8000>Primordial Cube</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Did not find target for sync message for 1576
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] Did not find target for sync message for 1608
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Did not find target for sync message for 1677
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Info   : Unity Log] <style=cEvent><noparse>gman1234789</noparse> activated the <style=cDeath>Teleporter <sprite name="TP" tint=1></style>.</style>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::ClearTimedBuffs(RoR2.BuffIndex)' called on client
+[Error  : Unity Log] Object ClayBossPreDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Error  : Unity Log] Object ClayBossPreDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Warning: Unity Log] Did not find target for sync message for 1903
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#77FF17>Squid Polyp (2)</color><color=#7e91af>, and</color> <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#77FF17>Ukulele (1)</color>
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Info   : Unity Log] Unloaded scene wispgraveyard
+[Info   : Unity Log] BORBO MODIFYING PRINTER STAGES
+[Info   : Unity Log] Active scene changed from  to rootjungle
+[Info   : Unity Log] Loaded scene rootjungle loadSceneMode=Single
+[Error  : Unity Log] Not allowed to access vertices on mesh 'Combined Mesh (root: scene)' (isReadable is false; Read/Write must be enabled in import settings)
+[Error  : Unity Log] Not allowed to access triangles/indices on mesh 'Combined Mesh (root: scene)' (isReadable is false; Read/Write must be enabled in import settings)
+[Error  : Unity Log] Not allowed to access colors on mesh 'Combined Mesh (root: scene)' (isReadable is false; Read/Write must be enabled in import settings)
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=rootjungle currentSceneName=rootjungle
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] <b>[ProperSave]</b> The game saved (Stage: Sundered Grove)
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::AddTimedBuff(RoR2.BuffIndex,System.Single)' called on client
+[Error  : Unity Log] SpawnObject for DebugToolKitComponentsNetworked(Clone) (UnityEngine.GameObject), NetworkServer is not active. Cannot spawn objects without an active server.
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::AddTimedBuff(RoR2.BuffIndex,System.Single)' called on client
+[Info   : Unity Log] Ping target Duplicator(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: 3D Printer (Rusted Key) (<nobr><color=#FFFFFF>1 Item(s)</color></nobr>).</style>
+[Info   : Unity Log] Ping target ShrineChance(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Shrine of Chance (<nobr><color=#EFEB1A>$383</color></nobr>).</style>
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Info   : Unity Log] Ping target Chest2(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Large Chest (<nobr><color=#EFEB1A>$1129</color></nobr>).</style>
+[Info   : Unity Log] Ping target ShrineChance(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of Chance (<nobr><color=#EFEB1A>$383</color></nobr>).</style>
+[Warning: Unity Log] Object mdlLemurianBruiser lacks ChildLocator entry "" to handle Footstep event!
+[Warning: Unity Log] Object mdlLemurianBruiser lacks ChildLocator entry "MouthMuzzle" to handle Footstep event!
+[Info   : Unity Log] Ping target ShrineHealing(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of Dio (<nobr><color=#EFEB1A>$3425</color></nobr>).</style>
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Info   : Unity Log] Ping target CasinoChest(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Adaptive Chest (<nobr><color=#EFEB1A>$1129</color></nobr>).</style>
+[Info   : Unity Log] Ping target EquipmentBarrel(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Equipment Barrel (<nobr><color=#EFEB1A>$564</color></nobr>).</style>
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent><noparse>gman1234789</noparse> picked up <color=#307FFF>Lunar Coin</color></color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#307FFF>Lunar Coin</color></color>
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Did not find target for sync message for 2143
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::GiveItem(RoR2.ItemDef,System.Int32)' called on client
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Chest (<nobr><color=#EFEB1A>$564</color></nobr>).</style>
+[Info   : Unity Log] <color=#2083fc>blazingdrummer</color> <color=#7e91af>got</color> <color=#FFFFFF>Tri-Tip Dagger (3)</color><color=#7e91af>, and</color> <color=#f23030>gman1234789</color> <color=#7e91af>got</color> <color=#FFFFFF>Bison Steak (1)</color>
+[Warning: Unity Log] Object mdlLemurianBruiser lacks ChildLocator entry "" to handle Footstep event!
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.Inventory::RemoveItem(RoR2.ItemDef,System.Int32)' called on client
+[Info   : Unity Log] <style=cIsHealing>gman1234789 wants to move here.</style>
+[Info   : Unity Log] Ping target ShrineCombat(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>gman1234789 has found: Shrine of Combat.</style>
+[Info   : Unity Log] <style=cShrine><noparse>gman1234789</noparse> has summoned Elder Lemurians to fight.</color>
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Warning: Unity Log] Object mdlLemurianBruiser lacks ChildLocator entry "" to handle Footstep event!
+[Error  : Unity Log] Object TitanRechargeRocksEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Object mdlLemurianBruiser lacks ChildLocator entry "" to handle Footstep event!
+[Warning: Unity Log] Object mdlLemurianBruiser lacks ChildLocator entry "MouthMuzzle" to handle Footstep event!
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cDeath><sprite name="Skull" tint=1> You had a lot more to live for. <sprite name="Skull" tint=1></style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Info   : Unity Log] <style=cDeath><sprite name="Skull" tint=1> <noparse>gman1234789</noparse> dies a slightly embarassing death. <sprite name="Skull" tint=1></style>
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Warning: Unity Log] Kinematic body only supports Speculative Continuous collision detection
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Error  : Unity Log] Cannot set the parent of the GameObject 'Debris' while activating or deactivating the parent GameObject 'TitanRockController(Clone)'.
+[Error  : Unity Log] Cannot set the parent of the GameObject 'Fire' while activating or deactivating the parent GameObject 'TitanRockController(Clone)'.
+[Error  : Unity Log] Cannot set the parent of the GameObject 'Sparks,Wiggly' while activating or deactivating the parent GameObject 'TitanRockController(Clone)'.
+[Info   : Unity Log] Unloaded scene rootjungle
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] 2
+[Info   : Unity Log] gridColumns=8,totalElements=11,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] Press Enter to chat.
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Applying persistent ballot of votes for LocalUser blazingdrummer.
+[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
+[Info   : Unity Log] Network shutting down...
+[Info   : Unity Log] Left lobby 109775240996568085.
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
+[Info   :     R2API] Server Handlers registered
+[Info   :     R2API] Client Handlers registered
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] gridColumns=8,totalElements=11,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
+[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Error  : Unity Log] A connection has already been set as ready. There can only be one.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Could not load config /Config/server_pregame.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\server_pregame.cfg"
+[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
+[Info   : Unity Log] Applying persistent ballot of votes for LocalUser blazingdrummer.
+[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
+[Info   : Unity Log] Received vote from blazingdrummer
+[Info   : Unity Log] Accepting vote from blazingdrummer
+[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (163416 bytes)
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (163435 bytes)
+[Info   : Unity Log] <color=#beeca1><size=15px>A new moon rises...</size></color>
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] BORBO MODIFYING PRINTER STAGES
+[Info   : Unity Log] Active scene changed from  to blackbeach
+[Info   : Unity Log] Loaded scene blackbeach loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=blackbeach currentSceneName=blackbeach
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Spending 180 credits on interactables...
+[Info   : Unity Log] MAP_BLACKBEACH_TITLE
+[Info   : Unity Log] reorder list
+[Info   : Unity Log] <style=cWorldEvent>A blue orb appears..</style>
+[Info   : Unity Log] <color=#beeca1>blazingdrummer's</color> <nobr><color=#C6ADFA><sprite name="LunarCoin" tint=1>6</color></nobr> vanished into the aether...
+[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$25</color></nobr>).</style>
+[Info   : Unity Log] Ping target CategoryChestDamage(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest - Damage (<nobr><color=#EFEB1A>$30</color></nobr>).</style>
+[Info   : Unity Log] <style=cIsHealing>blazingdrummer wants to move here.</style>
+[Info   : Unity Log] <style=cIsHealing>blazingdrummer wants to move here.</style>
+[Info   : Unity Log] God mode enabled.
+[Info   : Unity Log] God mode disabled.
+[Info   : Unity Log] No_enemies set to False
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
+[Info   : Unity Log] Network shutting down...
+[Info   : Unity Log] Server shutting down...
+[Info   : Unity Log] Issued kick message to all remote clients.
+[Info   : Unity Log] Finished waiting for clients to disconnect.
+[Info   : Unity Log] StopHost()
+[Info   : Unity Log] Server shutdown complete.
+[Info   : Unity Log] Unloaded scene blackbeach
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
+[Info   :     R2API] Server Handlers registered
+[Info   :     R2API] Client Handlers registered
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] gridColumns=8,totalElements=11,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
+[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Error  : Unity Log] A connection has already been set as ready. There can only be one.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Could not load config /Config/server_pregame.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\server_pregame.cfg"
+[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
+[Info   : Unity Log] Applying persistent ballot of votes for LocalUser blazingdrummer.
+[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
+[Info   : Unity Log] Received vote from blazingdrummer
+[Info   : Unity Log] Accepting vote from blazingdrummer
+[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
+[Info   : Unity Log] <color=#beeca1><size=15px>A new moon rises...</size></color>
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] BORBO MODIFYING PRINTER STAGES
+[Info   : Unity Log] Active scene changed from  to blackbeach
+[Info   : Unity Log] Loaded scene blackbeach loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=blackbeach currentSceneName=blackbeach
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Spending 180 credits on interactables...
+[Info   : Unity Log] MAP_BLACKBEACH_TITLE
+[Info   : Unity Log] reorder list
+[Info   : Unity Log] Element counter sdfhfdgh
+[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Info   : Unity Log] <style=cShrine>You feel a searing pain. You have gained 27 gold.</color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Ping target EquipmentBarrel(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Equipment Barrel (<nobr><color=#EFEB1A>$25</color></nobr>).</style>
+[Debug  :Fade Empty Chests] Object name: mdlEquipmentBarrel
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Warning:Fade Empty Chests] Setting color failed, refreshing reference to renderers
+[Warning:Fade Empty Chests] GetPropertyBlock failed, refreshing reference to renderers
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FF8000>Forgive Me Please</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$25</color></nobr>).</style>
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Ping target EquipmentBarrel(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Equipment Barrel (<nobr><color=#EFEB1A>$25</color></nobr>).</style>
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$25</color></nobr>).</style>
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Fuel Cell</color></color>
+[Debug  :Fade Empty Chests] Object name: mdlEquipmentBarrel
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Warning:Fade Empty Chests] Renderers became null, refreshing reference to renderers
+[Warning:Fade Empty Chests] Renderers became null, refreshing reference to renderers
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Bison Steak</color></color>
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FF8000>Old Guillotine</color></color>
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (163479 bytes)
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] sdhjfgbhjad
+[Info   : Unity Log] Resetting skill FirePistol
+[Info   : Unity Log] Resetting skill FireFMJ
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlEquipmentBarrel
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Info   : Unity Log] Ping target GenericPickup(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Foreign Fruit.</style>
+[Warning:Fade Empty Chests] Setting color failed, refreshing reference to renderers
+[Warning:Fade Empty Chests] GetPropertyBlock failed, refreshing reference to renderers
+[Info   : Unity Log] Ping target GenericPickup(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Forgive Me Please.</style>
+[Info   : Unity Log] Ping target Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Teleporter.</style>
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Info   : Unity Log] Killing BeetleBody(Clone) (UnityEngine.GameObject) for being out of bounds.
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Ukulele</color></color>
+[Info   : Unity Log] BbRuinTile1_LOD0 (9) (UnityEngine.GameObject) is missing surface def
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] <style=cShrine>You have invited the challenge of the Mountain..</color>
+[Info   : Unity Log] Element counter sdfhfdgh
+[Debug  :Fade Empty Chests] Object name: mdlEquipmentBarrel
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Warning:Fade Empty Chests] Renderers became null, refreshing reference to renderers
+[Warning:Fade Empty Chests] Renderers became null, refreshing reference to renderers
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Info   : Unity Log] sdhjfgbhjad
+[Info   : Unity Log] Resetting skill FirePistol
+[Info   : Unity Log] Resetting skill Barrage
+[Info   : Unity Log] Resetting skill FireFMJ
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlChest2
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Warning:Fade Empty Chests] Setting color failed, refreshing reference to renderers
+[Warning:Fade Empty Chests] GetPropertyBlock failed, refreshing reference to renderers
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You picked up <color=#E7543A>Wake of Vultures</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cIsHealing>blazingdrummer wants to move here.</style>
+[Info   : Unity Log] Ping target Scrapper(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Scrapper.</style>
+[Info   : Unity Log] sdhjfgbhjad
+[Info   : Unity Log] Resetting skill Barrage
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Paul's Goat Hoof</color></color>
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Info   : Unity Log] <style=cEvent>You activated the <style=cDeath>Teleporter <sprite name="TP" tint=1></style>.</style>
+[Info   : Unity Log] <style=cShrine>Let the challenge of the Mountain... begin!</style>
+[Info   : Unity Log] Could not spawn boss - resorting to basic monsters.
+[Info   : Unity Log] Transfered 10.4 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] Transfered 77.6 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] Transfered 187.36 monster credits from Teleporter1(Clone) (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] sdhjfgbhjad
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] sdhjfgbhjad
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Killing WispBody(Clone) (UnityEngine.GameObject) for being out of bounds.
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] sdhjfgbhjad
+[Info   : Unity Log] Resetting skill Barrage
+[Info   : Unity Log] Resetting skill FirePistol
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] sdhjfgbhjad
+[Info   : Unity Log] Resetting skill FireFMJ
+[Info   : Unity Log] Resetting skill FirePistol
+[Info   : Unity Log] <style=cEvent>You picked up <color=#307FFF>Lunar Coin</color></color>
+[Info   : Unity Log] <style=cDeath><sprite name="Skull" tint=1> Your death was extremely painful. <sprite name="Skull" tint=1></style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Unloaded scene blackbeach
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] 2
+[Info   : Unity Log] gridColumns=8,totalElements=11,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Could not load config /Config/server_pregame.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\server_pregame.cfg"
+[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
+[Info   : Unity Log] Applying persistent ballot of votes for LocalUser blazingdrummer.
+[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
+[Info   : Unity Log] Received vote from blazingdrummer
+[Info   : Unity Log] Accepting vote from blazingdrummer
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (163501 bytes)
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (163509 bytes)
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (163505 bytes)
+[Info   : Unity Log] <color=#beeca1><size=15px>A new moon rises...</size></color>
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] BORBO MODIFYING PRINTER STAGES
+[Info   : Unity Log] Active scene changed from  to golemplains
+[Info   : Unity Log] Loaded scene golemplains loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=golemplains currentSceneName=golemplains
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Spending 220 credits on interactables...
+[Info   : Unity Log] MAP_GOLEMPLAINS_TITLE
+[Info   : Unity Log] reorder list
+[Info   : Unity Log] <color=#beeca1>blazingdrummer's</color> <nobr><color=#C6ADFA><sprite name="LunarCoin" tint=1>1</color></nobr> vanished into the aether...
+[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Info   : Unity Log] Ping target Turret1Broken(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Broken Gunner Turret (<nobr><color=#EFEB1A>$35</color></nobr>).</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Ping target CategoryChestHealing(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest - Healing (<nobr><color=#EFEB1A>$30</color></nobr>).</style>
+[Info   : Unity Log] Ping target CategoryChestUtility(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest - Utility (<nobr><color=#EFEB1A>$30</color></nobr>).</style>
+[Info   : Unity Log] Ping target MultiShopTerminal(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Multishop Terminal (Armor-Piercing Rounds) (<nobr><color=#EFEB1A>$25</color></nobr>).</style>
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$25</color></nobr>).</style>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Crowbar</color></color>
+[Info   : Unity Log] Ping target ShrineChance(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of Chance (<nobr><color=#EFEB1A>$17</color></nobr>).</style>
+[Info   : Unity Log] Ping target Scrapper(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Scrapper.</style>
+[Info   : Unity Log] Ping target Scrapper(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Scrapper.</style>
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Info   : Unity Log] <style=cIsHealing>blazingdrummer wants to move here.</style>
+[Info   : Unity Log] <style=cIsHealing>blazingdrummer wants to move here.</style>
+[Info   : Unity Log] Ping target Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Teleporter.</style>
+[Info   : Unity Log] Ping target ShrineChance(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of Chance (<nobr><color=#EFEB1A>$17</color></nobr>).</style>
+[Info   : Unity Log] Ping target ShrineChance(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of Chance (<nobr><color=#EFEB1A>$17</color></nobr>).</style>
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Collision (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] Collision (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] Collision (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] Collision (UnityEngine.GameObject) is missing surface def
+[Debug  :Fade Empty Chests] Object name: mdlChest2
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Bandolier</color></color>
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Debug  :Fade Empty Chests] Object name: mdlCategoryChest
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Leeching Seed</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Monster Tooth</color></color>
+[Debug  :Fade Empty Chests] Object name: mdlCategoryChest
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Ghor's Tome</color></color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Backup Magazine</color></color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Bundle of Fireworks</color></color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Tri-Tip Dagger</color></color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Bustling Fungus</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You activated the <style=cDeath>Teleporter <sprite name="TP" tint=1></style>.</style>
+[Info   : Unity Log] Could not spawn boss - resorting to basic monsters.
+[Info   : Unity Log] Transfered 7.6 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] Transfered 56.4 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] Transfered 103.6 monster credits from Teleporter1(Clone) (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You picked up <color=#307FFF>Lunar Coin</color></color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Rose Buckler</color></color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Crowbar</color>(2)</color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Bundle of Fireworks</color>(2)</color>
+[Info   : Unity Log] Unloaded scene golemplains
+[Info   : Unity Log] BORBO MODIFYING PRINTER STAGES
+[Info   : Unity Log] Active scene changed from  to goolake
+[Info   : Unity Log] Loaded scene goolake loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=goolake currentSceneName=goolake
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Spending 220 credits on interactables...
+[Info   : Unity Log] MAP_GOOLAKE_TITLE
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+AltArtificerExtended.Main.Inventory_SetEquipmentIndex (On.RoR2.Inventory+orig_SetEquipmentIndex orig, RoR2.Inventory self, RoR2.EquipmentIndex newEquipmentIndex) (at <88735b94a4e54c79a3b3c6217d5adde6>:IL_004B)
+DMD<>?-520835840.Hook<RoR2.Inventory::SetEquipmentIndex>?1249215616 (RoR2.Inventory , RoR2.EquipmentIndex ) (at <f51e074f6e9d405eaba5c0624fb244ab>:IL_0014)
+DMD<>?-520835840.Trampoline<RoR2.Inventory::SetEquipmentIndex>?-1995581440 (RoR2.Inventory , RoR2.EquipmentIndex ) (at <bd0e5cee571e48dab02664e262641e99>:IL_0020)
+Borbo.Main.BlacklistEquipmentFromScavengers (On.RoR2.Inventory+orig_SetEquipmentIndex orig, RoR2.Inventory self, RoR2.EquipmentIndex newEquipmentIndex) (at <ee74f0b98014492ea8f8ac09f7e772db>:IL_006F)
+DMD<>?-520835840.Hook<RoR2.Inventory::SetEquipmentIndex>?960457600 (RoR2.Inventory , RoR2.EquipmentIndex ) (at <1d2af495ade7484d940a3412bf8cc5ee>:IL_0014)
+RoR2.Inventory.GiveEquipmentString (System.String equipmentString) (at <da7c19fa62814b28bdb8f3a9223868e1>:IL_001C)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:IL_0011)
+UnityEngine.Events.CachedInvokableCall`1[T].Invoke (System.Object[] args) (at <2cc17dca390941eeb4d7b2ff1f84696a>:IL_0001)
+UnityEngine.Events.UnityEvent.Invoke () (at <2cc17dca390941eeb4d7b2ff1f84696a>:IL_006E)
+RoR2.StartEvent.Start () (at <da7c19fa62814b28bdb8f3a9223868e1>:IL_000F)
+
+[Info   : Unity Log] Element counter sdfhfdgh
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+AltArtificerExtended.Main.Inventory_SetEquipmentIndex (On.RoR2.Inventory+orig_SetEquipmentIndex orig, RoR2.Inventory self, RoR2.EquipmentIndex newEquipmentIndex) (at <88735b94a4e54c79a3b3c6217d5adde6>:IL_004B)
+DMD<>?-520835840.Hook<RoR2.Inventory::SetEquipmentIndex>?1249215616 (RoR2.Inventory , RoR2.EquipmentIndex ) (at <f51e074f6e9d405eaba5c0624fb244ab>:IL_0014)
+DMD<>?-520835840.Trampoline<RoR2.Inventory::SetEquipmentIndex>?-1995581440 (RoR2.Inventory , RoR2.EquipmentIndex ) (at <bd0e5cee571e48dab02664e262641e99>:IL_0020)
+Borbo.Main.BlacklistEquipmentFromScavengers (On.RoR2.Inventory+orig_SetEquipmentIndex orig, RoR2.Inventory self, RoR2.EquipmentIndex newEquipmentIndex) (at <ee74f0b98014492ea8f8ac09f7e772db>:IL_006F)
+DMD<>?-520835840.Hook<RoR2.Inventory::SetEquipmentIndex>?960457600 (RoR2.Inventory , RoR2.EquipmentIndex ) (at <1d2af495ade7484d940a3412bf8cc5ee>:IL_0014)
+RoR2.Inventory.GiveEquipmentString (System.String equipmentString) (at <da7c19fa62814b28bdb8f3a9223868e1>:IL_001C)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <2cc17dca390941eeb4d7b2ff1f84696a>:IL_0011)
+UnityEngine.Events.CachedInvokableCall`1[T].Invoke (System.Object[] args) (at <2cc17dca390941eeb4d7b2ff1f84696a>:IL_0001)
+UnityEngine.Events.UnityEvent.Invoke () (at <2cc17dca390941eeb4d7b2ff1f84696a>:IL_006E)
+RoR2.StartEvent.Start () (at <da7c19fa62814b28bdb8f3a9223868e1>:IL_000F)
+
+[Info   : Unity Log] <b>[ProperSave]</b> The game saved (Stage: Abandoned Aqueduct)
+[Info   : Unity Log] Ping target CategoryChestDamage(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest - Damage (<nobr><color=#EFEB1A>$119</color></nobr>).</style>
+[Info   : Unity Log] Ping target MultiShopTerminal(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Multishop Terminal (Topaz Brooch) (<nobr><color=#EFEB1A>$99</color></nobr>).</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$99</color></nobr>).</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Ping target Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Teleporter.</style>
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Sticky Bomb</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <color=#8296ae>You gave up x1 <color=#FFFFFF>Bustling Fungus</color></color>
+[Info   : Unity Log] <color=#8296ae>You gave up x1 <color=#FFFFFF>Monster Tooth</color></color>
+[Info   : Unity Log] <color=#8296ae>You gave up x1 <color=#FFFFFF>Tri-Tip Dagger</color></color>
+[Info   : Unity Log] <color=#8296ae>You gave up x1 <color=#FFFFFF>Bundle of Fireworks</color></color>
+[Info   : Unity Log] <color=#8296ae>You gave up x1 <color=#FFFFFF>Backup Magazine</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <color=#8296ae>You gave up x1 <color=#FFFFFF>Sticky Bomb</color></color>
+[Info   : Unity Log] <color=#8296ae>You gave up x1 <color=#FFFFFF>Bundle of Fireworks</color></color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Crowbar</color>(3)</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Crowbar</color>(4)</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Crowbar</color>(5)</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Crowbar</color>(6)</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Crowbar</color>(7)</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Crowbar</color>(8)</color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Crowbar</color>(9)</color>
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Crowbar</color>(10)</color>
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Tougher Times</color></color>
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Debug  :Fade Empty Chests] Object name: mdlChest2
+[Info   : Unity Log] <style=cEvent>You picked up <color=#E7543A>The New Lopper</color></color>
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (163531 bytes)
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Element counter sdfhfdgh
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Ping target Duplicator(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: 3D Printer (Medkit) (<nobr><color=#FFFFFF>1 Item(s)</color></nobr>).</style>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Magic Quiver</color></color>
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (163559 bytes)
+[Info   : Unity Log] <style=cShrine>You offer to the shrine, but gain nothing.</color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Sticky Bomb</color></color>
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Armor-Piercing Rounds</color></color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine, but gain nothing.</color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Ping target ShrineChance(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of Chance (<nobr><color=#EFEB1A>$130</color></nobr>).</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You picked up <color=#307FFF>Lunar Coin</color></color>
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Ukulele</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlCategoryChest
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Topaz Brooch</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Crowbar</color>(11)</color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Tri-Tip Dagger</color></color>
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Info   : Unity Log] <style=cEvent>You activated the <style=cDeath>Teleporter <sprite name="TP" tint=1></style>.</style>
+[Info   : Unity Log] Could not spawn boss - resorting to basic monsters.
+[Info   : Unity Log] Transfered 19.2 monster credits from Director (UnityEngine.GameObject) to Director (UnityEngine.GameObject)
+[Info   : Unity Log] Transfered 53.28 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] Transfered 224.912 monster credits from Teleporter1(Clone) (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Error  : Unity Log] Object TitanRechargeRocksEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Error  : Unity Log] Object TitanRechargeRocksEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Error  : Unity Log] Cannot set the parent of the GameObject 'Sparks,Wiggly' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
+[Error  : Unity Log] Cannot set the parent of the GameObject 'Sparks, Trail' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
+[Error  : Unity Log] Cannot set the parent of the GameObject '3DDebris' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Red Whip</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Unloaded scene goolake
+[Info   : Unity Log] BORBO MODIFYING PRINTER STAGES
+[Info   : Unity Log] Active scene changed from  to frozenwall
+[Info   : Unity Log] Loaded scene frozenwall loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=frozenwall currentSceneName=frozenwall
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Spending 280 credits on interactables...
+[Info   : Unity Log] MAP_FROZENWALL_TITLE
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] <b>[ProperSave]</b> The game saved (Stage: Rallypoint Delta)
+[Info   : Unity Log] Ping target Scrapper(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Scrapper.</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Tougher Times</color>(2)</color>
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$242</color></nobr>).</style>
+[Info   : Unity Log] Ping target Scrapper(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Scrapper.</style>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Tougher Times</color>(3)</color>
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Medkit</color></color>
+[Info   : Unity Log] Ping target Scrapper(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Scrapper.</style>
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Warning:Fade Empty Chests] Renderers became null, refreshing reference to renderers
+[Warning:Fade Empty Chests] Renderers became null, refreshing reference to renderers
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$242</color></nobr>).</style>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Death Mark</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Chronobauble</color></color>
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Utility Belt</color></color>
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (163591 bytes)
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Debug  :Fade Empty Chests] Object name: mdlEquipmentBarrel
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Error  : Unity Log] Material doesn't have a color property '_Color'
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FF8000>The Crowdfunder</color></color>
+[Warning:Fade Empty Chests] Setting color failed, refreshing reference to renderers
+[Warning:Fade Empty Chests] GetPropertyBlock failed, refreshing reference to renderers
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Energy Drink</color></color>
+[Info   : Unity Log] Ping target MultiShopTerminal(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Multishop Terminal (Lens-Maker's Glasses) (<nobr><color=#EFEB1A>$242</color></nobr>).</style>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Lens-Maker's Glasses</color></color>
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Ping target Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Teleporter.</style>
+[Debug  :Fade Empty Chests] Object name: mdlBarrel1
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Personal Shield Generator</color></color>
+[Info   : Unity Log] <style=cEvent>You activated the <style=cDeath>Teleporter <sprite name="TP" tint=1></style>.</style>
+[Info   : Unity Log] Could not spawn boss - resorting to basic monsters.
+[Info   : Unity Log] Transfered 4.4 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] Transfered 11.2 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] Transfered 234.4 monster credits from Teleporter1(Clone) (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Element counter sdfhfdgh
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :Fade Empty Chests] Object name: mdlChest1
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Bundle of Fireworks</color></color>
+[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Harvester's Scythe</color></color>
+[Info   : Unity Log] Unloaded scene frozenwall
+[Info   : Unity Log] BORBO MODIFYING PRINTER STAGES
+[Info   : Unity Log] Active scene changed from  to dampcavesimple
+[Info   : Unity Log] Loaded scene dampcavesimple loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=dampcavesimple currentSceneName=dampcavesimple
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Spending 560 credits on interactables...
+[Info   : Unity Log] MAP_DAMPCAVE_TITLE
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Spawn card cscHermitCrab (RoR2.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] Spawn card cscHermitCrab (RoR2.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Element counter sdfhfdgh
+[Info   : Unity Log] Spawn card cscHermitCrab (RoR2.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] Spawn card cscHermitCrab (RoR2.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] Spawn card cscHermitCrab (RoR2.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] Spawn card cscHermitCrab (RoR2.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] <b>[ProperSave]</b> The game saved (Stage: Abyssal Depths)
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$511</color></nobr>).</style>
+[Info   : Unity Log] Ping target Chest2(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Large Chest (<nobr><color=#EFEB1A>$1023</color></nobr>).</style>
+[Info   : Unity Log] Ping target Duplicator(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: 3D Printer (Repulsion Armor Plate) (<nobr><color=#FFFFFF>1 Item(s)</color></nobr>).</style>
+[Info   : Unity Log] Ping target ShrineBoss(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of the Mountain.</style>
+[Info   : Unity Log] Ping target Turret1Broken(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Broken Gunner Turret (<nobr><color=#EFEB1A>$716</color></nobr>).</style>
+[Info   : Unity Log] <style=cDeath><sprite name="Skull" tint=1> Consider lowering the difficulty. <sprite name="Skull" tint=1></style>
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Transfered 25.2 monster credits from Director (UnityEngine.GameObject) to Director (UnityEngine.GameObject)
+[Info   : Unity Log] Unloaded scene dampcavesimple
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] 6
+[Info   : Unity Log] gridColumns=8,totalElements=11,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Could not load config /Config/server_pregame.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\server_pregame.cfg"
+[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
+[Info   : Unity Log] Applying persistent ballot of votes for LocalUser blazingdrummer.
+[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
+[Info   : Unity Log] Received vote from blazingdrummer
+[Info   : Unity Log] Accepting vote from blazingdrummer
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
+[Info   : Unity Log] Network shutting down...
+[Info   : Unity Log] Server shutting down...
+[Info   : Unity Log] Issued kick message to all remote clients.
+[Info   : Unity Log] Finished waiting for clients to disconnect.
+[Info   : Unity Log] StopHost()
+[Info   : Unity Log] Server shutdown complete.
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
