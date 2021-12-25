@@ -11,12 +11,24 @@
 
 # Custom To-Do
 - while `ScalingBloodShrines` is good, blood shrines pose little actual risk to veteran players
-  - randomize and hide the health cost of blood shrines and allow them to kill (inspired by Diluvian)
+  - randomize and hide the health cost of blood shrines and allow them to kill (inspired by `DiluvianDifficulty`)
   - could possibly implement as an artifact instead
 - bring back the multi-shop improvements from `HarbTweaks`
   - consider that it technically does reduce RNG in builds slightly
 - implement `Faster3DPrinters` for Scrappers; ideally would not close the UI every time you pick an item, allowing you to rapidly choose items (might have conflicts/interactions with `BetterUI`)
+- recreate the QOL tweaks in `Raincoat`
+  - allied Malachite patches are a different color
+    - I think he actually used the purple translucent spikes from the Void Fields map?
+  - the label color for Engi turrets is red to make them stand out
+  - Capacitor (probably expand to any damaging equip) won't trigger while in the Bazaar and piss off the shopkeeper while using Gesture of the Drowned
+    - need to make sure that tonic (and any other important ones?) will continue triggering
+    - if GotD is an artifact instead, this probably isn't needed and should maybe be kept as a unique side effect
+- recreate the noise alert before Engi shield drops; might be worth checking the archives for a random copy of `EngiShieldNotification` for somewhere to start
+- bring back items from HarbCrate?
 
 ## Language Improvements
 - create a dynamic system for calculating proc chance **OR** modify the tooltips in `BetterUI` to reflect the changes made by mods
 - use the rewritten descriptions from `BakedLanguageEdits`
+
+# Potential Additions
+- [CloakBuff](https://thunderstore.io/package/DestroyedClone/CloakBuff/)
