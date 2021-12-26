@@ -1,0 +1,10 @@
+{
+  "name": "DuckSurvivorTweaks",
+  "version_number": "2.6.1",
+  "website_url": " ",
+  "description": "Makes Survivors actually Tweaked :)!",
+  "dependencies": [
+    "tristanmcpherson-R2API-3.0.50",
+    "bbepis-BepInExPack-5.4.9"
+  ]
+}

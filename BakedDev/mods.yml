@@ -879,3 +879,70 @@
     patch: 25
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\duckduckgreyduck-BalanceOverhaulRBO\icon.png
+- manifestVersion: 1
+  name: duckduckgreyduck-DuckItemPack
+  authorName: duckduckgreyduck
+  websiteUrl: https://thunderstore.io/package/duckduckgreyduck/DuckItemPack/
+  displayName: DuckItemPack
+  description: More items of assorted varieties! Some ported from
+    BalanceOverhaulRBO, some new, all with no icons or models!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-3.0.43
+    - bbepis-BepInExPack-5.4.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\duckduckgreyduck-DuckItemPack\icon.png
+- manifestVersion: 1
+  name: duckduckgreyduck-DuckSurvivorTweaks
+  authorName: duckduckgreyduck
+  websiteUrl: https://thunderstore.io/package/duckduckgreyduck/DuckSurvivorTweaks/
+  displayName: DuckSurvivorTweaks
+  description: Makes Survivors actually Tweaked :)!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-3.0.50
+    - bbepis-BepInExPack-5.4.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 6
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\duckduckgreyduck-DuckSurvivorTweaks\icon.png
+- manifestVersion: 1
+  name: Griff-Revised_Shield_OSP
+  authorName: Griff
+  websiteUrl: https://thunderstore.io/package/Griff/Revised_Shield_OSP/
+  displayName: Revised_Shield_OSP
+  description: Stops missing shields from removing One Shot Protection.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.30
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Griff-Revised_Shield_OSP\icon.png
