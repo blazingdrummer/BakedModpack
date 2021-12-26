@@ -631,7 +631,7 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   :DebugToolkit] Loading all vanilla ISC's: 46
 [Debug  :     R2API] Hook added by assembly: DebugToolkit.dll for: RoR2.ClassicStageInfo.Start
 [Info   : Unity Log] LoadContentPacks() end
-[Info   : Unity Log] Game content load completed in 1550ms.
+[Info   : Unity Log] Game content load completed in 1329ms.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.ReturnToBase (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.TravelToEnd (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.WaitAtTop (RoR2.EntityStateConfiguration)) failed: state type is null.
@@ -648,17 +648,9 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/3a421f90-56ed-4531-b380-d9c183f90432.xml
 [Info   : Unity Log] stream.Length=126413
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
-[Info   : Unity Log] stream.Length=161920
+[Info   : Unity Log] stream.Length=164758
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
-[Info   : Unity Log] stream.Length=166038
-[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: EntityStates.Mage.MageCharacterMain.OnEnter
-[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.HealthComponent.TakeDamage
-[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.SetStateOnHurt.OnTakeDamageServer
-[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.GlobalEventManager.OnHitEnemy
-[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.HealthComponent.TakeDamage
-[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.SetStateOnHurt.OnTakeDamageServer
-[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.BuffCatalog.Init
-[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.SetStateOnHurt.OnTakeDamageServer
+[Info   : Unity Log] stream.Length=169811
 [Info   : Unity Log] Unloaded scene loadingbasic
 [Info   : Unity Log] Active scene changed from  to splash
 [Info   : Unity Log] Loaded scene splash loadSceneMode=Single
@@ -671,46 +663,17 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   : Unity Log] Active scene changed from  to logbook
 [Info   : Unity Log] Loaded scene logbook loadSceneMode=Single
 [Info   : Unity Log] Building category buttons.
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (169871 bytes)
 [Info   : Unity Log] Setting offline scene to title
 [Info   : Unity Log] Unloaded scene logbook
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=Single
-[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
-[Info   :     R2API] Server Handlers registered
-[Info   :     R2API] Client Handlers registered
+[Info   : Unity Log] Setting offline scene to logbook
 [Info   : Unity Log] Unloaded scene title
-[Info   : Unity Log] Active scene changed from  to lobby
-[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
-[Info   : Unity Log] gridColumns=8,totalElements=11,gridRows=2,maxEntryCount=16
-[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
-[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
-[Error  : Unity Log] A connection has already been set as ready. There can only be one.
-[Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] Could not load config /Config/server_pregame.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\server_pregame.cfg"
-[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
-[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
-[Info   : Unity Log] Received vote from blazingdrummer
-[Info   : Unity Log] Accepting vote from blazingdrummer
-[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (166086 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (166136 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (166184 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (166232 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (166301 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (166356 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (166413 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (166482 bytes)
-[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
-[Info   : Unity Log] Network shutting down...
-[Info   : Unity Log] Server shutting down...
-[Info   : Unity Log] Issued kick message to all remote clients.
-[Info   : Unity Log] Finished waiting for clients to disconnect.
-[Info   : Unity Log] StopHost()
-[Info   : Unity Log] Server shutdown complete.
-[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] Active scene changed from  to logbook
+[Info   : Unity Log] Loaded scene logbook loadSceneMode=Single
+[Info   : Unity Log] Building category buttons.
+[Info   : Unity Log] Setting offline scene to title
+[Info   : Unity Log] Unloaded scene logbook
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=Single
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (166482 bytes)
-[Info   : Unity Log] Shutting down Steamworks...
-[Info   : Unity Log] Shut down Steamworks.

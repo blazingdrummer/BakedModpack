@@ -8,6 +8,7 @@
 - [ ] Greg got `ArtificerExtended` Temperature Drop unlock while hosting but not playing Artificer (I was)
   - unsure if this unlock normally requires you to be playing the character
   - also double-check that this issue isn't noted on the Thunderstore page yet; seem to maybe recall something about it
+- Duck's mods don't support item discovery; could ask him to add it, or write a mod myself to add it to the profile
 
 # Custom To-Do
 - while `ScalingBloodShrines` is good, blood shrines pose little actual risk to veteran players
