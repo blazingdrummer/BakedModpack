@@ -26,10 +26,12 @@
     - if GotD is an artifact instead, this probably isn't needed and should maybe be kept as a unique side effect
 - recreate the noise alert before Engi shield drops; might be worth checking the archives for a random copy of `EngiShieldNotification` for somewhere to start
 - bring back items from HarbCrate?
+- bring back Corpsebloom fix from `GeneralFixes`?
 
 ## Language Improvements
 - create a dynamic system for calculating proc chance **OR** modify the tooltips in `BetterUI` to reflect the changes made by mods
 - use the rewritten descriptions from `BakedLanguageEdits`
+- [Weaken has wrong description in-game according to wiki](https://riskofrain2.fandom.com/wiki/REX#Natural_Toxins)
 
 # Potential Additions
 - [CloakBuff](https://thunderstore.io/package/DestroyedClone/CloakBuff/)
