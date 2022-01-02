@@ -26,11 +26,19 @@
 - recreate the noise alert before Engi shield drops; might be worth checking the archives for a random copy of `EngiShieldNotification` for somewhere to start
 - bring back items from HarbCrate?
 - bring back Corpsebloom fix from `GeneralFixes`?
+- would be cool if keyword descriptions showed up in-game somewhere; maybe next to the description when hovering the ability like in character select
 
 ## Language Improvements
 - create a dynamic system for calculating proc chance **OR** modify the tooltips in `BetterUI` to reflect the changes made by mods
 - use the rewritten descriptions from `BakedLanguageEdits`
+- probably just worth searching the wiki for "correction" keyword
 - [Weaken has wrong description in-game according to wiki](https://riskofrain2.fandom.com/wiki/REX#Natural_Toxins)
+- [Ravenous Bite might also not be "Slayer" since the wiki seems to indicate only a 200% damage increase based on health](https://riskofrain2.fandom.com/wiki/Acrid#Ravenous_Bite)
+- [couple of caveats to 'DIABLO' Strike](https://riskofrain2.fandom.com/wiki/Captain#OGM-72_.27DIABLO.27_Strike)
+- [Orbital Supply Beacon doesn't mention the damage done when landing on an enemy in vanilla](https://riskofrain2.fandom.com/wiki/Captain#Orbital_Supply_Beacon)
+- [Power Mode's slow doesn't match description](https://riskofrain2.fandom.com/wiki/MUL-T#Power_Mode)
+- [Phase Round's damage description is off](https://riskofrain2.fandom.com/wiki/Commando#Phase_Round)
+  - not sure if the math checks out on this?
 
 # Potential Additions
 - [CloakBuff](https://thunderstore.io/package/DestroyedClone/CloakBuff/)
