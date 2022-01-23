@@ -1,5 +1,6 @@
 - might be possible to add animation exceptions to `RTAutoSprintAddon` in order to prevent AA cancelling with characters like Commando or Acrid
-- [ ] tweak/test `ChensMinionRetarget` in combination with `Pingprovements`
+- [x] tweak/test `ChensMinionRetarget` in combination with `Pingprovements`
+  - turns out that the minion focus only lasts as long as the target ping, meaning it needs to be a reasonable length
 - Greg brought up that sharing lunar coins might be affecting the percieved amount of coins available in multiplayer **IF** the drop rate is based on the number of players in-game
   - IIRC the drop rate is not affected, but if more enemies are spawning due to more players, this could be a factor; might be worth looking into
 
@@ -8,7 +9,9 @@
 - [ ] Greg got `ArtificerExtended` Temperature Drop unlock while hosting but not playing Artificer (I was)
   - unsure if this unlock normally requires you to be playing the character
   - also double-check that this issue isn't noted on the Thunderstore page yet; seem to maybe recall something about it
-- Duck's mods don't support item discovery; could ask him to add it, or write a mod myself to add it to the profile
+~~- Duck's mods don't support item discovery; could ask him to add it, or write a mod myself to add it to the profile~~
+  - it seems like item discovery might not trigger when spawning items directly to inventory
+- using Guillotine (equip) on a boss prevents the teleport charge skip and does not drop a boss item
 
 # Custom To-Do
 - while `ScalingBloodShrines` is good, blood shrines pose little actual risk to veteran players
@@ -28,6 +31,8 @@
 - bring back items from HarbCrate?
 - bring back Corpsebloom fix from `GeneralFixes`?
 - would be cool if keyword descriptions showed up in-game somewhere; maybe next to the description when hovering the ability like in character select
+- implement `ShareSuite` behavior to deposit items from scrappers, printers, and cauldrons in singleplayer
+  - `BiggerBazaar` does this already, might be able to copy it
 
 ## Language Improvements
 - create a dynamic system for calculating proc chance **OR** modify the tooltips in `BetterUI` to reflect the changes made by mods

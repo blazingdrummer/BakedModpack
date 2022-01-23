@@ -15,9 +15,9 @@
   versionNumber:
     major: 5
     minor: 4
-    patch: 19
+    patch: 1801
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\bbepis-BepInExPack\5.4.19\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\bbepis-BepInExPack\5.4.1801\icon.png
 - manifestVersion: 1
   name: RiskofThunder-HookGenPatcher
   authorName: RiskofThunder
@@ -306,7 +306,7 @@
   versionNumber:
     major: 2
     minor: 3
-    patch: 1
+    patch: 3
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\XoXFaby-BetterUI\icon.png
 - manifestVersion: 1
@@ -779,7 +779,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 6
+    patch: 8
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\HIFU-HuntressAutoaimFix\icon.png
 - manifestVersion: 1
@@ -802,9 +802,9 @@
   versionNumber:
     major: 3
     minor: 7
-    patch: 4
+    patch: 6
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\HIFU-HIFUHuntressTweaks\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\HIFU-HIFUHuntressTweaks\3.7.6\icon.png
 - manifestVersion: 1
   name: duckduckgreyduck-ArtifactOfTheDrowned
   authorName: duckduckgreyduck

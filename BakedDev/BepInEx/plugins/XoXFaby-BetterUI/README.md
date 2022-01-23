@@ -151,15 +151,22 @@ P = Sprint Related Last
 
 ## Changelog
 
-### v2.3.1
+#### v2.3.3
+ - Change: CommandImprovements: Command window will now resize both horizontally and vertically right away.
+ - Bugfix: (Temporary) Disabled BetterUI command window sorting for command windows that contain both items and equipment. In the future, BetterUI will be able to sort these windows and provide configuration options for their sorting. 
+ - Bugfix: Configuration: Fixed certain config options always resetting to their default value due to a bug in the logic for porting over renamed config options. 
+#### v2.3.2
+ - Addition: CommandImprovements: Command window will now resize if it was going to overflow the screen
+
+#### v2.3.1
  - Bugfix: Fixed error when user attemps to change language
 
-#### v2.3.0
- - Addition: Added API for StatsDisplay to let other mods add their own parameters.
+### v2.3.0
+ - Addition: Added API for StatsDisplay to let other mods add their own parameters
  - Bugfix: Fixed item score config options not loading item names 
- - Localization: Fixed some vanilla buff tooltips.
- - Localization: Fixed some config option verbiage. ( Thank you ethall )
- - Internal: Added ability to change config parameters while keeping user set values. ( Thank you ethall )
+ - Localization: Fixed some vanilla buff tooltips
+ - Localization: Fixed some config option verbiage ( Thank you ethall )
+ - Internal: Added ability to change config parameters while keeping user set values ( Thank you ethall )
 
 
 #### v2.2.0

@@ -503,7 +503,7 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Debug  :     R2API] Hook added by assembly: EphemeralCoins.dll for: RoR2.PurchaseInteraction.ScaleCost
 [Debug  :     R2API] Hook added by assembly: EphemeralCoins.dll for: RoR2.ShopTerminalBehavior.GenerateNewPickupServer
 [Debug  :     R2API] Hook added by assembly: EphemeralCoins.dll for: RoR2.TeleporterInteraction.Start
-[Info   :   BepInEx] Loading [BetterUI 2.3.1.0]
+[Info   :   BepInEx] Loading [BetterUI 2.3.3.0]
 [Debug  :     R2API] Hook added by assembly: 0Harmony.dll for: BepInEx.Configuration.ConfigFile.Reload
 [Debug  :     R2API] Hook added by assembly:  for: BepInEx.Configuration.ConfigFile.Reload
 [Debug  :     R2API] Hook added by assembly: BetterUI.dll for: RoR2.UI.ItemInventoryDisplay.OnInventoryChanged
@@ -631,7 +631,7 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   :DebugToolkit] Loading all vanilla ISC's: 46
 [Debug  :     R2API] Hook added by assembly: DebugToolkit.dll for: RoR2.ClassicStageInfo.Start
 [Info   : Unity Log] LoadContentPacks() end
-[Info   : Unity Log] Game content load completed in 1329ms.
+[Info   : Unity Log] Game content load completed in 2149ms.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.ReturnToBase (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.TravelToEnd (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.WaitAtTop (RoR2.EntityStateConfiguration)) failed: state type is null.
@@ -647,10 +647,13 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   : Unity Log] [RoR2.Loadout+BodyLoadoutManager] Tried to add duplicate node /Loadout/Bodies/MageBody/MageBodyUtilityFamily.
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/3a421f90-56ed-4531-b380-d9c183f90432.xml
 [Info   : Unity Log] stream.Length=126413
+[Info   : Unity Log] Attempting to load user profile /UserProfiles/50fa117c-bcc6-459c-a0ad-c779a6108364.xml
+[Info   : Unity Log] stream.Length=120417
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
-[Info   : Unity Log] stream.Length=164758
+[Info   : Unity Log] stream.Length=168050
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
-[Info   : Unity Log] stream.Length=169811
+[Info   : Unity Log] stream.Length=170365
+[Debug  :     R2API] Hook added by assembly: AltArtificerExtended.dll for: RoR2.HealthComponent.TakeDamage
 [Info   : Unity Log] Unloaded scene loadingbasic
 [Info   : Unity Log] Active scene changed from  to splash
 [Info   : Unity Log] Loaded scene splash loadSceneMode=Single
@@ -658,22 +661,6 @@ File name: 'MonoMod, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null'
 [Info   : Unity Log] Unloaded scene splash
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=Single
-[Info   : Unity Log] Setting offline scene to logbook
-[Info   : Unity Log] Unloaded scene title
-[Info   : Unity Log] Active scene changed from  to logbook
-[Info   : Unity Log] Loaded scene logbook loadSceneMode=Single
-[Info   : Unity Log] Building category buttons.
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (169871 bytes)
-[Info   : Unity Log] Setting offline scene to title
-[Info   : Unity Log] Unloaded scene logbook
-[Info   : Unity Log] Active scene changed from  to title
-[Info   : Unity Log] Loaded scene title loadSceneMode=Single
-[Info   : Unity Log] Setting offline scene to logbook
-[Info   : Unity Log] Unloaded scene title
-[Info   : Unity Log] Active scene changed from  to logbook
-[Info   : Unity Log] Loaded scene logbook loadSceneMode=Single
-[Info   : Unity Log] Building category buttons.
-[Info   : Unity Log] Setting offline scene to title
-[Info   : Unity Log] Unloaded scene logbook
-[Info   : Unity Log] Active scene changed from  to title
-[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (168070 bytes)
+[Info   : Unity Log] Shutting down Steamworks...
+[Info   : Unity Log] Shut down Steamworks.

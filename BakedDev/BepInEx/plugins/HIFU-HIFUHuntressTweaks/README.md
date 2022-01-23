@@ -1,5 +1,7 @@
-A simple mod that tweaks Huntress. There might be some compatibility issues with other mods that change Huntress.
-
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F65KGH9)
+# Modding Server:
+[![discord server](https://i.imgur.com/kym7QnV.png)](https://discord.gg/me7P53smzk)
+click me
 
 3.7.4 Patch Notes
 -
@@ -46,6 +48,3 @@ Special Changes:
 Miscellaneous Changes:
 -
 - Arrow Rain's Description fixed to say 330% damage per second. (Was 225% damage per second in Vanilla)
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F65KGH9)
-[![discord server](https://i.imgur.com/uHUEBpq.png)](https://discord.gg/Z8qB9HNBt3)

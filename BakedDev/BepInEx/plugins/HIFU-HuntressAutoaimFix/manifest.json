@@ -1,6 +1,6 @@
 {
   "name": "HuntressAutoaimFix",
-  "version_number": "1.0.6",
+  "version_number": "1.0.8",
   "website_url": "",
   "description": "Makes Huntress able to target enemies nearest to her crosshair",
   "dependencies": [
