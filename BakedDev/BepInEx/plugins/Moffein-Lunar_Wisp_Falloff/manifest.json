@@ -1,0 +1,10 @@
+{
+  "name": "Lunar_Wisp_Falloff",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Enables damage falloff on Lunar Wisp hitscan attacks. Server-side and Vanilla-Compatible.",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.9",
+    "RiskofThunder-HookGenPatcher-1.2.1"
+  ]
+}

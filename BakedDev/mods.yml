@@ -804,7 +804,7 @@
     minor: 7
     patch: 6
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\HIFU-HIFUHuntressTweaks\3.7.6\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\HIFU-HIFUHuntressTweaks\icon.png
 - manifestVersion: 1
   name: duckduckgreyduck-ArtifactOfTheDrowned
   authorName: duckduckgreyduck
@@ -946,3 +946,72 @@
     patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Griff-Revised_Shield_OSP\icon.png
+- manifestVersion: 1
+  name: DestroyedClone-CloakBuff
+  authorName: DestroyedClone
+  websiteUrl: https://thunderstore.io/package/DestroyedClone/CloakBuff/
+  displayName: CloakBuff
+  description: 1.1.1 Fixes bug with Damage Numbers NRE | Enhances cloak by hiding
+    much more, adjusts autotargeting, and allows Shock attacks to disrupt it!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.50
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\DestroyedClone-CloakBuff\icon.png
+- manifestVersion: 1
+  name: Moffein-Grovetender_Buff
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/Grovetender_Buff/
+  displayName: Grovetender_Buff
+  description: Makes Grovetender Wisps unkillable and disables on-kill effects on
+    them. Can be configured to just disable on-kills.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.52
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Grovetender_Buff\icon.png
+- manifestVersion: 1
+  name: Moffein-Lunar_Wisp_Falloff
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/Lunar_Wisp_Falloff/
+  displayName: Lunar_Wisp_Falloff
+  description: Enables damage falloff on Lunar Wisp hitscan attacks. Server-side
+    and Vanilla-Compatible.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Lunar_Wisp_Falloff\icon.png

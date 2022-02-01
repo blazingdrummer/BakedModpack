@@ -1,0 +1,10 @@
+{
+  "name": "Grovetender_Buff",
+  "version_number": "1.0.1",
+  "website_url": "https://github.com/Moffein/GrovetenderBuff",
+  "description": "Makes Grovetender Wisps unkillable and disables on-kill effects on them. Can be configured to just disable on-kills.",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.9",
+    "tristanmcpherson-R2API-3.0.52"
+  ]
+}
