@@ -305,10 +305,10 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 3
-    patch: 3
+    minor: 4
+    patch: 0
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\XoXFaby-BetterUI\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\XoXFaby-BetterUI\2.4.0\icon.png
 - manifestVersion: 1
   name: TheRealElysium-ScalingBloodShrines
   authorName: TheRealElysium
@@ -795,14 +795,14 @@
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.9
-    - tristanmcpherson-R2API-3.0.52
-    - HIFU-HuntressAutoaimFix-1.0.6
+    - tristanmcpherson-R2API-3.0.71
+    - HIFU-HuntressAutoaimFix-1.0.8
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 3
-    minor: 7
-    patch: 6
+    major: 4
+    minor: 0
+    patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\HIFU-HIFUHuntressTweaks\icon.png
 - manifestVersion: 1

@@ -3,48 +3,52 @@
 [![discord server](https://i.imgur.com/kym7QnV.png)](https://discord.gg/me7P53smzk)
 click me
 
-3.7.4 Patch Notes
+4.0.0 Patch Notes
 -
 - Added Config for:
-- - 360 Degree Sprint
-- Added Based mod dependency
+- - Arrow Rain Damage Coefficient
+- Redone Config
+- Buffs
 
 Passive-ish Changes:
 -
 - 360 Degree Sprint can be enabled in the config
-- Auto-aim should be slightly improved now
+- Slighty improved Auto-Aim
 
 M1 Changes:
 -
-- Strafe Damage increased to 200% per shot. (Was 150% in Vanilla)
-- Flurry Damage increased to 120% per shot. (Was 100% in Vanilla)
-- Flurry's Fire Rate increased to 1 per second (Was ~0.77 per second in Vanilla)
-- Flurry's Proc Coefficient increased to 1.0. (Was 0.7 in Vanilla)
-- Flurry now fires 2 Arrows when not Critting. (Was 3 in Vanilla)
-- Flurry now fires 4 Arrows when Critting. (Was 6 in Vanilla)
+- Strafe Damage Coefficient 150% => **220%**.
+- Flurry Damage Coefficient 100% => **140%**.
+- Flurry's Fire Rate 0.7/s => **1**/s.
+- Flurry's Proc Coefficient 0.7 => **1.0**.
+- Flurry fires 3 => **2** Arrows when not Critting.
+- Flurry fires 6 => **4** Arrows when Critting.
 - ```These changes make Flurry DPS better at ~50% Crit, Flurry combined DPS better at ~56% Crit, Flurry PPS always better and Flurry Proc DPS better at ~67% Crit compared to Strafe.```
 
 M2 Changes:
 -
-- Laser Glaive's Cooldown decreased to 6 seconds (Was 7 seconds in Vanilla)
-- Laser Glaive's Proc Coefficient increased to 1.0. (Was 0.8 in Vanilla)
-- Laser Glaive's Antigravity Strength increased to 66. (Was 30 in Vanilla), scales with Duration
-- Laser Glaive's Duration decreased to 0.8 seconds (Was 1.1 seconds in Vanilla)
+- Laser Glaive's Damage Coefficient 250% => **350%**.
+- Laser Glaive's Damage Coefficient Multiplier per Bounce 10% => **2.5%**.
+- Laser Glaive's Proc Coefficient 0.8 => **1.0**.
+- Laser Glaive's Cooldown 7s => **6**s.
+- Laser Glaive's Duration 1.1s => **0.8**s.
+- Laser Glaive's Antigravity Strength 30 => **66**, scales with Duration.
 
 Utility Changes:
 -
-- Blink's speedCoefficient increased to 17. (Was 14 in Vanilla)
-- Blink's Cooldown decreased to 5 seconds. (Was 7 seconds in Vanilla)
-- Phase Blink's speedCoefficient increased to 18. (Was 15 in Vanilla)
-- Phase Blink's Max Stock decreased to 2. (Was 3 in Vanilla)
-- Phase Blink's Cooldown increased to 2.25 seconds. (Was 2 seconds in Vanilla)
+- Blink's Speed Coefficient 14 => **17**.
+- Blink's Cooldown 7s => **5**s.
+- Phase Blink's Speed Coefficient 15 => **18**.
+- Phase Blink's Max Charges 3 => **2**.
+- Phase Blink's Cooldown 2s => **2.25s**.
 
 Special Changes:
 -
-- Arrow Rain's Proc Coefficient increased to 0.5. (Was 0.2 in Vanilla)
-- Arrow Rain's Cooldown decreased to 9 seconds. (Was 12 seconds in Vanilla)
-- Ballista's Cooldown decreased to 10 seconds. (Was 12 seconds in Vanilla)
+- Arrow Rain's Damage Coefficient 110% => **140%**.
+- Arrow Rain's Proc Coefficient 0.2 => **0.6**.
+- Arrow Rain's Cooldown 12s => **9**s.
+- Ballista's Cooldown 12s => **10**s.
 
 Miscellaneous Changes:
 -
-- Arrow Rain's Description fixed to say 330% damage per second. (Was 225% damage per second in Vanilla)
+- Arrow Rain's DPS in Description fixed.
