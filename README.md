@@ -3,6 +3,7 @@
   - turns out that the minion focus only lasts as long as the target ping, meaning it needs to be a reasonable length
 - Greg brought up that sharing lunar coins might be affecting the percieved amount of coins available in multiplayer **IF** the drop rate is based on the number of players in-game
   - IIRC the drop rate is not affected, but if more enemies are spawning due to more players, this could be a factor; might be worth looking into
+- any way to turn down brightness of Planula in BORBO?
 
 # Potential Bugs
 - [ ] does `ItemExchangeNotifier` work properly with Scrappers? thought I noticed some strange chat formatting
@@ -12,6 +13,9 @@
 ~~- Duck's mods don't support item discovery; could ask him to add it, or write a mod myself to add it to the profile~~
   - it seems like item discovery might not trigger when spawning items directly to inventory
 - using Guillotine (equip) on a boss prevents the teleport charge skip and does not drop a boss item
+- Aurelionite doesn't drop guaranteed Halcyon Seed
+- Enforcer's Heavy Machine Gun ignores screen shake setting
+- one Shrine of Dio is much more expensive than the other
 
 # Custom To-Do
 - while `ScalingBloodShrines` is good, blood shrines pose little actual risk to veteran players
@@ -33,6 +37,9 @@
 - would be cool if keyword descriptions showed up in-game somewhere; maybe next to the description when hovering the ability like in character select
 - implement `ShareSuite` behavior to deposit items from scrappers, printers, and cauldrons in singleplayer
   - `BiggerBazaar` does this already, might be able to copy it
+- optional boss "The Twins" don't seem to scale with level
+- wisps need a slight delay after spawning before firing first shot
+- white cauldron should be white printer
 
 ## Language Improvements
 - create a dynamic system for calculating proc chance **OR** modify the tooltips in `BetterUI` to reflect the changes made by mods
@@ -45,6 +52,7 @@
 - [Power Mode's slow doesn't match description](https://riskofrain2.fandom.com/wiki/MUL-T#Power_Mode)
 - [Phase Round's damage description is off](https://riskofrain2.fandom.com/wiki/Commando#Phase_Round)
   - not sure if the math checks out on this?
+- New Lopper needs a new name XD
 
 # Potential Additions
 - [CloakBuff](https://thunderstore.io/package/DestroyedClone/CloakBuff/)

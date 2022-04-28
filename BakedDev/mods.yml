@@ -308,7 +308,7 @@
     minor: 4
     patch: 0
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\XoXFaby-BetterUI\2.4.0\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\XoXFaby-BetterUI\icon.png
 - manifestVersion: 1
   name: TheRealElysium-ScalingBloodShrines
   authorName: TheRealElysium
@@ -900,8 +900,8 @@
     major: 0
     minor: 1
     patch: 3
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\duckduckgreyduck-DuckItemPack\icon.png
+  enabled: false
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\duckduckgreyduck-DuckItemPack\0.1.3\icon.png
 - manifestVersion: 1
   name: duckduckgreyduck-DuckSurvivorTweaks
   authorName: duckduckgreyduck
@@ -1015,3 +1015,186 @@
     patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Lunar_Wisp_Falloff\icon.png
+- manifestVersion: 1
+  name: Paladin_Alliance-PaladinMod
+  authorName: Paladin_Alliance
+  websiteUrl: https://thunderstore.io/package/Paladin_Alliance/PaladinMod/
+  displayName: PaladinMod
+  description: Adds Paladin, a fully fleshed out custom survivor (models by Zenta
+    and SkeletorChampion).
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.48
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 4
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Paladin_Alliance-PaladinMod\icon.png
+- manifestVersion: 1
+  name: EnforcerGang-Enforcer
+  authorName: EnforcerGang
+  websiteUrl: https://thunderstore.io/package/EnforcerGang/Enforcer/
+  displayName: Enforcer
+  description: Adds the Enforcer from Risk of Rain 1 as a fully fleshed out
+    (cough) playable survivor.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.25
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 2
+    patch: 8
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-Enforcer\icon.png
+- manifestVersion: 1
+  name: nayDPz-Dancer
+  authorName: nayDPz
+  websiteUrl: https://thunderstore.io/package/nayDPz/Dancer/
+  displayName: Dancer
+  description: Adds the Dancer as a playable survivor. DDR pad support coming soon!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.71
+    - RiskofThunder-HookGenPatcher-1.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 9
+    patch: 19
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\nayDPz-Dancer\icon.png
+- manifestVersion: 1
+  name: Gnome-ChefMod
+  authorName: Gnome
+  websiteUrl: https://thunderstore.io/package/Gnome/ChefMod/
+  displayName: ChefMod
+  description: Adds the CHEF robot from RoR1 as a survivor. Multiplayer-compatible!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.52
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 15
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Gnome-ChefMod\icon.png
+- manifestVersion: 1
+  name: EnforcerGang-MinerUnearthed
+  authorName: EnforcerGang
+  websiteUrl: https://thunderstore.io/package/EnforcerGang/MinerUnearthed/
+  displayName: MinerUnearthed
+  description: Adds the Miner from Risk of Rain 1.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.48
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-MinerUnearthed\icon.png
+- manifestVersion: 1
+  name: Moffein-HAND_OVERCLOCKED_BETA
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/HAND_OVERCLOCKED_BETA/
+  displayName: HAND_OVERCLOCKED_BETA
+  description: Beta Release. Adds HAN-D from Risk of Rain 1.
+    Multiplayer-compatible! Fully functional, just needs polish.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.52
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 6
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-HAND_OVERCLOCKED_BETA\icon.png
+- manifestVersion: 1
+  name: duckduckgreyduck-HereticUnchained
+  authorName: duckduckgreyduck
+  websiteUrl: https://thunderstore.io/package/duckduckgreyduck/HereticUnchained/
+  displayName: HereticUnchained
+  description: Introduces The Heretic as an unlockable survivor, whose alt skills
+    can change the skill replacements of the Heresy items themselves! Also
+    includes balance changes.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-3.0.50
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\duckduckgreyduck-HereticUnchained\icon.png
+- manifestVersion: 1
+  name: rob-Direseeker
+  authorName: rob
+  websiteUrl: https://thunderstore.io/package/rob/Direseeker/
+  displayName: Direseeker
+  description: Adds the Direseeker from Risk of Rain 1 as a unique AWU-tier boss
+    to replace the Abyssal Depths legendary chest.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-3.0.13
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\rob-Direseeker\icon.png

@@ -1,0 +1,10 @@
+{
+  "name": "HereticUnchained",
+  "version_number": "1.2.1",
+  "website_url": " ",
+  "description": "Introduces The Heretic as an unlockable survivor, whose alt skills can change the skill replacements of the Heresy items themselves! Also includes balance changes.",
+  "dependencies": [
+    "tristanmcpherson-R2API-3.0.50",
+    "bbepis-BepInExPack-5.3.1"
+  ]
+}
