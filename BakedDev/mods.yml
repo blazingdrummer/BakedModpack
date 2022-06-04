@@ -1227,3 +1227,25 @@
     patch: 2
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-TitanBuff\icon.png
+- manifestVersion: 1
+  name: Risky_Lives-RiskyMod
+  authorName: Risky_Lives
+  websiteUrl: https://thunderstore.io/package/Risky_Lives/RiskyMod/
+  displayName: RiskyMod
+  description: A full game rebalance that aims to bring the game closer to RoR1.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+    - tristanmcpherson-R2API-4.3.21
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 9
+    patch: 4
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\Risky_Lives-RiskyMod\0.9.4\icon.png
