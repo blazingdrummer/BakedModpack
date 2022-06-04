@@ -1,0 +1,9 @@
+{
+  "name": "Aggressive_Imps",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Makes Imps more aggressive. Server-Side and Vanilla-Compatible.",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.9"
+  ]
+}

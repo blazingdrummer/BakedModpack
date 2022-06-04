@@ -1,0 +1,10 @@
+{
+  "name": "Clay_Men",
+  "version_number": "1.4.2",
+  "website_url": "",
+  "description": "Adds the unused Clay Man to spawn pool.",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.1903",
+	"tristanmcpherson-R2API-4.3.5"
+  ]
+}

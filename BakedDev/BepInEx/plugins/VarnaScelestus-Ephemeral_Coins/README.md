@@ -1,31 +1,28 @@
 # Ephemeral Coins
 
-This mod aims to rebalance the Lunar Coin mechanic as a temporary currency, rather than a farmable one, in the hopes of improving not only the balance, but also the general satisfaction involved in acquiring Lunar Coins. Now fully compatible with [ProperSave](https://thunderstore.io/package/KingEnderBrine/ProperSave/)!
+Provides settings to control various aspects relating to Lunar Coins, including an Artifact that replaces them with temporary, per-run fascimiles that do not affect your save file's coin count. Almost all settings are independant and can be used with or without the Artifact.
 
-**All changes are configurable!**
+**All changes are configurable in game with [Risk of Options](https://thunderstore.io/package/Rune580/Risk_Of_Options/)!**
 
-- All Lunar Coins are removed upon starting a run. The amount removed is displayed in chat. [^1]
-- Awards an amount of Lunar Coins to all players after removing all previous coins (default 0).
-- Lunar Coins drop rate changed to 5% / 0.95 falloff.
+- Artifact of the New Moon: Lunar Coins become Ephemeral Coins, a temporary per-run currency.
+	- Config to disable entirely, or 'always on' mode that applies the effect at all times without an Artifact.
+	- Config to begin each run with a set number of Ephemeral Coins (default 0).
+- Lunar Coins drop rate changed to 5% / 0.9 falloff / 0.5% min chance.
 - Lunar Pods made free of cost.
+- The Frog made free of cost, and you only have to pet it once.
 - Bazaar Between Time Lunar Buds cost lowered to 1 coin, and refresh when the Slab (Lunar Reroller) is used, even if already purchased.
 - Bazaar Between Time Lunar Seer cost lowered to 1 coin.
 - Bazaar Between Time Slab (Lunar Reroller) made free of cost. Can only be used once.
 - The chance for a Blue Orb to appear on stage start flattened to 37.5%, instead of decreasing for each visit to BBT.
 
-[^1]: For players who wish to restore their Lunar Coins, it is easily done through editing the "<coins>" tag in the save profile.
-
-You can reach me (Varna) in the [RoR2 modding discord](https://discord.gg/5MbXZvd) with any feedback!
-
 ## Known Issues
 
-- Occasionally, players in a multiplayer lobby do not appear to lose their coins client-side, despite the message in chat. The server still treats them as having 0 coins, however. (possibly ping related, unsure at this time)
+- Lunar Reroller won't let you reroll if you've already bought the entire store, even if the config is set to refresh the lineup.
+- Very little multiplayer testing has been done. Please report any bugs on [Github](https://github.com/VarnaScelestus/RoR2).
 
 ## Todo
 
-- Settings for Newt Altars, possibly a rework to their behavior
-- Brainstorming on what to do with Lunar Coins received from obliterating/beating the game.
-- Automatic lunar coin pickup.
+- Re-implement [ProperSave](https://thunderstore.io/package/KingEnderBrine/ProperSave/) compatibility.
 
 ## Credits
 
@@ -34,6 +31,34 @@ You can reach me (Varna) in the [RoR2 modding discord](https://discord.gg/5MbXZv
 [RoR2 modding discord](https://discord.gg/5MbXZvd) - For help in figuring out the Slab (Lunar Reroller)'s horrible, horrible internal structure, and just being awesome in general!
 
 ## Changelog
+
+2.3.3 - Small fix for [RiskUI](https://thunderstore.io/package/Bubbet/RiskUI/) compatibility.
+
+2.3.2 - Debug additions.
+
+2.3.1 - Bug fix for 'always on' mode not setting up properly, a small tweak to artifact logic that might address [#16](https://github.com/VarnaScelestus/RoR2/issues/16), fix for some NREs from the HUD hook when exiting a run, and a fix for the starting coins message occuring once for each player instead of just once.
+
+2.3.0 - Rewrote networking code for syncing coin counts, and cleaned up code surrounding the artifact (it now enables/disables its functions more like vanilla artifacts do).
+
+2.2.2 - Hopefully the last fix for [Risk of Options](https://thunderstore.io/package/Rune580/Risk_Of_Options/) integration. Minor tweak to try and address multiplayer sync issues.
+
+2.2.1 - Small fix for [Risk of Options](https://thunderstore.io/package/Rune580/Risk_Of_Options/) integration. Yes, again.
+
+2.2.0 - Added config option for 'always on' mode. Minor hook changes to attempt to fix some incompatibility issues. Disabled [ProperSave](https://thunderstore.io/package/KingEnderBrine/ProperSave/) related code due to conceptual issues (see [Issue #8](https://github.com/VarnaScelestus/RoR2/issues/8)).
+
+2.1.0 - Reworked how coins are tracked internally so that each player has their own count (oversight from 2.0.0 that was causing major bugs). Fixed compatibility with [ProperSave](https://thunderstore.io/package/KingEnderBrine/ProperSave/) (I hope) and some errors in how [Risk of Options](https://thunderstore.io/package/Rune580/Risk_Of_Options/) integration was handled.
+
+2.0.1 - Fixed thunderstore issue preventing the assetbundle from being loaded.
+
+2.0.0 - Major codebase refactor. Added Artifact of the New Moon, allowing you to toggle whether to use temporary coins on a per run basis without affecting your save file. Added [Risk of Options](https://thunderstore.io/package/Rune580/Risk_Of_Options/) integration.
+
+1.4.0 - Added THE FROG.
+
+1.3.0 - Added config setting for minimum drop chance.
+
+1.2.2 - Internal cleanup; manifest updates
+
+1.2.1 - Updated to work with SotV expansion
 
 1.2.0 - Improved compatibility with [ProperSave](https://thunderstore.io/package/KingEnderBrine/ProperSave/).
 

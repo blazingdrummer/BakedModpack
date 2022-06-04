@@ -1,8 +1,7 @@
 ## MobileTurretBuff
 Gives Engi's Mobile Turrets extra survivability and range.
 - Mobile Turrets now sprint whenever possible, instead of only sprinting when far away.
-- HP Regen values have been increased from 0.6/0.12 to 2.5/0.5
-- Armor increased 0 -> 12
+- HP Regen values have been increased from 0.6/0.12 to 1/0.2
 - Range increased 25 -> 45
 
 Server-side mod. Only the host needs the mod.
@@ -22,6 +21,21 @@ The config can be modified in /Risk of Rain 2/BepInEx/config/com.Moffein.MobileT
 - Laser Range
 
 ## Changelog
+
+1.1.8
+
+- Hopefully fixed Vanilla compatibility issues.
+
+1.1.7
+
+- Improved range modification code. (Now modifies the EntityStateConfiguration instead of using a hook)
+
+1.1.6
+
+- Updated for DLC update
+- Removed base armor.
+- Reduced health regen from 2.5 -> 1.0
+
 1.1.5
 
 - Swapped dependency to HookGenPatcher.

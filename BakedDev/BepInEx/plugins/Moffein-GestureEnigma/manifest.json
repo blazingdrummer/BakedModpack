@@ -1,0 +1,11 @@
+{
+  "name": "GestureEnigma",
+  "version_number": "1.0.1",
+  "website_url": "https://github.com/Moffein/GestureEnigma",
+  "description": "Changes the downside of Gesture of the Drowned from autofire to Enigma. Server-side and vanilla-compatible!",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.1902",
+	"tristanmcpherson-R2API-4.0.11",
+	"Moffein-EnigmaBlacklist-1.0.3"
+  ]
+}

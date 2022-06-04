@@ -1,10 +1,9 @@
 {
     "name": "DebugToolkit",
-    "version_number": "3.6.1",
+    "version_number": "3.7.1",
     "website_url": "https://github.com/harbingerofme/DebugToolkit",
     "description": "Adds console command for debugging mods.",
-  "dependencies": [
-    "bbepis-BepInExPack-5.4.9",
-    "tristanmcpherson-R2API-3.0.59"
-  ]
+    "dependencies": [
+      "tristanmcpherson-R2API-4.0.11"
+    ]
 }

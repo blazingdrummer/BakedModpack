@@ -1,0 +1,110 @@
+Full list of enemy changes. Some for lore, some for fun, some not too sure.
+
+__Titanic Plains__ 
+No Changes (already has 3 loop enemies)
+
+__Distant Roost__ 
++Loop Vultures
+
+__Snowy Forest__
++Loop TC280
+-Lesser Wisp
+*Changed Greater Wisp to Bighorn Bison
+*Blind Vermin now pre-loop
++Loop Imp
++Loop Imp Overlord 
+
+__Abandoned Aquaduct__
++Increased Interactable Credits by 30.
+*Clay Apothecary now pre-loop.
++Loop Acid Larva
+
+__Wetlands Aspect__
++Loop Mini Mushrum 
++Loop Void Jailer
+
+__Aphelian Sanctuary__
++Loop Elder Lemurian
++Loop Grovetender
+
+__Rallypoint Delta__
+*Changed Clay Dunestrider to Solus Control Unit
++Loop Alloy Vultures
++Loop Void Reavers
+
+__Scorched Acres__
++Clay Apothecary
+*Changed Loop Vulture to Loop Blind Vermin
+
+__Sulfur Pools__
+*Replaced Shrine of Woods and Cleansing Pool with Mountain Shrine
+*Changed Beetle to Acid Larva
+*Changed Beetle Queen to Magma Worm
++Hermit Crabs
++Loop Parent 
++Loop Grandparent
+
+__Abyssal Depths__
++Loop Parent
++Loop Grandparent
++Loop Void Devestator
+
+__Sirens Call__
++Overloading Worm
++Loop Solus Probe
++Loop Void Reaver
+
+__Sundered Grove__
++Increased Interactable Credits by 40.
+*Replaced Stone Titan with Grovetender
++Loop Blind Pest
++Loop Void Jailer
+
+__Sky Meadow__
++Loop Lunar Chimera Exploder
++Loop Lunar Chimera Golem
++Loop Lunar Chimera Wisp
++Loop Void Devestator
+
+__Bulwarks Ambry__
++Clay Apothecary
++Magma Worm
++Grovetender
++Cleansing Pool
++Large Category Chests
+
+
+__Simu Titanic Plains__
++Hermit Crab (w21+)
++Alpha Construct (w21+)
++XI Construct (w21+)
+
+__Simu Abandoned Aquaduct__
++Stone Golem (w31+)
+
+__Simu Aphelian Sanctuary__
++Jellyfish (w21+)
++Elder Lemurian (w31+)
+
+__Simu Rallypoint Delta__
++Overloading Worm
++Alloy Vulture (w21+)
++Solus Control Unit (w41+)
+
+__Simu Abyssal Depths__
++Overloading Worm
++Mini Mushrum (w31+)
++Grovetender (w41+)
+
+__Simu Sky Meadow__
++Overloading Worm
++Brass Contraption (w21+)
++Greater Wisp (w31+)
+
+__Simu Commencement__
++Void Reaver (w31+)
++Void Barnacle (w51+)
++Void Jailer (w51+)
++Void Devestator (w51+)
+
+

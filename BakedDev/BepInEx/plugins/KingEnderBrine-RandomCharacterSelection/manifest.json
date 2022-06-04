@@ -1,0 +1,10 @@
+{
+    "name": "RandomCharacterSelection",
+    "version_number": "1.4.1",
+    "website_url": "https://github.com/KingEnderBrine/-RoR2-RandomCharacterSelection",
+    "description": "Adds buttons to pick a random character and random loadout",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1903",
+	    "RiskofThunder-HookGenPatcher-1.2.3"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "PlayableTemplar",
+    "version_number": "1.1.1",
+    "website_url": "https://github.com/Tymmey/Playable-Templar/",
+    "description": "The most playable-est Clay Templar you've ever seen. Created by Rob, ported by Tymmey.",
+    "dependencies": [
+	"tristanmcpherson-R2API-4.0.11",
+        "bbepis-BepInExPack-5.4.1902"
+    ]
+}

@@ -1,24 +1,18 @@
-# RT AutoSprint Extended 2 | Game ver. 1.1.1.4
+# RT AutoSprint Extended 2 | Game ver. 1.2.3.1
 
 ## [**For custom survivor/skill support, see RTAutoSprintAddon.**](https://thunderstore.io/package/JohnEdwa/RTAutoSprintAddon/)
 
----
 
 ### Latest changes
 
-`2.0.0`  [2021-04-26]
+`2.1.2`
 
-* Complete rewrite of the mod from scratch. Now with possible support for custom survivors, skills and a kind-of-an-API.
-* Custom survivor/skill patch [released as its own addon for compatibility reasons.](https://thunderstore.io/package/JohnEdwa/RTAutoSprintAddon/)
-* [known issue] Artificer flamethrower "hold-to-cast" mode isn't implemented.
-* [known issue] Disabling the mod only on certain survivors isn't possible.
-`2.0.1` Added console logs to the SendMessage receivers.
-`2.0.2` Fixed Toggle Sprint mode skill cancelling.
+* Fixed for patch 1.2.3.1
 
 # Description
 
 Removes the need to manually sprint, instead always sprint when the base game would allow you to. Hold sprint to walk and cancel skills like flamethrower.
-To supplement that, the sprinting crosshair and speedlines are removed, and the FOV and FOV sprint expanding can be edited.
+To supplement that, the sprinting crosshair and speedlines are removed, and the FOV and ~~FOV sprint expanding can be edited.~~
 
 Kudos to Relocity and Thrawnarch for creating the original mod, and Rein, Harb, ThinkInvisible, Twiner son of Twine, and Aaron (among others) from the modding Discord for help.
 
@@ -26,8 +20,7 @@ Kudos to Relocity and Thrawnarch for creating the original mod, and Rein, Harb, 
 
 * Automatically sprints whenever the game would allow you to - including while charging Artificer or Engineer main attacks.
 * Show the correct crosshair while sprinting instead of the useless chevron.
-* Modify the the FOV, sprinting FOV change, and speedline effect in the config.
-* Most of the configuration edits can be dones while the game is running, use the `rt_reload` console command to reload the file.
+* Modify the the FOV, ~~sprinting FOV change~~, and speedline effect in the config.
 
 ### Mod compatibility and "API":
 
@@ -68,16 +61,9 @@ if (BepInEx.Bootstrap.Chainloader.PluginInfos.ContainsKey("com.johnedwa.RTAutoSp
 * `DisabledAutoSprinting: true/[false]`: Disables the autosprinting part of the mod.
 * `DisableVisualChanges: true/[false]`: Disables the FOV/visual modification side of the mod.
 
-### Console commands
-
-* `rt_help`: Prints all the possible commands.
-* `rt_reload`: Reload the RTAutoSprintEx2.cfg configuration file.
-* `rt_sprint_enable true/false`: Enables/Disables the sprinting part of the mod.
-
 ## Known Issues / ToDo
 
-* No ability to disable for individual survivors or skills - yet.
-* Artificer Flamethrower "Hold to Cast" is not implemented.
+* Disabling FOV change while sprinting not implemented. Anyone knows where it's done, do tell.
 
 ## Changelog
 

@@ -1,0 +1,11 @@
+{
+    "name": "WolfoQualityOfLife",
+    "version_number": "2.0.5",
+    "website_url": "",
+    "description": "Overall Quality of Life for the game, fixing up many inconsistencies. A lot of visual tweaks and updates, highly configurable. Main features: Unique Ping icons for everything, more helpfull Buff icons.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.9",
+        "tristanmcpherson-R2API-3.0.59",
+		"RiskofThunder-HookGenPatcher-1.2.1"
+    ]
+}

@@ -1,58 +1,131 @@
-- might be possible to add animation exceptions to `RTAutoSprintAddon` in order to prevent AA cancelling with characters like Commando or Acrid
-- [x] tweak/test `ChensMinionRetarget` in combination with `Pingprovements`
-  - turns out that the minion focus only lasts as long as the target ping, meaning it needs to be a reasonable length
-- Greg brought up that sharing lunar coins might be affecting the percieved amount of coins available in multiplayer **IF** the drop rate is based on the number of players in-game
-  - IIRC the drop rate is not affected, but if more enemies are spawning due to more players, this could be a factor; might be worth looking into
-- any way to turn down brightness of Planula in BORBO?
+pool shows pearl on ping
+should Bandit specials execute?
+Void Reaver secondary gets cancelled by sprint
 
-# Potential Bugs
-- [ ] does `ItemExchangeNotifier` work properly with Scrappers? thought I noticed some strange chat formatting
-- [ ] Greg got `ArtificerExtended` Temperature Drop unlock while hosting but not playing Artificer (I was)
-  - unsure if this unlock normally requires you to be playing the character
-  - also double-check that this issue isn't noted on the Thunderstore page yet; seem to maybe recall something about it
-~~- Duck's mods don't support item discovery; could ask him to add it, or write a mod myself to add it to the profile~~
-  - it seems like item discovery might not trigger when spawning items directly to inventory
-- using Guillotine (equip) on a boss prevents the teleport charge skip and does not drop a boss item
-- Aurelionite doesn't drop guaranteed Halcyon Seed
-- Enforcer's Heavy Machine Gun ignores screen shake setting
-- one Shrine of Dio is much more expensive than the other
+# To-Do
+## Backend
+- [X] add wiki page for `DebugToolKit` macros and uses
+- [CUSTOM] make printer behavior in singleplayer match `ShareSuite`
+  - this will remove the option to print and then use Recycler on the item (or other behaviors), but will make the mechanic more consistent
 
-# Custom To-Do
-- while `ScalingBloodShrines` is good, blood shrines pose little actual risk to veteran players
-  - randomize and hide the health cost of blood shrines and allow them to kill (inspired by `DiluvianDifficulty`)
-  - could possibly implement as an artifact instead
-- bring back the multi-shop improvements from `HarbTweaks`
-  - consider that it technically does reduce RNG in builds slightly
-- implement `Faster3DPrinters` for Scrappers; ideally would not close the UI every time you pick an item, allowing you to rapidly choose items (might have conflicts/interactions with `BetterUI`)
-- recreate the QOL tweaks in `Raincoat`
-  - allied Malachite patches are a different color
-    - I think he actually used the purple translucent spikes from the Void Fields map?
-  - the label color for Engi turrets is red to make them stand out
-  - Capacitor (probably expand to any damaging equip) won't trigger while in the Bazaar and piss off the shopkeeper while using Gesture of the Drowned
-    - need to make sure that tonic (and any other important ones?) will continue triggering
-    - if GotD is an artifact instead, this probably isn't needed and should maybe be kept as a unique side effect
-- recreate the noise alert before Engi shield drops; might be worth checking the archives for a random copy of `EngiShieldNotification` for somewhere to start
-- bring back items from HarbCrate?
-- bring back Corpsebloom fix from `GeneralFixes`?
-- would be cool if keyword descriptions showed up in-game somewhere; maybe next to the description when hovering the ability like in character select
-- implement `ShareSuite` behavior to deposit items from scrappers, printers, and cauldrons in singleplayer
-  - `BiggerBazaar` does this already, might be able to copy it
-- optional boss "The Twins" don't seem to scale with level
-- wisps need a slight delay after spawning before firing first shot
-- white cauldron should be white printer
+## UI
+- `BetterUI`
+  - [?] could potentially reimplement item counters, would need to individually assign a value to each item
+  - [?] should I attempt to remove the menu button?
+  - [?] buff tooltips are hard coded, otherwise appear blank
+    - `WolfoQoL` additional buffs do not have descriptions either
+- `Pingprovements`
+  - [ ] does pinging a "hidden" item (ie `BiggerBazaar`) show different information to clients and hosts
+- `WolfoQualityOfLife`
+  - [?] corrects a ton of the wrong descriptions and adds some missing ones; be sure to check against this when making language edits
+- [CUSTOM] find a way to apply `Pingprovements` colors to scanners
+  - uses "game-defined tier color"
+- `HuntressBuffULTIMATE`
+  - [HACK] hardcodes Energy Drink description incorrectly; doesn't match with BetterUI item stacking (which is also hardcoded)
+    - potential solutions:
+      - create a custom version that doesn't edit Energy Drink (and doesn't have a stupid name)
+        - if AutoSprint has custom dependencies on this mod, that would break things
+      - override the item description with a custom language mod and a soft dependency
+        - might need to do this anyways with other mods that make language edits at runtime
 
-## Language Improvements
-- create a dynamic system for calculating proc chance **OR** modify the tooltips in `BetterUI` to reflect the changes made by mods
-- use the rewritten descriptions from `BakedLanguageEdits`
-- probably just worth searching the wiki for "correction" keyword
-- [Weaken has wrong description in-game according to wiki](https://riskofrain2.fandom.com/wiki/REX#Natural_Toxins)
-- [Ravenous Bite might also not be "Slayer" since the wiki seems to indicate only a 200% damage increase based on health](https://riskofrain2.fandom.com/wiki/Acrid#Ravenous_Bite)
-- [couple of caveats to 'DIABLO' Strike](https://riskofrain2.fandom.com/wiki/Captain#OGM-72_.27DIABLO.27_Strike)
-- [Orbital Supply Beacon doesn't mention the damage done when landing on an enemy in vanilla](https://riskofrain2.fandom.com/wiki/Captain#Orbital_Supply_Beacon)
-- [Power Mode's slow doesn't match description](https://riskofrain2.fandom.com/wiki/MUL-T#Power_Mode)
-- [Phase Round's damage description is off](https://riskofrain2.fandom.com/wiki/Commando#Phase_Round)
-  - not sure if the math checks out on this?
-- New Lopper needs a new name XD
+## Gameplay
+- `ChensMinionRetarget`
+  - [CUSTOM] doesn't seem to have any effect on minion targeting at all; might be worth creating a more brute-force version like old `AllyPing`
+- `EphemeralCoins`
+  - [BUG] currently breaks when loading with `ProperSave`; coin count is shown as 0 at all times, and profile coins are used instead
+    - https://github.com/VarnaScelestus/RoR2/issues/8
+    - could go back to modifying profile?
 
-# Potential Additions
-- [CloakBuff](https://thunderstore.io/package/DestroyedClone/CloakBuff/)
+## Balance
+- `WolfoQualityOfLife`
+  - [ ] should there be 3 lunar seers?
+    - doesn't result in duplicates, gives full control of next stage vs 2/3 chance, conflict still unknown
+  - [?] changes many abilities to no longer disable Red Whip; should I document this on the wiki?
+- [ ] should I change eclipse levels like GeneralFixes?
+- [ ] should red-to-white cauldron only give 3 whites?
+- `GestureEnigma`
+  - [ ] should Gesture autofire?
+  - [ ] does this mod change the description accordingly?
+
+- RevisedShieldOSP (https://thunderstore.io/package/VarnaScelestus/Enhanced_OSP/ possible alternative)
+- other Wolfo mods
+
+## Potential Additions
+- BiggerBazaar
+- BazaarPrinter
+- InstantTeleporter
+  - [ ] need a solution that keeps the timer honest, but also doesn't make Focused Convergence useless
+- https://thunderstore.io/package/Moffein/Clay_Men/
+- artificer, huntress tweaks
+- CloakBuff
+- alternate elites
+- Direseeker
+  - would like to see a third optional boss for mushroom map to make behavior consistent
+- alternate survivors
+  - lesser Heretic/HereticUnchained?
+  - Paladin
+    - https://thunderstore.io/package/Moffein/PaladinHealthTweak/
+  - Enforcer
+  - Dancer
+  - Miner
+  - Han-D
+- ~~ScalingBloodShrines~~
+- GrovetenderBuff (deprecated)
+
+# Mechanics I Want To Change
+- [CUSTOM] asynchronous Aquaduct buttons
+- [CUSTOM] two question marks or duplicate item in shops
+- [X] Gesture behavior
+- [CUSTOM] impact nades
+- [?] other behavior from HarbTweaks
+- [?] viable Tonic build
+  - reduce CD?
+
+# New Content
+- Shrine of Randomization
+  - could potentially use the shrine of order model with a shader applied, might be easier
+
+# Custom Event Logging
+- data
+  - stage switches, stage count
+  - lunar coins gained/spent
+  - item gained, rarity
+  - game time @ each event
+  - player/monster level at stage start
+- would be ideal if data was parsable for getting averages
+
+# Survivors of the Void Changes
+https://riskofrain2.fandom.com/wiki/Survivors_of_the_Void_Update
+
+- Eclipse is available in multiplayer
+- Void Fields
+  - timer doesn't pause
+  - cell vents drop a Void Potential
+  - DoT scales with level and is no longer affected by damage reduction or dodge chance
+    - correction: appears that the damage is actually 2.5% of current health/s
+- Acrid
+  - animation cancel removed; sprint now starts next attack in the chain
+    - [ ] this may have consequences with autosprint
+  - jumps no longer collide with enemies, meaning you can't hit airborne stuff with them
+- Artificer
+  - secondaries are no longer hold-to-charge
+  - flamethrower damage-per-tick buffed
+    - [ ] tooltip apparently still incorrect
+    - scales the number of damage ticks with attack speed; probably affects total damage done, meaning the tooltip might never be accurate?
+- Captain
+  - DIABLO can damage allies
+- Commando
+  - [ ] Suppresive Fire apparently has a recast?
+- Burn Damage
+  - max damage-per-tick based on max health (unchanged); however, no longer duration-based but based on a total damage pool; means higher health pools no longer take more total damage
+  - ignite condition added and clarified; total damage pool is equal to 50% of the impact damage
+- chest spawns
+  - "large variants of damage, healing, and utility chests"
+- cleansing pools are more common
+- lobbies remember the last played character instead of defaulting to Commando
+  - [ ] could have adverse effects with custom characters
+- some item tooltips have been updated
+  - [ ] interstellar desk plant 5m base radius is "still incorrect"
+- Brittle Crown refunds lost money upon using a Shrine of Blood or a self-damaging skill
+- Simulacrum
+  - [ ] bugged; scavenger augment drops a lunar, not a red

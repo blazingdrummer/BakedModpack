@@ -40,20 +40,56 @@ Direseeker is a massive Elder Lemurian with currently a new extremely powerful f
 ## Known Issues
 - Plague mask isn't green
 - timesweeper doesn't have enough time to implement new skins that we already have modeled
+- minecraft pickaxes missing
 
 ## Credits
-Gnome - Made the original Miner mod, a fantastic base to work off of
-fuu - Made the Miner model
-rob - coding, rewrite, polish
-TheTimeSweeper - coding, adrenaline flame particles, various other help, maintaining
-PapaZach - Skill icons
-Jot - CSS animation
-redacted - Grand Mastery skin
-bruh - Swag model
-Neik - Blacksmith concept
-Ruxbieno - Direseeker logbook entry
+Gnome - Made the original Miner mod, a fantastic base to work off of  
+fuu - Made the Miner model  
+rob - coding, rewrite, polish  
+TheTimeSweeper - coding, adrenaline flame particles, various other help, maintaining  
+PapaZach - Skill icons  
+Jot - CSS animation  
+redacted - Grand Mastery skin  
+bruh - Swag model  
+Neik - Blacksmith concept  
+Ruxbieno - Direseeker logbook entry  
+Moffein - helped fix for CUM2  
 
 ## Changelog
+
+`1.6.9`
+- nice
+- fixed bug with r2api update (thanks to Moffein for the help)
+- fixed direseeker boss and survivors' skills
+- added a few void item displays
+
+`1.6.8`
+- fixed me uploading the wrong file for the last 2 versions
+
+`1.6.7`
+- made grandmastery skin achievable on eclipse
+- fixed missing gouge icon
+- fixed me lying about the gold rush icon last time
+- made hithop scale with attack speed so you don't uncontrollably float anymore
+- slight buff to Crush, it was under in dps when gouge's gouge was taken into account
+
+`1.6.6`
+- added new icon for Gold Rush passive
+- fixed error spam about items when miner is installed
+
+`1.6.5`
+- fixed special using up all stacks
+- fixed emission on materials whitewashing him
+- added weakpoint for snopers to hit
+- item displays weren't removed after all guau
+
+`1.6.4`
+- fixed for The Second CUMming
+- sounds had to be redone. let me know if they're too loud/quiet/missing anywhere
+- tweaked m1 anims again
+- added impact sound to Crush m1
+- tweaked menu sound to actually kinda be in timing now
+
 `1.6.3`
 - fixed unlockableapi
 

@@ -1,0 +1,10 @@
+{
+  "name": "HuntressBuffULTIMATE",
+  "version_number": "1.1.0",
+  "website_url": "https://plumicorn.itch.io/superbug",
+  "description": "The ULTIMATE buff to Huntress! Extra config!",
+  "dependencies": [
+    "tristanmcpherson-R2API-3.0.59",
+    "bbepis-BepInExPack-5.4.9"
+  ]
+}

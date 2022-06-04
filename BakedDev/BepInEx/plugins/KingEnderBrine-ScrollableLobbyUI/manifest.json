@@ -1,0 +1,11 @@
+{
+  "namespace": "KingEnderBrine",
+  "name": "ScrollableLobbyUI",
+  "description": "Adds scrolling to lobby UI (skills, loadout, character select, difficulty)",
+  "version_number": "1.7.5",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.9",
+    "RiskofThunder-HookGenPatcher-1.2.1"
+  ],
+  "website_url": "https://github.com/KingEnderBrine/-RoR2-ScrollableLobbyUI"
+}

@@ -52,7 +52,7 @@ bruh - Drip skin
 SalvadorBunny - Minecraft skin  
 Jame - Made the original concept, lore  
 redacted - Writing  
-TheTimesweeper - Helped with sword smears, Cooding, animation  
+TheTimesweeper - Helped with sword smears, maintaining  
 KomradeSpectre - Helped get the Torpor debuff visuals working  
 Destructor - Mod icon  
 Dragonyck - Made the awesome Dark Souls skin pack (rip) that forced me to add a framework for custom skin VFX.  
@@ -134,6 +134,36 @@ mySkinDef.projectileGhostReplacements = new SkinDef.ProjectileGhostReplacement[]
 ```
 
 ## Changelog
+
+`1.5.10`
+ - moved unlockable code to r2api, fixing achievement issue with recent update 
+
+`1.5.9`
+- fixed m1 not working with shuriken properly
+- improvements to m2: made hitbox last the whole movement, extended visuals to better communicate hitbox size
+- fixed skill selections not being remembered. excuse me for the "new" highlights
+
+`1.5.8`
+- grandmastery skin now achievable in eclipse
+- fixed drip skin sounds being too quiet
+- fixed achievements hidden in logbook
+- fixed missing buff icons
+
+`1.5.7`
+- returned item displays, may need fixing, not including SotV content
+- potential fix for void dios bug
+
+`1.5.6`
+- fix sounds being too quiet (thanks Michaell for testing)
+- let me know if any are too loud now or still too quiet
+- man fuck sounds
+
+`1.5.5`
+- fixed for GUPdate
+- adjusted camera logic. let me know if something looks off on his skills and emotes
+- fixed giant burning and poison projectiles
+- had to redo sounds. let me know if some sounds are too loud/quiet/missing
+
 `1.5.4`
 - Deprecated Aetherium item displays, but in a good way. Komrade's added the displays on his end. Say thank you!
 - Grandmastery skills no longer require starstorm to be installed if they've been unlocked. 
@@ -161,7 +191,7 @@ mySkinDef.projectileGhostReplacements = new SkinDef.ProjectileGhostReplacement[]
 `1.5.0`
 - Back under a new team account :O.
 - Thanks for everything rob ur dick is _this big_ and I said that's disgusting so I'm making a call out post on my twitter dot com
-- Huge updates to Mastery (Lunar), GrandMastery (Sovereign), and Corruption skins. (thanks skeletor the models are sexy)
+- Huge updates to Mastery (Lunar), GrandMastery (Sovereign), and Corruption skins. (thanks SkeletorChampion the models are sexy)
 - Tweaks to Paladin's base model and aphelian skin
 - New Specter skin in cursed config
 - Tweaks to animations: Idle, walkF, menuIdle, menuIdlein

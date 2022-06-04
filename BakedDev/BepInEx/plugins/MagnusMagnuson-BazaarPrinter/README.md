@@ -1,6 +1,6 @@
 # BazaarPrinters
 
-[Host only]
+[Host only/Server-side]
 
 This mod adds 3D Printers to the bazaar, because I guess people keep asking for it.
 **If you use BiggerBazaar, make sure to use version 1.7.1 or higher.**
@@ -30,6 +30,7 @@ If you want to change the config
 ![contact](https://i.imgur.com/gPBrPrQ.png)
 
 ## Changelog
+- 0.3.0 Update for recent patch
 - 0.2.4 Changed a hook entry point to avoid false reports
 - 0.2.3 Added Network Compatibility Level
 - 0.2.2 Re-added boss printers per request.

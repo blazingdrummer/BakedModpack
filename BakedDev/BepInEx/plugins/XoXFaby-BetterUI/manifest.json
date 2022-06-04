@@ -1,10 +1,10 @@
-﻿{
+{
+  "namespace": "XoXFaby",
   "name": "BetterUI",
-  "version_number": "2.4.0",
-  "website_url": "https://github.com/xoxfaby/BetterUI",
-  "description": "Now with better buff tooltips! Various UI improvements like ordered items with multiple ways of sorting, DPSMeter, Item Counters, Skill/Equipment/Item Information, Command/Scrapper counters and other improvements, customizable StatsDisplay, and much more. ",
+  "description": "Now with ItemStats! Various UI improvements like ordered items with multiple ways of sorting, DPSMeter, Item Counters, Skill/Equipment/Item Information, Command/Scrapper counters and other improvements, customizable StatsDisplay, and much more.",
+  "version_number": "2.6.1",
   "dependencies": [
-    "bbepis-BepInExPack-5.4.9"
+    "bbepis-BepInExPack-5.4.19"
   ],
-  "AuthorName": "XoXFaby"
+  "website_url": "https://github.com/xoxfaby/BetterUI"
 }

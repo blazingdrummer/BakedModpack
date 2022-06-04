@@ -1,6 +1,6 @@
 # BiggerBazaar
 
-[Host only]
+[Host only/Server-side]
 
 This mod expands the bazaar with items to purchase. Use money or alternatively lunar coins to purchase items. 
 
@@ -9,20 +9,19 @@ This mod expands the bazaar with items to purchase. Use money or alternatively l
 
 ## Recent feature
 
-- Compatibility with [ForesightArtifact](https://thunderstore.io/package/SpacePotato/ForesightArtifact/). 
-- Now all tiers and equipment can spawn if configured. Config file is reorganized which probably reset your configs (sorry). Old config should be at the bottom of the file.
-- Interoperability with [ItemDropList](https://thunderstore.io/package/Phedg1Studios/ItemDropList/). Only allows the selected items in the shop.
+-
+
 
 ## Features
 
- - 6 random items are available for purchase
+ - up to 6 random items are available for purchase
 	 - Base cost and rarity for each tier can be adjusted in the config file
 	 - Cost scales with difficulty (if using money)
 	 - Limit how many times each item can be bought by tier
 	 - Restrict the amount of total purchases and/or purchases per tier per player
  - Use money you have left at the end of the stage... 
 	 - When you take the bazaar portal, your money is not converted into experience points. Instead you keep it to buy items at the bazaar. Money left when you then leave the bazaar is converted into experience points
- - or use Lunar Coins. Consider trying it out with [TemporaryLunarCoins](https://thunderstore.io/package/MagnusMagnuson/TemporaryLunarCoins/)
+ - or use Lunar Coins. Consider trying it out with [~~TemporaryLunarCoins~~](https://thunderstore.io/package/MagnusMagnuson/TemporaryLunarCoins/) [Ephemeral Coins](https://thunderstore.io/package/VarnaScelestus/Ephemeral_Coins/)
  	- Cost can be configured and does not increase
  	- Cost of vanilla shops can be adjusted
  - You can exchange Lunar Coins for money at the friendly Shopkeeper
@@ -30,6 +29,9 @@ This mod expands the bazaar with items to purchase. Use money or alternatively l
 	 - You can limit the amount of exchanges, completely remove them or have infinite
  - Only the host is required to have the mod installed
  - If you're using ShareSuite, you can choose in the config whether bought items are shared or not by setting "ShareSuiteItemSharingEnabled" to true or false. Automatically turned on when sharing money.
+ - Compatibility with [ForesightArtifact](https://thunderstore.io/package/SpacePotato/ForesightArtifact/). 
+ - Now all tiers and equipment can spawn if configured. Config file is reorganized which probably reset your configs (sorry). Old config should be at the bottom of the file.
+ - Interoperability with [ItemDropList](https://thunderstore.io/package/Phedg1Studios/ItemDropList/). Only allows the selected items in the shop.
 
 
 ## Installation
@@ -51,6 +53,13 @@ If you want to change the config
 ![contact](https://i.imgur.com/gPBrPrQ.png)
 
 ## Changelog
+- 1.13.6 Fix for update.
+- 1.13.5 Compatibility withg BetterUI. 
+- 1.13.4 Added option to limit the amount of bazaar chests to spawn
+- 1.13.3 ShareSuite money sharing fix (I hope)
+- 1.13.2 Edge case ShareSuite compatibility fix. You probably never even had this issue. 
+- 1.13.1 ShareSuite compatibility fix 
+- 1.13.0 Update for recent patch.
 - 1.12.13 Back to using R2API with Hookgen, since standalone MMHOOK has no more active functionality
 - 1.12.12 Now only depends on the standalone MMHOOK and no longer R2API/ET.
 - 1.12.11 Added version for Enigmatic Thunder (found in the corresponding zip). Only use one one
