@@ -1,0 +1,10 @@
+{
+    "name": "GoldenCoastPlus",
+    "version_number": "0.6.3",
+    "website_url": "",
+    "description": "Adds some things to Golden Coast in the hopes of making it a more interesting and fun environment to visit.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1801",
+        "tristanmcpherson-R2API-4.3.5"
+    ]
+}

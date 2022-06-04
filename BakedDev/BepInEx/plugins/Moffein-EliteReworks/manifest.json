@@ -1,0 +1,10 @@
+{
+  "name": "EliteReworks",
+  "version_number": "1.6.0",
+  "website_url": "https://github.com/Moffein/EliteReworks",
+  "description": "Reduces Elite bulletsponge and makes their abilities more impactful.",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.1903",
+    "tristanmcpherson-R2API-4.1.1"
+  ]
+}

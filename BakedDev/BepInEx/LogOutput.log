@@ -13,7 +13,7 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 48 plugins to load
+[Info   :   BepInEx] 54 plugins to load
 [Info   :   BepInEx] Loading [RoR2BepInExPack 1.0.3]
 [Info   :   BepInEx] Loading [R2API 4.3.21]
 [Debug  :     R2API] DeployableAPI has no static method registered for LoadCheck
@@ -157,8 +157,6 @@
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.RecalculateStats
 [Info   :   BepInEx] Loading [LunarCoinShareOnPickup 4.2.1]
 [Debug  :     R2API] Hook added by assembly: LunarCoinShareOnPickup.dll for: RoR2.GenericPickupController.OnInteractionBegin
-[Info   :   BepInEx] Loading [InstantTeleporter 1.1.1]
-[Debug  :     R2API] Hook added by assembly: InstantTeleporter.dll for: RoR2.TeleporterInteraction.FixedUpdate
 [Info   :   BepInEx] Loading [WaxQuailMultiJump 1.0.1]
 [Debug  :     R2API] Hook added by assembly: WaxQuailMultiJump.dll for: EntityStates.GenericCharacterMain.ProcessJump
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.GenericCharacterMain.ProcessJump
@@ -234,6 +232,9 @@
 [Debug  :     R2API] Hook added by assembly: ShareSuite.dll for: RoR2.GenericPickupController.AttemptGrant
 [Debug  :     R2API] Hook added by assembly: ShareSuite.dll for: RoR2.GenericPickupController.SendPickupMessage
 [Debug  :     R2API] Hook added by assembly: ShareSuite.dll for: RoR2.Chat.SendPlayerConnectedMessage
+[Info   :   BepInEx] Loading [Commando Grenade Cooking 1.1.1]
+[Info   :     R2API] Created a SerializableContentPack for mod com.Gatorism.Commando_Grenade_Cooking
+[Message:Commando Grenade Cooking] Frag Grenade Cooking enabled
 [Info   :   BepInEx] Loading [ChefMod 2.0.20]
 [Info   : Unity Log] System.String[]
 [Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.HealthComponent.TakeDamage
@@ -294,8 +295,6 @@
 [Debug  :     R2API] Hook removed by assembly: R2API.dll for: RoR2.SkinDef.Awake
 [Info   :   BepInEx] Loading [RTAutoSprintAddon 1.0.1]
 [Info   :RTAutoSprintAddon] Adding RTAutoSprintEx custom skill/survivor patches: 
-[Info   :RTAutoSprintAddon] Adding Custom EntityState Disabler for VoidReaver.VoidSecondary
-[Info   :RTAutoSprintEx] Received RT_SprintDisableMessage for VoidReaver.VoidSecondary
 [Info   :RTAutoSprintAddon] ...Playable Templar
 [Info   :RTAutoSprintEx] Received RT_SprintDisableMessage for Templar.TemplarRifleFire
 [Info   :RTAutoSprintAddon] Patching completed.
@@ -344,6 +343,10 @@
 [Info   :   BepInEx] Loading [Aggressive Imps 1.0.0]
 [Info   :   BepInEx] Loading [ArrowRainBuff 1.1.1]
 [Debug  :     R2API] Hook added by assembly: ArrowRainBuff.dll for: RoR2.HealthComponent.TakeDamage
+[Info   :   BepInEx] Loading [Bandit Dynamite 1.0.9]
+[Info   :     R2API] Created a SerializableContentPack for mod com.Moffein.BanditDynamite
+[Debug  :     R2API] Hook added by assembly: BanditDynamite.dll for: RoR2.Projectile.ProjectileExplosion.DetonateServer
+[Debug  :     R2API] Hook added by assembly: BanditDynamite.dll for: RoR2.HealthComponent.TakeDamage
 [Info   :   BepInEx] Loading [Bandit Tweaks 1.7.1]
 [Debug  :     R2API] Hook added by assembly: BanditTweaks.dll for: RoR2.BodyCatalog.Init
 [Debug  :     R2API] Hook added by assembly: BanditTweaks.dll for: RoR2.HealthComponent.TakeDamage
@@ -382,6 +385,38 @@
 [Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
 [Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
 [Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
+[Info   :   BepInEx] Loading [Elite Reworks 1.6.0]
+[Info   :     R2API] Created a SerializableContentPack for mod com.Moffein.EliteReworks
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CharacterModel.UpdateOverlays
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterModel.UpdateOverlays
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.GlobalEventManager.OnHitAll
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnHitAll
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CharacterBody.UpdateFireTrail
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CharacterBody+AffixHauntedBehavior.FixedUpdate
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.GlobalEventManager.OnCharacterDeath
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CharacterBody.UpdateAllTemporaryVisualEffects
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.UpdateAllTemporaryVisualEffects
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CharacterModel.UpdateOverlays
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterModel.UpdateOverlays
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Warning:     R2API] Projectile MoffeinEliteReworksPoisonStakeProjectile (UnityEngine.GameObject) has no ghost prefab assigned! is this intentional?
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CharacterBody.UpdateAffixPoison
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.HealthComponent.Heal
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CharacterBody.AddBuff
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.AffixEarthBehavior.FixedUpdate
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CharacterBody.AddBuff
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.GlobalEventManager.OnHitAll
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CombatDirector.Init
 [Info   :   BepInEx] Loading [Enigma Blacklist 1.0.3]
 [Debug  :     R2API] Hook added by assembly: EnigmaBlacklist.dll for: RoR2.EquipmentCatalog.Init
 [Debug  :     R2API] Hook added by assembly: EnigmaBlacklist.dll for: RoR2.Artifacts.EnigmaArtifactManager.OnRunStartGlobal
@@ -413,6 +448,9 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly: HAND_OVERCLOCKED.dll for: RoR2.CharacterModel.EnableItemDisplay
 [Debug  :     R2API] Hook added by assembly: HAND_OVERCLOCKED.dll for: RoR2.NetworkUIPromptController.OnControlBegin
 [Debug  :     R2API] Hook added by assembly: HAND_OVERCLOCKED.dll for: RoR2.NetworkUIPromptController.OnControlEnd
+[Info   :   BepInEx] Loading [Lunar Wisp Falloff 1.1.1]
+[Debug  :     R2API] Hook added by assembly: LunarWispFalloff.dll for: EntityStates.LunarWisp.FireLunarGuns.OnFireAuthority
+[Debug  :     R2API] Hook added by assembly:  for: EntityStates.LunarWisp.FireLunarGuns.OnFireAuthority
 [Info   :   BepInEx] Loading [MobileTurretBuff 1.1.8]
 [Debug  :     R2API] Hook added by assembly: MobileTurretBuff.dll for: RoR2.BodyCatalog.Init
 [Debug  :     R2API] Hook added by assembly: MobileTurretBuff.dll for: RoR2.MasterCatalog.Init
@@ -422,9 +460,58 @@ SPEED IS WAR.
 [Info   :   BepInEx] Loading [PaladinHealthTweak 1.0.0]
 [Debug  :     R2API] Hook added by assembly: PaladinHealthTweak.dll for: RoR2.BodyCatalog.Init
 [Info   :   BepInEx] Loading [StickyBombBuff 1.1.0]
+[Info   :   BepInEx] Loading [TitanBuff 1.1.2]
+[Debug  :     R2API] Hook added by assembly: TitanBuff.dll for: EntityStates.TitanMonster.FireMegaLaser.OnEnter
+[Debug  :     R2API] Hook added by assembly: TitanBuff.dll for: EntityStates.TitanMonster.RechargeRocks.OnEnter
 [Info   :   BepInEx] Loading [Pingprovements 1.7.0]
 [Debug  :     R2API] Hook added by assembly: Pingprovements.dll for: RoR2.PingerController.SetCurrentPing
 [Debug  :     R2API] Hook added by assembly: Pingprovements.dll for: RoR2.UI.PingIndicator.Update
+[Info   :   BepInEx] Loading [GoldenCoastPlus 0.6.3]
+[Warning:     R2API] Assembly GoldenCoastPlus is adding an AffixGold (RoR2.BuffDef) which has an eliteDef assigned, but said eliteDef's equipmentDef's passiveBuffDef is not AffixGold (RoR2.BuffDef)! is this intentional?
+[Info   :     R2API] Created a SerializableContentPack for mod com.Skell.GoldenCoastPlus
+[Info   :     R2API] Custom Elite Tier : (Index : 3) added
+[Warning:     R2API] Some of the ItemDisplayRules in the dictionary for CustomItem (BigSword (RoR2.ItemDef)) have an invalid followerPrefab. (There are ItemDisplayRuleType.ParentedPrefab rules),Logging invalid rules... (For full details, check the Log file)
+[Debug  :     R2API] Invalid follower prefab for entry mdlHuntress. The follower prefab (PickupBigSword (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlToolbot. The follower prefab (PickupBigSword (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlEngi. The follower prefab (PickupBigSword (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlEngiTurret. The follower prefab (PickupBigSword (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlMage. The follower prefab (PickupBigSword (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlMerc. The follower prefab (PickupBigSword (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlTreebot. The follower prefab (PickupBigSword (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlLoader. The follower prefab (PickupBigSword (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlCroco. The follower prefab (PickupBigSword (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlCaptain. The follower prefab (PickupBigSword (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupBigSword (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+
+[Warning:     R2API] Some of the ItemDisplayRules in the dictionary for CustomItem (LaserEye (RoR2.ItemDef)) have an invalid followerPrefab. (There are ItemDisplayRuleType.ParentedPrefab rules),Logging invalid rules... (For full details, check the Log file)
+[Debug  :     R2API] Invalid follower prefab for entry mdlHuntress. The follower prefab (PickupLaserEye (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlToolbot. The follower prefab (PickupLaserEye (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlEngi. The follower prefab (PickupLaserEye (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlEngiTurret. The follower prefab (PickupLaserEye (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlMage. The follower prefab (PickupLaserEye (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlMerc. The follower prefab (PickupLaserEye (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlTreebot. The follower prefab (PickupLaserEye (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlLoader. The follower prefab (PickupLaserEye (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlCroco. The follower prefab (PickupLaserEye (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlCaptain. The follower prefab (PickupLaserEye (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEye (UnityEngine.GameObject)) does not have an ItemDisplay component. (The ItemDisplayRule.ruleType is ItemDisplayRuleType.ParentedPrefab) The ItemDisplay model should have one and have at least a rendererInfo in it for having correct visibility levels.
+
+[Warning:     R2API] No ItemDef.pickupModelPrefab (HiddenGoldBuffItem), the game will show nothing when the item is on the ground.
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.GoldTitanManager.TryStartChannelingTitansServer
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GoldTitanManager.TryStartChannelingTitansServer
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.GoldTitanManager.CalcTitanPowerAndBestTeam
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.GoldTitanManager.CalcTitanPowerAndBestTeam
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.PickupDropletController.CreatePickupDroplet
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.DeathRewards.OnKilledServer
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.GoldshoresMissionController.Start
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: EntityStates.Missions.Goldshores.GoldshoresBossfight.OnEnter
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: EntityStates.Missions.Goldshores.GoldshoresBossfight.OnExit
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: EntityStates.Missions.Goldshores.GoldshoresBossfight.ServerFixedUpdate
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: EntityStates.TitanMonster.FireGoldFist.PlacePredictedAttack
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.CharacterMaster.GiveMoney
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.CharacterBody.OnInventoryChanged
+[Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.GlobalEventManager.OnHitEnemy
 [Info   :   BepInEx] Loading [DiggerUnearthed 1.6.9]
 [Info   :   BepInEx] Loading [HenryMod 2.1.1]
 [Info   :     R2API] Created a SerializableContentPack for mod com.rob.HenryMod
@@ -663,6 +750,8 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.Networking.NetworkManagerSystem.CCSetScene
 [Debug  :     R2API] Hook added by assembly: DebugToolkit.dll for: RoR2.Networking.NetworkManagerSystem.CCSceneList
 [Debug  :     R2API] Hook added by assembly: DebugToolkit.dll for: RoR2.SceneDirector.Start
+[Info   :   BepInEx] Loading [NoBossNoWait 1.0.0]
+[Debug  :     R2API] Hook added by assembly: NoBossNoWait.dll for: RoR2.TeleporterInteraction.UpdateMonstersClear
 [Message:   BepInEx] Chainloader startup complete
 [Warning: Unity Log] Network message MsgType.Highest + 22 is unregistered.
 [Info   : Unity Log] buildId = 1.2.4.1
@@ -679,18 +768,21 @@ SPEED IS WAR.
 [Info   :     R2API] bubbet.networkedtimedbuffs;1.0.1
 [Info   :     R2API] com.bepis.r2api;4.3.21
 [Info   :     R2API] com.Borbo.HuntressBuffULTIMATE;1.1.0
-[Info   :     R2API] com.Dragonyck.InstantTeleporter;1.1.1
 [Info   :     R2API] com.EnforcerGang.Enforcer;3.3.9
 [Info   :     R2API] com.Fubuki.LunarGolem;0.1.4
 [Info   :     R2API] com.Fubuki.VoidReaver;0.6.8
+[Info   :     R2API] com.Gatorism.Commando_Grenade_Cooking;1.1.1
 [Info   :     R2API] com.Gnome.ChefMod;2.0.20
 [Info   :     R2API] com.Griff.RevisedShieldOSP;1.0.1
+[Info   :     R2API] com.Moffein.BanditDynamite;1.0.9
 [Info   :     R2API] com.Moffein.ClayMen;1.4.2
+[Info   :     R2API] com.Moffein.EliteReworks;1.6.0
 [Info   :     R2API] com.Moffein.HAND_Overclocked;0.2.6
 [Info   :     R2API] com.Moffein.PaladinHealthTweak
 [Info   :     R2API] com.rob.DiggerUnearthed;1.6.9
 [Info   :     R2API] com.rob.HenryMod;2.1.1
 [Info   :     R2API] com.rob.Paladin;1.5.710
+[Info   :     R2API] com.Skell.GoldenCoastPlus;0.6.3
 [Info   :     R2API] com.TeaBoneJones.IncreaseHuntressRange;1.0.0
 [Info   :     R2API] com.Tymmey.Templar;1.1.1
 [Info   :     R2API] com.Varna.EphemeralCoins;2.3.3
@@ -698,6 +790,7 @@ SPEED IS WAR.
 [Info   :     R2API] com.Wolfo.LittleGameplayTweaks;2.0.4
 [Info   :     R2API] com.Wolfo.WolfoQualityOfLife;2.0.5
 [Info   :     R2API] HIFU.HuntressAutoaimFix;1.0.6
+[Info   :     R2API] IKEA.NoBossNoWait;1.0.0
 [Info   :  Enforcer] [Initializing Enforcer]
 [Debug  :     R2API] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
 [Debug  :     R2API] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
@@ -837,14 +930,14 @@ SPEED IS WAR.
 [Info   : Unity Log] "usesocialiconflag" is not a recognized ConCommand or ConVar.
 [Info   : Unity Log] Loaded archived convars.
 [Info   : Unity Log] Could not load config /Config/autoexec.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\autoexec.cfg"
-[Info   :     R2API] Generating a total of 11 ContentPacks...
+[Info   :     R2API] Generating a total of 15 ContentPacks...
 [Info   : Unity Log] LoadContentPacks() start
 [Error  : Unity Log] Could not register 'chef_fruitpod_impact' since it contains no NetworkIdentity component
+[Warning: Unity Log] Failed to assign Buffs.Deafened: Asset "bdDeafened" not found.
 [Warning: Unity Log] Failed to assign Items.SummonedEcho: Asset "SummonedEcho" not found.
 [Warning: Unity Log] Failed to assign Equipment.AffixEcho: Asset "EliteEchoEquipment" not found.
 [Warning: Unity Log] Failed to assign Buffs.AffixEcho: Asset "bdEliteEcho" not found.
 [Warning: Unity Log] Failed to assign Elites.Echo: Asset "edEcho" not found.
-[Warning: Unity Log] Failed to assign Buffs.Deafened: Asset "bdDeafened" not found.
 [Debug  :     R2API] Content added from com.rob.DiggerUnearthed:
 MINER_BLACKSMITHUNLOCKABLE_REWARD_ID (UnlockableDef)
 MINER_CAVEINUNLOCKABLE_REWARD_ID (UnlockableDef)
@@ -920,11 +1013,48 @@ ROB_HENRY_BODY_MASTERYUNLOCKABLE_REWARD_ID (UnlockableDef)
 ROB_HENRY_BODY_TYPHOONUNLOCKABLE_REWARD_ID (UnlockableDef)
 ROB_HENRY_BODY_UNLOCKABLE_REWARD_ID (UnlockableDef)
 ROB_HENRY_BODY_VERGILUNLOCKABLE_REWARD_ID (UnlockableDef)
+[Debug  :     R2API] Content added from com.Skell.GoldenCoastPlus:
+BigSword (ItemDef)
+GoldenKnurl (ItemDef)
+HiddenGoldBuffItem (ItemDef)
+LaserEye (ItemDef)
+<style=cShrine>Aurelionite's Blessing</style> (BuffDef)
+AffixGold (BuffDef)
+LaserEyeCharge (BuffDef)
+TitanGoldArmorBroken (BuffDef)
+[Debug  :     R2API] Content added from com.Moffein.EliteReworks:
+MoffeinEliteReworkOverloadinLightningBossProjectile (GameObject)
+MoffeinEliteReworkOverloadinLightningProjectile (GameObject)
+MoffeinEliteReworksOverloadingStakeV2 (GameObject)
+MoffeinEliteReworksPoisonOrbProjectile (GameObject)
+MoffeinEliteReworksPoisonStakeProjectile (GameObject)
+EliteReworksHauntedArmorReduction (BuffDef)
+EliteReworksHauntedGhostsActive (BuffDef)
+EliteReworksHauntedRevive (BuffDef)
+EliteReworksMalachiteBuildup (BuffDef)
+EliteReworksSlow80 (BuffDef)
+MoffeinEliteReworkOverloadinLightningOnHitVFX (EffectDef)
+MoffeinEliteReworkOverloadinLightningQuietVFX (EffectDef)
+MoffeinEliteReworkOverloadinLightningVFX (EffectDef)
+MoffeinEliteReworksGlacialExplosion (EffectDef)
+EliteReworksGlacialSlowNetworkSound (NetworkSoundEventDef)
+EliteReworksOverloadingBossNetworkSound (NetworkSoundEventDef)
+EliteReworksOverloadingNetworkSound (NetworkSoundEventDef)
+[Debug  :     R2API] Content added from com.Moffein.BanditDynamite:
+MoffeinBanditDynamiteClusterBomb (GameObject)
+MoffeinBanditDynamiteClusterBomblet (GameObject)
+ (SkillDef)
+MoffeinBanditDynamiteBombletExplosion (EffectDef)
+MoffeinBanditDynamiteDynamiteExplosion (EffectDef)
+EntityStates.Moffein.BanditDynamite.ClusterBomb (RuntimeType)
 [Debug  :     R2API] Content added from com.Tymmey.Templar:
 TemplarRocketImpact (EffectDef)
 [Debug  :     R2API] Content added from com.Gnome.ChefMod:
 CHEF_CHEFUNLOCKABLE_REWARD_ID (UnlockableDef)
 CHEF_SLICEUNLOCKABLE_REWARD_ID (UnlockableDef)
+[Debug  :     R2API] Content added from com.Gatorism.Commando_Grenade_Cooking:
+CookableGrenade (GameObject)
+ (SteppedSkillDef)
 [Debug  :     R2API] Content added from com.Fubuki.VoidReaver:
 FubukiMods/PlayerNullifier (GameObject)
 FubukiMods/VoidPrimary (GameObject)
@@ -980,8 +1110,14 @@ NEMFORCER_TYPHOONUNLOCKABLE_REWARD_ID (UnlockableDef)
 [Error  : Unity Log] could not load display for DisplaySawmerang
 [Warning: Unity Log] Could not find scene with name "loadingbasic".
 [Info   : Unity Log] Command "set_scene" failed: "title" is not a valid scene.
-[Info   : Unity Log] Game content load completed in 9711ms.
+[Info   : Unity Log] Game content load completed in 8538ms.
 [Info   : Unity Log] Setting current language to "en"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Cannot have more than 256 projectile prefabs defined, which is over the limit for Byte. Check comments at error source for details.
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [256/255]="VoidSurvivorMegaBlasterSmallProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [257/255]="VoidSurvivorTwinBlasterProjectile1"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [258/255]="VoidSurvivorTwinBlasterProjectile2"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [259/255]="WindbladeProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [260/255]="WispCannon"
 [Debug  :Ephemeral_Coins] NewMoonArtifactManager initialized
 [Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: EntityStates.GhostUtilitySkillState.FixedUpdate
 [Info   : Unity Log] [RoR2.Loadout+BodyLoadoutManager] Tried to add duplicate node /Loadout/Bodies/CHEF/.
@@ -1096,7 +1232,7 @@ RoR2.EOSLobbyDataGenerator
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
 [Info   : Unity Log] stream.Length=246320
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
-[Info   : Unity Log] stream.Length=259201
+[Info   : Unity Log] stream.Length=259598
 [Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.CharacterBody.FixedUpdate
 [Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.SceneDirector.Start
 [Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
@@ -1993,6 +2129,896 @@ RoR2.EOSLobbyDataGenerator
 [Info   : Unity Log] BaseMainMenuScreen: OnEnter()
 [Debug  :     R2API] Hook removed by assembly: LittleGameplayTweaks.dll for: RoR2.UI.MainMenu.MainMenuController.Start
 [Debug  :     R2API] Hook removed by assembly: WolfoQualityOfLife.dll for: RoR2.UI.MainMenu.MainMenuController.Start
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Setting offline scene to logbook
+[Info   : Unity Log] Unloaded scene title
+[Warning:     R2API] This version of R2API was built for build id "1.2.3.1", you are running "1.2.4.1".
+[Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
+[Warning: Unity Log] logbook has no groundNodesAsset
+[Warning: Unity Log] logbook has no airNodesAsset
+[Info   : Unity Log] Active scene changed from  to logbook
+[Info   : Unity Log] Loaded scene logbook loadSceneMode=Single
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Building category buttons.
+[Info   : Unity Log] Setting offline scene to title
+[Info   : Unity Log] Unloaded scene logbook
+[Warning:     R2API] This version of R2API was built for build id "1.2.3.1", you are running "1.2.4.1".
+[Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
 [Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object.
 Stack trace:
 RoR2.UI.SkinControllers.ButtonSkinController.StaticUpdate () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0014)
@@ -2004,6 +3030,8 @@ RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
+[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
 [Info   : Unity Log] NetworkManagerSystem.desiredHost={ hostType=Self listen=False maxPlayers=4 }
 [Info   :     R2API] Server Handlers registered
 [Warning: Unity Log] The prefab 'ArenaMissionController' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
@@ -2032,7 +3060,33 @@ RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
 [Info   : Unity Log] Received vote from blazingdrummer
 [Info   : Unity Log] Accepting vote from blazingdrummer
 [Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
-[Info   : Unity Log] Run seed:  14651896340999946320
+[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=10, bodyIndex=10
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 54 to 10
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 54 to 10
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (259635 bytes)
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260049 bytes)
+[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=12, bodyIndex=33
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 10 to 33
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 10 to 33
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260106 bytes)
+[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=10, bodyIndex=10
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 33 to 10
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 33 to 10
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260105 bytes)
+[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=16, bodyIndex=71
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 10 to 71
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 10 to 71
+[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=10, bodyIndex=10
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 71 to 10
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 71 to 10
+[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=12, bodyIndex=33
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 10 to 33
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 10 to 33
+[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=10, bodyIndex=10
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 33 to 10
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 33 to 10
+[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260105 bytes)
+[Info   : Unity Log] Run seed:  7483418892129145949
 [Debug  :Ephemeral_Coins] blazingdrummer added to CoinStorage!
 [Warning:Ephemeral_Coins] SyncCoinStorage: Host ran this. Skipping.
 [Debug  :Ephemeral_Coins] Setting up CoinStorage finished.
@@ -2042,44 +3096,81 @@ RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
 [Info   : Unity Log] Unloaded scene lobby
 [Warning:     R2API] This version of R2API was built for build id "1.2.3.1", you are running "1.2.4.1".
 [Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
-[Info   : Unity Log] Active scene changed from  to golemplains2
-[Info   : Unity Log] Loaded scene golemplains2 loadSceneMode=Single
+[Info   : Unity Log] Active scene changed from  to blackbeach
+[Info   : Unity Log] Loaded scene blackbeach loadSceneMode=Single
 [Info   : Unity Log] Running
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=golemplains2 loadedScenes=golemplains2
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=blackbeach loadedScenes=blackbeach
 [Info   : Unity Log] Client ready.
 [Info   : Unity Log] Player 0 already added, aborting.
 [Info   : Unity Log] Wqol preSceneDic
 [Debug  :     R2API] Hook removed by assembly: ArtifactDissimilarity.dll for: RoR2.SceneDirector.GenerateInteractableCardSelection
 [Debug  :     R2API] Hook removed by assembly: ArtifactDissimilarity.dll for: RoR2.SceneDirector.GenerateInteractableCardSelection
 [Info   : Unity Log] Spending 220 credits on interactables...
-[Info   : Unity Log] MAP_GOLEMPLAINS_TITLE
+[Info   : Unity Log] MAP_BLACKBEACH_TITLE
 [Debug  :     R2API] Hook removed by assembly: ArtifactDissimilarity.dll for: RoR2.Language.GetString
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] Position not free or not found.
 [Info   : Unity Log] reorder list
 [Debug  :     R2API] Hook removed by assembly: ArtifactDissimilarity.dll for: RoR2.SceneDirector.Start
 [Debug  :     R2API] Hook removed by assembly: WolfoQualityOfLife.dll for: RoR2.Projectile.ProjectileManager.FireProjectile
 [Debug  :     R2API] Hook added by assembly: WolfoQualityOfLife.dll for: EntityStates.Bell.BellWeapon.ChargeTrioBomb.OnEnter
 [Info   : Unity Log] <color=#beeca1><size=15px>A new moon rises...</size></color>
-[Info   : Unity Log] NetworkManagerSystem.desiredHost={ hostType=None }
-[Info   : Unity Log] Network shutting down...
-[Info   : Unity Log] Server shutting down...
-[Info   : Unity Log] Issued kick message to all remote clients.
-[Info   : Unity Log] Finished waiting for clients to disconnect.
-[Info   : Unity Log] StopHost()
-[Info   : Unity Log] Server shutdown complete.
-[Info   : Unity Log] Unloaded scene golemplains2
-[Warning:     R2API] This version of R2API was built for build id "1.2.3.1", you are running "1.2.4.1".
-[Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
-[Info   : Unity Log] Active scene changed from  to title
-[Info   : Unity Log] Loaded scene title loadSceneMode=Single
-[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object.
+[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Info   : Unity Log] Killing BeetleBody(Clone) (UnityEngine.GameObject) for being out of bounds.
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] 6
+[Info   : Unity Log] 6
+[Info   : Unity Log] 6
+[Info   : Unity Log] 6
+[Info   : Unity Log] 6
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] <style=cEvent>You activated the <style=cDeath>Teleporter <sprite name="TP" tint=1></style>.</style>
+[Info   : Unity Log] Next boss spawn:  cscBeetleQueen (RoR2.CharacterSpawnCard)
+[Info   : Unity Log] Transfered 4 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] Transfered 15.2 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] CombatDirector hasStartedwave = true
+[Info   : Unity Log] CombatDirector wave complete
+[Info   : Unity Log] Transfered 30.48001 monster credits from Teleporter1(Clone) (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] 6
+[Info   : Unity Log] 6
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'UnityEngine.Networking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
 Stack trace:
-RoR2.UI.SkinControllers.ButtonSkinController.StaticUpdate () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0014)
-RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
+DMD<>?-2006984448.Hook<EntityStates.BeetleQueenMonster.SummonEggs::SummonEgg>?1263939072 (EntityStates.BeetleQueenMonster.SummonEggs ) (at <4470675c63d64252a01c10054f75b24a>:IL_0014)
+DMD<>?-2006984448.Trampoline<EntityStates.BeetleQueenMonster.SummonEggs::SummonEgg>?1846026240 (EntityStates.BeetleQueenMonster.SummonEggs ) (at <270da55f843c41598fc9359d1d0d626d>:IL_0020)
+LittleGameplayTweaks.LittleGameplayTweaks+<>c.<Awake>b__263_0 (On.EntityStates.BeetleQueenMonster.SummonEggs+orig_SummonEgg orig, EntityStates.BeetleQueenMonster.SummonEggs self) (at <678314fa1e1144b4ba2ef73cee2ad9f7>:IL_0020)
+DMD<>?-2006984448.Hook<EntityStates.BeetleQueenMonster.SummonEggs::SummonEgg>?-565727872 (EntityStates.BeetleQueenMonster.SummonEggs ) (at <45de0eb441bc48a9b626c6d5e7b15a4e>:IL_0014)
+EntityStates.BeetleQueenMonster.SummonEggs.FixedUpdate () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_009C)
+RoR2.EntityStateMachine.FixedUpdate () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_001A)
 
+[Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'UnityEngine.Networking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+Stack trace:
+DMD<>?-2006984448.Hook<EntityStates.BeetleQueenMonster.SummonEggs::SummonEgg>?1263939072 (EntityStates.BeetleQueenMonster.SummonEggs ) (at <4470675c63d64252a01c10054f75b24a>:IL_0014)
+DMD<>?-2006984448.Trampoline<EntityStates.BeetleQueenMonster.SummonEggs::SummonEgg>?1846026240 (EntityStates.BeetleQueenMonster.SummonEggs ) (at <270da55f843c41598fc9359d1d0d626d>:IL_0020)
+LittleGameplayTweaks.LittleGameplayTweaks+<>c.<Awake>b__263_0 (On.EntityStates.BeetleQueenMonster.SummonEggs+orig_SummonEgg orig, EntityStates.BeetleQueenMonster.SummonEggs self) (at <678314fa1e1144b4ba2ef73cee2ad9f7>:IL_0020)
+DMD<>?-2006984448.Hook<EntityStates.BeetleQueenMonster.SummonEggs::SummonEgg>?-565727872 (EntityStates.BeetleQueenMonster.SummonEggs ) (at <45de0eb441bc48a9b626c6d5e7b15a4e>:IL_0014)
+EntityStates.BeetleQueenMonster.SummonEggs.FixedUpdate () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_009C)
+RoR2.EntityStateMachine.FixedUpdate () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_001A)
+
+[Info   : Unity Log] 6
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] 6
+[Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] 6

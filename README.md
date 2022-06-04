@@ -71,6 +71,9 @@ Void Reaver secondary gets cancelled by sprint
   - Han-D
 - ~~ScalingBloodShrines~~
 - GrovetenderBuff (deprecated)
+- https://thunderstore.io/package/Bubbet/BubbetsItems/
+- https://thunderstore.io/package/Phreel/StormyItemsRevived/
+- https://thunderstore.io/package/ThinkInvis/TinkersSatchel/
 
 # Mechanics I Want To Change
 - [CUSTOM] asynchronous Aquaduct buttons

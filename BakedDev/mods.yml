@@ -563,8 +563,8 @@
     major: 1
     minor: 1
     patch: 1
-  enabled: false
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\Moffein-Lunar_Wisp_Falloff\1.1.1\icon.png
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Lunar_Wisp_Falloff\icon.png
 - manifestVersion: 1
   name: Wolfo-ArtifactOfDissimilarity
   authorName: Wolfo
@@ -613,28 +613,6 @@
     patch: 4
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-LittleGameplayTweaks\icon.png
-- manifestVersion: 1
-  name: Dragonyck-InstantTeleporter
-  authorName: Dragonyck
-  websiteUrl: https://thunderstore.io/package/Dragonyck/InstantTeleporter/
-  displayName: InstantTeleporter
-  description: Now with new config that makes it charge faster after killing a boss.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1902
-    - tristanmcpherson-R2API-4.0.11
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Dragonyck-InstantTeleporter\icon.png
 - manifestVersion: 1
   name: TeaBoneJones-IncreaseHuntressRange
   authorName: TeaBoneJones
@@ -817,29 +795,6 @@
     patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Stickybomb_Buff\icon.png
-- manifestVersion: 1
-  name: Moffein-Beetle_Queen_Plus
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/Beetle_Queen_Plus/
-  displayName: Beetle_Queen_Plus
-  description: Tweaks the Beetle Queen's skills to give them more impact. Also
-    buffs Beetles.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - RiskofThunder-HookGenPatcher-1.2.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Beetle_Queen_Plus\icon.png
 - manifestVersion: 1
   name: MagnusMagnuson-BiggerBazaar
   authorName: MagnusMagnuson
@@ -1155,3 +1110,120 @@
     patch: 5
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\KingEnderBrine-ScrollableLobbyUI\icon.png
+- manifestVersion: 1
+  name: Skell-GoldenCoastPlus
+  authorName: Skell
+  websiteUrl: https://thunderstore.io/package/Skell/GoldenCoastPlus/
+  displayName: GoldenCoastPlus
+  description: Adds some things to Golden Coast in the hopes of making it a more
+    interesting and fun environment to visit.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1801
+    - tristanmcpherson-R2API-4.3.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 6
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Skell-GoldenCoastPlus\icon.png
+- manifestVersion: 1
+  name: Moffein-EliteReworks
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/EliteReworks/
+  displayName: EliteReworks
+  description: Reduces Elite bulletsponge and makes their abilities more impactful.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+    - tristanmcpherson-R2API-4.1.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-EliteReworks\icon.png
+- manifestVersion: 1
+  name: mrchous-NoBossNoWait
+  authorName: mrchous
+  websiteUrl: https://thunderstore.io/package/mrchous/NoBossNoWait/
+  displayName: NoBossNoWait
+  description: Skips the teleporter charging after the boss is defeated while
+    still adding the time it would have taken.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+    - tristanmcpherson-R2API-4.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\mrchous-NoBossNoWait\icon.png
+- manifestVersion: 1
+  name: Gatorism-Commando_Grenade_Cooking
+  authorName: Gatorism
+  websiteUrl: https://thunderstore.io/package/Gatorism/Commando_Grenade_Cooking/
+  displayName: Commando_Grenade_Cooking
+  description: Reworks Commando's Frag Grenades to be cookable. Based off of
+    Moffein's Frag Grenade Cooking mod. Now as a separate skill instead of a
+    replacement!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+    - tristanmcpherson-R2API-4.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Gatorism-Commando_Grenade_Cooking\icon.png
+- manifestVersion: 1
+  name: Moffein-TitanBuff
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/TitanBuff/
+  displayName: TitanBuff
+  description: Makes Stone Titans able to laser enemies at point blank, and boosts
+    the proc coefficient of their laser. Also reduces how long it takes for them
+    to summon their rocks. Server-side and Vanilla-compatible.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-TitanBuff\icon.png

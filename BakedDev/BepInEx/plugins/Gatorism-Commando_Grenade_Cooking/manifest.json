@@ -1,0 +1,10 @@
+{
+  "name": "Commando_Grenade_Cooking",
+  "version_number": "1.1.1",
+  "website_url": "https://github.com/Gatorism/CommandoGrenadeCooking/",
+  "description": "Reworks Commando's Frag Grenades to be cookable. Based off of Moffein's Frag Grenade Cooking mod. Now as a separate skill instead of a replacement!",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.1903",
+    "tristanmcpherson-R2API-4.2.1"
+  ]
+}

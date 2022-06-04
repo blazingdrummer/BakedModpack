@@ -1,0 +1,10 @@
+{
+    "name": "TitanBuff",
+    "version_number": "1.1.2",
+    "website_url": "",
+    "description": "Makes Stone Titans able to laser enemies at point blank, and boosts the proc coefficient of their laser. Also reduces how long it takes for them to summon their rocks. Server-side and Vanilla-compatible.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.9",
+		"RiskofThunder-HookGenPatcher-1.2.1"
+    ]
+}
