@@ -86,6 +86,9 @@ Place EliteReworks.dll in /Risk of Rain 2/BepInEx/plugins/
 
 ## ChangeLog
 
+- 1.6.1
+	- Celestine on-hit change can now be toggled via config.
+
 - 1.6.0
 	- Glacial
 		- Sound now only plays when the buff is first applied.

@@ -1,3 +1,12 @@
+# RiskyMod Notes
+- scaling changes might mess with `ShareSuite`
+- freeze now executes, should Bandit execute?
+- does Wolfo or Risky take precedence for item descriptions?
+- should maybe remove Huntress range buff for now?
+- Acrid spawn invulnerability might conflict with Wolfo
+- Captain hidden realms change also overlaps
+___
+
 pool shows pearl on ping
 should Bandit specials execute?
 Void Reaver secondary gets cancelled by sprint
