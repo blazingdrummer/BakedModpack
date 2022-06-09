@@ -543,8 +543,8 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TeaBoneJones-IncreaseHuntressRange\icon.png
+  enabled: false
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\TeaBoneJones-IncreaseHuntressRange\1.0.0\icon.png
 - manifestVersion: 1
   name: Moffein-Clay_Men
   authorName: Moffein
@@ -558,15 +558,15 @@
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.1903
-    - tristanmcpherson-R2API-4.3.5
+    - tristanmcpherson-R2API-4.4.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 4
-    patch: 2
+    patch: 3
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Clay_Men\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\Moffein-Clay_Men\1.4.3\icon.png
 - manifestVersion: 1
   name: MagnusMagnuson-BiggerBazaar
   authorName: MagnusMagnuson
@@ -702,29 +702,6 @@
     patch: 20
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Gnome-ChefMod\icon.png
-- manifestVersion: 1
-  name: TheTimesweeper-HenryMod
-  authorName: TheTimesweeper
-  websiteUrl: https://thunderstore.io/package/TheTimesweeper/HenryMod/
-  displayName: HenryMod
-  description: Adds Henry, a melee/ranged hybrid who uses a wide arsenal of
-    weaponry. Originally by rob, maintained by me.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.3.21
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TheTimesweeper-HenryMod\icon.png
 - manifestVersion: 1
   name: TemplarBoyz-PlayableTemplar
   authorName: TemplarBoyz
@@ -973,3 +950,26 @@
     patch: 4
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyMod\icon.png
+- manifestVersion: 1
+  name: Faustvii-QoLChests
+  authorName: Faustvii
+  websiteUrl: https://thunderstore.io/package/Faustvii/QoLChests/
+  displayName: QoLChests
+  description: Quality of life changes to chests, terminals, scrapper, duplicator,
+    turrets and drones. - Hide when empty and highlighting.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1902
+    - RiskofThunder-HookGenPatcher-1.2.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 8
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Faustvii-QoLChests\icon.png

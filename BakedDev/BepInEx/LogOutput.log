@@ -13,7 +13,7 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 41 plugins to load
+[Info   :   BepInEx] 40 plugins to load
 [Info   :   BepInEx] Loading [RoR2BepInExPack 1.0.3]
 [Info   :   BepInEx] Loading [R2API 4.4.1]
 [Debug  :     R2API] DeployableAPI has no static method registered for LoadCheck
@@ -332,24 +332,8 @@
 [Debug  :     R2API] Hook added by assembly: ShrineOfDio.dll for: RoR2.ShrineHealingBehavior.AddShrineStack
 [Debug  :     R2API] Hook added by assembly: ShrineOfDio.dll for: RoR2.CharacterMaster.OnBodyDeath
 [Debug  :     R2API] Hook added by assembly: ShrineOfDio.dll for: RoR2.PurchaseInteraction.CanBeAffordedByInteractor
-[Info   :   BepInEx] Loading [Clay Men 1.4.2]
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
+[Info   :   BepInEx] Loading [Clay Men 1.4.3]
 [Debug  :     R2API] Hook added by assembly: ClayMen.dll for: EntityStates.ClaymanMonster.SpawnState.OnEnter
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
-[Warning: Unity Log] RoR2.SceneDef must be instantiated using the ScriptableObject.CreateInstance method instead of new SceneDef.
 [Info   :   BepInEx] Loading [Elite Reworks 1.6.1]
 [Info   :     R2API] Created a SerializableContentPack for mod com.Moffein.EliteReworks
 [Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.GlobalEventManager.OnHitEnemy
@@ -848,22 +832,6 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.CharacterBody.OnInventoryChanged
 [Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.GlobalEventManager.OnHitEnemy
 [Info   :   BepInEx] Loading [DiggerUnearthed 1.6.9]
-[Info   :   BepInEx] Loading [HenryMod 2.1.1]
-[Info   :     R2API] Created a SerializableContentPack for mod com.rob.HenryMod
-[Debug  :     R2API] Hook added by assembly: HenryMod.dll for: RoR2.SkinDef.Awake
-[Debug  :     R2API] Hook removed by assembly: HenryMod.dll for: RoR2.SkinDef.Awake
-[Debug  :     R2API] Hook added by assembly: HenryMod.dll for: RoR2.SkinDef.Awake
-[Debug  :     R2API] Hook removed by assembly: HenryMod.dll for: RoR2.SkinDef.Awake
-[Debug  :     R2API] Hook added by assembly: HenryMod.dll for: RoR2.SkinDef.Awake
-[Debug  :     R2API] Hook removed by assembly: HenryMod.dll for: RoR2.SkinDef.Awake
-[Debug  :     R2API] Hook added by assembly: HenryMod.dll for: RoR2.SkinDef.Awake
-[Debug  :     R2API] Hook removed by assembly: HenryMod.dll for: RoR2.SkinDef.Awake
-[Debug  :     R2API] Hook added by assembly: HenryMod.dll for: RoR2.SkinDef.Awake
-[Debug  :     R2API] Hook removed by assembly: HenryMod.dll for: RoR2.SkinDef.Awake
-[Debug  :     R2API] Hook added by assembly: HenryMod.dll for: RoR2.UI.HUD.Awake
-[Debug  :     R2API] Hook added by assembly: HenryMod.dll for: RoR2.CharacterBody.RecalculateStats
-[Info   :   BepInEx] Loading [Increase Huntress Range 1.0.0]
-[Debug  :     R2API] Hook added by assembly: IncreaseHuntressRange.dll for: RoR2.HuntressTracker.SearchForTarget
 [Info   :   BepInEx] Loading [SolidIceWall 1.1.0]
 [Info   : Unity Log] Loaded SolidIcewall!
 [Info   :   BepInEx] Loading [Ephemeral_Coins 2.3.3]
@@ -1068,6 +1036,11 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Debug  :     R2API] Hook added by assembly: WolfoQualityOfLife.dll for: EntityStates.GlobalSkills.LunarNeedle.FireLunarNeedle.OnEnter
 [Debug  :     R2API] Hook added by assembly: WolfoQualityOfLife.dll for: EntityStates.ScavMonster.Sit.OnEnter
 [Debug  :     R2API] Hook added by assembly: WolfoQualityOfLife.dll for: RoR2.CharacterMaster.PlayExtraLifeSFX
+[Info   :   BepInEx] Loading [QoLChests 1.1.8]
+[Debug  :     R2API] Hook added by assembly: QoLChests.dll for: RoR2.MultiShopController.OnPurchase
+[Debug  :     R2API] Hook added by assembly: QoLChests.dll for: RoR2.RouletteChestController+Opened.OnEnter
+[Info   : QoLChests] Awake done.
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: EntityStates.Barrel.Opened.OnEnter
 [Info   :   BepInEx] Loading [DebugToolkit 3.7.1]
 [Info   :DebugToolkit] Created by Harb, iDeathHD and . Based on RoR2Cheats by Morris1927.
 [Debug  :     R2API] Hook added by assembly: DebugToolkit.dll for: RoR2.Console.Awake
@@ -1100,16 +1073,14 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Info   :     R2API] com.Fubuki.LunarGolem;0.1.4
 [Info   :     R2API] com.Fubuki.VoidReaver;0.6.8
 [Info   :     R2API] com.Gnome.ChefMod;2.0.20
-[Info   :     R2API] com.Moffein.ClayMen;1.4.2
+[Info   :     R2API] com.Moffein.ClayMen;1.4.3
 [Info   :     R2API] com.Moffein.EliteReworks;1.6.1
 [Info   :     R2API] com.Moffein.HAND_Overclocked;0.2.6
 [Info   :     R2API] com.Moffein.PaladinHealthTweak
 [Info   :     R2API] com.RiskyLives.RiskyMod;0.9.4
 [Info   :     R2API] com.rob.DiggerUnearthed;1.6.9
-[Info   :     R2API] com.rob.HenryMod;2.1.1
 [Info   :     R2API] com.rob.Paladin;1.5.710
 [Info   :     R2API] com.Skell.GoldenCoastPlus;0.6.3
-[Info   :     R2API] com.TeaBoneJones.IncreaseHuntressRange;1.0.0
 [Info   :     R2API] com.Tymmey.Templar;1.1.1
 [Info   :     R2API] com.Varna.EphemeralCoins;2.3.3
 [Info   :     R2API] com.Wolfo.ArtifactOfDissimilarity;2.0.2
@@ -1254,7 +1225,7 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Info   : Unity Log] "usesocialiconflag" is not a recognized ConCommand or ConVar.
 [Info   : Unity Log] Loaded archived convars.
 [Info   : Unity Log] Could not load config /Config/autoexec.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\autoexec.cfg"
-[Info   :     R2API] Generating a total of 13 ContentPacks...
+[Info   :     R2API] Generating a total of 12 ContentPacks...
 [Info   : Unity Log] LoadContentPacks() start
 [Error  : Unity Log] Could not register 'chef_fruitpod_impact' since it contains no NetworkIdentity component
 [Warning: Unity Log] Failed to assign Buffs.Deafened: Asset "bdDeafened" not found.
@@ -1271,6 +1242,7 @@ MINER_MONSOONUNLOCKABLE_REWARD_ID (UnlockableDef)
 MINER_PUPLEUNLOCKABLE_REWARD_ID (UnlockableDef)
 MINER_TUNDRAUNLOCKABLE_REWARD_ID (UnlockableDef)
 MINER_TYPHOONUNLOCKABLE_REWARD_ID (UnlockableDef)
+MINER_UNLOCKABLE_REWARD_ID (UnlockableDef)
 EntityStates.Direseeker.ChargeUltraFireball (RuntimeType)
 EntityStates.LemurianBruiserMonster.Flamebreath (RuntimeType)
 [Debug  :     R2API] Content added from com.rob.Paladin:
@@ -1331,12 +1303,6 @@ RerollItemsAndEquipments (ArtifactDef)
 SingleEliteType (ArtifactDef)
 SingleInteractablePerCategory (ArtifactDef)
 StatsOnLowHealth (ArtifactDef)
-[Debug  :     R2API] Content added from com.rob.HenryMod:
-ROB_HENRY_BODY_DANTEUNLOCKABLE_REWARD_ID (UnlockableDef)
-ROB_HENRY_BODY_MASTERYUNLOCKABLE_REWARD_ID (UnlockableDef)
-ROB_HENRY_BODY_TYPHOONUNLOCKABLE_REWARD_ID (UnlockableDef)
-ROB_HENRY_BODY_UNLOCKABLE_REWARD_ID (UnlockableDef)
-ROB_HENRY_BODY_VERGILUNLOCKABLE_REWARD_ID (UnlockableDef)
 [Debug  :     R2API] Content added from com.Skell.GoldenCoastPlus:
 BigSword (ItemDef)
 GoldenKnurl (ItemDef)
@@ -1408,6 +1374,7 @@ FubukiMods.Modules.Skills+LunarGolemSpecial (RuntimeType)
 FubukiMods.Modules.Skills+LunarGolemUtility (RuntimeType)
 FubukiMods.Modules.Skills+LunarSprintPrimary (RuntimeType)
 [Debug  :     R2API] Content added from com.EnforcerGang.Enforcer:
+ENFORCER_CHARACTERUNLOCKABLE_REWARD_ID (UnlockableDef)
 ENFORCER_CLASSICUNLOCKABLE_REWARD_ID (UnlockableDef)
 ENFORCER_DOOMUNLOCKABLE_REWARD_ID (UnlockableDef)
 ENFORCER_GRANDMASTERYUNLOCKABLE_REWARD_ID (UnlockableDef)
@@ -1424,33 +1391,28 @@ NEMFORCER_TYPHOONUNLOCKABLE_REWARD_ID (UnlockableDef)
 [Error  : Unity Log] could not load display for DisplaySawmerang
 [Warning: Unity Log] Could not find scene with name "loadingbasic".
 [Info   : Unity Log] Command "set_scene" failed: "title" is not a valid scene.
-[Info   : Unity Log] Game content load completed in 8651ms.
+[Info   : Unity Log] Game content load completed in 8508ms.
 [Info   : Unity Log] Setting current language to "en"
 [Error  : Unity Log] [RoR2.ProjectileCatalog] Cannot have more than 256 projectile prefabs defined, which is over the limit for Byte. Check comments at error source for details.
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [256/255]="VoidJailerDeathBombProjectileStill"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [257/255]="VoidMegaCrabDeathBombProjectile"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [258/255]="VoidMegaCrabDeathBombletsProjectile"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [259/255]="VoidRaidCrabMissileProjectile"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [260/255]="VoidRaidCrabMultiBeamDotZone"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [261/255]="VoidSurvivorBlaster1Projectile"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [262/255]="VoidSurvivorCorruptDiskProjectile"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [263/255]="VoidSurvivorCrabCannonProjectileSticky"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [264/255]="VoidSurvivorMegaBlasterBigProjectile"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [265/255]="VoidSurvivorMegaBlasterBigProjectileCorrupted"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [266/255]="VoidSurvivorMegaBlasterProjectileSimple"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [267/255]="VoidSurvivorMegaBlasterSmallProjectile"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [268/255]="VoidSurvivorTwinBlasterProjectile1"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [269/255]="VoidSurvivorTwinBlasterProjectile2"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [270/255]="WindbladeProjectile"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [271/255]="WispCannon"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [256/255]="VoidRaidCrabMissileProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [257/255]="VoidRaidCrabMultiBeamDotZone"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [258/255]="VoidSurvivorBlaster1Projectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [259/255]="VoidSurvivorCorruptDiskProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [260/255]="VoidSurvivorCrabCannonProjectileSticky"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [261/255]="VoidSurvivorMegaBlasterBigProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [262/255]="VoidSurvivorMegaBlasterBigProjectileCorrupted"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [263/255]="VoidSurvivorMegaBlasterProjectileSimple"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [264/255]="VoidSurvivorMegaBlasterSmallProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [265/255]="VoidSurvivorTwinBlasterProjectile1"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [266/255]="VoidSurvivorTwinBlasterProjectile2"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [267/255]="WindbladeProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [268/255]="WispCannon"
 [Debug  :Ephemeral_Coins] NewMoonArtifactManager initialized
 [Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: EntityStates.GhostUtilitySkillState.FixedUpdate
 [Info   : Unity Log] [RoR2.Loadout+BodyLoadoutManager] Tried to add duplicate node /Loadout/Bodies/CHEF/.
 [Info   : Unity Log] [RoR2.Loadout+BodyLoadoutManager] Tried to add duplicate node /Loadout/Bodies/CommandoBody/CommandoBodySpecialFamily.
 [Info   : Unity Log] [RoR2.Loadout+BodyLoadoutManager] Tried to add duplicate node /Loadout/Bodies/FubukiMods/PlayerLunarGolem/.
 [Info   : Unity Log] [RoR2.Loadout+BodyLoadoutManager] Tried to add duplicate node /Loadout/Bodies/FubukiMods/PlayerNullifier/.
-[Info   : Unity Log] [RoR2.Loadout+BodyLoadoutManager] Tried to add duplicate node /Loadout/Bodies/HenryBody/HenryBodyPrimaryFamily.
-[Info   : Unity Log] [RoR2.Loadout+BodyLoadoutManager] Tried to add duplicate node /Loadout/Bodies/HenryBody/HenryBodyPrimaryFamily.
 [Info   : Unity Log] [RoR2.Loadout+BodyLoadoutManager] Tried to add duplicate node /Loadout/Bodies/Templar_Survivor/.
 [Info   : Unity Log] [RoR2.Loadout+BodyLoadoutManager] Tried to add duplicate node /Loadout/Bodies/Templar_Survivor/.
 [Info   : Unity Log] [RoR2.Loadout+BodyLoadoutManager] Tried to add duplicate node /Loadout/Bodies/Templar_Survivor/.
@@ -1556,24 +1518,153 @@ RoR2.SteamworksLobbyDataGenerator,
 RoR2.UI.LogBook.LogBookController,
 RoR2.EOSLobbyDataGenerator
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
-[Info   : Unity Log] stream.Length=267624
-[Info   : Unity Log] Could not find variant index for elementSkillFamilyName=MageBodyUtilityFamily elementSkillName=MageBodyWall
-[Info   : Unity Log] Could not find variant index for elementSkillFamilyName=CommandoBodySpecialFamily elementSkillName=CommandoBodyBarrage
+[Info   : Unity Log] stream.Length=268875
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
-[Info   : Unity Log] stream.Length=259772
+[Info   : Unity Log] stream.Length=260840
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/e9f57f22-a572-4a1b-aa42-d41831444f19.xml
-[Info   : Unity Log] stream.Length=226159
-[Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.HealthComponent.FixedUpdate
-[Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
-[Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.CharacterBody.RecalculateStats
-[Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.CharacterBody.FixedUpdate
-[Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.SceneDirector.Start
+[Info   : Unity Log] stream.Length=225139
 [Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
 [Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.HealingFollowerController.AssignNewTarget
-[Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterBody.AddBuff
-[Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterBody.AddBuff
-[Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
-[Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
 [Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
   at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
   at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
@@ -1845,146 +1936,6 @@ RoR2.EOSLobbyDataGenerator
   at System.Xml.Linq.XDocument.Parse (System.String text, System.Xml.Linq.LoadOptions options) [0x00016] in <9d82f5705c734d15b105d552f83bddc7>:IL_0016 
   at System.Xml.Linq.XDocument.Parse (System.String text) [0x00000] in <9d82f5705c734d15b105d552f83bddc7>:IL_0000 
   at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x0000b] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_000B 
-  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
-[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
-  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
-  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
-  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
-  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
-  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
-  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
-  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
-  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
-  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
-  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
-[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
-  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
-  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
-  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
-  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
-  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
-  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
-  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
-  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
-  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
-  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
-[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
-  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
-  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
-  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
-  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
-  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
-  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
-  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
-  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
-  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
-  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
-[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
-  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
-  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
-  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
-  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
-  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
-  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
-  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
-  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
-  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
-  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
-[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
-  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
-  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
-  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
-  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
-  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
-  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
-  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
-  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
-  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
   at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
 [Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
   at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
@@ -2412,10 +2363,6 @@ RoR2.EOSLobbyDataGenerator
 [Warning: Unity Log] LogbookChanger
 [Debug  :Ephemeral_Coins] Artifact mode 2 (always on/hidden); setting up prefabs.
 [Debug  :Ephemeral_Coins] PrefabSetup True
-[Info   : Unity Log] MonsoonOnly unlocked CHEF_CHEFUNLOCKABLE_REWARD_ID
-[Debug  :     R2API] Hook removed by assembly: ChefMod.dll for: RoR2.HealthComponent.FixedUpdate
-[Debug  :     R2API] Hook removed by assembly: ChefMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
-[Debug  :     R2API] Hook removed by assembly: ChefMod.dll for: RoR2.CharacterBody.RecalculateStats
 [Info   : Unity Log] Unloaded scene loadingbasic
 [Info   : Unity Log] Active scene changed from  to splash
 [Info   : Unity Log] Loaded scene splash loadSceneMode=Single
@@ -2423,39 +2370,166 @@ RoR2.EOSLobbyDataGenerator
 [Info   : Unity Log] Unloaded scene splash
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
+[Debug  :     R2API] Hook removed by assembly: LittleGameplayTweaks.dll for: RoR2.UI.MainMenu.MainMenuController.Start
+[Debug  :     R2API] Hook removed by assembly: WolfoQualityOfLife.dll for: RoR2.UI.MainMenu.MainMenuController.Start
 [Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object.
 Stack trace:
 RoR2.UI.SkinControllers.ButtonSkinController.StaticUpdate () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0014)
 RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
 
-[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
-[Debug  :     R2API] Hook removed by assembly: LittleGameplayTweaks.dll for: RoR2.UI.MainMenu.MainMenuController.Start
-[Debug  :     R2API] Hook removed by assembly: WolfoQualityOfLife.dll for: RoR2.UI.MainMenu.MainMenuController.Start
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] Saved file "e9f57f22-a572-4a1b-aa42-d41831444f19.xml" (226240 bytes)
-[Debug  :     R2API] Hook removed by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
-[Debug  :     R2API] Hook removed by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
-[Debug  :     R2API] Hook removed by assembly: PaladinMod.dll for: RoR2.CharacterBody.AddBuff
-[Debug  :     R2API] Hook removed by assembly: PaladinMod.dll for: RoR2.CharacterBody.AddBuff
-[Debug  :     R2API] Hook removed by assembly: PaladinMod.dll for: RoR2.HealingFollowerController.AssignNewTarget
-[Debug  :     R2API] Hook removed by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
-[Debug  :     R2API] Hook removed by assembly: PaladinMod.dll for: RoR2.SceneDirector.Start
-[Debug  :     R2API] Hook removed by assembly: ChefMod.dll for: RoR2.CharacterBody.FixedUpdate
-[Info   : Unity Log] Saved file "e9f57f22-a572-4a1b-aa42-d41831444f19.xml" (226240 bytes)
-[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
-[Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.CharacterBody.FixedUpdate
-[Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.SceneDirector.Start
-[Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
-[Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.HealingFollowerController.AssignNewTarget
-[Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterBody.AddBuff
-[Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterBody.AddBuff
-[Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
-[Debug  :     R2API] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Info   : Unity Log] Setting offline scene to logbook
+[Info   : Unity Log] Unloaded scene title
+[Warning: Unity Log] logbook has no groundNodesAsset
+[Warning: Unity Log] logbook has no airNodesAsset
+[Info   : Unity Log] Active scene changed from  to logbook
+[Info   : Unity Log] Loaded scene logbook loadSceneMode=Single
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
+[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
+  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
+  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
+  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
+  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
+  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
+  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
+  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
+  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
+  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
+  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
+  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
+  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
 [Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
   at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
   at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
@@ -3148,571 +3222,25 @@ RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
   at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
   at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
   at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
-[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
-  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
-  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
-  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
-  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
-  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
-  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
-  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
-  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
-  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
-  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
-[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
-  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
-  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
-  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
-  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
-  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
-  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
-  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
-  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
-  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
-  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
-[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
-  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
-  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
-  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
-  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
-  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
-  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
-  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
-  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
-  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
-  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
-[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
-  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
-  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
-  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
-  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
-  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
-  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
-  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
-  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
-  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
-  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
-[Info   : Unity Log] Could not load RunReport "RoR2.MorgueManager+HistoryFileInfo": System.Xml.XmlException: The '/' character, hexadecimal value 0x2F, cannot be included in a name.
-  at System.Xml.XmlConvert.VerifyNCName (System.String name, System.Xml.ExceptionType exceptionType) [0x00044] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0044 
-  at System.Xml.XmlConvert.VerifyNCName (System.String name) [0x00000] in <bba3a54eadce4176b12f94bef4e21a75>:IL_0000 
-  at System.Xml.Linq.XName..ctor (System.Xml.Linq.XNamespace ns, System.String localName) [0x0000d] in <9d82f5705c734d15b105d552f83bddc7>:IL_000D 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName, System.Int32 index, System.Int32 count) [0x00023] in <9d82f5705c734d15b105d552f83bddc7>:IL_0023 
-  at System.Xml.Linq.XNamespace.GetName (System.String localName) [0x00017] in <9d82f5705c734d15b105d552f83bddc7>:IL_0017 
-  at System.Xml.Linq.XName.Get (System.String expandedName) [0x00090] in <9d82f5705c734d15b105d552f83bddc7>:IL_0090 
-  at System.Xml.Linq.XName.op_Implicit (System.String expandedName) [0x00005] in <9d82f5705c734d15b105d552f83bddc7>:IL_0005 
-  at RoR2.Stats.StatSheet.FromXml (System.Xml.Linq.XElement element, RoR2.Stats.StatSheet& statSheet) [0x00031] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0031 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo& playerInfo) [0x000b9] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_00B9 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport+PlayerInfo+<>c.<ArrayFromXml>b__32_1 (System.Xml.Linq.XElement e) [0x00002] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0002 
-  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x0004d] in <55b3683038794c198a24e8a1362bfc61>:IL_004D 
-  at System.Linq.Buffer`1[TElement]..ctor (System.Collections.Generic.IEnumerable`1[T] source) [0x00072] in <55b3683038794c198a24e8a1362bfc61>:IL_0072 
-  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000e] in <55b3683038794c198a24e8a1362bfc61>:IL_000E 
-  at RoR2.RunReport+PlayerInfo.ArrayFromXml (System.Xml.Linq.XElement element, RoR2.RunReport+PlayerInfo[]& playerInfos) [0x0004f] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_004F 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at HGXml.Deserialize[T] (System.Xml.Linq.XElement element, T& dest) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.RunReport.FromXml (System.Xml.Linq.XElement element, RoR2.RunReport& runReport) [0x001a7] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_01A7 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value, HGXml+SerializationRules`1[T] rules) [0x00027] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0027 
-  at HGXml.FromXml[T] (System.Xml.Linq.XElement element, T& value) [0x00000] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0000 
-  at RoR2.MorgueManager+HistoryFileInfo.LoadRunReport (RoR2.RunReport dest) [0x00015] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015 
-  at RoR2.MorgueManager.LoadHistoryRunReports (System.Collections.Generic.List`1[T] dest) [0x00034] in <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0034 
-[Info   : Unity Log] Tried to add duplicate node /Logbook/
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REPULSIONARMORPLATE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ATTACKSPEEDANDMOVESPEED_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BARRIERONKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEAR_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLEEDONHIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BOSSDAMAGEBONUS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITGLASSES_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CROWBAR_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FIREWORK_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FLATHEALTH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FRAGILEDAMAGEBONUS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GOLDONHURT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALWHILESAFE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALINGPOTION_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HOOF_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_IGNITEONKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MEDKIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MUSHROOM_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_NEARBYDAMAGEBONUS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_OUTOFCOMBATARMOR_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PERSONALSHIELD_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPWHITE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SECONDARYSKILLMAGAZINE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTBONUS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STICKYBOMB_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STUNCHANCEONHIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SYRINGE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TOOTH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TREASURECACHE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_WARDONLEVEL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ATTACKSPEEDONCRIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BANDOLIER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BONUSGOLDPACKONKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CHAINLIGHTNING_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DEATHMARK_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ENERGIZEDONEQUIPMENTUSE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EQUIPMENTMAGAZINE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXECUTELOWHEALTHELITE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXPLODEONDEATH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FEATHER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FIRERING_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FREECHEST_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALONCRIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ICERING_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INFUSION_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_JUMPBOOST_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MISSILE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MOVESPEEDONKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PHASING_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PRIMARYSKILLSHURIKEN_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REGENERATINGSCRAP_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPGREEN_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SEED_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SLOWONHIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTARMOR_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTOUTOFCOMBAT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SQUIDTURRET_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STRENGTHENBURN_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TPHEALINGNOVA_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_THORNS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_WARCRYONMULTIKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ALIENHEAD_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ARMORREDUCTIONONHIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BARRIERONOVERHEAL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEHEMOTH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BOUNCENEARBY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CAPTAINDEFENSEMATRIX_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CLOVER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITDAMAGE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DAGGER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DRONEWEAPONS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRALIFE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FALLBOOTS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GHOSTONKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEADHUNTER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ICICLE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_IMMUNETODEBUFF_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INCREASEHEALING_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_KILLELITEFRENZY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LASERTURBINE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MOREMISSILE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_NOVAONHEAL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PERMANENTDEBUFFONHIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INTERSTELLARDESKPLANT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMEQUIPMENTTRIGGER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPRED_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHOCKNEARBY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TALISMAN_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_UTILITYSKILLMAGAZINE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ARTIFACTKEY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEETLEGLAND_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/BIGSWORD_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLEEDONHITANDEXPLODE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FIREBALLSONHIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/GOLDENKNURL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_KNURL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/LASEREYE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LIGHTNINGSTRIKEONHIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MINORCONSTRUCTONKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_NOVAONLOWHEALTH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PARENTEGG_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PEARL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ROBOBALLBUDDY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPYELLOW_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHINYPEARL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SIPHONONLOWHEALTH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTWISP_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TITANGOLDDURINGTP_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEARVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLEEDONHITVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITGLASSESVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MUSHROOMVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TREASURECACHEVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CHAINLIGHTNINGVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ELEMENTALRINGVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EQUIPMENTMAGAZINEVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXPLODEONDEATHVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MISSILEVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SLOWONHITVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CLOVERVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRALIFEVOID_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_VOIDMEGACRABITEM_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_AUTOCASTEQUIPMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FOCUSEDCONVERGENCE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GOLDONHIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HALFATTACKSPEEDHALFCOOLDOWNS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HALFSPEEDDOUBLEHEALTH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARBADLUCK_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARDAGGER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARPRIMARYREPLACEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSECONDARYREPLACEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSPECIALREPLACEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSUN_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARTRINKET_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARUTILITYREPLACEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MONSTERSONSHRINEUSE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMDAMAGEZONE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMLYLUNAR_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REPEATHEAL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHIELDONLY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BURNNEARBY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_CRIPPLEWARD_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_METEOR_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_TONIC_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BFG_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BLACKHOLE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BOSSHUNTER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_CLEANSE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_COMMANDMISSILE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_CRITONUSE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_DEATHPROJECTILE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_DRONEBACKUP_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_FIREBALLDASH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_FRUIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GAINARMOR_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GATEWAY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GOLDGAT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GUMMYCLONE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_JETPACK_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_LIFESTEALONHIT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_LIGHTNING_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_MOLOTOV_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_MULTISHOPCARD_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_PASSIVEHEALING_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_RECYCLER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_SAWMERANG_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_SCANNER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_TEAMWARCRY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_VENDINGMACHINE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDINFESTOR_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/WISP_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/ACIDLARVA_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/FLYINGVERMIN_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/JELLYFISH_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BEETLE_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/LEMURIAN_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VERMIN_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/HERMIT_CRAB_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MINORCONSTRUCT_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/IMP_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VULTURE_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/Templar_Survivor
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/ROBOBALLMINI_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDBARNACLE_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MINIMUSHROOM_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BELL_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BEETLEGUARD_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BISON_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GOLEM_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/PARENT_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/CLAYBRUISER_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GREATERWISP_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/LEMURIANBRUISER_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BROTHER_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GUP_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/CLAYGRENADIER_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/NULLIFIER_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/NULLIFIER_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDRAIDCRAB_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BEETLEQUEEN_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/CLAYBOSS_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/TITAN_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VAGRANT_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDJAILER_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDJAILER_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MAGMAWORM_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/ROBOBALLBOSS_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SUPERROBOBALLBOSS_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/DIRESEEKER_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GRAVEKEEPER_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/IMPBOSS_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MEGACONSTRUCT_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDMEGACRAB_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDMEGACRAB_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GRANDPARENT_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SCAV_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/TITANGOLD_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/ELECTRICWORM_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_BLACKBEACH_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_GOLEMPLAINS_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SNOWYFOREST_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ANCIENTLOFT_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_FOGGYSWAMP_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_GOOLAKE_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_FROZENWALL_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SULFURPOOLS_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_WISPGRAVEYARD_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_DAMPCAVE_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ROOTJUNGLE_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SHIPGRAVEYARD_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SKYMEADOW_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_MOON_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_VOIDSTAGE_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_VOIDRAID_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ARTIFACTWORLD_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_GOLDSHORES_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_MYSTERYSPACE_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_LIMBO_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_BAZAAR_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ARENA_TITLE
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/COMMANDO_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/HUNTRESS_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/BANDIT2_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/TOOLBOT_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/ENGI_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/ENFORCER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/NEMFORCER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MAGE_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MERC_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/PALADIN_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/TREEBOT_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/LOADER_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MINER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/CROCO_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/CAPTAIN_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/HERETIC_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/RAILGUNNER_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/VOIDSURVIVOR_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/Templar_Survivor
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/CHEF_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/HAND_OVERCLOCKED_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/ROB_HENRY_BODY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DIE5TIMES_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETELEPORTER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DISCOVER10UNIQUETIER1_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_REPEATEDLYDUPLICATEITEMS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FAILSHRINECHANCE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLELITEMONSTER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETELEPORTERWITHOUTINJURY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLBOSSQUICK_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ATTACKSPEED_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MULTICOMBATSHRINE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DISCOVER5EQUIPMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLELITESMILESTONE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLELEMENTALLEMURIANS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEPRISMATICTRIAL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLTOTALENEMIES_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOVESPEED_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_AUTOMATIONACTIVATION_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CHARGETELEPORTERWHILENEARDEATH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOOPONCE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETE20STAGES_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_STAYALIVE1_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETHREESTAGESWITHOUTHEALING_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HARDELITEBOSSKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDDEVILALTAR_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HARDHITTER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDUNIQUENEWTSTATUES_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_SUICIDEHERMITCRABS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_NEVERBACKDOWN_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEMAINENDINGHARD_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLBOSSQUANTITYINRUN_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEUNKNOWNENDING_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAJORMULTIKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CARRYLUNARITEMS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_USETHREEPORTALS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDTIMEDCHEST_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BURNTODEATH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DIE20TIMES_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOTALDRONESREPAIRED_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLGOLDTITANINONECYCLE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOTALMONEYCOLLECTED_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEMULTIBOSSSHRINE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAXHEALINGSHRINE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CLEANUPDUTY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOGCOLLECTOR_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOKILLOVERLOADINGWORM_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOFASTFIRSTSTAGECLEAR_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDONONLUNARENDURANCE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOCLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSALLGLAIVEBOUNCESKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSCOLLECTCROWBARS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSMAINTAINFULLHEALTHONFROZENWALL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSCLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETHREESTAGES_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2CONSECUTIVERESET_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2STACKSUPERBLEED_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2REVOLVERFINALE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2CLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_REPEATFIRSTTELEPORTER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTGUARDTELEPORTER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTKILLIMPBOSSWITHBFG_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTBEATARENALATER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTCLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETE30STAGESCAREER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGIKILLBOSSQUICK_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGICLEARTELEPORTERWITHZEROMONSTERS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGIARMY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGICLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_DOOMUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_RIFLEUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_STUNGRENADEUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_GRANDMASTERYUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_ROBITUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_CLASSICUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_NEMESISSKINUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_NEMESIS2UNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/NEMFORCER_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/NEMFORCER_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FREEMAGE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEMULTIKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEFASTBOSS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEAIRBORNEMULTIKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGECLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCDONTTOUCHGROUND_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCXSKILLSINYSECONDS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCCOMPLETETRIALWITHFULLHEALTH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCCLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_LUNARSHARDUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_HEALUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_TORPORUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_CRUELSUNUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_POISONUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_CLAYUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RESCUETREEBOT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTLOWHEALTHTELEPORTER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTDUNKCLAYBOSS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTBIGHEAL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTCLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DEFEATSUPERROBOBALLBOSS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERSPEEDRUN_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERBIGSLAM_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERKILLLOADERS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERCLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_CRUSHUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_CRACKUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_CAVEINUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_MONSOONUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_TUNDRAUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_PUPLEUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_BLACKSMITHUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BEATARENA_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOKILLWEAKENEMIESMILESTONE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOKILLSCAVENGER_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOTOTALINFECTIONSMILESTONE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOCLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEMAINENDING_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINSUPPLYDROPFINALE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINVISITSEVERALSTAGES_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINBUYMEGADRONE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINCLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERCONSECUTIVEWEAKPOINTS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERDEALMASSIVEDAMAGE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERAIRBORNEMULTIKILL_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERCLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEVOIDENDING_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_VOIDSURVIVORCLEARGAMEMONSOON_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/CHEF_CHEFUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/CHEF_SLICEUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ROB_HENRY_BODY_UNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ROB_HENRY_BODY_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ROB_HENRY_BODY_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ROB_HENRY_BODY_VERGILUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ROB_HENRY_BODY_DANTEUNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTBOMB_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTCOMMAND_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTELITEONLY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTENIGMA_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTFRIENDLYFIRE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTGLASS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTMIXENEMY_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTMONSTERTEAMGAINSITEMS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTRANDOMSURVIVORONRESPAWN_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSACRIFICE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSHADOWCLONE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSINGLEMONSTERTYPE_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSWARMS_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTTEAMDEATH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTWEAKASSKNEES_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTWISPONDEATH_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_UNLOCKABLE_ACHIEVEMENT_NAME
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STATS/
-[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MORGUE/
-[Warning: Unity Log] LogbookChanger
+[Info   : Unity Log] Building category buttons.
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (268663 bytes)
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (268721 bytes)
+[Info   : Unity Log] Setting offline scene to title
+[Info   : Unity Log] Unloaded scene logbook
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
 [Info   : Unity Log] BaseMainMenuScreen: OnEnter()
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object.
+Stack trace:
+RoR2.UI.SkinControllers.ButtonSkinController.StaticUpdate () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0014)
+RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
+
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Invalid Layer Index '-1'
 [Info   : Unity Log] NetworkManagerSystem.desiredHost={ hostType=Self listen=False maxPlayers=4 }
 [Info   :     R2API] Server Handlers registered
 [Warning: Unity Log] The prefab 'ArenaMissionController' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
@@ -3730,34 +3258,22 @@ RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
 [Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby loadedScenes=lobby
 [Error  : Unity Log] A connection has already been set as ready. There can only be one.
 [Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=18, bodyIndex=83
-[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from None to 83
-[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from None to 83
+[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=3, bodyIndex=137
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from None to 137
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from None to 137
 [Info   : Unity Log] Could not load config /Config/server_pregame.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\server_pregame.cfg"
 [Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
 [Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
 [Info   : Unity Log] Received vote from blazingdrummer
 [Info   : Unity Log] Accepting vote from blazingdrummer
+[Warning: Unity Log] Could not find transform "ClayBruiserArmature/ROOT/base/stomach/chest/neck/head/VagabondHead" relative to "mdlClayBruiser".
+[Warning: Unity Log] Could not find transform "ClayBruiserArmature/ROOT/base/stomach/chest/neck/head/VagabondHead" relative to "mdlClayBruiser".
 [Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
-[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=10, bodyIndex=10
-[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 83 to 10
-[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 83 to 10
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (259846 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (259903 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (259975 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260047 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260096 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260170 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260678 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260170 bytes)
-[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=18, bodyIndex=83
-[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 10 to 83
-[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 10 to 83
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260241 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260302 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260374 bytes)
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260816 bytes)
-[Info   : Unity Log] Run seed:  9799811871507197425
+[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=20, bodyIndex=142
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 137 to 142
+[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 137 to 142
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (268715 bytes)
+[Info   : Unity Log] Run seed:  10881773860509240452
 [Debug  :Ephemeral_Coins] blazingdrummer added to CoinStorage!
 [Warning:Ephemeral_Coins] SyncCoinStorage: Host ran this. Skipping.
 [Debug  :Ephemeral_Coins] Setting up CoinStorage finished.
@@ -3779,88 +3295,106 @@ RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
 [Info   : Unity Log] MAP_SNOWYFOREST_TITLE
 [Debug  :     R2API] Hook removed by assembly: ArtifactDissimilarity.dll for: RoR2.Language.GetString
 [Info   : Unity Log] reorder list
-[Info   : Unity Log] Position not free or not found.
-[Info   : Unity Log] Position not free or not found.
 [Debug  :     R2API] Hook removed by assembly: ArtifactDissimilarity.dll for: RoR2.SceneDirector.Start
 [Debug  :     R2API] Hook removed by assembly: WolfoQualityOfLife.dll for: RoR2.Projectile.ProjectileManager.FireProjectile
 [Debug  :     R2API] Hook added by assembly: WolfoQualityOfLife.dll for: EntityStates.Bell.BellWeapon.ChargeTrioBomb.OnEnter
 [Info   : Unity Log] <color=#beeca1><size=15px>A new moon rises...</size></color>
 [Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
-[Info   : Unity Log] NetworkManagerSystem.desiredHost={ hostType=None }
-[Info   : Unity Log] Network shutting down...
-[Info   : Unity Log] Server shutting down...
-[Info   : Unity Log] Issued kick message to all remote clients.
-[Info   : Unity Log] Finished waiting for clients to disconnect.
-[Info   : Unity Log] StopHost()
-[Info   : Unity Log] Server shutdown complete.
+[Info   : Unity Log] Ping target Chest1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Chest (<nobr><color=#EFEB1A>$25</color></nobr>).</style>
+[Info   : Unity Log] <style=cIsHealing>blazingdrummer wants to move here.</style>
+[Info   : Unity Log] <style=cIsHealing>blazingdrummer wants to move here.</style>
+[Info   : Unity Log] Ping target EquipmentBarrel(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Equipment Barrel (<nobr><color=#EFEB1A>$25</color></nobr>).</style>
+[Info   : Unity Log] Ping target Turret1Broken(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Broken Gunner Turret (<nobr><color=#EFEB1A>$30</color></nobr>).</style>
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] Ping target ShrineChanceSnowy Variant(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of Chance (<nobr><color=#EFEB1A>$17</color></nobr>).</style>
+[Info   : Unity Log] Ping target NewtStatue (1) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Newt Altar (<nobr><color=#ADBDFA> <sprite name="LunarCoin" tint=1>1</color></nobr>).</style>
+[Info   : Unity Log] Ping target Duplicator(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: 3D Printer (Sticky Bomb) (<nobr><color=#FFFFFF>1 Item(s)</color></nobr>).</style>
+[Info   : Unity Log] Ping target MultiShopTerminal(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Multishop Terminal (Tri-Tip Dagger) (<nobr><color=#EFEB1A>$25</color></nobr>).</style>
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] Ping target ShrineChanceSnowy Variant(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Shrine of Chance (<nobr><color=#EFEB1A>$17</color></nobr>).</style>
+[Info   : Unity Log] Ping target Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Teleporter.</style>
+[Info   : Unity Log] Ping target Scrapper(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Scrapper.</style>
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] 4
+[Info   : Unity Log] <color=#8296ae>blazingdrummer scrapped <color=#77FF17>Runald's Band</color></color>
+[Info   : Unity Log] Ping target Scrapper(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: Scrapper.</style>
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] Position not free or not found.
+[Debug  :     R2API] Hook removed by assembly: WolfoQualityOfLife.dll for: RoR2.CharacterModel.SetEquipmentDisplay
+[Debug  :     R2API] Hook added by assembly: WolfoQualityOfLife.dll for: RoR2.CharacterModel.SetEquipmentDisplay
+[Debug  :     R2API] Hook removed by assembly: WolfoQualityOfLife.dll for: RoR2.CharacterModel.SetEquipmentDisplay
+[Info   : Unity Log] Ping target Duplicator(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] <style=cIsDamage>blazingdrummer has found: 3D Printer (Soldier's Syringe) (<nobr><color=#FFFFFF>1 Item(s)</color></nobr>).</style>
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine, but gain nothing.</color>
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] PlacementMode.Approximate:  could not find nodes satisfying conditions for cscFlyingVerminSnowy.  targetPosition=(39.7, 26.2, -198.8), minDistance=25, maxDistance=40, hullSize =Human, requiredFlags=None, forbiddenFlags=NoCharacterSpawn, preventOverhead=True
+[Info   : Unity Log] Spawn card cscFlyingVerminSnowy (RoR2.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] <style=cEvent>You activated the <style=cDeath>Teleporter <sprite name="TP" tint=1></style>.</style>
+[Info   : Unity Log] Next boss spawn:  cscTitanBlackBeach (RoR2.CharacterSpawnCard)
+[Info   : Unity Log] Transfered 2.4 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] Transfered 26 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] CombatDirector hasStartedwave = true
+[Info   : Unity Log] CombatDirector wave complete
+[Info   : Unity Log] Transfered 64.96001 monster credits from Teleporter1(Clone) (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
+[Error  : Unity Log] Object TitanRechargeRocksEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] PlacementMode.Approximate:  could not find nodes satisfying conditions for cscFlyingVerminSnowy.  targetPosition=(-110.2, 13.7, -130.7), minDistance=25, maxDistance=40, hullSize =Human, requiredFlags=None, forbiddenFlags=NoCharacterSpawn, preventOverhead=True
+[Info   : Unity Log] Spawn card cscFlyingVerminSnowy (RoR2.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Error  : Unity Log] Object TitanRechargeRocksEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Info   : Unity Log] PlacementMode.Approximate:  could not find nodes satisfying conditions for cscFlyingVerminSnowy.  targetPosition=(-134.3, 14.8, -135.1), minDistance=25, maxDistance=40, hullSize =Human, requiredFlags=None, forbiddenFlags=NoCharacterSpawn, preventOverhead=True
+[Info   : Unity Log] Spawn card cscFlyingVerminSnowy (RoR2.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Error  : Unity Log] Cannot set the parent of the GameObject 'Sparks,Wiggly' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
+[Error  : Unity Log] Cannot set the parent of the GameObject 'Sparks, Trail' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
+[Error  : Unity Log] Cannot set the parent of the GameObject '3DDebris' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] Spawn card cscFlyingVerminSnowy (RoR2.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] <style=cShrine>You offer to the shrine and are rewarded!</color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine, but gain nothing.</color>
+[Info   : Unity Log] <style=cShrine>You offer to the shrine, but gain nothing.</color>
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] PlacementMode.Approximate:  could not find nodes satisfying conditions for cscFlyingVerminSnowy.  targetPosition=(-82.9, 17.8, 192.0), minDistance=25, maxDistance=40, hullSize =Human, requiredFlags=None, forbiddenFlags=NoCharacterSpawn, preventOverhead=True
+[Info   : Unity Log] Spawn card cscFlyingVerminSnowy (RoR2.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] PlacementMode.Approximate:  could not find nodes satisfying conditions for cscFlyingVerminSnowy.  targetPosition=(-84.1, 17.6, 192.5), minDistance=25, maxDistance=40, hullSize =Human, requiredFlags=None, forbiddenFlags=NoCharacterSpawn, preventOverhead=True
+[Info   : Unity Log] Spawn card cscFlyingVerminSnowy (RoR2.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] <style=cShrine>You offer to the shrine, but gain nothing.</color>
+[Debug  :Ephemeral_Coins] giveCoinsToUser: blazingdrummer 1
+[Info   : Unity Log] meshSnowyForestPot (1) (UnityEngine.GameObject) is missing surface def
 [Info   : Unity Log] Unloaded scene snowyforest
-[Info   : Unity Log] Active scene changed from  to title
-[Info   : Unity Log] Loaded scene title loadSceneMode=Single
-[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object.
-Stack trace:
-RoR2.UI.SkinControllers.ButtonSkinController.StaticUpdate () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0014)
-RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
-
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] NetworkManagerSystem.desiredHost={ hostType=Self listen=False maxPlayers=4 }
-[Info   :     R2API] Server Handlers registered
-[Warning: Unity Log] The prefab 'ArenaMissionController' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Warning: Unity Log] The prefab 'Moon2DropshipZone' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Warning: Unity Log] The prefab 'HOLDER_ Gauntlets' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Warning: Unity Log] The prefab 'VoidCamp' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Info   :     R2API] Client Handlers registered
-[Info   : Unity Log] Unloaded scene title
-[Error  : Unity Log] UnityEngine.AddressableAssets.InvalidKeyException: Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown., Key=RoR2/Base/Common/Fonts/Bombardier/tmpbombdropshadow.asset, Type=TMPro.TMP_FontAsset
-[Error  : Unity Log] UnityEngine.AddressableAssets.InvalidKeyException: Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown., Key=RoR2/Base/Common/Fonts/Bombardier/tmpbombdropshadow.asset, Type=TMPro.TMP_FontAsset
-[Info   : Unity Log] Active scene changed from  to lobby
-[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
-[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
-[Info   : Unity Log] NetworkManagerSystem.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:259 pos:259
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby loadedScenes=lobby
-[Error  : Unity Log] A connection has already been set as ready. There can only be one.
-[Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=18, bodyIndex=83
-[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from None to 83
-[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from None to 83
-[Info   : Unity Log] Could not load config /Config/server_pregame.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\server_pregame.cfg"
-[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
-[Info   : Unity Log] Applying persistent ballot of votes for LocalUser Unlocked.
-[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
-[Info   : Unity Log] Received vote from blazingdrummer
-[Info   : Unity Log] Accepting vote from blazingdrummer
-[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260372 bytes)
-[Info   : Unity Log] Run seed:  3995332753602712005
-[Debug  :Ephemeral_Coins] blazingdrummer added to CoinStorage!
-[Warning:Ephemeral_Coins] SyncCoinStorage: Host ran this. Skipping.
-[Debug  :Ephemeral_Coins] Setting up CoinStorage finished.
-[Info   : Unity Log] Unloaded scene lobby
-[Info   : Unity Log] Active scene changed from  to blackbeach2
-[Info   : Unity Log] Loaded scene blackbeach2 loadSceneMode=Single
+[Info   : Unity Log] Active scene changed from  to foggyswamp
+[Info   : Unity Log] Loaded scene foggyswamp loadSceneMode=Single
 [Info   : Unity Log] Running
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=blackbeach2 loadedScenes=blackbeach2
+[Warning: Unity Log] The AnimationClip 'AltarSkeletonArmature|Idle Loop' used by the Animation component 'mdlAltarSkeleton' must be marked as Legacy.
+[Info   : Unity Log] Default clip could not be found in attached animations list.
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=foggyswamp loadedScenes=foggyswamp
 [Info   : Unity Log] Client ready.
 [Info   : Unity Log] Player 0 already added, aborting.
 [Info   : Unity Log] Wqol preSceneDic
 [Debug  :     R2API] Hook removed by assembly: ArtifactDissimilarity.dll for: RoR2.SceneDirector.GenerateInteractableCardSelection
 [Debug  :     R2API] Hook removed by assembly: ArtifactDissimilarity.dll for: RoR2.SceneDirector.GenerateInteractableCardSelection
-[Info   : Unity Log] Spending 220 credits on interactables...
-[Info   : Unity Log] MAP_BLACKBEACH_TITLE
+[Info   : Unity Log] Spending 280 credits on interactables...
+[Info   : Unity Log] MAP_FOGGYSWAMP_TITLE
 [Debug  :     R2API] Hook removed by assembly: ArtifactDissimilarity.dll for: RoR2.Language.GetString
 [Info   : Unity Log] Position not free or not found.
-[Info   : Unity Log] reorder list
-[Info   : Unity Log] <color=#beeca1><size=15px>A new moon rises...</size></color>
-[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Position not free or not found.
+[Info   : Unity Log] Transfered 12.8 monster credits from Camp 1 - Void Monsters & Interactables (UnityEngine.GameObject) to Camp 2 - Flavor Props & Void Elites (UnityEngine.GameObject)
+[Info   : Unity Log] Transfered 5.12 monster credits from Camp 2 - Flavor Props & Void Elites (UnityEngine.GameObject) to Director (UnityEngine.GameObject)
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Animator.GotoState: State could not be found
@@ -3871,8 +3405,11 @@ RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
 [Info   : Unity Log] Issued kick message to all remote clients.
 [Info   : Unity Log] Finished waiting for clients to disconnect.
 [Info   : Unity Log] StopHost()
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::RemoveBuff(RoR2.BuffDef)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::RemoveBuff(RoR2.BuffDef)' called on client
+[Warning: Unity Log] [Server] function 'System.Void RoR2.CharacterBody::RemoveBuff(RoR2.BuffDef)' called on client
 [Info   : Unity Log] Server shutdown complete.
-[Info   : Unity Log] Unloaded scene blackbeach2
+[Info   : Unity Log] Unloaded scene foggyswamp
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=Single
 [Info   : Unity Log] BaseMainMenuScreen: OnEnter()
@@ -3887,7 +3424,7 @@ RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] Saved file "c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml" (260377 bytes)
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (268715 bytes)
 [Info   : Unity Log] in save archive convars
 [Info   : Unity Log] Shutting down Steamworks...
 [Info   : Unity Log] Shut down Steamworks.

@@ -1,0 +1,11 @@
+{
+  "namespace": "Faustvii",
+  "name": "QoLChests",
+  "description": "Quality of life changes to chests, terminals, scrapper, duplicator, turrets and drones. - Hide when empty and highlighting.",
+  "version_number": "1.1.8",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.1902",
+    "RiskofThunder-HookGenPatcher-1.2.3"
+  ],
+  "website_url": "https://github.com/Faustvii/R2Mods"
+}

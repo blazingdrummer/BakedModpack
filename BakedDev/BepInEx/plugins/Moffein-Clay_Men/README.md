@@ -14,6 +14,10 @@ Place ClayMen.dll in /Risk of Rain 2/BepInEx/plugins/
 
 ## Changelog
 
+1.4.3
+
+- Fixed console spam when booting up the game.
+
 1.4.2
 
 - Added option to remove Imps from stages (default is Scorched Acres only)
