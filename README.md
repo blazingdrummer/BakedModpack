@@ -6,10 +6,12 @@
 - Captain hidden realms change also overlaps
 ___
 
-pool shows pearl on ping
+pool shows pearl on ping (FIXED)
 should Bandit specials execute?
 Void Reaver secondary gets cancelled by sprint
 could disable gold elites since they aren't exactly polished
+talk to Fubuki about Void Reaver bug
+sharesuite cauldron fix breaks r/w cauldron
 
 # To-Do
 ## Backend

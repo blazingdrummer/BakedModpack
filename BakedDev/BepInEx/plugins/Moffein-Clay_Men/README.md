@@ -1,18 +1,31 @@
 Adds the unfinished Clay Man into the game as a fast melee trash mob that can deal high damage to unwary players.
+
 They can chase and keep up with sprinting players, but can be outmaneuvered by jumping and strafing.
 
 Spawns on Abandoned Aqueduct, Aphelian Sanctuary, Sulfur Pools
+
 Replaces Imps on Scorched Acres
 
 [![](https://i.imgur.com/Wa6TVRR.png)]()
 
 All players need the mod.
+
 Partially based on rob's unfinished Clay Man code.
 
 ## Installation
 Place ClayMen.dll in /Risk of Rain 2/BepInEx/plugins/
 
 ## Changelog
+
+1.4.5
+
+- Removed debug text.
+
+1.4.4
+
+- Lunge force increased from 1600 -> 1800 (reverted 1.4.0 lunge force nerf)
+- Fixed Ghost Clay Men being unable to deal damage.
+	- Railgunner weakpoint has shifted as a result of this change due to internal jank.
 
 1.4.3
 
@@ -42,7 +55,7 @@ Place ClayMen.dll in /Risk of Rain 2/BepInEx/plugins/
 	- Skill activation distance reduced from 16m -> 12m
 	- Increased hitbox vertical range to be closer to Imps.
 	
-	*New damage is slightly less than a Blind Vermin, but swings slower than both Imps and Vermin. Mobility/aggressiveness has been lowered a bit, but remains higher than Vermin and Imps.*
+*New damage is slightly less than a Blind Vermin, but swings slower than both Imps and Vermin. Mobility/aggressiveness has been lowered a bit, but remains higher than Vermin and Imps.*
 
 - Spawn Pool
 	- Added to Dissonance.
@@ -64,7 +77,7 @@ Place ClayMen.dll in /Risk of Rain 2/BepInEx/plugins/
 - Reduced HP 160 -> 140 (same as Imps now)
 - Reduced base damage 12 -> 11
 
-I'm trying to tone down Clay Men a bit, while still making sure they're still strong enough to be a threat to the player. I don't want to touch their speed and mobility since that's their defining feature. Their HP won't go any lower than this since they should be at least as sturdy as Imps at the minimum. Let me know how they feel with this update!
+	*I'm trying to tone down Clay Men a bit, while still making sure they're still strong enough to be a threat to the player. I don't want to touch their speed and mobility since that's their defining feature. Their HP won't go any lower than this since they should be at least as sturdy as Imps at the minimum. Let me know how they feel with this update!*
 
 1.3.5
 

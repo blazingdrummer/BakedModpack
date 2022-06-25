@@ -3,7 +3,7 @@ A full-game overhaul that aims to bring it closer to RoR1's balance. My main pri
 
 I highly recommed installing https://thunderstore.io/package/Moffein/EliteReworks/ to go with this.
 
-Full change list can be found here. https://docs.google.com/document/d/1Igxdur0M33fdkcDLYgDEbLE0M4-89gSTorxgdn-oyKs/
+Full change list can be found at https://docs.google.com/document/d/1Igxdur0M33fdkcDLYgDEbLE0M4-89gSTorxgdn-oyKs/
 
 This mod merges in fixes and tweaks from a bunch of other mods. If you have those mods installed, these fixes/changes will disable and the original mod will take priority (Except for Bandit Grace Period).
 
@@ -19,11 +19,11 @@ Feel free to take features of this mod and release them as standalone as long as
 	- Transcendence/Perfected Affix disable Oneshot Protection due to having shieldgating built-in.
 - Big balance pass over nearly all the items.
 	- Bad items like Squid Polyps and Warbanners have gotten substantial buffs.
-	- Strong damage items like AtGs and Elemental Bands now have lowered damage.
-	- Most forms of range scaling have been removed.
+	- Strong damage items like AtGs and Elemental Bands now have lowered damage stacking.
+	- Most forms of range scaling have been removed, and most items aren't able to proc chain anymore.
 - Big balance pass over all the Survivors
 	- Less useless skill options, default Commando is good now!
-- Drones performance now remains the same on all stages.
+- Drone performance now remains the same on all stages.
 
 ## Other Changes
 
@@ -42,28 +42,7 @@ Place RiskyMod.dll **AND** the **language folder** in /Risk of Rain 2/BepInEx/pl
 
 - Make Google Doc more readable/pretty.
 	- Split up into multiple separate docs?
-- Enemies
-	- Enemy Pools
-		- Make Wisps/Pests/Jellyfish never overlap on any stage?
-		- Remove Alpha Constructs from all stages except Sulfur Pools
-			- Alpha Constructs on Distant Roost postloop, instead of Titanic Plains?
-		- Remove Xi Constructs from every map except Sulfur Pools (and maybe Sky Meadow?)
-		- Sundered Grove
-			- Remove Dunestrider
-			- Remove Lemurians
-			- Add Grovetender
-			- Add Vultures
-			- Remove either Larva or Jellyfish?
-		- Should Larva be spawning on Aqueduct?
-		- Worms on Aqueduct when looping.
-		- Overloading Worms on any map that Magma Worms can spawn on.
-		- Sky Meadow
-			- Remove Xi Constructs?
-			- Remove Alpha Consructs
-			- Add Imps
-			- Bring back Worms?
-			- Add Lunar Golems?
-	- Make Mushrums less cancer.
+- Tweak enemy pools?
 	
 ## Credits
 
@@ -80,6 +59,37 @@ Acrid Hitbox Tweaks - TheTimesweeper
 Buff Icons - SOM
 
 ## Changelog
+
+`0.9.7`
+
+- Happiest Mask
+	- Fixed the item attempting to proc on pots/barrels/eggs.
+	- Reduced damage from 1500%(+450%) -> 800%(+240%)
+	
+	*Noticed ghosts shredding Mithrix/Overloading Worms within seconds even after multiple loops.*
+	
+- Commando
+	- Frag Grenade
+		- Fixed skill selection not being saved when closing the game.
+
+`0.9.6`
+
+- Fixed Safer Spaces description showing 7%/stack instead of the Vanilla 10%/stack.
+
+	*This was a change from an early version when the SotV Update first released, which quickly ended up getting scrapped.*
+
+`0.9.5`
+
+- Ocular HUD
+	- Fixed Railgunner/Bandit gaining crit chance instead of crit damage.
+	
+- Planula
+	- Added option to disable order-of-operation changes for compatibility with other mods that change Planula.
+		- RiskyMod disables Vanilla Planula code and moves Planula procs so that they run after Stealthkit/Squids are procced.
+	
+- Improved error handling for better mod compatibility.
+	- IL Hooks will now print an error to console instead of causing the whole mod to crash if an incompatibility arises while the plugin is being loaded.
+		- A lot of code was moved around internally, so let me know if any issues suddenly arise with this version.
 
 `0.9.4`
 

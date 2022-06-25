@@ -246,28 +246,6 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\duckduckgreyduck-HuntressBuffULTIMATE\icon.png
 - manifestVersion: 1
-  name: KingEnderBrine-ProperSave
-  authorName: KingEnderBrine
-  websiteUrl: https://thunderstore.io/package/KingEnderBrine/ProperSave/
-  displayName: ProperSave
-  description: Saves your progress at the start of the stage so you can load later
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - RiskofThunder-HookGenPatcher-1.2.3
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 8
-    patch: 5
-  enabled: false
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\KingEnderBrine-ProperSave\2.8.5\icon.png
-- manifestVersion: 1
   name: TheRealElysium-WaxQuailMultiJump
   authorName: TheRealElysium
   websiteUrl: https://thunderstore.io/package/TheRealElysium/WaxQuailMultiJump/
@@ -523,29 +501,6 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-LittleGameplayTweaks\icon.png
 - manifestVersion: 1
-  name: TeaBoneJones-IncreaseHuntressRange
-  authorName: TeaBoneJones
-  websiteUrl: https://thunderstore.io/package/TeaBoneJones/IncreaseHuntressRange/
-  displayName: IncreaseHuntressRange
-  description: Increase the range of Huntress every time you level up. Or turn on
-    God Mode and increase the range to encompass the whole map.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-2.0.0
-    - tristanmcpherson-R2API-2.0.10
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: false
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\TeaBoneJones-IncreaseHuntressRange\1.0.0\icon.png
-- manifestVersion: 1
   name: Moffein-Clay_Men
   authorName: Moffein
   websiteUrl: https://thunderstore.io/package/Moffein/Clay_Men/
@@ -564,9 +519,9 @@
   versionNumber:
     major: 1
     minor: 4
-    patch: 3
+    patch: 5
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\Moffein-Clay_Men\1.4.3\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Clay_Men\icon.png
 - manifestVersion: 1
   name: MagnusMagnuson-BiggerBazaar
   authorName: MagnusMagnuson
@@ -587,7 +542,7 @@
   versionNumber:
     major: 1
     minor: 13
-    patch: 6
+    patch: 7
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-BiggerBazaar\icon.png
 - manifestVersion: 1
@@ -636,51 +591,6 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-NoBazaarKickout\icon.png
 - manifestVersion: 1
-  name: LuaFubuki-Void_Reaver
-  authorName: LuaFubuki
-  websiteUrl: https://thunderstore.io/package/LuaFubuki/Void_Reaver/
-  displayName: Void_Reaver
-  description: Adds a playable Void Reaver with customized abilities. (SotV update)
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-4.0.11
-    - bbepis-BepInExPack-5.4.1903
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 6
-    patch: 8
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\LuaFubuki-Void_Reaver\icon.png
-- manifestVersion: 1
-  name: LuaFubuki-Lunar_Golem
-  authorName: LuaFubuki
-  websiteUrl: https://thunderstore.io/package/LuaFubuki/Lunar_Golem/
-  displayName: Lunar_Golem
-  description: Adds a playable Lunar Chimera (Golem Form) with customized
-    abilities. (SotV Update)
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-3.0.11
-    - bbepis-BepInExPack-5.4.9
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 1
-    patch: 4
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\LuaFubuki-Lunar_Golem\icon.png
-- manifestVersion: 1
   name: Gnome-ChefMod
   authorName: Gnome
   websiteUrl: https://thunderstore.io/package/Gnome/ChefMod/
@@ -702,29 +612,6 @@
     patch: 20
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Gnome-ChefMod\icon.png
-- manifestVersion: 1
-  name: TemplarBoyz-PlayableTemplar
-  authorName: TemplarBoyz
-  websiteUrl: https://thunderstore.io/package/TemplarBoyz/PlayableTemplar/
-  displayName: PlayableTemplar
-  description: The most playable-est Clay Templar you've ever seen. Created by
-    Rob, ported by Tymmey.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-4.0.11
-    - bbepis-BepInExPack-5.4.1902
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TemplarBoyz-PlayableTemplar\icon.png
 - manifestVersion: 1
   name: Paladin_Alliance-PaladinMod
   authorName: Paladin_Alliance
@@ -941,13 +828,13 @@
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.3.21
+    - tristanmcpherson-R2API-4.4.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 9
-    patch: 4
+    patch: 7
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyMod\icon.png
 - manifestVersion: 1

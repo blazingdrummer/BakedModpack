@@ -1,7 +1,7 @@
 {
   "name": "Clay_Men",
-  "version_number": "1.4.3",
-  "website_url": "",
+  "version_number": "1.4.5",
+  "website_url": "https://github.com/Moffein/ClayMen/",
   "description": "Adds the unused Clay Man to spawn pool.",
   "dependencies": [
     "bbepis-BepInExPack-5.4.1903",

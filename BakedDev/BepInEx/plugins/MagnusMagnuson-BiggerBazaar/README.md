@@ -53,6 +53,7 @@ If you want to change the config
 ![contact](https://i.imgur.com/gPBrPrQ.png)
 
 ## Changelog
+- 1.13.7 Lunar Pod wasn't working properly with Ephemeral Coins.
 - 1.13.6 Fix for update.
 - 1.13.5 Compatibility withg BetterUI. 
 - 1.13.4 Added option to limit the amount of bazaar chests to spawn
