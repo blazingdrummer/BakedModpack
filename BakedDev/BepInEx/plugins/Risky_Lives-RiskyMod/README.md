@@ -60,136 +60,264 @@ Buff Icons - SOM
 
 ## Changelog
 
-`0.9.7`
-
-- Happiest Mask
-	- Fixed the item attempting to proc on pots/barrels/eggs.
-	- Reduced damage from 1500%(+450%) -> 800%(+240%)
-	
-	*Noticed ghosts shredding Mithrix/Overloading Worms within seconds even after multiple loops.*
-	
-- Commando
-	- Frag Grenade
-		- Fixed skill selection not being saved when closing the game.
-
-`0.9.6`
-
-- Fixed Safer Spaces description showing 7%/stack instead of the Vanilla 10%/stack.
-
-	*This was a change from an early version when the SotV Update first released, which quickly ended up getting scrapped.*
-
-`0.9.5`
-
-- Ocular HUD
-	- Fixed Railgunner/Bandit gaining crit chance instead of crit damage.
-	
-- Planula
-	- Added option to disable order-of-operation changes for compatibility with other mods that change Planula.
-		- RiskyMod disables Vanilla Planula code and moves Planula procs so that they run after Stealthkit/Squids are procced.
-	
-- Improved error handling for better mod compatibility.
-	- IL Hooks will now print an error to console instead of causing the whole mod to crash if an incompatibility arises while the plugin is being loaded.
-		- A lot of code was moved around internally, so let me know if any issues suddenly arise with this version.
-
-`0.9.4`
-
-- Artificer
-	- Added RTAutoSprint support for Blaze Storm and modded Snapfreeze.
-
-`0.9.3`
-
-- Moon Pillars Drop Items
-	- Fixed Pearl Overwrite Chance setting not working.
-	
-- Void Signals Drop Items
-	- Fixed Pearl Overwrite Chance setting not working.
-
-`0.9.2`
-
-- Shrine of Combat Items
-	- Removed an extra space in the notification string.
-	
-- Leeching Seed
-	- Fixed description showing the old heal percents.
-
-`0.9.1`
-
-- Items
-	- Defense Nucleus
-		- Increased HP from 0% (+30%/stack) -> 300% (+150%/stack) to match the new Vanilla scaling.
-		- Increased damage from 0% (+100%/stack) -> 300% (+150%/stack) to match the new Vanilla scaling.
-
-`0.9.0`
-
-*Releasing this earlier than expected due to the Vanilla update breaking the previous version. Let me know if there's any bugs or if I accidentally left some unfinished changes in.*
-
-- Artificer
-	- Blaze Storm
-		- Changed sounds and VFX.
-	
-- Void Fiend
-	- Tresspass
-		- Gives +30% movement speed and fall damage immunity until you hit the ground after exiting the skill.
-		
-- Player-Controlled Monsters
-	- Now immune to Stun/Hitstun.
+`0.10.2`
 
 - Run Scaling
-	- Modded Scaling
-		- Now is handled via a less-intrusive hook instead of replacing the whole method, since only 1 value is changed.
-		- Increased per-player exponential factor from 0.1 -> 0.15 (Vanilla is 0.2)
-	- Loop Boss Armor
-		- Increased from 40 -> 50
-		- Now applies to all Champion enemies, instead of just Teleporter Bosses.
+	- Teleporter Bosses are less likely to repeat for multiple stages in a row.
+		- Remembers the last 2 teleporter bosses and tries to exclude them from the boss selection if possible.
 		
-		*Applies to all Champion enemies now because they all die before they even get a chance to fire off their attacks. The armor bonus alone isn't enough to let bosses keep up while looping. Look at making Elite bosses appear as TP bosses earlier?*
+		*Limited to 2 because most stages only have 3 basic bosses.*
 		
-- Gold Scaling
-	- Now enabled by default.
-	- Merged all config options into a single option.
-	- Scale Gold to Initial Stage Difficulty
-		- Reverted 0.8.0 change
-			- Now only multiplies by Ratio instead of Ratio^2 since it had too much impact earlygame.
-			
-	*Generally, the new scaling should keep the first few stages feeling roughly the same, while Stage 5+ will require a bit more farming than Vanilla instead of being able to instabuy the whole stage. Feedback will be helpful for fine tuning this.*
-	
-- Shrine of Combat Items
-	- Shortened text.
-	
-- Enemies
-	- Fall Damage
-		- Monsters can now die from fall damage.
-		- Monsters take +50% extra damage from fall damage.
-		- Mithrix is now immune to fall damage.
+	- Loops increase teleporter boss credits by 1 Mountain Shrine.
+		- Does NOT affect item drops.
 		
-	- Xi Construct
-		- Now takes +50% more damage while its chassis is open (firing its laser).
-		
-		*Need to figure out how to make it less cancer for melee characters to fight later.*
-		
-	- Magma Worm (TODO)
-		- Revert Early Access HP nerf, make the head a +50% damage weak zone for all characters?
-		- Fireballs leave pools of fire?
-		
+		*It takes way too long before Elite Bosses start to show up regularly. This should help with that.*
+
 - Items
-	- Safer Spaces
-		- Now has a 0.1s invulnerability period after triggering.
+	- Queen's Gland
+		- Added partial compatibility with QueensGlandBuff
+			- Now uses QueensGlandBuff settings for damage scaling if it is installed.
+			- Now uses QueensGlandBuff settings for HP scaling if it is installed.
+			
+			*Note: This ignores QueensGlandBuff's changes to how many beetles you can have, which is why this is listed as only being partially compatible. The mod and its ally changes work fine (and worked even before this update).*
 		
-		*This will make the item able to gate against multiple hits in the same frame. With the latest update, this technically allows for full invincibility at around 50 stacks, but I think it should be fine since that will only really happen in Bazaar lobbies.*
+- Mercenary
+	- Eviscerate no longer stops on teammates if Chaos is disabled.
+
+`0.10.1`
+
+- Removed debug text when loading the mod.
+
+`0.10.0`
+
+- Firemode Selection (Credits to Nunchuk for the keybind code from CustomEmotesAPI)
+	- Most Firemode settings can now be configured in-game via Risk of Options.
+		- Will probably not add RoO support for most other config options due to issues with network syncing if they're changed mid-game.
 		
-	- Old Guillotine
-		- Increased HP threshold from 30% -> 50%
+- Allies
+	- Turret allies now receive -66% damage from Mini Mushrum attacks.
+	
+- Items
+	- Ukulele
+		- Increased proc coefficient from 0.1 -> 0.2 (Same as Vanilla)
 		
-		*In terms of Effective HP reduction, Guillotines were pretty lackluster compared to other Green items. This should make them less situational.*
+		*Polylute remains at 0.1 proc, hoping this makes it more of a choice when deciding between the two.*
 		
-	- Chronobauble
-		- Increased movement slow from -60% -> -80%
+	- Sentient Meat Hook
+		- Increased proc coefficient from 0.1 -> 0.33 (Same as Vanilla)
 		
-		*This increases the actual slowdown from -37.5% -> -44.4%, since slowdown is calculated as 1 / (1 + slow percent)*
+		*This makes it the same as Vanilla. I don't think it's a major balance concern since most other proc chaining items have been disabled.*
 		
-	- Leeching Seed
-		- Reduced healing from 5% (+2.5%) -> 3% (+1.5%)
-		- Now heals a flat +1HP on top of the damage-scaled healing.
-			- Flat HP is meant for earlygame when your damage will be low.
+	- Symbiotic Scorpion
+		- Reduced armor reduction from 2 -> 1
 		
-		*Past Lv20, Seeds were outperforming fullcrit Harvester Scythes on most attacks. This lower number should make it so that at full crit, Scythes outperform Seeds for weak attacks while Seeds will outperform Scythes for strong attacks. Need to see how this plays and adjust further, and need to see how this affects earlygame.*
+		*Trying to make this a bit more even compared to Shattering Justice.*
+		
+- Enemies
+	- Stone Golem
+		- Reduced melee damage from 40 -> 30
+		- Removed melee damage falloff.
+		
+	- Magma Worm and Overloading Worm
+		- Reduced follow delay from 0.6s to 0.1s (inspired by Inferno)
+		- Tried to make players a higher priority for the AI.
+			- Not sure if this actually works.
+		- Now fires fireballs in both stances, instead of only when leaping.
+			
+			*Is this too spammy?*
+			
+	- Stone Titan
+		- Animations are faster.
+			- FireFist exit delay reduced from 3s -> 1.5s
+			- RechargeRocks duration reduced from 9s -> 5s
+			- ChargeMegaLaser duration reduced from 3s -> 2s
+			
+			*Titans can't attack much because their anims take a ridiculously long time.*
+			
+		- Mega Laser
+			- Increased damageCoefficient from 1 -> 1.8
+			- Increased tick frequency from 8/s -> 10/s
+				- Damage has been adjusted proportionally.
+			- Increased shot radius from 0 -> 0.2
+			- Reduced cooldown from 20s -> 15s
+			- Removed lock-on.
+			- Removed minimum distance check.
+			- Increased max distance from 80m -> 200m
+			- Now scales with attack speed.
+			
+			*Trying to shift laser from being a "hide behind cover" check to something that you actively dodge and interact with. Can be easily avoided, but deals high damage if it catches you off-guard. Needs playtesting.*
+			
+		- Lowered max aim velocity from 180 -> 60
+		
+			*This is to prevent the Mega Laser from jerking around erratically. Other skills are auto-targeting so I'm not too concerned about this.*
+			
+		- Stone Fist
+			- Increased fist count from 1 -> 4 (Aurelionite is 6)
+			
+		- Stone Construct
+			- Now directly targets enemies, instead of being tied to where the Titan is looking.
+		
+	- Aurelionite
+		- Copied Titan changes.
+		- Increased base damage from 40 -> 50
+		
+		*Early Access Aurelionite was notoriously bullshit, but nowadays people rarely die to it. Starting with a small increase due to the major Titan changes.*
+		
+- Commando
+	- Suppressive Fire
+		- Lowered direct hit damage from 100% -> 20%
+		- Lowered direct hit proc coefficient from 1.0 -> 0.5
+		- Increased AoE damage from 20% -> 100%
+		- Increased AoE proc coefficient from 0.5 -> 1.0
+		
+		*Swapping the numbers on the Direct Hit/AoE to make this better at dealing with bunched up enemies.*
+		
+	- Suppressive Barrage (Scepter)
+		- Lowered direct hit damage from 100% -> 20%
+		- Lowered direct hit proc coefficient from 1.0 -> 0.5
+		- Increased AoE damage from 20% -> 130%
+		- Increased AoE proc coefficient from 0.5 -> 1.0
+	
+- Artificer
+	- Blaze Storm (Needs Playtesting)
+		- TODO: ICON
+		- Now lists damage as Damage/Second (Like Arrow Rain/Directive: DRILL).
+		- Increased total damage from 1500% -> 1920%
+		- Increased lifetime from 3s -> 6s
+		- Reduced tickrate from 3.33/s -> 2.5/s
+			- Tick damage has been increased proportionally to compensate.
+		- Fixed the skill using yellow damage numbers instead of the default color.
+		
+		*Trying to shift this more towards being an area control skill as was originally intended. With these changes, total damage is higher while immediate burst DPS is lower (500% DPS over 3 seconds -> 320% DPS over 6 seconds). Meant to be comparable to Arrow Rain and Directive: DRILL.*
+		
+	- Electrocute (Special) (Needs Playtesting)
+		- TODO: ICON
+		- Electrocute all enemies in front of you for 900% damage.
+			- Range: 40m
+			- Locks on to 1 enemy near your crosshair
+				- If a target is found, lightning will chain to nearby enemies within 15m.
+				- If no target is found, just fires a bolt of lightning forwards.
+			- Hits 15 times, scales with attack speed.
+		
+		*Does this even work online? Intended to be more reliable than Flamethrower and good at dealing with flying trash, but worse at dealing with bosses and tanky enemies. DPSwise this is lower than your primaries, but it's guaranteed to hit. Needs balancing and polish.*
+		
+	
+	- Unlimited Power (Electrocute Scepter)
+		- Increases damage from 900% -> 1800%
+		- Increases chain lightning range from 15m -> 20m
+		- Increases chain lightning max bounces from 1 -> 2
+	
+- Captain
+	- Power Tazer and Beacon: Shocking
+		- Now applies a 50% move speed slow for 5s.
+		
+		*This should make these skills more useful when fighting unshockable enemies.*
+		
+	- Beacons
+		- Added config option to enable infinite Lysate Cell stacking (disabled by default).
+		
+	- Beacon: Hacking
+		- Moved Skill Recharge effect to Beacon: Resupply
+		- New Effect: Reduces the cost of interactables in its radius by -40%
+			- Does not stack.
+			- Removing your Beacon reverts the prices to normal.
+		- Added option to disable this beacon in the config for those who don't want to play with Hack Beacons at all.
+		
+		*The Skill Recharge effect from the rework would become unavailable depending on whether or not the host wanted to use Vanilla Hacks or Reworked Hacks, and often caused confusion among Captain players. To address this, the Skill Restock effect has been merged with Resupply beacons, and Hack beacons have been moved closer to their Vanilla effect so that there isn't such a big shift in functionality.*
+		
+	- Beacon: Resupply
+		- Reduced Equipment recharge amount from +1 Stock -> -20s Cooldown
+		- Increased uses from 2 -> 3
+		- Reduced use recharge time from 30s -> 20s
+		- Now restores skills as well (1 Bandolier worth)
+			- Only restores 50% of Diablo Strike's cooldown.
+			
+		*The dedicated Skill Recharge beacon ended up being too niche. Thematically, Skill Restock/Equipment Restock have a pretty similar effect, and both beacons weren't very popular on their own, so merging them seemed like the right choice.*
+	
+- Acrid
+	- Regenerative (Needs Playtesting)
+		- Slowed down full heal duration from 1.5s -> 3s
+		- No longer loses duration when taking damage.
+		
+		*Original intent behind duration loss on hit was to force Acrid to hit and run instead of facetanking, but it ended up feeling bad in practice due to how he could suddenly get every stack of Regenerative cancelled at the same time. Plan is to try to balance around Regenerative healrate instead. Will be challenging since Bite makes a huge difference to Acrid's regen speed.*
+		
+	- Frenzied Leap
+		- Increased cooldown reduction from 0.7s -> 1s
+		
+		*This skill ended up lagging behind in MP due to enemies not bunching up as much as in solo, along with the loss of 1 jump being a huge mobility penalty in general.*
+
+- Loader
+	- Reduced armor from 12 -> 0
+		
+- Void Fiend
+	- Fixed Safer Spaces being triggered when fall damage is blocked by the Utility's buff effect.
+		
+- Spawnpools Beta (Disabled by default)
+	
+	*Disabled by default. Can be enabled in the Core Modules section of RiskyMod_General.cfg*
+	
+	- Current Issues:
+		- Enemy compositions feel off on certain maps (ex. Sky Meadow)
+		- Probably has weird interactions with Family events.
+		- DLC checks currently don't work.
+	
+	- General Notes:
+		- Jellyfish/Wisps/Pests are intended to not overlap on the same map.
+
+	- Stage 1
+		- Titanic Plains
+			- Removed Jellyfish
+			- Removed Alpha Constructs
+			- Removed Xi Constructs
+			
+		- Distant Roost
+			- Removed Lesser Wisps
+			- Jellyfish can now spawn on the first loop.
+			- Added Alpha constructs when looping (Requires SotV)
+			
+			*Alpha Constructs mirror Hermit Crabs, and work nicely with how there's a lot of tightly-packed surfaces for the projectiles to bounce off of.*
+			
+		- Snowy Forest
+			- Removed Lesser Wisps
+			- Added Bighorn Bisons when looping
+		
+	- Stage 2
+		- Wetland Aspect
+			- Removed Lesser Wisps
+			
+		- Abandoned Aqueduct
+			- Clay Apothecaries can now spawn on the first loop. (Requires SotV)
+				- Does this actually work?
+			- Added Magma Worms when looping
+			- Added Overloading Worms when looping
+			
+			*Figured this stage could use stronger enemies since Aphelian Sanctuary has both Templars and Apothecaries on loop 1.*
+			
+	- Stage 3
+		- Rallypoint Delta
+			- Imps now spawn even when SotV is enabled.
+			- Removed Lesser Wisps (Requires SotV)
+			
+	- Stage 4
+		- Stadia Jungle
+			- Removed Lemurians
+			- Removed Clay Dunestrider
+			- Mushrums spawn less
+			- Added Grovetender
+			- Added Vultures
+			
+			*Trying to make the spawnpool on this map less generic.*
+			
+		- Sirens Call
+			- Added Overloading Worms
+			
+	- Stage 5
+		- Sky Meadow
+			- Removed Alpha Constructs
+			- Removed Xi Constructs
+			- Removed Bronzongs
+			- Added Imps
+			- Added Lunar Golems
+			- Magma/Overloading Worms now spawn even when SotV is enabled.
+			
+			*I don't like Alpha Constructs since they take up enemy slots and AFK on the other side of the map. Split on whether or not removing Xi Constructs is the right call. Removed Bronzongs and replaced them with Lunar Golems since the map has too many flying enemies, along with Lunar Golems being a parallel to RoR1's Temple Guards.*

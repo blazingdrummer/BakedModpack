@@ -4,6 +4,7 @@
 - does Wolfo or Risky take precedence for item descriptions?
 - Acrid spawn invulnerability might conflict with Wolfo
 - Captain hidden realms change also overlaps
+- bug with triple lunar seers on client-side
 ___
 
 pool shows pearl on ping (FIXED)

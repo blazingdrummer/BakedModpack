@@ -62,7 +62,7 @@ All players need the mod.
 	- Removed vanilla behavior.
 	- Attaches to up to 4 nearby enemies.
 		- Attached enemies gain +50% attack speed, +70% movement speed, and -30% cooldown reduction.
-		- On death, they revive as a ghost and will continue to live on for up to 30s.
+		- On death, they revive as a ghost and will continue to live on for up to 60s.
 		- Killing a Celestine kills all their attached ghosts.
 	- On-hit effect changed to -20 armor instead of slowing.
 	
@@ -85,6 +85,17 @@ All players need the mod.
 Place EliteReworks.dll in /Risk of Rain 2/BepInEx/plugins/
 
 ## ChangeLog
+
+- 1.7.0
+	- Celestine
+		- Added VFX to show which enemies are connected to which Celestine.
+		- Champion Celestine enemies now get +2 extra max attached ghosts. (6 total)
+		- Ghost lifetime increased from 30s -> 60s
+		- Champion Ghosts now get +30s lifetime.
+		- Ghost damage increased 30%
+			- Does not apply to alive enemies.
+		
+		*Ghosts were expiring too fast to do anything. Increased duration should make killing the host Celestine a higher priority, since Ghosts won't simply disappear if you leave them alone for a short while.*
 
 - 1.6.1
 	- Celestine on-hit change can now be toggled via config.

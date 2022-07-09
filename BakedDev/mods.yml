@@ -603,13 +603,13 @@
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.3.21
+    - tristanmcpherson-R2API-4.4.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 0
-    patch: 20
+    patch: 22
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Gnome-ChefMod\icon.png
 - manifestVersion: 1
@@ -782,13 +782,13 @@
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.1903
-    - tristanmcpherson-R2API-4.1.1
+    - tristanmcpherson-R2API-4.4.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 6
-    patch: 1
+    minor: 7
+    patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-EliteReworks\icon.png
 - manifestVersion: 1
@@ -829,14 +829,15 @@
   dependencies:
     - bbepis-BepInExPack-5.4.1905
     - tristanmcpherson-R2API-4.4.1
+    - Rune580-Risk_Of_Options-2.5.3
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 9
-    patch: 7
+    minor: 10
+    patch: 2
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyMod\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\Risky_Lives-RiskyMod\0.10.2\icon.png
 - manifestVersion: 1
   name: Faustvii-QoLChests
   authorName: Faustvii
@@ -860,3 +861,24 @@
     patch: 8
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Faustvii-QoLChests\icon.png
+- manifestVersion: 1
+  name: Rune580-Risk_Of_Options
+  authorName: Rune580
+  websiteUrl: https://thunderstore.io/package/Rune580/Risk_Of_Options/
+  displayName: Risk_Of_Options
+  description: A convenient API for adding BepInEx ConfigEntry's to a option menu
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 5
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Rune580-Risk_Of_Options\icon.png

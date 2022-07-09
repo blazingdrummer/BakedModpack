@@ -41,6 +41,29 @@ Whether or not you come back to work on him, we'll be here for ya.
 
 ## Changelog
 
+`2.0.22`
+
+- Fixed a console error related to CHEF's pod.
+
+`2.0.21`
+
+- Expanded unlock ingredients list:
+	- Heresy Set
+	- Mocha
+	- Elixir
+	- Scorpion
+	- Chaos
+	- Planula
+	- Queens Gland
+	- Wungus
+	- Tentabauble
+	- Safer Spaces
+	- Shrimp
+	- Larva
+	- Zoea
+	- Needletick
+	- Bloom
+
 `2.0.20`
 
 - Fixed missing UnlockableAPI dependency.
