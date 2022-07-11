@@ -60,6 +60,40 @@ Buff Icons - SOM
 
 ## Changelog
 
+`0.10.4`
+
+- Mercenary
+	- Fixed Eviscerate being broken due to 0.10.2
+
+- Allies
+	- Incinerator Drone
+		- Added shields.
+		
+- Enemies
+	- Added "Inferno Compatibility" config option to disable certain enemy changes while Inferno is active to prevent conflicts. These changes will be marked by 🔥. (Enabled by default)
+	- Beetle
+		- Reduced move speed from 10m/s -> 8m/s (Vanilla 6m/s)
+		- Increased headbutt duration from 1s -> 1.2s (Vanilla 1.5s)
+		- Doubled headbutt hitbox size.
+		- Increased AI headbutt activation range from 2m -> 5m
+		- Reduced spawn duration from 5s -> 3.2s
+		
+		*Trying to make these look less jank, since the heavy stat boosts made their animations really jerky. AI Headbutt range increase will make Beetles more aggressive with using their headbutt, instead of only using it when they're practically inside of you.*
+
+	- Lemurian
+		- 🔥 Added melee lunge.
+
+	- Imp
+		- Added melee lunge when slashing.
+
+`0.10.3`
+
+- Spawnpools Beta
+	- Rallypoint Delta
+		- Disabled all changes since the last Vanilla update fixed Pests replacing Imps instead of Wisps.
+	- Sky Meadow
+		- Lunar Golem director credit cost reduced from 125 -> 115 (same as Elder Lemurian)
+
 `0.10.2`
 
 - Run Scaling

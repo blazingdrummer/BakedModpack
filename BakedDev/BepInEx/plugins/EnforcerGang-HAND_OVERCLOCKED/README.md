@@ -23,6 +23,10 @@ Additional code help - Enigma
 
 ## Changelog
 
+0.2.7
+
+- Fixed the mod crashing with ClassicItems Scepter.
+
 0.2.6
 
 - Added ClassicItems Scepter support.

@@ -5,6 +5,7 @@
 - Acrid spawn invulnerability might conflict with Wolfo
 - Captain hidden realms change also overlaps
 - bug with triple lunar seers on client-side
+- add icons for artificer custom skills
 ___
 
 pool shows pearl on ping (FIXED)
