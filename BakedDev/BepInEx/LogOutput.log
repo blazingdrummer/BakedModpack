@@ -197,7 +197,7 @@
 [Debug  :     R2API] Hook added by assembly: ShareSuite.dll for: RoR2.GenericPickupController.AttemptGrant
 [Debug  :     R2API] Hook added by assembly: ShareSuite.dll for: RoR2.GenericPickupController.SendPickupMessage
 [Debug  :     R2API] Hook added by assembly: ShareSuite.dll for: RoR2.Chat.SendPlayerConnectedMessage
-[Info   :   BepInEx] Loading [ChefMod 2.0.22]
+[Info   :   BepInEx] Loading [ChefMod 2.1.0]
 [Info   : Unity Log] System.String[]
 [Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.HealthComponent.TakeDamage
 [Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.GlobalEventManager.OnHitAll
@@ -213,6 +213,7 @@
 [Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.CharacterBody.RecalculateStats
 [Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.CharacterModel.UpdateOverlays
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterModel.UpdateOverlays
+[Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.Language.SetFolders
 [Info   :   BepInEx] Loading [RTAutoSprintEx 2.1]
 [Debug  :     R2API] Hook added by assembly: RTAutoSprintEx.dll for: RoR2.PlayerCharacterMasterController.FixedUpdate
 [Debug  :     R2API] Hook added by assembly: RTAutoSprintEx.dll for: RoR2.CameraRigController.Update
@@ -600,9 +601,9 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.Drone.DroneWeapon.FireTurret.OnEnter
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.BodyCatalog.Init
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.HealthComponent.TakeDamage
-[Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "DCHeatvent1" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "GPGiantRockSlab1Collision" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "GPRuinRing1" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+[Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "DCHeatvent1" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "ArenaCrabFoam1Mesh" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.Items.MinionLeashBodyBehavior.FixedUpdate
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.Items.MinionLeashBodyBehavior.FixedUpdate
@@ -1047,7 +1048,7 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Info   :     R2API] com.bepis.r2api;4.4.1
 [Info   :     R2API] com.Borbo.HuntressBuffULTIMATE;1.1.0
 [Info   :     R2API] com.EnforcerGang.Enforcer;3.3.9
-[Info   :     R2API] com.Gnome.ChefMod;2.0.22
+[Info   :     R2API] com.Gnome.ChefMod;2.1.0
 [Info   :     R2API] com.Moffein.ClayMen;1.4.5
 [Info   :     R2API] com.Moffein.EliteReworks;1.7.0
 [Info   :     R2API] com.Moffein.HAND_Overclocked;0.2.7
@@ -1201,11 +1202,11 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Info   : Unity Log] Could not load config /Config/autoexec.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\autoexec.cfg"
 [Info   :     R2API] Generating a total of 9 ContentPacks...
 [Info   : Unity Log] LoadContentPacks() start
-[Warning: Unity Log] Failed to assign Buffs.Deafened: Asset "bdDeafened" not found.
 [Warning: Unity Log] Failed to assign Items.SummonedEcho: Asset "SummonedEcho" not found.
 [Warning: Unity Log] Failed to assign Equipment.AffixEcho: Asset "EliteEchoEquipment" not found.
 [Warning: Unity Log] Failed to assign Buffs.AffixEcho: Asset "bdEliteEcho" not found.
 [Warning: Unity Log] Failed to assign Elites.Echo: Asset "edEcho" not found.
+[Warning: Unity Log] Failed to assign Buffs.Deafened: Asset "bdDeafened" not found.
 [Debug  :     R2API] Content added from com.rob.DiggerUnearthed:
 MINER_BLACKSMITHUNLOCKABLE_REWARD_ID (UnlockableDef)
 MINER_CAVEINUNLOCKABLE_REWARD_ID (UnlockableDef)
@@ -1324,7 +1325,7 @@ NEMFORCER_TYPHOONUNLOCKABLE_REWARD_ID (UnlockableDef)
 [Error  : Unity Log] could not load display for DisplaySawmerang
 [Warning: Unity Log] Could not find scene with name "loadingbasic".
 [Info   : Unity Log] Command "set_scene" failed: "title" is not a valid scene.
-[Info   : Unity Log] Game content load completed in 9181ms.
+[Info   : Unity Log] Game content load completed in 13104ms.
 [Info   : Unity Log] Setting current language to "en"
 [Error  : Unity Log] [RoR2.ProjectileCatalog] Cannot have more than 256 projectile prefabs defined, which is over the limit for Byte. Check comments at error source for details.
 [Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [256/255]="VoidSurvivorMegaBlasterSmallProjectile"
@@ -1431,7 +1432,7 @@ RoR2.SteamworksLobbyDataGenerator,
 RoR2.UI.LogBook.LogBookController,
 RoR2.EOSLobbyDataGenerator
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
-[Info   : Unity Log] stream.Length=268992
+[Info   : Unity Log] stream.Length=269618
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
 [Info   : Unity Log] stream.Length=255476
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/e9f57f22-a572-4a1b-aa42-d41831444f19.xml
@@ -1464,3 +1465,18 @@ RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (269618 bytes)
+[Info   : Unity Log] in save archive convars
+[Info   : Unity Log] Shutting down Steamworks...
+[Info   : Unity Log] Shut down Steamworks.
+[Error  : Unity Log] NullReferenceException
+Stack trace:
+RoR2.UI.LogBook.LogBookController.GetSurvivorStatus (RoR2.UI.LogBook.Entry& entry, RoR2.UserProfile viewerProfile) (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_000D)
+RoR2.UI.LogBook.Entry.GetStatus (RoR2.UserProfile viewerProfile) (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0006)
+RoR2.UI.LogBook.LogBookController+<>c__DisplayClass95_1.<RegisterViewables>g__Check|0 (RoR2.UserProfile viewerProfile) (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0015)
+RoR2.ViewablesCatalog+Node.DefaultShouldShowUnviewedTest (RoR2.UserProfile userProfile) (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_002C)
+RoR2.ViewablesCatalog+Node.DefaultShouldShowUnviewedTest (RoR2.UserProfile userProfile) (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_002C)
+RoR2.UI.ViewableTag.Check () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005E)
+RoR2.UI.ViewableTag.Refresh () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0008)
+RoR2.UI.ViewableTag.OnDisable () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_000C)
+

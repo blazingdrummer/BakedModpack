@@ -8,7 +8,7 @@ CHEF is a robot cook who is capable of serving generous helpings to even the lar
 If you have any feedback/suggestions, open an issue on the Github page, or join our discord at https://discord.gg/pKE3QCEsxG 
 
 ## Installation
-Drop ChefMod.dll into \BepInEx\plugins\
+Drop the Gnome-ChefMod folder into \BepInEx\plugins\
 All players need the mod.
 
 ## Known Issues
@@ -40,6 +40,42 @@ Whether or not you come back to work on him, we'll be here for ya.
 
 
 ## Changelog
+
+`2.1.0`
+
+*Trying to bring CHEF more in line with the rest of the cast. At the same time, some bugs related to Oil/Sear were fixed, so that'll affect his balance greatly so I'm not sure what to expect. Send feedback about how these changes feel, it will really help!*
+
+- Now uses an external language file. Contact me if you want to do a translation!
+
+- Boosted Cleave
+	- Reduced damage from 16x150% -> 16x120%
+	- Now rolls crits once for all cleavers, rather than rolling for each individual cleaver.
+	
+	*Being able to deal 4800% damage in a single use was a bit excessive. New total damage is 3840%, greater than skills with a similar cooldown like Captain's Orbital Probes, but less reliable due to needing to be at close range and needing to hit twice with the boomerangs.*
+	
+- Sear
+	- Added self-knockback when used midair.
+	- Fixed ignited oil not triggering chain explosions on oiled enemies.
+	
+	*The oil fix is pretty major with regards to this skill's power level. Needs testing and feedback.*
+
+- Boosted Sear
+	- Reduced fireball damage from 260% -> 200%
+	- Reduced fireball count from 6 -> 5
+	- Fixed oil ignited by Boosted Sear not launching fireballs when hitting oiled enemies.
+
+- Glaze
+	- Increased cooldown from 7s -> 10s
+	- Fixed ignited oil not resetting its lifetime due to an earlier update.
+	- Increased oil lifetime from 10s -> 20s
+		- An earlier update broke oil lifetime and made it 10s instead of 30s
+	- Reduced burn duration from 10s -> 8s
+	- Increased oil tick damage from 15% -> 30%
+	- Slowed down tickrate from 1s -> 1.5s
+	- Every tick now deals ignite damage.
+	- Now interacts with Ignition Tank.
+	
+	*Glaze was overshadowing all of CHEF's other skills, and the fire pools could be infinitely maintained without much thought. With the new numbers, CHEF can no longer simply keep a fire pool burning by holding down shift, but he can set up big chain reactions and extend his fire duration a decent amount if he manages his cooldowns well.*
 
 `2.0.22`
 

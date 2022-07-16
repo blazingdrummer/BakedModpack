@@ -608,10 +608,10 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 0
-    patch: 22
+    minor: 1
+    patch: 0
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Gnome-ChefMod\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\Gnome-ChefMod\2.1.0\icon.png
 - manifestVersion: 1
   name: Paladin_Alliance-PaladinMod
   authorName: Paladin_Alliance
@@ -701,7 +701,7 @@
     minor: 2
     patch: 7
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\EnforcerGang-HAND_OVERCLOCKED\0.2.7\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-HAND_OVERCLOCKED\icon.png
 - manifestVersion: 1
   name: EnforcerGang-MinerUnearthed
   authorName: EnforcerGang
