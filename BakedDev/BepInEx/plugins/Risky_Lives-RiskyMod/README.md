@@ -60,6 +60,58 @@ Buff Icons - SOM
 
 ## Changelog
 
+`0.10.7`
+
+- Razor Wire
+	- Damage and Range no longer scale off of HP lost
+		- Now is always a fixed 160% (+40% per stack) damage and 25m range.
+	- Proc coefficient (0.1-0.5 based on HP lost) now maxes out at 10% HP lost
+		- Old Value: 50% HP lost
+	
+	*Reworked version was feeling underwhelming in most situations, so I'm simplifying it and moving it closer to Vanilla. Proc coefficient thing is there to tone down the effectiveness of Helfire + Razorwire.*
+
+`0.10.6`
+
+- Artificer
+	- Electrocute
+		- Reverted gauntlet VFX change due to syncing issues.
+
+`0.10.5`
+
+- Artificer
+	- Electrocute
+		- Increased damage from 900% -> 1000%
+		- Increased lightning bounce distance from 15m -> 20m
+		- Fixed the skill being unable to crit in multiplayer.
+		- Fixed the gauntlet firing effect positioning in multiplayer.
+			- Was showing at Artificer's server-side position instead of Artificer's client-side position. Not sure if this is better or worse for readability, since the lightning still is calculated from the server-side position.
+
+- Items
+	- Ghor's Tome
+		- Now gives the full reward to the person who picked it up, instead of splitting it among the team.
+		- No longer can be picked up by NPCs.
+			- Only applies to Player team.
+		
+	- Needletick
+		- Collapse now gives -1 armor per stack.
+		
+		*This item is strong earlygame, but falls off lategame and in multiplayer due to Bleed's better stacking behavior. Armor reduction should be small enough to not make a difference earlygame at low stacks, while providing some sort of benefit to high stacks while looping. Number is the same as Scorpion, but is tied to a temporary chance-based debuff rather than being permanent.*
+		
+	- Plasma Shrimp
+		- Proc chance is now affected by proc coefficient.
+
+- Enemies
+
+	*Changes marked with 🔥 are disabled when playing on the Inferno difficulty.*
+
+	- Lemurian
+		- 🔥 Reduced melee lunge distance.
+		
+	- Stone Titan
+		- Now always uses the laser for the full duration (8 seconds).
+		- Reduced laser damage bonus from +80% -> +60%
+		- Tweaked laser targeting, trying to see if this makes it smoother.
+
 `0.10.4`
 
 - Mercenary

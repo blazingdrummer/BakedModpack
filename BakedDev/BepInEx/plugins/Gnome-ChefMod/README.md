@@ -41,6 +41,10 @@ Whether or not you come back to work on him, we'll be here for ya.
 
 ## Changelog
 
+`2.1.1`
+
+- Added CN translation (Thanks Edge-R!)
+
 `2.1.0`
 
 *Trying to bring CHEF more in line with the rest of the cast. At the same time, some bugs related to Oil/Sear were fixed, so that'll affect his balance greatly so I'm not sure what to expect. Send feedback about how these changes feel, it will really help!*
@@ -70,7 +74,7 @@ Whether or not you come back to work on him, we'll be here for ya.
 	- Increased oil lifetime from 10s -> 20s
 		- An earlier update broke oil lifetime and made it 10s instead of 30s
 	- Reduced burn duration from 10s -> 8s
-	- Increased oil tick damage from 15% -> 30%
+	- Increased oil tick damage from 15% -> 20%
 	- Slowed down tickrate from 1s -> 1.5s
 	- Every tick now deals ignite damage.
 	- Now interacts with Ignition Tank.

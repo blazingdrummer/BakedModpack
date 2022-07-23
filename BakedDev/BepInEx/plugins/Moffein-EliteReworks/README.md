@@ -61,7 +61,7 @@ All players need the mod.
 - **Celestine:**
 	- Removed vanilla behavior.
 	- Attaches to up to 4 nearby enemies.
-		- Attached enemies gain +50% attack speed, +70% movement speed, and -30% cooldown reduction.
+		- Attached enemies gain +20% damage, +50% attack speed, +70% movement speed, and -30% cooldown reduction.
 		- On death, they revive as a ghost and will continue to live on for up to 60s.
 		- Killing a Celestine kills all their attached ghosts.
 	- On-hit effect changed to -20 armor instead of slowing.
@@ -85,6 +85,11 @@ All players need the mod.
 Place EliteReworks.dll in /Risk of Rain 2/BepInEx/plugins/
 
 ## ChangeLog
+
+- 1.7.1
+	- Malachite
+		- Antiheal Buildup is now considered a cooldown instead of a debuff.
+			- This makes it so that it won't rapidly consume Raincoat stacks, but still can be cleansed by debuff cleansing effects.
 
 - 1.7.0
 	- Celestine

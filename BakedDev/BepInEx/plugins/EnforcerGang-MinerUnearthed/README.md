@@ -5,7 +5,7 @@
 - Has a bunch of unlockable skins and skills, as well as a challenge to unlock him
 - Now includes Direseeker, a custom boss based on the original from RoR1
 
-[![](https://cdn.discordapp.com/attachments/469291841859092488/780784218816380938/unknown.png)]()
+[![](https://i.imgur.com/PWNFE6C.png)]()
 
 [![](https://cdn.discordapp.com/attachments/469291841859092488/780787095731437588/unknown.png)]()
 
@@ -22,7 +22,7 @@ Sounds somewhat like Mercenary, but where Mercenary slips in and out, Miner rush
 - `Drill Charge` and `Backblast` are high mobility options with invincibility during and slightly after their dashes. 
 - `Drill Charge` will always go the full distance, and increases damage by being held to charge longer.
 - `Backblast` can be held to go backwards farther. Use as a long mobility option, or to stay in combos.
-- `To the Stars`, when used correctly, can land huge damage on larger enemies. Use lower to the ground to maximize its damage.
+- `To the Stars`, when used correctly, can land huge damage on larger enemies.
 
 Read Gnome's original mod page for more detailed descriptions. Gameplay is still the same for the most part
 
@@ -56,6 +56,48 @@ Ruxbieno - Direseeker logbook entry
 Moffein - helped fix for CUM2  
 
 ## Changelog
+
+`1.8.1`
+
+- Fixed Adrenaline adding to Move Speed Multiplier instead of Base Move Speed.
+- Now uses a language file for strings. Looking for translators!
+	- This will break skill description numbers dynamically updating based on your config, but you can manually edit the language file to reflect your changes.
+
+`1.8.0`
+
+- Tweaked wording on skills.
+- Skill selections now save when closing the game.
+- Now uses DamageAPI and RecalculateStatsAPI, which should improve compatibility with other mods.
+- Fixed the skin with the "Rallypoint Delta in 8 minutes" unlock condition using real time instead of the run stopwatch.
+
+- Stats
+	- Reduced HP Regen from 2.5 (+0.5) -> 1.0 (+0.2)
+	
+	*Previous change didn't consider the passive's regen bonus.*
+	
+- Gouge
+	- Reduced damage from 275% -> 270%
+	- Now interacts with Shuriken
+	
+	*Skill is coded in a weird way, so a hacky fix was done for Shurikens.*
+	
+- To The Stars (Rework)
+	- Now creates 6 explosions below you that deal 300% damage each.
+	- Spacing and shot pattern is always consistent regardless of the height you use it from.
+		- Can't shotgun with it, but always has good coverage against crowds.
+	- Old version of the skill has been moved to an alt skill.
+	
+	*Making this work more like RoR1. More consistent, lower damage potential than the alt. Feedback would be good.*
+	
+- Meteor Shower (Alt Special)
+	- TODO: Icon
+	- Jump into the air, shooting a spray of shrapnel downwards for 15x160% damage.
+		- Damage increased from 90% -> 160% (overall damage has decreased slightly)
+		- Shotcount reduced from 30 -> 15 to reduce lag with on-hits
+		- Increased shot radius from 0.35 -> 0.5 to compensate for lower shotcount
+		- Increased proc coefficient from 0.5 -> 0.7
+
+	*Moved this to the alt slot due to being more finnicky to use compared to the reworked To The Stars.*
 
 `1.7.0`
 
