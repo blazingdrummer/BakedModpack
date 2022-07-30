@@ -57,6 +57,10 @@ Moffein - helped fix for CUM2
 
 ## Changelog
 
+`1.8.2`
+
+- Fixed missing ending text.
+
 `1.8.1`
 
 - Fixed Adrenaline adding to Move Speed Multiplier instead of Base Move Speed.

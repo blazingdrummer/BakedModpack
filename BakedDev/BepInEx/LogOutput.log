@@ -13,7 +13,7 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 38 plugins to load
+[Info   :   BepInEx] 37 plugins to load
 [Info   :   BepInEx] Loading [RoR2BepInExPack 1.0.3]
 [Info   :   BepInEx] Loading [R2API 4.4.1]
 [Debug  :     R2API] DeployableAPI has no static method registered for LoadCheck
@@ -353,18 +353,14 @@ SPEED IS WAR.
 [Info   :   BepInEx] Loading [Paladin 1.5.710]
 [Info   :   BepInEx] Loading [PaladinHealthTweak 1.0.0]
 [Debug  :     R2API] Hook added by assembly: PaladinHealthTweak.dll for: RoR2.BodyCatalog.Init
-[Info   :   BepInEx] Loading [TitanBuff 1.1.2]
-[Debug  :     R2API] Hook added by assembly: TitanBuff.dll for: EntityStates.TitanMonster.FireMegaLaser.OnEnter
-[Debug  :     R2API] Hook added by assembly: TitanBuff.dll for: EntityStates.TitanMonster.RechargeRocks.OnEnter
 [Info   :   BepInEx] Loading [Pingprovements 1.7.0]
 [Debug  :     R2API] Hook added by assembly: Pingprovements.dll for: RoR2.PingerController.SetCurrentPing
 [Debug  :     R2API] Hook added by assembly: Pingprovements.dll for: RoR2.UI.PingIndicator.Update
-[Info   :   BepInEx] Loading [RiskyMod Beta 0.10.7]
+[Info   :   BepInEx] Loading [RiskyMod Beta 0.10.9]
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.GameModeCatalog.LoadGameModes
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.Language.SetFolders
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.Projectile.ProjectileExplosion.OnBlastAttackResult
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.Run.get_participatingPlayerCount
-[Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.CharacterBody.Start
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.HealthComponent.TakeDamage
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.HealthComponent.Heal
@@ -437,8 +433,14 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.SetStateOnHurt.SetStunInternal
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.SetStateOnHurt.SetShockInternal
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.SetStateOnHurt.SetPainInternal
+[Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.CharacterBody.Start
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.HealthComponent.HealFraction
+[Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.Artifacts.DoppelgangerInvasionManager.CreateDoppelganger
+[Debug  :     R2API] Hook added by assembly:  for: RoR2.Artifacts.DoppelgangerInvasionManager.CreateDoppelganger
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.Artifacts.EnigmaArtifactManager.OnRunStartGlobal
+[Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.Stage.Start
+[Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.ArtifactTrialMissionController+CombatState.OnCharacterDeathGlobal
+[Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.ArtifactTrialMissionController.OnStartServer
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.ItemCatalog.Init
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.ItemCatalog.Init
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.CharacterBody.RecalculateStats
@@ -568,6 +570,8 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.CharacterMaster.GetDeployableSameSlotLimit
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.GlobalEventManager.OnCharacterDeath
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnCharacterDeath
+[Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.BodyCatalog.Init
+[Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.CharacterBody.Start
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.CharacterBody.RecalculateStats
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.RecalculateStats
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.CharacterBody.FixedUpdate
@@ -605,7 +609,6 @@ SPEED IS WAR.
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "ArenaCrabFoam1Mesh" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "DCHeatvent1" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "GPGiantRockSlab1Collision" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
-[Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "GPRuinRing1" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.Items.MinionLeashBodyBehavior.FixedUpdate
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.Items.MinionLeashBodyBehavior.FixedUpdate
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.HoldoutZoneController.Awake
@@ -731,13 +734,14 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.GolemMonster.ClapState.FixedUpdate
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.ParentMonster.GroundSlam.FixedUpdate
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.ParentMonster.GroundSlam.FixedUpdate
+[Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.BodyCatalog.Init
+[Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.HealthComponent.TakeDamage
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.LunarWisp.FireLunarGuns.OnFireAuthority
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.LunarWisp.FireLunarGuns.OnFireAuthority
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.VagrantMonster.ChargeMegaNova.OnEnter
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.VagrantMonster.ChargeMegaNova.OnEnter
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.CharacterBody.UpdateBuffs
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.BodyCatalog.Init
-[Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.MagmaWorm.SwitchStance.SetStanceParameters
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.CharacterAI.BaseAI.UpdateTargets
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.TitanMonster.FireMegaLaser.FixedUpdate
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.TitanMonster.FireMegaLaser.FixedUpdate
@@ -1058,7 +1062,7 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Info   :     R2API] com.Moffein.EliteReworks;1.7.1
 [Info   :     R2API] com.Moffein.HAND_Overclocked;0.2.7
 [Info   :     R2API] com.Moffein.PaladinHealthTweak
-[Info   :     R2API] com.RiskyLives.RiskyMod;0.10.7
+[Info   :     R2API] com.RiskyLives.RiskyMod;0.10.9
 [Info   :     R2API] com.rob.DiggerUnearthed;1.8.1
 [Info   :     R2API] com.rob.Paladin;1.5.710
 [Info   :     R2API] com.Skell.GoldenCoastPlus;0.6.3
@@ -1205,11 +1209,11 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Info   : Unity Log] Could not load config /Config/autoexec.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\autoexec.cfg"
 [Info   :     R2API] Generating a total of 9 ContentPacks...
 [Info   : Unity Log] LoadContentPacks() start
+[Warning: Unity Log] Failed to assign Buffs.Deafened: Asset "bdDeafened" not found.
 [Warning: Unity Log] Failed to assign Items.SummonedEcho: Asset "SummonedEcho" not found.
 [Warning: Unity Log] Failed to assign Equipment.AffixEcho: Asset "EliteEchoEquipment" not found.
 [Warning: Unity Log] Failed to assign Buffs.AffixEcho: Asset "bdEliteEcho" not found.
 [Warning: Unity Log] Failed to assign Elites.Echo: Asset "edEcho" not found.
-[Warning: Unity Log] Failed to assign Buffs.Deafened: Asset "bdDeafened" not found.
 [Debug  :     R2API] Content added from com.rob.DiggerUnearthed:
 MINER_BLACKSMITHUNLOCKABLE_REWARD_ID (UnlockableDef)
 MINER_CAVEINUNLOCKABLE_REWARD_ID (UnlockableDef)
@@ -1328,7 +1332,7 @@ NEMFORCER_TYPHOONUNLOCKABLE_REWARD_ID (UnlockableDef)
 [Error  : Unity Log] could not load display for DisplaySawmerang
 [Warning: Unity Log] Could not find scene with name "loadingbasic".
 [Info   : Unity Log] Command "set_scene" failed: "title" is not a valid scene.
-[Info   : Unity Log] Game content load completed in 8690ms.
+[Info   : Unity Log] Game content load completed in 8413ms.
 [Info   : Unity Log] Setting current language to "en"
 [Error  : Unity Log] [RoR2.ProjectileCatalog] Cannot have more than 256 projectile prefabs defined, which is over the limit for Byte. Check comments at error source for details.
 [Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [256/255]="VoidSurvivorMegaBlasterSmallProjectile"
@@ -1435,7 +1439,7 @@ RoR2.SteamworksLobbyDataGenerator,
 RoR2.UI.LogBook.LogBookController,
 RoR2.EOSLobbyDataGenerator
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
-[Info   : Unity Log] stream.Length=269243
+[Info   : Unity Log] stream.Length=269466
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
 [Info   : Unity Log] stream.Length=255476
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/e9f57f22-a572-4a1b-aa42-d41831444f19.xml
@@ -1457,11 +1461,6 @@ RoR2.EOSLobbyDataGenerator
 [Info   : Unity Log] BaseMainMenuScreen: OnEnter()
 [Debug  :     R2API] Hook removed by assembly: LittleGameplayTweaks.dll for: RoR2.UI.MainMenu.MainMenuController.Start
 [Debug  :     R2API] Hook removed by assembly: WolfoQualityOfLife.dll for: RoR2.UI.MainMenu.MainMenuController.Start
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object.
-Stack trace:
-RoR2.UI.SkinControllers.ButtonSkinController.StaticUpdate () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0014)
-RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
-
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Animator.GotoState: State could not be found

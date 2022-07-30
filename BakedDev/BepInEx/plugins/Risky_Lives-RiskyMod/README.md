@@ -42,7 +42,7 @@ Place RiskyMod.dll **AND** the **language folder** in /Risk of Rain 2/BepInEx/pl
 
 - Make Google Doc more readable/pretty.
 	- Split up into multiple separate docs?
-- Tweak enemy pools?
+- Tweak enemy pools
 	
 ## Credits
 
@@ -59,6 +59,65 @@ Acrid Hitbox Tweaks - TheTimesweeper
 Buff Icons - SOM
 
 ## Changelog
+
+`0.10.9`
+
+- Fixed Void Reaver changes applying to other things that use the NullifyOnHit DamageType.
+
+`0.10.8`
+
+- Artifacts
+	- Bulwark's Ambry
+		- Increased key drop chance from 3% -> 4%
+		- Keys are now guaranteed to drop every 25 kills, on top of the existing random chance.
+			- Kill counter resets when a key is dropped.
+			
+	- Vengeance
+		- Vengeance Doppelgangers are now part of the Void team.
+		- Vengeance Doppelgangers now use the Player team's level instead of the ambient run level.
+			- This option has been moved from the Monsters config to the Artifacts section of the General config.
+			
+	- Sacrifice
+		- Now uses a fixed 10% droprate, instead of starting at 5% and scaling up to 50%+ lategame based on enemy value.
+		- Swarms+Sacrifice now uses a fixed 5% droprate.
+		
+		*Merging in the changes from Sacrifice Tweaks since I've gotten them into a good spot. Sacrifice Tweaks settings takes precedence if it is installed.*
+		
+- Run Scaling
+	- Disabled Loop Boss Armor.
+	
+		*Loop Tele Director Credits seem to be doing a better job of increasing loop boss difficulty, so this is unnecessary.*
+		
+- Items
+	- Ghor's Tome
+		- Removed No NPC Pickup feature due to bugs.
+			- If an NPC picks up Tome Gold, it'll now just work like Vanilla where it is split among players.
+			
+	- Halcyon Seed
+		- Increased initial stack HP from 100% -> 200%
+		- Now has Adaptive Armor.
+	
+		*Was playing some runs and noticed goldie immediately dying lategame.*
+		
+- Equipment
+	- Foreign Fruit
+		- Increased Healing AOE from 12m -> 20m
+		
+		*I doubt most people will actually be using this to heal teammates, but at least it's a bit more lenient if you plan on doing that.*
+		
+	- Remote Caffeinator
+		- Now triggers pressure plates on Abandoned Aqueduct.
+	
+- Enemies
+	- Void Reaver
+		- Attacks now apply 2 stacks of Nullify.
+		
+		*These things never actually manage to root players because it's impossible to get hit 3 times in a row unless you're playing Engi/Enforcer.*
+		
+	- Magma/Overloading Worm
+		- Reverted "Fire Fireballs in both stances" change.
+		
+		*Was too laggy with how many projectiles could get spammed. Might revisit this later.*
 
 `0.10.7`
 

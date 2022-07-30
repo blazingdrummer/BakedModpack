@@ -721,7 +721,7 @@
   versionNumber:
     major: 1
     minor: 8
-    patch: 1
+    patch: 2
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-MinerUnearthed\icon.png
 - manifestVersion: 1
@@ -792,30 +792,6 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-EliteReworks\icon.png
 - manifestVersion: 1
-  name: Moffein-TitanBuff
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/TitanBuff/
-  displayName: TitanBuff
-  description: Makes Stone Titans able to laser enemies at point blank, and boosts
-    the proc coefficient of their laser. Also reduces how long it takes for them
-    to summon their rocks. Server-side and Vanilla-compatible.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - RiskofThunder-HookGenPatcher-1.2.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-TitanBuff\icon.png
-- manifestVersion: 1
   name: Risky_Lives-RiskyMod
   authorName: Risky_Lives
   websiteUrl: https://thunderstore.io/package/Risky_Lives/RiskyMod/
@@ -835,9 +811,9 @@
   versionNumber:
     major: 0
     minor: 10
-    patch: 7
+    patch: 9
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\Risky_Lives-RiskyMod\0.10.7\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyMod\icon.png
 - manifestVersion: 1
   name: Faustvii-QoLChests
   authorName: Faustvii
