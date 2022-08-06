@@ -1,20 +1,45 @@
-[Message:   BepInEx] BepInEx 5.4.19.0 - Risk of Rain 2 (3/1/2022 4:50:50 PM)
+[Message:   BepInEx] BepInEx 5.4.21.0 - Risk of Rain 2 (3/1/2022 4:50:50 PM)
 [Info   :   BepInEx] Running under Unity v2019.4.26.14694700
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.17020
 [Info   :   BepInEx] Supports SRE: False
 [Info   :   BepInEx] System platform: Bits64, Windows
 [Message:   BepInEx] Preloader started
-[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.19.0]
-[Info   :   BepInEx] 3 patcher plugins loaded
-[Message:BepInEx.GUI.Patcher] Console is enabled, not using BepInEx.GUI
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.GUI.Patcher 1.0.0.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [FixPluginTypesSerialization 1.0.0.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.1.0]
+[Info   :   BepInEx] 4 patcher plugins loaded
+[Info   :BepInEx.GUI] BepInEx regular console is enabled, aborting launch
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
 [Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Message:FixPluginTypesSerialization] Using the config cache
 [Info   :   BepInEx] Patching [RoR2] with [BepInEx.Chainloader]
+[Info   :FixPluginTypesSerialization] Running under Unity v2019.4.26
+[Debug  :FixPluginTypesSerialization] Unity version obtained from main application module.
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] BepInEx 5.4.21.0 - Risk of Rain 2 (3/1/2022 4:50:50 PM)
+[Info   :   BepInEx] Running under Unity v2019.4.26.14694700
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.17020
+[Info   :   BepInEx] Supports SRE: False
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.GUI.Patcher 1.0.0.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [FixPluginTypesSerialization 1.0.0.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.1.0]
+[Info   :   BepInEx] 4 patcher plugins loaded
+[Info   :BepInEx.GUI] BepInEx regular console is enabled, aborting launch
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Message:FixPluginTypesSerialization] Using the config cache
+[Info   :   BepInEx] Patching [RoR2] with [BepInEx.Chainloader]
+[Info   :FixPluginTypesSerialization] Running under Unity v2019.4.26
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 37 plugins to load
-[Info   :   BepInEx] Loading [RoR2BepInExPack 1.0.3]
+[Info   :   BepInEx] 38 plugins to load
+[Info   :   BepInEx] Loading [RoR2BepInExPack 1.1.0]
+[Info   :   BepInEx] TS Manifest: tristanmcpherson-R2API-4.4.1
 [Info   :   BepInEx] Loading [R2API 4.4.1]
 [Debug  :     R2API] DeployableAPI has no static method registered for LoadCheck
 [Debug  :     R2API] DifficultyAPI has no static method registered for LoadCheck
@@ -135,6 +160,7 @@
 [Debug  :     R2API] NetworkingAPI has no static method registered for Load
 [Debug  :     R2API] R2APIContentManager has no static method registered for Load
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.RoR2Application.Awake
+[Info   :   BepInEx] TS Manifest: Bubbet-NetworkedTimedBuffs-1.0.2
 [Info   :   BepInEx] Loading [Networked Timed Buffs 1.0.2]
 [Debug  :     R2API] Hook added by assembly: 0Harmony.dll for: RoR2.CharacterBody.FixedUpdate
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.FixedUpdate
@@ -152,18 +178,102 @@
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.<AddTimedBuff>g__DefaultBehavior|32_0
 [Debug  :     R2API] Hook added by assembly: 0Harmony.dll for: RoR2.CharacterBody.<AddTimedBuff>g__RefreshStacks|32_1
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.<AddTimedBuff>g__RefreshStacks|32_1
+[Info   :   BepInEx] TS Manifest: duckduckgreyduck-HuntressBuffULTIMATE-1.1.0
 [Info   :   BepInEx] Loading [HuntressBuffULTIMATE 1.1.0]
 [Info   : Unity Log] You chose Sprint Nerf! Based and shoepilled!
 [Debug  :     R2API] Hook added by assembly: SprintPerfected.dll for: RoR2.Skills.SkillDef.OnFixedUpdate
 [Debug  :     R2API] Hook added by assembly: SprintPerfected.dll for: RoR2.CharacterBody.RecalculateStats
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterBody.RecalculateStats
+[Info   :   BepInEx] TS Manifest: dan8991iel-LunarCoinShareOnPickup-4.2.1
 [Info   :   BepInEx] Loading [LunarCoinShareOnPickup 4.2.1]
 [Debug  :     R2API] Hook added by assembly: LunarCoinShareOnPickup.dll for: RoR2.GenericPickupController.OnInteractionBegin
+[Info   :   BepInEx] TS Manifest: XoXFaby-BetterUI-2.6.1
+[Info   :   BepInEx] Loading [BetterUI 2.6.0]
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.ItemInventoryDisplay.OnInventoryChanged
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.PickupPickerPanel.SetPickupOptions
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.PickupPickerPanel.Awake
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.PickupPickerPanel.OnCreateButton
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.GlobalEventManager.ClientDamageNotified
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.ChatBox.Awake
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.BuffIcon.Awake
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.BuffIcon.UpdateIcon
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.ItemIcon.SetItemIndex
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.ItemInventoryDisplay.UpdateDisplay
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.EquipmentIcon.Update
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.GenericNotification.SetEquipment
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.GenericNotification.SetItem
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.ContextManager.Awake
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.GenericPickupController.GetContextString
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.MainMenu.BaseMainMenuScreen.Awake
+[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.HUD.Awake
+[Info   :   BepInEx] TS Manifest: amogus_lovers-StandaloneAncientScepter-1.1.1
+[Info   :   BepInEx] Loading [StandaloneAncientScepter 1.1.0]
+[Info   :     R2API] Created a SerializableContentPack for mod com.DestroyedClone.AncientScepter
+[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.Util.IsPrefab
+[Warning:     R2API] Projectile AncientScepterMageFlamethrowerCloud (UnityEngine.GameObject) has no ghost prefab assigned! is this intentional?
+[Warning:     R2API] Projectile AncientScepterHuntressRain (UnityEngine.GameObject) has no ghost prefab assigned! is this intentional?
+[Warning:     R2API] Projectile AncientScepterLoaderThundercrash (UnityEngine.GameObject) has no ghost prefab assigned! is this intentional?
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.CharacterBody.OnInventoryChanged
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.CharacterMaster.GetDeployableSameSlotLimit
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.GenericSkill.SetSkillOverride
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Mage.Weapon.Flamethrower.FireGauntlet
+[Debug  :     R2API] Hook added by assembly:  for: EntityStates.Mage.Weapon.Flamethrower.FireGauntlet
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Mage.FlyUpState.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Bandit2.Weapon.BaseFireSidearmRevolverState.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Captain.Weapon.SetupAirstrike.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Captain.Weapon.SetupAirstrike.OnExit
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Captain.Weapon.CallAirstrikeBase.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.GenericSkill.RestockSteplike
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Captain.Weapon.CallAirstrikeEnter.OnEnter
+[Debug  :     R2API] Hook added by assembly:  for: EntityStates.Captain.Weapon.CallAirstrikeEnter.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Captain.Weapon.CallAirstrikeBase.KeyIsDown
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Captain.Weapon.SetupAirstrike.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Captain.Weapon.SetupAirstrike.OnExit
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Captain.Weapon.CallAirstrikeBase.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Captain.Weapon.CallAirstrikeAlt.ModifyProjectile
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Commando.CommandoWeapon.FireBarrage.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Commando.CommandoWeapon.FireBarrage.FireBullet
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.GenericProjectileBaseState.FireProjectile
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.Orbs.LightningOrb.OnArrival
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.CharacterBody.UpdateBuffs
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Huntress.AimArrowSnipe.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Huntress.AimArrowSnipe.OnExit
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Huntress.Weapon.FireArrowSnipe.FireBullet
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Huntress.ArrowRain.DoFireArrowRain
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Loader.BaseSwingChargedFist.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Loader.BaseSwingChargedFist.OnMeleeHitAuthority
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Loader.SwingZapFist.OnMeleeHitAuthority
+[Debug  :     R2API] Hook added by assembly:  for: EntityStates.Loader.SwingZapFist.OnMeleeHitAuthority
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Loader.BaseChargeFist.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Merc.Evis.FixedUpdate
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.GenericProjectileBaseState.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Toolbot.ToolbotDash.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Toolbot.ToolbotDash.OnExit
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Treebot.TreebotFlower.TreebotFlower2Projectile.RootPulse
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Treebot.TreebotFlower.TreebotFlower2Projectile.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.HealthPickup.OnTriggerStay
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Railgunner.Weapon.BaseFireSnipe.ModifyBullet
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Railgunner.Backpack.BaseCharged.OnExit
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Railgunner.Backpack.BaseCharged.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.Railgunner.Weapon.FireSnipeCryo.ModifyBullet
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.VoidSurvivor.CorruptMode.CorruptMode.OnEnter
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: EntityStates.VoidSurvivor.CorruptMode.CorruptMode.OnExit
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.UI.MainMenu.MainMenuController.Start
+[Debug  :     R2API] Hook added by assembly: AncientScepter.dll for: RoR2.UI.MainMenu.MainMenuController.Start
+[Info   :   BepInEx] TS Manifest: TheRealElysium-WaxQuailMultiJump-1.0.1
 [Info   :   BepInEx] Loading [WaxQuailMultiJump 1.0.1]
 [Debug  :     R2API] Hook added by assembly: WaxQuailMultiJump.dll for: EntityStates.GenericCharacterMain.ProcessJump
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.GenericCharacterMain.ProcessJump
+[Info   :   BepInEx] TS Manifest: EnforcerGang-Enforcer-3.3.9
 [Info   :   BepInEx] Loading [Enforcer 3.3.9]
 [Info   :     R2API] Created a SerializableContentPack for mod com.EnforcerGang.Enforcer
+[Info   :   BepInEx] TS Manifest: FunkFrog-and-Sipondo-ShareSuite-2.7.2
 [Info   :   BepInEx] Loading [ShareSuite 2.7.2]
 [Debug  :     R2API] Hook added by assembly: ShareSuite.dll for: RoR2.BossGroup.DropRewards
 [Debug  :     R2API] Hook added by assembly: ShareSuite.dll for: RoR2.SceneDirector.PlaceTeleporter
@@ -197,6 +307,7 @@
 [Debug  :     R2API] Hook added by assembly: ShareSuite.dll for: RoR2.GenericPickupController.AttemptGrant
 [Debug  :     R2API] Hook added by assembly: ShareSuite.dll for: RoR2.GenericPickupController.SendPickupMessage
 [Debug  :     R2API] Hook added by assembly: ShareSuite.dll for: RoR2.Chat.SendPlayerConnectedMessage
+[Info   :   BepInEx] TS Manifest: Gnome-ChefMod-2.1.1
 [Info   :   BepInEx] Loading [ChefMod 2.1.0]
 [Info   : Unity Log] System.String[]
 [Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.HealthComponent.TakeDamage
@@ -205,7 +316,6 @@
 [Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.SiphonNearbyController.SearchForTargets
 [Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.Run.HandlePlayerFirstEntryAnimation
 [Info   :     R2API] Created a SerializableContentPack for mod com.Gnome.ChefMod
-[Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.Util.IsPrefab
 [Warning: Unity Log] The referenced script on this Behaviour (Game Object '<null>') is missing!
 [Warning: Unity Log] The referenced script on this Behaviour (Game Object '<null>') is missing!
 [Debug  :     R2API] Hook added by assembly: R2API.dll for: RoR2.SkinDef.Awake
@@ -214,6 +324,7 @@
 [Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.CharacterModel.UpdateOverlays
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.CharacterModel.UpdateOverlays
 [Debug  :     R2API] Hook added by assembly: ChefMod.dll for: RoR2.Language.SetFolders
+[Info   :   BepInEx] TS Manifest: JohnEdwa-RTAutoSprintEx-2.1.2
 [Info   :   BepInEx] Loading [RTAutoSprintEx 2.1]
 [Debug  :     R2API] Hook added by assembly: RTAutoSprintEx.dll for: RoR2.PlayerCharacterMasterController.FixedUpdate
 [Debug  :     R2API] Hook added by assembly: RTAutoSprintEx.dll for: RoR2.CameraRigController.Update
@@ -223,9 +334,7 @@
 [Debug  :     R2API] Hook added by assembly: RTAutoSprintEx.dll for: RoR2.CameraRigController.SetSprintParticlesActive
 [Info   :RTAutoSprintEx] Disabling Speedlines:
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.CameraRigController.SetSprintParticlesActive
-[Info   :   BepInEx] Loading [RTAutoSprintAddon 1.0.1]
-[Info   :RTAutoSprintAddon] Adding RTAutoSprintEx custom skill/survivor patches: 
-[Info   :RTAutoSprintAddon] Patching completed.
+[Info   :   BepInEx] TS Manifest: KingEnderBrine-ScrollableLobbyUI-1.7.5
 [Info   :   BepInEx] Loading [Scrollable lobby UI 1.7.5]
 [Debug  :     R2API] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.CharacterSelectController.RebuildLocal
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.UI.CharacterSelectController.RebuildLocal
@@ -241,12 +350,16 @@
 [Debug  :     R2API] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.RuleCategoryController.SetData
 [Debug  :     R2API] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.RuleBookViewerStrip.Update
 [Debug  :     R2API] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.RuleBookViewerStrip.SetData
+[Info   :   BepInEx] TS Manifest: KingEnderBrine-RandomCharacterSelection-1.4.1
 [Info   :   BepInEx] Loading [Random Character Selection 1.4.1]
+[Info   :   BepInEx] TS Manifest: MagnusMagnuson-BazaarPrinter-0.3.0
 [Info   :   BepInEx] Loading [BazaarPrinter 0.3.0]
 [Debug  :     R2API] Hook added by assembly: BazaarPrinter.dll for: RoR2.BazaarController.Awake
+[Info   :   BepInEx] TS Manifest: Rune580-Risk_Of_Options-2.5.3
 [Info   :   BepInEx] Loading [Risk Of Options 2.5.3]
 [Debug  :     R2API] Hook added by assembly: RiskOfOptions.dll for: RoR2.Language.GetLocalizedStringByToken
 [Debug  :     R2API] Hook added by assembly: RiskOfOptions.dll for: RoR2.PauseManager.CCTogglePause
+[Info   :   BepInEx] TS Manifest: VarnaScelestus-Ephemeral_Coins-2.3.3
 [Info   :   BepInEx] Loading [Ephemeral_Coins 2.3.3]
 [Debug  :     R2API] Hook added by assembly: EphemeralCoins.dll for: RoR2.Run.Start
 [Debug  :     R2API] Hook added by assembly: EphemeralCoins.dll for: RoR2.UI.HUD.Update
@@ -263,6 +376,7 @@
 [Debug  :     R2API] Hook added by assembly: EphemeralCoins.dll for: RoR2.PurchaseInteraction.ScaleCost
 [Debug  :     R2API] Hook added by assembly: EphemeralCoins.dll for: RoR2.ShopTerminalBehavior.GenerateNewPickupServer
 [Debug  :     R2API] Hook added by assembly: EphemeralCoins.dll for: RoR2.BazaarController.SetUpSeerStations
+[Info   :   BepInEx] TS Manifest: MagnusMagnuson-BiggerBazaar-1.13.7
 [Info   :   BepInEx] Loading [BiggerBazaar 1.13.7]
 [Debug  :     R2API] Hook added by assembly: BiggerBazaar.dll for: RoR2.SceneExitController.Begin
 [Debug  :     R2API] Hook added by assembly: BiggerBazaar.dll for: RoR2.Run.AdvanceStage
@@ -275,6 +389,7 @@
 [Debug  :     R2API] Hook added by assembly: BiggerBazaar.dll for: RoR2.FireworkLauncher.FireMissile
 [Debug  :     R2API] Hook added by assembly: BiggerBazaar.dll for: RoR2.BazaarController.SetUpSeerStations
 [Debug  :     R2API] Hook added by assembly: BiggerBazaar.dll for: EntityStates.CaptainSupplyDrop.HackingMainState.PurchaseInteractionIsValidTarget
+[Info   :   BepInEx] TS Manifest: MagnusMagnuson-ShrineOfDio-1.6.1
 [Info   :   BepInEx] Loading [ShrineOfDio 1.6.1]
 [Debug  :     R2API] Hook added by assembly: ShrineOfDio.dll for: EntityStates.CaptainSupplyDrop.HackingMainState.PurchaseInteractionIsValidTarget
 [Debug  :     R2API] Hook added by assembly: ShrineOfDio.dll for: RoR2.OutsideInteractableLocker.LockPurchasable
@@ -285,9 +400,11 @@
 [Debug  :     R2API] Hook added by assembly: ShrineOfDio.dll for: RoR2.ShrineHealingBehavior.AddShrineStack
 [Debug  :     R2API] Hook added by assembly: ShrineOfDio.dll for: RoR2.CharacterMaster.OnBodyDeath
 [Debug  :     R2API] Hook added by assembly: ShrineOfDio.dll for: RoR2.PurchaseInteraction.CanBeAffordedByInteractor
+[Info   :   BepInEx] TS Manifest: Moffein-Clay_Men-1.4.5
 [Info   :   BepInEx] Loading [Clay Men 1.4.5]
 [Debug  :     R2API] Hook added by assembly: ClayMen.dll for: EntityStates.ClaymanMonster.SpawnState.OnEnter
-[Info   :   BepInEx] Loading [Elite Reworks 1.7.1]
+[Info   :   BepInEx] TS Manifest: Moffein-EliteReworks-1.7.2
+[Info   :   BepInEx] Loading [Elite Reworks 1.7.2]
 [Info   :     R2API] Created a SerializableContentPack for mod com.Moffein.EliteReworks
 [Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.GlobalEventManager.OnHitEnemy
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.GlobalEventManager.OnHitEnemy
@@ -319,13 +436,16 @@
 [Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.HealthComponent.TakeDamage
 [Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CharacterBody.RecalculateStats
 [Debug  :     R2API] Hook added by assembly: EliteReworks.dll for: RoR2.CombatDirector.Init
+[Info   :   BepInEx] TS Manifest: Moffein-EnigmaBlacklist-1.0.3
 [Info   :   BepInEx] Loading [Enigma Blacklist 1.0.3]
 [Debug  :     R2API] Hook added by assembly: EnigmaBlacklist.dll for: RoR2.EquipmentCatalog.Init
 [Debug  :     R2API] Hook added by assembly: EnigmaBlacklist.dll for: RoR2.Artifacts.EnigmaArtifactManager.OnRunStartGlobal
+[Info   :   BepInEx] TS Manifest: Moffein-GestureEnigma-1.0.1
 [Info   :   BepInEx] Loading [GestureEnigma 1.0.1]
 [Debug  :     R2API] Hook added by assembly: GestureEnigma.dll for: RoR2.EquipmentSlot.FixedUpdate
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.EquipmentSlot.FixedUpdate
 [Debug  :     R2API] Hook added by assembly: GestureEnigma.dll for: RoR2.ItemCatalog.Init
+[Info   :   BepInEx] TS Manifest: EnforcerGang-HAND_OVERCLOCKED-0.2.7
 [Info   :   BepInEx] Loading [HAN-D OVERCLOCKED BETA 0.2.7]
 [Info   : Unity Log] 
 
@@ -348,15 +468,20 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly: HAND_OVERCLOCKED.dll for: RoR2.CharacterModel.EnableItemDisplay
 [Debug  :     R2API] Hook added by assembly: HAND_OVERCLOCKED.dll for: RoR2.NetworkUIPromptController.OnControlBegin
 [Debug  :     R2API] Hook added by assembly: HAND_OVERCLOCKED.dll for: RoR2.NetworkUIPromptController.OnControlEnd
+[Info   :   BepInEx] TS Manifest: Moffein-NoBazaarKickout-1.0.1
 [Info   :   BepInEx] Loading [NoBazaarKickout 1.0.1]
 [Debug  :     R2API] Hook added by assembly: NoBazaarKickout.dll for: EntityStates.NewtMonster.KickFromShop.FixedUpdate
+[Info   :   BepInEx] TS Manifest: Paladin_Alliance-PaladinMod-1.5.10
 [Info   :   BepInEx] Loading [Paladin 1.5.710]
+[Info   :   BepInEx] TS Manifest: Moffein-PaladinHealthTweak-1.0.0
 [Info   :   BepInEx] Loading [PaladinHealthTweak 1.0.0]
 [Debug  :     R2API] Hook added by assembly: PaladinHealthTweak.dll for: RoR2.BodyCatalog.Init
+[Info   :   BepInEx] TS Manifest: rainyuu-Pingprovements-1.8.0
 [Info   :   BepInEx] Loading [Pingprovements 1.7.0]
 [Debug  :     R2API] Hook added by assembly: Pingprovements.dll for: RoR2.PingerController.SetCurrentPing
 [Debug  :     R2API] Hook added by assembly: Pingprovements.dll for: RoR2.UI.PingIndicator.Update
-[Info   :   BepInEx] Loading [RiskyMod Beta 0.10.9]
+[Info   :   BepInEx] TS Manifest: Risky_Lives-RiskyMod-0.10.10
+[Info   :   BepInEx] Loading [RiskyMod Beta 0.10.10]
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.GameModeCatalog.LoadGameModes
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.Language.SetFolders
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.Projectile.ProjectileExplosion.OnBlastAttackResult
@@ -606,9 +731,9 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.Drone.DroneWeapon.FireTurret.OnEnter
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.BodyCatalog.Init
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.HealthComponent.TakeDamage
-[Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "ArenaCrabFoam1Mesh" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "DCHeatvent1" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "GPGiantRockSlab1Collision" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+[Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "ArenaCrabFoam1Mesh" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.Items.MinionLeashBodyBehavior.FixedUpdate
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.Items.MinionLeashBodyBehavior.FixedUpdate
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.HoldoutZoneController.Awake
@@ -627,6 +752,8 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Bandit2.Weapon.SlashBlade.OnEnter
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Bandit2.Weapon.SlashBlade.get_minimumDuration
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Bandit2.Weapon.Bandit2FireShiv.FireShiv
+[Message:StandaloneAncientScepter] Replacing scepter skill for "Bandit2Body" (Bandit2.ResetRevolverScepter) with (LightsOutScepter)
+[Message:StandaloneAncientScepter] Replacing scepter skill for "Bandit2Body" (Bandit2DesperadoScepter) with (RackEmUpScepter)
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.SurvivorCatalog.Init
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.CaptainDefenseMatrixItem.DefenseMatrixOn.DeleteNearbyProjectile
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.CaptainDefenseMatrixItem.DefenseMatrixOn.get_rechargeFrequency
@@ -649,6 +776,8 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Commando.CommandoWeapon.FirePistol2.FixedUpdate
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.Commando.CommandoWeapon.FirePistol2.FixedUpdate
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Commando.DodgeState.OnEnter
+[Message:StandaloneAncientScepter] Replacing scepter skill for "CommandoBody" (BarrageScepter) with (BarrageScepter)
+[Message:StandaloneAncientScepter] Replacing scepter skill for "CommandoBody" (ThrowGrenadeScepter) with (GrenadeScepter)
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Engi.Mine.WaitForTarget.FixedUpdate
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.Engi.Mine.WaitForTarget.FixedUpdate
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.HuntressTracker.Start
@@ -657,6 +786,7 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Huntress.HuntressWeapon.FireSeekingArrow.FireOrbArrow
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Huntress.HuntressWeapon.FireSeekingArrow.FixedUpdate
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.Huntress.HuntressWeapon.FireSeekingArrow.FixedUpdate
+[Message:StandaloneAncientScepter] Replacing scepter skill for "HuntressBody" (ArrowRainScepter) with (ArrowRainScepter)
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Toolbot.BaseNailgunState.FireBullet
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.Toolbot.BaseNailgunState.FireBullet
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Toolbot.FireNailgun.OnExit
@@ -695,6 +825,8 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Croco.FireSpit.OnEnter
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.Croco.FireSpit.OnEnter
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.CharacterBody.OnClientBuffsChanged
+[Message:StandaloneAncientScepter] Replacing scepter skill for "CrocoBody" (CrocoDiseaseScepter) with (DiseaseScepter)
+[Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Loader.BaseSwingChargedFist.OnMeleeHitAuthority
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Loader.SwingZapFist.OnMeleeHitAuthority
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.Loader.SwingZapFist.OnMeleeHitAuthority
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Loader.GroundSlam.FixedUpdate
@@ -707,6 +839,7 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Mage.FlyUpState.HandleMovements
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.Mage.FlyUpState.HandleMovements
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Mage.Weapon.FireFireBolt.OnEnter
+[Message:StandaloneAncientScepter] Replacing scepter skill for "MageBody" (FlamethrowerScepter) with (RiskymodMageSpecialSithLightningScepter)
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Merc.Weapon.GroundLight2.OnEnter
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: EntityStates.Merc.EvisDash.FixedUpdate
 [Debug  :     R2API] Hook added by assembly:  for: EntityStates.Merc.EvisDash.FixedUpdate
@@ -766,6 +899,7 @@ SPEED IS WAR.
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.GlobalEventManager.OnHitAll
 [Debug  :     R2API] Hook added by assembly: RiskyMod.dll for: RoR2.HealthComponent.TakeDamage
 [Debug  :     R2API] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
+[Info   :   BepInEx] TS Manifest: Skell-GoldenCoastPlus-0.6.3
 [Info   :   BepInEx] Loading [GoldenCoastPlus 0.6.3]
 [Warning:     R2API] Assembly GoldenCoastPlus is adding an AffixGold (RoR2.BuffDef) which has an eliteDef assigned, but said eliteDef's equipmentDef's passiveBuffDef is not AffixGold (RoR2.BuffDef)! is this intentional?
 [Info   :     R2API] Created a SerializableContentPack for mod com.Skell.GoldenCoastPlus
@@ -812,13 +946,16 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.CharacterMaster.GiveMoney
 [Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.CharacterBody.OnInventoryChanged
 [Debug  :     R2API] Hook added by assembly: GoldenCoastPlus.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Info   :   BepInEx] TS Manifest: EnforcerGang-MinerUnearthed-1.8.3
 [Info   :   BepInEx] Loading [DiggerUnearthed 1.8.1]
 [Debug  :     R2API] Hook added by assembly: DiggerUnearthed.dll for: RoR2.GlobalEventManager.OnHitEnemy
 [Debug  :     R2API] Hook added by assembly: DiggerUnearthed.dll for: RoR2.HealthComponent.TakeDamage
 [Debug  :     R2API] Hook added by assembly: DiggerUnearthed.dll for: RoR2.GlobalEventManager.OnHitAll
 [Debug  :     R2API] Hook added by assembly: DiggerUnearthed.dll for: RoR2.Language.SetFolders
+[Info   :   BepInEx] TS Manifest: Legendsmith-SolidIceWall-1.1.0
 [Info   :   BepInEx] Loading [SolidIceWall 1.1.0]
 [Info   : Unity Log] Loaded SolidIcewall!
+[Info   :   BepInEx] TS Manifest: Wolfo-ArtifactOfDissimilarity-2.0.2
 [Info   :   BepInEx] Loading [ArtifactOfDissimilarity 2.0.2]
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "BBBoulderMediumRound1" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "WPPlatform1FullRing" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
@@ -836,6 +973,7 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Debug  :     R2API] Hook added by assembly: ArtifactDissimilarity.dll for: RoR2.SceneDirector.Start
 [Debug  :     R2API] Hook added by assembly: ArtifactDissimilarity.dll for: RoR2.ArenaMissionController.Awake
 [Debug  :     R2API] Hook added by assembly: ArtifactDissimilarity.dll for: RoR2.ArenaMissionController.OnDisable
+[Info   :   BepInEx] TS Manifest: Wolfo-LittleGameplayTweaks-2.0.4
 [Info   :   BepInEx] Loading [LittleGameplayTweaks 2.0.4]
 [Info   :     R2API] Created a SerializableContentPack for mod com.Wolfo.LittleGameplayTweaks
 [Debug  :     R2API] Hook added by assembly: LittleGameplayTweaks.dll for: RoR2.InfiniteTowerRun.OnWaveAllEnemiesDefeatedServer
@@ -868,6 +1006,7 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Debug  :     R2API] Hook added by assembly: LittleGameplayTweaks.dll for: RoR2.PurchaseInteraction.SetAvailable
 [Debug  :     R2API] Hook added by assembly: LittleGameplayTweaks.dll for: RoR2.ShopTerminalBehavior.DropPickup
 [Debug  :     R2API] Hook added by assembly: LittleGameplayTweaks.dll for: RoR2.MinionOwnership+MinionGroup.AddMinion
+[Info   :   BepInEx] TS Manifest: Wolfo-WolfoQualityOfLife-2.0.5
 [Info   :   BepInEx] Loading [WolfoQualityOfLife 2.0.5]
 [Debug  :     R2API] Hook added by assembly: WolfoQualityOfLife.dll for: RoR2.CharacterMaster.TryCloverVoidUpgrades
 [Debug  :     R2API] Hook added by assembly: WolfoQualityOfLife.dll for: RoR2.CharacterMasterNotificationQueue.PushItemTransformNotification
@@ -1005,29 +1144,15 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Debug  :     R2API] Hook added by assembly: WolfoQualityOfLife.dll for: EntityStates.GlobalSkills.LunarNeedle.FireLunarNeedle.OnEnter
 [Debug  :     R2API] Hook added by assembly: WolfoQualityOfLife.dll for: EntityStates.ScavMonster.Sit.OnEnter
 [Debug  :     R2API] Hook added by assembly: WolfoQualityOfLife.dll for: RoR2.CharacterMaster.PlayExtraLifeSFX
-[Info   :   BepInEx] Loading [BetterUI 2.6.0]
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.ItemInventoryDisplay.OnInventoryChanged
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.PickupPickerPanel.SetPickupOptions
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.PickupPickerPanel.Awake
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.PickupPickerPanel.OnCreateButton
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.GlobalEventManager.ClientDamageNotified
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.ChatBox.Awake
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.BuffIcon.Awake
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.BuffIcon.UpdateIcon
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.ItemIcon.SetItemIndex
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.ItemInventoryDisplay.UpdateDisplay
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.EquipmentIcon.Update
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.GenericNotification.SetEquipment
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.GenericNotification.SetItem
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.ContextManager.Awake
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.GenericPickupController.GetContextString
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.MainMenu.BaseMainMenuScreen.Awake
-[Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: RoR2.UI.HUD.Awake
+[Info   :   BepInEx] TS Manifest: wildbook-TooManyFriends-1.2.1
+[Info   :   BepInEx] Loading [TooManyFriends 1.1.0]
+[Info   :   BepInEx] TS Manifest: Faustvii-QoLChests-1.1.8
 [Info   :   BepInEx] Loading [QoLChests 1.1.8]
 [Debug  :     R2API] Hook added by assembly: QoLChests.dll for: RoR2.MultiShopController.OnPurchase
 [Debug  :     R2API] Hook added by assembly: QoLChests.dll for: RoR2.RouletteChestController+Opened.OnEnter
 [Info   : QoLChests] Awake done.
 [Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: EntityStates.Barrel.Opened.OnEnter
+[Info   :   BepInEx] TS Manifest: IHarbHD-DebugToolkit-3.7.1
 [Info   :   BepInEx] Loading [DebugToolkit 3.7.1]
 [Info   :DebugToolkit] Created by Harb, iDeathHD and . Based on RoR2Cheats by Morris1927.
 [Debug  :     R2API] Hook added by assembly: DebugToolkit.dll for: RoR2.Console.Awake
@@ -1056,13 +1181,14 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Info   :     R2API] bubbet.networkedtimedbuffs;1.0.2
 [Info   :     R2API] com.bepis.r2api;4.4.1
 [Info   :     R2API] com.Borbo.HuntressBuffULTIMATE;1.1.0
+[Info   :     R2API] com.DestroyedClone.AncientScepter;1.1.0
 [Info   :     R2API] com.EnforcerGang.Enforcer;3.3.9
 [Info   :     R2API] com.Gnome.ChefMod;2.1.0
 [Info   :     R2API] com.Moffein.ClayMen;1.4.5
-[Info   :     R2API] com.Moffein.EliteReworks;1.7.1
+[Info   :     R2API] com.Moffein.EliteReworks;1.7.2
 [Info   :     R2API] com.Moffein.HAND_Overclocked;0.2.7
 [Info   :     R2API] com.Moffein.PaladinHealthTweak
-[Info   :     R2API] com.RiskyLives.RiskyMod;0.10.9
+[Info   :     R2API] com.RiskyLives.RiskyMod;0.10.10
 [Info   :     R2API] com.rob.DiggerUnearthed;1.8.1
 [Info   :     R2API] com.rob.Paladin;1.5.710
 [Info   :     R2API] com.Skell.GoldenCoastPlus;0.6.3
@@ -1207,7 +1333,7 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Info   : Unity Log] "usesocialiconflag" is not a recognized ConCommand or ConVar.
 [Info   : Unity Log] Loaded archived convars.
 [Info   : Unity Log] Could not load config /Config/autoexec.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\autoexec.cfg"
-[Info   :     R2API] Generating a total of 9 ContentPacks...
+[Info   :     R2API] Generating a total of 10 ContentPacks...
 [Info   : Unity Log] LoadContentPacks() start
 [Warning: Unity Log] Failed to assign Buffs.Deafened: Asset "bdDeafened" not found.
 [Warning: Unity Log] Failed to assign Items.SummonedEcho: Asset "SummonedEcho" not found.
@@ -1327,19 +1453,67 @@ ENFORCER_ROBITUNLOCKABLE_REWARD_ID (UnlockableDef)
 ENFORCER_STUNGRENADEUNLOCKABLE_REWARD_ID (UnlockableDef)
 NEMFORCER_MASTERYUNLOCKABLE_REWARD_ID (UnlockableDef)
 NEMFORCER_TYPHOONUNLOCKABLE_REWARD_ID (UnlockableDef)
+[Debug  :     R2API] Content added from com.DestroyedClone.AncientScepter:
+AncientScepterHuntressRain (GameObject)
+AncientScepterLoaderThundercrash (GameObject)
+AncientScepterMageFlamethrowerCloud (GameObject)
+CaptainScepterNukeIrradiate (GameObject)
+CIScepCommandoGrenade (GameObject)
+ScepterCaptainAirstrikeAltProjectile (GameObject)
+AimArrowSnipeScepter (SkillDef)
+ArrowRainScepter (SkillDef)
+Bandit2.ResetRevolverScepter (SkillDef)
+Bandit2DesperadoScepter (SkillDef)
+BarrageScepter (SkillDef)
+CaptainAirstrikeScepter (SkillDef)
+CaptainPrepAirstrikeScepter (SkillDef)
+CaptainPrepAirstrikeScepter (SkillDef)
+CaptainPrepAirstrikeScepter (SkillDef)
+ChargeFistScepter (SkillDef)
+ChargeZapFistScepter (SkillDef)
+CrocoDiseaseScepter (SkillDef)
+CrocoLeapScepter (VoidSurvivorSkillDef)
+CrocoLeapScepter (SkillDef)
+CryochargeScepter (RailgunSkillDef)
+EvisScepter (SkillDef)
+EvisScepter (SkillDef)
+FireArrowSnipeScepter (SkillDef)
+FireFlower2Scepter (SkillDef)
+FireSeedScepter (SkillDef)
+FlamethrowerScepter (SkillDef)
+FlyUpScepter (SkillDef)
+HereticDefaultSkillScepter (SkillDef)
+PlaceTurretScepter (SkillDef)
+PlaceWalkerTurretScepter (SkillDef)
+RailgunnerBodyFireSnipeSuperScepter (RailgunSkillDef)
+SnipeCryoScepter (RailgunSkillDef)
+SuperchargeScepter (RailgunSkillDef)
+ThrowGrenadeScepter (SkillDef)
+ToolbotDashScepter (SkillDef)
+ITEM_ANCIENT_SCEPTER (ItemDef)
+Perish Song (BuffDef)
 [Info   : Unity Log] LoadContentPacks() end
 [Error  : Unity Log] could not load display for DisplayLightning
 [Error  : Unity Log] could not load display for DisplaySawmerang
 [Warning: Unity Log] Could not find scene with name "loadingbasic".
 [Info   : Unity Log] Command "set_scene" failed: "title" is not a valid scene.
-[Info   : Unity Log] Game content load completed in 8413ms.
+[Info   : Unity Log] Game content load completed in 9903ms.
 [Info   : Unity Log] Setting current language to "en"
 [Error  : Unity Log] [RoR2.ProjectileCatalog] Cannot have more than 256 projectile prefabs defined, which is over the limit for Byte. Check comments at error source for details.
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [256/255]="VoidSurvivorMegaBlasterSmallProjectile"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [257/255]="VoidSurvivorTwinBlasterProjectile1"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [258/255]="VoidSurvivorTwinBlasterProjectile2"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [259/255]="WindbladeProjectile"
-[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [260/255]="WispCannon"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [256/255]="VoidMegaCrabDeathBombletsProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [257/255]="VoidRaidCrabMissileProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [258/255]="VoidRaidCrabMultiBeamDotZone"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [259/255]="VoidSurvivorBlaster1Projectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [260/255]="VoidSurvivorCorruptDiskProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [261/255]="VoidSurvivorCrabCannonProjectileSticky"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [262/255]="VoidSurvivorMegaBlasterBigProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [263/255]="VoidSurvivorMegaBlasterBigProjectileCorrupted"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [264/255]="VoidSurvivorMegaBlasterProjectileSimple"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [265/255]="VoidSurvivorMegaBlasterSmallProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [266/255]="VoidSurvivorTwinBlasterProjectile1"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [267/255]="VoidSurvivorTwinBlasterProjectile2"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [268/255]="WindbladeProjectile"
+[Error  : Unity Log] [RoR2.ProjectileCatalog] Could not register projectile [269/255]="WispCannon"
 [Debug  :Ephemeral_Coins] NewMoonArtifactManager initialized
 [Debug  :     R2API] Hook added by assembly: BetterUnityPlugin.dll for: EntityStates.GhostUtilitySkillState.FixedUpdate
 [Info   : Unity Log] [RoR2.Loadout+BodyLoadoutManager] Tried to add duplicate node /Loadout/Bodies/CHEF/.
@@ -1439,7 +1613,7 @@ RoR2.SteamworksLobbyDataGenerator,
 RoR2.UI.LogBook.LogBookController,
 RoR2.EOSLobbyDataGenerator
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/7ef3426e-253f-48ae-bb68-7d3897e57a30.xml
-[Info   : Unity Log] stream.Length=269466
+[Info   : Unity Log] stream.Length=269625
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/c0910e0f-b1a7-48d9-ac14-82f02f0114f0.xml
 [Info   : Unity Log] stream.Length=255476
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/e9f57f22-a572-4a1b-aa42-d41831444f19.xml
@@ -1459,11 +1633,24 @@ RoR2.EOSLobbyDataGenerator
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=Single
 [Info   : Unity Log] BaseMainMenuScreen: OnEnter()
+[Debug  :     R2API] Hook removed by assembly: AncientScepter.dll for: RoR2.UI.MainMenu.MainMenuController.Start
+[Debug  :     R2API] Hook removed by assembly: AncientScepter.dll for: RoR2.UI.MainMenu.MainMenuController.Start
 [Debug  :     R2API] Hook removed by assembly: LittleGameplayTweaks.dll for: RoR2.UI.MainMenu.MainMenuController.Start
 [Debug  :     R2API] Hook removed by assembly: WolfoQualityOfLife.dll for: RoR2.UI.MainMenu.MainMenuController.Start
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object.
+Stack trace:
+RoR2.UI.SkinControllers.ButtonSkinController.StaticUpdate () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_0014)
+RoR2.RoR2Application.Update () (at <2b2f3d5000df48ae8f94a9b49e82d786>:IL_005F)
+
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
+[Error  : Unity Log] Failed to confine the cursor - ClipCursor failed: Access is denied.
+
+[Info   : Unity Log] Saved file "7ef3426e-253f-48ae-bb68-7d3897e57a30.xml" (269625 bytes)
+[Info   : Unity Log] in save archive convars
+[Info   : Unity Log] Shutting down Steamworks...
+[Info   : Unity Log] Shut down Steamworks.

@@ -1,6 +1,6 @@
 {
   "name": "RiskyMod",
-  "version_number": "0.10.9",
+  "version_number": "0.10.10",
   "website_url": "https://github.com/Moffein/RiskyMod",
   "description": "A full game rebalance that aims to bring the game closer to RoR1.",
   "dependencies": [

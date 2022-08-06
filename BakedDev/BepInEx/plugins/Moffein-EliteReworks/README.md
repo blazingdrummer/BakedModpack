@@ -52,7 +52,7 @@ All players need the mod.
 
 - **Malachite:**
 	- Malachites now have a passive anti-heal AOE.
-	- Malachite spikes now deal 50% of your current HP.
+	- Malachite spikes now deal 40% of your current HP.
 	- Malachite spikes now apply Anti-Heal + Weaken for 8 seconds.
 	- Stun/Shock/Freeze disables their passive spikes + anti-heal AOE.
 	
@@ -85,6 +85,17 @@ All players need the mod.
 Place EliteReworks.dll in /Risk of Rain 2/BepInEx/plugins/
 
 ## ChangeLog
+
+- 1.7.2
+	- Malachite
+		- Reduced Spike damage from 50% HP -> 40% HP
+		
+		*Making this a bit more lenient against consumable items since at 50% HP, getting hit by 2 spikes in quick succession was enough to instantly delete all your consumables.*
+		
+	- Celestine
+		- Reduced delay between Ghost Orb VFX from 5s -> 2.5s
+		
+		*Do the orbs even show up in MP? Noticing the VFX is hard to see in the heat of battle.*
 
 - 1.7.1
 	- Malachite

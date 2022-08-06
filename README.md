@@ -1,3 +1,8 @@
+# random notes
+- RiskyMod custom artificer skill gets cancelled by autosprint, would be cool if that worked
+- tweak Mithrix stage 3
+- partial metamorphosis
+
 # RiskyMod Notes
 - scaling changes might mess with `ShareSuite`
 - freeze now executes, should Bandit execute?

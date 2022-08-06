@@ -57,6 +57,10 @@ Moffein - helped fix for CUM2
 
 ## Changelog
 
+`1.8.3`
+
+- Fixed missing Scepter skill icons.
+
 `1.8.2`
 
 - Fixed missing ending text.

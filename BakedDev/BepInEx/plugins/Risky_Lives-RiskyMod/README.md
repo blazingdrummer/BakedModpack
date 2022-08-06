@@ -60,6 +60,32 @@ Buff Icons - SOM
 
 ## Changelog
 
+`0.10.10`
+
+- Allies
+	- Incinerator Drone
+		- Reduced full HP regen time from 40s -> 20s
+		- Increased armor from 0 -> 20
+		
+		*These things die really easily due to being forced to be in close range to use their attacks.*
+		
+	- TC280
+		- Reduced full HP regen time from 40s -> 30s
+		- Increased armor from 0 -> 20
+		
+		*These are dying a bit too easily in their current state.*
+
+- Artificer
+	- Ice Wall and Blaze Storm
+		- Replaced blast jumping with a simple backwards knockback if used while airborne.
+		
+		*The blast jump mechanic was too unintuitive both visually and mechanically. Noticed that players often didn't even realize it was a thing. Physics are roughly the same as pre-update, but without the awkward whiffing that the old version had if you misjudged the blast jump AoE.*
+		
+	- Blaze Storm
+		- Increased DPS from 300% -> 360%
+		
+		*Skill description incorrectly listed this as 320% damage. Keeping enemies in the AoE proved to be somewhat more unreliable than expected, which is why DPS is getting increased.*
+
 `0.10.9`
 
 - Fixed Void Reaver changes applying to other things that use the NullifyOnHit DamageType.

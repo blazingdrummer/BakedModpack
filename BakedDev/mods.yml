@@ -15,9 +15,9 @@
   versionNumber:
     major: 5
     minor: 4
-    patch: 1905
+    patch: 2101
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\bbepis-BepInExPack\5.4.1905\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\bbepis-BepInExPack\5.4.2101\icon.png
 - manifestVersion: 1
   name: RiskofThunder-HookGenPatcher
   authorName: RiskofThunder
@@ -200,29 +200,6 @@
     patch: 2
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\JohnEdwa-RTAutoSprintEx\icon.png
-- manifestVersion: 1
-  name: JohnEdwa-RTAutoSprintAddon
-  authorName: JohnEdwa
-  websiteUrl: https://thunderstore.io/package/JohnEdwa/RTAutoSprintAddon/
-  displayName: RTAutoSprintAddon
-  description: Adds AutoSprint support for a few custom survivors/skill packs, as
-    well as a config option to add them manually.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.3.1
-    - JohnEdwa-RTAutoSprintEx-2.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\JohnEdwa-RTAutoSprintAddon\icon.png
 - manifestVersion: 1
   name: duckduckgreyduck-HuntressBuffULTIMATE
   authorName: duckduckgreyduck
@@ -721,7 +698,7 @@
   versionNumber:
     major: 1
     minor: 8
-    patch: 2
+    patch: 3
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-MinerUnearthed\icon.png
 - manifestVersion: 1
@@ -788,7 +765,7 @@
   versionNumber:
     major: 1
     minor: 7
-    patch: 1
+    patch: 2
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-EliteReworks\icon.png
 - manifestVersion: 1
@@ -811,7 +788,7 @@
   versionNumber:
     major: 0
     minor: 10
-    patch: 9
+    patch: 10
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyMod\icon.png
 - manifestVersion: 1
@@ -858,3 +835,49 @@
     patch: 3
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Rune580-Risk_Of_Options\icon.png
+- manifestVersion: 1
+  name: wildbook-TooManyFriends
+  authorName: wildbook
+  websiteUrl: https://thunderstore.io/package/wildbook/TooManyFriends/
+  displayName: TooManyFriends
+  description: Ever felt like 4 players wasn't enough?
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1902
+    - tristanmcpherson-R2API-4.0.11
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\wildbook-TooManyFriends\icon.png
+- manifestVersion: 1
+  name: amogus_lovers-StandaloneAncientScepter
+  authorName: amogus_lovers
+  websiteUrl: https://thunderstore.io/package/amogus_lovers/StandaloneAncientScepter/
+  displayName: StandaloneAncientScepter
+  description: 1.1.0 - New config settings + Railgunner+Void Fiend Skills | A full
+    port of ThinkInvisible's Ancient Scepter, complete with a custom model, item
+    displays, and no extra dependencies.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+    - tristanmcpherson-R2API-4.3.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\amogus_lovers-StandaloneAncientScepter\icon.png
