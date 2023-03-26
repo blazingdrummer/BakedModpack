@@ -1,0 +1,45 @@
+{
+	strings:
+	{
+	"MINER_NAME" : "矿工",
+	"MINER_DESCRIPTION" : "矿工是一个快节奏且高机动的近战幸存者，要优先考虑击杀敌人获得被动堆叠。<color=#CCD3E0>\n\n< ! >一旦你获得了大量的肾上腺素，凿击和征服将是你最好的伤害来源。\n\n< ! >钻头冲锋充能只影响造成的伤害。瞄准地面或敌人造成集中伤害。\n\n< ! >可以使用后撤步以移动一小段距离。按住可以移动得更远。\n\n< ! >星之闪烁可以对大型敌人造成高额伤害。",
+	"MINER_SUBTITLE" : "破坏性挖掘者",
+	"MINER_LORE" : "\n在货轮废墟的冰冷钢铁和寒冷的夜晚的空气中，有声杂志的微弱蓝光映入眼帘。日记本在货物的残骸中完全失修，但它仍然存在，保持功能。设备外壳上的模拟按钮缓慢跳动，仿佛在邀请任何人聆听他们扭曲的条目，连贯性不断衰减...\n\n<color=#8990A7><CLICK></color>\n\n<color=#8990A7>/ / - - L  O  G     1 - - / /</color>\n''第一个日志。日期，呃……哦，5，哦，1，20-50-5。布拉斯决定把我们从采矿工作中拉出来。经过几个月的挖掘，经过几个月的鲜血，在这项行动上花费了数百万美元，我们只是放弃了吗？''\n\n<color=#8990A7>/ / - - L  O  G     5 - - / /</color>\n''我从来没有见过这样的东西。内部几乎就像一个万花筒。黄铜希望我们尽快离开。今晚我要出去把剩下的挖出来……如果我能做到这一点，接下来的一千薪水就会拿到。我一直在等待这样的机会。''\n\n<color=#8990A7>/ / - - L  O  G     7 - - / /</color>\n''很确定他们什么都知道。他们现在在质疑人们。我把神器藏在通风口，应该是安全的。货机叫UES，几个月后对接。我只需要坚持偷偷摸摸。''\n\n<color=#8990A7>/ / - - L  O  G     15 - - / /</color>\n''他们在找我，不久他们就找到了我，像一个躲在船壁上的肥老鼠。货机停运，我为此付出了一切。我为此付出了<i>一切</i>。''\n\n<color=#8990A7>/ / - - L  O  G     16 - - / /</color>\n''船体某处。没有人回到这里，甚至没有维护。在船到达之前我应该是安全的。''\n\n<color=#8990A7>/ / - - L  O  G     18 - - / /</color>\n''船仍然搁置。不知道什么时候出发。'' <color=#8990A7><呻吟></color>\n\n <color=#8990A7>/ / - - L  O  G     29 - - / /</color>\n''<color=#8990A7>-//////////-</color>在这，最后，最后。必须把神器拿到船上。不过，到处都是安保。佣兵团...'' <color=#8990A7><远处的声音有听不清的对话></color> ''好的。住口。闭嘴走吧。我要去。去。今晚。''\n\n <color=#8990A7>/ / - - L  O  G     31 - - / /</color>\n''<color=#8990A7>-//////-</color>船出事了。货物飞出。遗失神器。失去了一切. . . . 失去了<color=#8990A7>-//-</color>.''\n\n音频日志的屏幕发出火花和爆裂声，处于完全的黑暗中，伴随着矿工不祥的遗言带来的震耳欲聋的沉默。",
+	"MINER_OUTRO" : "..所以他离开了，肾上腺素还在他的血管里奔腾。",
+	"MINER_OUTRO_FLAVOR" : "..所以他离开了，肾上腺素还在他的血管里奔腾。",
+	
+	"MINER_PASSIVE_NAME" : "淘金热",
+	"MINER_PASSIVE_DESCRIPTION" : "收到金钱时，获得<style=cIsHealth>肾上腺素</style>，提升<style=cIsDamage>攻击速度</style>，<style=cIsUtility>移动速度</style>，和<style=cIsHealing>生命恢复</style>。",
+	"KEYWORD_CLEAVING" : "<style=cKeywordName>裂劈</style><style=cSub>施加一个叠加减益，<style=cIsHealth>每层降低3点</style><style=cIsDamage>护甲</style>。</style>",
+	
+	"MINER_PRIMARY_GOUGE_NAME" : "凿击",
+	"MINER_PRIMARY_GOUGE_DESCRIPTION" : "<style=cIsUtility>灵巧</style>。向附近的敌人疯狂挥动凿子，造成<style=cIsDamage>270%伤害</style>，<style=cIsHealth>裂劈</style>护甲。",
+	
+	"MINER_PRIMARY_CRUSH_NAME" : "征服",
+	"MINER_PRIMARY_CRUSH_DESCRIPTION" : "<style=cIsUtility>灵巧</style>。粉碎附近的敌人，造成<style=cIsDamage>360%伤害</style>。<style=cIsUtility>范围随攻击速度增加</style>。",
+	
+	"MINER_SECONDARY_CHARGE_NAME" : "钻头冲锋",
+	"MINER_SECONDARY_CHARGE_DESCRIPTION" : "充能并冲向敌人，最多造成<style=cIsDamage>6x180%伤害</style>。<style=cIsUtility>在此期间不能被击中。</style>",
+	
+	"MINER_SECONDARY_BREAK_NAME" : "破坏锤",
+	"MINER_SECONDARY_BREAK_DESCRIPTION" : "向前冲刺，在与敌人接触时，爆炸造成<style=cIsDamage>2x240%伤害</style>。<style=cIsUtility>在此期间不能被击中。</style>",
+	
+	"MINER_UTILITY_BACKBLAST_NAME" : "后撤步",
+	"MINER_UTILITY_BACKBLAST_DESCRIPTION" : "<style=cIsDamage>眩晕</style>。向后爆炸，击中附近的敌人，造成<style=cIsDamage>600%伤害</style>。按住后距离更远。<style=cIsUtility>在此期间不能被击中。</style>",
+	
+	"MINER_UTILITY_CAVEIN_NAME" : "塌陷",
+	"MINER_UTILITY_CAVEIN_DESCRIPTION" : "<style=cIsUtility>眩晕</style>。向后爆炸，<style=cIsUtility>拉动</style>大范围内的所有敌人。<style=cIsUtility>在此期间不能被击中。</style>",
+	
+	"MINER_SPECIAL_TOTHESTARSCLASSIC_NAME" : "星之闪烁",
+	"MINER_SPECIAL_TOTHESTARSCLASSIC_DESCRIPTION" : "跳到空中，直接击中下方的敌人，造成<style=cIsDamage>6x300%伤害</style>。",
+	
+	"MINER_SPECIAL_TOTHESTARS_NAME" : "陨石降落",
+	"MINER_SPECIAL_TOTHESTARS_DESCRIPTION" : "跳到空中，向下射出一团弹片，造成<style=cIsDamage>15x160%伤害</style>。",
+	
+	"MINER_SPECIAL_SCEPTERTOTHESTARS_NAME" : "坠落的彗星",
+	"MINER_SPECIAL_SCEPTERTOTHESTARS_DESCRIPTION" : "跳到空中，向下射出一团弹片，造成<style=cIsDamage>15x160%伤害</style>，然后向下坠落并产生巨大的冲击力，造成<style=cIsDamage>1500%伤害</style>并<style=cIsDamage>点燃</style>击中的敌人。",
+	
+	"MINER_SPECIAL_SCEPTERTOTHESTARSCLASSIC_NAME" : "星界",
+	"MINER_SPECIAL_SCEPTERTOTHESTARSCLASSIC_DESCRIPTION" : "<style=cIsDamage>眩晕。</style>跳到空中，直接击中下方的敌人，造成<style=cIsDamage>10x300%总伤害</style>。"
+	}
+}

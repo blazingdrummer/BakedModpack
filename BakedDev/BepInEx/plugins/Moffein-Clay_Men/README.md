@@ -2,7 +2,7 @@ Adds the unfinished Clay Man into the game as a fast melee trash mob that can de
 
 They can chase and keep up with sprinting players, but can be outmaneuvered by jumping and strafing.
 
-Spawns on Abandoned Aqueduct, Aphelian Sanctuary, Sulfur Pools
+Spawns on Abandoned Aqueduct, Aphelian Sanctuary, Sulfur Pools, Scorched Acres
 
 Replaces Imps on Scorched Acres
 
@@ -13,9 +13,26 @@ All players need the mod.
 Partially based on rob's unfinished Clay Man code.
 
 ## Installation
-Place ClayMen.dll in /Risk of Rain 2/BepInEx/plugins/
+Place the Moffein-ClayMen folder in /Risk of Rain 2/BepInEx/plugins/
 
 ## Changelog
+
+1.5.3
+
+- Added Russian translation (Thanks Адский Шкед!)
+
+1.5.2
+
+- Added Simplified Chinese translation (Thanks JunJun_w!)
+
+1.5.1
+
+- Fixed logbook unlock not saving.
+
+1.5.0
+
+- Languagefile support.
+- Added logbook entry.
 
 1.4.5
 

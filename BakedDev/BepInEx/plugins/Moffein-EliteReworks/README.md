@@ -75,6 +75,7 @@ All players need the mod.
 	- Collapse replaced with Void Reaver Nullify
 		- 1 stack per hit
 		- Lasts 8s (scales with proc coefficient)
+		- Now only takes 2 stacks to root.
 	- Removed built-in 30% damage penalty.
 	- Now gets a +50% damage bonus to match other elites.
 	
@@ -84,7 +85,28 @@ All players need the mod.
 
 Place EliteReworks.dll in /Risk of Rain 2/BepInEx/plugins/
 
-## ChangeLog
+## Changelog
+
+- 1.8.0
+	- Voidtouched
+		- Nullify now roots at 2 stacks.
+		
+	*I have never seen these things actually manage to root someone.*
+
+- 1.7.5
+	- Fixed T2 Min Stages config option requiring 1 more stage than specified.
+
+- 1.7.4
+	- Fixed T2 Min Stages config option being broken.
+		- Was checking loops completed instead of stages completed, so it would cause T2 elites to never spawn.
+
+- 1.7.3
+	- Added T2 Min Stages config option. This will make T2 elites begin to spawn after completing the specified number of stages.
+		- Set to 5 (1 loop) by default.
+		- Lower this to 0 if you want them to be able to spawn on stage 1.
+		
+	- Malachite
+		- Spikes no longer ignore armor/block.
 
 - 1.7.2
 	- Malachite

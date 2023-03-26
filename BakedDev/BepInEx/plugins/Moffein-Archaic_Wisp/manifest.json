@@ -1,0 +1,11 @@
+{
+  "name": "Archaic_Wisp",
+  "version_number": "1.1.3",
+  "website_url": "https://github.com/Moffein/ArchaicWisp",
+  "description": "Adds the unused Archaic Wisp enemy to spawn pool.",
+  "dependencies": [
+    "tristanmcpherson-R2API-4.4.1",
+	"bbepis-BepInExPack-5.4.1903",
+	"Moffein-FixDamageTrailNullref-1.0.0"
+  ]
+}

@@ -1,11 +1,10 @@
 {
   "name": "RiskyMod",
-  "version_number": "0.10.10",
+  "version_number": "1.1.0",
   "website_url": "https://github.com/Moffein/RiskyMod",
-  "description": "A full game rebalance that aims to bring the game closer to RoR1.",
+  "description": "A full game rebalance that aims to bring the game closer to RoR1. Highly configurable!",
   "dependencies": [
     "bbepis-BepInExPack-5.4.1905",
-	"tristanmcpherson-R2API-4.4.1",
-	"Rune580-Risk_Of_Options-2.5.3"
+	"tristanmcpherson-R2API-4.4.1"
   ]
 }

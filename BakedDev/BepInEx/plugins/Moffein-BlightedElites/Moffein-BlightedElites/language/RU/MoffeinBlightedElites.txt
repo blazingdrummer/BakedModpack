@@ -1,0 +1,11 @@
+{
+	strings:
+	{
+	"ELITE_MODIFIER_BLIGHTED_MOFFEIN" : "Увядающий {0}",
+	"ELITE_MODIFIER_BLIGHTED_MOFFEIN_SUBTITLENAMETOKEN" : "Фантазм",
+	
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_NAME" : "Предательство Бастиона",
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_DESC" : "Даёт <style=cIsDamage>2</style> случайные <style=cIsDamage>силы элитных врагов</style>. Активируйте чтобы <style=cIsDamage>перебросить ваши силы</style>.",
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_PICKUP" : "Станьте воплощением гниения.",
+	}
+}

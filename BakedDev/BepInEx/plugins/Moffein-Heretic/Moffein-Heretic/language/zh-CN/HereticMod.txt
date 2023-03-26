@@ -1,0 +1,14 @@
+{
+	strings:
+	{
+		"MOFFEINHERETIC_PASSIVE_DESCRIPTION" : "异教徒的<style=cIsUtility>移动速度更快</style>并且可以<style=cIsUtility>挥舞两次翅膀</style>以在空中跳的更高。",
+		"MOFFEINHERETIC_STATBONUSITEM_NAME" : "异端印记",
+		"MOFFEINHERETIC_STATBONUSITEM_PICKUP" : "获得大量状态提升... <color=#FF7F7F>但生命值随时间减少。</color>",
+		"MOFFEINHERETIC_STATBONUSITEM_DESC" : "增加<style=cIsHealing>400%</style><style=cIsHealing>生命值</style>与<style=cIsDamage>50%</style><style=cIsDamage>伤害</style>。减少<style=cIsHealing>基础生命值恢复</style>至<style=cIsHealing>-6hp/s</style>。",
+		"MOFFEINHERETIC_SKILL_LUNAR_SECONDARY_REPLACEMENT_DESCRIPTION" : "放出一团刀刃组成的刃球，持续造成<style=cIsDamage>175%的伤害</style>。稍后，刃球会发生爆炸，<style=cIsDamage>定身</style>所有敌人并造成<style=cIsDamage>700%的伤害</style>。",
+		"MOFFEINHERETIC_SKILL_LUNAR_SPECIAL_REPLACEMENT_DESCRIPTION" : "造成伤害可以施加一层<style=cIsDamage>毁坏</style>。启动此技能可以<style=cIsDamage>引爆所有的毁坏层数</style>，不限距离，并造成<style=cIsDamage>300%的伤害</style>，外加每层<style=cIsDamage>毁坏</style>120%的伤害。",
+		
+		"ACHIEVEMENT_MOFFEINHERETICUNLOCK_NAME" : "异端崛起",
+		"ACHIEVEMENT_MOFFEINHERETICUNLOCK_DESCRIPTION" : "使用隐藏幸存者逃离月球。"
+	}
+}

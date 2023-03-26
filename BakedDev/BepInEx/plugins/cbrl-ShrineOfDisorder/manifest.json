@@ -1,0 +1,11 @@
+﻿{
+	"name": "ShrineOfDisorder",
+	"version_number": "1.1.4",
+	"website_url": "https://github.com/cbrl/ShrineOfDisorder",
+	"description": "Modifies the Shrine of Order behavior for more fun and less pain.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.9",
+		"tristanmcpherson-R2API-4.0.11",
+		"RiskofThunder-HookGenPatcher-1.2.1"
+	]
+}

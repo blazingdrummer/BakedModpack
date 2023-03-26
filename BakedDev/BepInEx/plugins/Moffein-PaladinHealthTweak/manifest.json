@@ -1,8 +1,8 @@
 {
   "name": "PaladinHealthTweak",
-  "version_number": "1.0.0",
+  "version_number": "1.1.1",
   "website_url": "",
-  "description": "Changes Paladin's level health scaling from +40% to +30% like other survivors.",
+  "description": "Changes Paladin's level health scaling from +40% to +30% and sprint multiplier from 1.6 to 1.45 to match other survivors.",
   "dependencies": [
     "Paladin_Alliance-PaladinMod-1.5.10"
   ]

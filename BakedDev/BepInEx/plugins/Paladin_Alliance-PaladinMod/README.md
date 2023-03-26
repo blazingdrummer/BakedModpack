@@ -11,28 +11,6 @@ join the discord to share feedback/bugs- https://discord.gg/WQzE983zfs
 
 feel free to ping/dm me with all your complaints- ~~@rob#2365~~ @TheTimesweeper#5727
 
-### What's Up (New Mod?)
- 
-As we know, rob, who made Paladin, has left the modding community, so the mod continues on under a new account. He did good shit, to put it lightly, and we're happy to continue on.
-
-What does this mean?  
-Nothing really. Just the mod hasn't been abandoned.  
-Timesweeper's got his grubby hands on the mod now. Old paladin mod's deprecated but I've kept the internal mod name the same, so everything (configs, achievements, dependencies) should carry over fine.
-
-What's next? 
-Nothing much, truthfully. Paladin's basically complete. We're not planning on any new updates besides maybe just fixes/tweaks/polish. Won't be any new content to expect for the Paladin survivor, but hey who knows.  
-If there's any extended stuff you'd like to see on him (ex: vrmod, skills++, etc), absolutely feel free to fork the repo on github and contribute. We would be eternally grateful.
-
-Thanks rob for everything, thanks all the people who've given the project so much love.
-
-Have fun,
--Timesweeper
-
-### Skin Mod Devs:
-Some lovely folks have made some skins for Paladin which is rad. 
-If you'd like to make a paladin skin, there's some extra skin features for Paladin you can/should take advantage of.
-See the Custom Skin Guide section below
-
 ## Overview
 The Paladin is a tanky melee hybrid survivor who uses a combination of powerful melee attacks and long range spells. Writing these descriptions is time consuming so just try the character out for yourself and find out what works. He's got enough skills and flexibility to support a myriad of different playstyles.
 
@@ -41,6 +19,27 @@ The Paladin is a tanky melee hybrid survivor who uses a combination of powerful 
 
 [![](https://cdn.discordapp.com/attachments/469291841859092488/794060694945267772/unknown.png)]()
 [![](https://i.imgur.com/TYoqjxb.png)]()
+
+## Skin Mod Devs:
+Some lovely folks have made some skins for Paladin which is rad. 
+If you'd like to make a paladin skin, there's some extra skin features for Paladin you can/should take advantage of.
+See the Custom Skin Guide section below
+
+## VR
+Paladin is now compatible with [Dr.Bibop's VRMod](https://thunderstore.io/package/DrBibop/VRMod/). (*Thanks PureDark!*)  
+Make sure you have [VRAPI installed](https://thunderstore.io/package/DrBibop/VRAPI/).  
+
+**Primary:**
+ - can be activated by swinging your sword.
+ - your sword beam will go in your look direction, and follow the orientation of your swing
+
+**Secondary:**
+ - goes in the direction you're facing
+
+**Spells:**
+ - aimed with their respective hand
+
+Any issues or feedback on VR-side, definitely reach out.
 
 ## Credits
 rob - Coding, animation  
@@ -54,8 +53,11 @@ Jame - Made the original concept, lore
 redacted - Writing  
 TheTimesweeper - Helped with sword smears, maintaining  
 KomradeSpectre - Helped get the Torpor debuff visuals working  
+Varna - Cruel Sun Rework  
+PureDark - VR Implementation  
 Destructor - Mod icon  
 Dragonyck - Made the awesome Dark Souls skin pack (rip) that forced me to add a framework for custom skin VFX.  
+
 And thanks to everyone else for providing tons of valuable feedback, the mod wouldn't be the same without it
 
 ## Known Issues
@@ -65,7 +67,7 @@ And thanks to everyone else for providing tons of valuable feedback, the mod wou
 - nothing more is needed. Have fun c:
 - any rough edges that need sanding down
 - pie in the sky, skills++
-- pie in the higher in the sky, vrmod support
+- ~~pie in the higher in the sky, vrmod support~~
 
 ## Minecraft Skin
 Custom Paladin Minecraft skin by SalvadorBunny, free for anyone to use!
@@ -135,13 +137,51 @@ mySkinDef.projectileGhostReplacements = new SkinDef.ProjectileGhostReplacement[]
 
 ## Changelog
 
+`1.6.3`
+ - fixed eclipse not saving
+ - cruel sun now scales with attack speed
+
+`1.6.2`
+ - fixed vr code messing with enforcer vr
+ - fixed utility using all its charges on one cast
+ - fixed scepter making legacy cruel sun last indefinitely
+ - brought pride flare explosion damage down to 4000 (from haha funny 9001)
+ - changed pride flare explosion falloff to Linear (from Sweetspot)
+ - changed config to add legacy cruel sun as an alternate rather than replace the existing
+ - added a handful of dlc1 item displays
+   - the rest are there commented out if someone wants to do them for us
+
+`1.6.1`
+ - new cruel sun
+   - lowered initial cast time 
+   - increased damage 150% -> 160% because why not
+   - increased range 60 -> 70
+   
+*some felt the move wasn't strong enough to warrant the new commitment to self damage.*   
+*hopefully these changes make it feel a bit better to use*
+
+ - fixed pride flare scepter text
+ - still didn't fix pride flare 9001% damage. have fun
+ - added missing weakpoint hitbox
+
+`1.6.0`
+ - Full VR Implementation. see VR section above
+   - *Thanks PureDark!*
+ - Cruel Sun Rework
+   - *Implemented actual months ago by Varna. Thanks and sorry it held for so long*
+   - No longer placed at an aim point. Now is held consistently above you
+   - Ally damage and burn stacks reduced heavily, allowing for controlled use against enemies
+   - can be canceled by pressing R, Utilities, or Sprinting
+   - Scepter: Pride Flare: be aimed and thrown to detonate for 9001% to all characters
+ - inferno compat for grand mastery skin
+
 `1.5.10`
  - moved unlockable code to r2api, fixing achievement issue with recent update 
 
 `1.5.9`
 - fixed m1 not working with shuriken properly
 - improvements to m2: made hitbox last the whole movement, extended visuals to better communicate hitbox size
-- fixed skill selections not being remembered. excuse me for the "new" highlights
+- fixed skill selections not being remembered. excuse the "new" highlights
 
 `1.5.8`
 - grandmastery skin now achievable in eclipse

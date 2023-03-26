@@ -1,0 +1,56 @@
+{
+	strings:
+	{
+	"MINERBODY_DEFAULT_SKIN_NAME" : "По умолчанию",
+	"MINERBODY_MOLTEN_SKIN_NAME" : "Литой",
+	"MINERBODY_TYPHOON_SKIN_NAME" : "Завоеватель",
+	"MINERBODY_PUPLE_SKIN_NAME" : "Фиолетовый",
+	"MINERBODY_TUNDRA_SKIN_NAME" : "Тундра",
+	"MINERBODY_BLACKSMITH_SKIN_NAME" : "Кузнец",
+	"MINERBODY_IRON_SKIN_NAME" : "Железо",
+	"MINERBODY_GOLD_SKIN_NAME" : "Золото",
+	"MINERBODY_DIAMOND_SKIN_NAME" : "Алмаз",
+	"MINERBODY_STEVE_SKIN_NAME" : "Майнкрафт",
+	"MINERBODY_DRIP_SKIN_NAME" : "Модник",
+	
+	"MINER_UNLOCKABLE_ACHIEVEMENT_NAME" : "Адреналиновый прилив",
+	"MINER_UNLOCKABLE_UNLOCKABLE_NAME" : "Адреналиновый прилив",
+	"MINER_UNLOCKABLE_ACHIEVEMENT_DESC" : "Откройте легендарный сундук.",
+
+	"MINER_ALTUNLOCKABLE_ACHIEVEMENT_NAME" : "Выкован в пламени",
+	"MINER_ALTUNLOCKABLE_UNLOCKABLE_NAME" : "Выкован в пламени",
+	"MINER_ALTUNLOCKABLE_ACHIEVEMENT_DESC" : "Победите уникального стража Бездонных глубин",
+	
+	"MINER_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME" : "Шахтёр: Великое мастерство",
+	"MINER_TYPHOONUNLOCKABLE_UNLOCKABLE_NAME" : "Шахтёр: Великое мастерство",
+	"MINER_TYPHOONUNLOCKABLE_ACHIEVEMENT_DESC" : "Играя за Шахтёра, пройдите игру или уничтожьтесь на уровне сложности "Тайфун" или выше.\n<color=#8888>(Сложность Тайфун требует Starstorm 2)</color>",
+	
+	"MINER_MONSOONUNLOCKABLE_ACHIEVEMENT_NAME" : "Шахтёр: Мастерство",
+	"MINER_MONSOONUNLOCKABLE_UNLOCKABLE_NAME" : "Шахтёр: Мастерство",
+	"MINER_MONSOONUNLOCKABLE_ACHIEVEMENT_DESC" : "Играя за Шахтёра, пройдите игру или уничтожьтесь на уровне сложности «Сезон дождей».",
+	
+	"MINER_CRUSHUNLOCKABLE_ACHIEVEMENT_NAME" : "Шахтёр: Разграбленное золото",
+	"MINER_CRUSHUNLOCKABLE_UNLOCKABLE_NAME" : "Шахтёр: Разграбленное золото",
+	"MINER_CRUSHUNLOCKABLE_ACHIEVEMENT_DESC" : "Играя за Шахтёра, наложите 12 шт. расщепления на уникального стража Позолоченного берега.",
+	
+	"MINER_CRACKUNLOCKABLE_ACHIEVEMENT_NAME" : "Шахтёр: Наркоман",
+	"MINER_CRACKUNLOCKABLE_UNLOCKABLE_NAME" : "Шахтёр: Наркоман",
+	"MINER_CRACKUNLOCKABLE_ACHIEVEMENT_DESC" : "Играя за Шахтёра, получите 50 шт. Адреналина.",
+	
+	"MINER_CAVEINUNLOCKABLE_ACHIEVEMENT_NAME" : "Шахтёр: Уплотнено",
+	"MINER_CAVEINUNLOCKABLE_UNLOCKABLE_NAME" : "Шахтёр: Уплотнено",
+	"MINER_CAVEINUNLOCKABLE_ACHIEVEMENT_DESC" : "Играя за Шахтёра, поразите 20 врагов одним Обратным Взрывом.",
+	
+	"MINER_PUPLEUNLOCKABLE_ACHIEVEMENT_NAME" : "Шахтёр: Пять клавиш",
+	"MINER_PUPLEUNLOCKABLE_UNLOCKABLE_NAME" : "Шахтёр: Пять клавиш",
+	"MINER_PUPLEUNLOCKABLE_ACHIEVEMENT_DESC" : "Играя за Шахтёра, Иследуйте секрет откладки Г-Н-О-М-А.",
+	
+	"MINER_TUNDRAUNLOCKABLE_ACHIEVEMENT_NAME" : "Шахтёр: Заморожен",
+	"MINER_TUNDRAUNLOCKABLE_UNLOCKABLE_NAME" : "Шахтёр: Заморожен",
+	"MINER_TUNDRAUNLOCKABLE_ACHIEVEMENT_DESC" : "Играя за Шахтёра, достигните Меcта сбора «Дельта» за 8 минут.",
+	
+	"MINER_BLACKSMITHUNLOCKABLE_ACHIEVEMENT_NAME" : "Шахтёр: Закалённый",
+	"MINER_BLACKSMITHUNLOCKABLE_UNLOCKABLE_NAME" : "Шахтёр: Закалённый",
+	"MINER_BLACKSMITHUNLOCKABLE_ACHIEVEMENT_DESC" : "Играя за Шахтёра, найдите кузнечный инструмент на планете."
+	}
+}

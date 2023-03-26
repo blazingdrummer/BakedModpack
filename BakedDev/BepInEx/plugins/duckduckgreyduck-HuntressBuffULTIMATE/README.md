@@ -1,7 +1,12 @@
-PLEASE JOIN MY DISCORD SERVER IF YOU HAVE ANY FEEDBACK https://discord.gg/w5QBHx5WNP
+Join the discord ?!?!?!?
+[![discord server](https://cdn.discordapp.com/attachments/390713656259772417/1064765021474803773/Fhf5eEGWQAE4Cdg.jpg)](https://discord.gg/yFRx3E6Yep)
+
+## Credits
+
+- Borbo
 
 # Overview:
-HuntressBuffULTIMATE buffs the criminally underpowered Huntress... by nerfing sprint on ALL non-Agile skills! This change was wholly inspired by Hopoo's ORIGINAL vision of sprint as a mechanic when they added it in to RoR2.
+HuntressBuffULTIMATE buffs the criminally underpowered Huntress... by nerfing sprint on ALL non-Agile skills! This change was exclusively inspired by Hopoo's ORIGINAL vision of sprint as a mechanic when they added it in to RoR2.
 
 [![https://hopoo.tumblr.com/post/170840621408/devblog-9-runnin-around-as-we-get-deeper-into](https://cdn.discordapp.com/attachments/567832879879553037/934224804221952121/unknown.png)]()
 
@@ -11,7 +16,7 @@ These nerfs to sprinting also come with significant buffs to Energy Drink!
 
 But, if nerfing sprint on all non-Agile skills is not your speed, you can also opt to make all skills Agile instead! Everyone wins, except for JohnEdwa! RTAutoSprint is now out of style...
 
-[![](https://cdn.discordapp.com/attachments/828727557754322985/942751320543203328/ezgif.com-gif-maker3.gif)]()
+[![](https://media.discordapp.net/attachments/567832879879553037/1073841264224645170/image.png)]()
 
 ## What does HuntressBuffULTIMATE actually do?
 
@@ -26,6 +31,11 @@ To address this, HuntressBuffULTIMATE has two solutions, Sprint Nerf and Sprint 
 These changes are meant to pave the way for a more intuitive RoR2 experience both ways. With Sprint Nerf, sprinting as a mechanic holds a more grounded purpose in RoR2. With Sprint Buff, sprinting for mobility is less intrusive than it would be otherwise.
 
 # Changelog:
+### 1.1.1
+```
+- updated description + fixed sprint buff
+```
+
 ### 1.1.0
 ```
 - Tweaked energy drink buff. It's now fully configurable as well.

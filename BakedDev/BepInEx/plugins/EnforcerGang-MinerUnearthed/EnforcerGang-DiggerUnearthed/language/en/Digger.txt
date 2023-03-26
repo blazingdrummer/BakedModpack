@@ -21,7 +21,7 @@
 	"MINER_SECONDARY_CHARGE_DESCRIPTION" : "Charge up and dash into enemies for up to <style=cIsDamage>6x180% damage</style>. <style=cIsUtility>You cannot be hit for the duration.</style>",
 	
 	"MINER_SECONDARY_BREAK_NAME" : "Crack Hammer",
-	"MINER_SECONDARY_BREAK_DESCRIPTION" : "Dash forward, exploding for <style=cIsDamage>2x200% damage</style> on contact with an enemy. <style=cIsUtility>You cannot be hit for the duration.</style>",
+	"MINER_SECONDARY_BREAK_DESCRIPTION" : "Dash forward, exploding for <style=cIsDamage>2x240% damage</style> on contact with an enemy. <style=cIsUtility>You cannot be hit for the duration.</style>",
 	
 	"MINER_UTILITY_BACKBLAST_NAME" : "Backblast",
 	"MINER_UTILITY_BACKBLAST_DESCRIPTION" : "<style=cIsDamage>Stunning.</style> Blast backwards, hitting nearby enemies for <style=cIsDamage>600% damage</style>. Hold to travel further. <style=cIsUtility>You cannot be hit for the duration.</style>",

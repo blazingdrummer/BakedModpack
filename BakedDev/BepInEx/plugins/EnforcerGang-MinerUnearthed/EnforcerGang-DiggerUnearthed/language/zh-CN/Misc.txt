@@ -1,0 +1,13 @@
+{
+	strings:
+	{
+	"FATACRID_BODY_NAME" : "大只的狗",
+	"FATACRID_BODY_SUBTITLE" : "(形式巨人)",
+	
+	"DIGGERPLUGIN_DIRESEEKER_BODY_NAME" : "深渊利莫里亚长老",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_SUBTITLE" : "追杀",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_LORE" : "传说讲述了曾经在琼泥V地下兵营中游荡的怪物。\n\n被最勇敢的幸存者和最讨厌的怪物恐惧，这头巨大的野兽是无与伦比的。它披着血红色的鳞片，被地狱之火淬炼。它有燃烧的黄色眼睛，强烈的眩光让最大的生物都死在了他们的轨道上。它散发着阴燃的气息，热得足以在瞬间熔化金属。\n\n只有一次被一个足以杀死普罗维登斯本人的幸存者拦住，人们相信这只野兽终于遇到了它的对手。\n\n<style=cIsHealth>直到它再次露出恐怖的脸庞。</style>",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_OUTRO_FLAVOR" : "..所以它离开了，寻找新的猎物。",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_DEFAULT_SKIN_NAME" : "默认"
+	}
+}

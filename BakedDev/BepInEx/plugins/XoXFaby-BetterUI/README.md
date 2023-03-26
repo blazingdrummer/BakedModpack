@@ -180,7 +180,50 @@ TN = NoTier Last
 
 ## Changelog
 
-### v2.6.1
+
+#### v2.7.6
+ - Addition: Language Support: Added Chinese ( Thanks 南家老树皮 )
+ - Addition: Language Support: Added Russian ( Thanks l Yoh l )
+ - Small Addition/Bugfix: Changed zip folder structure so that r2modman doesn't destroy the folder structure.
+ - Internal Change: Language Support: Added additional logic for the display of seconds as required by some languages.
+ - Bugfix: Language Support: Fixed language support not being case insensitive in regards to the language name. This should fix issues with the system default language not getting BetterUI strings.
+ - Bugfix: Language Support: Removed extra "second" in effective skill cooldown.
+ - Bugfix: Advanced Icons: Fixed incorrect Proc Coefficient for MUL-T Ram. ( 0 -> 1)
+
+#### v2.7.5
+ - Bugfix: Language Support: Removed extra "second" in lobby skill tooltip. 
+
+#### v2.7.4
+ - Small Addition: Language Support: Added localization support for all other BetterUI strings I found, exception of StatsDisplay because it's a bit of a complex system and needs its own rework. '
+
+#### v2.7.3
+ - Language Support: Added Ukranian (Thank you Damglador).
+ - Bugfix: Language Support: Fixed English strings not getting loaded when another language is selected.
+ - Bugfix: Language Support: Fixed broken English buff string. 
+#### v2.7.2
+ - Bugfix: Language Support: Fixes crash when a malformed language file is found. 
+
+#### v2.7.1
+ - Bugfix: Language Support: Searches the plugin folder for languages file if the Languages folder doesn't exist. 
+
+### v2.7.0
+
+ - Feature: Language Support: BetterUI now supports multiple languages. Currently, only the original English language is included, but users can submit pull requests on the github to add additional languages.
+
+#### v2.6.4
+
+ - Bugfix: Buffs: Fixed an error where a missing BuffDef was causing the game to hang on load. 
+
+#### v2.6.3
+ - Bugfix: AdvancedIcons: Fixed Void's special and corrupted special having reverse descriptions. 
+ - Small Addition: Buffs: Added some missing descriptions for vanilla buffs.(Thanks [DestroyedClone](https://thunderstore.io/package/DestroyedClone/))
+
+#### v2.6.2
+ - Bugfix: ItemSorting: Fixed a bug that caused BetterUI to break when custom Item Tiers are added, for now BetterUI will simply treat these items as NoTier tier. In the future, there will be config options for custom item tiers. Some developers have already "hacked" their tiers into BetterUI to fix this, this method will continue to work.   
+ - Bugfix: Oops: Removed some debug text that was spammed into the console when the Strides of Heresy skill was being used. 
+ - Mod Compatibility: ItemStats: Added helper methods for developers to access the ItemStats for an ItemDef, the ItemTags for an ItemStat and the ItemModifiers for an ItemTag. This allows easier access to change or remove ItemStats that have already been added, such as the ItemStats BetterUI adds for vanilla Items. This will allow developers of mods that change the way vanilla items work to also change the corresponding ItemStats. In the future, there will likely be a more user-friendly way to change existing ItemStats but this, somewhat raw, access to the ItemStats allows for max compatibility without large changes.  
+
+#### v2.6.1
  - Removed blacklist. Yes, this means I plan to continue working on BetterUI. 
 
 ### v2.6.0

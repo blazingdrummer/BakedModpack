@@ -1,0 +1,10 @@
+{
+    "name": "Rocket",
+    "version_number": "0.7.3",
+    "website_url": "https://github.com/Moffein/RocketSurvivor",
+    "description": "BETA RELEASE. Shoot feet, get kills. Multiplayer-compatible!",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1905",
+	    "tristanmcpherson-R2API-4.4.1"
+    ]
+}

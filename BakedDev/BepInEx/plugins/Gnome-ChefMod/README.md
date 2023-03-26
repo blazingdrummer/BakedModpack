@@ -29,6 +29,7 @@ Huge thanks to
 - Moffein for being there when I needed him most (helped me patch for anniversary update and did networking and the 2.0 update)
 - rob for being the father I always dreamd of (gave advice)
 - Swuff for taking care of my needs (pleasured me, and made animations)
+- SOM for the CSS anim.
 
 And as always I give my undying love to iDeathHD
 
@@ -38,12 +39,123 @@ the mod icon was made by Destructor check out his youtube Destructor1089 for ris
 Thanks to Gnome for being the big bang in an otherwise cold and empty universe. 
 Whether or not you come back to work on him, we'll be here for ya.
 
+## Localization Credits
+
+Chinese - JunJun_w
+
+Russian - Адский Шкед
+
+Ukrainian - Damglador
+
+Spanish - Juhnter
 
 ## Changelog
 
+`2.2.8`
+
+- Nevermind, turns out the patcher was already being run.
+
+`2.2.7`
+
+- Updated Russian translation.
+- Remembered to run UNET patcher.
+
+`2.2.6`
+
+- Added Spanish translation (Thanks Juhnter!)
+
+`2.2.5`
+
+- Added Ukrainian translation (Thanks Damglador!)
+
+`2.2.4`
+
+- Readme update.
+
+`2.2.3`
+
+- Added Russian translation (Thanks Адский Шкед!)
+
+`2.2.2`
+
+- Fixed broken language strings.
+
+`2.2.1`
+
+- Made Cleaver in character select anim bigger (like how it is in-game).
+
+`2.2.0`
+
+- Added character select anim (thanks SOM!)
+	- Old one can be enabled in the config.
+
+`2.1.9`
+
+- Removed LanguageAPI dependency. ALL laguage tokens are now handled via the language file.
+
+`2.1.8`
+
+- Updated CachedName to be the same as what's listed on ModdedCharacterEclipseFix.
+
+`2.1.7`
+
+- Remembered to set CachedName field in SurvivorDef. Hopefully this will fix Eclipse progress not saving.
+
+`2.1.6`
+
+- Sear
+	- No longer uses Bandit2's killsound.
+	- Now shows an orange damage number when hitting Glazed enemies.
+
+- Glaze
+	- Now coats enemies in oil for 4s as long as CHEF passes by them while using the skill.
+	
+	*This allows him to reliably apply oil to flying enemies.*
+		
+- Oil
+	- Chain ignite distance from 15m -> 20m
+	- Increased damage tick frequency from 0.66/s -> 2/s
+	- Reduced damage per tick from 20% -> 10%
+	- Reduced proc coefficient from 0.2 -> 0.1
+	- Ignited oil pools now tick damage at the same time.
+	
+	*Tick frequency changes from earlier updates made oil damage feel unresponsive/unpredictable. These changes should help make oil's damage behavior much clearer.*
+	
+
+`2.1.5`
+
+- Reduced Cleaver trail width from 0.16 -> 0.08
+- Added option to disable Cleaver trails.
+	- Can be changed in-game if Risk of Options is installed.
+
+
+`2.1.4`
+
+- Dice
+	- Cleavers now have line trails like in RoR1.
+
+`2.1.3`
+
+- Dice
+	- Increased projectile speed from 60 -> 80
+	- Reduced return delay from 1s -> 0.33s
+	
+*Trying to make this feel more responsive.*
+
+- Slice
+	- Increased projectile speed from 60 -> 80
+	- Reduced return delay from 1s -> 0.33s
+	
+- Glaze
+	- Removed the Oil Combine (disabled by default) config option due to being buggy. The main cause of lag in earlier versions was the oil particle effects being overly detailed, and now that Glaze's cooldown is longer due to the earlier update, Oil Combine isn't really needed anymore.
+
+`2.1.2`
+
+- Fixed a minor console spam related to using the Knife alt in multiplayer.
+
 `2.1.1`
 
-- Added CN translation (Thanks Edge-R!)
+- Added CN translation (Thanks JunJun_w!)
 
 `2.1.0`
 

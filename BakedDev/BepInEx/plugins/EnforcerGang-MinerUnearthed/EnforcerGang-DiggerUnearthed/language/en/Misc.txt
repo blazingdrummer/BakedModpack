@@ -1,0 +1,13 @@
+{
+	strings:
+	{
+	"FATACRID_BODY_NAME" : "Perro Grande",
+	"FATACRID_BODY_SUBTITLE" : "(Forma Gigante)",
+	
+	"DIGGERPLUGIN_DIRESEEKER_BODY_NAME" : "Direseeker",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_SUBTITLE" : "Track and Kill",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_LORE" : "Legends tell of a monstrous beast that once roamed the underground barracks of Petrichor V.\n\nFeared by the bravest of survivors and the nastiest of monsters, the massive beast was unrivaled. It donned blood-red scales, tempered by hellfire. It had burning yellow eyes, with a glare so intense it made the largest of creatures stop dead in their tracks. It had smoldering breath, hot enough to melt metal in an instant.\n\nOnly once stopped by a survivor strong enough to slay Providence himself, it was believed that the beast had finally met its match.\n\n<style=cIsHealth>Until it showed its terrifying face once again.</style>",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_OUTRO_FLAVOR" : "..and so it left, in search of new prey.",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_DEFAULT_SKIN_NAME" : "Default"
+	}
+}

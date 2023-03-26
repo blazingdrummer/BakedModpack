@@ -12,10 +12,10 @@
 [![](https://cdn.discordapp.com/attachments/747757793339244576/787552348523724830/minericon.png)]()
 
 join the discord to share feedback/bugs- https://discord.gg/HpQB9fC
-or ping/dm me- ~~@rob#2365~~ @TheTimesweeper#5727
+or ping/dm me- @TheTimesweeper#5727
 
 ## Overview
-Miner is a high speed melee character, who uses high mobility and invincibility fast-paced combat. 
+Miner is a high speed melee character, who uses high mobility and invincibility in fast-paced combat. 
 Sounds somewhat like Mercenary, but where Mercenary slips in and out, Miner rushes in and swings wildly like a crackhead.
 
 - His primaries, coupled with his passive `Gold Rush` encourage you to be offensive to build long kill combos.
@@ -37,25 +37,105 @@ Direseeker is a massive Elder Lemurian with currently a new extremely powerful f
 
 [![](https://cdn.discordapp.com/attachments/747757793339244576/783952180834992128/direIconRed.png)]()
 
-## Known Issues
-- Plague mask isn't green
-- timesweeper doesn't have enough time to implement new skins that we already have modeled
-- minecraft pickaxes missing
-
 ## Credits
 Gnome - Made the original Miner mod, a fantastic base to work off of  
 fuu - Made the Miner model  
 rob - coding, rewrite, polish  
-TheTimeSweeper - coding, adrenaline flame particles, various other help, maintaining  
+TheTimeSweeper - coding, adrenaline flame particles, maintaining  
+Moffein - help fix for CUM2, maintaining  
 PapaZach - Skill icons  
 Jot - CSS animation  
 redacted - Grand Mastery skin  
 bruh - Swag model  
 Neik - Blacksmith concept  
 Ruxbieno - Direseeker logbook entry  
-Moffein - helped fix for CUM2  
+Christian Gentry - Anvil model
+JunJun_W - Chinese Translation
+
+## Future Plans 
+- Gnome's Alt Special
+- Skills++ and other fun stuff
+- update skins
+- fix rig
+- help
 
 ## Changelog
+
+`1.9.5`
+
+- AssetBundle/Soundbank are no longer embedded in the DLL to reduce RAM usage.
+- Updated skill icons (Thanks PapaZach!)
+- Added RU translation from Адский Шкед
+
+`1.9.4`
+
+- Cave In
+	- Fixed error spam when hitting the Sky Meadow rocks.
+
+`1.9.3`
+
+- Updated Meteor Shower skill icon.
+
+`1.9.2`
+
+- Crack Hammer
+	- Reduced shorthop velocity from 24 -> 18 so that it doesn't launch you out of reach of enemies.
+
+`1.9.1`
+
+- Added placeholder icon for Meteor Shower Special.
+
+`1.9.0`
+
+- Visuals
+	- Miner's visor now glows by default, like in RoR1.
+	- Textures are no longer grainy.
+	- Changed Blacksmith colors to be closer to the Starstorm sprite.
+
+- Language files now contain all tokens.
+	- Removed LanaguageAPI dependency.
+	
+- Crack Hammer
+	- Increased hitbox size
+	- Increased blast radius from 10m -> 12m
+	- Increased damage from 2x200% -> 2x240%.
+	- Removed chargeup since it didn't actually do anything.
+	- Increased shorthop velocity on hit from 12 -> 24
+	
+- Cave In
+	- Now uses the same input behavior as Backblast. (Hold the button to go further.)
+	- Rewrote enemy pull code. Should be way more consistent now.
+	- Changed VFX to make it more clear that the skill doesn't actually deal damage.
+	
+- To The Stars
+	- Improved ability to hit flying enemies.
+		- Increased internal BulletAttack radius to cover most of the explosion radius
+			- The ability works by firing bullets directly downwards in a star pattern around Miner. Bigger radius = higher chance to hit flying enemies in the attack's path. One quirk of this method is that the explosion hitbox will be placed at the center of the hitbox that the bulletattack collides with.
+	- Now applies downwards force to enemies hit by the explosions.
+
+`1.8.8`
+
+- Remembered to set CachedName field in SurvivorDef. Hopefully this will fix Eclipse progress not saving.
+
+`1.8.7`
+
+- Fixed CSS animation
+
+`1.8.6`
+
+- Fixed Miner getting re-locked if you have Direseeker installed.
+
+`1.8.5`
+
+- Removed LanaguageAPI completely.
+- Added Chinese translation (Thanks Edge-R!)
+	- Unlock strings are missing since they were added after the translation was done.
+
+`1.8.4`
+- fixed missing diamond picks
+- fixed missing anvil
+  - couldn't find the original so I just downloaded a new one
+- fixed miner disappearing at certain camera angles
 
 `1.8.3`
 
@@ -313,7 +393,3 @@ Moffein - helped fix for CUM2
 
 `1.0.0`
 - Initial release
-
-## Future Plans
-- Alt special
-- Skills++ support

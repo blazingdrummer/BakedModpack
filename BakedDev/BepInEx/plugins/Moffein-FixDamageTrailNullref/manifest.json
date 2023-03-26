@@ -1,0 +1,10 @@
+{
+  "name": "FixDamageTrailNullref",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/Moffein/FixDamageTrailNullref",
+  "description": "Fixes nullref spam from Archaic Wisp projectiles.",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.1905",
+    "RiskofThunder-HookGenPatcher-1.2.3"
+  ]
+}

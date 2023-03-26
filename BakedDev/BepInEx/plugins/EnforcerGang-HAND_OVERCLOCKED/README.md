@@ -1,231 +1,185 @@
-Adds HAN-D as a returning survivor from Risk of Rain 1.
+HAN-D is a tanky melee survivor who can heal himself and his allies to stay in the fight. His melee attacks have high knockback, and comboing them properly will allow him to knock away even the heaviest enemies!
 
-[![](https://i.imgur.com/VtTGtUC.png)]()
-[![](https://i.imgur.com/tWOesyB.png)]()
+We are looking for translators! Check the languages folder on the [GitHub](https://github.com/Moffein/HAN-D_OVERCLOCKED/tree/master/language) if you would like to submit a translation for your language.
+Current Supported Languages: English, Simplified Chinese, Russian, French, Ukrainian
 
-Currently uses the unused HAN-D in the files. Plan is to polish it as much as possible with the current model (including itemdisplays), then hopefully move to a standalone model with a cooler hammer and proper punching animations in the future.
+[![](https://i.imgur.com/9pHqh2i.jpg)]()
+[![](https://i.imgur.com/5HoCYrq.png)]()
 
-## TODO
+## For Skin Creators
 
-- New Model + Anims
-- Item Displays
-- General polish/balancing.
+To add custom DRONE models to your HAN-D skin, refer to mdlHANDOverclocked.prefab in the Unity project on the GitHub. The DRONE model is a disabled GameObject attached to the prefab, and the game will attempt to load the textures/mesh from that.
+
+## Installation
+
+Place the HAND_Overclocked folder in /Risk of Rain 2/BepInEx/plugins/  
+Settings can be changed in BepInEx/config/com.EnforcerGang.HAND_Overclocked.cfg
 
 ## Credits
 
-Coding - Moffein
+Moffein - Main dev
 
-Icons - PapaZach
+TheTimesweeper - HenryMod template, help with Unity/Animations, general polish. You're a lifesaver!
 
-HAN-D DRONE model - LucidInceptor and TimeSweeper
+dotflare - HAN-D Model + Anims
 
-Additional code help - Enigma
+LucidInceptor - DRONE Model
+
+PapaZach - Skill Icons
+
+Tera - FOCUS Skill Icon
+
+Vale-X - SWARM_ARMOR Buff Icon
+
+KoobyKarasu - SMASH Skill Icon
+
+Jaysian - Bankroller
+
+Sounds taken from Risk of Rain 1 and Starstorm
+
+## Localization Credits
+
+WockyTheWolf, JunJun_w - Simplified Chinese translation
+
+MoonsugarCrusader - Russian translation
+
+FyreBW - French translation
+
+Damglador - Ukrainian translation
+
+CaffeinePain - Korean translation
+
+Juhnter - Spanish translation
 
 ## Changelog
 
-0.2.7
+`1.2.3`
 
-- Fixed the mod crashing with ClassicItems Scepter.
+- Added Spanish translation (Thanks Juhnter!)
 
-0.2.6
+`1.2.2`
 
-- Added ClassicItems Scepter support.
+- Lowered HURT/FORCED_REASSEMBLY screenshake by 80%
+- Added screenshake scale config option.
 
-0.2.5
+`1.2.1`
 
-- Fixed BuffIcons.
-- Fixed positional audio issues with DRONES.
+- Added Korean translation (Thanks CaffeinePain!)
 
-0.2.4
+`1.2.0`
 
-- Added weakpoint for hostile Railgunners to shoot at.
+- Assetbundle/Soundbank are no longer embedded. This will reduce RAM usage.
+- Updated CN localization.
 
-0.2.3
+`1.1.13`
 
-- Re-enabled King Kombat Arena tweaks.
+- Fixed some code related to DRONE replacements on skins. (Thanks RandomlyAwesome!)
 
-0.2.2
+`1.1.12`
 
-- Fixed passive armor gain being lower than intended.
+- Updated Ukrainian translation.
 
-0.2.1
+`1.1.11`
 
-- Readme update.
+- Added Ukrainian translation (Thanks Damglador!)
 
-0.2.0
+`1.1.10`
 
-- Fixed for DLC Update.
-- Fixed OVERCRLOCK and DRONES state machines not being networked.
-	- Not sure if this actually changes anything.
-- Fixed SkillDefs not having a ScriptableObject name.
-- Reduced size in the Character Select screen.
+- Added French translation (Thanks FyreBW!)
 
-- Passive
-	- No longer affects damage.
-	- Now gives +3 armor per drone.
+`1.1.9`
 
-	*Wanted a bigger impact per drone. Didn't like how the drone passive affected the amount of swings needed to kill things earlygame.*
+- SWARM_ARMOR now supports DroneMeld.
 
-- Base Stats
-	- Base damage increased 12 -> 14 (same as earlier builds)
-	- Base armor reduced 12 -> 0
+`1.1.8`
+
+- Remembered to mark KingKombatArena as a softdependency so that it will always load before HAN-D.
+
+`1.1.7`
+
+- Updated SMASH to check InputBank instead of CharacterMotor.
+
+`1.1.6`
+
+- Minor tweak to HURT's self-force code.
+	- HURT doesn't apply self-force if you are standing still. Before, this was checked via the CharacterMotor's move vector. Now it uses the actual Input move vector to check this.
+
+`1.1.5`
+
+- Fixed Scepter M2 anim not playing online.
+
+`1.1.4`
+
+- Fixed Mastery skin not being unlockable when using the Force Unlock config option.
+
+`1.1.3`
+
+- Fixed game not booting up with the Russian translation.
+
+`1.1.2`
+
+- Added Russian translation (Thanks MoonsugarCrusader!)
+
+`1.1.1`
+
+- Renamed Mastery skin. (Credits to Commando Gaming for the suggestion!)
+
+`1.1.0`
+
+- Added Mastery skin. (Thanks dotflare!)
+	- Also thanks to TimeSweeper for getting it working in-game, and improving the mod's skin support!
+
+- Updated portrait icon.
+	- Old icon was from an older version of the mod when the textures were different.
 	
-	*These changes have been made to account for the Passive changes. HAN-D is squishier without his drones, but can reach higher armor amounts if he holds on to them.*
+- Fixed neck becoming tiny when looking backwards.
+
+- SMASH
+	- Replaced screenshake with subtle recoil.
+	- Now only lunges forward if the forward movement button is pressed.
+		- On gamepad, checks if movement input is within 50 degrees of the forward direction on either side.
+	- Each enemy hit reduces lunge speed by 50%.
 	
-- HURT
-	- Shorthop velocity is is reduced with Attack Speed like Vanilla melee attacks.
+	*Adding extra control to this skill's movement. You can now easily choose whether you want to lunge or stay in place.*
 	
-	*This will prevent HAN-D from launching himself out of reach from enemies at high attack speeds.*
+- FORCED_REASSEMBLY
+	- Increased fully charged hit OVERCLOCK extension time from 1.6s -> 2s
+
+- FOCUS
+	- Added a -30% speed penalty and +50 armor bonus.
 	
-- OVERCLOCK
-	- Rewrote skill code.
-	- Meter is now hidden while in Command/Scrapper menus.
+	*Trying to make this feel more distinct from OVERCLOCK. Now has better crowdtanking potential, but worse mobility for chasing down enemies to keep your buff active.*
 	
-- DRONES
-	- Now gives +100 armor to allies instead of +40% AtkSpd/Move Speed
-	- Changed sound to hopefully be less obnoxious.
+- DRONE
+	- Healing allies with DRONE will now heal a minimum of 10% of their max HP.
+		- Does not apply to your self-heal.
+	- Fixed Spare Drone Parts and Illegal Drone Coolant interaction not working
+		- DRONES are affected by the attack speed and on-hit effects of both items.
+		- DRONES do NOT get the Spare Drone Parts minigun.
 	
-	*The change to AtkSpd/Move Speed was throwing off the input timing of allies since they would usually receive it unexpectedly, so DRONES now give temporary armor instead. The ally armor bonus is high since the buff only lasts for a short duration and is hard to consistently maintain.*
+	*This should fix DRONES not being effective at healing NPCs that use AmbientLevel scaling (ex. Beetle Guards).*
 
-0.1.6
+`1.0.2`
 
-- Now has a visual overlay when using OVERCLOCK.
-- Added config option to sort HAN-D among the default survivors based on his planned unlock condition (disabled by default).
+- Added Simplified Chinese translation (Thanks WockyTheWolf and JunJun_w!)
+- Added Spare Drone Parts item displays.
+- Head can now rotate 360 degrees.
+- Fixed DRONE not proccing on-impact effects like Behemoth.
 
-0.1.5
+`1.0.1`
 
-- DRONE firerate is no longer affected by attack speed, to allow for better control.
+- Changed default sort position from Before Rex to After MUL-T
 
-0.1.4
+`1.0.0`
 
-- Changed M1 screenshake method to prevent your view from getting messed up at high attack speed.
-- Moved debuffs over to RecalculateStatsAPI for better cross-mod compatibility.
+- Rewrote the mod.
+- Added new model + anims (made by dotflare)
+- Added alt Primary and alt Utility.
+- Added unlock condition.
+	- Can be bypassed with Force Unlock config option.
+- SWARM_ARMOR now gives damage reduction instead of armor.
+- Added EmoteAPI support.
+- Added ItemDisplays
+- Added 3 built-in emotes.
 
-0.1.3
-
-- Fixed directional audio.
-
-0.1.2
-
-- Disabled OVERCLOCK stun when King's Kombat Arena is active.
-- Disabled DRONE slow when King's Kombat Arena is active.
-- DRONE count now resets to 0 on round start in King's Kombat Arena.
-
-0.1.1
-
-- Sniper's Spotter Drone now counts towards HAN-D's passive.
-- Fixed DRONE cooldown on hit/kill applying to Essence of Heresy.
-
-0.1.0
-
-This update has some changes to HAN-D's knockback to bring him more in-line with Vanilla characters, instead of being able to easily instakill bosses as a baseline while sending them flying across the map. The goal is for him to still be able to dunk Titans into pits and manhandle flying enemies to the ground with FORCED_REASSEMBLY, just that it should take more effort to do so. Feedback on the changes in this update would help a lot!
-
-- Base accel reduced 40 -> 30 to match MUL-T.
-- Base damage reduced 14 -> 12.
-- Base armor reduced 20 -> 12.
-- New Passive: PARALLEL_COMPUTING. Gain +2.5% damage and +1 armor for every mechanical ally on your team.
-- DRONES now orbit around HAN-D. They count towards HAN-D's passive, but do NOT count as actual allies.
-- DRONES get stuck less.
-
-- HURT now resets enemy momentum on-hit to prevent multiple hits from sending them flying across the map.
-- HURT no longer has any force limits. This will allow you to move Beetle Queens if you knock them into the air.
-
-- Reduced FORCED_REASSEMBLY max force scaling from 2000 to 750. This will make it harder for HAN-D to splat bosses, while still allowing him to bully normal enemies.
-- Removed max force scaling when hitting grounded enemies. This will make it easier for HAN-D to launch bosses into the air.
-- Networked FORCED_REASSEMBLY squish effect and added a small grace period for triggering it.
-
-- Added Scepter skill: UNETHICAL_REASSEMBLY (Replaces M2)
-- Deals bonus damage, zaps enemies, and removes all force limiters.
-
-- Added screenshake when using HURT.
-- Extended FORCED_REASSEMBLY screenshake duration from 0.5s -> 0.65s
-- Added a small viewkick when FORCED_REASSEMBLY finishes charging.
-- Added a small particle effect when beginning/ending OVERCLOCK.
-
-0.0.18
-
-- Fixed for the Anniversary Hotfix update.
-
-0.0.17
-
-- DRONE heal increased 7.5% -> 8.5%
-- DRONE cooldown reduction on melee hit reduced from -1.5s to -1.2s
-
-0.0.16
-
-- Fixed HAN-D being unable to deal damage in multiplayer.
-
-0.0.15
-
-- Fixed survivor select position.
-- Added new game win text.
-- Made old game win text the new escape fail text.
-
-0.0.14
-
-- Fixed HAN-D not receiving DRONEs when killing enemies.
-
-0.0.13
-
-- Updated for Anniversary update.
-- OVERCLOCK now springs you into the air if you start it while airborne.
-- OVERCLOCK smallhop force reduced 24 -> 22
-- DRONE heal reduced 10% -> 7.5%.
-- DRONE cooldown reduced 12s -> 10s.
-- DRONE cooldown reduction on melee hit increased from -1s to -1.5s.
-
-0.0.12
-
-- Refactored code (Thanks for the help, Enigma!)
-- Added updated skill icons (Thanks PapaZach!)
-- Added RoR1 sounds.
-- Size increased 20%.
-- HP increased 150 -> 160 to be in line with other melee characters.
-- Damage increased 12 -> 14.
-- M1 and M2 are no longer Agile.
-- M1 now has a -50% knockback penalty against bosses. This is negated if the boss is flying/airborne, so you can still launch bosses by comboing M2 + M1.
-- M2 now flattens enemies on-kill (Thanks EnforcerGang!)
-- M2 impact effect is less obtrusive (Thanks Enigma!)
-- OVERCLOCK no longer has its ending explosion.
-- DRONES reworked. DRONES now heal on hit instead of instantly, and can be used to either debuff enemies or buff and heal allies.
-- DRONE cooldown reworked. DRONES now regen every 12s. Killing enemies instantly adds a stock. Hitting enemies with melee reduces the cooldown by 1s.
-- Added HUD OVERCLOCK meter. Would like thoughts on the positioning and size!
-- Temporarily removed M1 force reset feature. This feature only worked for hosts/singleplayer. This feature would reset enemy momentum every time you hit them so that you wouldn't launch them out of reach at high attack speeds. Plan is to re-add it once I can get it working in both singleplayer and multiplayer.
-
-0.0.11
-
-- Manually cancelling OVERCLOCK now deals damage. Cancel OVERCLOCK to release steam and spring into the air, igniting and stunning enemies for 200%-600% damage. Damage builds based on time spent in OVERCLOCK, and reaches the maximum 600% damage after 6 seconds. This is meant to be a minor bonus to cancelling OVERCLOCK so that it remainds useful even if you have feathers. The damage is low because it is meant to be more of a small bonus rather than a dedicated DPS skill, but I'd feedback on it. Needs proper VFX and a HUD indicator for charge level.
-- ATTENTION SKINMAKERS: Renamed body from HANDOverclocked to HANDOverclockedBody.
-
-0.0.10
-
-- Fixed DRONES not healing online. This bug may have been introduced by 0.0.8
-
-0.0.9
-
-- Shortened OVERCLOCK description.
-- DRONES now persist between stages.
-- Fixed an oversight in DRONE counter networking when gaining DRONES by hitting bosses.
-- Reverted "DRONES now heal based on full HP + Shields, instead of just HP" to be consistent with other healing sources.
-
-0.0.8
-
-- Re-enabled OVERCLOCK sounds online. Let me know if they still loop endlessly.
-- M1 swing sound now plays online.
-- OVERCLOCK M1 stun chance is no longer random. Instead of a random 40% chance, M1 now stuns on every leftwards swing. This should make fighting dangerous enemies like Elder Lemurians more consistent.
-- Added numbers to the description of OVERCLOCK.
-- Networked drone count online.
-- DRONES now heal based on full HP + Shields, instead of just HP.
-- Increased M1/M2 max push force scaling from 600kg to 2000kg. This means that bosses can now be dunked. This shouldn't have much effect on physics against normal enemies. Let me know how it feels!
-
-0.0.7
-
-- fixed drones spamming visual effects online
-
-0.0.6
-
-- temporarily disabled overclock sounds online due to a bug with the sound endlessly looping
-
-0.0.5
-
-- fixed language tokens
+*Special thanks to Jaysian for commissioning dotflare for the new HAN-D Model/Anims!*
