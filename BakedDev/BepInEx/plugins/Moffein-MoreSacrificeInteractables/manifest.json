@@ -1,0 +1,10 @@
+{
+    "name": "MoreSacrificeInteractables",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/Moffein/MoreSacrificeInteractables",
+    "description": "Allows Equipment Barrels, Lunar Pods, and Void Cradles to spawn while Sacrifice is enabled. Server-Side and Vanilla-Compatible!",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1905",
+	    "RiskofThunder-HookGenPatcher-1.2.3"
+    ]
+}

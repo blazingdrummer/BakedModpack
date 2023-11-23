@@ -1,0 +1,44 @@
+{
+	strings:
+	{
+	"MINER_NAME" : "Minero",
+	"MINER_DESCRIPTION" : "El Minero es un superviviente cuerpo a cuerpo rápido y muy móvil que da prioridad a los combos de muertes largas para acumular acumulaciones de su pasiva.<color=#CCD3E0>\n\n< ! > Una vez que consigas un buen número de acumulaciones de Adrenalina, Gubia y Aplastar serán tu mejor fuente de daño.\n\n< ! > Taladro de La carga sólo afecta al daño infligido. Apunta al suelo o a los enemigos para infligirles daño concentrado.\n\n< ! > Puedes tocar Backblast para recorrer una distancia corta. Mantenlo pulsado para ir más lejos.\n\n< ! > A Las Estrellas puede infligir mucho daño a enemigos grandes.",
+	"MINER_SUBTITLE" : "Drogadicto Destructivo",
+	"MINER_LORE" : "\nEntre el frío acero de las ruinas del carguero y el aire de la gélida noche, la tenue luz azul de un diario de audio llama tu atención. El diario yace en un estado de deterioro total entre los restos de la carga, y sin embargo persiste, permaneciendo funcional. Los botones analógicos de la carcasa del dispositivo pulsan lentamente, como invitando a cualquiera a escuchar sus entradas deformadas, siempre decayendo en coherencia...\n\n<color=#8990A7><CLICK></color>\n\n<color=#8990A7>/ / - - R E G I S T R O    1 - - / /</color>\n''Primer registro. Fecha, uhhh... Oh-cinco, oh-uno, veinticinco-cinco. Brass decidió sacarnos del trabajo minero. Después de meses de excavación, después de meses de sangre, sud<color=#8990A7>-///////-</color>y millones gastados en esta operación, ¿la abandonamos? Toro<color=#8990A7>-//-</color>.''\n\n<color=#8990A7>/ / - - R E G I S T R O     5 - - / /</color>\n''<color=#8990A7>-////////-</color>nter del asteroide. Nunca había visto nada igual. Era como un dr<color=#8990A7>-////////-</color>y fractal... El interior es casi como un caleidoscopio. Tiene que valer<color=#8990A7>-/////-</color>os jefes quieren que nos vayamos, lo antes posible. Bueno, pueden besarme el <color=#8990A7>-////-</color>. Y voy a salir esta noche a cavar el resto... Si puedo cercar esto, los próximos mil cheques de pago no sostendrán una vela. He estado esperando una oportunidad como esta.''\n\n<color=#8990A7>/ / - - R E G I S T R O     7 - - / /</color>\n''Seguro que lo saben todo. Están interrogando a la gente ahora. Escondí el artefacto en una rejilla de ventilación en<color=#8990A7>-//////-</color>, debería estar a salvo. Un carguero llamado UE<color=#8990A7>-////-</color>Atracará en unos meses. Sólo tengo que aguantar y escabullirme.''\n\n<color=#8990A7>/ / - - R E G I S T R O      15 - - / /</color>\n''Me están buscando. No tardarán en encontrarme. Escondido en las paredes de la nave como una m<color=#8990A7>-//////-</color>rata. El carguero está fuera de horario. Lo di todo por esto. He dado <i>todo</i> por esto.''\n\n<color=#8990A7>/ / - - R E G I S T R O     16 - - / /</color>\n''En algún lugar del casco. Nadie vuelve aquí. Ni siquiera mantenimiento. Debería estar a salvo hasta que llegue la nave.''\n\n<color=#8990A7>/ / - - R E G I S T R O     18 - - / /</color>\n''El barco sigue en espera. No puedo tener una idea de cuándo no será.'' <color=#8990A7><Gruñe>.</color> ''Esto fue hace<color=#8990A7>-//-</color>zing.''\n\n <color=#8990A7>/ / - - R E G I S T R O     29 - - / /</color>\n''<color=#8990A7>-//////////-</color>esta aqui. Por fin. Por fin. Tengo que subir el artefacto a bordo. Seguridad por todas partes, sin embargo. Mercenarios...'' <color=#8990A7><Voces lejanas mantienen una conversación indiscernible.></color> ''Vale. Cállate. Cállate y vete. Me voy. Me voy. Esta noche.''\n\n <color=#8990A7>/ / - - R E G I S T R O     31 - - / /</color>\n''<color=#8990A7>-//////-</color>Algo le está pasando a la nave. Carga volando. Perdido el artefacto. Perdido todo. . . . Perdido todo<color=#8990A7>-//-</color>.''\n\nLa pantalla del diario sonoro chisporrotea y salta, dejándote en completa oscuridad, complementada por el ensordecedor silencio que provocan las ominosas últimas palabras del minero.",
+	"MINER_OUTRO_FLAVOR" : "...y se marchó, con la adrenalina aún corriendo por sus venas.",
+	
+	"MINER_PASSIVE_NAME" : "Fiebre del Oro",
+	"MINER_PASSIVE_DESCRIPTION" : "Ganas <style=cIsHealth>ADRENALINA</style> cuando recibes oro, aumentando <style=cIsDamage>velocidad de ataque</style>, <style=cIsUtility>velocidad de movimiento</style>, y <style=cIsHealing>regeneracion de vida</style>.",
+	"KEYWORD_CLEAVING" : "<style=cKeywordName>Descomposición</style><style=cSub>Aplica una desventaja acumulativa que reduce <style=cIsDamage>armadura</style> <style=cIsHealth>3 por acumulacion</style>.</style>",
+	
+	"MINER_PRIMARY_GOUGE_NAME" : "Gubia",
+	"MINER_PRIMARY_GOUGE_DESCRIPTION" : "<style=cIsUtility>Agile.</style> Wildly swing at nearby enemies for <style=cIsDamage>270% damage</style>, <style=cIsHealth>cleaving</style> their armor.",
+	
+	"MINER_PRIMARY_CRUSH_NAME" : "Aplastar",
+	"MINER_PRIMARY_CRUSH_DESCRIPTION" : "<style=cIsUtility>Agile.</style> Crush nearby enemies for <style=cIsDamage>360% damage</style>. <style=cIsUtility>Range increases with attack speed</style>.",
+	
+	"MINER_SECONDARY_CHARGE_NAME" : "Taladro de Carga",
+	"MINER_SECONDARY_CHARGE_DESCRIPTION" : "Carga y corre hacia los enemigos para obtener hasta <style=cIsDamage>6x180% de daño</style>. <style=cIsUtility>No puedes ser golpeado mientras dure.</style>",
+	
+	"MINER_SECONDARY_BREAK_NAME" : "Martillo Perforador",
+	"MINER_SECONDARY_BREAK_DESCRIPTION" : "Avanza adelante, explotando para <style=cIsDamage>2x240% de daño</style> en contacto con un enemigo. <style=cIsUtility>No puedes ser golpeado mientras dure.</style>",
+	
+	"MINER_UTILITY_BACKBLAST_NAME" : "Contraataque",
+	"MINER_UTILITY_BACKBLAST_DESCRIPTION" : "<style=cIsDamage>Aturdiendo.</style> Explosión hacia atrás, golpea a los enemigos cercanos para <style=cIsDamage>600% de daño</style>. Mantenlo para viajar más lejos. <style=cIsUtility>No puedes ser golpeado mientras dure.</style>",
+	
+	"MINER_UTILITY_CAVEIN_NAME" : "Aterrizar",
+	"MINER_UTILITY_CAVEIN_DESCRIPTION" : "<style=cIsUtility>Aturdiendo.</style> Explosión hacia atrás, <style=cIsUtility>tirando</style> a todos los enemigos en un amplio radio. <style=cIsUtility>No puedes ser golpeado mientras dure.</style>",
+	
+	"MINER_SPECIAL_TOTHESTARSCLASSIC_NAME" : "A Las Estrellas",
+	"MINER_SPECIAL_TOTHESTARSCLASSIC_DESCRIPTION" : "Salta en el aire y golpea a los enemigos que están justo debajo para <style=cIsDamage>6x300% decdaño</style>.",
+	
+	"MINER_SPECIAL_TOTHESTARS_NAME" : "Lluvia de Meteoros",
+	"MINER_SPECIAL_TOTHESTARS_DESCRIPTION" : "Salta en el aire, disparando un chorro de metralla hacia abajo para <style=cIsDamage>15x160% de daño</style>.",
+	
+	"MINER_SPECIAL_SCEPTERTOTHESTARS_NAME" : "Cometa Fugaz",
+	"MINER_SPECIAL_SCEPTERTOTHESTARS_DESCRIPTION" : "Salta en el aire, disparando un chorro de metralla hacia abajo para <style=cIsDamage>15x160% de daño</style>, luego cae y crean una enorme explosión en el impacto que trata <style=cIsDamage>1500% de daño</style> y <style=cIsDamage>quema</style> a los enemigos al impacto",
+	
+	"MINER_SPECIAL_SCEPTERTOTHESTARSCLASSIC_NAME" : "Estrella Fugaz",
+	"MINER_SPECIAL_SCEPTERTOTHESTARSCLASSIC_DESCRIPTION" : "<style=cIsDamage>Aturdiendo</style>. Salta en el aire y golpea a los enemigos que están justo debajo para <style=cIsDamage>10x300% de daño</style> total."
+	}
+}

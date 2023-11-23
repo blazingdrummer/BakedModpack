@@ -33,6 +33,10 @@ rob - Logbook icon
 
 ## Changelog
 
+`1.6.5`
+
+- Added Brazilian Portuguese translation (Thanks Kauzok!)
+
 `1.6.4`
 
 - Updated AccurateEnemies compatibility. Now is affected by AccurateEnemies config options.

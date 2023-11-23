@@ -1,0 +1,71 @@
+{
+    "strings":
+    {
+		"SANCTUMWISP_BODY_NAME": "Sanctum Wisp",
+		"SANCTUMWISP_BODY_LORE": "SoonTM",
+		
+		"BRASSMONOLITH_BODY_NAME": "Brass Monolith",
+		"BRASSMONOLITH_BODY_SUBTITLE": "Steadfast Watcher",
+        "BRASSMONOLITH_BODY_LORE": "<style=cMono>\r\n
+		Audio transcription complete from signal echoes. Assigning generic tokens.</style>\r\n
+		\r\n
+		Man 1: Do you see it now? A massive tower, over near the cliff? Yeah, so I've been watching it from a distance, and it started to move! I wanted to have a closer look, but those brass contraptions haven't stopped swarming around it, and I don't feel like ending up like Tharson...\r\n
+		\r\n
+		[A loud, deep bell echos across the landscape]\r\n
+		\r\n
+		Man 2: Shoot, do you think that means it found us?\r\n
+		\r\n
+		Man 1: Nah, we're hidden pretty well here. It would've seen me sooner.\r\n
+		\r\n
+		[The sound of a spiked ball whizzing by]\r\n
+		\r\n
+		Man 1: Never mind, they found us! Run!\r\n
+		\r\n
+		[The sound of ruffling folliage, heavy footsteps and laboured breath]\r\n
+		\r\n
+		[The sound of a few spiked balls flying through the air]\r\n
+		\r\n
+		Man 1: What!?! How are there so many of them?! There were not this many of the around the tower!!!\r\n
+		\r\n
+		Man 2: Duck! They're about to fire again!\r\n
+		\r\n
+		[The sound of many spiked balls quickly flying past]\r\n
+		\r\n
+		[A metalic crunch]\r\n
+		\r\n
+		[1:21:46.167 of static.]\r\n
+		\r\n
+		<style=cMono>End of requested transcript. </style>\r\n",
+		
+		"COILGOLEM_BODY_NAME": "Coil Golem",
+		"COILGOLEM_BODY_LORE": "\u201DThe earth rumbles beneath your feet. Suddenly, a hole opens in the rock before you, as if the earth is flowing away. Then it appears! A massive worm, formed of deep stone bursts forth! It's body is made up of large chunks of rocks, and stone rings, all floating around a centeral stone pillar.\r\n
+		\r\n
+		They seem to be able to temporarily shove the rock in front of them asside as though it were a liquid, to make a path. When they sustain enough damage, they shed the outer layer of rocks, and retreat back into the earth. Unfortunatly, this meaning we've never really had a chance to properly look one over. We're not really sure at the moment what their purpose is. The fact that they abandon their outer shell when damaged, and a brief analasis of the stones they leave behind has lead to the theory that they are some sort of mining equipment, perhaps used to get components for their humanoid brethren?\u201D\r\n
+		\r\n
+		- The Mysteries of Petrichor V, First Draft",
+		
+		"FROSTWISP_BODY_NAME": "Frost Wisp",
+		"FROSTWISP_BODY_LORE": "IT IS NOT ALWAYS FIRE THAT IS NECISSARY IN THIS CRAFT.\r\n
+		\r\n
+		I START WITH A MASK. CARVED TO POINTS LIKE ICICLES. \u2013 BAKED IN THE KILN ONLY ONCE, TO PREVENT BRITTLENESS.\r\n
+		\r\n
+		I GIVE IT A COAT OF COLD PASTE \u2013 THIS IS FOR CHILL.\r\n
+		\r\n
+		I GIVE IT ONE SCOOP OF WHITE LEAVES \u2013 THIS IS FOR DISCIPLINE.\r\n
+		\r\n
+		I GIVE IT EIGHT SPIKES \u2013 THESE ARE FOR RESTRAINT.\r\n
+		\r\n
+		I GIVE IT FOUR SCOOPS OF [powder] \u2013 THIS IS FOR SPIRIT.\r\n
+		\r\n
+		THE PROCESS IS DONE. WELCOME TO LIFE.\r\n
+		\r\n
+		YOUR FLAMES, THOUGH OF A DIFFERENT TYPE, BURN JUST AS BRIGHTLY. THIS IS GOOD.\r\n
+		\r\n
+		YOU MUST FIND THE OTHERS AND HELP THEM.\r\n",
+		
+        "UNLOCKABLE_LOG_SANCTUMWISP": "Monster Log: Sanctum Wisp",
+        "UNLOCKABLE_LOG_BRASSMONOLITH": "Monster Log: Brass Monolith",
+        "UNLOCKABLE_LOG_COILGOLEM": "Monster Log: Coil Golem",
+        "UNLOCKABLE_LOG_FROSTWISP": "Monster Log: Frost Wisp"
+	}
+}

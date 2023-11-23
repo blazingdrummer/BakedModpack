@@ -1,0 +1,9 @@
+{
+  "name": "KKA_Tweaks",
+  "version_number": "1.0.2",
+  "website_url": "https://github.com/Moffein/KingKombatArena_Tweaks",
+  "description": "Adds extra options to KingKombatArena. Won't be updated regularly.",
+  "dependencies": [
+    "kinggrinyov-KingKombatArena-1.3.3"
+  ]
+}

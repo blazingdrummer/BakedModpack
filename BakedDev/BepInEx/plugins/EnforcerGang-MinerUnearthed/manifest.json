@@ -1,8 +1,8 @@
 {
     "name": "MinerUnearthed",
-    "version_number": "1.9.5",
+    "version_number": "1.9.7",
     "website_url": "https://github.com/ArcPh1r3/MinerUnearthed",
-    "description": "Adds the Miner from Risk of Rain 1.",
+    "description": "Adds the Miner from Risk of Rain 1. | translation updates",
     "dependencies": [
         "bbepis-BepInExPack-5.4.1905",
         "tristanmcpherson-R2API-4.4.1"

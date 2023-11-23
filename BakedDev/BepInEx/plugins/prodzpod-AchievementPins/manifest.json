@@ -1,0 +1,10 @@
+{
+	"name": "AchievementPins",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/prodzpod/AchievementPins",
+	"description": "Pin your achievement to the side in game.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.2103",
+		"RiskofThunder-HookGenPatcher-1.2.3"
+	]
+}

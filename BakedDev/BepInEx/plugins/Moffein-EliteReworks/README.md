@@ -1,17 +1,7 @@
 # EliteReworks
 This mod seeks to address the longstanding issues with Elite bulletsponge that have been around since the day RoR2 released into Early Access. Elite damage and HP multipliers are reduced, but their spawn cost is decreased and their abilities are more impactful. You might also start to see elite bosses earlier into runs now, due to their reduced cost.
 
-Updates will probably slow since I don't have a lot of time to develop/test things, so feedback will be super helpful.
-Open an issue on the GitHub or send me a DM if you have any thoughts.
-
 All players need the mod.
-
-# Current Balance Concerns
-- How are the Celestine changes?
-- Are Overloading enemies threatening?
-	- Does the passive lightning do enough damage?
-	- Does the passive lightning punish melee characters too much?
-	- Is the on-hit effect doing anything relevant?
 
 # Changes
 - **General:**
@@ -31,8 +21,9 @@ All players need the mod.
 
 - **Glacial:**
 	- Attacks have an AOE that slows for 3 seconds (think Behemoth, but slowing instead of damaging).
+		- Inner AoE slows for 3s, outer AoE slows for 1.5s.
 	
-		*Vanilla Glacials pretty much don't do anything. This change should hopefully make them better at slowing players.*
+		*This lets Glacials actually use their slow effect more often.*
 		
 - **Overloading:**
 	- Shields removed.
@@ -41,18 +32,17 @@ All players need the mod.
 		- Each deals 36 damage, scaled to enemy level.
 	- Stun/Shock/Freeze disables the passive lightning bombs.
 	
-	*The main feature of vanilla Overloading is bosses healing half of their HP pool if you focus on something else for a bit. These changes are intended to shift Overloading enemies into being less about tanking, and more about chaotically spamming projectiles everywhere, hopefully leading to a more engaging experience when fighting them.*
+	*Vanilla Overloading Shields were frustrating to fight (especially on bosses), and their on-hit bombs had such a small AoE that they never ended up being much of a threat unless you got direct-hitted. The new passive lightning effect is a callback to their zap AoE from RoR1, with the potential to deal high damage while still being avoidable. The increased AoE on the lightning bombs makes them a threat that you need to pay attention to.*
 		
 - **Blazing:**
 	- Fire trails damage now scales based on level, instead of damage.
 	- Stun/Shock/Freeze disables the passive fire trail.
-	- Reverted burn mechanics to pre-SotV.
 	
 	*Fire trails are very unpredictable due to being scaled off of enemy damage. Some enemies won't do much damage, while others will melt you in a few ticks. This change makes Blazing trails consistent across all enemies, which should make them more predictable to fight as melee characters.*
 
 - **Malachite:**
 	- Malachites now have a passive anti-heal AOE.
-	- Malachite spikes now deal 40% of your current HP.
+	- Malachite spike damage is capped at 50% of your current HP.
 	- Malachite spikes now apply Anti-Heal + Weaken for 8 seconds.
 	- Stun/Shock/Freeze disables their passive spikes + anti-heal AOE.
 	
@@ -63,10 +53,11 @@ All players need the mod.
 	- Attaches to up to 4 nearby enemies.
 		- Attached enemies gain +20% damage, +50% attack speed, +70% movement speed, and -30% cooldown reduction.
 		- On death, they revive as a ghost and will continue to live on for up to 60s.
+			- Ghosts lose their Elite bonuses.
 		- Killing a Celestine kills all their attached ghosts.
 	- On-hit effect changed to -20 armor instead of slowing.
 	
-	*Instead of covering the map in ugly gimmicky bubbles, Celestines now buff their teammates and make them more aggressive, and will keep them in the fight even if they are killed. Need to fine-tune the effectiveness of ghosts/buffed enemies.*
+	*Instead of covering the map in ugly gimmicky bubbles, Celestines now buff their teammates and make them more aggressive, and will keep them in the fight even if they are killed.*
 
 - **Mending:**
 	- Stun/Shock/Freeze disables healing.
@@ -76,16 +67,32 @@ All players need the mod.
 		- 1 stack per hit
 		- Lasts 8s (scales with proc coefficient)
 		- Now only takes 2 stacks to root.
-	- Removed built-in 30% damage penalty.
+	- Removed built-in -30% damage penalty.
 	- Now gets a +50% damage bonus to match other elites.
 	
-	*Vanilla Collapse suffers from the same issue as Early Access Blazing where it scales off of enemy base damage, leading to cheap instakills. Originally wanted to swap it to 50% of the hit's damage, but was having trouble with setting that up so I changed it to Nullify instead.*
+	*Vanilla Collapse suffers from the same issue as Early Access Blazing where it scales off of enemy base damage, leading to cheap instakills.*
 
 ## Installation
 
 Place EliteReworks.dll in /Risk of Rain 2/BepInEx/plugins/
 
 ## Changelog
+
+- 1.9.2
+	- Celestine Ghost Gups no longer split on death.
+
+- 1.9.1
+	- Updated README info to be more accurate.
+
+- 1.9.0
+		
+	- Malachite
+		- Reworked spike damage.
+			- Old behavior: Deal 50% of target's current HP.
+			- New behavior: Deals damage that's capped at 50% of the target's current HP.
+				- Spike base damage is 60.
+			
+		*Intended to fix Malachite Allies being able to instantly chunk bosses.*
 
 - 1.8.0
 	- Voidtouched

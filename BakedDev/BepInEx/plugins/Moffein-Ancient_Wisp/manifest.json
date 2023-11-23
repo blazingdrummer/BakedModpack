@@ -1,6 +1,6 @@
 {
   "name": "Ancient_Wisp",
-  "version_number": "1.6.4",
+  "version_number": "1.6.5",
   "website_url": "https://github.com/Moffein/AncientWisp",
   "description": "Adds the unused Ancient Wisp boss to spawn pool.",
   "dependencies": [

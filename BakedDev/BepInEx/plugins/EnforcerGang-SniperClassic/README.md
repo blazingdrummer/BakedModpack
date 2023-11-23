@@ -46,6 +46,12 @@ SOM - Spotter buff icon
 
 TheMysticSword - Spotter HUD
 
+yekoc - Fixed Scroll Zoom for SotV
+
+Big thanks to Rob and Timesweeper for helping me with all the code-related stuff to get Lucid's models in-game, along with doing the animations! You guys are lifesavers! Also huge thanks to Lucid for all the models!
+
+Sounds taken from Dirty Bomb, TF2, L4D2, and https://www.youtube.com/watch?v=aoBWUs8poYU
+
 ## Localization Credits
 
 Spanish translation - Anreol
@@ -60,11 +66,32 @@ Ukrainian translation - Damglador
 
 Korean translation - CaffeinePain
 
-Big thanks to Rob and Timesweeper for helping me with all the code-related stuff to get Lucid's models in-game, along with doing the animations! You guys are lifesavers! Also huge thanks to Lucid for all the models!
-
-Sounds taken from Dirty Bomb, TF2, L4D2, and https://www.youtube.com/watch?v=aoBWUs8poYU
+Portuguese Translation - Kauzok
 
 ## Changelog
+
+`1.5.3`
+
+- Updated BR TL.
+
+`1.5.2`
+
+- Added Brazilian Portuguese translation (Thanks Kauzok!)
+
+`1.5.1`
+
+- Fixed Spotter drone having no cooldown if you respawn via Dios and use it on an enemy you were previously spotting.
+
+`1.5.0`
+
+- Fixed Scroll Zoom (Thanks yekoc!)
+- Added mod icon to RiskOfOptions.
+
+`1.4.0`
+
+- Spotter: FEEDBACK now only triggers if the attacker is a Sniper. (Can be reverted in config)
+
+<details>
 
 `1.3.2`
 
@@ -570,3 +597,5 @@ Next update will be a skill update to give Sniper more variety to his loadouts a
 `0.5.0`
 
 - Release
+
+</details>

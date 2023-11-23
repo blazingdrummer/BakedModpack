@@ -33,6 +33,12 @@ This mod aims to improve Golden Coast and make it more interesting and fun.
 - Adjust the interactables on Golden Coast.
 
 ## Changelog
+`0.6.5`
+- Forgot to include the actual update dll lol
+
+`0.6.4`
+- Pretty sure I finally fixed the bug with Golden Knurl's health increase that's been in the mod forever
+
 `0.6.3`
 - Okay but this time I actually fixed it
 

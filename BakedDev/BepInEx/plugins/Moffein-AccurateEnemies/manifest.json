@@ -1,0 +1,10 @@
+{
+    "name": "AccurateEnemies",
+    "version_number": "1.0.9",
+    "website_url": "https://github.com/Moffein/AccurateEnemies",
+    "description": "Elite enemies predict your position when aiming projectiles. Server-side and Vanilla-compatible!",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1905",
+	    "RiskofThunder-HookGenPatcher-1.2.3"
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "name": "GoldenCoastPlus",
-    "version_number": "0.6.3",
+    "version_number": "0.6.5",
     "website_url": "",
     "description": "Adds some things to Golden Coast in the hopes of making it a more interesting and fun environment to visit.",
     "dependencies": [

@@ -1,0 +1,485 @@
+ManifestFileVersion: 0
+CRC: 899482729
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a34e71d9e4f7f78c3a68c98d0b48753a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 65646e4c8ff6782fdc0de618219982a1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 678291247, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1395413934, guid: da77c7bbf69f66ab2145560542327715, type: 3}
+- Class: 114
+  Script: {fileID: 816898038, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 372142912, guid: d382a022563c7517aadbc92ca1060016, type: 3}
+- Class: 114
+  Script: {fileID: 1357070253, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 682687671, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1297580292, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1790887305, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1245112779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1788389205, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 488236779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1093966913, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1143142494, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 161585894, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 298587437, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 952828898, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1918207524, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 306635731, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1512185436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1431018688, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 370243918, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 422384671, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 871971028, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 802830678, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 167308886, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 924743675, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 268574540, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 733712478, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e554e90fc789c648a68eefb9d076aef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 207998b1f5cbd4247bdd20a51717c99a, type: 3}
+- Class: 114
+  Script: {fileID: 1070810522, guid: c8c954e10545f6cd0045de066bc4846b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5681af326495d3d4481bedffb2cda36a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1fb9b44be9f6b3469bd49927dad19eb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3c0924547b9e7224eb5003d64d2ccdb4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8fa5f277b077984e9d13e11bbc45e77, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2e3a71b7144171443aacab78d8e41165, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3fdffd88070d49340b7215cff8cfe82a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3188f35943afdf9418aa9592cc74b8b2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9b1bcfa983e3ef74f810f06245c9ec0d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8306a7d90f126e04a8f1c1c904341503, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: -2005973111, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -2119659324, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -2051541306, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1184802484, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1032072274, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 2005159759, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1783169300, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1845404088, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1067940895, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -197296741, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 953270592, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1277448904, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -2096938146, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -380008858, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -226763392, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -151313423, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 802132372, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -578974823, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -335047464, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1080798252, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1161602148, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -875252823, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -365436499, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1322397448, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -146705984, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -202159943, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1792105662, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1549848242, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -966267668, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1063210218, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -359660931, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1479993534, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1888550019, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1578512655, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1699741063, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1864444436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1213012214, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1985007777, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -432102721, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1848696948, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 353067543, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -317677761, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -270136354, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1819008361, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -789927658, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -565067572, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1391837873, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1627637702, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -888543356, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1348642413, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 630417361, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -306948816, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -315171339, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1895344032, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1561644061, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1904172584, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1746479147, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 42b19afa2d64fb642be79804ed48dd15, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f423351e61809594a914e1d5e67f41a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3add09be16d37a94db91ec4c3067340f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7cd3222f342800844b80280c0372a4c9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Content/Skills/Choke/ChokeOrbImpact.prefab
+- Assets/Content/Artifacts/Wrath/ArtifactOfWrath.fbx
+- Assets/Scripts/OtherModules/ShaderStubs/hgcloudremap.shader
+- Assets/Content/Artifacts/Wrath/texRampThermite.png
+- Assets/Content/Skills/Choke/bfChokeMobility.asset
+- Assets/Content/Characters/SigmaConstruct/texSigmaConstruct.png
+- Assets/Content/Skills/Choke/VoidBoltImpact.prefab
+- Assets/Content/Elites/Cloaked/DisplayEliteCloakedCrown.prefab
+- Assets/Content/Items/SunBlade/texFireRamp.png
+- Assets/Content/Skills/Choke/ChokeTarget.png
+- Assets/Content/Characters/SigmaConstruct/anmSigmaConstruct.controller
+- Assets/Content/Skills/Choke/ChokeSpawnerProjectile.prefab
+- Assets/Content/Skills/Choke.asset
+- Assets/Content/Artifacts/Wrath/texArtifactWrathDisabled.png
+- Assets/Content/Characters/SigmaConstruct/skfmSigmaPrimary.asset
+- Assets/Content/Elites/Cloaked/texAffixCloakIcon.png
+- Assets/Content/Interactible/Cloaked Shrine/iscCloakedShrine.asset
+- Assets/Content/Skills/Weave/Weave.png
+- Assets/Content/Characters/SigmaConstruct/idrsBlank.asset
+- Assets/Content/Items/SunBlade/SunSwordDisplayFollower.prefab
+- Assets/Content/Items/ImpulseFrostShield/matIFSMain.mat
+- Assets/Textstuff/BOMBARD_.ttf
+- Assets/Content/Skills/Torpor/skdfReadyTorpor.asset
+- Assets/Content/Elites/Cloaked/texCloakedFresnel.png
+- Assets/Content/Skills/Choke/texVoidBolt.png
+- Assets/Content/Artifacts/Wrath/ArtifactOfWrath.prefab
+- Assets/Content/Elites/Cloaked/texCloakedRamp.png
+- Assets/Content/Artifacts/ssabWrath.asset
+- Assets/Content/Skills/Weave/skdfWeave.asset
+- Assets/Content/Artifacts/Wrath/Artifacts.Wrath.asset
+- Assets/Content/Characters/SigmaConstruct/SigmaBurrowTracer.prefab
+- Assets/Content/Skills/Choke/ChokeMainZone.prefab
+- Assets/Content/Skills/Choke/texRampVeryLightVoid.png
+- Assets/Content/Skills/DeepRot/bfDeepRotDOT.asset
+- Assets/Content/Skills/Weave/TracerWeave.prefab
+- Assets/Content/Interactible/Cloaked Shrine/texRampGenericFire.png
+- Assets/Content/Elites/Cloaked/bfVeiled.asset
+- Assets/Content/Items/ssebIFS.asset
+- Assets/Content/Skills/Weave/bfEntangled.asset
+- Packages/com.unity.postprocessing/PostProcessing/Gizmos/PostProcessLayer.png
+- Assets/Content/Items/ImpulseFrostShield/texImpulseFrostShield.png
+- Assets/Content/Skills/Torpor/texCrosshairRailgunnerBoundsInvertedGlowy.png
+- Assets/Content/Characters/SigmaConstruct/skdfSigmaBurrow.asset
+- Assets/Content/Items/SunBlade/SwordAppliedBuff/texFunnySwordBuff.png
+- Assets/Content/Elites/Raging/texRagingRamp.png
+- Assets/Content/Characters/SigmaConstruct/cscSigmaConstruct.asset
+- Assets/Content/Skills/DeepRot/texRampSoulRot.png
+- Assets/Content/Artifacts/Wrath/acWrath.asset
+- Assets/Content/Interactible/Cloaked Shrine/CloakedShrineInteractible.prefab
+- Assets/Content/Characters/SigmaConstruct/skdfSigmaLaser.asset
+- Assets/Content/Items/SunBlade/SwordAppliedBuff/buffSunBladeApplied.asset
+- Assets/Content/Elites/Cloaked/texCloakedAffixBuff.png
+- Assets/Content/Elites/Raging/matRageDeathProjectileIndicator.mat
+- Assets/Content/Characters/SigmaConstruct/SigmaConstructBody.prefab
+- Assets/Content/Skills/Torpor/skdfAgressiveReload.asset
+- Assets/Content/Items/SunBlade/SunSwordImpactEffect.prefab
+- Assets/Content/Items/ImpulseFrostShield/IFSIndicatorInactive.prefab
+- Assets/Content/Skills/Choke/ArtiMatrix.fbx
+- Assets/Content/Skills/Weave/HitsparkWeave.prefab
+- Assets/Content/Skills/Choke/texRampVoidLightning.png
+- Assets/Content/Skills/Choke/bfChokeTarget.asset
+- Assets/Content/Elites/Raging/texRagingRangeIndicatorRampAllyBuff.png
+- Assets/Content/Skills/Choke/matChokeTrail.mat
+- Assets/Content/Artifacts/Wrath/SkyShardWarningGhost.prefab
+- Assets/Content/Elites/Raging/texAffixRaging.png
+- Assets/Content/Items/SunBlade/matSunSwordFire.mat
+- Assets/Content/Items/ImpulseFrostShield/IFS.blend
+- Assets/Content/Skills/Choke/matChokeStars.mat
+- Assets/Content/Skills/Choke/skdfVoidBolt.asset
+- Assets/Content/Skills/DeepRot/texSoulRot2.png
+- Assets/Content/Interactible/Cloaked Shrine/CloakedShrine2.png
+- Assets/Content/Items/ImpulseFrostShield/IFSPickup.prefab
+- Assets/Content/Artifacts/Wrath/texArtifactWrathEnabled.png
+- Assets/Content/Skills/Choke/ChokeMainZoneEffect.prefab
+- Assets/Scripts/OtherModules/ShaderStubs/hgstandard.shader
+- Assets/Content/sdStone.asset
+- Assets/Content/Skills/Choke/MageVoidboltBasic.prefab
+- Assets/Content/Characters/SigmaConstruct/Log.SigmaConstructBody.0.asset
+- Assets/Content/Items/SunBlade/SwordAppliedBuff/buffSunBladeCooldown.asset
+- Assets/Content/Skills/DeepRot/texDeeprot.png
+- Assets/Content/Elites/Raging/matRageRangeIndicatorAllyBuff.mat
+- Assets/Content/Items/SunBlade/matFireTrail.mat
+- Assets/Content/Elites/Raging/texRagingOverlayRamp.png
+- Assets/Content/Artifacts/Wrath/matSkyShardRangeIndicator.mat
+- Assets/Content/Elites/Cloaked/CloakedRing.blend
+- Assets/Content/Artifacts/Wrath/texSkyShard.png
+- Assets/Content/Skills/Torpor.asset
+- Assets/Content/Interactible/Cloaked Shrine/HiddenPickup.prefab
+- Assets/Content/Skills/Choke/psymatEngiGrenade.physicMaterial
+- Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+- Assets/Content/Skills/Torpor/texTorporScopeIcon.png
+- Assets/Content/Skills/Choke/texRampLightVoid.png
+- Assets/Content/Items/ImpulseFrostShield/texIFSReticle.png
+- Assets/Content/Items/SunBlade/matFunnySword.mat
+- Assets/Content/Skills/DeepRot/bfDeepRotDebuff.asset
+- Assets/Content/Skills/DeepRot.asset
+- Assets/Content/Items/ImpulseFrostShield/IFSDisplay.prefab
+- Assets/Content/Artifacts/Wrath/SkyShardProjectile.prefab
+- Assets/Content/Elites/Cloaked/matCloakedCrown.mat
+- Assets/Content/Artifacts/Wrath/matSkyShard.mat
+- Assets/Content/Skills/Choke/skdfChoke.asset
+- Assets/Content/Skills/DeepRot/SoulRotEffect.prefab
+- Assets/Content/Items/ImpulseFrostShield/IFSIndicatorActive.prefab
+- Assets/Content/Elites/Raging/matRagingOverlay.mat
+- Assets/Content/Skills/Choke/texChokeIcon.png
+- Assets/Content/Skills/DeepRot/matSoulRotTrail.mat
+- Assets/Content/Characters/SigmaConstruct/skfmSigmaUtility.asset
+- Assets/Content/Skills/DeepRot/skdfDeepRot.asset
+- Assets/Content/Skills/Torpor/RailgunnerScopeCrosshairTorpor.prefab
+- Assets/Content/Items/PlasmaCore/PlasmaCore.fbx
+- Assets/Content/Skills/Torpor/texMELTCrosshairNibGlowy.png
+- Assets/Content/Artifacts/Wrath/SkyShardImpactEffect.prefab
+- Assets/Content/Characters/SigmaConstruct/mdlSigmaConstruct.prefab
+- Assets/Content/Items/SunBlade/SunSwordExplosionEffect.prefab
+- Assets/Content/Characters/SigmaConstruct/bfdfSigmaArmor.asset
+- Assets/Content/Items/SunBlade/YangSword.png
+- Assets/Content/Skills/Torpor/texTorporReloadIcon.png
+- Assets/Content/Elites/Raging/texRagingRangeIndicatorRamp.png
+- Assets/Content/Skills/DeepRot/texSoulrot.png
+- Assets/Content/Skills/Choke/texRampDarkVoid.png
+- Assets/Content/Elites/Raging/RageDeathProjectile.prefab
+- Assets/Content/Items/ImpulseFrostShield/texIFSReticleInactive.png
+- Assets/Content/Interactible/Cloaked Shrine/Shrine of Invisibility.blend
+- Assets/Content/Interactible/Cloaked Shrine/texCloakedShrine.png
+- Assets/Content/Elites/Raging/DisplayEliteRagingCrown.prefab
+- Assets/Content/Skills/DeepRot/texSoulRotIcon.png
+- Assets/Content/Elites/Cloaked.asset
+- Assets/Content/Skills/Choke/matChokeIndicator.mat
+- Assets/Content/Artifacts/Wrath/matSkyShardFlames.mat
+- Assets/Content/Skills/Choke/ChokeOrbTrailEffect.prefab
+- Assets/Content/Elites/Raging/texRagingRangeIndicatorRampAlly.png
+- Assets/Content/Characters/SigmaConstruct/SigmaConstruct.fbx
+- Assets/Content/Elites/Raging/RageDeathProjectileSpawner.prefab
+- Assets/Content/Elites/Raging/matRageRangeIndicatorBuff.mat
+- Assets/Content/Skills/Weave/texWeaveIcon.png
+- Assets/Content/Skills/Torpor/RailGunnerSniperTargetVisualizerTorpor.prefab
+- Assets/Content/Elites/Raging/ragingeliteicon.png
+- Assets/Content/Elites/Raging/matRageRangeIndicatorAlly.mat
+- Assets/Content/Items/ImpulseFrostShield/texIFSIcon.png
+- Assets/Scripts/OtherModules/ShaderStubs/hgintersectioncloudremap.shader
+- Assets/Content/Items/SunBlade/texBeamAlpha.png
+- Assets/Content/Items/ssibSunBlade.asset
+- Assets/Content/Skills/DeepRot/texRampSoulRotTrail.png
+- Assets/Content/Elites/Raging/bfRageCD.asset
+- Assets/Content/Elites/Raging/texRagingRangeIndicatorRampBuff.png
+- Assets/Content/Artifacts/Wrath/texCloudDifferenceBW1.png
+- Assets/Content/Items/SunBlade/SunSwordPickup.prefab
+- Assets/Content/Artifacts/Wrath/texCloudDifferenceBW2.png
+- Assets/Content/Characters/ssebSigmaConstruct.asset
+- Assets/Content/Skills/Choke/ChokeSpawnerGhost.prefab
+- Assets/Content/Interactible/ssibShrineCloak.asset
+- Assets/Content/Items/SunBlade/SunSwordDisplay.prefab
+- Assets/Content/Elites/Raging/RageDeathBlastEffect.prefab
+- Assets/Content/Items/SunBlade/YangSwordEmissive.png
+- Assets/Content/Elites/Raging.asset
+- Assets/Content/Items/SunBlade/texSunSwordIcon.png
+- Assets/Content/Characters/SigmaConstruct/SigmaBeamTracer.prefab
+- Assets/Content/Skills/Torpor/skdfFireTorpor.asset
+- Assets/Content/Artifacts/Wrath/SkyShard.blend
+- Assets/Content/Skills/Weave.asset
+- Assets/Content/Characters/SigmaConstruct/SigmaConstructMonsterMaster.prefab
+- Assets/Content/Interactible/Cloaked Shrine/matInvisibilityShrine.mat
+- Assets/Content/Elites/Cloaked/HiddenGhost.prefab
+- Assets/Content/Items/ImpulseFrostShield/texImpulseFrostShieldEmission.png
+- Assets/Content/Elites/Raging/AffixRageWard.prefab
+- Assets/Content/Skills/Torpor/texTorporFireIcon.png
+- Assets/Content/Skills/Choke/ChokeReturnOrb.prefab
+- Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader
+- Assets/Content/Artifacts/Wrath/dONUT.blend
+- Assets/Textstuff/BOMBARD_ SDF.asset
+- Assets/Content/Skills/Torpor/texMELTCrosshairNib.png
+- Assets/Content/Skills/Weave/WeaveOrbTrailEffect.prefab
+- Assets/Content/Items/ImpulseFrostShield/FreezeEffect.prefab
+- Assets/Content/Skills/Torpor/texMELTCrosshairNibLarge.png
+- Assets/Content/Skills/Choke/choke.png
+- Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd
+- Assets/Content/Elites/Raging/bfAnger.asset
+- Assets/Content/Artifacts/Wrath/texRampSkyShard.png
+- Assets/Content/Skills/Choke/MageVoidboltGhost.prefab
+- Assets/Content/Characters/SigmaConstruct/ccpStandard.asset
+- Assets/Content/Interactible/Cloaked Shrine/matCloakedShrineSymbol.mat
+- Assets/Content/Skills/Choke/matChokeOrbTrail.mat
+- Assets/Content/Items/ImpulseFrostShield/matIFSFreezeTrail.mat
+- Assets/Content/Skills/Choke/ChokeBuff.png
+- Assets/Content/Items/SunBlade/yang.blend
+- Assets/Content/Elites/Cloaked/CloakedBuff.png
+- Assets/Content/Elites/Raging/matRageRangeIndicator.mat
+Dependencies: []

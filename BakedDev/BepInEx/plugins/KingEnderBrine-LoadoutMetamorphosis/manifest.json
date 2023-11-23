@@ -1,0 +1,10 @@
+{
+  "namespace": "KingEnderBrine",
+  "name": "LoadoutMetamorphosis",
+  "description": "Metamorphosis artifact now also randomize loadout",
+  "version_number": "1.1.0",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.1903"
+  ],
+  "website_url": "https://github.com/KingEnderBrine/-RoR2-LoadoutMetamorphosis"
+}

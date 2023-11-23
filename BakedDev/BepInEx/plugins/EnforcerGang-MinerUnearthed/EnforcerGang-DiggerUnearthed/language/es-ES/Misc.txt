@@ -1,0 +1,13 @@
+{
+	strings:
+	{
+	"FATACRID_BODY_NAME" : "Perro Grande",
+	"FATACRID_BODY_SUBTITLE" : "(Forma Gigante)",
+	
+	"DIGGERPLUGIN_DIRESEEKER_BODY_NAME" : "Direseeker",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_SUBTITLE" : "Rastrear y matar",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_LORE" : "Las leyendas hablan de una bestia monstruosa que una vez vagó por los cuarteles subterráneos de Petrichor V.\n\nTemida por los supervivientes más valientes y los monstruos más repugnantes, la enorme bestia no tenía rival. Tenía escamas rojo sangre, templadas por el fuego del infierno. Tenía ojos amarillos ardientes, con una mirada tan intensa que hacía que las criaturas más grandes se detuvieran en seco. Tenía un aliento ardiente, capaz de derretir el metal en un instante.\n\nSólo una vez fue detenida por un superviviente lo suficientemente fuerte como para matar a la Providencia en persona, por lo que se creía que la bestia había encontrado por fin a su rival.\n\n<style=cIsHealth>Hasta que volvió a mostrar su aterrador rostro.</style>",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_OUTRO_FLAVOR" : "...y se marchó, en busca de nuevas presas.",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_DEFAULT_SKIN_NAME" : "Default"
+	}
+}

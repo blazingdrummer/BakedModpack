@@ -1,0 +1,11 @@
+{
+	strings:
+	{
+	"ELITE_MODIFIER_BLIGHTED_MOFFEIN" : "{0} da Praga",
+	"ELITE_MODIFIER_BLIGHTED_MOFFEIN_SUBTITLENAMETOKEN" : "Fantasma",
+	
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_NAME" : "Traição do Baluarte",
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_DESC" : "Receba <style=cIsDamage>2</style> <style=cIsDamage>melhorias de elite</style> aleatórias. Ative para <style=cIsDamage>rerolar suas melhorias</style>.",
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_PICKUP" : "Torne-se um aspecto da praga.",
+	}
+}

@@ -1,0 +1,44 @@
+{
+    "strings":
+    {
+        "INTERACTIBLE_RELICENERGY_NAME": "???",
+        "INTERACTIBLE_RELICENERGY_CONTEXT": "Investigar",
+        "INTERACTIBLE_BROKENTELEPORTER_NAME": "Teleportador Quebrado",
+        "INTERACTIBLE_BROKENTELEPORTER_CONTEXTEND": "Teleportador Quebrado",
+        "INTERACTIBLE_BROKENTELEPORTER_CONTEXT": "Colocar Relíquia",
+		"INTERACTIBLE_BROKENTELEPORTER_ACTIVATED": "<style=cWorldEvent>A Relíquia da Energia ressoa.</style>",
+		"INTERACTIBLE_BROKENTELEPORTER_FAILED": "<style=cWorldEvent>A Relíquia da Energia explode!</style>",
+		
+        "INTERACTIBLE_BATTERYBANK_NAME": "Banco de Baterias",
+        "INTERACTIBLE_BATTERYBANK_NAMEFULL": "Banco de Baterias Carregado",
+        "INTERACTIBLE_BATTERYBANK_CONTEXT": "Substituir Células de Combustível ({0}/{1})",
+        "INTERACTIBLE_BATTERYBANK_CONTEXTCOMMAND": "Inserie 2 Itens Verdes ({0}/{1})",
+		"OBJECTIVE_BATTERIES_INSERTED_TOKEN": "Carregar o Banco de Combustível ({0}/{1})",
+        "INTERACTIBLE_STATICPORTAL_CONTEXT": "Voltar ao Planeta",
+        "INTERACTIBLE_BATTERYSOURCE_NAME": "Teleportador Antigo",
+        "INTERACTIBLE_BATTERYSOURCE_CONTEXT": "Ativar",
+        "INTERACTIBLE_STAGEORDERBUTTON_CONTEXT": "Alterar a Rede do Teleportador",
+		
+		
+        "INTERACTIBLE_SHRINE_TAR_NAME": "Altar de Alcatrão",
+        "INTERACTIBLE_SHRINE_TAR_CONTEXT": "Doe ao altar.",
+        "PLAYER_TARCORRUPTION_QUOTE": "{0} foi perdido para o alcatrão.",
+        "PLAYER_TARCORRUPTION_QUOTE_2P": "Você foi perdido para o alcatrão.",
+        "PLAYER_TARDEATH_QUOTE": "O corpo corrompido pelo alcatrão de {0} deitou-se para descansar.",
+        "PLAYER_TARDEATH_QUOTE_2P": "Seu corpo corrompido pelo alcatrão deitou-se para descansar.",
+		
+        "INTERACTIBLE_SLUMBERINGPEDESTAL_NAME": "Pedestal Adormecido",
+        "INTERACTIBLE_SLUMBERINGPEDESTAL_CONTEXT": "Colocar relíquia",
+		"INTERACTIBLE_SLUMBERINGPEDESTAL_FINISHED": "<style=cWorldEvent>O pedestal foi energizado.</style>",
+	
+        "INTERACTIBLE_SAGESSHRINE_NAME": "Altar do Sábio",
+        "INTERACTIBLE_SAGESSHRINE_CONTEXT": "Doe ao Altar do Sábio",
+	
+		"HAZARD_GRAVMINE_NAME": "Mina de Gravidade",
+		"HAZARD_LIGHTNINGROD_NAME": "Para-raio",
+		"HAZARD_HARPOONBOX_NAME": "Lançador de Arpão",
+		"HAZARD_RIGGEDCHEST_NAME": "Baú Manipulado",
+		
+		"HAZARD_BEACON_NAME", "Sinalizador do Viajante"
+    }
+}

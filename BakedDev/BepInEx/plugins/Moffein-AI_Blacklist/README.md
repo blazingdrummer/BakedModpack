@@ -30,6 +30,12 @@ Config can be found in /Risk of Rain 2/BepInEx/config/com.Moffein.AI_Blacklist.c
 
 ## Changelog
 
+`1.6.0`
+
+- Vengeance
+	- Added option to automatically remove AIBlacklist items (enabled by default).
+	- Added option to automatically remove Engi Turret Blacklist items (enabled by default).
+
 `1.5.3`
 
 - Removed dead links to the modding wiki.

@@ -3,3 +3,4 @@ release_checklist.md
 *.pdb
 *.exe
 *.old
+BakedDev/BepInEx/plugins/PlasmaCore3-Forgotten_Relics/ForgottenRelics/fhresources

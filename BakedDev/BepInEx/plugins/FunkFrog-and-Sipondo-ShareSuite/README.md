@@ -11,11 +11,9 @@ Multiplayer RoR2 games should be fast-paced wacky fun. Often times, though, play
 
 ShareSuite is a mod with a multitude of systems designed around sharing the things you gather throughout a run, be it items, money, experience, equipment, or otherwise. Check out the "Features" section for more information!
 
-|    Most Recent Update - 2.8    |
+|    Most Recent Update - 2.8.1    |
 |:--------------------------------:|
-| Add compatiblity with Yeet |
-| Add defense nucleus to default item blacklist |
-| Restore functionality of the logbook and the item description windows |
+| Fix bug with items not disappearing for clients |
 
 *If you'd like more info about this update, check the changelog at the bottom of the page!*
 
@@ -207,7 +205,10 @@ ShareSuite is a mod with a multitude of systems designed around sharing the thin
 
 [![Build](https://img.shields.io/travis/com/FunkFrog/RoR2SharedItems?label=Build&style=flat-square)](https://travis-ci.com/FunkFrog/RoR2SharedItems)[![Latest commit to Master](https://img.shields.io/github/last-commit/FunkFrog/RoR2SharedItems/master?label=Latest%20Commit%20%28master%29&style=flat-square)](https://github.com/FunkFrog/RoR2SharedItems)[![Latest commit to Dev](https://img.shields.io/github/last-commit/FunkFrog/RoR2SharedItems/dev?label=Latest%20Commit%20%28dev%29&style=flat-square)](https://github.com/FunkFrog/RoR2SharedItems/tree/dev)
 
-### `2.8.0 (Current Release)`
+### `2.8.1 (Current Release)`
+- Fix bug with items not disappearing for clients
+
+### `2.8.0`
 - Add compatiblity with Yeet (and any other mod wishing to mark items as unsharable)
 - Add defense nucleus to default item blacklist
 - Restore functionality of the logbook and the item description windows (you may want to turn rich messages back on if you turned them off to fix this problem!)
