@@ -64,7 +64,7 @@ Squid Polyp Distraction - DestroyedClone
 
 Language Support - Anreol
 
-Skill Icons - KoobyKarasu
+Skill Icons - KoobyKarasu, Thingw
 
 Acrid Hitbox Tweaks - TheTimesweeper
 
@@ -77,6 +77,14 @@ CN Translation - JunJun_W
 ## Changelog
 
 *Full changelog included in the .zip*
+
+`1.5.2`
+	
+- Tweaked Magma Worm fall death prevention code since it was prone to breaking if other mods did the same hook.
+
+`1.5.1`
+
+- Added icons for Standoff (Thanks Thingw!)
 
 `1.5.0`
 

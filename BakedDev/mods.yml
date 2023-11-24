@@ -1123,9 +1123,9 @@
   versionNumber:
     major: 1
     minor: 5
-    patch: 0
+    patch: 2
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyMod\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\Risky_Lives-RiskyMod\1.5.2\icon.png
 - manifestVersion: 1
   name: Moffein-EliteReworks
   authorName: Moffein
@@ -1763,8 +1763,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 2
-    patch: 7
+    minor: 3
+    patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-HAND_OVERCLOCKED\icon.png
 - manifestVersion: 1

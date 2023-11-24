@@ -1,3 +1,11 @@
+`1.5.2`
+	
+- Tweaked Magma Worm fall death prevention code since it was prone to breaking if other mods did the same hook.
+
+`1.5.1`
+
+- Added icons for Standoff (Thanks Thingw!)
+
 `1.5.0`
 
 - Bandit
