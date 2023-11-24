@@ -17,6 +17,10 @@ Place the Moffein-ArchaicWisp folder in /Risk of Rain 2/BepInEx/plugins/
 
 ## Changelog
 
+`1.1.4`
+
+- Added Brazilian Portuguese translation (Thanks Kauzok!)
+
 `1.1.3`
 
 - Added Russian translation (Thanks Адский Шкед!)

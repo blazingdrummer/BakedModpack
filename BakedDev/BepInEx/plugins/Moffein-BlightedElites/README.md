@@ -25,7 +25,13 @@ Sounds - Glaze
 
 Russian - Адский Шкед
 
+Portuguese - Kauzok
+
 ## Changelog
+
+`1.1.6` to `1.1.7`
+
+- Added BR translation (Thanks Kauzok!)
 
 `1.1.5`
 

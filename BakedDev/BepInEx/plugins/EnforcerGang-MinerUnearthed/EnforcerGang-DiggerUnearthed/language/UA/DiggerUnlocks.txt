@@ -1,0 +1,57 @@
+{
+	strings:
+	{
+        "MINERBODY_DEFAULT_SKIN_NAME" : "Стандартний",
+        "MINERBODY_MOLTEN_SKIN_NAME" : "Розплавлений",
+        "MINERBODY_TYPHOON_SKIN_NAME" : "Завойовник",
+        "MINERBODY_PUPLE_SKIN_NAME" : "Фіолетовий",
+        "MINERBODY_TUNDRA_SKIN_NAME" : "Тундра",
+        "MINERBODY_BLACKSMITH_SKIN_NAME" : "Коваль",
+        "MINERBODY_IRON_SKIN_NAME" : "Залізо",
+        "MINERBODY_GOLD_SKIN_NAME" : "Золото",
+        "MINERBODY_DIAMOND_SKIN_NAME" : "Діамант",
+        "MINERBODY_STEVE_SKIN_NAME" : "Minecraft",
+        "MINERBODY_DRIP_SKIN_NAME" : "Прикид",
+        
+
+        "MINER_UNLOCKABLE_ACHIEVEMENT_NAME" : "Прилив адреналіну",
+        "MINER_UNLOCKABLE_UNLOCKABLE_NAME" : "Прилив адреналіну",
+        "MINER_UNLOCKABLE_ACHIEVEMENT_DESC" : "Відкрийте легендарну скриню.",
+        
+        "MINER_ALTUNLOCKABLE_ACHIEVEMENT_NAME" : "Викуваний у полум'ї",
+        "MINER_ALTUNLOCKABLE_UNLOCKABLE_NAME" : "Викуваний у полум'ї",
+        "MINER_ALTUNLOCKABLE_ACHIEVEMENT_DESC" : "Вбийте унікального вартового в Глибинах безодні.",
+    
+        "MINER_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME" : "Гірник: Велична майстерність",
+        "MINER_TYPHOONUNLOCKABLE_UNLOCKABLE_NAME" : "Гірник: Велична майстерність",
+        "MINER_TYPHOONUNLOCKABLE_ACHIEVEMENT_DESC" : "За Гірника, пройдіть гру або зітріть себе на складності Тайфун або Затемненні.\n<color=#8888>(Складність Тайфун потребує Starstorm 2)</color>",
+        
+        "MINER_MONSOONUNLOCKABLE_ACHIEVEMENT_NAME" : "Гірник: Майстерність",
+        "MINER_MONSOONUNLOCKABLE_UNLOCKABLE_NAME" : "Гірник: Майстерність",
+        "MINER_MONSOONUNLOCKABLE_ACHIEVEMENT_DESC" : "За Гірника, пройдіть гру або зітріть себе на складності Мусон.",
+        
+        "MINER_CRUSHUNLOCKABLE_ACHIEVEMENT_NAME" : "Гірник: Награбоване золото",
+        "MINER_CRUSHUNLOCKABLE_UNLOCKABLE_NAME" : "Гірник: Награбоване золото",
+        "MINER_CRUSHUNLOCKABLE_ACHIEVEMENT_DESC" : "За Гірника, накладіть 12 ефектів розщеплення на унікального вартового Позолоченого берега.",
+        
+        "MINER_CRACKUNLOCKABLE_ACHIEVEMENT_NAME" : "Гірник: Наркоман",
+        "MINER_CRACKUNLOCKABLE_UNLOCKABLE_NAME" : "Гірник: Наркоман",
+        "MINER_CRACKUNLOCKABLE_ACHIEVEMENT_DESC" : "За Гірника, отримайте 50 ефектів Адреналіну.",
+        
+        "MINER_CAVEINUNLOCKABLE_ACHIEVEMENT_NAME" : "Гірник: Ущільнений",
+        "MINER_CAVEINUNLOCKABLE_UNLOCKABLE_NAME" : "Гірник: Ущільнений",
+        "MINER_CAVEINUNLOCKABLE_ACHIEVEMENT_DESC" : "За Гірника, вдарте 20 ворогів одним Відступом.",
+        
+        "MINER_PUPLEUNLOCKABLE_ACHIEVEMENT_NAME" : "Гірник: П'ять ключів",
+        "MINER_PUPLEUNLOCKABLE_UNLOCKABLE_NAME" : "Гірник: П'ять ключів",
+        "MINER_PUPLEUNLOCKABLE_ACHIEVEMENT_DESC" : "За Гірника, Discover G-N-O-M-E's debugging secret.",
+        
+        "MINER_TUNDRAUNLOCKABLE_ACHIEVEMENT_NAME" : "Гірник: Заморожений",
+        "MINER_TUNDRAUNLOCKABLE_UNLOCKABLE_NAME" : "Гірник: Заморожений",
+        "MINER_TUNDRAUNLOCKABLE_ACHIEVEMENT_DESC" : "За Гірника, дойдіть до Місця збору Дельта менш, ніж за 8 хвилин.",
+        
+        "MINER_BLACKSMITHUNLOCKABLE_ACHIEVEMENT_NAME" : "Гірник: Загартований",
+        "MINER_BLACKSMITHUNLOCKABLE_UNLOCKABLE_NAME" : "Гірник: Загартований",
+        "MINER_BLACKSMITHUNLOCKABLE_ACHIEVEMENT_DESC" : "За Гірника, знайти ковальський інструмент на планеті.",
+	}
+}

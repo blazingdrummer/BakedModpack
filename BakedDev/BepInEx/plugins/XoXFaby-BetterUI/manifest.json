@@ -1,8 +1,8 @@
 {
   "namespace": "XoXFaby",
   "name": "BetterUI",
-  "description": "Now with ItemStats! Various UI improvements like ordered items with multiple ways of sorting, DPSMeter, Item Counters, Skill/Equipment/Item Information, Command/Scrapper counters and other improvements, customizable StatsDisplay, and much more.",
-  "version_number": "2.7.6",
+  "description": "Looking for translators! Various UI improvements like ordered items with multiple ways of sorting, DPSMeter, Item Counters, Skill/Equipment/Item Information, Command/Scrapper counters and other improvements, customizable StatsDisplay, and much more.",
+  "version_number": "2.8.4",
   "dependencies": [
     "bbepis-BepInExPack-5.4.19"
   ],

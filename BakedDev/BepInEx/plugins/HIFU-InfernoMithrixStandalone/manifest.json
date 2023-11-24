@@ -1,0 +1,14 @@
+{
+  "name": "InfernoMithrixStandalone",
+  "version_number": "1.0.0",
+  "website_url": "https://docs.google.com/document/d/1tX11jTpdX8W70WbNdO361NXKUmel70JgaigBIVvaLhs",
+  "description": "Standalone version of Inferno's Mithrix changes. Makes him a bit more difficult and interesting.",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.2113",
+	"RiskofThunder-R2API_ContentManagement-1.0.1",
+	"RiskofThunder-R2API_Language-1.0.0",
+	"RiskofThunder-R2API_RecalculateStats-1.0.0",
+	"RiskofThunder-R2API_Items-1.0.1",
+	"Moffein-AI_Blacklist-1.5.1"
+  ]
+}

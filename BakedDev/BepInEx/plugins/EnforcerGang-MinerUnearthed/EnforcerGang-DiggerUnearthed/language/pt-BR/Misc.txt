@@ -1,0 +1,13 @@
+{
+	strings:
+	{
+	"FATACRID_BODY_NAME" : "Perro Grande",
+	"FATACRID_BODY_SUBTITLE" : "(Forma Gigante)",
+	
+	"DIGGERPLUGIN_DIRESEEKER_BODY_NAME" : "Buscador Do Abismo",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_SUBTITLE" : "Rastrear e Matar",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_LORE" : " As lendas contam de uma besta monstruosa que andava pelas profudenzas do planeta.\n\nTemido pelos sobreviventes mais corajosos e monstros mais horrosos, essa gigante fera era inigualável. Vestido em suas escamas vermelhas-sangue, forjadas no fogo do inferno. Seus olhos amarelos tinham um olhar penetrante tão intenso, que até as maiores criaturas paravam de medo. Seu sopro ardia tanto, que até metal derretia em um instante.\n\nSomente quando um sobrevivente com poder o bastante para matar Providence desafiou a fera, que ela finalmente foi derrotada.\n\n<style=cIsHealth>Até que esse terror mostrou sua cara novamente.</style>",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_OUTRO_FLAVOR" : "...então ela partiu, a procura de mais presas.",
+	"DIGGERPLUGIN_DIRESEEKER_BODY_DEFAULT_SKIN_NAME" : "Padrão"
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "name": "ZetAspects",
+    "version_number": "2.7.33",
+    "website_url": "https://github.com/William758/ZetAspects/tree/main",
+    "description": "Stackable elite aspects with new effects. Highly Configurable.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1903",
+        "RiskofThunder-HookGenPatcher-1.2.3"
+    ]
+}

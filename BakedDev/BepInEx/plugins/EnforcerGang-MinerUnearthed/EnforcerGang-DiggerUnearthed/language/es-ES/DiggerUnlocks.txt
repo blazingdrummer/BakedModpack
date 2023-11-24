@@ -1,0 +1,56 @@
+{
+	strings:
+	{
+	"MINERBODY_DEFAULT_SKIN_NAME" : "Default",
+	"MINERBODY_MOLTEN_SKIN_NAME" : "Molten",
+	"MINERBODY_TYPHOON_SKIN_NAME" : "Conqueror",
+	"MINERBODY_PUPLE_SKIN_NAME" : "Puple",
+	"MINERBODY_TUNDRA_SKIN_NAME" : "Tundra",
+	"MINERBODY_BLACKSMITH_SKIN_NAME" : "Blacksmith",
+	"MINERBODY_IRON_SKIN_NAME" : "Hierro",
+	"MINERBODY_GOLD_SKIN_NAME" : "Oro",
+	"MINERBODY_DIAMOND_SKIN_NAME" : "Diamante",
+	"MINERBODY_STEVE_SKIN_NAME" : "Minecraft",
+	"MINERBODY_DRIP_SKIN_NAME" : "Drip",
+	
+	"MINER_UNLOCKABLE_ACHIEVEMENT_NAME" : "Subidón de adrenalina",
+	"MINER_UNLOCKABLE_UNLOCKABLE_NAME" : "Subidón de adrenalina",
+	"MINER_UNLOCKABLE_ACHIEVEMENT_DESC" : "Abre un cofre legendario.",
+	
+	"MINER_ALTUNLOCKABLE_ACHIEVEMENT_NAME" : "Forjados en llamas",
+	"MINER_ALTUNLOCKABLE_UNLOCKABLE_NAME" : "Forjados en llamas",
+	"MINER_ALTUNLOCKABLE_ACHIEVEMENT_DESC" : "Derrota al guardián único de las Profundidades Abisales.",
+	
+	"MINER_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME" : "Minero: Gran Maestría",
+	"MINER_TYPHOONUNLOCKABLE_UNLOCKABLE_NAME" : "Minero: Gran Maestría",
+	"MINER_TYPHOONUNLOCKABLE_ACHIEVEMENT_DESC" : "Como Minero, supera el juego o destruyete en Tifón o Eclipse.\n<color=#8888>(La dificultad Tifón requiere Starstorm 2)</color>",
+	
+	"MINER_MONSOONUNLOCKABLE_ACHIEVEMENT_NAME" : "Minero: Maestría",
+	"MINER_MONSOONUNLOCKABLE_UNLOCKABLE_NAME" : "Minero: Maestría",
+	"MINER_MONSOONUNLOCKABLE_ACHIEVEMENT_DESC" : "Como Minero, supera el juego o destruyete en Monzón",
+	
+	"MINER_CRUSHUNLOCKABLE_ACHIEVEMENT_NAME" : "Minero: Oro Saqueado",
+	"MINER_CRUSHUNLOCKABLE_UNLOCKABLE_NAME" : "Minero: Oro Saqueado",
+	"MINER_CRUSHUNLOCKABLE_ACHIEVEMENT_DESC" : "Como minero, aplica 12 acumulaciones de descomposicion al Guardián único de Costa Dorada.",
+	
+	"MINER_CRACKUNLOCKABLE_ACHIEVEMENT_NAME" : "Minero: Junkie",
+	"MINER_CRACKUNLOCKABLE_UNLOCKABLE_NAME" : "Minero: Junkie",
+	"MINER_CRACKUNLOCKABLE_ACHIEVEMENT_DESC" : "Como minero, gana 50 acumulaciones de adrenalina.",
+	
+	"MINER_CAVEINUNLOCKABLE_ACHIEVEMENT_NAME" : "Minero: Compactado",
+	"MINER_CAVEINUNLOCKABLE_UNLOCKABLE_NAME" : "Minero: Compactado",
+	"MINER_CAVEINUNLOCKABLE_ACHIEVEMENT_DESC" : "Como minero, golpea a 20 enemigos con un Contraataque.",
+	
+	"MINER_PUPLEUNLOCKABLE_ACHIEVEMENT_NAME" : "Miner: Las Cinco Claves",
+	"MINER_PUPLEUNLOCKABLE_UNLOCKABLE_NAME" : "Miner: Las Cinco Claves",
+	"MINER_PUPLEUNLOCKABLE_ACHIEVEMENT_DESC" : "Como Miner, descubre el secreto de depuración de G-N-O-M-E.",
+	
+	"MINER_TUNDRAUNLOCKABLE_ACHIEVEMENT_NAME" : "Minero: Congelado",
+	"MINER_TUNDRAUNLOCKABLE_UNLOCKABLE_NAME" : "Minero: Congelado",
+	"MINER_TUNDRAUNLOCKABLE_ACHIEVEMENT_DESC" : "Como minero, llega al Punto de Reunión Delta en menos de 8 minutos.",
+	
+	"MINER_BLACKSMITHUNLOCKABLE_ACHIEVEMENT_NAME" : "Minero: Templado",
+	"MINER_BLACKSMITHUNLOCKABLE_UNLOCKABLE_NAME" : "Minero: Templado",
+	"MINER_BLACKSMITHUNLOCKABLE_ACHIEVEMENT_DESC" : "Como minero, encuentra una herramienta de herrería en el planeta."
+	}
+}

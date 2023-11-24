@@ -17,6 +17,14 @@ Place the Moffein-ClayMen folder in /Risk of Rain 2/BepInEx/plugins/
 
 ## Changelog
 
+1.5.5
+
+- Updated BR TL.
+
+1.5.4
+
+- Added Brazilian Portuguese translation (Thanks Kauzok!)
+
 1.5.3
 
 - Added Russian translation (Thanks Адский Шкед!)

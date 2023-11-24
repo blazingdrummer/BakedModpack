@@ -1,0 +1,10 @@
+{
+    "name": "GiantParticleFix",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/Moffein/GiantParticleFix",
+    "description": "Fixes posion particles being giant on certain modded characters. Client-Side and Vanilla-Compatible!",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1905",
+		"RiskofThunder-HookGenPatcher-1.2.3"
+    ]
+}

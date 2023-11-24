@@ -1,0 +1,55 @@
+{
+	strings:
+	{
+	"MINERBODY_DEFAULT_SKIN_NAME" : "Padrão",
+	"MINERBODY_MOLTEN_SKIN_NAME" : "Fundido",
+	"MINERBODY_TYPHOON_SKIN_NAME" : "Conquistador",
+	"MINERBODY_PUPLE_SKIN_NAME" : "Rosho",
+	"MINERBODY_TUNDRA_SKIN_NAME" : "Tundra",
+	"MINERBODY_BLACKSMITH_SKIN_NAME" : "Ferreiro",
+	"MINERBODY_IRON_SKIN_NAME" : "Ferro",
+	"MINERBODY_GOLD_SKIN_NAME" : "Ouro",
+	"MINERBODY_DIAMOND_SKIN_NAME" : "Diamante",
+	"MINERBODY_STEVE_SKIN_NAME" : "Minecraft",
+	"MINERBODY_DRIP_SKIN_NAME" : "Drip",
+	
+	"MINER_UNLOCKABLE_ACHIEVEMENT_NAME" : "Pico De Adrenalina",
+	"MINER_UNLOCKABLE_UNLOCKABLE_NAME" : "Pico De Adrenalina",
+	"MINER_UNLOCKABLE_ACHIEVEMENT_DESC" : "Abra um Bau Lendario.",
+	
+	"MINER_ALTUNLOCKABLE_ACHIEVEMENT_NAME" : "Forjado nas Chamas",
+	"MINER_ALTUNLOCKABLE_UNLOCKABLE_NAME" : "Forjado nas Chamas",
+	"MINER_ALTUNLOCKABLE_ACHIEVEMENT_DESC" : " Derrote o guardião unico das Profundezas Abissais.",
+	
+	"MINER_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME" : "Miner: Grande Domínio",
+	"MINER_TYPHOONUNLOCKABLE_UNLOCKABLE_NAME" : "Miner: Grande Domínio",
+	"MINER_TYPHOONUNLOCKABLE_ACHIEVEMENT_DESC" : "Como Minerador,vença o jogo ou aniquile em Tufão ou Eclipse.\n<color=#8888>(Tufão requer Starstorm 2)</color>",
+	
+	"MINER_MONSOONUNLOCKABLE_ACHIEVEMENT_NAME" : "Minerador: Domínio",
+	"MINER_MONSOONUNLOCKABLE_UNLOCKABLE_NAME" : "Minerador: Domínio",
+	"MINER_MONSOONUNLOCKABLE_ACHIEVEMENT_DESC" : "Como Minerador, vença o jogo ou aniquile em Monção.",
+	
+	"MINER_CRUSHUNLOCKABLE_ACHIEVEMENT_NAME" : "Minerador: Ouro Saqueado",
+	"MINER_CRUSHUNLOCKABLE_UNLOCKABLE_NAME" : "Minerador: Ouro Saqueado",
+	"MINER_CRUSHUNLOCKABLE_ACHIEVEMENT_DESC" : "Como Minerador, aplique Lascando 12 vezes no guardião da Costa Dourada.",
+	
+	"MINER_CRACKUNLOCKABLE_ACHIEVEMENT_NAME" : "Minerador: Viciado",
+	"MINER_CRACKUNLOCKABLE_UNLOCKABLE_NAME" : "Minerador: Viciado",
+	"MINER_CRACKUNLOCKABLE_ACHIEVEMENT_DESC" : "Como Minerador, ganhe 50 unidades de Adrenalina.",
+	
+	"MINER_CAVEINUNLOCKABLE_ACHIEVEMENT_NAME" : "Minerador: Compactado",
+	"MINER_CAVEINUNLOCKABLE_UNLOCKABLE_NAME" : "Minerador: Compactado",
+	"MINER_CAVEINUNLOCKABLE_ACHIEVEMENT_DESC" : "Como Minerador, atinga 20 inimigos com uma Explosão.",
+	
+	"MINER_PUPLEUNLOCKABLE_ACHIEVEMENT_NAME" : "Minerador: As Cinco Chaves",
+	"MINER_PUPLEUNLOCKABLE_UNLOCKABLE_NAME" : "Minerador: As Cinco Chaves",
+	"MINER_PUPLEUNLOCKABLE_ACHIEVEMENT_DESC" : "Como Minerador, descubra o segredo de debugging do G-N-O-M-E.",
+	
+	"MINER_TUNDRAUNLOCKABLE_ACHIEVEMENT_NAME" : "Minerador: Congelado",
+	"MINER_TUNDRAUNLOCKABLE_UNLOCKABLE_NAME" : "Minerador: Congelado",
+	"MINER_TUNDRAUNLOCKABLE_ACHIEVEMENT_DESC" : "Como Minerador, chegue no Ponto de encontro Delta in menos de 8 minutos.",
+	
+	"MINER_BLACKSMITHUNLOCKABLE_ACHIEVEMENT_NAME" : "Minerador: Afiado",
+	"MINER_BLACKSMITHUNLOCKABLE_UNLOCKABLE_NAME" : "Minerador: Afiado",
+	"MINER_BLACKSMITHUNLOCKABLE_ACHIEVEMENT_DESC" : "Como Minerador, encontre uma ferramenta de forja no planeta."
+	}

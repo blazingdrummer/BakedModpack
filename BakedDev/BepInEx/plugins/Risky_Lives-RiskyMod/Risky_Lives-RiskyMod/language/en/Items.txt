@@ -10,10 +10,10 @@
 	"ITEM_STICKYBOMB_DESC_RISKYMOD": "<style=cIsDamage>5%</style> <style=cStack>(+5% per stack)</style> chance on hit to attach a <style=cIsDamage>bomb</style> to an enemy, detonating for <style=cIsDamage>240%</style> TOTAL damage.",
 	
 	"ITEM_CROWBAR_PICKUP_RISKYMOD": "Deal bonus damage on your first hit against an enemy.",
-	"ITEM_CROWBAR_DESC_RISKYMOD": "Deal <style=cIsDamage>+50%</style> <style=cStack>(+50% per stack)</style> damage on your <style=cIsDamage>first hit</style> against an enemy.",
+	"ITEM_CROWBAR_DESC_RISKYMOD": "Deal <style=cIsDamage>+45%</style> <style=cStack>(+45% per stack)</style> damage on your <style=cIsDamage>first hit</style> against an enemy.",
 	
-	"ITEM_WARDONLEVEL_PICKUP_RISKYMOD": "Drop a Warbanner on level up or starting the Teleporter event. Grants allies armor, damage, attack speed and movement speed.",
-	"ITEM_WARDONLEVEL_DESC_RISKYMOD": "On <style=cIsUtility>level up</style> or starting the <style=cIsUtility>Teleporter event</style>, drop a banner that strengthens all allies within <style=cIsUtility>16m</style> <style=cStack>(+8m per stack)</style>. Raise <style=cIsHealing>armor</style> by <style=cIsHealing>15</style>, <style=cIsDamage>damage</style> by <style=cIsDamage>15%</style>, and <style=cIsDamage>attack speed</style> and <style=cIsUtility>movement speed</style> by <style=cIsDamage>30%</style>.",
+	"ITEM_WARDONLEVEL_PICKUP_RISKYMOD": "Drop a Warbanner on level up or starting the Teleporter event. Grants allies damage, attack speed, movement speed, and health regeneration.",
+	"ITEM_WARDONLEVEL_DESC_RISKYMOD": "On <style=cIsUtility>level up</style> or starting the <style=cIsUtility>Teleporter event</style>, drop a banner that strengthens all allies within <style=cIsUtility>16m</style> <style=cStack>(+8m per stack)</style>. Raise <style=cIsDamage>damage</style> by <style=cIsDamage>15%</style>, and <style=cIsDamage>attack speed</style> and <style=cIsUtility>movement speed</style> by <style=cIsDamage>30%</style>. Also regenerate <style=cIsHealing>1%</style> of your <style=cIsHealing>health</style> every second.",
 	
 	"ITEM_IGNITEONKILL_DESC_RISKYMOD": "Killing an enemy <style=cIsDamage>ignites</style> all enemies within <style=cIsDamage>12m</style> for <style=cIsDamage>150%</style> base damage. Additionally, enemies <style=cIsDamage>burn</style> for <style=cIsDamage>150%</style> <style=cStack>(+75% per stack)</style> base damage.",
 	
@@ -42,7 +42,7 @@
 	
 	"ITEM_CHAINLIGHTNING_DESC_RISKYMOD": "<style=cIsDamage>25%</style> chance to fire <style=cIsDamage>chain lightning</style> for <style=cIsDamage>80%</style> TOTAL damage on up to <style=cIsDamage>3 <style=cStack>(+2 per stack)</style></style> targets within <style=cIsDamage>25m</style>.",
 	
-	"ITEM_THORNS_DESC_RISKYMOD": "Getting hit causes you to explode in a burst of razors, dealing <style=cIsDamage>160%</style> <style=cStack>(+40% per stack)</style> damage. Hits up to <style=cIsDamage>3</style> <style=cStack>(+2 per stack)</style> targets in a <style=cIsDamage>25m</style> radius.",
+	"ITEM_THORNS_DESC_RISKYMOD": "Getting hit causes you to explode in a burst of razors, dealing <style=cIsDamage>160%</style> <style=cStack>(+80% per stack)</style> damage. Hits up to <style=cIsDamage>3</style> <style=cStack>(+2 per stack)</style> targets in a <style=cIsDamage>25m</style> radius.",
 	
 	"ITEM_SPRINTARMOR_PICKUP_RISKYMOD": "Increase armor. Gain bonus armor while sprinting.",
 	"ITEM_SPRINTARMOR_DESC_RISKYMOD": "<style=cIsHealing>Increase armor</style> by <style=cIsHealing>10</style> <style=cStack>(+10 per stack)</style>. Gain an additional <style=cIsHealing>10</style> <style=cStack>(+10 per stack)</style> armor while <style=cIsUtility>sprinting</style>.",
@@ -72,9 +72,7 @@
 	
 	"ITEM_GHOSTONKILL_PICKUP_RISKYMOD": "Killing an enemy summons a ghost. Recharges over time.",
 	"ITEM_GHOSTONKILL_DESC_RISKYMOD": "Killing an enemy <style=cIsDamage>spawns a ghost</style> of the killed enemy with <style=cIsDamage>600%</style> <style=cStack>(+180% per stack)</style> damage. Lasts <style=cIsDamage>30s</style> <style=cStack>(+30s per stack)</style>. Recharges every <style=cIsUtility>20</style> seconds. Can have up to <style=cIsUtility>3</style> ghosts at a time.", 
-	
-	"ITEM_BEHEMOTH_DESC_RISKYMOD": "All your <style=cIsDamage>attacks explode</style> in a <style=cIsDamage>4m</style> <style=cStack>(+2.5m per stack)</style> radius for a bonus <style=cIsDamage>60%</style> <style=cStack>(+20% per stack)</style> TOTAL damage to nearby enemies.",
-	
+
 	"ITEM_BEETLEGLAND_DESC_RISKYMOD": "<style=cIsUtility>Recruit a Beetle Guard</style> with bonus <style=cIsDamage>300%</style> <style=cStack>(+300% per stack)</style> damage and <style=cIsHealing>200% <style=cStack>(+100% per stack)</style></style> health.",
 	
 	"ITEM_FIREBALLSONHIT_DESC_RISKYMOD": "<style=cIsDamage>10%</style> chance on hit to call forth <style=cIsDamage>3 magma balls</style> from an enemy, dealing <style=cIsDamage>300%</style> <style=cStack>(+180% per stack)</style> damage each.",
@@ -96,7 +94,7 @@
 	
 	"ITEM_ELEMENTALRINGVOID_DESC_RISKYMOD": "Hits that deal <style=cIsDamage>more than 400% damage</style> also fire a black hole that <style=cIsUtility>draws enemies within 15m into its center</style>. Lasts <style=cIsUtility>5</style> seconds before collapsing, dealing <style=cIsDamage>150%</style> <style=cStack>(+90% per stack)</style> TOTAL damage. Recharges every <style=cIsUtility>15</style> seconds.",
 	
-	"ITEM_MOVESPEEDONKILL_DESC_RISKYMOD": "Killing an enemy increases <style=cIsUtility>movement speed</style> by <style=cIsUtility>125%</style>, fading over <style=cIsUtility>2</style> <style=cStack>(+1 per stack)</style> seconds.",
+	"ITEM_MOVESPEEDONKILL_DESC_RISKYMOD": "Killing an enemy increases <style=cIsUtility>movement speed</style> by <style=cIsUtility>125%</style> for <style=cIsUtility>1</style> <style=cStack>(+1 per stack)</style> second. <style=cIsDamage>Consecutive kills increase buff duration</style> for up to 25 seconds.",
 	
 	"ITEM_SPRINTOUTOFCOMBAT_DESC_RISKYMOD": "Increases <style=cIsUtility>movement speed</style> by <style=cIsUtility>10%</style> <style=cStack>(+10% per stack)</style>. Leaving combat boosts your <style=cIsUtility>movement speed</style> by an additional <style=cIsUtility>30%</style> <style=cStack>(+30% per stack)</style>.",
 	
@@ -129,12 +127,12 @@
 	"ITEM_IMMUNETODEBUFF_DESC_RISKYMOD": "Prevents <style=cIsUtility>1 <style=cStack>(+1 per stack)</style></style> <style=cIsDamage>debuff</style> and instead grants a <style=cIsHealing>temporary barrier</style> for <style=cIsHealing>25%</style> of <style=cIsHealing>maximum health</style>. Recharges every <style=cIsUtility>5</style> seconds</style>.",
 	
 	"ITEM_HEALINGPOTION_PICKUP_RISKYMOD" : "Gain a massive barrier at low health. Consumed on use.",
-	"ITEM_HEALINGPOTION_DESC_RISKYMOD": "Gain a <style=cIsHealing>temporary barrier</style> for <style=cIsHealing>100% of your health</style> when falling below <style=cIsHealth>50% health</style>.",
+	"ITEM_HEALINGPOTION_DESC_RISKYMOD": "Gain a <style=cIsHealing>temporary barrier</style> for <style=cIsHealing>50% of your health</style> when falling below <style=cIsHealth>50% health</style>.",
 	
 	"ITEM_BEARVOID_DESC_RISKYMOD": "<style=cIsHealing>Blocks</style> incoming damage once. Recharges after <style=cIsUtility>20 seconds</style> <style=cStack>(-10% per stack)</style>. <style=cIsVoid>Corrupts all Tougher Times</style>.",
 	
 	"ITEM_BARRIERONOVERHEAL_DESC_RISKYMOD": "Healing past full grants you a <style=cIsHealing>temporary barrier</style> for <style=cIsHealing>50% <style=cStack>(+50% per stack)</style></style> of the amount you <style=cIsHealing>healed</style>. Divides <style=cIsHealing>barrier decay rate</style> by <style=cIsHealing>2 <style=cStack>(+1 per stack)</style></style>.",
 
-	"ITEM_LUNARDAGGER_DESC_RISKYMOD": "Increase base damage by <style=cIsDamage>100%</style> <style=cStack>(+100% per stack)</style>. <style=cIsHealth>Divide maximum health by 2</style> <style=cStack>(+1 per stack)</style>."
+	"ITEM_LUNARDAGGER_DESC_RISKYMOD": "Increase base damage by <style=cIsDamage>100%</style> <style=cStack>(+100% per stack)</style>. <style=cIsHealth>Divide maximum health by 2</style> <style=cStack>(+1 per stack)</style>.",
 	}
 }

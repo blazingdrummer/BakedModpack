@@ -3,6 +3,7 @@ A full-game overhaul that aims to bring it closer to RoR1's balance. My main pri
 
 I highly recommed installing https://thunderstore.io/package/Moffein/EliteReworks/ to go with this.
 
+Check the Wiki tab for a quick overview of the main changes of the mod!
 Full change list can be found at https://docs.google.com/document/d/1Igxdur0M33fdkcDLYgDEbLE0M4-89gSTorxgdn-oyKs/
 
 Feel free to take features of this mod and release them as standalone as long as you link the original GitHub repo in the README.
@@ -77,27 +78,22 @@ CN Translation - JunJun_W
 
 *Full changelog included in the .zip*
 
-`1.1.0`
-		
-- Artificer
-	- Snapfreeze
-		- Now blocks enemy projectiles and hitscan attacks.
-			- Does NOT block movement or allied attacks.
-		
-		*Based on SS2U Cyborg code, hopefully this isn't too buggy.*
+`1.5.0`
 
-- Allies
-	- DoT Zone Resistance
-		- Removed 0.1 proc coefficient multiplier.
-		- Damage is now multiplied by the proc coefficient on top of the existing 0.1 damage multiplier.
-			- This is an overall buff to survivability against Mushrums/Exploders.
-		- (Mod Compatibility) No longer modifies Vanilla projectiles.
-			- DoT Zone Damage Type is now tied to the Mushrum/Lunar Exploder changes in RiskyMod_Enemies.cfg.
-				- If the changes to these enemies are disabled, they won't be counted towards DoT Zone Resistance.
+- Bandit
+	- Desperado
+		- Now persists between respawns on the same stage.
 		
-- Enemies
-	- Mushrum
-		- (Mod Compatibility) Changes no longer modify the Vanilla projectile.
+	- Added Standoff from Risk of Rain Returns as a selectable Revolver Passive.
+		- Gain +20% damage on kill for 15s. Stacks up to 5 times.
+		- Currently looking for an icon artist!
 		
-	- Lunar Exploder
-		- Reduced fire pool proc coefficient from 0.5 -> 0.2
+		*Damage bonus is lower than in Returns due to 2Bandit having backstab along with cooldowns being shorter compared to 1/Returns.*
+	
+- Items
+	- Hunter's Harpoon
+		- Now uses the Risk of Rain Returns version.
+			- Gain 125% movement speed for 1s (+1s) on kill. Stacks up to 25s.
+			
+	- Razor Wire
+		- Increased stack damage from 160% (+40%) -> 160% (+80%).

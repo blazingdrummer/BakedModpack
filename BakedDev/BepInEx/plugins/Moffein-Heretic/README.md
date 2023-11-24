@@ -48,7 +48,45 @@ Simplified Chinese Translation - WockyTheWolf, JunJun_w
 
 Russian Translation - Drochuagon
 
+French Translation - HolographicWings
+
+German Translation - juppytaar
+
+Portuguese Translation - Kauzok
+
 ## Changelog
+
+`1.2.2`
+
+- Added BR translation (Thanks Kauzok!)
+
+`1.2.1`
+
+- Added DE translation (Thanks juppytaar!)
+
+`1.2.0`
+
+- Mark of Heresy
+	- Changed how the damage increase works internally.
+		- Old Behavior: Add +50% to your damage multiplier.
+		- New Behavior: Add +50% base damage and level damage.
+		
+	*This is a more correct way of increasing the damage, since a lot of damage-affecting items additively increase the damage multiplier, which resulted in a very different damage value from Vanilla Heretic.*
+
+`1.1.11`
+
+- Added FR translation (Thanks HolographicWings!)
+
+`1.1.10`
+
+- RiskOfOptions is now a SoftDependency.
+- Set RiskOfOptions icon.
+- Changed default sort position to after Captain, since she's a part of the RoR2 basegame.
+	- This will not affect existing configs.
+
+`1.1.9`
+
+- Improved Squawk responsiveness.
 
 `1.1.8`
 

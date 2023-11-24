@@ -1,0 +1,7 @@
+{
+	strings:
+	{
+	"MOFFEIN_ARCHWISP_BODY_NAME" : "Espírito Arcaico",
+	"UNLOCKABLE_LOG_MOFFEIN_MOFFEIN_ARCHWISP" : "Registro de Monstro: Espírito Arcaico"
+	}
+}

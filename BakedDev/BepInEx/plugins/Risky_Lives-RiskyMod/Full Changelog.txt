@@ -1,3 +1,274 @@
+`1.5.0`
+
+- Bandit
+	- Desperado
+		- Now persists between respawns on the same stage.
+		
+	- Added Standoff from Risk of Rain Returns as a selectable Revolver Passive.
+		- Gain +20% damage on kill for 15s. Stacks up to 5 times.
+		- Currently looking for an icon artist!
+		
+		*Damage bonus is lower than in Returns due to 2Bandit having backstab along with cooldowns being shorter compared to 1/Returns.*
+	
+- Items
+	- Hunter's Harpoon
+		- Now uses the Risk of Rain Returns version.
+			- Gain 125% movement speed for 1s (+1s) on kill. Stacks up to 25s.
+			
+	- Razor Wire
+		- Increased stack damage from 160% (+40%) -> 160% (+80%).
+
+`1.4.10`
+
+- Added separate config option for Aurelionite changes.
+	- This will reset your settings for the Stone Titan since they were previously linked together.
+	
+- Stone Titan
+	- Reduced fist count from 4 -> 3
+
+`1.4.9`
+
+- Added config option to make Captain's Diablo Strike only deal damage to himself instead of all teammates. (Disabled by default)
+	- Located in RiskyMod_Survivors.cfg -> Captain
+
+- Artificer M1 Reload now gives priority to the standalone mod to make it easier for custom skill makers.
+
+`1.4.8`
+
+- Added config option to keep Special Ion Surge as a selectable skill when using Ion Surge Utility. (Disabled by default)
+
+`1.4.7`
+
+- Remembered to actually remove Shatterspleen crit chance.
+
+`1.4.6`
+
+- Support for new SS2 drones.
+
+`1.4.5`
+
+- Removed random spread from Void Fiend's primaries.
+
+	*Small QoL that doesn't really matter much since the primary already has heavy autoaim. Only really noticeable at high attack speeds.*
+
+`1.4.4`
+
+- Ally Scaling
+	- Disabled Scaling Changes by default in config. (existing config unaffected)
+		- This only affects HP/Damage scaling (HP 20% -> 30% Vanilla, Damage 30% -> 20% Vanilla)
+	
+	*Played for a few months without it off and I found I prefered Vanilla scaling here.*
+
+- Loader
+	- Pylon magnetism no longer works against player-controlled entities.
+	
+	*Mainly intended for King Kombat Arena, but also so that you dont get locked when Loader Vengeance Clones use their pylon.*
+
+`1.4.3`
+
+- Captain
+	- Fixed Beacon changes conflicting with Vanilla deployable handling.
+		- This fixes your other beacon randomly disappearing sometimes when placing a new one.
+	- Fixed Beacon Lysate interaction not actually working.
+
+`1.4.2`
+
+- Bandit
+	- Fixed Lights Out Scepter only firing 1 shot when primary is empty.
+
+`1.4.1`
+
+- Updated CN localization for Warbanner.
+
+`1.4.0`
+
+- Warbanner
+	- Removed armor bonus.
+	- Now heals for 1% of your max HP every second to match RoRR.
+		- The healing can stack from multiple banners. Other stats do NOT stack.
+	- Now handled by a modded buff and GameObject so that it doesn't interfere with other mods that do stuff with Vanilla's Warbanner.
+		- Can be changed to modify Vanilla Warbanner like it did before in the config.
+
+`1.3.3`
+
+- General
+	- Fixed a potential bug where the ItemOutOfBounds code could attempt to teleport a single item multiple times.
+
+- Survivors
+	- Artificer
+		- Flamethrower sprint cancel can now be toggled in-game.
+		
+	- REX
+		- Utilities
+			- Enemy knockback force no longer falls off over distance.
+			
+		- DIRECTIVE: Inject
+			- Removed random chance of dropping fruits on-hit. (Can be re-enabled in the config)
+			- Allies now heal for 10% of the damage dealt to Fruiting enemies. (before crit and other modifiers)
+			- Increased AoE radius from 4m -> 6m so that it's possible to hit multiple enemies if they're close together.
+			
+			*Fruit-on-hit was neat but impractical to actually use. This should make the skill work better for actually healing people.*
+		
+- Items
+	- Crowbar
+		- Fixed description listing incorrect damage. (Was listed as 50% instead of the actual in-game value of 45%)
+		
+- Allies
+	- Allies can no longer be executed.
+	
+`1.3.2`
+
+- The Back-Up
+	- Increased max drones from 4 -> 8 (existing configs unaffected)
+	- Now restores a percentage of the cooldown if a drone fails to spawn due to the drone cap.
+
+`1.3.1`
+
+- Fixed Shatterspleen not giving bleed chance.
+
+`1.3.0`
+
+- Items
+	- Old War Stealthkit
+		- Chance scales off of DamageInfo's damage value so that it doesn't antisynergize with defensive items. (How it worked in pre-anniversary RoR2)
+		- Can now proc while already cloaked to match its pre-anniversary behavior.
+
+	- Squid Polyp
+		- Chance scales off of DamageInfo's damage value.
+		
+	- Removed Planula Stealthkit/Squid compatibility code since it's no longer needed.
+		
+	- AtG Missile
+		- Fixed damage being set to 300% (+200%) instead of 300% (+210%)
+		
+	- Plasma Shrimp
+		- Fixed damage being set to 42% (+28%) instead of 40% (+28%)
+	
+	- Polylute
+		- Lowered proc coefficient from 0.1 -> 0
+		
+		*Was still a direct upgrade to Ukulele even with lowered proc coefficient. Even with this nerf, it still remains very strong.*
+
+`1.2.9`
+
+- Fixed Ion Surge Movement Scaling config option being reversed.
+
+`1.2.8`
+
+- Fixed a bug where certain mod features wouldn't work if damage taken had no Attacker specified.
+	- Fixed VengeanceFallImmune not working.
+	- Fixed Turret DoTZone resist not working against Lunar Exploders.
+
+`1.2.7`
+
+- Fixed Ocular HUD changes not working.
+
+`1.2.6`
+
+- Fixed Brainstalks running its changes when disabled in the config.
+	- If you know of any other bugs like this, report it on the GitHub!
+
+`1.2.5`
+
+- Huntress
+	- Flurry attack speed fix now actually works.
+- Converted most On.RoR2.Run.Start and On.RoR2.Stage.Start hooks to use the proper delegates provided by the game.
+	- This is an internal change that improves mod compatibility.
+
+`1.2.4`
+
+- Remembered to add config for toggling MoreDrones compat.
+
+`1.2.3`
+
+- Ally Changes
+	- Added MoreDrones compat.
+	- Gunner Drones and Missile Drones now attempt to prioritize the AI's current selected enemy if possible.
+		- This is for compatibility with ChensMinionRetarget, since their reworked targeting was ignoring it.
+
+`1.2.2`
+
+- Vengeance clones are now immune to fall damage.
+
+
+`1.2.1`
+
+- Freeze Execute no longer works on player-controlled entities.
+
+`1.2.0`
+
+- Survivors
+	- Commando
+		- Frag Grenade
+			- Reduced max damage falloff from -75% -> -50%
+			- Increased blast radius from 11m -> 12m
+			- Now has a separate Scepter state.
+				- Throw multiple grenades for 5x700% damage.
+			
+			*This skill was feeling a bit redundant with Phase Round lightning and Suppressive Fire AoE.*
+			
+		- Engineer
+			- Pressure Mines
+				- Fixed skill description still getting changed when changes are disabled in the config.
+			- Thermal Harpoons
+				- Increased targeting range from 150m -> 2000m
+				
+		- MUL-T
+			- Nailgun
+				- Increased damage from 60% -> 70% (same as Vanilla)
+				
+				*Originally lowered it to try to encourage use of his other weapons, but in retrospect I don't think this was really necessary.*
+
+- Items
+	- Power Elixir
+		- Reduced barrier gain from 100% -> 50%
+		
+		*Barrier gain originally got buffed because it was getting punched through super quickly in multiplayer runs. After playing around with it for a while, I've found that it's way too strong in solo while still being pretty bad in multiplayer, so the change has been reverted.*
+		
+	- Infusion
+		- Fixed Infusion gaining orbs from Forgive Me Please.
+		
+	- Brilliant Behemoth
+		- Removed per-stack damage scaling.
+		- Extra range no longer decreases below 1.25m.
+			- Old: 4, +2.5, +1.5625, +0.9766, +0.6104, etc.
+			- New: 4, +2.5, +1.5625, +1.25, +1.25, etc.
+		
+		*Damage per stack was a holdover from earlier versions where range scaling was removed. Removing the damage scaling, and making the diminishing returns on the range scaling less severe.*
+		
+	- Newly-Hatched Zoea
+		- Added to the Engi Turret blacklist to be consistent with Queen's Gland and Empathy Cores.
+		- Stacking above 6 no longer increases ally HP since the main draw of Void allies is their death implosion.
+
+`1.1.4`
+
+- Fixed Thunderstore tags.
+
+`1.1.3`
+
+- Survivors
+	- Captain
+		- Diablo Strike
+			- CDR from Bandoliers/Resupply Beacon increased from 50% -> Max(50%, 20s)
+			
+			*This is so that CDR items won't make Bandoliers less effective.*
+
+- Items
+	- Empathy Cores
+		- No longer affected by Normalize Drone Damage/Ally HP+Damage Scaling changes.
+			- Still benefits from RiskyModAllyRegenItem/RiskyModAllyMarkerItem.
+			
+		*These are fine in Vanilla, and deal way too much damage with RiskyMod ally scaling.*
+
+`1.1.2`
+
+- Fixed typo in Void Fiend Risk Of Options config menu.
+- Added (Client-Side) to in-game option descriptions to make it clear that it's okay to change them mid-game.
+
+`1.1.1`
+
+- Fixed Risk Of Options compatibility not working due to the compatibility check being run after the config options are applied.
+
 `1.1.0`
 		
 - Artificer

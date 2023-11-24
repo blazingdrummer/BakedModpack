@@ -1,6 +1,5 @@
 ## Rocket
 
-BETA RELEASE, gameplay is functional but animations/general visual polish need work.
 [![](https://i.imgur.com/W3dQUcH.jpg)]()
 [![](https://i.imgur.com/3Q0wCWP.png)]()
 	
@@ -16,10 +15,7 @@ If you have any feedback/suggestions, open an issue on the Github page, or join 
 		
 	- Rocket Launcher
 		- Rocket knockback scales with enemy mass when hitting non-boss enemies (up to 250kg, Brass Contraption weight)
-		
-	- SAM Launcher
-		- Rockets have a much smaller blast radius compared to stock.
-	
+
 	- Remote Detonator
 		- Removes blast falloff from explosions.
 		
@@ -27,7 +23,7 @@ If you have any feedback/suggestions, open an issue on the Github page, or join 
 		- Crit Chance is converted to crit damage when using this skill.
 		
 	- Rapid Rearm
-		- Rockets have less knockback.
+		- Rockets have less knockback against enemies.
 
 ## To Do
 
@@ -46,6 +42,7 @@ Drop the dll into \BepInEx\plugins\
 - DaPedro#2713 (Skill Icons)
 - Domi (Animations)
 - swuff (Bankroller)
+- BoxRoss (VR C4 stuff)
 
 - Sounds taken from:
 	- Reflex Arena
@@ -56,6 +53,103 @@ Drop the dll into \BepInEx\plugins\
 
 ## Changelog
 
+`0.9.7`
+
+- Made emote skeleton less buggy.
+	- No more getting permanently rotated, but your height/hip position can still permanently change.
+
+<details>
+
+`0.9.6`
+
+- Added RU translation (Thanks ILIa3174!)
+
+`0.9.5`
+
+- Fixed Visions of Heresy breaking Rapid Rearm.
+
+`0.9.4`
+
+- Added FR translation (Thanks darkwarrior45!)
+
+`0.9.3`
+
+- Added BR translation (Thanks Kauzok!)
+
+`0.9.2`
+
+- VR: Fixed C4 MethodAccessException
+
+`0.9.1`
+
+- VR: Removed some redunant VR checks from C4.
+	- Still needs testing.
+
+`0.9.0`
+
+- Rapid Rearm
+	- Now scales off of max primary stocks. (No change unless you have mods that let you increase max primary stocks)
+	- Rewrote code to be less hardcoded. Should be easier to make custom skills work with it.
+		- See FireAllRockets.RocketSkillInfo and FireAllRockets.rocketSkillInfoList if you are a developer.
+	- Fixed incorrect interaction with Pocket ICBM.
+		- Old (Bugged): Outer 2 rockets had knockback, center rocket didn't.
+		- New (Fixed): Center rocket has knockback, outer 2 rockets don't.
+	- Now plays the correct sound when using the alt primary.
+
+
+
+`0.8.7`
+
+- VR: C4 is thrown from offhand (thanks BoxRoss!)
+	- Untested.	
+
+`0.8.6`
+
+- Added footstep sounds (thanks TimeSweeper!)
+
+`0.8.5`
+
+- Added IdleIn animation (thanks TimeSweeper!)
+- Fixed reload particle effect being sideways.
+
+`0.8.4`
+
+- Extra null checking on Remote Detonator.
+
+`0.8.3`
+
+- Fixed Rapid Rearm ignoring ICBM knockback config due to 0.8.0
+
+`0.8.2`
+
+- Fixed TestState console spam.
+
+`0.8.1`
+
+- Fixed C4 not triggering blast jump for clients when detonated by placing a new C4.
+
+`0.8.0`
+
+- Netcode Overhaul
+	- HG4 Rocket Launcher: Major Improvement
+		- Blast jumping is mostly clientside now.
+			- Blast jump AoE might not line up with the projectile visual when playing online, but rapid detonating to blast jump with M2 should work a lot better now.
+		
+	- Nitro Charge: Improved
+		- Blast jump is clientside when detonating with Remote Detonator.
+		- Position is still server-side, so it won't be as responsive as the default primary.
+		
+	- HG4 SAM Launcher: No Change (Technical Limitations)
+		- New rocket stuff doesn't work with this because of the homing (forces prediction to be disabled).
+			- Nitro Charge also has prediction disabled, but doesnt rely on impact detonation which is why it can benefit from clientside blast jumps.
+	
+	- Remote Detonator
+		- Blast jump immediately triggers for clients.
+			- SAM Launcher does not benefit from this.
+			
+		- Rocket/Projectile counter is now client-side instead of server-side.
+			- This makes blast jumping more responsive but **can cause cases where you dont actually detonate the projectile on the server**.
+		
 `0.7.3`
 
 - Fixed Ceremonial Dagger itemdisplay being massive.
@@ -342,3 +436,5 @@ Drop the dll into \BepInEx\plugins\
 `0.2.6`
 
 - Thunderstore release.
+
+</details>
