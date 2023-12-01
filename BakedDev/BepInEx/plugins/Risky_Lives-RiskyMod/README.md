@@ -78,6 +78,16 @@ CN Translation - JunJun_W
 
 *Full changelog included in the .zip*
 
+`1.5.4`
+
+- Updated CN Lang.
+
+`1.5.3`
+
+- Queens Gland
+	- Fixed nullref related to Swarms where infinite allies would spawn.
+		- Pre-emptively did a similar fix for Defense Nucleus.
+
 `1.5.2`
 	
 - Tweaked Magma Worm fall death prevention code since it was prone to breaking if other mods did the same hook.

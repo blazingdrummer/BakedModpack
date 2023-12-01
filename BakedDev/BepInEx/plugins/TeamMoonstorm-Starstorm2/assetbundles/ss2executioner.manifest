@@ -1,0 +1,372 @@
+ManifestFileVersion: 0
+CRC: 3037257343
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 016046ca41eb70f90e6398f7cdf34af2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e579f27addf5cb377c855f5b6cd24b56
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 816898038, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 296141222, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+- Class: 114
+  Script: {fileID: 1143142494, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1653386690, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1533710874, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 161585894, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 492112044, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 802132372, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1245112779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 298587437, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3bcc8a73fa1e29a479614a4350408c0f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7196d6464f5113d409b3ae0adc2a4995, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 07b6d5599a6e56c4a8e0a8721e29aa91, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b2a16891c8108e48883bce0009b7835, type: 3}
+- Class: 114
+  Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -2051541306, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -830614127, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -46258121, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1357070253, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1783169300, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1067940895, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -197296741, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 953270592, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1277448904, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1077198318, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 261648291, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -2096938146, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1530905962, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -226763392, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -335047464, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -960361785, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 89795172, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1297580292, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1144835783, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 802575700, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -144590133, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -365436499, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -146705984, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -202159943, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1792105662, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1549848242, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -359660931, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1512185436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 682687671, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1888550019, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1578512655, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1699741063, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1931460509, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1918207524, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -517518216, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -789927658, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 952828898, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1391837873, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1627637702, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 306635731, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1255927399, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1881990681, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -315171339, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d2dc8cbdb9720c418fcff8f84588cab, type: 3}
+- Class: 114
+  Script: {fileID: -1568778350, guid: 050936fea8909af15a3fd3b64da1ff83, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 144
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 319
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texIconSkinExecutionerMaster.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texExecutionerMasterEmission.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/RunFWD.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/ExecutionerArmor.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matDashVisual.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texIconExeInfM2.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matExecutionerSlam.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texExecutioner.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerMonsterMasterNew.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texIconSkinExecutionerKnight.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/texIconExecutionerSkillAltSpecialPlaceholder.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerSuperchargePassiveEffect.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/AimYaw.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texCloudOrganic2.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texExecutionerKnight.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/idrsExecutioner.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texCloudLightning1.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matExecutionerAxeRed.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texVoidCrownCLR.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/meshExecutionerMasteryAxe.mesh
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texNemmandoChargeFull.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/RestIdleIn.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texExecutionerWastelander.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/ExecutionerDash.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/animExecutionerMenu.controller
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerDisplay.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/meshExecutionerMastery.mesh
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texExecutionerKnightEmission.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/animSkullCrosshair.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerDashEffect.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerMaxCharge.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerSuperchargeEffect.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/BuffExecutionerArmor.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/BuffFear.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ss2.skin.executioner.wastelander.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/EntityStates.Executioner.FireIonGun.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerIonOrbFlashEffect.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExeNormal.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matExecutionerWastelander.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/FireIonGun02.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/EntityStates.Executioner.FireTaser.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerIonEffect.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerIonSuperOrbEffect.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/texIconExecutionerSkillUtility.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/meshWastelanderGun.mesh
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerIonOrbEffectMastery.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExeKitEm.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExeKitTex.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/ExecutionerAxeSlam.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/ExecutionerFirePistol.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matExecutionerMasteryAlt.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/maskNemmFlinch.mask
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/execSkillFamily2.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/meshMandoExeCloth.mesh
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerAxeCrosshair.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/animExecutioner.controller
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/EntityStates.Executioner.Dash.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerBody.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/EntityStates.Executioner.AimIonGun.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/namedidrsExecutioner.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/ExecutionerFireTaser.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/MSIDRSidrsExecutioner.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/MenuIdle.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/meshExecutionerGrandMastery.mesh
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/ExecutionerIonGun.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/curveExecSlam.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/meshExecutionerGun.mesh
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Utility.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texIconSkinExecutionerDefault.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/EntityStates.Executioner.AxeSlam.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Special1.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Ascend.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texIconBuffFear.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texVoidCrownEM.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/maskExeGesture.mask
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matExecutionerAxe.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texIconExecutioner.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/maskExeImpact.mask
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/DefaultPose.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texExecutionerEmission.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExeAxeFunny.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texExecutionerWastelanderEmission.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/texIconExecutionerPrimaryAlt.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Jump.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/texIconExecutionerSkillSpecial.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/RunLFT.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/exeem.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matExecutionerGrandMastery.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/HitStun.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/EntityStates.Executioner.FireIonSummon.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texIconExeSkillPassive.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExeTex.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/BuffExecutionerSuperCharged.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Sprint.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matExecutioner.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/execSkillFamily4.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/SkinExecutionerDefault.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matExeLightning.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExeGunNorm.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matDashLightning.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/texIconExecutionerSkillPassivePlaceholder.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/SkullCrosshairController.controller
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/maskExeAimPitch.mask
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Special3.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/FireIonGun01.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texIconDashOld.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/maskExeAimYaw.mask
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texExecutionerTrail.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/texIconExecutionerSecondary.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ss2.skin.executioner.mastery.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/survivorExecutioner.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matExecutionerMastery.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/FireIonGun03.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerMaxChargeEffect.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/meshDashRing.mesh
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/AimPitch.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/RunBWD.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texIconSkinExecutionerWastelander.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texSkullCrosshairSheet.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/DistTex.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Foam_a.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texIconExecutionerUnlock.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texExecutionerAxeNew.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texCloudOrganic1.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerGainCharge.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texExecutionerMaster.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/SkinExecutionerWastelander.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExeAxe.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matDashTrail.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerAxeEffect.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/texIconExecutionerPrimary.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texRampLightning.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/meshExecutioner.mesh
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texCloudOrganic2.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ss2.skin.executioner.grandmastery.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/SkinExecutionerGrandMastery.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/meshExecutionerAxe.mesh
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/EntityStates.Executioner.AimIonSummon.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerAvatar.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerPrimary.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerSupercharge.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Primary.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/MenuIdleIn.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Special2.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerIonOrbEffect.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/execSkillFamily3.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/RunRHT.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/EntityStates.Executioner.FirePistol.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/execSkillFamily1.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/texMagmaCloud.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matExeLightningFade.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Skills/texIconExeTaserPrimary.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/matExecutionerWastelanderAxe.mat
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/LightImpact.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Rest.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/IdleIn.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/meshMandoExeArmor.mesh
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/FireGun.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/meshDonut.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerMonsterMaster.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ss2.survivor.executioner.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Idle.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExegunTex.png
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/meshExecutionerWastelander.mesh
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/ExecutionerIonOrbFlashEffectMastery.prefab
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Special4.anim
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/SkinExecutionerMastery.asset
+- Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Descend.anim
+Dependencies:
+- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
+- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
+- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
+- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
+- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
+- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
+- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
+- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando

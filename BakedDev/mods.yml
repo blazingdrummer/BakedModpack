@@ -668,6 +668,29 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_RecalculateStats\icon.png
 - manifestVersion: 1
+  name: RiskofThunder-R2API_Colors
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Colors/
+  displayName: R2API_Colors
+  description: API for registering Colors to the game
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Colors\icon.png
+- manifestVersion: 1
   name: tristanmcpherson-R2API
   authorName: tristanmcpherson
   websiteUrl: https://thunderstore.io/package/tristanmcpherson/R2API/
@@ -867,6 +890,39 @@
     patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-GiantParticleFix\icon.png
+- manifestVersion: 1
+  name: TeamMoonstorm-MoonstormSharedUtils
+  authorName: TeamMoonstorm
+  websiteUrl: https://thunderstore.io/package/TeamMoonstorm/MoonstormSharedUtils/
+  displayName: MoonstormSharedUtils
+  description: An API focused with the intention of working in an editor
+    enviroment using ThunderKit, MSU is a modular API system designed for ease
+    of use and simplicity.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-R2API_RecalculateStats-1.2.0
+    - RiskofThunder-R2API_DamageType-1.0.4
+    - RiskofThunder-R2API_CommandHelper-1.0.1
+    - RiskofThunder-R2API_ArtifactCode-1.0.1
+    - RiskofThunder-R2API_Colors-1.0.1
+    - RiskofThunder-R2API_Core-5.0.10
+    - RiskofThunder-R2API_ContentManagement-1.0.2
+    - RiskofThunder-R2API_Elites-1.0.3
+    - Rune580-Risk_Of_Options-2.6.1
+    - RiskofThunder-R2API_Director-2.1.0
+    - RiskofThunder-R2API_Addressables-1.0.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 2
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TeamMoonstorm-MoonstormSharedUtils\icon.png
 - manifestVersion: 1
   name: prodzpod-RealerCheatUnlocks
   authorName: prodzpod
@@ -1123,9 +1179,9 @@
   versionNumber:
     major: 1
     minor: 5
-    patch: 2
+    patch: 4
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\Risky_Lives-RiskyMod\1.5.2\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyMod\icon.png
 - manifestVersion: 1
   name: Moffein-EliteReworks
   authorName: Moffein
@@ -1513,33 +1569,6 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-AI_Blacklist\icon.png
 - manifestVersion: 1
-  name: HIFU-InfernoMithrixStandalone
-  authorName: HIFU
-  websiteUrl: https://thunderstore.io/package/HIFU/InfernoMithrixStandalone/
-  displayName: InfernoMithrixStandalone
-  description: Standalone version of Inferno's Mithrix changes. Makes him a bit
-    more difficult and interesting.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - Moffein-AI_Blacklist-1.5.1
-    - RiskofThunder-R2API_RecalculateStats-1.0.0
-    - RiskofThunder-R2API_Language-1.0.0
-    - RiskofThunder-R2API_Items-1.0.1
-    - RiskofThunder-R2API_ContentManagement-1.0.1
-    - bbepis-BepInExPack-5.4.2113
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\HIFU-InfernoMithrixStandalone\icon.png
-- manifestVersion: 1
   name: KingEnderBrine-RandomCharacterSelection
   authorName: KingEnderBrine
   websiteUrl: https://thunderstore.io/package/KingEnderBrine/RandomCharacterSelection/
@@ -1764,7 +1793,7 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 0
+    patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-HAND_OVERCLOCKED\icon.png
 - manifestVersion: 1
@@ -1858,29 +1887,6 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-Rocket\icon.png
 - manifestVersion: 1
-  name: RiskofThunder-R2API_Colors
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Colors/
-  displayName: R2API_Colors
-  description: API for registering Colors to the game
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Colors\icon.png
-- manifestVersion: 1
   name: TheTimesweeper-Tesla_Trooper
   authorName: TheTimesweeper
   websiteUrl: https://thunderstore.io/package/TheTimesweeper/Tesla_Trooper/
@@ -1962,6 +1968,34 @@
     patch: 32
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\amogus_lovers-StandaloneAncientScepter\icon.png
+- manifestVersion: 1
+  name: TeamMoonstorm-Starstorm2
+  authorName: TeamMoonstorm
+  websiteUrl: https://thunderstore.io/package/TeamMoonstorm/Starstorm2/
+  displayName: Starstorm2
+  description: A general content mod adapting Risk of Rain 1's Starstorm
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-R2API_Networking-1.0.2
+    - KingEnderBrine-LobbySkinsFix-1.2.1
+    - RiskofThunder-R2API_Dot-1.0.1
+    - RiskofThunder-R2API_Deployable-1.0.1
+    - RiskofThunder-R2API_TempVisualEffect-1.0.2
+    - RiskofThunder-R2API_Prefab-1.0.3
+    - RiskofThunder-R2API_Difficulty-1.1.2
+    - TeamMoonstorm-MoonstormSharedUtils-1.6.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 5
+    patch: 5
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TeamMoonstorm-Starstorm2\icon.png
 - manifestVersion: 1
   name: Zenithrium-VanillaVoid
   authorName: Zenithrium
@@ -2059,3 +2093,26 @@
     patch: 5
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Skell-GoldenCoastPlus\icon.png
+- manifestVersion: 1
+  name: TeaBoneJones-IncreaseHuntressRange
+  authorName: TeaBoneJones
+  websiteUrl: https://thunderstore.io/package/TeaBoneJones/IncreaseHuntressRange/
+  displayName: IncreaseHuntressRange
+  description: Increase the range of Huntress every time you level up. Or turn on
+    God Mode and increase the range to encompass the whole map.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-2.0.0
+    - tristanmcpherson-R2API-2.0.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: false
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\TeaBoneJones-IncreaseHuntressRange\1.0.0\icon.png

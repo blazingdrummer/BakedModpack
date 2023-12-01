@@ -1,0 +1,15 @@
+{
+    "strings":
+    {
+        "SS2_ACHIEVEMENT_CHIRR_NAME": "Tesouro da Floresta",
+
+        "SS2_ACHIEVEMENT_CHIRR_MASTERY_NAME": "Chirr: Domínio",
+        "SS2_ACHIEVEMENT_CHIRR_MASTERY_DESC": "Como Chirr, vença o jogo ou aniquile em Monção ou superior.",
+
+        "SS2_ACHIEVEMENT_CHIRR_GRANDMASTERY_NAME": "Chirr: Grande Domínio",
+        "SS2_ACHIEVEMENT_CHIRR_GRANDMASTERY_DESC": "Como Chirr, vença o jogo ou aniquile em Tufão ou superior.",
+        
+        "SS2_ACHIEVEMENT_CHIRR_MAID_NAME": "Chirr: Purificando",
+        "SS2_ACHIEVEMENT_CHIRR_MAID_DESC": "Como Chirr, purifique três itens Lunares em uma única jogatina."
+    }
+}
