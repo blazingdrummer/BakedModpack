@@ -1,0 +1,45 @@
+{
+    "strings":
+    {
+        "ITEM_RELICENERGY_NAME": "Relíquia de Energia",
+        "ITEM_RELICENERGY_PICKUP": "Parece não fazer nada...",
+        "ITEM_RELICENERGY_DESC": "Parece não fazer nada. <style=cIsUtility>Parece útil de alguma forma...?</style>",
+        "ITEM_RELICENERGY_LORE": "Alguma coisas foram deixadas, esquecidas no passado.<style=cStack> Algumas coisas provavelmente são melhores deixadas desse jeito.</style>",
+        "CHARACTER_RELICENERGY_SUBTITLE": "Bateria Anciã",
+        "ITEM_RELICEMPTY_NAME": "Relíquia Vazia",
+        "ITEM_RELICEMPTY_PICKUP": "Parece não fazer nada...",
+		
+        "ITEM_ESSENCEOFTAR_NAME": "Essência de Alcatrão",
+        "ITEM_ESSENCEOFTAR_PICKUP": "Você se tornou Alcatrão. <style=cDeath>Não tem volta agora.</style>",
+        "ITEM_ESSENCEOFTAR_DESC": "Tranforme-se em Alcatrão, <style=cDeath>desabilitando a recuperação normal de saúde</style>. Atacar inimigos <style=cIsHealing>rouba sua saúde</style>. <style=cDeath>Removê-la resultará em uma morte instantânea.</style>",
+        "ITEM_ESSENCEOFTAR_LORE": "<style=cMono>\r\n
+		Boas-vindas ao Extrator de Dados (v3.1.53 \u2013 - beta)\r\n
+		$ Extraindo memória... finalizado.\r\n
+		$ Corrigindo... finalizado.\r\n
+		$ Buscando por dados relevantes... finalizado.\r\n
+		Concluído!\r\n
+		Gerando as transcrições de áudio locais...\r\n
+		</style>\r\n
+		\r\n
+		<style=cMono>Dia 13</style>\r\n
+		Eu vi eles observando através das colinas novamente. Neste ponto, não tenho certeza se este maldito planeta me enlouqueceu, ou se eles realmente estão lá. A água está acabando. Eu estava esperando que esses canais me levassem para água, mas eu encontrei apenas alcatrão... \r\n
+		\r\n
+		...Má sorte, aterrisar em um deserto...\r\n
+		\r\n
+		...Eu não tenho muito tempo. A água está acabando... \r\n
+		\r\n
+		Escute. Se alguém por algum motivo conseguir ler esse registro, por favor. Salve-se. Não há nada para você aqui além de areia e alcatrão.\r\n
+		\r\n
+		<style=cMono>Transcrições de texto locais concluídas.</style>\r\n",
+			
+        "ITEM_SAGESBOOK_NAME": "Livro do Sábio",
+        "ITEM_SAGESBOOK_PICKUP": "Seu passado será <style=cIsUtility>familiar</style>...",
+        "ITEM_SAGESBOOK_DESC": "Seu passado será <style=cIsUtility>familiar</style>...",
+        "ITEM_SAGESBOOK_LORE": "Se é uma maldição ou uma benção, eu não sei dizer. Toda vez que eu morro me vejo aqui novamente. Mas (ela) não me deixa contar para nenhuma alma viva. Eu não sei o que é pior, temer o que vem após a morte, ou ser forçado a experenciar isso de novo, de novo, e de novo! Por favor, alguém me ajude!",
+		
+        "ITEM_FALLBOOTSVOID_NAME": "Suspensórios Empíreos",
+        "ITEM_FALLBOOTSVOID_PICKUP": "Segure o botão 'Interagir' para flutuar e carregar uma onda de choque gravitacional. Cria uma <style=cIsUtility>zona anti-gravitacional</style>. <style=cIsVoid>Corrompe todos os H3AD-5T v2s</style>.",
+        "ITEM_FALLBOOTSVOID_DESC": "<style=cIsUtility>Flutue</style> enquanto carrega uma <style=cIsUtility>onda de choque gravitacional</style>, lançando inimigos ao ar e causando <style=cIsDamage>200-2000%</style> de dano base. Crie então uma <style=cIsUtility>zona anti-gravitacional</style> de <style=cIsUtility>30m</style> de raio por <style=cIsUtility>15</style> segundos. Recarrega em <style=cIsUtility>20</style> <style=cStack>(-50% por acúmulo)</style> segundos. <style=cIsVoid>Corrompe todos os H3AD-5T v2s</style>.",
+        "ITEM_FALLBOOTSVOID_LORE": "SoonTM"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "IncreaseHuntressRange",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/tvegh/IncreaseHuntressRange",
+    "description": "Increase the range of Huntress every time you level up. Or turn on God Mode and increase the range to encompass the whole map.",
+    "dependencies": [
+        "bbepis-BepInExPack-2.0.0",
+        "tristanmcpherson-R2API-2.0.10"
+    ]
+}

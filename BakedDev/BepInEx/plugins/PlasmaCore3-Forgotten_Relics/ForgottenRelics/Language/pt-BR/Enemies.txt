@@ -1,0 +1,71 @@
+{
+    "strings":
+    {
+		"SANCTUMWISP_BODY_NAME": "Espírito Sagrado",
+		"SANCTUMWISP_BODY_LORE": "SoonTM",
+		
+		"BRASSMONOLITH_BODY_NAME": "Monólito de Latão",
+		"BRASSMONOLITH_BODY_SUBTITLE": "Vigia Inabalável",
+        "BRASSMONOLITH_BODY_LORE": "<style=cMono>\r\n
+		Transcrição de áudio concluída das emissões de sinal. Atribuindo códigos genéricos.</style>\r\n
+		\r\n
+		Homem 1: Você está vendo agora? Uma torre massiva, perto do penhasco? Pois é, eu tenho visto ela de longe e ela começou a se mover! Eu queria dar uma olhada mais de perto, mas aquelas engenhocas de latão não param de patrulhar o local, e eu não quero acabar como o Tharson...\r\n
+		\r\n
+		[Um sino alto e profundo ecoa pela paisagem]\r\n
+		\r\n
+		Homem 2: Droga, você acha que isso quer dizer que eles nos acharam?\r\n
+		\r\n
+		Homem 1: Não, nós estamos bem escondidos aqui. Teriam me visto antes.\r\n
+		\r\n
+		[O som de uma bola com espinhos passando velozmente]\r\n
+		\r\n
+		Homem 1: Deixa pra lá, eles nos acharam! Corre!\r\n
+		\r\n
+		[O som de folhagem se movendo, passos pesados e respiração ofegante]\r\n
+		\r\n
+		[O som de algumas bolas com espinhos voando pelo ar]\r\n
+		\r\n
+		Homem 1: O que!?! Como tem tantos deles?! Não tinha tantos deles ao redor da torre!!!\r\n
+		\r\n
+		Homem 2: Abaixem! Eles vão atirar de novo!\r\n
+		\r\n
+		[O som de várias rápidas bolas de espinho passando voando]\r\n
+		\r\n
+		[Trituração Metálica]\r\n
+		\r\n
+		[1:21:46.167 de estática.]\r\n
+		\r\n
+		<style=cMono>Fim da transcrição solicitada. </style>\r\n",
+		
+		"COILGOLEM_BODY_NAME": "Golem de Bobinas",
+		"COILGOLEM_BODY_LORE": "\u201DA terra treme sob seus pés. Subtamente, um buraco se abre nas rochas à sua frente, como se a terra tivesse fluído para longe. Então ela aparece! Um enorme verme,  formada de pedra profunda, irrompe! Seu corpo é formado por vários pedaços de rocha e aneis de pedra, flutuando em torno de um pilar de pedra central.\r\n
+		\r\n
+		Parece que eles conseguem temporariamente afastar a rocha à sua frente como se fosse líquida, para abrir um caminho. Após aguentarem bastante impacto, eles descartam uma camada superficial de rochas e retornam para de baixo de terra. Infelizmente, isso quer dizer que nós nunca realmente tivemos a chance de examiná-las adequadamente. Nós não sabemos seu propósito. O fato delas abandonarem sua carapaça ao serem danificadas, e uma breve análise das pedras que elas deixam para trás, levaram à teoria de que são algum tipo de equipamento de mineração, talvez usado para obter componentes para seus semelhantes humanoides?\u201D\r\n
+		\r\n
+		- Os Mistérios de Petrichor V, Primeiro Rascunho",
+		
+		"FROSTWISP_BODY_NAME": "Espírito Frígido",
+		"FROSTWISP_BODY_LORE": "FOGO NÃO É SEMPRE NECESSÁRIO NESSE OFÍCIO.\r\n
+		\r\n
+		EU COMECEI COM UMA MÁSCARA. CRAVADO EM ESTALACTITES SINCELADAS. \u2013 ASSADO NO FORNO APENAS UMA VEZ, PARA EVITAR A FRAGILIDADE.\r\n
+		\r\n
+		VOU DAR PARA VOCÊ UMA CAMADA DE PASTA FRÍA  \u2013 ISSO É PARA O FRIO.\r\n
+		\r\n
+		VOU DAR PARA VOCÊ UMA DOSE DE FOLHAS BRANCAS \u2013 ISSO É PARA A DICIPLINA.\r\n
+		\r\n
+		VOU DAR PARA VOCÊ OITO ESPINHOS \u2013 ESSAS SÃO PARA A CONTENÇÃO.\r\n
+		\r\n
+		VOU DAR PARA VOCÊ QUATRO DOSES DE [pólvora] \u2013 ESSAS SÃO PARA O ESPÍRITO.\r\n
+		\r\n
+		O PROCESSO ESTÁ FEITO. BEM-VINDO A VIDA.\r\n
+		\r\n
+		SUAS CHAMAS, MESMO DIFERENTES, BRILHAM E QUEIMAM IGUAL. ISSO É BOM.\r\n
+		\r\n
+		VOCÊ DEVE ENCONTAR OS OUTROS E AJUDÁ-LOS.\r\n",
+		
+        "UNLOCKABLE_LOG_SANCTUMWISP": "Registro de Monstro: Espírito Sagrado",
+        "UNLOCKABLE_LOG_BRASSMONOLITH": "Registro de Monstro: Monólito de Latão",
+        "UNLOCKABLE_LOG_COILGOLEM": "Registro de Monstro: Golem de Bobinas",
+        "UNLOCKABLE_LOG_FROSTWISP": "Registro de Monstro: Espírito Frígido"
+	}
+}

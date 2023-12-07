@@ -1,0 +1,12 @@
+{
+    "name": "Forgotten_Relics",
+    "version_number": "1.1.24",
+    "website_url": "https://discord.gg/me7P53smzk",
+    "description": "Realms left to time. A content pack focused on maps and monsters",
+    "dependencies": [
+      "bbepis-BepInExPack-5.4.2103",
+	  "RiskofThunder-R2API_Networking-1.0.0",
+	  "RiskofThunder-R2API_Prefab-1.0.0",
+	  "RiskofThunder-R2API_Sound-1.0.0"
+    ]
+}
