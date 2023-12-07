@@ -1182,6 +1182,23 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Info   :   BepInEx] TS Manifest: MagnusMagnuson-BazaarPrinter-0.3.0
 [Info   :   BepInEx] Loading [BazaarPrinter 0.3.0]
 [Debug  :RoR2BepInExPack] Hook added by assembly: BazaarPrinter.dll for: RoR2.BazaarController.Awake
+[Info   :   BepInEx] TS Manifest: VarnaScelestus-Ephemeral_Coins-2.3.3
+[Info   :   BepInEx] Loading [Ephemeral_Coins 2.3.3]
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.Run.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.UI.HUD.Update
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.Run.OnUserAdded
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.NetworkUser.RpcAwardLunarCoins
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.NetworkUser.RpcDeductLunarCoins
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.NetworkUser.SyncLunarCoinsToServer
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.PlayerCharacterMasterController.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.PlayerCharacterMasterController+<>c.<Init>b__72_0
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.PlayerCharacterMasterController+<>c.<Init>b__72_0
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.TeleporterInteraction.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.SceneDirector.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.PurchaseInteraction.SetAvailable
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.PurchaseInteraction.ScaleCost
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.ShopTerminalBehavior.GenerateNewPickupServer
+[Debug  :RoR2BepInExPack] Hook added by assembly: EphemeralCoins.dll for: RoR2.BazaarController.SetUpSeerStations
 [Info   :   BepInEx] TS Manifest: MagnusMagnuson-BiggerBazaar-1.13.13
 [Info   :   BepInEx] Loading [BiggerBazaar 1.13.13]
 [Debug  :RoR2BepInExPack] Hook added by assembly: BiggerBazaar.dll for: RoR2.SceneExitController.Begin
@@ -1493,34 +1510,34 @@ FlashWindow:.cctor()
 [Debug  :RoR2BepInExPack] Hook added by assembly: BetterUnityPlugin.dll for: EntityStates.Barrel.Opened.OnEnter
 [Info   :   BepInEx] TS Manifest: PlasmaCore3-Forgotten_Relics-1.1.24
 [Info   :   BepInEx] Loading [ForgottenRelics 1.1.23]
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Loaded assetbundles @11 ms
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up expansion @70 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Loaded assetbundles @10 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up expansion @67 ms
 [Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
 [Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
 [Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
 [Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Image') is missing!
 [Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.XmlUtility.ToXml
 [Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.XmlUtility.FromXml
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Initailized persistent unlockables @299 ms
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Replaced shader stubs @351 ms
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Initailized DirectorHelper @351 ms
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: SotV finished loading @351 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Initailized persistent unlockables @300 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Replaced shader stubs @353 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Initailized DirectorHelper @353 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: SotV finished loading @353 ms
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: AddressableDCCSPool: Loading DCCS adccsDBMonsterDLC1
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: AddressableDCCSPool: Loading DCCS adccsDBMonster
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Loaded adressable DCCSs @1024 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Loaded adressable DCCSs @1016 ms
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Registered scene Forgotten Haven
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Registered scene Dry Basin
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Registered scene Slumbering Satellite
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up stages @1211 ms
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up hazards @1211 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up stages @1183 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up hazards @1183 ms
 [Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.ItemDisplayRuleSet.Init
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Sages Book
 [Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.Items.ContagiousItemManager.Init
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Emperean Braces
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up misc items
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Items @1279 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Items @1249 ms
 [Warning: Unity Log] The prefab 'ShatteredTeleporterPrefab' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up FH entry prefabs @1280 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up FH entry prefabs @1250 ms
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Added idrs to model mdlSanctumWisp
 [Info   :R2API.ContentManagement] Created a SerializableContentPack for mod PlasmaCore.ForgottenRelics
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Sanctum Wisp
@@ -1529,8 +1546,8 @@ FlashWindow:.cctor()
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Coil Golem
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Added idrs to model mdlBrassMonolith
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up BrassMonolith
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Characters @1562 ms
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Completed VF2ContentPackProvider.Init in 1.562 seconds
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Characters @1531 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Completed VF2ContentPackProvider.Init in 1.531 seconds
 [Info   :   BepInEx] TS Manifest: prodzpod-AchievementPins-1.0.0
 [Info   :   BepInEx] Loading [AchievementPins 1.0.0]
 [Debug  :RoR2BepInExPack] Hook added by assembly: AchievementPins.dll for: RoR2.UI.ScoreboardController.OnEnable
@@ -1542,14 +1559,6 @@ FlashWindow:.cctor()
 [Debug  :RoR2BepInExPack] Hook added by assembly: AchievementPins.dll for: RoR2.Achievements.BaseAchievement.OnInstall
 [Debug  :RoR2BepInExPack] Hook added by assembly: AchievementPins.dll for: RoR2.Achievements.BaseAchievement.OnUninstall
 [Debug  :RoR2BepInExPack] Hook added by assembly: AchievementPins.dll for: RoR2.Achievements.BaseAchievement.Grant
-[Info   :   BepInEx] TS Manifest: prodzpod-RealerCheatUnlocks-1.0.3
-[Info   :   BepInEx] Loading [RealerCheatUnlocks 1.0.3]
-[Debug  :RoR2BepInExPack] Hook added by assembly: RealerCheatUnlocks.dll for: RoR2.UI.LogBook.LogBookController.BuildEntriesPage
-[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.UI.LogBook.LogBookController.BuildEntriesPage
-[Debug  :RoR2BepInExPack] Hook added by assembly: RealerCheatUnlocks.dll for: EclipseDifficultyMedalDisplay.Refresh
-[Debug  :RoR2BepInExPack] Hook added by assembly: RealerCheatUnlocks.dll for: RoR2.UI.LoadoutPanelController+Row.AddButton
-[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.UI.LoadoutPanelController+Row.AddButton
-[Debug  :RoR2BepInExPack] Hook added by assembly: RealerCheatUnlocks.dll for: RoR2.UI.SurvivorIconController.Rebuild
 [Message:   BepInEx] Chainloader startup complete
 [Warning: Unity Log] Network message MsgType.Highest + 22 is unregistered.
 [Info   : Unity Log] buildId = 1.2.4.4
@@ -1562,13 +1571,13 @@ FlashWindow:.cctor()
 [Warning: Unity Log] Could not find scene with name "loadingbasic".
 [Debug  :RoR2BepInExPack] Assembly.GetTypes() failed for Enforcer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (threw ReflectionTypeLoadException). System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
   at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
-  at DMD<GetTypes>?1749087488._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <abc0a6c126474e5fa4861c586bbc3e07>:IL_0000 
-  at DMD<>?1749087488.Trampoline<System.Reflection.Assembly::GetTypes>?-1317677056 (System.Reflection.Assembly ) [0x00020] in <18f5df1262e24859b625633a27b5fd43>:IL_0020 
+  at DMD<GetTypes>?-1919820032._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <b768c31d114c4be3a42be080bc71917f>:IL_0000 
+  at DMD<>?-1919820032.Trampoline<System.Reflection.Assembly::GetTypes>?1266160640 (System.Reflection.Assembly ) [0x00020] in <7173869cb6304894ac069fac855757f7>:IL_0020 
   at RoR2BepInExPack.ReflectionHooks.AutoCatchReflectionTypeLoadException.SaferGetTypes (System.Func`2[T,TResult] orig, System.Reflection.Assembly self) [0x00006] in <2bcb8393d2c84704a39e3975f11a1ae0>:IL_0006 
 [Debug  :RoR2BepInExPack] Assembly.GetTypes() failed for TeslaTrooperMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (threw ReflectionTypeLoadException). System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
   at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
-  at DMD<GetTypes>?1749087488._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <abc0a6c126474e5fa4861c586bbc3e07>:IL_0000 
-  at DMD<>?1749087488.Trampoline<System.Reflection.Assembly::GetTypes>?-1317677056 (System.Reflection.Assembly ) [0x00020] in <18f5df1262e24859b625633a27b5fd43>:IL_0020 
+  at DMD<GetTypes>?-1919820032._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <b768c31d114c4be3a42be080bc71917f>:IL_0000 
+  at DMD<>?-1919820032.Trampoline<System.Reflection.Assembly::GetTypes>?1266160640 (System.Reflection.Assembly ) [0x00020] in <7173869cb6304894ac069fac855757f7>:IL_0020 
   at RoR2BepInExPack.ReflectionHooks.AutoCatchReflectionTypeLoadException.SaferGetTypes (System.Func`2[T,TResult] orig, System.Reflection.Assembly self) [0x00006] in <2bcb8393d2c84704a39e3975f11a1ae0>:IL_0006 
 [Info   : Unity Log] Active scene changed from  to loadingbasic
 [Info   : Unity Log] Loaded scene loadingbasic loadSceneMode=2
@@ -1595,6 +1604,7 @@ FlashWindow:.cctor()
 [Info   :     R2API] com.TeamMoonstorm.MoonstormSharedUtils;1.6.2
 [Info   :     R2API] com.TeamMoonstorm.Starstorm2;0.5.3
 [Info   :     R2API] com.TheTimeSweeper.TeslaTrooper;2.1.6
+[Info   :     R2API] com.Varna.EphemeralCoins;2.3.3
 [Info   :     R2API] com.Wolfo.LittleGameplayTweaks;2.0.4
 [Info   :     R2API] com.Wolfo.WolfoQualityOfLife;2.0.5
 [Info   :     R2API] com.Zenithrium.vanillaVoid;1.5.8
@@ -1878,7 +1888,7 @@ FlashWindow:.cctor()
 [Debug  :Moonstorm Shared Utils] Getting the Characters found inside Starstorm2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null... :: Line: 115, Method GetCharacterBases
 [Debug  :Moonstorm Shared Utils] Character Moonstorm.Starstorm2.Monsters.Lamp Initialized and ensured it's body and master prefabs in ContentPack :: Line: 152, Method InitializeContent
 [Debug  :RoR2BepInExPack] Hook added by assembly: Starstorm2.dll for: RoR2.CharacterBody.AddBuff
-[Info   : Unity Log] You stand alone in the dark. - 8.40034726559954
+[Info   : Unity Log] You stand alone in the dark. - 10.3664855332373
 [Debug  :Moonstorm Shared Utils] Character Moonstorm.Starstorm2.Monsters.LampBoss Initialized and ensured it's body and master prefabs in ContentPack :: Line: 152, Method InitializeContent
 [Debug  :Moonstorm Shared Utils] Character Moonstorm.Starstorm2.Monsters.Runshroom Initialized and ensured it's body and master prefabs in ContentPack :: Line: 152, Method InitializeContent
 [Debug  :RoR2BepInExPack] Hook added by assembly: Starstorm2.dll for: RoR2.HealthComponent.GetHealthBarValues
@@ -2468,7 +2478,7 @@ Perish Song (BuffDef)
 [Error  : Unity Log] could not load display for DisplayLightning
 [Warning: Unity Log] Could not find scene with name "loadingbasic".
 [Info   : Unity Log] Command "set_scene" failed: "intro" is not a valid scene.
-[Info   : Unity Log] Game content load completed in 16082ms.
+[Info   : Unity Log] Game content load completed in 15525ms.
 [Info   : Unity Log] Setting current language to "en"
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.Executioner.AimIonSummon (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.Executioner.FireIonSummon (RoR2.EntityStateConfiguration)) failed: state type is null.
@@ -2514,6 +2524,7 @@ Perish Song (BuffDef)
 [Debug  :RoR2BepInExPack] Hook added by assembly: Starstorm2.dll for: EntityStates.Toolbot.ToolbotDualWield.OnEnter
 [Error  :R2API.ContentManagement] System.InvalidOperationException: Assembly Starstorm2 is trying to add a WAWA (UnityEngine.GameObject) as a EffectPrefab, but the EffectCatalog has already initialized!
   at R2API.ContentAddition.RejectContent (System.Object content, System.Reflection.Assembly assembly, System.String contentType, System.String problem) [0x0002a] in <f79b8ebddb024869bfb8acdba87b913f>:IL_002A 
+[Debug  :Ephemeral_Coins] NewMoonArtifactManager initialized
 [Error  : Unity Log] [RoR2.ItemCatalog] Unable to register BuffInfo for Deafened
 [Info   : Unity Log] [RoR2.ItemCatalog] Updating unlock condition for ITEM_BEARVOID_NAME to ITEM_BEAR_NAME's.
 [Info   : Unity Log] [RoR2.ItemCatalog] Updating unlock condition for ITEM_CLOVERVOID_NAME to ITEM_CLOVER_NAME's.
@@ -2561,13 +2572,13 @@ Perish Song (BuffDef)
 [Debug  :RoR2BepInExPack] Hook added by assembly: Starstorm2.dll for: RoR2.CharacterMaster.OnInventoryChanged
 [Debug  :RoR2BepInExPack] Assembly.GetTypes() failed for Enforcer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (threw ReflectionTypeLoadException). System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
   at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
-  at DMD<GetTypes>?1749087488._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <abc0a6c126474e5fa4861c586bbc3e07>:IL_0000 
-  at DMD<>?1749087488.Trampoline<System.Reflection.Assembly::GetTypes>?-1317677056 (System.Reflection.Assembly ) [0x00020] in <18f5df1262e24859b625633a27b5fd43>:IL_0020 
+  at DMD<GetTypes>?-1919820032._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <b768c31d114c4be3a42be080bc71917f>:IL_0000 
+  at DMD<>?-1919820032.Trampoline<System.Reflection.Assembly::GetTypes>?1266160640 (System.Reflection.Assembly ) [0x00020] in <7173869cb6304894ac069fac855757f7>:IL_0020 
   at RoR2BepInExPack.ReflectionHooks.AutoCatchReflectionTypeLoadException.SaferGetTypes (System.Func`2[T,TResult] orig, System.Reflection.Assembly self) [0x00006] in <2bcb8393d2c84704a39e3975f11a1ae0>:IL_0006 
 [Debug  :RoR2BepInExPack] Assembly.GetTypes() failed for TeslaTrooperMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (threw ReflectionTypeLoadException). System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
   at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
-  at DMD<GetTypes>?1749087488._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <abc0a6c126474e5fa4861c586bbc3e07>:IL_0000 
-  at DMD<>?1749087488.Trampoline<System.Reflection.Assembly::GetTypes>?-1317677056 (System.Reflection.Assembly ) [0x00020] in <18f5df1262e24859b625633a27b5fd43>:IL_0020 
+  at DMD<GetTypes>?-1919820032._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <b768c31d114c4be3a42be080bc71917f>:IL_0000 
+  at DMD<>?-1919820032.Trampoline<System.Reflection.Assembly::GetTypes>?1266160640 (System.Reflection.Assembly ) [0x00020] in <7173869cb6304894ac069fac855757f7>:IL_0020 
   at RoR2BepInExPack.ReflectionHooks.AutoCatchReflectionTypeLoadException.SaferGetTypes (System.Func`2[T,TResult] orig, System.Reflection.Assembly self) [0x00006] in <2bcb8393d2c84704a39e3975f11a1ae0>:IL_0006 
 [Info   : Unity Log] [RoR2.ItemDisplayRuleSet] [FRPlugin.PlasmaCore]: Setting up IDRS| Original:13 Duplicators:1 to Bodies: 182
 [Warning:ZetAspects] Catalog Setup Initialized
@@ -2702,6 +2713,7 @@ Moonstorm.Starstorm2.Components.RemunerationChoiceBehavior,
 Moonstorm.Starstorm2.Components.RemunerationDropletController,
 Moonstorm.Starstorm2.Components.RemunerationShopBehavior,
 Moonstorm.Starstorm2.ScriptableObjects.NemesisInventory,
+EphemeralCoins.NewMoonArtifactManager,
 RoR2.ArtifactMask,
 RoR2.ItemCatalog,
 RoR2.Loadout,
@@ -2743,15 +2755,30 @@ RoR2.SteamworksLobbyDataGenerator,
 RoR2.UI.LogBook.LogBookController,
 RoR2.EOSLobbyDataGenerator
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/cb4410e9-7cac-4f82-a802-12a9346834f8.xml
-[Info   : Unity Log] stream.Length=313135
+[Info   : Unity Log] stream.Length=313197
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/d92d17bd-d2d8-48d4-ac8d-ac647c4f06bd.xml
-[Info   : Unity Log] stream.Length=264408
+[Info   : Unity Log] stream.Length=282018
 [Debug  :AchievementPins] Adding Achievements...
-[Debug  :AchievementPins] Achievements: 0
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.HealthComponent.FixedUpdate
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.CharacterBody.FixedUpdate
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SceneDirector.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.HealingFollowerController.AssignNewTarget
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterBody.AddBuff
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterBody.AddBuff
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Debug  :RoR2BepInExPack] Hook added by assembly: DiggerUnearthed.dll for: RoR2.ChestBehavior.Open
+[Warning:Starstorm 2] NemMercenaryCloneUnlock
+[Debug  :AchievementPins] Achievements: 164
 [Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_EXECUTIONER_GRANDMASTERY_NAME
 [Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_EXECUTIONER_MASTERY_NAME
 [Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMMANDO_GRANDMASTERY_NAME
 [Warning: Unity Log] LogbookChanger
+[Debug  :Ephemeral_Coins] Artifact mode 2 (always on/hidden); setting up prefabs.
+[Debug  :Ephemeral_Coins] PrefabSetup True
 [Info   :Moonstorm Shared Utils] Initializing EliteTierDef Module...
 [Info   :Moonstorm Shared Utils] Configuring a total of 111 fields with ConfigurableFieldAttributes.
 [Debug  :RoR2BepInExPack] Hook removed by assembly: MoonstormSharedUtils.dll for: RoR2.ClassicStageInfo.BroadcastFamilySelection
@@ -2842,6 +2869,545 @@ RoR2.RoR2Application.Update () (at <1d532be543be416b9db3594e4b62447d>:IL_005F)
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
+[Debug  :RoR2BepInExPack] Hook removed by assembly: DiggerUnearthed.dll for: RoR2.ChestBehavior.Open
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.CharacterBody.AddBuff
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.CharacterBody.AddBuff
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.HealingFollowerController.AssignNewTarget
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.SceneDirector.Start
+[Debug  :RoR2BepInExPack] Hook removed by assembly: ChefMod.dll for: RoR2.CharacterBody.FixedUpdate
+[Debug  :RoR2BepInExPack] Hook removed by assembly: ChefMod.dll for: RoR2.HealthComponent.FixedUpdate
+[Debug  :RoR2BepInExPack] Hook removed by assembly: ChefMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Debug  :RoR2BepInExPack] Hook removed by assembly: ChefMod.dll for: RoR2.CharacterBody.RecalculateStats
+[Info   : Unity Log] Saved file "d92d17bd-d2d8-48d4-ac8d-ac647c4f06bd.xml" (282018 bytes)
+[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
+[Debug  :AchievementPins] Adding Achievements...
+[Debug  :AchievementPins] Achievements: 0
+[Info   : Unity Log] Tried to add duplicate node /Logbook/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_ARMEDBACKPACK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REPULSIONARMORPLATE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ATTACKSPEEDANDMOVESPEED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BARRIERONKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEAR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLEEDONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BOSSDAMAGEBONUS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_COFFEEBAG_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITGLASSES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CROWBAR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_DETRITIVETREMATODE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FIREWORK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FLATHEALTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FRAGILEDAMAGEBONUS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GOLDONHURT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALWHILESAFE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALINGPOTION_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HOOF_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_IGNITEONKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_MALICE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MEDKIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MUSHROOM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_NEARBYDAMAGEBONUS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_OUTOFCOMBATARMOR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PERSONALSHIELD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPWHITE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SECONDARYSKILLMAGAZINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTBONUS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STICKYBOMB_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STUNCHANCEONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SYRINGE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TOOTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TREASURECACHE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_WARDONLEVEL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_X4_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ATTACKSPEEDONCRIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BANDOLIER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BONUSGOLDPACKONKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CHAINLIGHTNING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DEATHMARK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ENERGIZEDONEQUIPMENTUSE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EQUIPMENTMAGAZINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXECUTELOWHEALTHELITE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXPLODEONDEATH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FEATHER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FIRERING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FREECHEST_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALONCRIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_HUNTERSSIGIL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ICERING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INFUSION_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_JETBOOTS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_JUMPBOOST_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_LOWQUALITYSPEAKERS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MISSILE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MOVESPEEDONKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PHASING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PRIMARYSKILLSHURIKEN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REGENERATINGSCRAP_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPGREEN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SEED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SLOWONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTARMOR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTOUTOFCOMBAT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SQUIDTURRET_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STRENGTHENBURN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TPHEALINGNOVA_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_THORNS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_WARCRYONMULTIKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_WATCHMETRONOME_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ALIENHEAD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ARMORREDUCTIONONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BARRIERONOVERHEAL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEHEMOTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BOUNCENEARBY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CAPTAINDEFENSEMATRIX_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CLOVER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITDAMAGE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DAGGER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_DROIDHEAD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DRONEWEAPONS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRALIFE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FALLBOOTS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GHOSTONKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_GREENCHOCOLATE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEADHUNTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ANCIENT_SCEPTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ICICLE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_IMMUNETODEBUFF_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INCREASEHEALING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_INSECTICIDE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_KILLELITEFRENZY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LASERTURBINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MOREMISSILE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_NKOTASHERITAGE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_NOVAONHEAL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PERMANENTDEBUFFONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INTERSTELLARDESKPLANT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_PORTABLEREACTOR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMEQUIPMENTTRIGGER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPRED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHOCKNEARBY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_SKATEBOARD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TALISMAN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_UTILITYSKILLMAGAZINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ARTIFACTKEY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEETLEGLAND_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/BIGSWORD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLEEDONHITANDEXPLODE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FIREBALLSONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/GOLDENKNURL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_KNURL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/LASEREYE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LIGHTNINGSTRIKEONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MINORCONSTRUCTONKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_NOVAONLOWHEALTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PARENTEGG_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PEARL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ROBOBALLBUDDY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPYELLOW_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_SHACKLEDLAMP_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHINYPEARL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SIPHONONLOWHEALTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTWISP_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TITANGOLDDURINGTP_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ESSENCEOFTAR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RELICENERGY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SAGESBOOK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEARVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLEEDONHITVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITGLASSESVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MUSHROOMVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TREASURECACHEVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_ADZE_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_CLOCKWORK_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_CRYOCANISTER_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_EHANCE_VIALS_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_EXT_EXHAUST_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CHAINLIGHTNINGVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ELEMENTALRINGVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EQUIPMENTMAGAZINEVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXPLODEONDEATHVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MISSILEVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SLOWONHITVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_BARRIERLOTUS_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_CORNUCOPIACELL_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_DASHQUILL_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_EXEBLADE_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CLOVERVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRALIFEVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_ORRERY_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FALLBOOTSVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_VOIDMEGACRABITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_REMUNERATION_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_STIRRINGSOUL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_AUTOCASTEQUIPMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FOCUSEDCONVERGENCE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GOLDONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HALFATTACKSPEEDHALFCOOLDOWNS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HALFSPEEDDOUBLEHEALTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARBADLUCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARDAGGER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARPRIMARYREPLACEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSECONDARYREPLACEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSPECIALREPLACEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSUN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARTRINKET_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARUTILITYREPLACEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MONSTERSONSHRINEUSE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMDAMAGEZONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMLYLUNAR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_RELICOFFORCE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_RELICOFMASS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_RELICOFTERMINATION_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REPEATHEAL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHIELDONLY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BURNNEARBY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_CRIPPLEWARD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_METEOR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_TONIC_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BFG_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BLACKHOLE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BOSSHUNTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_CLEANSE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_COMMANDMISSILE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_CRITONUSE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_DEATHPROJECTILE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_DRONEBACKUP_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_FIREBALLDASH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_FRUIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GAINARMOR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GATEWAY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GOLDGAT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GUMMYCLONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_JETPACK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_LIFESTEALONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_LIGHTNING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_MOLOTOV_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_MULTISHOPCARD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_PASSIVEHEALING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_RECYCLER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_SAWMERANG_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_SCANNER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_TEAMWARCRY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_VENDINGMACHINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDINFESTOR_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/WISP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/ACIDLARVA_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/FLYINGVERMIN_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/JELLYFISH_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SS2_LAMP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BEETLE_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/LEMURIAN_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VERMIN_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/HERMIT_CRAB_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MINORCONSTRUCT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/IMP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MOFFEIN_CLAY_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SS2_RUNSHROOM_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VULTURE_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/ROBOBALLMINI_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDBARNACLE_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MINIMUSHROOM_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BELL_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BEETLEGUARD_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BISON_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GOLEM_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/PARENT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/CLAYBRUISER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/COILGOLEM_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/FROSTWISP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GREATERWISP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/LEMURIANBRUISER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BROTHER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GUP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SANCTUMWISP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/CLAYGRENADIER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDRAIDCRAB_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/NULLIFIER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BEETLEQUEEN_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/CLAYBOSS_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/TITAN_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VAGRANT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDJAILER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MAGMAWORM_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/ROBOBALLBOSS_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SUPERROBOBALLBOSS_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/DIGGERPLUGIN_DIRESEEKER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GRAVEKEEPER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/IMPBOSS_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SS2_LAMPBOSS_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MEGACONSTRUCT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDMEGACRAB_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SCAVLUNAR_BODY_SUBTITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BRASSMONOLITH_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GRANDPARENT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SCAV_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/TITANGOLD_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/ELECTRICWORM_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_BLACKBEACH_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_GOLEMPLAINS_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SNOWYFOREST_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ANCIENTLOFT_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/STAGE_DRYBASIN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_FOGGYSWAMP_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_GOOLAKE_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_FROZENWALL_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SULFURPOOLS_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_WISPGRAVEYARD_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_DAMPCAVE_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ROOTJUNGLE_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SHIPGRAVEYARD_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SKYMEADOW_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/STAGE_WEATHEREDSATELLITE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_MOON_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/STAGE_FORGOTTENHAVEN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_VOIDSTAGE_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_VOIDRAID_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ARTIFACTWORLD_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_GOLDSHORES_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_MYSTERYSPACE_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_LIMBO_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_BAZAAR_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ARENA_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/COMMANDO_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/SS2_NEMMANDO_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/HUNTRESS_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/BANDIT2_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/TOOLBOT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MOFFEIN_HAND_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/ENGI_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/ENFORCER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/NEMFORCER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MAGE_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MERC_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/SS2_NEMESIS_MERCENARY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/PALADIN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/TREEBOT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/LOADER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MINER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/CROCO_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/CAPTAIN_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/SS2_EXECUTIONER2_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/RAILGUNNER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/HERETIC_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/VOIDSURVIVOR_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/HABIBI_TESLA_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/HABIBI_DESOLATOR_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/SNIPERCLASSIC_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/CHEF_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MOFFEIN_ROCKET_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DIE5TIMES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETE20STAGES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLELEMENTALLEMURIANS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DISCOVER5EQUIPMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_STAYALIVE1_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLBOSSQUICK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETELEPORTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_COFFEEBAG_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DISCOVER10UNIQUETIER1_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_REPEATEDLYDUPLICATEITEMS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FAILSHRINECHANCE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_MALICE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLELITEMONSTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETELEPORTERWITHOUTINJURY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ATTACKSPEED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MULTICOMBATSHRINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLELITESMILESTONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEPRISMATICTRIAL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_HUNTERSSIGIL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLTOTALENEMIES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOVESPEED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_AUTOMATIONACTIVATION_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CHARGETELEPORTERWHILENEARDEATH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOOPONCE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETHREESTAGESWITHOUTHEALING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HARDELITEBOSSKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NKOTASHERITAGE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDDEVILALTAR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HARDHITTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDUNIQUENEWTSTATUES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_SUICIDEHERMITCRABS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_NEVERBACKDOWN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEMAINENDINGHARD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLBOSSQUANTITYINRUN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEUNKNOWNENDING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAJORMULTIKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CARRYLUNARITEMS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_USETHREEPORTALS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDTIMEDCHEST_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BURNTODEATH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DIE20TIMES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOTALDRONESREPAIRED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLGOLDTITANINONECYCLE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOTALMONEYCOLLECTED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_GREATERWARBANNER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEMULTIBOSSSHRINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAXHEALINGSHRINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CLEANUPDUTY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOGCOLLECTOR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOKILLOVERLOADINGWORM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOFASTFIRSTSTAGECLEAR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDONONLUNARENDURANCE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_COMMANDO_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_COMMANDO_NEMESISSKIN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMCOMMANDO_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMCOMMANDO_SWORDBEAM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMCOMMANDO_BOSSATTACK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMCOMMANDO_MASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMMANDO_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMCOMMANDO_NEMESIS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSALLGLAIVEBOUNCESKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSCOLLECTCROWBARS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSMAINTAINFULLHEALTHONFROZENWALL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_HUNTRESS_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETHREESTAGES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2CONSECUTIVERESET_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2STACKSUPERBLEED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2REVOLVERFINALE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2CLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_REPEATFIRSTTELEPORTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTGUARDTELEPORTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTKILLIMPBOSSWITHBFG_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTBEATARENALATER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_TOOLBOT_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINHANDOVERCLOCKEDSURVIVORUNLOCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINHANDOVERCLOCKEDHAMMERPRIMARYUNLOCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINHANDOVERCLOCKEDNEMESISFOCUSUNLOCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINHANDOVERCLOCKEDCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETE30STAGESCAREER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGIKILLBOSSQUICK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGICLEARTELEPORTERWITHZEROMONSTERS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGIARMY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGICLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_CHARACTERUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_DOOMUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_RIFLEUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_STUNGRENADEUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_GRANDMASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_ROBITUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_CLASSICUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_NEMESISSKINUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_DESPERADOUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_DOOMINTERNALUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_BUNGUSUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_STORMTROOPERUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_NEMESIS2UNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/NEMFORCER_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/NEMFORCER_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FREEMAGE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEMULTIKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEFASTBOSS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEAIRBORNEMULTIKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGECLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCDONTTOUCHGROUND_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCXSKILLSINYSECONDS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCCOMPLETETRIALWITHFULLHEALTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_MERCENARY_NEMESISSKIN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMMERC_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMESIS_MERCENARY_KNIFE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMESIS_MERCENARY_SLIDE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMESIS_MERCENARY_CLONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMESIS_MERCENARY_NEMESIS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_UNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_LUNARSHARDUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_HEALUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_TORPORUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_CRUELSUNUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_POISONUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_CLAYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RESCUETREEBOT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTLOWHEALTHTELEPORTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTDUNKCLAYBOSS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTBIGHEAL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DEFEATSUPERROBOBALLBOSS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERSPEEDRUN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERBIGSLAM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERKILLLOADERS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_UNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_CRUSHUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_CRACKUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_CAVEINUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_MONSOONUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_TUNDRAUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_PUPLEUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_BLACKSMITHUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BEATARENA_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOKILLWEAKENEMIESMILESTONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOKILLSCAVENGER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOTOTALINFECTIONSMILESTONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_CROCO_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEMAINENDING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINSUPPLYDROPFINALE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINVISITSEVERALSTAGES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINBUYMEGADRONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_CAPTAIN_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_EXECUTIONER_MASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_EXECUTIONER_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERCONSECUTIVEWEAKPOINTS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERDEALMASSIVEDAMAGE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERAIRBORNEMULTIKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINHERETICUNLOCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEVOIDENDING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_VOIDSURVIVORCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/HABIBI_TESLA_BODY_SHIELDZAPUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/HABIBI_TESLA_BODY_BIGZAPUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/HABIBI_TESLA_BODY_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/HABIBI_TESLA_BODY_GRANDMASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/HABIBI_DESOLATOR_BODY_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SNIPERCLASSIC_CHARACTERUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SNIPERCLASSIC_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SNIPERCLASSIC_GRANDMASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/CHEF_CHEFUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/CHEF_SLICEUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINROCKETHOMINGUNLOCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINROCKETMARKETGARDENUNLOCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTBOMB_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_COGNATION_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTCOMMAND_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTELITEONLY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTENIGMA_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTFRIENDLYFIRE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTGLASS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTMIXENEMY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTMONSTERTEAMGAINSITEMS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTRANDOMSURVIVORONRESPAWN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSACRIFICE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSHADOWCLONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSINGLEMONSTERTYPE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSWARMS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTTEAMDEATH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTWEAKASSKNEES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTWISPONDEATH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_EXECUTIONER_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_EXECUTIONER_MASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMESIS_MERCENARY_MASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMMANDO_MASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/NEMFORCER_DOMINANCEUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMMANDO_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMESIS_MERCENARY_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STATS/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MORGUE/
+[Warning: Unity Log] LogbookChanger
+[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
 [Info   : Unity Log] Setting offline scene to logbook
 [Info   : Unity Log] Unloaded scene title
 [Warning:     R2API] This version of R2API was built for build id "1.2.4.1", you are running "1.2.4.4".
@@ -2869,120 +3435,544 @@ RoR2.RoR2Application.Update () (at <1d532be543be416b9db3594e4b62447d>:IL_005F)
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] NetworkManagerSystem.desiredHost={ hostType=Self listen=False maxPlayers=4 }
-[Info   :R2API.Networking] Server Handlers registered
-[Error  :R2API.Prefab] VoidShellVFX (UnityEngine.GameObject) don't have a NetworkIdentity Component but was marked for network registration.
-[Error  :R2API.Prefab] WAWA (UnityEngine.GameObject) don't have a NetworkIdentity Component but was marked for network registration.
-[Warning: Unity Log] The prefab 'TraderBody' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Warning: Unity Log] The prefab 'chef_fruitpod' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Warning: Unity Log] The prefab 'chef_fruitpod' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Warning: Unity Log] The prefab 'voidCampFragment' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Error  : Unity Log] Could not register 'VoidShellVFX' since it contains no NetworkIdentity component
-[Warning: Unity Log] The prefab 'PaladinDisplayPrefab' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Warning: Unity Log] The prefab 'MinerDisplay' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Warning: Unity Log] The prefab 'ArenaMissionController' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Warning: Unity Log] The prefab 'Moon2DropshipZone' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Warning: Unity Log] The prefab 'HOLDER_ Gauntlets' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Warning: Unity Log] The prefab 'VoidCamp' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Info   :R2API.Networking] Client Handlers registered
+[Info   : Unity Log] Saved file "cb4410e9-7cac-4f82-a802-12a9346834f8.xml" (313197 bytes)
+[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
+[Debug  :AchievementPins] Adding Achievements...
+[Debug  :AchievementPins] Achievements: 0
+[Info   : Unity Log] Tried to add duplicate node /Logbook/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_ARMEDBACKPACK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REPULSIONARMORPLATE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ATTACKSPEEDANDMOVESPEED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BARRIERONKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEAR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLEEDONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BOSSDAMAGEBONUS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_COFFEEBAG_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITGLASSES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CROWBAR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_DETRITIVETREMATODE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FIREWORK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FLATHEALTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FRAGILEDAMAGEBONUS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GOLDONHURT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALWHILESAFE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALINGPOTION_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HOOF_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_IGNITEONKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_MALICE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MEDKIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MUSHROOM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_NEARBYDAMAGEBONUS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_OUTOFCOMBATARMOR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PERSONALSHIELD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPWHITE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SECONDARYSKILLMAGAZINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTBONUS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STICKYBOMB_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STUNCHANCEONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SYRINGE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TOOTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TREASURECACHE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_WARDONLEVEL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_X4_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ATTACKSPEEDONCRIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BANDOLIER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BONUSGOLDPACKONKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CHAINLIGHTNING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DEATHMARK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ENERGIZEDONEQUIPMENTUSE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EQUIPMENTMAGAZINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXECUTELOWHEALTHELITE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXPLODEONDEATH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FEATHER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FIRERING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FREECHEST_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALONCRIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_HUNTERSSIGIL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ICERING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INFUSION_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_JETBOOTS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_JUMPBOOST_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_LOWQUALITYSPEAKERS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MISSILE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MOVESPEEDONKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PHASING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PRIMARYSKILLSHURIKEN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REGENERATINGSCRAP_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPGREEN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SEED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SLOWONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTARMOR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTOUTOFCOMBAT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SQUIDTURRET_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STRENGTHENBURN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TPHEALINGNOVA_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_THORNS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_WARCRYONMULTIKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_WATCHMETRONOME_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ALIENHEAD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ARMORREDUCTIONONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BARRIERONOVERHEAL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEHEMOTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BOUNCENEARBY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CAPTAINDEFENSEMATRIX_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CLOVER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITDAMAGE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DAGGER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_DROIDHEAD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DRONEWEAPONS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRALIFE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FALLBOOTS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GHOSTONKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_GREENCHOCOLATE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEADHUNTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ANCIENT_SCEPTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ICICLE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_IMMUNETODEBUFF_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INCREASEHEALING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_INSECTICIDE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_KILLELITEFRENZY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LASERTURBINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MOREMISSILE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_NKOTASHERITAGE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_NOVAONHEAL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PERMANENTDEBUFFONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INTERSTELLARDESKPLANT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_PORTABLEREACTOR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMEQUIPMENTTRIGGER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPRED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHOCKNEARBY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_SKATEBOARD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TALISMAN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_UTILITYSKILLMAGAZINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ARTIFACTKEY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEETLEGLAND_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/BIGSWORD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLEEDONHITANDEXPLODE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FIREBALLSONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/GOLDENKNURL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_KNURL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/LASEREYE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LIGHTNINGSTRIKEONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MINORCONSTRUCTONKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_NOVAONLOWHEALTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PARENTEGG_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PEARL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ROBOBALLBUDDY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPYELLOW_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_SHACKLEDLAMP_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHINYPEARL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SIPHONONLOWHEALTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTWISP_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TITANGOLDDURINGTP_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ESSENCEOFTAR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RELICENERGY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SAGESBOOK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEARVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLEEDONHITVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITGLASSESVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MUSHROOMVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TREASURECACHEVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_ADZE_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_CLOCKWORK_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_CRYOCANISTER_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_EHANCE_VIALS_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_EXT_EXHAUST_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CHAINLIGHTNINGVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ELEMENTALRINGVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EQUIPMENTMAGAZINEVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXPLODEONDEATHVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MISSILEVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SLOWONHITVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_BARRIERLOTUS_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_CORNUCOPIACELL_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_DASHQUILL_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_EXEBLADE_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CLOVERVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRALIFEVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/VV_ITEM_ORRERY_ITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FALLBOOTSVOID_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_VOIDMEGACRABITEM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_REMUNERATION_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_STIRRINGSOUL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_AUTOCASTEQUIPMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FOCUSEDCONVERGENCE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GOLDONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HALFATTACKSPEEDHALFCOOLDOWNS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HALFSPEEDDOUBLEHEALTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARBADLUCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARDAGGER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARPRIMARYREPLACEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSECONDARYREPLACEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSPECIALREPLACEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSUN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARTRINKET_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARUTILITYREPLACEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MONSTERSONSHRINEUSE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMDAMAGEZONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMLYLUNAR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_RELICOFFORCE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_RELICOFMASS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/SS2_ITEM_RELICOFTERMINATION_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REPEATHEAL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHIELDONLY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BURNNEARBY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_CRIPPLEWARD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_METEOR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_TONIC_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BFG_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BLACKHOLE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BOSSHUNTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_CLEANSE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_COMMANDMISSILE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_CRITONUSE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_DEATHPROJECTILE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_DRONEBACKUP_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_FIREBALLDASH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_FRUIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GAINARMOR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GATEWAY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GOLDGAT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GUMMYCLONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_JETPACK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_LIFESTEALONHIT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_LIGHTNING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_MOLOTOV_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_MULTISHOPCARD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_PASSIVEHEALING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_RECYCLER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_SAWMERANG_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_SCANNER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_TEAMWARCRY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_VENDINGMACHINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDINFESTOR_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/WISP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/ACIDLARVA_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/FLYINGVERMIN_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/JELLYFISH_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SS2_LAMP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BEETLE_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/LEMURIAN_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VERMIN_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/HERMIT_CRAB_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MINORCONSTRUCT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/IMP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MOFFEIN_CLAY_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SS2_RUNSHROOM_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VULTURE_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/ROBOBALLMINI_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDBARNACLE_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MINIMUSHROOM_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BELL_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BEETLEGUARD_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BISON_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GOLEM_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/PARENT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/CLAYBRUISER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/COILGOLEM_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/FROSTWISP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GREATERWISP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/LEMURIANBRUISER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BROTHER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GUP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SANCTUMWISP_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/CLAYGRENADIER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDRAIDCRAB_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/NULLIFIER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BEETLEQUEEN_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/CLAYBOSS_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/TITAN_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VAGRANT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDJAILER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MAGMAWORM_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/ROBOBALLBOSS_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SUPERROBOBALLBOSS_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/DIGGERPLUGIN_DIRESEEKER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GRAVEKEEPER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/IMPBOSS_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SS2_LAMPBOSS_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/MEGACONSTRUCT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDMEGACRAB_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SCAVLUNAR_BODY_SUBTITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/BRASSMONOLITH_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/GRANDPARENT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/SCAV_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/TITANGOLD_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MONSTER/ELECTRICWORM_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_BLACKBEACH_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_GOLEMPLAINS_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SNOWYFOREST_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ANCIENTLOFT_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/STAGE_DRYBASIN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_FOGGYSWAMP_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_GOOLAKE_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_FROZENWALL_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SULFURPOOLS_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_WISPGRAVEYARD_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_DAMPCAVE_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ROOTJUNGLE_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SHIPGRAVEYARD_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SKYMEADOW_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/STAGE_WEATHEREDSATELLITE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_MOON_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/STAGE_FORGOTTENHAVEN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_VOIDSTAGE_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_VOIDRAID_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ARTIFACTWORLD_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_GOLDSHORES_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_MYSTERYSPACE_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_LIMBO_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_BAZAAR_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ARENA_TITLE
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/COMMANDO_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/SS2_NEMMANDO_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/HUNTRESS_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/BANDIT2_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/TOOLBOT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MOFFEIN_HAND_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/ENGI_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/ENFORCER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/NEMFORCER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MAGE_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MERC_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/SS2_NEMESIS_MERCENARY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/PALADIN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/TREEBOT_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/LOADER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MINER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/CROCO_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/CAPTAIN_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/SS2_EXECUTIONER2_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/RAILGUNNER_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/HERETIC_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/VOIDSURVIVOR_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/HABIBI_TESLA_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/HABIBI_DESOLATOR_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/SNIPERCLASSIC_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/CHEF_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_SURVIVOR/MOFFEIN_ROCKET_BODY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DIE5TIMES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETE20STAGES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLELEMENTALLEMURIANS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DISCOVER5EQUIPMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_STAYALIVE1_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLBOSSQUICK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETELEPORTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_COFFEEBAG_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DISCOVER10UNIQUETIER1_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_REPEATEDLYDUPLICATEITEMS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FAILSHRINECHANCE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_MALICE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLELITEMONSTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETELEPORTERWITHOUTINJURY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ATTACKSPEED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MULTICOMBATSHRINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLELITESMILESTONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEPRISMATICTRIAL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_HUNTERSSIGIL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLTOTALENEMIES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOVESPEED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_AUTOMATIONACTIVATION_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CHARGETELEPORTERWHILENEARDEATH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOOPONCE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETHREESTAGESWITHOUTHEALING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HARDELITEBOSSKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NKOTASHERITAGE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDDEVILALTAR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HARDHITTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDUNIQUENEWTSTATUES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_SUICIDEHERMITCRABS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_NEVERBACKDOWN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEMAINENDINGHARD_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLBOSSQUANTITYINRUN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEUNKNOWNENDING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAJORMULTIKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CARRYLUNARITEMS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_USETHREEPORTALS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDTIMEDCHEST_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BURNTODEATH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DIE20TIMES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOTALDRONESREPAIRED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLGOLDTITANINONECYCLE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOTALMONEYCOLLECTED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_GREATERWARBANNER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEMULTIBOSSSHRINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAXHEALINGSHRINE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CLEANUPDUTY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOGCOLLECTOR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOKILLOVERLOADINGWORM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOFASTFIRSTSTAGECLEAR_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDONONLUNARENDURANCE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_COMMANDO_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_COMMANDO_NEMESISSKIN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMCOMMANDO_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMCOMMANDO_SWORDBEAM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMCOMMANDO_BOSSATTACK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMCOMMANDO_MASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMMANDO_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMCOMMANDO_NEMESIS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSALLGLAIVEBOUNCESKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSCOLLECTCROWBARS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSMAINTAINFULLHEALTHONFROZENWALL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_HUNTRESS_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETHREESTAGES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2CONSECUTIVERESET_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2STACKSUPERBLEED_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2REVOLVERFINALE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2CLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_REPEATFIRSTTELEPORTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTGUARDTELEPORTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTKILLIMPBOSSWITHBFG_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTBEATARENALATER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_TOOLBOT_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINHANDOVERCLOCKEDSURVIVORUNLOCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINHANDOVERCLOCKEDHAMMERPRIMARYUNLOCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINHANDOVERCLOCKEDNEMESISFOCUSUNLOCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINHANDOVERCLOCKEDCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETE30STAGESCAREER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGIKILLBOSSQUICK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGICLEARTELEPORTERWITHZEROMONSTERS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGIARMY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGICLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_CHARACTERUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_DOOMUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_RIFLEUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_STUNGRENADEUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_GRANDMASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_ROBITUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_CLASSICUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_NEMESISSKINUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_DESPERADOUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_DOOMINTERNALUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_BUNGUSUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_STORMTROOPERUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ENFORCER_NEMESIS2UNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/NEMFORCER_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/NEMFORCER_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FREEMAGE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEMULTIKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEFASTBOSS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEAIRBORNEMULTIKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGECLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCDONTTOUCHGROUND_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCXSKILLSINYSECONDS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCCOMPLETETRIALWITHFULLHEALTH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_MERCENARY_NEMESISSKIN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMMERC_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMESIS_MERCENARY_KNIFE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMESIS_MERCENARY_SLIDE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMESIS_MERCENARY_CLONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMESIS_MERCENARY_NEMESIS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_UNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_LUNARSHARDUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_HEALUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_TORPORUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_CRUELSUNUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_POISONUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/PALADIN_CLAYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RESCUETREEBOT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTLOWHEALTHTELEPORTER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTDUNKCLAYBOSS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTBIGHEAL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DEFEATSUPERROBOBALLBOSS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERSPEEDRUN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERBIGSLAM_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERKILLLOADERS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_UNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_CRUSHUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_CRACKUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_CAVEINUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_MONSOONUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_TYPHOONUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_TUNDRAUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_PUPLEUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/MINER_BLACKSMITHUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BEATARENA_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOKILLWEAKENEMIESMILESTONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOKILLSCAVENGER_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOTOTALINFECTIONSMILESTONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_CROCO_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEMAINENDING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINSUPPLYDROPFINALE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINVISITSEVERALSTAGES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINBUYMEGADRONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_CAPTAIN_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_EXECUTIONER_MASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_EXECUTIONER_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERCONSECUTIVEWEAKPOINTS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERDEALMASSIVEDAMAGE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERAIRBORNEMULTIKILL_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINHERETICUNLOCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEVOIDENDING_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_VOIDSURVIVORCLEARGAMEMONSOON_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/HABIBI_TESLA_BODY_SHIELDZAPUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/HABIBI_TESLA_BODY_BIGZAPUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/HABIBI_TESLA_BODY_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/HABIBI_TESLA_BODY_GRANDMASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/HABIBI_DESOLATOR_BODY_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SNIPERCLASSIC_CHARACTERUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SNIPERCLASSIC_MASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SNIPERCLASSIC_GRANDMASTERYUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/CHEF_CHEFUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/CHEF_SLICEUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINROCKETHOMINGUNLOCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOFFEINROCKETMARKETGARDENUNLOCK_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTBOMB_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_COGNATION_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTCOMMAND_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTELITEONLY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTENIGMA_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTFRIENDLYFIRE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTGLASS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTMIXENEMY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTMONSTERTEAMGAINSITEMS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTRANDOMSURVIVORONRESPAWN_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSACRIFICE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSHADOWCLONE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSINGLEMONSTERTYPE_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSWARMS_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTTEAMDEATH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTWEAKASSKNEES_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTWISPONDEATH_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_EXECUTIONER_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_EXECUTIONER_MASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMESIS_MERCENARY_MASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMMANDO_MASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/NEMFORCER_DOMINANCEUNLOCKABLE_ACHIEVEMENT_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMMANDO_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMESIS_MERCENARY_GRANDMASTERY_NAME
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_STATS/
+[Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_MORGUE/
+[Warning: Unity Log] LogbookChanger
+[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
+[Info   : Unity Log] Setting offline scene to logbook
 [Info   : Unity Log] Unloaded scene title
 [Warning:     R2API] This version of R2API was built for build id "1.2.4.1", you are running "1.2.4.4".
 [Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
-[Error  : Unity Log] UnityEngine.AddressableAssets.InvalidKeyException: Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown., Key=RoR2/Base/Common/Fonts/Bombardier/tmpbombdropshadow.asset, Type=TMPro.TMP_FontAsset
-[Error  : Unity Log] UnityEngine.AddressableAssets.InvalidKeyException: Exception of type 'UnityEngine.AddressableAssets.InvalidKeyException' was thrown., Key=RoR2/Base/Common/Fonts/Bombardier/tmpbombdropshadow.asset, Type=TMPro.TMP_FontAsset
-[Info   : Unity Log] Active scene changed from  to lobby
-[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
-[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
-[Info   : Unity Log] NetworkManagerSystem.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:259 pos:259
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby loadedScenes=lobby
-[Error  : Unity Log] A connection has already been set as ready. There can only be one.
-[Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=7, bodyIndex=48
-[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from None to 48
-[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from None to 48
-[Info   : Unity Log] Could not load config /Config/server_pregame.cfg: Could not find file "G:\SteamLibrary\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\server_pregame.cfg"
-[Info   : Unity Log] Attempting to generate PreGameVoteController for blazingdrummer
-[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
-[Info   : Unity Log] Received vote from blazingdrummer
-[Info   : Unity Log] Accepting vote from blazingdrummer
-[Info   : Unity Log] <style=cEvent>blazingdrummer connected.</color>
-[Info   : Unity Log] EnforcerDisplay(Clone) (RoR2.CharacterSelectSurvivorPreviewDisplayController) User: 76561198049280708
-[Info   : Unity Log] SetSurvivorPreferenceClient survivorIndex=15, bodyIndex=36
-[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 48 to 36
-[Info   : Unity Log] Changinging body preference for blazingdrummer (RoR2.NetworkUserId) from 48 to 36
-[Info   : Unity Log] Run seed:  5151036161539699465
-[Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.ClassicStageInfo.RebuildCards
-[Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.GameOverController.SetRunReport
-[Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.UI.HealthBar.ApplyBars
-[Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.Run.PickNextStageSceneFromCurrentSceneDestinations
-[Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.HealthComponent.Heal
-[Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.HealthComponent.TakeDamage
-[Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.CharacterModel.UpdateOverlays
-[Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.GlobalEventManager.OnHitEnemy
-[Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.CharacterBody.RecalculateStats
-[Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.CharacterMaster.GetDeployableSameSlotLimit
-[Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.GlobalEventManager.OnPlayerCharacterDeath
-[Info   : Unity Log] SetupUserCharacterMaster:  blazingdrummer
-[Error  :StandaloneAncientScepter] Invalid Scepter Replacement for body:MageBody,slot:Special,with skill:ANCIENTSCEPTER_MAGE_FLYUPNAME
-[Debug  :AchievementPins] Fetching Random Pins
-[Debug  :ShrineOfDisorder] Tier1 Drop List: ItemIndex.ArmedBackpack, ItemIndex.ArmorPlate, ItemIndex.AttackSpeedAndMoveSpeed, ItemIndex.BarrierOnKill, ItemIndex.Bear, ItemIndex.BleedOnHit, ItemIndex.BossDamageBonus, ItemIndex.CoffeeBag, ItemIndex.CritGlasses, ItemIndex.Crowbar, ItemIndex.DetritiveTrematode, ItemIndex.Firework, ItemIndex.FlatHealth, ItemIndex.FragileDamageBonus, ItemIndex.GoldOnHurt, ItemIndex.HealWhileSafe, ItemIndex.HealingPotion, ItemIndex.Hoof, ItemIndex.IgniteOnKill, ItemIndex.Malice, ItemIndex.Medkit, ItemIndex.MoltenCoin, ItemIndex.Mushroom, ItemIndex.NearbyDamageBonus, ItemIndex.OutOfCombatArmor, ItemIndex.PersonalShield, ItemIndex.SecondarySkillMagazine, ItemIndex.SprintBonus, ItemIndex.StickyBomb, ItemIndex.StunChanceOnHit, ItemIndex.Syringe, ItemIndex.Tooth, ItemIndex.TreasureCache, ItemIndex.WardOnLevel, ItemIndex.X4
-[Debug  :ShrineOfDisorder] Tier2 Drop List: ItemIndex.AttackSpeedOnCrit, ItemIndex.Bandolier, ItemIndex.BonusGoldPackOnKill, ItemIndex.ChainLightning, ItemIndex.DeathMark, ItemIndex.EnergizedOnEquipmentUse, ItemIndex.EquipmentMagazine, ItemIndex.ExecuteLowHealthElite, ItemIndex.ExplodeOnDeath, ItemIndex.Feather, ItemIndex.FireRing, ItemIndex.FreeChest, ItemIndex.HealOnCrit, ItemIndex.HuntersSigil, ItemIndex.IceRing, ItemIndex.Infusion, ItemIndex.JetBoots, ItemIndex.JumpBoost, ItemIndex.LowQualitySpeakers, ItemIndex.Missile, ItemIndex.MoveSpeedOnKill, ItemIndex.Phasing, ItemIndex.PrimarySkillShuriken, ItemIndex.RegeneratingScrap, ItemIndex.Seed, ItemIndex.SlowOnHit, ItemIndex.SprintArmor, ItemIndex.SprintOutOfCombat, ItemIndex.Squid, ItemIndex.StrengthenBurn, ItemIndex.TPHealingNova, ItemIndex.Thorns, ItemIndex.WarCryOnMultiKill, ItemIndex.WatchMetronome
-[Debug  :ShrineOfDisorder] Tier3 Drop List: ItemIndex.AlienHead, ItemIndex.ArmorReductionOnHit, ItemIndex.BarrierOnOverHeal, ItemIndex.Behemoth, ItemIndex.BounceNearby, ItemIndex.Clover, ItemIndex.CritDamage, ItemIndex.Dagger, ItemIndex.DroidHead, ItemIndex.DroneWeapons, ItemIndex.ExtraLife, ItemIndex.FallBoots, ItemIndex.GhostOnKill, ItemIndex.GreenChocolate, ItemIndex.HeadHunter, ItemIndex.ITEM_ANCIENT_SCEPTER, ItemIndex.Icicle, ItemIndex.ImmuneToDebuff, ItemIndex.IncreaseHealing, ItemIndex.Insecticide, ItemIndex.KillEliteFrenzy, ItemIndex.LaserTurbine, ItemIndex.MoreMissile, ItemIndex.NkotasHeritage, ItemIndex.NovaOnHeal, ItemIndex.PermanentDebuffOnHit, ItemIndex.Plant, ItemIndex.PortableReactor, ItemIndex.RandomEquipmentTrigger, ItemIndex.ShockNearby, ItemIndex.SwiftSkateboard, ItemIndex.Talisman, ItemIndex.UtilitySkillMagazine
-[Debug  :ShrineOfDisorder] Lunar Drop List: ItemIndex.AutoCastEquipment, ItemIndex.FocusConvergence, ItemIndex.GoldOnHit, ItemIndex.HalfAttackSpeedHalfCooldowns, ItemIndex.HalfSpeedDoubleHealth, ItemIndex.LunarBadLuck, ItemIndex.LunarDagger, ItemIndex.LunarPrimaryReplacement, ItemIndex.LunarSecondaryReplacement, ItemIndex.LunarSpecialReplacement, ItemIndex.LunarSun, ItemIndex.LunarTrinket, ItemIndex.LunarUtilityReplacement, ItemIndex.MonstersOnShrineUse, ItemIndex.RandomDamageZone, ItemIndex.RandomlyLunar, ItemIndex.RelicOfForce, ItemIndex.RelicOfMass, ItemIndex.RelicOfTermination, ItemIndex.RepeatHeal, ItemIndex.ShieldOnly
-[Debug  :ShrineOfDisorder] Boss Drop List: ItemIndex.BeetleGland, ItemIndex.BleedOnHitAndExplode, ItemIndex.FireballsOnHit, ItemIndex.Knurl, ItemIndex.LightningStrikeOnHit, ItemIndex.MinorConstructOnKill, ItemIndex.NovaOnLowHealth, ItemIndex.ParentEgg, ItemIndex.RoboBallBuddy, ItemIndex.ShackledLamp, ItemIndex.SiphonOnLowHealth, ItemIndex.SprintWisp
-[Debug  :ShrineOfDisorder] VoidTier1 Drop List: ItemIndex.BearVoid, ItemIndex.BleedOnHitVoid, ItemIndex.CritGlassesVoid, ItemIndex.MushroomVoid, ItemIndex.TreasureCacheVoid, ItemIndex.VV_ITEM_ADZE_ITEM, ItemIndex.VV_ITEM_CLOCKWORK_ITEM, ItemIndex.VV_ITEM_CRYOCANISTER_ITEM, ItemIndex.VV_ITEM_EHANCE_VIALS_ITEM, ItemIndex.VV_ITEM_EXT_EXHAUST_ITEM
-[Debug  :ShrineOfDisorder] VoidTier2 Drop List: ItemIndex.ChainLightningVoid, ItemIndex.ElementalRingVoid, ItemIndex.EquipmentMagazineVoid, ItemIndex.ExplodeOnDeathVoid, ItemIndex.MissileVoid, ItemIndex.SlowOnHitVoid, ItemIndex.VV_ITEM_BARRIERLOTUS_ITEM, ItemIndex.VV_ITEM_CORNUCOPIACELL_ITEM, ItemIndex.VV_ITEM_DASHQUILL_ITEM, ItemIndex.VV_ITEM_EXEBLADE_ITEM
-[Debug  :ShrineOfDisorder] VoidTier3 Drop List: ItemIndex.CloverVoid, ItemIndex.ExtraLifeVoid, ItemIndex.VV_ITEM_ORRERY_ITEM, ItemIndex.idVoidStompers
-[Debug  :ShrineOfDisorder] VoidBoss Drop List: ItemIndex.VoidMegaCrabItem
-[Warning: Unity Log] Changing Colors
-[Debug  :RoR2BepInExPack] Hook removed by assembly: WolfoQualityOfLife.dll for: RoR2.Run.Start
-[Info   : Unity Log] PickupDropTable 'dtDoppelganger' has been loaded after the Run started.  This might be an issue with asset duplication across bundles, or it might be fine.  Regenerating...
-[Info   : Unity Log] Unloaded scene lobby
-[Warning:     R2API] This version of R2API was built for build id "1.2.4.1", you are running "1.2.4.4".
-[Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
-[Info   : Unity Log] Active scene changed from  to golemplains2
-[Info   : Unity Log] Loaded scene golemplains2 loadSceneMode=Single
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=golemplains2 loadedScenes=golemplains2
-[Info   : Unity Log] Client ready.
-[Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] Wqol preSceneDic
-[Info   : Unity Log] Spending 220 credits on interactables...
-[Info   : Unity Log] SceneDirector.PopulateScene:  PlayerCharacterMasterController count=1, PlatformSystems.lobbyManager.calculatedTotalPlayerCount=0
-[Info   : Unity Log] MAP_GOLEMPLAINS_TITLE
-[Info   : Unity Log] reorder list
-[Warning:ZetAspects] ScenePopulated : Drops Enabled
-[Warning:ZetAspects] RunDropCount : 0
-[Warning:ZetAspects] BaseDropChance : 0.2% : [base]0.2% x [decay]1 x [player]1 x [stage]1
-[Debug  :RoR2BepInExPack] Hook removed by assembly: WolfoQualityOfLife.dll for: RoR2.Projectile.ProjectileManager.FireProjectile
-[Debug  :RoR2BepInExPack] Hook added by assembly: WolfoQualityOfLife.dll for: EntityStates.Bell.BellWeapon.ChargeTrioBomb.OnEnter
-[Info   : Unity Log] SurvivorPodBaseState.OnEnter Descent, blazingdrummer
-[Debug  :RoR2BepInExPack] Hook added by assembly: CorpseBloomReborn.dll for: RoR2.HealthComponent.Heal
-[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
-[Info   : Unity Log] SurvivorPodBaseState.OnEnter Landed, blazingdrummer
-[Info   : Unity Log] SurvivorPodBaseState.OnEnter PreRelease, blazingdrummer
-[Info   : Unity Log] SurvivorPodBaseState.OnEnter Release, blazingdrummer
-[Info   : Unity Log] SurvivorPodBaseState.OnEnter ReleaseFinished, ???
-[Info   : Unity Log] Gave 1 lunar coin(s).
-[Info   : Unity Log] NetworkManagerSystem.desiredHost={ hostType=None }
-[Info   : Unity Log] Network shutting down...
-[Info   : Unity Log] Server shutting down...
-[Info   : Unity Log] Issued kick message to all remote clients.
-[Info   : Unity Log] Finished waiting for clients to disconnect.
-[Info   : Unity Log] StopHost()
-[Debug  :RoR2BepInExPack] Hook removed by assembly: FHCSharp.dll for: RoR2.ClassicStageInfo.RebuildCards
-[Debug  :RoR2BepInExPack] Hook removed by assembly: FHCSharp.dll for: RoR2.GameOverController.SetRunReport
-[Debug  :RoR2BepInExPack] Hook removed by assembly: FHCSharp.dll for: RoR2.UI.HealthBar.ApplyBars
-[Debug  :RoR2BepInExPack] Hook removed by assembly: FHCSharp.dll for: RoR2.Run.PickNextStageSceneFromCurrentSceneDestinations
-[Debug  :RoR2BepInExPack] Hook removed by assembly: FHCSharp.dll for: RoR2.HealthComponent.Heal
-[Debug  :RoR2BepInExPack] Hook removed by assembly: FHCSharp.dll for: RoR2.HealthComponent.TakeDamage
-[Debug  :RoR2BepInExPack] Hook removed by assembly: FHCSharp.dll for: RoR2.CharacterModel.UpdateOverlays
-[Debug  :RoR2BepInExPack] Hook removed by assembly: FHCSharp.dll for: RoR2.GlobalEventManager.OnHitEnemy
-[Debug  :RoR2BepInExPack] Hook removed by assembly: FHCSharp.dll for: RoR2.CharacterBody.RecalculateStats
-[Debug  :RoR2BepInExPack] Hook removed by assembly: FHCSharp.dll for: RoR2.CharacterMaster.GetDeployableSameSlotLimit
-[Debug  :RoR2BepInExPack] Hook removed by assembly: FHCSharp.dll for: RoR2.GlobalEventManager.OnPlayerCharacterDeath
-[Info   : Unity Log] Server shutdown complete.
-[Debug  :RoR2BepInExPack] Hook removed by assembly: Starstorm2.dll for: RoR2.CombatDirector.Awake
-[Info   : Unity Log] Unloaded scene golemplains2
+[Warning: Unity Log] logbook has no groundNodesAsset
+[Warning: Unity Log] logbook has no airNodesAsset
+[Info   : Unity Log] Active scene changed from  to logbook
+[Info   : Unity Log] Loaded scene logbook loadSceneMode=Single
+[Info   : Unity Log] Building category buttons.
+[Info   : Unity Log] Setting offline scene to title
+[Info   : Unity Log] Unloaded scene logbook
 [Warning:     R2API] This version of R2API was built for build id "1.2.4.1", you are running "1.2.4.4".
 [Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
 [Info   : Unity Log] Active scene changed from  to title
@@ -2999,20 +3989,3 @@ RoR2.RoR2Application.Update () (at <1d532be543be416b9db3594e4b62447d>:IL_005F)
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] Saved file "cb4410e9-7cac-4f82-a802-12a9346834f8.xml" (313197 bytes)
-[Info   : Unity Log] in save archive convars
-[Info   : Unity Log] Shutting down Steamworks...
-[Info   : Unity Log] Shut down Steamworks.
-[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
-[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
-[Debug  :RoR2BepInExPack] Hook removed by assembly: BetterCommand.dll for: RoR2.PickupPickerController.SetOptionsFromPickupForCommandArtifact
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Difficulty.dll for: RoR2.DifficultyCatalog.GetDifficultyDef
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Difficulty.dll for: RoR2.RuleDef.FromDifficulty
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Director.dll for: RoR2.ClassicStageInfo.Start
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Director.dll for: RoR2.SceneCatalog.Init
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Language.dll for: RoR2.Language.GetLocalizedStringByToken
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Language.dll for: RoR2.Language.TokenIsRegistered
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.ModelSkinController.ApplySkin
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Sound.dll for: RoR2.MusicController.Start
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Sound.dll for: RoR2.MusicController.UpdateState
-[Info   :FixPluginTypesSerialization] Restored original AssemblyNames list
