@@ -2,8 +2,8 @@ HAN-D is a tanky melee survivor who can heal himself and his allies to stay in t
 
 We are looking for translators! Check the languages folder on the [GitHub](https://github.com/Moffein/HAN-D_OVERCLOCKED/tree/master/language) if you would like to submit a translation for your language.
 
-[![](https://i.imgur.com/9pHqh2i.jpg)]()
-[![](https://i.imgur.com/5HoCYrq.png)]()
+[![](https://github.com/Moffein/HAN-D_OVERCLOCKED/blob/master/RELEASE/images/lobby.jpg?raw=true)](https://github.com/Moffein/HAN-D_OVERCLOCKED/blob/master/RELEASE/images/lobby.jpg?raw=true)
+[![](https://github.com/Moffein/HAN-D_OVERCLOCKED/blob/master/RELEASE/images/portrait.png?raw=true)](https://github.com/Moffein/HAN-D_OVERCLOCKED/blob/master/RELEASE/images/portrait.png?raw=true)
 
 ## For Skin Creators
 
@@ -23,6 +23,8 @@ TheTimesweeper - HenryMod template, help with Unity/Animations, general polish. 
 dotflare - HAN-D Model + Anims
 
 LucidInceptor - DRONE Model
+
+FORCED_REASSEMBLY - Hopoo Model Port and Grandmastery
 
 PapaZach - Skill Icons
 
@@ -55,6 +57,16 @@ Juhnter - Spanish translation
 Kauzok - Portuguese translation
 
 ## Changelog
+
+`1.4.0`
+
+- Added Hopoo's HAN-D skin.
+- Added Grandmastery.  
+	*Thanks FORCED_REASSEMBLY!*
+- toned down edge wear on default textures
+- Learned how to do speculars
+- Fixed animations breaking at high attack speed
+	*Thanks Timesweeper!*
 
 `1.3.1`
 

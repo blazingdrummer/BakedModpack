@@ -1771,10 +1771,10 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 3
-    patch: 1
+    minor: 4
+    patch: 0
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-HAND_OVERCLOCKED\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\EnforcerGang-HAND_OVERCLOCKED\1.4.0\icon.png
 - manifestVersion: 1
   name: EnforcerGang-MinerUnearthed
   authorName: EnforcerGang
@@ -2025,7 +2025,7 @@
     minor: 5
     patch: 9
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\Zenithrium-VanillaVoid\1.5.9\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Zenithrium-VanillaVoid\icon.png
 - manifestVersion: 1
   name: Moffein-BlightedElites
   authorName: Moffein

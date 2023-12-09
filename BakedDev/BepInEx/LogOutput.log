@@ -1101,16 +1101,28 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Debug  :RoR2BepInExPack] Hook added by assembly: Starstorm2.dll for: RoR2.UI.HGTextMeshProUGUI.Awake
 [Info   :   BepInEx] TS Manifest: EnforcerGang-Enforcer-3.7.4
 [Info   :   BepInEx] Loading [Enforcer 3.7.4]
-[Info   :   BepInEx] TS Manifest: EnforcerGang-HAND_OVERCLOCKED-1.3.1
-[Info   :   BepInEx] Loading [HAN-D Overclocked 1.3.0]
+[Info   :   BepInEx] TS Manifest: EnforcerGang-HAND_OVERCLOCKED-1.4.0
+[Info   :   BepInEx] Loading [HAN-D Overclocked 1.4.0]
 [Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.Language.SetFolders
 [Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.HealthComponent.TakeDamage
 [Info   :R2API.ContentManagement] Created a SerializableContentPack for mod com.EnforcerGang.HANDOverclocked
+[Error  : Unity Log] Material doesn't have a float or range property '_BumpScale'
+[Error  : Unity Log] Material doesn't have a color property '_EmissionColor'
+[Error  : Unity Log] Material doesn't have a float or range property '_BumpScale'
 [Message:StandaloneAncientScepter] Adding scepter skill for "HANDOverclockedBody" (ChargeSlamScepter)
 [Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
 [Debug  :RoR2BepInExPack] Hook removed by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Warning:HAN-D Overclocked] skin1
 [Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
 [Debug  :RoR2BepInExPack] Hook removed by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Warning:HAN-D Overclocked] skin2
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Warning:HAN-D Overclocked] skin3
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Warning:HAN-D Overclocked] skin4
+[Warning:HAN-D Overclocked] skin69
 [Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.ProjectileGhostReplacementManager.Init
 [Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.ModelSkinController.ApplySkin
 [Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.CharacterModel.UpdateItemDisplay
@@ -1118,7 +1130,13 @@ Invalid follower prefab for entry mdlBandit2. The follower prefab (PickupLaserEy
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "BBBoulderMediumRound1" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "WPPlatform1FullRing" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
 [Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "mdlIcoRockL" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+[Error  : Unity Log] Material doesn't have a float or range property '_BumpScale'
+[Error  : Unity Log] Material doesn't have a color property '_EmissionColor'
+[Error  : Unity Log] Material doesn't have a float or range property '_BumpScale'
 [Error  : Unity Log] A game object can only be in one layer. The layer needs to be in the range [0...31]
+[Error  : Unity Log] Material doesn't have a float or range property '_BumpScale'
+[Error  : Unity Log] Material doesn't have a color property '_EmissionColor'
+[Error  : Unity Log] Material doesn't have a float or range property '_BumpScale'
 [Error  : Unity Log] A game object can only be in one layer. The layer needs to be in the range [0...31]
 [Info   :   BepInEx] TS Manifest: EnforcerGang-Rocket-0.9.8
 [Info   :   BepInEx] Loading [RocketSurvivor 0.9.5]
@@ -1510,34 +1528,34 @@ FlashWindow:.cctor()
 [Debug  :RoR2BepInExPack] Hook added by assembly: BetterUnityPlugin.dll for: EntityStates.Barrel.Opened.OnEnter
 [Info   :   BepInEx] TS Manifest: PlasmaCore3-Forgotten_Relics-1.1.24
 [Info   :   BepInEx] Loading [ForgottenRelics 1.1.23]
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Loaded assetbundles @188 ms
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up expansion @335 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Loaded assetbundles @11 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up expansion @71 ms
 [Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
 [Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
 [Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
 [Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Image') is missing!
 [Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.XmlUtility.ToXml
 [Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.XmlUtility.FromXml
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Initailized persistent unlockables @1621 ms
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Replaced shader stubs @1674 ms
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Initailized DirectorHelper @1674 ms
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: SotV finished loading @1674 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Initailized persistent unlockables @354 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Replaced shader stubs @407 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Initailized DirectorHelper @408 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: SotV finished loading @408 ms
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: AddressableDCCSPool: Loading DCCS adccsDBMonsterDLC1
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: AddressableDCCSPool: Loading DCCS adccsDBMonster
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Loaded adressable DCCSs @2342 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Loaded adressable DCCSs @1079 ms
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Registered scene Forgotten Haven
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Registered scene Dry Basin
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Registered scene Slumbering Satellite
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up stages @2518 ms
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up hazards @2518 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up stages @1218 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up hazards @1218 ms
 [Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.ItemDisplayRuleSet.Init
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Sages Book
 [Debug  :RoR2BepInExPack] Hook added by assembly: FHCSharp.dll for: RoR2.Items.ContagiousItemManager.Init
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Emperean Braces
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up misc items
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Items @2586 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Items @1295 ms
 [Warning: Unity Log] The prefab 'ShatteredTeleporterPrefab' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up FH entry prefabs @2586 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up FH entry prefabs @1296 ms
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Added idrs to model mdlSanctumWisp
 [Info   :R2API.ContentManagement] Created a SerializableContentPack for mod PlasmaCore.ForgottenRelics
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Sanctum Wisp
@@ -1546,8 +1564,8 @@ FlashWindow:.cctor()
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Coil Golem
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Added idrs to model mdlBrassMonolith
 [Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up BrassMonolith
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Characters @2878 ms
-[Info   : Unity Log] [FRPlugin.PlasmaCore]: Completed VF2ContentPackProvider.Init in 2.878 seconds
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Set up Characters @1570 ms
+[Info   : Unity Log] [FRPlugin.PlasmaCore]: Completed VF2ContentPackProvider.Init in 1.57 seconds
 [Info   :   BepInEx] TS Manifest: prodzpod-AchievementPins-1.0.0
 [Info   :   BepInEx] Loading [AchievementPins 1.0.0]
 [Debug  :RoR2BepInExPack] Hook added by assembly: AchievementPins.dll for: RoR2.UI.ScoreboardController.OnEnable
@@ -1571,13 +1589,13 @@ FlashWindow:.cctor()
 [Warning: Unity Log] Could not find scene with name "loadingbasic".
 [Debug  :RoR2BepInExPack] Assembly.GetTypes() failed for Enforcer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (threw ReflectionTypeLoadException). System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
   at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
-  at DMD<GetTypes>?-1187973888._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <b4d883078aa54d37b684db085d674bba>:IL_0000 
-  at DMD<>?-1187973888.Trampoline<System.Reflection.Assembly::GetTypes>?2068804608 (System.Reflection.Assembly ) [0x00020] in <ca3f90372ab2452ba6f004f9695436b1>:IL_0020 
+  at DMD<GetTypes>?513864960._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <81f8d5c4f0494584b807a37b38b93d3f>:IL_0000 
+  at DMD<>?513864960.Trampoline<System.Reflection.Assembly::GetTypes>?-1226633216 (System.Reflection.Assembly ) [0x00020] in <b3baa1ab5c7244ff82fea7e6c708e6b7>:IL_0020 
   at RoR2BepInExPack.ReflectionHooks.AutoCatchReflectionTypeLoadException.SaferGetTypes (System.Func`2[T,TResult] orig, System.Reflection.Assembly self) [0x00006] in <2bcb8393d2c84704a39e3975f11a1ae0>:IL_0006 
 [Debug  :RoR2BepInExPack] Assembly.GetTypes() failed for TeslaTrooperMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (threw ReflectionTypeLoadException). System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
   at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
-  at DMD<GetTypes>?-1187973888._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <b4d883078aa54d37b684db085d674bba>:IL_0000 
-  at DMD<>?-1187973888.Trampoline<System.Reflection.Assembly::GetTypes>?2068804608 (System.Reflection.Assembly ) [0x00020] in <ca3f90372ab2452ba6f004f9695436b1>:IL_0020 
+  at DMD<GetTypes>?513864960._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <81f8d5c4f0494584b807a37b38b93d3f>:IL_0000 
+  at DMD<>?513864960.Trampoline<System.Reflection.Assembly::GetTypes>?-1226633216 (System.Reflection.Assembly ) [0x00020] in <b3baa1ab5c7244ff82fea7e6c708e6b7>:IL_0020 
   at RoR2BepInExPack.ReflectionHooks.AutoCatchReflectionTypeLoadException.SaferGetTypes (System.Func`2[T,TResult] orig, System.Reflection.Assembly self) [0x00006] in <2bcb8393d2c84704a39e3975f11a1ae0>:IL_0006 
 [Info   : Unity Log] Active scene changed from  to loadingbasic
 [Info   : Unity Log] Loaded scene loadingbasic loadSceneMode=2
@@ -1585,7 +1603,7 @@ FlashWindow:.cctor()
 [Info   :     R2API] com.Borbo.HuntressBuffULTIMATE;1.1.1
 [Info   :     R2API] com.DestroyedClone.AncientScepter;1.1.32
 [Info   :     R2API] com.EnforcerGang.Enforcer;3.7.4
-[Info   :     R2API] com.EnforcerGang.HANDOverclocked;1.3.0
+[Info   :     R2API] com.EnforcerGang.HANDOverclocked;1.4.0
 [Info   :     R2API] com.EnforcerGang.RocketSurvivor;0.9.5
 [Info   :     R2API] com.Gnome.ChefMod;2.2.0
 [Info   :     R2API] com.Moffein.ArchaicWisp;1.1.1
@@ -1888,7 +1906,7 @@ FlashWindow:.cctor()
 [Debug  :Moonstorm Shared Utils] Getting the Characters found inside Starstorm2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null... :: Line: 115, Method GetCharacterBases
 [Debug  :Moonstorm Shared Utils] Character Moonstorm.Starstorm2.Monsters.Lamp Initialized and ensured it's body and master prefabs in ContentPack :: Line: 152, Method InitializeContent
 [Debug  :RoR2BepInExPack] Hook added by assembly: Starstorm2.dll for: RoR2.CharacterBody.AddBuff
-[Info   : Unity Log] You stand alone in the dark. - 12.28648314225
+[Info   : Unity Log] You stand alone in the dark. - 12.2967426110509
 [Debug  :Moonstorm Shared Utils] Character Moonstorm.Starstorm2.Monsters.LampBoss Initialized and ensured it's body and master prefabs in ContentPack :: Line: 152, Method InitializeContent
 [Debug  :Moonstorm Shared Utils] Character Moonstorm.Starstorm2.Monsters.Runshroom Initialized and ensured it's body and master prefabs in ContentPack :: Line: 152, Method InitializeContent
 [Debug  :RoR2BepInExPack] Hook added by assembly: Starstorm2.dll for: RoR2.HealthComponent.GetHealthBarValues
@@ -2043,11 +2061,11 @@ FlashWindow:.cctor()
 [Error  : Unity Log] Material doesn't have a float or range property '_DistortionStrength'
 [Error  : Unity Log] Material doesn't have a float or range property '_FresnelPower'
 [Error  : Unity Log] Material doesn't have a float or range property '_OffsetAmount'
+[Warning: Unity Log] Failed to assign Buffs.Deafened: Asset "bdDeafened" not found.
 [Warning: Unity Log] Failed to assign Items.SummonedEcho: Asset "SummonedEcho" not found.
 [Warning: Unity Log] Failed to assign Equipment.AffixEcho: Asset "EliteEchoEquipment" not found.
 [Warning: Unity Log] Failed to assign Buffs.AffixEcho: Asset "bdEliteEcho" not found.
 [Warning: Unity Log] Failed to assign Elites.Echo: Asset "edEcho" not found.
-[Warning: Unity Log] Failed to assign Buffs.Deafened: Asset "bdDeafened" not found.
 [Debug  :R2API.ContentManagement] Content added from com.TheTimeSweeper.TeslaTrooper:
 DeployProjectile (GameObject)
 DeployProjectileEmote (GameObject)
@@ -2478,7 +2496,7 @@ Perish Song (BuffDef)
 [Error  : Unity Log] could not load display for DisplayLightning
 [Warning: Unity Log] Could not find scene with name "loadingbasic".
 [Info   : Unity Log] Command "set_scene" failed: "intro" is not a valid scene.
-[Info   : Unity Log] Game content load completed in 17427ms.
+[Info   : Unity Log] Game content load completed in 13576ms.
 [Info   : Unity Log] Setting current language to "en"
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.Executioner.AimIonSummon (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.Executioner.FireIonSummon (RoR2.EntityStateConfiguration)) failed: state type is null.
@@ -2572,13 +2590,13 @@ Perish Song (BuffDef)
 [Debug  :RoR2BepInExPack] Hook added by assembly: Starstorm2.dll for: RoR2.CharacterMaster.OnInventoryChanged
 [Debug  :RoR2BepInExPack] Assembly.GetTypes() failed for Enforcer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (threw ReflectionTypeLoadException). System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
   at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
-  at DMD<GetTypes>?-1187973888._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <b4d883078aa54d37b684db085d674bba>:IL_0000 
-  at DMD<>?-1187973888.Trampoline<System.Reflection.Assembly::GetTypes>?2068804608 (System.Reflection.Assembly ) [0x00020] in <ca3f90372ab2452ba6f004f9695436b1>:IL_0020 
+  at DMD<GetTypes>?513864960._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <81f8d5c4f0494584b807a37b38b93d3f>:IL_0000 
+  at DMD<>?513864960.Trampoline<System.Reflection.Assembly::GetTypes>?-1226633216 (System.Reflection.Assembly ) [0x00020] in <b3baa1ab5c7244ff82fea7e6c708e6b7>:IL_0020 
   at RoR2BepInExPack.ReflectionHooks.AutoCatchReflectionTypeLoadException.SaferGetTypes (System.Func`2[T,TResult] orig, System.Reflection.Assembly self) [0x00006] in <2bcb8393d2c84704a39e3975f11a1ae0>:IL_0006 
 [Debug  :RoR2BepInExPack] Assembly.GetTypes() failed for TeslaTrooperMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (threw ReflectionTypeLoadException). System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
   at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
-  at DMD<GetTypes>?-1187973888._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <b4d883078aa54d37b684db085d674bba>:IL_0000 
-  at DMD<>?-1187973888.Trampoline<System.Reflection.Assembly::GetTypes>?2068804608 (System.Reflection.Assembly ) [0x00020] in <ca3f90372ab2452ba6f004f9695436b1>:IL_0020 
+  at DMD<GetTypes>?513864960._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <81f8d5c4f0494584b807a37b38b93d3f>:IL_0000 
+  at DMD<>?513864960.Trampoline<System.Reflection.Assembly::GetTypes>?-1226633216 (System.Reflection.Assembly ) [0x00020] in <b3baa1ab5c7244ff82fea7e6c708e6b7>:IL_0020 
   at RoR2BepInExPack.ReflectionHooks.AutoCatchReflectionTypeLoadException.SaferGetTypes (System.Func`2[T,TResult] orig, System.Reflection.Assembly self) [0x00006] in <2bcb8393d2c84704a39e3975f11a1ae0>:IL_0006 
 [Info   : Unity Log] [RoR2.ItemDisplayRuleSet] [FRPlugin.PlasmaCore]: Setting up IDRS| Original:13 Duplicators:1 to Bodies: 182
 [Warning:ZetAspects] Catalog Setup Initialized
@@ -2757,7 +2775,7 @@ RoR2.EOSLobbyDataGenerator
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/cb4410e9-7cac-4f82-a802-12a9346834f8.xml
 [Info   : Unity Log] stream.Length=313197
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/d92d17bd-d2d8-48d4-ac8d-ac647c4f06bd.xml
-[Info   : Unity Log] stream.Length=283782
+[Info   : Unity Log] stream.Length=283780
 [Debug  :AchievementPins] Adding Achievements...
 [Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.CharacterBody.FixedUpdate
 [Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SceneDirector.Start
@@ -2768,7 +2786,7 @@ RoR2.EOSLobbyDataGenerator
 [Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
 [Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
 [Warning:Starstorm 2] NemMercenaryCloneUnlock
-[Debug  :AchievementPins] Achievements: 159
+[Debug  :AchievementPins] Achievements: 160
 [Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_EXECUTIONER_GRANDMASTERY_NAME
 [Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_EXECUTIONER_MASTERY_NAME
 [Info   : Unity Log] Tried to add duplicate node /Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/SS2_ACHIEVEMENT_NEMMANDO_GRANDMASTERY_NAME
@@ -2839,10 +2857,20 @@ RoR2.EOSLobbyDataGenerator
 [Info   : Unity Log] Active scene changed from  to intro
 [Info   : Unity Log] Loaded scene intro loadSceneMode=Single
 [Info   : Unity Log] Setting offline scene to title
+[Info   : Unity Log] Setting offline scene to title
+[Info   : Unity Log] Setting offline scene to title
 [Info   : Unity Log] Unloaded scene intro
 [Warning:     R2API] This version of R2API was built for build id "1.2.4.1", you are running "1.2.4.4".
 [Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
+[Warning:     R2API] This version of R2API was built for build id "1.2.4.1", you are running "1.2.4.4".
+[Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
+[Warning:     R2API] This version of R2API was built for build id "1.2.4.1", you are running "1.2.4.4".
+[Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
 [Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Error  : Unity Log] We already have a cached value for Decalicious/Unlit Decal.
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Error  : Unity Log] We already have a cached value for Decalicious/Unlit Decal.
 [Info   : Unity Log] Loaded scene title loadSceneMode=Single
 [Info   : Unity Log] BaseMainMenuScreen: OnEnter()
 [Warning:ZetAspects] EquipObtainable : False
@@ -2865,22 +2893,40 @@ RoR2.RoR2Application.Update () (at <1d532be543be416b9db3594e4b62447d>:IL_005F)
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] Saved file "d92d17bd-d2d8-48d4-ac8d-ac647c4f06bd.xml" (283780 bytes)
+[Info   : Unity Log] Setting offline scene to logbook
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] Unloaded scene title
+[Warning:     R2API] This version of R2API was built for build id "1.2.4.1", you are running "1.2.4.4".
+[Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
+[Warning: Unity Log] logbook has no groundNodesAsset
+[Warning: Unity Log] logbook has no airNodesAsset
+[Info   : Unity Log] Active scene changed from  to logbook
+[Info   : Unity Log] Loaded scene logbook loadSceneMode=Single
+[Info   : Unity Log] Building category buttons.
+[Info   : Unity Log] Saved file "d92d17bd-d2d8-48d4-ac8d-ac647c4f06bd.xml" (283875 bytes)
+[Info   : Unity Log] Setting offline scene to title
+[Info   : Unity Log] Unloaded scene logbook
+[Warning:     R2API] This version of R2API was built for build id "1.2.4.1", you are running "1.2.4.4".
+[Warning:     R2API] Should any problems arise, please check for a new version before reporting issues.
+[Info   : Unity Log] Active scene changed from  to title
+[Info   : Unity Log] Loaded scene title loadSceneMode=Single
+[Info   : Unity Log] BaseMainMenuScreen: OnEnter()
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object.
+Stack trace:
+RoR2.UI.SkinControllers.ButtonSkinController.StaticUpdate () (at <1d532be543be416b9db3594e4b62447d>:IL_0014)
+RoR2.RoR2Application.Update () (at <1d532be543be416b9db3594e4b62447d>:IL_005F)
+
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Saved file "d92d17bd-d2d8-48d4-ac8d-ac647c4f06bd.xml" (283875 bytes)
 [Info   : Unity Log] in save archive convars
 [Info   : Unity Log] Shutting down Steamworks...
 [Info   : Unity Log] Shut down Steamworks.
-[Error  : Unity Log] NullReferenceException
-Stack trace:
-UnityEngine.Component.GetComponent[T] () (at <469e86e97fa2467ebffe49bbd6086325>:IL_0021)
-RoR2.UI.LogBook.LogBookController.GetMonsterStatus (RoR2.UI.LogBook.Entry& entry, RoR2.UserProfile viewerProfile) (at <1d532be543be416b9db3594e4b62447d>:IL_000D)
-RoR2.UI.LogBook.Entry.GetStatus (RoR2.UserProfile viewerProfile) (at <1d532be543be416b9db3594e4b62447d>:IL_0006)
-RoR2.UI.LogBook.LogBookController+<>c__DisplayClass95_1.<RegisterViewables>g__Check|0 (RoR2.UserProfile viewerProfile) (at <1d532be543be416b9db3594e4b62447d>:IL_0015)
-RoR2.ViewablesCatalog+Node.DefaultShouldShowUnviewedTest (RoR2.UserProfile userProfile) (at <1d532be543be416b9db3594e4b62447d>:IL_002C)
-RoR2.ViewablesCatalog+Node.DefaultShouldShowUnviewedTest (RoR2.UserProfile userProfile) (at <1d532be543be416b9db3594e4b62447d>:IL_002C)
-RoR2.UI.ViewableTag.Check () (at <1d532be543be416b9db3594e4b62447d>:IL_005E)
-RoR2.UI.ViewableTag.Refresh () (at <1d532be543be416b9db3594e4b62447d>:IL_0008)
-RoR2.UI.ViewableTag.OnDisable () (at <1d532be543be416b9db3594e4b62447d>:IL_000C)
-
 [Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
 [Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
 [Debug  :RoR2BepInExPack] Hook removed by assembly: BetterCommand.dll for: RoR2.PickupPickerController.SetOptionsFromPickupForCommandArtifact
@@ -2888,8 +2934,4 @@ RoR2.UI.ViewableTag.OnDisable () (at <1d532be543be416b9db3594e4b62447d>:IL_000C)
 [Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Difficulty.dll for: RoR2.RuleDef.FromDifficulty
 [Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Director.dll for: RoR2.ClassicStageInfo.Start
 [Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Director.dll for: RoR2.SceneCatalog.Init
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Language.dll for: RoR2.Language.GetLocalizedStringByToken
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Language.dll for: RoR2.Language.TokenIsRegistered
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.ModelSkinController.ApplySkin
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Sound.dll for: RoR2.MusicController.Start
-[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Sound.dll for: RoR2.MusicController.UpdateState
+[Debug  :RoR2BepInExPack] Hook removed by
