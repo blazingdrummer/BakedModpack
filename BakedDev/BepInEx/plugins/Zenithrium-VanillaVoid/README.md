@@ -150,6 +150,9 @@ Both the base and stacking effects of these items are customizable. You can also
 You can contact me on Discord in the RoR2 Modding server or simply message me, @Zenithrium. I'd love to hear about more item ideas or if you think any item could use a buff, nerf, or even a rework. You can also check out the Github and leave a pull request or issue.
 
 # Changelog
+* v1.5.9 Housekeeping 4
+  * Cornucopia should no longer spawn voidtouched void enemies.
+
 * v1.5.8 Housekeeping 3
   * Monolith can no longer spawn multiple times in one void seed.
   * Removed some debug lines from Exhaust.

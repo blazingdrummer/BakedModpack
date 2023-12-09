@@ -1862,7 +1862,7 @@
   versionNumber:
     major: 0
     minor: 9
-    patch: 7
+    patch: 8
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-Rocket\icon.png
 - manifestVersion: 1
@@ -2011,21 +2011,21 @@
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.2103
+    - RiskofThunder-R2API_Core-5.0.10
     - RiskofThunder-R2API_ContentManagement-1.0.1
+    - RiskofThunder-R2API_Items-1.0.3
     - RiskofThunder-R2API_RecalculateStats-1.2.0
+    - RiskofThunder-R2API_Prefab-1.0.3
     - RiskofThunder-R2API_Language-1.0.1
     - RiskofThunder-R2API_Director-1.1.1
-    - RiskofThunder-R2API_Prefab-1.0.3
-    - RiskofThunder-R2API_Items-1.0.3
-    - RiskofThunder-R2API_Core-5.0.10
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 5
-    patch: 8
+    patch: 9
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Zenithrium-VanillaVoid\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\Zenithrium-VanillaVoid\1.5.9\icon.png
 - manifestVersion: 1
   name: Moffein-BlightedElites
   authorName: Moffein

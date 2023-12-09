@@ -1,6 +1,6 @@
 {
     "name": "Rocket",
-    "version_number": "0.9.7",
+    "version_number": "0.9.8",
     "website_url": "https://github.com/Moffein/RocketSurvivor",
     "description": "Shoot feet, get kills. Multiplayer-compatible!",
     "dependencies": [
