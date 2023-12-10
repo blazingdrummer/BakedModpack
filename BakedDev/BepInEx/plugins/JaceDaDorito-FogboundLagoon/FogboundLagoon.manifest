@@ -1,0 +1,11 @@
+ManifestFileVersion: 0
+CRC: 2864353400
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: fblassets
+      Dependencies: {}
+    Info_1:
+      Name: fblstage
+      Dependencies:
+        Dependency_0: fblassets

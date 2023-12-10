@@ -51,7 +51,7 @@ Neik - Blacksmith concept
 Ruxbieno - Direseeker logbook entry  
 Christian Gentry - Anvil model  
 JunJun_W - Chinese Translation  
-Адский Шкед - Russian Translation  
+Адский Шкед and Hexxedude - Russian Translation  
 Damglador - Ukrainian Translation  
 Donitodorito - Portuguese Translation
 Juhnter - Spanish Translation
@@ -64,6 +64,10 @@ Juhnter - Spanish Translation
 - help
 
 ## Changelog
+
+`1.9.8`
+
+- Updated RU tl (Thanks hexxedude!)
 
 `1.9.7`
 - forgot spanish translation in last update, sorry Juhnter!

@@ -1,0 +1,13 @@
+{
+  "name": "LunarConstruct",
+  "version_number": "1.0.2",
+  "website_url": "",
+  "description": "Spices up Commencement by adding a fodder enemy. Requires Survivors of The Void to function.",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.2113",
+	"RiskofThunder-R2API_Director-2.0.0",
+	"RiskofThunder-R2API_Prefab-1.0.3",
+	"RiskofThunder-R2API_ContentManagement-1.0.2",
+	"RiskofThunder-R2API_Language-1.0.1"
+  ]
+}

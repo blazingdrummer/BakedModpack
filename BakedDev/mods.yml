@@ -1366,6 +1366,29 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-EnigmaBlacklist\icon.png
 - manifestVersion: 1
+  name: Moffein-Lunar_Wisp_Falloff
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/Lunar_Wisp_Falloff/
+  displayName: Lunar_Wisp_Falloff
+  description: Enables damage falloff on Lunar Wisp hitscan attacks. Server-side
+    and Vanilla-Compatible.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Lunar_Wisp_Falloff\icon.png
+- manifestVersion: 1
   name: Moffein-GestureEnigma
   authorName: Moffein
   websiteUrl: https://thunderstore.io/package/Moffein/GestureEnigma/
@@ -1774,7 +1797,7 @@
     minor: 4
     patch: 0
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\EnforcerGang-HAND_OVERCLOCKED\1.4.0\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-HAND_OVERCLOCKED\icon.png
 - manifestVersion: 1
   name: EnforcerGang-MinerUnearthed
   authorName: EnforcerGang
@@ -1794,9 +1817,9 @@
   versionNumber:
     major: 1
     minor: 9
-    patch: 7
+    patch: 8
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-MinerUnearthed\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\EnforcerGang-MinerUnearthed\1.9.8\icon.png
 - manifestVersion: 1
   name: Moffein-Heretic
   authorName: Moffein
@@ -1918,6 +1941,77 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Joker_Mode\icon.png
 - manifestVersion: 1
+  name: Moffein-BlightedElites
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/BlightedElites/
+  displayName: BlightedElites
+  description: Brings back Blighted Elites from RoR1.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+    - tristanmcpherson-R2API-4.4.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 7
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-BlightedElites\icon.png
+- manifestVersion: 1
+  name: Moffein-Archaic_Wisp
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/Archaic_Wisp/
+  displayName: Archaic_Wisp
+  description: Adds the unused Archaic Wisp enemy to spawn pool.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+    - tristanmcpherson-R2API-4.4.1
+    - Moffein-FixDamageTrailNullref-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 4
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Archaic_Wisp\icon.png
+- manifestVersion: 1
+  name: HIFU-LunarConstruct
+  authorName: HIFU
+  websiteUrl: https://thunderstore.io/package/HIFU/LunarConstruct/
+  displayName: LunarConstruct
+  description: Spices up Commencement by adding a fodder enemy. Requires Survivors
+    of The Void to function.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2113
+    - RiskofThunder-R2API_Director-2.0.0
+    - RiskofThunder-R2API_Prefab-1.0.3
+    - RiskofThunder-R2API_ContentManagement-1.0.2
+    - RiskofThunder-R2API_Language-1.0.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\HIFU-LunarConstruct\icon.png
+- manifestVersion: 1
   name: amogus_lovers-StandaloneAncientScepter
   authorName: amogus_lovers
   websiteUrl: https://thunderstore.io/package/amogus_lovers/StandaloneAncientScepter/
@@ -2027,51 +2121,6 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Zenithrium-VanillaVoid\icon.png
 - manifestVersion: 1
-  name: Moffein-BlightedElites
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/BlightedElites/
-  displayName: BlightedElites
-  description: Brings back Blighted Elites from RoR1.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.4.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 7
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-BlightedElites\icon.png
-- manifestVersion: 1
-  name: Moffein-Archaic_Wisp
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/Archaic_Wisp/
-  displayName: Archaic_Wisp
-  description: Adds the unused Archaic Wisp enemy to spawn pool.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1903
-    - tristanmcpherson-R2API-4.4.1
-    - Moffein-FixDamageTrailNullref-1.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 4
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Archaic_Wisp\icon.png
-- manifestVersion: 1
   name: Skell-GoldenCoastPlus
   authorName: Skell
   websiteUrl: https://thunderstore.io/package/Skell/GoldenCoastPlus/
@@ -2118,3 +2167,51 @@
     patch: 24
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\PlasmaCore3-Forgotten_Relics\icon.png
+- manifestVersion: 1
+  name: prodzpod-RecoveredAndReformed
+  authorName: prodzpod
+  websiteUrl: https://thunderstore.io/package/prodzpod/RecoveredAndReformed/
+  displayName: RecoveredAndReformed
+  description: Brings back cut enemies and rebalances them. also does some family
+    event stuff. Highly Configurable.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2103
+    - RiskofThunder-R2API_Language-1.0.0
+    - RiskofThunder-R2API_Director-1.0.0
+    - RiskofThunder-HookGenPatcher-1.2.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\prodzpod-RecoveredAndReformed\icon.png
+- manifestVersion: 1
+  name: JaceDaDorito-FogboundLagoon
+  authorName: JaceDaDorito
+  websiteUrl: https://thunderstore.io/package/JaceDaDorito/FogboundLagoon/
+  displayName: FogboundLagoon
+  description: I can't even see my reflection in the water... only those
+    mysterious crimson lights...
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2110
+    - RiskofThunder-HookGenPatcher-1.2.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\JaceDaDorito-FogboundLagoon\icon.png

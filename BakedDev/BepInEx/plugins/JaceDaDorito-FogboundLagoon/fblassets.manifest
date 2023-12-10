@@ -1,0 +1,195 @@
+ManifestFileVersion: 0
+CRC: 2409580885
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f406d5c6dd3f34a6cfa7af529729c1c2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b2b49f1233b0434915116b836f1f462
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: adb84e30e02715445aeb9959894e3b4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 40b924e2dad56384a8df2a1e111bb675, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aff35ba3cf3faee40b58187495245d3e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6f00d426383560f469d7dea667cb6de6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 80c71bd6f033c484e9317562c0a92db8, type: 3}
+- Class: 114
+  Script: {fileID: -1864444436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1931460509, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -609359282, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 2011136271, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -794597441, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1746479147, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 09c43abb8e5cbf247a19db910e49e520, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5562c1cb54aff534ea43bff540f5869b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 193
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Materials/New Material.mat
+- Packages/teammoonstorm-moonstormsharedutils/Editor/Assets/StubbedShaders/RoR2/FX/HGCloudRemap.shader
+- Assets/Materials/Textures/FlatNormal.png
+- Assets/FogboundLagoon/FBLAssets/FBL_BadtotheBone.asset
+- Assets/Materials/matFBLDeepFog.mat
+- Assets/Meshes/spmSMGrass.asset
+- Assets/FogboundLagoon/FBLAssets/dccs/dpFBLInteractables.asset
+- Assets/Materials/matUnderWaterPlane.mat
+- Assets/Materials/Textures/BlueNoise_R8_8.png
+- Assets/Materials/Textures/texRJGrassTerrain2.png
+- Assets/Materials/Textures/BonesFog_Normal.png
+- Assets/Materials/matAETerrain1.mat
+- Assets/FogboundLagoon/FBLAssets/dccs/dccsFBLMonstersDLC1.asset
+- Assets/Materials/Textures/texGPLichenTerrain.png
+- Assets/FogboundLagoon/FBLAssets/FBLGroundNodes.asset
+- Assets/Materials/Textures/texCloudOrganic2.png
+- Assets/Materials/matFBLBoulder.mat
+- Assets/Materials/matOrbEmit.mat
+- Assets/Materials/Textures/texRampBrazierOrb3.png
+- Assets/FBLGrassNoEmit.prefab
+- Assets/FogboundLagoon/FBLAssets/FBLAirNodes.asset
+- Assets/FogboundLagoon/FBLAssets/dccs/dccsFBLMonsters.asset
+- Assets/FogboundLagoon/FBLAssets/dccs/Legacy/dccsFBLMonstersLegacy.asset
+- Assets/Materials/matUWDistortion.mat
+- Assets/Materials/Textures/BonesArid_Diffuse.png
+- Assets/FogboundLagoon/FBLAssets/Logs.Stages.FBLScene.asset
+- Assets/Materials/Textures/texRampDefault.png
+- Packages/com.unity.postprocessing/PostProcessing/Gizmos/PostProcessLayer.png
+- Assets/FogboundLagoon/Scenes/FBLScene/ReflectionProbe-0.exr
+- Assets/Materials/matDistantSmoke.mat
+- Assets/Materials/Textures/texRampBrazierOrb.png
+- Assets/Materials/Textures/texRampWhiteAlphaOnly.png
+- Assets/Materials/Textures/texBBMudNormal.png
+- Assets/Materials/Textures/texSMLichenTerrain.png
+- Assets/Materials/Textures/texFWBasicRockSide2.png
+- Packages/teammoonstorm-moonstormsharedutils/Editor/Assets/StubbedShaders/RoR2/FX/HGDistortion.shader
+- Assets/Materials/matCrimsonLights.mat
+- Assets/Materials/Textures/spmSMGrass_Atlas.png
+- Assets/Meshes/MdlBones.fbx
+- Assets/Materials/Textures/spmFBLGrassEmit.png
+- Assets/StubbedShaders/RoR2/Deferred/HGStandard.shader
+- Assets/FogboundLagoon/FBLAssets/dccs/dccsFBLInteractables.asset
+- Assets/Materials/Textures/LargeWave.png
+- Assets/Materials/Textures/Fogbound.png
+- Assets/Materials/Textures/texBlackbeachDirt.png
+- Packages/teammoonstorm-moonstormsharedutils/Editor/Assets/StubbedShaders/RoR2/Deferred/HGSnowTopped.shader
+- Assets/Materials/Textures/texCloudOrganicNormal.png
+- Assets/Materials/Textures/texCloudDifferenceBW1.png
+- Assets/Materials/Textures/texRampBrazierOrb2.png
+- Assets/Materials/Textures/texBlackbeachSnowRock.png
+- Assets/Materials/Textures/texGPGrassTerrain.png
+- Assets/Meshes/BbRuinMarker_LOD0.asset
+- Assets/Materials/Textures/Waves_2_N.png
+- Assets/Materials/matFBLWaterDiorama.mat
+- Assets/Materials/Textures/fireEmber.png
+- Assets/Materials/skyboxArid.mat
+- Assets/Materials/Textures/EternityStreak.png
+- Assets/FogboundLagoon/FBLAssets/dccs/dccsBlindFamily.asset
+- Assets/Materials/Textures/texSMGrassEmissionMask.png
+- Assets/FBLGrass.prefab
+- Assets/Materials/Textures/texBlackbeachBasicRockTop.png
+- Assets/Materials/Textures/Super Perlin 14 - 512x512.png
+- Assets/Materials/Textures/texGlowPaintMask.png
+- Assets/Materials/Textures/texGPRockSide.png
+- Assets/Materials/Textures/texBlackSand.png
+- Assets/Materials/Textures/texCloudDifferenceBW2.png
+- Assets/Materials/Textures/texWhite.png
+- Assets/Meshes/rock1.fbx
+- Assets/Materials/Textures/spmFBLGrassAbove.png
+- Assets/Materials/Textures/Waves_N.png
+- Assets/Materials/Textures/texSMLichenNormal.png
+- Assets/Materials/Textures/texBBGrassV2Diffuse.png
+- Assets/Materials/matFBLTerrain.mat
+- Assets/Materials/Textures/DistTex.png
+- Packages/teammoonstorm-moonstormsharedutils/Editor/Assets/StubbedShaders/RoR2/Deferred/HGTriplanarTerrainBlend.shader
+- Assets/FogboundLagoon/FBLAssets/PPProfiles/ppFBLGlobal.asset
+- Assets/Materials/Textures/BonesFog_Diffuse.png
+- Assets/FogboundLagoon/FBLAssets/dccs/dpFBLMonsters.asset
+- Assets/Materials/Textures/texBlackbeachGrass.png
+- Assets/FogboundLagoon/FBLAssets/dccs/Legacy/dccsFBLMonstersDLC1Legacy.asset
+- Assets/FogboundLagoon/FBLAssets/PPProfiles/ppFBLUnderWater.asset
+- Assets/FogboundLagoon/FBLAssets/FBLScene.asset
+- Assets/Materials/Textures/spmFBLGrass1.png
+- Assets/FogboundLagoon/FBLAssets/dccs/dccsFBLInteractablesDLC1.asset
+- Assets/Materials/Textures/texCloudOrganic1.png
+- Assets/Materials/Textures/texSMRockBridgeNormal.png
+- Assets/Materials/matAbovePebbles.mat
+- Assets/FogboundLagoon/FBLAssets/texFBLScenePreview.PNG
+- Assets/Materials/Textures/skyboxAridCubemap.png
+- Assets/Materials/matFBLTerrainFar.mat
+- Assets/Materials/Textures/BonesArid_Normal.png
+- Assets/Materials/matFBLFacingLeaves.mat
+- Assets/Meshes/rock2.fbx
+- Assets/Materials/Textures/texBBMudDiffuse.png
+- Assets/Materials/matFBLFacingLeavesNoEmit.mat
+- Assets/Materials/Textures/Water 0401normal.jpg
+- Assets/Materials/matUnderwaterPebbles.mat
+- Assets/StubbedShaders/CalmWater/CalmWater - DX11.shader
+- Assets/Materials/matBrazierorb.mat
+- Assets/LightTotem.prefab
+- Assets/Meshes/fbldiorama.fbx
+- Assets/Meshes/BbRuinBowl_LOD0.asset
+- Assets/Materials/matFBLFacingLeavesAbove.mat
+- Assets/Materials/matFBLWater.mat
+- Assets/Materials/Textures/texBlackbeachDirt2.png
+- Assets/FogboundLagoon/FBLAssets/PPProfiles/ppFBLLightTotem.asset
+- Assets/Meshes/pebble.fbx
+- Assets/Materials/Textures/texParticleDust3Mask4.png
+- Assets/Materials/Textures/texBlackbeachBasicRockSide.png
+- Assets/StubbedShaders/Nature/Stubbed_Nature_SpeedTree.shader
+- Assets/Materials/matFBLAboveLeaves.mat
+- Assets/Materials/Textures/texFocusedConvergenceOrb2.png
+- Assets/Materials/matBonesRibs.mat
+- Assets/Materials/Textures/texFBLGrass.png
+- Assets/FogboundLagoon/FBLAssets/Prefabs/FBLDioramaDisplay.prefab
+- Assets/Materials/Textures/texGPGrassTerrainNormal.png
+- Assets/Materials/Textures/texRampTritone2.png
+Dependencies: []
