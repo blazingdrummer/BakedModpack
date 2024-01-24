@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3048241129
+CRC: 2069140184
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8a4e358f214cba8114815172bebcad4a
+    Hash: 3daf903a2f3416fe6734a3ed681154e5
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 4861e7c1cb651c0a66224aa502e496f3
+    Hash: d1077ed66d681abcf97c5f3cdfa4fa6f
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -60,15 +60,21 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 8e1c7de9e8007a141b1b98230e9ab050, type: 3}
 - Class: 114
+  Script: {fileID: 1032072274, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
   Script: {fileID: -1358022786, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -1783169300, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -380008858, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 653292689, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -1720486850, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 89795172, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1512808244, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 802575700, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -130,17 +136,21 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Fog/FogSwamp.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/EntityStates.Events.ThunderstormState.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Fog/ppFogSwamp.asset
+- Assets/Starstorm2/AssetStorm/Base/Events/Havoc/EntityStates.Events.ThunderstormStateHavoc.asset
+- Assets/Starstorm2/AssetStorm/Base/Events/Elites/Empyrean/escEmpyreanEvent.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/ChristmasMenuEffect.prefab
 - Assets/Starstorm2/AssetStorm/Base/Events/EDCS/edcsFBLScene.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/NemesisInvasions/muCanticumVitae02.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/Effects/ppStormRainAncientLoft.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Ashstorm/texFireMask.asset
+- Assets/Starstorm2/AssetStorm/Base/Events/Weather/Blizzard/ppChristmas.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Sandstorm/matSandCloud0.mat
 - Assets/Starstorm2/AssetStorm/Base/Events/Elites/Glacial/GlacialEventEffect.prefab
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Ashstorm/AshstormEffect.prefab
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Blizzard/BlowingSnow.prefab
 - Assets/Starstorm2/AssetStorm/Base/Events/Elites/Glacial/EntityStates.Events.GlacialEventState.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Blizzard/ppBlizzard.asset
+- Assets/Starstorm2/AssetStorm/Base/Events/Elites/escBossEncounter.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Elites/Blazing/BlazingLight.prefab
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/Effects/FoggySwampThunderstormEffect
   Variant.prefab
@@ -151,6 +161,8 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Events/Elites/Overloading/ppOverloading.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/MonstersOnStormEncounter.prefab
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Blizzard/texSheetSnowSoft.png
+- Assets/Starstorm2/AssetStorm/Base/Events/Elites/Empyrean/ss2ecEmpyreanEvent.asset
+- Assets/Starstorm2/AssetStorm/Base/Events/Elites/Empyrean/nscEmpyrean.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Fog/FogEffectRoost.prefab
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Blizzard/matSnowSoft.mat
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Fog/ppFogRoost.asset
@@ -169,6 +181,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Events/NemesisInvasions/EntityStates.Events.GenericNemesisEvent.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Ashstorm/texRampEmbers.png
 - Assets/Starstorm2/AssetStorm/Base/Events/Elites/Blazing/BlazingEventEffect.prefab
+- Assets/Starstorm2/AssetStorm/Base/Events/Elites/Empyrean/cscEmpyrean.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/Effects/texToolbotNailMask.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/Effects/AncientLoftThunderstormEffect
   Variant.prefab
@@ -184,9 +197,11 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/Effects/BlackBeachThunderstormEffect
   Variant.prefab
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/Effects/ppStormRainShipGraveyard.asset
+- Assets/Starstorm2/AssetStorm/Base/Events/Elites/BossEncounter.prefab
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/Effects/ppStormRainGolemPlains.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/Effects/ppStormRain.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Ashstorm/ppAshstorm.asset
+- Assets/Starstorm2/AssetStorm/Base/Events/Havoc/escEmpyreanEventHavoc.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Elites/Mending/ppMending.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/NemesisInvasions/MusicTrackOverrider.prefab
 - Assets/Starstorm2/AssetStorm/Base/Events/Elites/Overloading/OverloadingElite.asset
@@ -214,6 +229,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Events/NemesisInvasions/muCanticumVitae01.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/Effects/RainSplash.prefab
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/ThunderStorm.asset
+- Assets/Starstorm2/AssetStorm/Base/Events/Havoc/ecHavocStorm.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/NemesisInvasions/NemMercenary/nscNemMercenaryBoss.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/Effects/ppPurpleRain.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Thunderstorm/Effects/ShipGraveyardThunderstormEffect
@@ -223,14 +239,18 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Sandstorm/texSheetSnowCoarse.png
 - Assets/Starstorm2/AssetStorm/Base/Events/NemesisInvasions/NemMercenary/metNemmandoChargeShadow3.mat
 - Assets/Starstorm2/AssetStorm/Base/Events/Weather/Sandstorm/SandstormEffect.prefab
+- Assets/Starstorm2/AssetStorm/Base/Events/Havoc/ss2ecEmpyreanEventHavoc.asset
 - Assets/Starstorm2/AssetStorm/Base/Events/NemesisInvasions/NemesisEvent.prefab
 Dependencies:
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmercenary
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2artifacts
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2equipments
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2interactables
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmercenary
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared

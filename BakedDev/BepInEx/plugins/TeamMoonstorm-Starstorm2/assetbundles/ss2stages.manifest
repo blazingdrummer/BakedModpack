@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2348148704
+CRC: 2080379718
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ee52aad804cba3192ce50d6a9470189c
+    Hash: d1cf5bd6c8d0c0f4f53e234366474e92
   TypeTreeHash:
     serializedVersion: 2
     Hash: a6aa7a26dc78ff8e0f2206b496d616f0
@@ -145,8 +145,8 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Stages/VoidShop/Materials/matVoidShopCausticGenerator.mat
 - Assets/Starstorm2/AssetStorm/Base/Stages/VoidShop/textures/texVoidShopGrassEmitMask2.png
 Dependencies:
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2vanilla
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2vanilla

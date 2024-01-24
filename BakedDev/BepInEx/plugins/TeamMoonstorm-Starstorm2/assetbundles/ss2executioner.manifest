@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3037257343
+CRC: 3852889898
 Hashes:
   AssetFileHash:
     serializedVersion: 2
     Hash: 016046ca41eb70f90e6398f7cdf34af2
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e579f27addf5cb377c855f5b6cd24b56
+    Hash: 5f6df0508441bb91951038831c41c00f
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -44,19 +44,15 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 816898038, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 296141222, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
 - Class: 114
   Script: {fileID: 1143142494, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 1653386690, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
-  Script: {fileID: 1533710874, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
-  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 161585894, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -67,6 +63,10 @@ ClassTypes:
   Script: {fileID: 1245112779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 298587437, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1533710874, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 3bcc8a73fa1e29a479614a4350408c0f, type: 3}
 - Class: 114
@@ -362,11 +362,11 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Deprecated/Executioner/SkinExecutionerMastery.asset
 - Assets/Starstorm2/AssetStorm/Deprecated/Executioner/Descend.anim
 Dependencies:
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando

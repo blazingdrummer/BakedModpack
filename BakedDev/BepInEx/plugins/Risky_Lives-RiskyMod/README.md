@@ -3,6 +3,8 @@ A full-game overhaul that aims to bring it closer to RoR1's balance. My main pri
 
 I highly recommed installing https://thunderstore.io/package/Moffein/EliteReworks/ to go with this.
 
+Also check https://thunderstore.io/package/Risky_Lives/RiskyStarterPack/ out if you want a stable multiplayer-ready modpack to go with this!
+
 Check the Wiki tab for a quick overview of the main changes of the mod!
 Full change list can be found at https://docs.google.com/document/d/1Igxdur0M33fdkcDLYgDEbLE0M4-89gSTorxgdn-oyKs/
 
@@ -70,13 +72,60 @@ Acrid Hitbox Tweaks - TheTimesweeper
 
 Buff Icons - SOM, VALE-X
 
-CN Translation - JunJun_W
+Simplified Chinese Translation - JunJun_W
+
+Brazilian Portuguese Tra slation - Kauzok
 
 /vm/ (formerly /v/)
 
 ## Changelog
 
 *Full changelog included in the .zip*
+
+`1.5.11`
+
+- Fixed JSON issues with Portuguese TL.
+
+`1.5.10`
+
+- Added Brazilian Portuguese TL (Thanks Kauzok!)
+
+`1.5.9`
+
+- Readme update, fixed incorrect number in previous changelog.
+
+`1.5.8`
+
+- Bandit
+	- Serrated Shiv
+		- Now hits twice for 2x240% damage. (Can apply 2 stacks of Hemmorhage)
+		
+	*Just a small tweak to make this a bit more appealing to take when compared to Serrated Dagger's lunge and Dynamite's overall damage output, though I believe this skill will still end up by the wayside compared to the other 2.*
+
+`1.5.7`
+
+- Added RiskyStarterPack to readme.
+
+`1.5.6`
+
+- Drones are now immune to splat damage.
+
+	*Not sure how well this actually works.*
+
+- Items
+	- Berzerker's Pauldron
+		- New stacks refresh older stacks to match how Returns handles buff stacking.
+		
+	- Predatory Instincts
+		- New stacks refresh the duration of all stacks.
+		
+		*This was a thing in earlier versions of the mod but was mistakenly removed due to the incorrect assumption that it got added to Vanilla.*
+
+- Internal: Updated Ancient Scepter compat to replace skills by SkillDef instead of Index for better mod compatibility.
+
+`1.5.5`
+
+- Fixed Bandit2 DesperadoTracker nullref when using spawn_body via DebugToolkit.
 
 `1.5.4`
 

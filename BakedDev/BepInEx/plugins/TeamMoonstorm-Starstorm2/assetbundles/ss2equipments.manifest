@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2987928043
+CRC: 2862054773
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e049fc0fb02af6633d4fc991e7f2de35
+    Hash: a9b2bc493db6ed9ab49ec88980cd89cf
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d22a6da4dc6f3cd5df4359d9ff12540d
+    Hash: db4e8b7401954f8fbbc74d0409a2248c
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -36,9 +36,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1788389205, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 296141222, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
 - Class: 114
@@ -65,6 +65,8 @@ ClassTypes:
   Script: {fileID: -1561644061, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7d2dc8cbdb9720c418fcff8f84588cab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: af00c00fb9bbb5b49976a40609f990d5, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 135
@@ -88,11 +90,14 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/texIconPickupGreaterWarbanner.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/texRampWhiteAlphaOnly.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/meshBannerWard.mesh
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/edEmpyrean.asset
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/meshBannerWardStaff.mesh
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/texGreaterWarbannerMaskIndicatorOffcenter2.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/PressurizedCannister/meshCanister
   1.mesh
 - Assets/Starstorm2/AssetStorm/Base/Equipments/CloakingHeadband/texCloakBand.png
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/AffixEmpyrean.asset
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/bdEmpyrean.asset
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/meshBanner.mesh
 - Assets/Starstorm2/AssetStorm/Base/Equipments/CloakingHeadband/texHeadbandNormal.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/PressurizedCannister/bdCanJump.asset
@@ -100,8 +105,11 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Equipments/MIDAS/texfucking.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/PressurizedCannister/texIconPickupPressurizedCanister
   1.png
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/texRampDebwwwwwwwugRainbow.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/BackThruster/BuffBackThruster.asset
 - Assets/Starstorm2/AssetStorm/Base/Equipments/MIDAS/matMIDASGold.mat
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/texAffixEmpyrean.png
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/matEliteRainbowDarkTrail.mat
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/matFlarePerstParticle.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/CloakingHeadband/CloakingHeadband.asset
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/matNemmandoMoon.mat
@@ -114,11 +122,14 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/PickupGreaterWarbanner.prefab
 - Assets/Starstorm2/AssetStorm/Base/Equipments/CloakingHeadband/texHeadbandDiffuse.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/PressurizedCannister/PickupPressurizedCanOld.prefab
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/texRampEliteKinetic
+  1.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/textGWBRamp.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/BackThruster/texBuffThrusterTemp.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/WarbannerWard/GreaterWarbannerWard.prefab
 - Assets/Starstorm2/AssetStorm/Base/Equipments/MIDAS/Cube.mesh
 - Assets/Starstorm2/AssetStorm/Base/Equipments/MIDAS/meshMIDAS.mesh
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/meshTriSpike.mesh
 - Assets/Starstorm2/AssetStorm/Base/Equipments/MIDAS/mmidas.blend
 - Assets/Starstorm2/AssetStorm/Base/Equipments/BackThruster/texThrusterNormal.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/CloakingHeadband/texHeadbandEmission.png
@@ -131,14 +142,18 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/texCloudDifferenceBW3.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/CloakingHeadband/PickupCloakingHeadband.prefab
 - Assets/Starstorm2/AssetStorm/Base/Equipments/PressurizedCannister/matCanCloud.mat
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/PickupAffixEmpyrean.prefab
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/matGreaterWarbannerBuffBillboard.mat
 - Assets/Starstorm2/AssetStorm/Base/Equipments/MIDAS/texIconPickupMIDASold.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/PressurizedCannister/matPressurizedCanister
   1.mat
 - Assets/Starstorm2/AssetStorm/Base/Equipments/MIDAS/GoldRamp.png
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/texRampRainbow.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/texGreaterWarbannerWardEmission.png
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/meshSpikes.fbx
 - Assets/Starstorm2/AssetStorm/Base/Equipments/BackThruster/PickupBackThruster.prefab
 - Assets/Starstorm2/AssetStorm/Base/Equipments/BackThruster/texThrusterEmissive.png
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/Circle.001.mesh
 - Assets/Starstorm2/AssetStorm/Base/Equipments/MIDAS/MIDAS.asset
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/BuffGreaterBanner.asset
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/texIconGreaterWarbannerUnlock.png
@@ -147,18 +162,26 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/texSoftGlowParticle.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/BackThruster/BackThruster.asset
 - Assets/Starstorm2/AssetStorm/Base/Equipments/BackThruster/meshBackThruster.mesh
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/texRampPrismatic.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/PressurizedCannister/canExhaust.prefab
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/WarbannerWard/matGreaterWarbannerSphereWardIndicator.mat
 - Assets/Starstorm2/AssetStorm/Base/Equipments/CloakingHeadband/meshCloakingHeadband.mesh
 - Assets/Starstorm2/AssetStorm/Base/Equipments/PressurizedCannister/PressurizedCanister.asset
 - Assets/Starstorm2/AssetStorm/Base/Equipments/MIDAS/Cube.001.mesh
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/matRainbowGlow.mat
 - Assets/Starstorm2/AssetStorm/Base/Equipments/CloakingHeadband/texIconPickupCloakingHeadband.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/BackThruster/matBackThruster.mat
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/matRainbowParticle.mat
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/matEliteRainbowSpike.mat
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/texBuffEmpyrean.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/CloakingHeadband/meshCloakingHeadbandDisplay.mesh
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/texIconBuffGreaterWarbanner.png
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/matEliteEmpyreanPickup.mat
 - Assets/Starstorm2/AssetStorm/Base/Equipments/CloakingHeadband/matCloakingHeadband.mat
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/WarbannerWard/texRampWhiteFlag.png
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/matRainbowOverlay.mat
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/nseGreaterWarbanner.asset
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/RainbowAffixEffect.prefab
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/ss2.equip.greaterwarbanner.asset
 - Assets/Starstorm2/AssetStorm/Base/Equipments/PressurizedCannister/texPressurizedCanister
   1.png
@@ -166,15 +189,20 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/matGWBBuffBillboardOld.mat
 - Assets/Starstorm2/AssetStorm/Base/Equipments/CloakingHeadband/texCloakBandEm.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/MIDAS/matMIDASrock.mat
+- Assets/Starstorm2/AssetStorm/Base/Equipments/Elites/AffixEmpyrean/Illustration3d8.png
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/GreaterBannerBuffEffect.prefab
 - Assets/Starstorm2/AssetStorm/Base/Equipments/CloakingHeadband/meshHeadband.mesh
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/GreaterWarbanner.asset
 - Assets/Starstorm2/AssetStorm/Base/Equipments/GreaterWarbanner/texBannerRamp.png
 Dependencies:
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2events
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmercenary
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared

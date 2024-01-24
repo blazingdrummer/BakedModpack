@@ -30,6 +30,22 @@ Config can be found in /Risk of Rain 2/BepInEx/config/com.Moffein.AI_Blacklist.c
 
 ## Changelog
 
+`1.6.2`
+
+- Updated default equipment blacklist.
+	- Executive Card
+	- Trophy Hunter's Tricorn
+	- Remote Caffeinator
+	- Ejection Lever (Turbo Edition)
+	- Big Scythe (Turbo Edition)
+	- Jar of Souls (ClassicItemsReturns)
+	- Lost Doll (ClassicItemsReturns)
+
+`1.6.1`
+
+- Added option to blacklist all items from Mithrix (disabled by default).
+	- Experimental, may lead to unexpected behavior if enabled.
+
 `1.6.0`
 
 - Vengeance
@@ -130,3 +146,5 @@ Config can be found in /Risk of Rain 2/BepInEx/config/com.Moffein.AI_Blacklist.c
 `1.0.0`
 
 - Release
+
+</details>

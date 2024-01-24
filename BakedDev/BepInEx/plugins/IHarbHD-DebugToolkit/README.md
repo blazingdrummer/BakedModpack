@@ -31,6 +31,7 @@ You may contact us at any time through [issues on GitHub](https://github.com/har
 * [Rays](https://github.com/SuperRayss)
 * [HeyImNoop](https://thunderstore.io/package/Heyimnoob/)
 * [SChinchi](https://github.com/SChinchi)
+* [RandomlyAwesome](https://github.com/yekoc)
 
 ---
 
@@ -49,8 +50,8 @@ Commands:
 * **fixed_time** - Sets the time that has progressed in the run. Affects difficulty. `fixed_time [time]`. If no time is supplied, prints the current time to console.
 * **next_wave** - Advance to the next Simulacrum wave. `next_wave`
 * **force_wave** - Set the next wave prefab. `force_wave [wave_prefab]`. If no input is supplied, prints all available options and clears any previous selection.
-* **set_run_waves_cleared** - Set the Simulacrum waves cleared. Must be positive. `set_run_waves_cleared {wave}`
-* **add_portal** - Teleporter will attempt to spawn after the teleporter completion. `add_portal {portal ('blue'|'gold'|'celestial'|'null'|'void'|'deepvoid'|'all')}`. The `null` portal doesn't require a teleporter and will spawn in front of the player.
+* **run_set_waves_cleared** - Set the Simulacrum waves cleared. Must be positive. `set_run_waves_cleared {wave}`
+* **add_portal** - Add a portal to the current Teleporter on completion. `add_portal {portal ('blue'|'celestial'|'gold'|'void'|'all')}`.
 * **seed** - Set the seed for all next runs this session. `seed [new_seed]`. Use `0` to specify the game should generate its own seed. If used without argument, it's equivalent to the vanilla `run_get_seed`.
 * **kill_all** - Kills all members of a specified team. `kill_all [team:Monster]`.
 * **true_kill** - Truly kill a player, ignoring revival effects. `true_kill *[player:<self>]`
@@ -61,7 +62,7 @@ Commands:
 
 List Commands:
 
-* [All the `list_` commands support filtering](https://user-images.githubusercontent.com/72328339/213889205-2dbaab4f-3b88-481e-ba29-2a466a10ed53.png)
+* [All the `list_` commands support filtering](https://user-images.githubusercontent.com/57867641/295963274-169b2fd9-a5ea-41df-8dba-2632f75ddbd4.png). A number for the unique index or any string for partial matching.
 * **list_player** - List all Players and their ID.
 * **list_body** - List all Bodies and their language invariants.
 * **list_ai** - List all Masters and their language invariants.
@@ -72,7 +73,7 @@ List Commands:
 * **list_itemtier** - List all Item Tiers.
 * **list_item** - List all Items, their language invariants, and if they are in the current drop pool.
 * **list_equip** - List all Equipment, their language invariants, and if they are in the current drop pool.
-* **list_interactables** List all Interactables.
+* **list_interactables/list_interactibles** List all Interactables.
 * **list_directorcards** List all Director Cards. Mainly used for the `next_boss` command.
 * **list_skins** List all Body Skins and the language invariant of the current one in use.
 
@@ -98,24 +99,33 @@ Buff Commands:
 
 Item Commands:
 
-* **give_item** - Give an item directly to a character's inventory. A negative amount is an alias for `remove_item`: `give_item {item} [count:1] *[target (player|'pinged'):<self>]`
-* **random_items** - Generate random items from the available item tiers. The tier argument must be encapsulated by double quotes if there is a comma. `random_items {count} [tiers ('all'|Any comma-separated tier names):'all'] *[target (player|'pinged'):<self>]`
-* **give_equip** - Give an equipment directly to a character's inventory: `give_equip {(equip|'random')} *[target (player|'pinged'):<self>]`
-* **give_money** - Gives the desired player/team money `give_money {amount} [target ('all'|player):'all']`
+* **give_item** - Give an item directly to a target's inventory. A negative amount is an alias for `remove_item`: `give_item {item} [count:1] *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
+* **random_items** - Generate random items from the available item tiers. `random_items {count} [droptable (droptable|'all'):'all'] *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
+* **give_equip** - Give an equipment directly to a target's inventory: `give_equip {(equip|'random')} *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
+* **give_money** - Gives the desired player/team money. A negative amount can remove that many without underflowing. `give_money {amount} [target ('all'|player):'all']`
 * **give_lunar** - Gives the specified amount of lunar coins to the issuing player. A negative count may be specified to remove that many. `give_lunar [amount:1]`
-* **remove_item** - Removes an item from a character's inventory. A negative amount is an alias for `give_item`: `remove_item {item} [count:1] *[target (player|'pinged'):<self>]`
-* **remove_item_stacks** - Removes all item stacks from a character's inventory. `remove_item_stacks {item} *[target (player|'pinged'):<self>]`
-* **remove_all_items** - Removes all items from a character's inventory. `remove_all_items *[target (player|'pinged'):<self>]`
-* **remove_equip** - Sets the equipment of a character to 'None'. `remove_equip *[target (player|'pinged'):<self>]`
+* **remove_item** - Removes an item from a target's inventory. A negative amount is an alias for `give_item`: `remove_item {item} [count:1] *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
+* **remove_item_stacks** - Removes all item stacks from a target's inventory. `remove_item_stacks {item} *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
+* **remove_all_items** - Removes all items from a target's inventory. `remove_all_items *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
+* **remove_equip** - Sets the equipment of a target to 'None'. `remove_equip *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
+* **restock_equip** - Restock charges for the current equipment. `restock_equip [count:1] *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
 * **create_pickup** - Creates a pickup in front of a player. Pickups are items, equipment, or coins. When the pickup is an item or equipment, the search argument 'item' or 'equip' may be specified to only search that list. `create_pickup {object (item|equip|'lunarcoin'|'voidcoin')} [search ('item'|'equip'|'both'):'both'] *[player:<self>]`
+* **create_potential** - Creates a potential in front of a player. The first item tier defined in the droptable decides the color of the droplet and what items will be available with the Artifact of Command. `create_potential [droptable (droptable|'all'):'all'] [count:3] *[player:<self>]`
+
+***Note:*** Some commands support a weighted item selection, referred to as _droptable_. The syntax for it is `<itemtier:weight tokens separated by comma>`. The weight should be a positive float and is an optional argument with a default value of 1.0. If a comma or decimal point is used, the whole argument must be surrounded in double quotes. The keyword `all` uses all available item tiers with a default weight. For example, any of the following are valid inputs: `tier1`, `"tier1:5,tier2,tier3:0.4"`, `all`.
 
 Spawn Commands:
 
 * **spawn_interactable/spawn_interactible** - Spawns an interactible in front of the player. `(spawn_interactable|spawn_interactible) {interactable}`
+* **spawn_portal** - Spawns a portal in front of the player. `spawn_portal {portal ('artifact'|'blue'|'celestial'|'deepvoid'|'gold'|'null'|'void')}`.
 * **spawn_ai** - Spawn an AI. `spawn_ai {ai} [count:1] [elite:None] [braindead (0|1):0/false] [team:Monster]`.
 * **spawn_as** - Spawn as a new character. `spawn_as {body} *[player:<self>]`
 * **spawn_body** - Spawns a CharacterBody with no AI, inventory, or team alliance: `spawn_body {body}`
 * **change_team** - Change a player's team. `change_team {team} *[player:<self>]`.
+
+Profile Commands:
+
+* **prevent_profile_writing** - Prevent saving the user profile to avoid bogus data. Enable before doing something and keep it until the end of the session. `prevent_profile_writing [flag (0|1)]`. If no argument is supplied, prints the current state. Disabled by default.
 
 Cheat Commands:
 

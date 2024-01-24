@@ -1,11 +1,11 @@
 {
     "name": "WolfoQualityOfLife",
-    "version_number": "2.0.5",
-    "website_url": "",
-    "description": "Overall Quality of Life for the game, fixing up many inconsistencies. A lot of visual tweaks and updates, highly configurable. Main features: Unique Ping icons for everything, more helpfull Buff icons.",
+    "version_number": "2.5.2",
+    "website_url": "https://github.com/WolfoIsBestWolf/ror2-WolfoQualityoLlife",
+    "description": "That one mod that gives Oni Merc a red sword and effects. Updates Acrid Blight and REX vines too. Visual and Information Quality of Life for the game.",
     "dependencies": [
         "bbepis-BepInExPack-5.4.9",
-        "tristanmcpherson-R2API-3.0.59",
-		"RiskofThunder-HookGenPatcher-1.2.1"
+		"RiskofThunder-HookGenPatcher-1.2.1",
+        "tristanmcpherson-R2API-5.0.5"
     ]
 }

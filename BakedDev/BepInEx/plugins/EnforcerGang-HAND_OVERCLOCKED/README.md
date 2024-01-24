@@ -58,14 +58,25 @@ Kauzok - Portuguese translation
 
 ## Changelog
 
+`1.4.2` - `1.4.3`
+
+- Updated BR TL.
+
+`1.4.1`
+
+- Fixed Gummy Clone and Ghost HAN-Ds leaving behind interactables if "Allow Player Repair" is enabled.
+
 `1.4.0`
 
 - Added Hopoo's HAN-D skin.
 - Added Grandmastery.  
+
 	*Thanks FORCED_REASSEMBLY!*
+	
 - toned down edge wear on default textures
 - Learned how to do speculars
 - Fixed animations breaking at high attack speed
+
 	*Thanks Timesweeper!*
 
 `1.3.1`

@@ -2,7 +2,7 @@
   "namespace": "RiskofThunder",
   "name": "R2API_ContentManagement",
   "description": "API for adding content to the game",
-  "version_number": "1.0.3",
+  "version_number": "1.0.4",
   "dependencies": [
     "bbepis-BepInExPack-5.4.2109",
     "RiskofThunder-HookGenPatcher-1.2.3",

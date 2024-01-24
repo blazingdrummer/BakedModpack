@@ -1,0 +1,93 @@
+Full list of pool changes. Some for lore, some for fun, some not too sure.
+
+__All Stages__
+Removed 2 of the small category chests per stage.
+Mountain Shrines have twice the weight. (50-66% more)
+No Gunner Turrets on Stage 4/5s.
+
+__Titanic Plains__ 
++Increased Interactable Credits by 20.
+
+__Distant Roost__ 
++Increased Interactable Credits by 20.
++Loop Vultures
+
+__Snowy Forest__
++Loop TC280
+-Lesser Wisp
+*Changed Greater Wisp to Bighorn Bison
+*Blind Vermin now pre-loop
++Loop Imp
++Loop Imp Overlord 
+
+__Abandoned Aquaduct__
++Increased Interactable Credits by 20.
+*Clay Apothecary now pre-loop.
++Loop Acid Larva
+
+__Wetlands Aspect__
++Loop Mini Mushrum 
++Loop Void Jailer
+
+__Aphelian Sanctuary__
++Loop Elder Lemurian
++Loop Grovetender
+
+__Rallypoint Delta__
+*Changed Clay Dunestrider to Solus Control Unit
++Loop Alloy Vultures
++Loop Void Reavers
+
+__Scorched Acres__
++Clay Apothecary
+*Changed Loop Vulture to Loop Blind Vermin
+
+__Sulfur Pools__
+*Replaced Shrine of Woods and Cleansing Pool with Mountain Shrine
+*Changed Beetle to Acid Larva
+*XI Construct is more common
++Hermit Crabs
++Magma & Overloading Worm
++Loop Parent 
++Loop Grandparent
+
+__Abyssal Depths__
++Loop Parent
++Loop Grandparent
++Loop Void Devestator
+
+__Sirens Call__
++Increased Interactable Credits by 40.
++Overloading Worm
++Loop Solus Probe
++Loop Alpha Construct
++Loop XI Construct
++Loop Void Reaver
+
+__Sundered Grove__
++Increased Interactable Credits by 40.
+*Replaced Stone Titan with Grovetender
++Loop Blind Pest
++Loop Void Jailer
+
+__Sky Meadow__
++Magma Worm
++Loop Lunar Chimera Exploder
++Loop Lunar Chimera Golem
++Loop Lunar Chimera Wisp
++Loop Void Devestator
+
+
+__Gilded Coast__
++Combat Shrine
++Chance Shrine
++Cleansing Pool
+
+
+__Bulwarks Ambry__
++Clay Apothecary
++Magma Worm
++Grovetender
++Cleansing Pool
++Large Category Chests
+

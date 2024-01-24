@@ -1,6 +1,50 @@
 
 ## Changelog ##
 
+### 3.13 ###
+
+* **3.13.0**
+    * This update is carried by [SChinchi](https://github.com/SChinchi), thanks!
+    * Add config for allowing keybinds with a runtime inspector.
+    * Added `spawn_portal`: Spawns any portal in front of the player.
+    * Updated `add_portal`: Now strictly for the teleporter related portals. Improved the void portal logic.
+    * The infinite portal has been excluded from all of this because there is nothing special about it; it has no special destination and uses the run's next scene.
+    * Updated `next_boss`: Fix the command spawning the max allowed count for 0 credit spawn cards.
+
+### 3.12 ###
+
+* **3.12.0**
+    * This update is carried by [SChinchi](https://github.com/SChinchi), thanks!
+    * Breaking change `set_run_waves_cleared` -> `run_set_waves_cleared`: To be consistent with the stage command counterpart.
+    * Updated `create_pickup` and `create_potential`: Can now specify direction. Giving control of the spawning direction also allows one to spawn lunar coins on pressure plates more easily. Slightly adjusted the forward magnitude so that the objects don't go too far when aiming at 45 degrees.
+    * Updated `spawn_as`: Fixes the command rolling a random body instead of the specified one when Metamorphosis is enabled.
+    * Updated `next_boss`: Fixes the command rerolling the selection in some rare cases.
+    * Updated `god`: The command now works similarly to both `buddha` and `no_enemies`, which persist between runs. And like the latter, there is no reason to have the value toggleable only within a run.
+    * Updated arguments partial matching for commands. Details in PR #164
+    * Updated `noclip`: Fix the command not working for flying entities. Fix noclip not behaving correctly after quitting a run with it on. Fix noclip restoring gravity even inside anti-gravity zones.
+
+### 3.11 ###
+
+* **3.11.0**
+    * This update is carried by [SChinchi](https://github.com/SChinchi), thanks!
+    * Updated `give_money`: Support negative amounts. This change was actually done in 3.10 but forgor to put it into the changelog.
+    * Added `create_potential`: Creates a potential in front of a player. The first item tier defined in the droptable decides the color of the droplet and what items will be available with the Artifact of Command.
+    * Some commands support a weighted item selection, referred to as _droptable_. More info in the README.
+    * Updated `random_items`, `midgame`, and `lategame`. The last two now restore their behavior to the original `Inventory.GiveRandomItems` functionality.
+    * Added `restock_equip`: Restock charges for the current equipment.
+
+### 3.10 ###
+
+* **3.10.0**
+    * This update is carried by [SChinchi](https://github.com/SChinchi), thanks!
+    * Updated `give_item`, `give_equip`, `random_items`, `remove_item`, `remove_item_stacks`, `remove_all_items`, `remove_equip`: Add the keywords "evolution", "simulacrum", and "voidfields" for item-related commands.
+    * Updated `spawn_ai`: null spawn_card, player clipping, flyers flung away.
+    * Updated `buff` commands: Work for masterless bodies.
+    * Ignore keybinds when an inspector window is open.
+    * Updated `force_family_event`: Fix some edge cases. [Details here](https://github.com/harbingerofme/DebugToolkit/pull/155)
+    * Updated `give_money`: Support negative amounts.
+    * Add `prevent_profile_writing`: Prevent saving the user profile to avoid bogus data. Enable before doing something and keep it until the end of the session.
+
 ### 3.9 ###
 
 * **3.9.0**

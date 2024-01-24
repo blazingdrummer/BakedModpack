@@ -53,6 +53,14 @@ Drop the dll into \BepInEx\plugins\
 
 ## Changelog
 
+`0.9.10`
+
+- Updated CN TL.
+
+`0.9.9`
+
+- Simplified Chinese Translation (Thanks Meteorite1014!)
+
 `0.9.8`
 
 - Updated RU TL (Thanks hexxedude!)

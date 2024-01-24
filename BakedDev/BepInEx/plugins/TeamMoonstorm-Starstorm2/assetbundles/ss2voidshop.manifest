@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 169022850
+CRC: 1962757858
 Hashes:
   AssetFileHash:
     serializedVersion: 2
     Hash: 94b8766a4deea6d707981c6a5e1f7424
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b4175571f064a53de6201d02b3a20d98
+    Hash: 9d26b6a549cd60618ce424e2cfc41bee
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -107,6 +107,14 @@ ClassTypes:
   Script: {fileID: 11500000, guid: eb779dcd06d2f734e8581991b3565033, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+- Class: 114
+  Script: {fileID: -3738588393363837375, guid: 00000000000000000000000000000000, type: 0}
+- Class: 114
+  Script: {fileID: 876334664012338899, guid: 00000000000000000000000000000000, type: 0}
+- Class: 114
+  Script: {fileID: 6109959668158463127, guid: 00000000000000000000000000000000, type: 0}
+- Class: 114
+  Script: {fileID: 5676793243003057461, guid: 00000000000000000000000000000000, type: 0}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 135
@@ -137,7 +145,7 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Starstorm2/AssetStorm/Scenes/VoidShop.unity
 Dependencies:
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2artifacts
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2stages
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2artifacts
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2stages

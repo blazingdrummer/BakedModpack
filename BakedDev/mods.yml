@@ -168,7 +168,7 @@
   versionNumber:
     major: 5
     minor: 0
-    patch: 11
+    patch: 12
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Core\icon.png
 - manifestVersion: 1
@@ -214,7 +214,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 3
+    patch: 4
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_ContentManagement\icon.png
 - manifestVersion: 1
@@ -278,13 +278,13 @@
   loaders: []
   dependencies:
     - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2103
-    - RiskofThunder-R2API_Core-5.0.6
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.11
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
+    minor: 1
     patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Skins\icon.png
@@ -701,13 +701,13 @@
   loaders: []
   dependencies:
     - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2103
-    - RiskofThunder-R2API_Core-5.0.6
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.11
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 2
+    minor: 3
     patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_RecalculateStats\icon.png
@@ -776,7 +776,7 @@
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 9
+    minor: 13
     patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\IHarbHD-DebugToolkit\icon.png
@@ -819,8 +819,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 7
-    patch: 6
+    minor: 8
+    patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\KingEnderBrine-ScrollableLobbyUI\icon.png
 - manifestVersion: 1
@@ -920,7 +920,7 @@
   versionNumber:
     major: 1
     minor: 6
-    patch: 2
+    patch: 3
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TeamMoonstorm-MoonstormSharedUtils\icon.png
 - manifestVersion: 1
@@ -1179,7 +1179,7 @@
   versionNumber:
     major: 1
     minor: 5
-    patch: 4
+    patch: 11
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyMod\icon.png
 - manifestVersion: 1
@@ -1245,18 +1245,18 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 8
-    patch: 11
+    minor: 9
+    patch: 0
   enabled: false
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\KingEnderBrine-ProperSave\2.8.11\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\KingEnderBrine-ProperSave\2.9.0\icon.png
 - manifestVersion: 1
   name: Wolfo-WolfoQualityOfLife
   authorName: Wolfo
   websiteUrl: https://thunderstore.io/package/Wolfo/WolfoQualityOfLife/
   displayName: WolfoQualityOfLife
-  description: "Overall Quality of Life for the game, fixing up many
-    inconsistencies. A lot of visual tweaks and updates, highly configurable.
-    Main features: Unique Ping icons for everything, more helpfull Buff icons."
+  description: That one mod that gives Oni Merc a red sword and effects. Updates
+    Acrid Blight and REX vines too. Visual and Information Quality of Life for
+    the game.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1265,13 +1265,13 @@
   dependencies:
     - bbepis-BepInExPack-5.4.9
     - RiskofThunder-HookGenPatcher-1.2.1
-    - tristanmcpherson-R2API-3.0.59
+    - tristanmcpherson-R2API-5.0.5
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 0
-    patch: 5
+    minor: 5
+    patch: 2
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-WolfoQualityOfLife\icon.png
 - manifestVersion: 1
@@ -1279,8 +1279,8 @@
   authorName: Wolfo
   websiteUrl: https://thunderstore.io/package/Wolfo/LittleGameplayTweaks/
   displayName: LittleGameplayTweaks
-  description: Adds many Simulacrum tweaks and augments and some gameplay tweaks
-    to spice up the enemy variety and make rare interactables more common.
+  description: More enemy variety.  Prismatic Trials+.  Slightly Faster
+    Interactables, and some other stuff
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1289,15 +1289,39 @@
   dependencies:
     - bbepis-BepInExPack-5.4.9
     - RiskofThunder-HookGenPatcher-1.2.1
-    - tristanmcpherson-R2API-3.0.59
+    - tristanmcpherson-R2API-5.0.5
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 0
-    patch: 4
+    minor: 5
+    patch: 5
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-LittleGameplayTweaks\icon.png
+- manifestVersion: 1
+  name: Wolfo-SimulacrumAdditions
+  authorName: Wolfo
+  websiteUrl: https://thunderstore.io/package/Wolfo/SimulacrumAdditions/
+  displayName: SimulacrumAdditions
+  description: Adds many Augments and makes Simulacrum beatable in way. Updated
+    balance and some quality of life for the Simulacrum.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+    - tristanmcpherson-R2API-5.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 7
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-SimulacrumAdditions\icon.png
 - manifestVersion: 1
   name: TheRealElysium-WaxQuailMultiJump
   authorName: TheRealElysium
@@ -1342,6 +1366,29 @@
     patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TeaBoneJones-IncreaseHuntressRange\icon.png
+- manifestVersion: 1
+  name: HIFU-HuntressAutoaimFix
+  authorName: HIFU
+  websiteUrl: https://thunderstore.io/package/HIFU/HuntressAutoaimFix/
+  displayName: HuntressAutoaimFix
+  description: Makes Huntress able to target enemies nearest to her crosshair. Now
+    with realtime config!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - Rune580-Risk_Of_Options-2.5.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\HIFU-HuntressAutoaimFix\icon.png
 - manifestVersion: 1
   name: Moffein-EnigmaBlacklist
   authorName: Moffein
@@ -1567,7 +1614,7 @@
   versionNumber:
     major: 1
     minor: 6
-    patch: 0
+    patch: 2
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-AI_Blacklist\icon.png
 - manifestVersion: 1
@@ -1760,19 +1807,18 @@
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.1905
-    - RiskofThunder-R2API_Unlockable-1.0.0
+    - RiskofThunder-R2API_Core-5.0.3
+    - RiskofThunder-R2API_Prefab-1.0.1
     - RiskofThunder-R2API_RecalculateStats-1.0.0
-    - RiskofThunder-R2API_Language-1.0.0
+    - RiskofThunder-R2API_Unlockable-1.0.0
     - RiskofThunder-R2API_Director-1.0.0
     - RiskofThunder-R2API_DamageType-1.0.0
-    - RiskofThunder-R2API_Prefab-1.0.1
-    - RiskofThunder-R2API_Core-5.0.3
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 7
-    patch: 4
+    minor: 8
+    patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-Enforcer\icon.png
 - manifestVersion: 1
@@ -1795,7 +1841,7 @@
   versionNumber:
     major: 1
     minor: 4
-    patch: 0
+    patch: 3
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-HAND_OVERCLOCKED\icon.png
 - manifestVersion: 1
@@ -1819,7 +1865,7 @@
     minor: 9
     patch: 8
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\EnforcerGang-MinerUnearthed\1.9.8\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-MinerUnearthed\icon.png
 - manifestVersion: 1
   name: Moffein-Heretic
   authorName: Moffein
@@ -1863,7 +1909,7 @@
   versionNumber:
     major: 1
     minor: 5
-    patch: 3
+    patch: 5
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-SniperClassic\icon.png
 - manifestVersion: 1
@@ -1885,7 +1931,7 @@
   versionNumber:
     major: 0
     minor: 9
-    patch: 8
+    patch: 10
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-Rocket\icon.png
 - manifestVersion: 1
@@ -1937,7 +1983,7 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 0
+    patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Joker_Mode\icon.png
 - manifestVersion: 1
@@ -1959,7 +2005,7 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 7
+    patch: 8
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-BlightedElites\icon.png
 - manifestVersion: 1
@@ -1985,6 +2031,52 @@
     patch: 4
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Archaic_Wisp\icon.png
+- manifestVersion: 1
+  name: TheTimesweeper-Regigigas
+  authorName: TheTimesweeper
+  websiteUrl: https://thunderstore.io/package/TheTimesweeper/Regigigas/
+  displayName: Regigigas
+  description: Adds a new boss to the game, Regigigas. Fully compatible with
+    multiplayer! Includes playable and ror2-fitting versions in config. |
+    Originally by rob, fixed by me, now maintained by rob again
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-5.0.5
+    - bbepis-BepInExPack-5.4.2101
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 9
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TheTimesweeper-Regigigas\icon.png
+- manifestVersion: 1
+  name: Nuxlar-CoolerMithrix
+  authorName: Nuxlar
+  websiteUrl: https://thunderstore.io/package/Nuxlar/CoolerMithrix/
+  displayName: CoolerMithrix
+  description: Brings back the throne and makes the arena cooler. Configurable
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2103
+    - RiskofThunder-HookGenPatcher-1.2.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Nuxlar-CoolerMithrix\icon.png
 - manifestVersion: 1
   name: HIFU-LunarConstruct
   authorName: HIFU
@@ -2016,7 +2108,7 @@
   authorName: amogus_lovers
   websiteUrl: https://thunderstore.io/package/amogus_lovers/StandaloneAncientScepter/
   displayName: StandaloneAncientScepter
-  description: 1.1.32 - Re-heated Warmfix | A full port of ThinkInvisible's
+  description: 1.1.33 - Pre-Rewrite Triage | A full port of ThinkInvisible's
     Ancient Scepter, complete with a custom model, item displays, and no extra
     dependencies.
   gameVersion: "0"
@@ -2038,7 +2130,7 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 32
+    patch: 33
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\amogus_lovers-StandaloneAncientScepter\icon.png
 - manifestVersion: 1
@@ -2060,7 +2152,7 @@
   versionNumber:
     major: 2
     minor: 7
-    patch: 33
+    patch: 35
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\William758-ZetAspects\icon.png
 - manifestVersion: 1
@@ -2075,6 +2167,7 @@
   installMode: managed
   loaders: []
   dependencies:
+    - KingEnderBrine-ScrollableLobbyUI-1.7.6
     - RiskofThunder-R2API_Networking-1.0.2
     - KingEnderBrine-LobbySkinsFix-1.2.1
     - RiskofThunder-R2API_Dot-1.0.1
@@ -2082,13 +2175,13 @@
     - RiskofThunder-R2API_TempVisualEffect-1.0.2
     - RiskofThunder-R2API_Prefab-1.0.3
     - RiskofThunder-R2API_Difficulty-1.1.2
-    - TeamMoonstorm-MoonstormSharedUtils-1.6.2
+    - TeamMoonstorm-MoonstormSharedUtils-1.6.3
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 5
-    patch: 5
+    minor: 6
+    patch: 7
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TeamMoonstorm-Starstorm2\icon.png
 - manifestVersion: 1
@@ -2105,19 +2198,19 @@
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.2103
-    - RiskofThunder-R2API_Core-5.0.10
     - RiskofThunder-R2API_ContentManagement-1.0.1
-    - RiskofThunder-R2API_Items-1.0.3
     - RiskofThunder-R2API_RecalculateStats-1.2.0
-    - RiskofThunder-R2API_Prefab-1.0.3
     - RiskofThunder-R2API_Language-1.0.1
     - RiskofThunder-R2API_Director-1.1.1
+    - RiskofThunder-R2API_Prefab-1.0.3
+    - RiskofThunder-R2API_Items-1.0.3
+    - RiskofThunder-R2API_Core-5.0.10
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 5
-    patch: 9
+    patch: 13
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Zenithrium-VanillaVoid\icon.png
 - manifestVersion: 1

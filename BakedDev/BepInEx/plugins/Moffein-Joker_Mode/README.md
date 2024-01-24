@@ -16,6 +16,9 @@ Mostly untested.
 
 ## Changelog
 
+- `1.1.1`
+	- Scepter now matches by SkillDef instead of Index for better mod compatibility.
+
 - `1.1.0`
 	- Scepter Skill: 【PS?YKO J??oker ?M?ode』
 		- Removes Corrupt damage penalty.

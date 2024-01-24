@@ -27,7 +27,13 @@ Russian - Адский Шкед
 
 Portuguese - Kauzok
 
+Korean - p157157
+
 ## Changelog
+
+`1.1.8`
+
+- Korean translation (Thanks p157157!)
 
 `1.1.6` to `1.1.7`
 

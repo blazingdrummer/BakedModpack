@@ -1,0 +1,374 @@
+ManifestFileVersion: 0
+CRC: 3514900835
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b05d7d8498c88b1f9db494fbad88073c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3bce1d23cf353386f6bfbe5b25d684d1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 816898038, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1788389205, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 296141222, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+- Class: 114
+  Script: {fileID: 1431018688, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1143142494, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1480773730, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 161585894, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1790887305, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1080798252, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 488236779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1245112779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 298587437, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 678291247, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1395413934, guid: da77c7bbf69f66ab2145560542327715, type: 3}
+- Class: 114
+  Script: {fileID: 1213012214, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1533710874, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1324389616, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fda7b334d20d6364293023a243039c10, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 183e85940fbde8848ad6e7e85e991153, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 05a65b078176b2d46abbf40c32841579, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9c07b1f7c28dcca4081e4f00c5224aed, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b2a16891c8108e48883bce0009b7835, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b35daac9259819047b038d2f9878a627, type: 3}
+- Class: 114
+  Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -2119659324, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -2051541306, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -46258121, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1184802484, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -132178706, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1357070253, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1783169300, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1067940895, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -197296741, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 953270592, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1277448904, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1077198318, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 261648291, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -2096938146, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1530905962, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -226763392, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -335047464, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 89795172, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1297580292, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1144835783, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 802575700, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -144590133, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -875252823, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -365436499, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -202159943, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1792105662, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1549848242, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -966267668, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -359660931, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1512185436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 682687671, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1284244208, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1888550019, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1387411909, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1295980167, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1578512655, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1699741063, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1864444436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -103623725, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1918207524, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1848696948, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -343225066, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -317677761, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -270136354, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1819008361, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1952984350, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1839950351, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 717380117, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -517518216, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -455717551, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -789927658, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 952828898, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -565067572, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1391837873, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1627637702, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 306635731, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1255927399, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1881990681, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -306948816, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -315171339, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1895344032, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6ee3c4baf1d15c646bb7eebc5ccfee5b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 33e1a42bc0eb63940887f7d64b738884, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bc05803b1e4df5a4c896c3b375c7f7ae, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d2dc8cbdb9720c418fcff8f84588cab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 492eaafcce1865c4d8ef397afefd8348, type: 3}
+- Class: 114
+  Script: {fileID: -806885394, guid: 67dfb1fdfb2b407222eda8e23ac8b724, type: 3}
+- Class: 114
+  Script: {fileID: -1568778350, guid: 050936fea8909af15a3fd3b64da1ff83, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 144
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 319
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/matChirrMastery.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/ChirrBefriendScepterIndicator.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/Befriend.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/ChirrArmature_RunB.anim
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/ss2.survivor.chirr.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texIconBuffChirrSlow.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/maskGestureChirr.mask
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/fbxChirrMastery.fbx
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/ChirrDartGhost.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texIconChirrMastery.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/ChirrArmature_Sprint.anim
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/ChirrMonsterMaster.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/ss2.skin.chirr.mastery.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/ChirrSpecialFamily.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/BefriendOrbEffect.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/SpitBombProjectile.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/BuffChirrRegen.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/ChirrSecondaryFamily.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/nidrsChirr.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texIconCrosshairChirrTargetCrosshair.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/HitsparkChirrLeaf.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/AimDrop.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/ccpChirr.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/texSporeMask.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/escGrabbing.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/BuffChirrConvert.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/SpitBombDotZone.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/escFireTriLeaf.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/FriendJitterEffect.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/ChirrArmature_RunR.anim
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/skinChirrDefault.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/skinChirrMastery.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/matSpitBombNova.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texChirrUnlock.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/matChirrHitspark.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/ChirrDisplay.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/meshChirrDart.mesh
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texIconBuffChirrAlly.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/matFriendOverlay.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texRampChirrGrass.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/texIconChirrSpecial.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/matSpitBombSplash.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/BuffChirrConfuse.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/texIconChirrUtilityThrow.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/SpitBombGhost.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texChirrDiffuse.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/texIconChirrPrimary.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/BefriendScepter.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/animChirrMenu.controller
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/texRampChirrHealDark.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/FireTriLeaf.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/FriendManager.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texChirrMasteryNormal.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/lsdSpitBomb.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/escSpitBomb.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/texIconChirrSecondary.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/SpitBombImpact.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/VFX/matTracerChirr 1.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/ChirrArmature_RunF.anim
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texChirrIcon.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/VFX/meshLeaf.fbx
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/GrabDash.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texIconBuffChirrFly.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/ChirrUtilityFamily.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/matChirr.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texChirrMasteryDiffuse.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/ChirrBody.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/ChirrBefriendIndicator.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/matSpitBombGas.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Chirr.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/ChirrArmature_RunL.anim
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/escSpitBombFuse.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/idrsChirr.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/VFX/matChirrTrail.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/VFX/fbxChirrDropConeMesh.fbx
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/ChirrEnemyIndicator.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texIconChirrDefault.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/SpitBomb.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/fbxChirr.fbx
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/texRampChirrHeal.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/texRampTritoneSmoothed
+  (5).png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/texRampSporeGrenadeGas.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/texIconChirrUtility.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/animChirr.controller
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/texIconChirrPassive.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/lsdChirrCSS.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texIconBuffChirrConfuse.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texIconCrosshairChirrBefriendCrosshair.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/ChirrFriendHelper.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/VFX/matTracerChirr.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/ChirrLeafProjectile.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/BefriendOrbImpactEffect.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/texIconBuffChirrBoost.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/texIconChirrSpecialScepter.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/BuffChirrGrabFriend.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/ChirrPrimaryFamily.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/BuffChirrFriend.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/matChirrSpore.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Chirr/Skills/SpitBombDotImpact.prefab
+Dependencies:
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2equipments
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2interactables
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmercenary
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
