@@ -65,6 +65,16 @@ Juhnter - Spanish Translation
 
 ## Changelog
 
+`1.9.10`
+
+- Tweaked broken anim fix to prevent accidental detonations.
+
+`1.9.9`
+
+- Fixed broken anims on dedicated servers.
+- Direseeker
+	- Now disabled by default due to confusion about this mod's Direseeker and the standalone one. (Existing configs unchanged)
+
 `1.9.8`
 
 - Updated RU tl (Thanks hexxedude!)

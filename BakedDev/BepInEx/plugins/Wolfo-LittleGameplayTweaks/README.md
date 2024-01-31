@@ -98,11 +98,6 @@ Items teleport up if they fall off the map.
 
 The Bazaar has a third Lunar Seer.
 
-
-Adds 4 Skins; The unused Green Commando skin and 3 Recolors made by me.
-
-![](https://cdn.discordapp.com/attachments/1115182271276781698/1188234799572328548/image.png?ex=6599c8e4&is=658753e4&hm=8d400e033934a71a9cf2b20573a160cf3c257178a03ac4e06faff9a0beb59b6d&)
-
 ##
 Report bugs to @Wolfo.wolfo in the Risk of Rain 2 discord or RoR2 Modding discord.\
 If you're reporting a bug that isn't something obvious include the log file.
@@ -125,6 +120,10 @@ And other fitting item mods i'd recommend.\
 
 ## Changelog:
 ```
+v2.5.6
+-Removed Skins
+--Moved to SimulacrumAddtions as rewards
+
 v2.5.5
 -Attempt 3 to fix Prismatic Crystals Client.
 (Previous fix was also internet connection dependent so it didn't work)

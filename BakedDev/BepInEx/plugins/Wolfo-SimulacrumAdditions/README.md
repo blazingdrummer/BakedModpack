@@ -27,6 +27,8 @@ This leads to interactables like Shrine of Chance, Shrine of Woods, Shrine of Or
 More enemies are added to the spawn pool starting wave 21.\
 Void enemies are added to the spawn pool starting wave 61.
 
+Adds Skin recolors for every character as rewards for beating Simulacrum (or Voidling).
+
 ![](https://cdn.discordapp.com/attachments/743886063738683413/955904648936583188/unknown.png)
 
 ## Balance
@@ -80,6 +82,8 @@ Simu Simulacrum has ramps.
 Fireworks and Halcyon Seed are now available in Simulacrum.\
 Warbanners pop on Boss Waves similiar to teleporters.
 
+Fixes vanilla bugs where Clients don't teleport to the Crab or often don't get enemy indicators.
+
 ![](https://cdn.discordapp.com/attachments/1115182271276781698/1191449266871357530/image.png?ex=65a57a99&is=65930599&hm=8e618870cf043209f0f66b908cf17ed3b29fb48149dba024e7f54cde2070eecb&)
 
 
@@ -87,6 +91,8 @@ Warbanners pop on Boss Waves similiar to teleporters.
 Report bugs to @Wolfo.wolfo in the Risk of Rain 2 discord or RoR2 Modding discord.\
 If you're reporting a bug that isn't something obvious include the log file.\
 Generally happy about feedback
+
+Every played needs this mod installed.
 
 This mod was originally part of LittleGameplayTweaks
 
@@ -100,6 +106,34 @@ Also download my other mods:\
 
 ## Changelog:
 ```
+v1.8.0
+Added 22 skin recolors mostly based on RoRR alt palettes as rewards for beating Simulacrum wave 50 or Voidling.
+Even if basic still serves as a neat reward.
+
+-Commando 	  (Unused SotV skin)
+-Captain x2	  (Moved from LittleGameplayTweaks)
+-REX 		  (Moved from LittleGameplayTweaks)
+-Bandit 	  (Moved from LittleGameplayTweaks)
+-Engineer 	  (RoRR alt color)
+-Mult x2		
+-Artificer x2 (RoRR alt color)
+-Huntress 	  (RoRR alt color)
+-Acrid 		  (RoRR alt color)
+-CHEF x2	  (RoRR alt color)
+-HAN-D x2	  (RoRR alt color)
+-Loader		  (RoRR alt color)
+-Mercenary x2 (RoRR alt color)
+-Void Fiend x2
+-Railgunner
+
+-Ending no longer counts as Win so it won't give Masteries
+-All Super bosses now have Adaptive Armor and aim for the same HP value (+Scav/Twisted, -Devestator)
+--Super Bosses get less bonus damage (like half)
+--Super Boss waves will get half the scaling if not on a forced wave
+
+-Fixed Vanilla bug where Clients would often not see enemy indicators.
+
+
 v1.7.3
 -Rarer to get multiple of the same ghost and limited ghosts to 3.
 -Adjusted Drone Family wave HP/Damage so it should be less long

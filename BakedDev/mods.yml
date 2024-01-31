@@ -57,7 +57,7 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 10
+    minor: 11
     patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-RoR2BepInExPack\icon.png
@@ -325,13 +325,13 @@
   dependencies:
     - RiskofThunder-HookGenPatcher-1.2.3
     - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
+    - RiskofThunder-R2API_Core-5.0.12
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 1
+    patch: 2
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_SceneAsset\icon.png
 - manifestVersion: 1
@@ -1271,7 +1271,7 @@
   versionNumber:
     major: 2
     minor: 5
-    patch: 2
+    patch: 3
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-WolfoQualityOfLife\icon.png
 - manifestVersion: 1
@@ -1295,7 +1295,7 @@
   versionNumber:
     major: 2
     minor: 5
-    patch: 5
+    patch: 7
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-LittleGameplayTweaks\icon.png
 - manifestVersion: 1
@@ -1318,8 +1318,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 7
-    patch: 3
+    minor: 8
+    patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-SimulacrumAdditions\icon.png
 - manifestVersion: 1
@@ -1863,7 +1863,7 @@
   versionNumber:
     major: 1
     minor: 9
-    patch: 8
+    patch: 10
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-MinerUnearthed\icon.png
 - manifestVersion: 1
@@ -1909,9 +1909,9 @@
   versionNumber:
     major: 1
     minor: 5
-    patch: 5
+    patch: 6
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-SniperClassic\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\EnforcerGang-SniperClassic\1.5.6\icon.png
 - manifestVersion: 1
   name: EnforcerGang-Rocket
   authorName: EnforcerGang
@@ -1964,6 +1964,29 @@
     patch: 6
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TheTimesweeper-Tesla_Trooper\icon.png
+- manifestVersion: 1
+  name: rob_gaming-Driver
+  authorName: rob_gaming
+  websiteUrl: https://thunderstore.io/package/rob_gaming/Driver/
+  displayName: Driver
+  description: Adds the Driver, a mostly grounded survivor focused on simple
+    gunplay. Gunga ginga.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+    - tristanmcpherson-R2API-5.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 8
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\rob_gaming-Driver\icon.png
 - manifestVersion: 1
   name: Moffein-Joker_Mode
   authorName: Moffein
