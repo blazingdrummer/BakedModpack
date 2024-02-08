@@ -119,6 +119,9 @@ There shouldn't be any compatibility issues if you use both but I still don't re
 
 ## Changelog:
 ```
+v2.5.4
+Added missing saftey check related to feather buff which could cause desyncs
+
 v2.5.3
 SimuAddtions Red Merc support
 ReAdded Scrapping messages cuz I like much info. (configurable of course)

@@ -5,34 +5,32 @@ This makes getting to wave 50 a set goal and makes the gamemode "beatable".
 One of these runs should take around an hour (similiar to loop Mithrix) and counts as a win.  
 
 Adds a large amount of Augments\
-Basic Waves:  
--Added 13 Family Event Augments.   
--Added 5 Artifact Augments.   
--Added 3 Elite Augments.  
--Added 7 Item Augments.
--Added 15 Other Augments.  
+Basic Waves:\
+-Added 13 Family Event Augments.\
+-Added 5 Artifact Augments.\
+-Added 3 Elite Augments.\
+-Added 7 Item Augments.\
+-Added 15 Other Augments.
 
 -In total raises Basic Augment count from 9 to 52 (+8 with supported mods).
 
-Boss Waves:  
--Added 6 Special Boss Augments.  
--Added 4 Aritfact Boss Augments.  
--Added 8 Other Boss Augments.  
+Boss Waves:\
+-Added 6 Special Boss Augments.\
+-Added 4 Aritfact Boss Augments.\
+-Added 8 Other Boss Augments.
 
 -In total raises Boss Augment count from 5 to 23 (+2 with supported mods).
 
 Every stage now uses it's own interactable spawn pool to make each stage feel more unique.\
-This leads to interactables like Shrine of Chance, Shrine of Woods, Shrine of Order and Cleansing Pools spawning in the game mode.
+This means Shrine of Chance, Shrine of Woods, Shrine of Order and Cleansing Pools spawn in the game mode.
 
 More enemies are added to the spawn pool starting wave 21.\
 Void enemies are added to the spawn pool starting wave 61.
 
-Adds Skin recolors for every character as rewards for beating Simulacrum (or Voidling).
-
 ![](https://cdn.discordapp.com/attachments/743886063738683413/955904648936583188/unknown.png)
 
 ## Balance
-Special Boss Augments now have special scaling like they have in the regular game.\
+Special Boss Augments now have special scaling like how final bosses on normal runs do.\
 Special Boss Augments now spawn with enemies too.\
 Mithrix will be in phase 3 during his augment.
 
@@ -48,12 +46,13 @@ Elites spawn more often the more waves are completed.
 
 Items are now granted every 8 waves until the first red.\
 Afterwards every 4 then 2 waves, shortening after each red is added.\
-Some overpowered items were blacklisted for enemy team usage. (Tesla Coil, Nkuhanas)
+Enemies are no longer granted On Kill items.\
+Some overpowered items were blacklisted for enemy team usage. (Tesla Coil, Nkuhanas).
 
 Only 20 enemies can be alive at a time instead of 30.\
 Really early waves even less because of how often flying enemies overwhelm the player.
 
-Special waves will get likelier after wave 30 and wave 50.
+Special waves will get likelier after wave 25 and wave 50.
 
 ![](https://cdn.discordapp.com/attachments/1115182271276781698/1188585480762183740/image.png?ex=659b0f7d&is=65889a7d&hm=3f84f75a4e8590bc3331b66f745c507075e2f16e1da8ec197c3cee7ab3aec235&)
 
@@ -61,6 +60,10 @@ Special waves will get likelier after wave 30 and wave 50.
 Void Coins can be used as an alternative to blood on void interactables in Simulacrum.\
 They drop like Lunar Coin and from Void Barrels. You start with 1.\
 Void Blood Payments can no longer be blocked (in Simu)
+
+Adds 2 Simulacrum only Artifacts:\
+-Artifact of Augments : Only augmented waves
+-Artifact of Reality : Use normal stages instead of Simulacrum stages
 
 Scavengers are given a random Void item in Simulacrum.\
 Enemies have a small chance to get a void item.  
@@ -79,10 +82,11 @@ Simu Abyssal Depths now plays Void Locusts music\
 Simu Rallypoint Delta now plays Snowy Forests music\
 Simu Simulacrum has ramps. 
 
-Fireworks and Halcyon Seed are now available in Simulacrum.\
+Fireworks, Squid Polyp, Drone Parts and Halcyon Seed are now available in Simulacrum.\
 Warbanners pop on Boss Waves similiar to teleporters.
 
-Fixes vanilla bugs where Clients don't teleport to the Crab or often don't get enemy indicators.
+Fixes vanilla bugs where Clients don't teleport to the Crab.\
+Fixed vanilla bugs where Clients often don't get enemy indicators.
 
 ![](https://cdn.discordapp.com/attachments/1115182271276781698/1191449266871357530/image.png?ex=65a57a99&is=65930599&hm=8e618870cf043209f0f66b908cf17ed3b29fb48149dba024e7f54cde2070eecb&)
 
@@ -92,9 +96,7 @@ Report bugs to @Wolfo.wolfo in the Risk of Rain 2 discord or RoR2 Modding discor
 If you're reporting a bug that isn't something obvious include the log file.\
 Generally happy about feedback
 
-Every played needs this mod installed.
-
-This mod was originally part of LittleGameplayTweaks
+Every player needs this mod installed.
 
 The balance of this mod can be questionable as Simulacrum sucks to balance.
 
@@ -104,8 +106,25 @@ Also download my other mods:\
 [LittleGameplayTweaks](https://thunderstore.io/package/Wolfo/LittleGameplayTweaks/) more enemy variety and some small changes and 4 more family augments.  
 [WolfoQualityOfLife](https://thunderstore.io/package/Wolfo/WolfoQualityOfLife/) for many visual improvements.  
 
+##
+I already added make wave 50 special so [SimulacrumBossStageMod](https://thunderstore.io/package/Def/SimulacrumBossStageMod/) is a bit redundant.\
+I already speed up the crab so [SpeedUpSafeWard](https://thunderstore.io/package/Felix/SpeedUpSafeWard/) is redundant.
+
 ## Changelog:
 ```
+v1.8.2
+-Added Artifact of Reality 
+--Use normal stages instead of Simulacrum Stages
+--Kind of a joke but still an interesting experiment
+
+-Moved skins into it's own mod and added that mod as a dependency (so downloaded automatically).
+-Won't have boss waves every 2nd wave if Judgement is installed. (they still gotta fix their mod ideally)
+
+v1.8.1
+-Added 1 more Commando & Bandit based on more weird RoRR recolors.
+-Pink Huntress Arrow Rain is now pink
+-Fixed a bug if other mods made boss waves happen earlier than wave 5.
+
 v1.8.0
 Added 22 skin recolors mostly based on RoRR alt palettes as rewards for beating Simulacrum wave 50 or Voidling.
 Even if basic still serves as a neat reward.
@@ -132,7 +151,6 @@ Even if basic still serves as a neat reward.
 --Super Boss waves will get half the scaling if not on a forced wave
 
 -Fixed Vanilla bug where Clients would often not see enemy indicators.
-
 
 v1.7.3
 -Rarer to get multiple of the same ghost and limited ghosts to 3.

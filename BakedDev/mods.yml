@@ -16,7 +16,7 @@
   versionNumber:
     major: 3
     minor: 0
-    patch: 2
+    patch: 3
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-BepInEx_GUI\icon.png
 - manifestVersion: 1
@@ -1271,7 +1271,7 @@
   versionNumber:
     major: 2
     minor: 5
-    patch: 3
+    patch: 4
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-WolfoQualityOfLife\icon.png
 - manifestVersion: 1
@@ -1303,8 +1303,8 @@
   authorName: Wolfo
   websiteUrl: https://thunderstore.io/package/Wolfo/SimulacrumAdditions/
   displayName: SimulacrumAdditions
-  description: Adds many Augments and makes Simulacrum beatable in way. Updated
-    balance and some quality of life for the Simulacrum.
+  description: Large content addition to Simulacrum. Adds 50+ Augments, makes
+    Simulacrum beatable, updates balance and some quality of life.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1314,14 +1314,15 @@
     - bbepis-BepInExPack-5.4.9
     - RiskofThunder-HookGenPatcher-1.2.1
     - tristanmcpherson-R2API-5.0.5
+    - Wolfo-WolfoAlternateSkins-1.2.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 8
-    patch: 0
+    patch: 2
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-SimulacrumAdditions\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\Wolfo-SimulacrumAdditions\1.8.2\icon.png
 - manifestVersion: 1
   name: TheRealElysium-WaxQuailMultiJump
   authorName: TheRealElysium
@@ -1911,7 +1912,7 @@
     minor: 5
     patch: 6
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\EnforcerGang-SniperClassic\1.5.6\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-SniperClassic\icon.png
 - manifestVersion: 1
   name: EnforcerGang-Rocket
   authorName: EnforcerGang
@@ -2331,3 +2332,27 @@
     patch: 3
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\JaceDaDorito-FogboundLagoon\icon.png
+- manifestVersion: 1
+  name: Wolfo-WolfoAlternateSkins
+  authorName: Wolfo
+  websiteUrl: https://thunderstore.io/package/Wolfo/WolfoAlternateSkins/
+  displayName: WolfoAlternateSkins
+  description: Adds 25+ skin recolors, a lot of them based on RoR:Returns
+    palettes. Unlocked by beating alt endings or Simulacrum wave 50.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+    - tristanmcpherson-R2API-5.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-WolfoAlternateSkins\icon.png
