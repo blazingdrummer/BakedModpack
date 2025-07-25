@@ -1,6 +1,6 @@
 {
     "name": "Joker_Mode",
-    "version_number": "1.1.0",
+    "version_number": "1.1.1",
     "website_url": "https://github.com/Moffein/ViendStanceChangeSkill",
     "description": "Adds a Special skill to Void Fiend to make him go Joker Mode.",
     "dependencies": [

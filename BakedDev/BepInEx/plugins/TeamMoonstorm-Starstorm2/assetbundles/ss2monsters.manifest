@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2852473171
+CRC: 2589914112
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f6a1b82ac753bc13eb041491ec289c5e
+    Hash: f9fcaee28b08c7387add05eab670566a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 78f6e43762580295096fcfc50d73e9f2
+    Hash: a90b0429acd47b605580ca5b0349a9cb
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,23 +42,17 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 816898038, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 2074666924, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 1788389205, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 296141222, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
 - Class: 114
   Script: {fileID: 1143142494, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 1480773730, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
-  Script: {fileID: 1533710874, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
-  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 161585894, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -68,15 +62,19 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1790887305, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 678291247, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 298587437, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 678291247, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 2011550347, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 1b2a16891c8108e48883bce0009b7835, type: 3}
+  Script: {fileID: 1533710874, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 0245a69919a235047b7a4a8d8bd19d01, type: 3}
+  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b8f050498cd9fae4ea50d55fdb5da606, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b2a16891c8108e48883bce0009b7835, type: 3}
 - Class: 114
   Script: {fileID: -2005973111, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -87,6 +85,8 @@ ClassTypes:
   Script: {fileID: 1357070253, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -354346302, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 422384671, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -1783169300, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -168,6 +168,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -2130789662, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
+  Script: {fileID: 2074666924, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
   Script: {fileID: -1848696948, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -343225066, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
@@ -242,7 +244,9 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/matFollowerBlue.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/Skills/sfLampBoss4.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/LampMaster.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/texLampRamp.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/matWayfarerLantern.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/LampExplosionFire.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/msmdcLampBossChained.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/LampBody.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/Skills/escLampBossSpawn.asset
@@ -258,6 +262,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Runshroom/Logs.Runshroom.0.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/matHealBeam.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/LampHealBeamBlue.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/texUICleanButton.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Runshroom/RunnerEm.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/dccsLampFamily.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/WayfarerChains_Diffuse.png
@@ -277,14 +282,19 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Runshroom/nidrsRunshroom.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/Skills/LampBulletGhost.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/matWayfarerLightBlue.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/LampChargingBlue
+  Variant.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/WayFarerLantern_Normal.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/DeathNew.anim
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/Skills/LampBulletGhostBlue
   Variant.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/matLampWardIndicatorBlue.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/LampExplosionFireBlue
+  Variant.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/msmdcLampBoss.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/LampExplosionSmallBlue
   Variant.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/matLampTileBlue.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/LampExplosion.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/Skills/matCopyGenericFire.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/skinLampBossChained.asset
@@ -294,6 +304,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/HealBeam.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Runshroom/sdRunshroom.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/WayFarerBody_Normal.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/texLampBlueRamp.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/WayFarerBody_Diffuse
   (1).png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Runshroom/matTracerRunshroom.mat
@@ -330,6 +341,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Runshroom/RunnerDiffuse.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/Skills/escLampBossDeath.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/skinLampDefault.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/matCopyGenericFire.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/wayfarerBuffIconPlaceholder.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Runshroom/matRunshroom.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/wayfarerBuffIcon.png
@@ -342,6 +354,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/Skills/LampBullet.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Runshroom/matRunshroomTrail.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/Skills/escLamp1.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/LampCharging.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/LampHealBeam.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/Skills/matCopyOmniExplosion1.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/Idle.anim
@@ -361,6 +374,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/Skills/sdLampBoss2.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Runshroom/RuunnerAnims.fbx
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/sexfarer (3).fbx
+- Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/matLampTile.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/LampBoss 2.fbx
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/Skills/sdLampBoss1.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/Skills/escLampBossBullet.asset
@@ -374,21 +388,22 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Runshroom/idrsRunshroom.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/nidrsLampBoss.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/Logs.LampBossBody.0.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/LampBoss/texLampTileMask.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/sdLamp.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/texLampHealRampBlue.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/Skills/SkillLamp2.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Runshroom/Ruunner.fbx
 - Assets/Starstorm2/AssetStorm/Base/Characters/Monsters/Lamp/nidrsLamp.asset
 Dependencies:
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2equipments
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2interactables
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2vanilla
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2equipments
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2interactables
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2vanilla

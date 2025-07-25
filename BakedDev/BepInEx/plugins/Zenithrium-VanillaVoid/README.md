@@ -150,6 +150,25 @@ Both the base and stacking effects of these items are customizable. You can also
 You can contact me on Discord in the RoR2 Modding server or simply message me, @Zenithrium. I'd love to hear about more item ideas or if you think any item could use a buff, nerf, or even a rework. You can also check out the Github and leave a pull request or issue.
 
 # Changelog
+* v1.5.13 Oops
+ * Void command cubes now don't randomly break the game sometimes. Oops. 
+
+* v1.5.12 Housekeeping 7
+  * Void Locus's exit portal now only opens after clearing all the batteries. Can be reverted back to the early portal.
+  * Void command cubes now have the appropriate void particle system. Can be disabled if desired.
+  * Added item displays for Chirr.
+
+* v1.5.11 Housekeeping 6
+  * Clockwork Variant 1 works properly with non-default credit scaling.
+  * Quill should no longer break movement when attempting to dash with a debuff that sets speed to 0. 
+  * Lotus's slow now quickly scales down to zero after the holdout zone finishes.
+
+* v1.5.10 Housekeeping 5
+  * Clockwork Mechanism Variants 1 and 2 now properly work in Simulacrum.
+
+* v1.5.9 Housekeeping 4
+  * Cornucopia should no longer spawn voidtouched void enemies.
+
 * v1.5.8 Housekeeping 3
   * Monolith can no longer spawn multiple times in one void seed.
   * Removed some debug lines from Exhaust.
@@ -168,6 +187,8 @@ You can contact me on Discord in the RoR2 Modding server or simply message me, @
   * Void items are now locked behind the unlock condition for that their non-void pair has, if it has an unlock. Only applies to void items without unlocks so it should not conflict with other mods. Can be toggled on and off.
   * Cornucopia now checks for if a player has the item in a more sane way.
   * Fixed a misplaced item display for Enforcer with Quill.
+
+<details><summary>Past Changelogs</summary>
 
 * v1.5.4 The Curse
   * Hopefully fixed a bug with Cornucopia being unable to properly spawn monsters.
@@ -203,8 +224,6 @@ You can contact me on Discord in the RoR2 Modding server or simply message me, @
   * Updated IDRS for Starstorm2 survivors.
   * Reimplemented dropped IDRS for Coolant.
   * Added configs for proc coeffecient on relevant items.
-
-<details><summary>Past Changelogs</summary>
 
 * v1.4.13 The Oops Uh Oh I Crashed Woolie Update
   * Partially rewrote Coolant.

@@ -1,7 +1,7 @@
 {
     "name": "MoonstormSharedUtils",
     "author": "TeamMoonstorm",
-    "version_number": "1.6.2",
+    "version_number": "1.6.3",
     "website_url": "https://github.com/TeamMoonstorm/MoonstormSharedUtils",
     "description": "An API focused with the intention of working in an editor enviroment using ThunderKit, MSU is a modular API system designed for ease of use and simplicity.",
     "dependencies": [

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 596980189
+CRC: 3038065661
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ea101accb4cbc94f6f6acd377bdd78c3
+    Hash: a29262cdce3504989cf25dd3759fa09d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 27d7e910ebf5f8c35424f131dddf8292
+    Hash: 6391ac5d784317c3d471105c68fe4d58
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -28,8 +28,6 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 816898038, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 2074666924, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: c55fa4612ff13f74f9c6ed40c5a8cac4, type: 3}
@@ -47,6 +45,8 @@ ClassTypes:
   Script: {fileID: -335047464, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -1888550019, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 2074666924, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: eb779dcd06d2f734e8581991b3565033, type: 3}
 - Class: 115
@@ -214,6 +214,7 @@ Assets:
 - Assets/Textures/Gradients/Basic/Angled 1 - 256x256.png
 - Assets/Textures/Noise/Swirl/Swirl 4 - 256x256.png
 - Assets/Textures/Ramps/texRampGolden.png
+- Assets/Materials/matTeamAreaIndicatorFullPlayer.mat
 - Assets/Textures/texShockwaveMask.png
 - Assets/Textures/Noise/Swirl/Swirl 9 - 256x256.png
 - Assets/Textures/Noise/Streak/Streak 5 - 256x256.png
@@ -416,6 +417,7 @@ Assets:
 - Assets/Wwise/ScriptableObjects/Soundbank/E98EF75B-C3C3-4AFF-A6A3-8570CA483C99.asset
 - Assets/CopiedFromVanilla/idrsEmpty.asset
 - Assets/Textures/Noise/Manifold/Manifold 6 - 256x256.png
+- Assets/Materials/matTeamAreaIndicatorIntersectionPlayer.mat
 - Assets/Textures/texPierceMask.png
 - Assets/Materials/matTracerBright.mat
 - Assets/Textures/Noise/Vein/Vein 11 - 256x256.png
@@ -563,6 +565,7 @@ Assets:
 - Assets/Textures/Ramps/texGenericDustRamp.png
 - Assets/Textures/Noise/Melt/Melt 7 - 256x256.png
 - Assets/Textures/texYoungTeleporterDiffuse.png
+- Assets/Materials/matTeamAreaIndicatorIntersectionMonster.mat
 - Assets/Textures/Noise/Swirl/Swirl 14 - 256x256.png
 - Assets/Textures/Stolen/texRampDefault 1.asset
 - Assets/CopiedFromVanilla/CameraParams/ccpPaladin.asset
@@ -629,7 +632,7 @@ Assets:
 - Assets/Textures/Noise/Streak/Streak 11 - 256x256.png
 - Assets/Textures/Gradients/Ripple/Horizontal Ripple 7 - 256x256.png
 Dependencies:
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2events
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2events
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando

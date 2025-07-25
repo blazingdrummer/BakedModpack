@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1085156414
+CRC: 215319960
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 08908d14e2a3ab3ad582c048b2566e17
+    Hash: bd549694abda4b085fe50037ca63685e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 13f279ed4d5a082b5b3084d7eb092da6
+    Hash: cd9d860564e15297f41484b37fb8da61
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -46,9 +46,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 816898038, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 296141222, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
 - Class: 114
@@ -56,9 +56,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1143142494, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 161585894, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 488236779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 1245112779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -67,6 +67,10 @@ ClassTypes:
   Script: {fileID: 2011550347, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 1044368294, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 66d25291d5decf84987b68620c26a865, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f7d40212800c9b2408361fb219fc152a, type: 3}
 - Class: 114
@@ -112,6 +116,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 802575700, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
+  Script: {fileID: -144590133, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
   Script: {fileID: -875252823, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -1620867292, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
@@ -134,13 +140,19 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 682687671, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
+  Script: {fileID: -1284244208, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
   Script: {fileID: -1888550019, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1006468269, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -492659515, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -1578512655, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -1699741063, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1647272892, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 1918207524, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -204,6 +216,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/CharacterBodyOrbEffect.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/colorMats/matCloneDroneLightVoid.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/DroneRotor.mesh
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/DroneTableAnimator.controller
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/DroneTablePrefabOld.prefab
@@ -211,6 +224,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/DuplicatingCircleVFX.prefab
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/TexTableDiffuse.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/texCaptainSupplyRadius.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/colorMats/matCloneDroneLightT3.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/dronut.fbx
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/shockdroneamalgam
   1.fbx
@@ -226,15 +240,20 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/idrsCloneDrone.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/physmatItems.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/Drone.mesh
+- Assets/Starstorm2/AssetStorm/Base/Interactables/VoidRock/PickupVoidRock.prefab
+- Assets/Starstorm2/AssetStorm/Base/Interactables/VoidRock/VoidRockTracker.asset
+- Assets/Starstorm2/AssetStorm/Base/Interactables/VoidRock/VoidRock.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/matOpaqueDustLargeDirectional.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/matShockDroneBlade.mat
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/texHexRed.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/matDroneBlades.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/CloneDroneMaster.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/texRampTritoneSmoothed.png
+- Assets/Starstorm2/AssetStorm/Base/Interactables/VoidRock/Terrain.fbx
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/texParticleDust3Mask.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/sdCloneDroneSearch.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/sfShockDrone.asset
+- Assets/Starstorm2/AssetStorm/Base/Interactables/VoidRock/mdlKey.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/matCloneDroneBody.mat
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/texInventoryIconOutlined.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/ccpStandard.asset
@@ -242,9 +261,16 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/NamedIDRSSCloneDrone.asset
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/texRampRed.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/Drones_MatShockDrone_Normal.1001.png
+- Assets/Starstorm2/AssetStorm/Base/Interactables/VoidRock/Voidkeyv01.fbx
+- Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/matCloneDroneLightReady.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/matDroneBrokenGeneric.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/colorMats/matCloneDroneLightSybl.mat
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/texHexGreen.png
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/DroneTableDestroyAction.asset
+- Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/colorMats/matCloneDroneLightT4.mat
+- Assets/Starstorm2/AssetStorm/Base/Interactables/VoidRock/matVoidRock.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/matCloneDroneNoLight.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/colorMats/matCloneDroneLightT1.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/texCloudPixel2.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/escCloneDroneCook.asset
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/meshDroneTable.mesh
@@ -264,6 +290,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/hungryproto.png
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/matHoloRed.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/PropellerModel.mesh
+- Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/colorMats/matCloneDroneLightEquip.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/matShockDroneBody.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/CloneDroneBody.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/texCrosshairDrone1.png
@@ -273,20 +300,25 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/texShockDroneIcon.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/matDupingLine.mat
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/TexLaserEmissive.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/colorMats/matCloneDroneLightT2.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/ChargeSparks.prefab
+- Assets/Starstorm2/AssetStorm/Base/Interactables/VoidRock/matCopyVendingMachineDirt.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/mdlShockDrone.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/texScanlineMask.png
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/matHoloWhite.mat
+- Assets/Starstorm2/AssetStorm/Base/Interactables/VoidRock/matTexVoidRock.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/ShockDrone.fbx
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/DroneGlow.mesh
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/sfCloneDrone.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/texRampTritone2.png
+- Assets/Starstorm2/AssetStorm/Base/Interactables/VoidRock/matVoidRockIndicator.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/Drones_MatShockDrone_Normal.1002.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/msidcCloneDrone.asset
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/texRoboChunksNormal.png
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/TexTableNormal.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/NamedIDRSShockDrone.asset
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/DroneTableBase.asset
+- Assets/Starstorm2/AssetStorm/Base/Interactables/VoidRock/matVoidRockParticles.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/matTracerBrightTransparent.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/MatShockDrone_Base_color.png
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/texRampGreen.png
@@ -303,17 +335,21 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/ShockDroneBroken.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/physmatItems.asset
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/DroneTableAnim.fbx
+- Assets/Starstorm2/AssetStorm/Base/Interactables/VoidRock/VoidRockPickup.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/matOpaqueDustLargeDirectional.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/Drones/CloneDrone/colorMats/matCloneDroneLightLunar.mat
 - Assets/Starstorm2/AssetStorm/Base/Interactables/DroneTable/matTableEmissive.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/ccpStandard.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/Drones/ShockDrone/matShockDroneCoilGold.mat
 Dependencies:
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2equipments
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2equipments
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmercenary
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared

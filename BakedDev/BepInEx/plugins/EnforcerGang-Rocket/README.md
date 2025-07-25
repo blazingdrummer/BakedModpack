@@ -53,12 +53,22 @@ Drop the dll into \BepInEx\plugins\
 
 ## Changelog
 
+`0.9.10`
+
+- Updated CN TL.
+
+`0.9.9`
+
+- Simplified Chinese Translation (Thanks Meteorite1014!)
+
+`0.9.8`
+
+- Updated RU TL (Thanks hexxedude!)
+
 `0.9.7`
 
 - Made emote skeleton less buggy.
 	- No more getting permanently rotated, but your height/hip position can still permanently change.
-
-<details>
 
 `0.9.6`
 
@@ -96,7 +106,7 @@ Drop the dll into \BepInEx\plugins\
 		- New (Fixed): Center rocket has knockback, outer 2 rockets don't.
 	- Now plays the correct sound when using the alt primary.
 
-
+<details>
 
 `0.8.7`
 

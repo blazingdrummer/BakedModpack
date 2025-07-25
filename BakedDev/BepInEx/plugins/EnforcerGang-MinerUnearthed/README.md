@@ -51,7 +51,7 @@ Neik - Blacksmith concept
 Ruxbieno - Direseeker logbook entry  
 Christian Gentry - Anvil model  
 JunJun_W - Chinese Translation  
-Адский Шкед - Russian Translation  
+Адский Шкед and Hexxedude - Russian Translation  
 Damglador - Ukrainian Translation  
 Donitodorito - Portuguese Translation
 Juhnter - Spanish Translation
@@ -64,6 +64,20 @@ Juhnter - Spanish Translation
 - help
 
 ## Changelog
+
+`1.9.10`
+
+- Tweaked broken anim fix to prevent accidental detonations.
+
+`1.9.9`
+
+- Fixed broken anims on dedicated servers.
+- Direseeker
+	- Now disabled by default due to confusion about this mod's Direseeker and the standalone one. (Existing configs unchanged)
+
+`1.9.8`
+
+- Updated RU tl (Thanks hexxedude!)
 
 `1.9.7`
 - forgot spanish translation in last update, sorry Juhnter!

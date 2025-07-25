@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3654158468
+CRC: 2914853507
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9793f8823e2d23084181b80a38b1581d
+    Hash: 3ed188c2f53ecf36cee17e2212dfb0e1
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ec811de6fac4cb6361a5c191dd345ed9
+    Hash: bd8c17dce74caec0ae7e99b7771bf28f
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -54,6 +54,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 46a942b6832a4c6478c6a61f3754cb49, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 03725618e782c844ea89d8d68dddf2db, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 4f22104980072df4e9b46378989691b6, type: 3}
 - Class: 114
   Script: {fileID: 1577317200, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
@@ -61,6 +63,8 @@ ClassTypes:
   Script: {fileID: -1161602148, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -1699741063, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -255427816, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -318230426, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -111,17 +115,21 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matArtifactSlab.mat
 - Assets/Starstorm2/AssetStorm/Base/Prefabs/VoidPortal/NemesisPortalVehicle.prefab
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matInfusionTrail.mat
+- Assets/Starstorm2/AssetStorm/Base/Difficulties/texIconTheOneAboveMonsoon.png
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matLunarInfection.mat
 - Assets/Starstorm2/AssetStorm/Base/PostProcessingProfiles/ppSlateMinesSecretTunnel.asset
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matRainMoon.mat
+- Assets/Starstorm2/AssetStorm/Base/Prefabs/StarstormRunBehavior.prefab
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matLunarGolemShieldTrails.mat
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matHealingCross.mat
+- Assets/Starstorm2/AssetStorm/Base/Difficulties/texIconCataclysm.png
 - Assets/Starstorm2/AssetStorm/Base/PostProcessingProfiles/ppApplication.asset
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matLunarWispFlames.mat
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matGenericFlash.mat
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matJellyfishLightningLarge.mat
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matLunarShardTrail.mat
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matSkyboxInfiniteTower.mat.mat
+- Assets/Starstorm2/AssetStorm/Base/Difficulties/texIconDeluge.png
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matArtifactGem.mat
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matDistortionFaded.mat
 - Assets/Starstorm2/AssetStorm/Base/Difficulties/Typhoon.asset
@@ -162,9 +170,9 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/MaterialCopiers/matLunarNeedleImpactEffect.mat
 - Assets/Starstorm2/AssetStorm/Base/Difficulties/SuperTyphoon.asset
 Dependencies:
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2artifacts
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2events
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2vanilla
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2artifacts
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2events
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2vanilla

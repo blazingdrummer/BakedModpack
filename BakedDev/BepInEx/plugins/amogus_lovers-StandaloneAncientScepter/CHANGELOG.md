@@ -1,5 +1,8 @@
 
 ## Changelog
+`1.1.33`
+- 🩹 Hotfixed edge case when replacing scepter skills defined through indexes using the skilldef based overload.Not the best possible fix,but incoming rewrite will invalidate the issue.
+
 `1.1.32`
 - 🛠️Fixed any inventory change restocking scepter skills,this time for every character. (Don't forget to change up characters and loadouts between test runs,everyone!)
 

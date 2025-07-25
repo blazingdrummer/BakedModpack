@@ -1,8 +1,8 @@
 {
   "name": "StandaloneAncientScepter",
-  "version_number": "1.1.32",
+  "version_number": "1.1.33",
   "website_url": "https://github.com/DestroyedClone/AncientScepter",
-  "description": "1.1.32 - Re-heated Warmfix | A full port of ThinkInvisible's Ancient Scepter, complete with a custom model, item displays, and no extra dependencies.",
+  "description": "1.1.33 - Pre-Rewrite Triage | A full port of ThinkInvisible's Ancient Scepter, complete with a custom model, item displays, and no extra dependencies.",
   "dependencies": [
     "bbepis-BepInExPack-5.4.2103",
     "RiskofThunder-R2API_Core-5.0.4",

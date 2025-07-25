@@ -3,6 +3,8 @@ A full-game overhaul that aims to bring it closer to RoR1's balance. My main pri
 
 I highly recommed installing https://thunderstore.io/package/Moffein/EliteReworks/ to go with this.
 
+Also check https://thunderstore.io/package/Risky_Lives/RiskyStarterPack/ out if you want a stable multiplayer-ready modpack to go with this!
+
 Check the Wiki tab for a quick overview of the main changes of the mod!
 Full change list can be found at https://docs.google.com/document/d/1Igxdur0M33fdkcDLYgDEbLE0M4-89gSTorxgdn-oyKs/
 
@@ -64,36 +66,14 @@ Squid Polyp Distraction - DestroyedClone
 
 Language Support - Anreol
 
-Skill Icons - KoobyKarasu
+Skill Icons - KoobyKarasu, Thingw
 
 Acrid Hitbox Tweaks - TheTimesweeper
 
 Buff Icons - SOM, VALE-X
 
-CN Translation - JunJun_W
+Simplified Chinese Translation - JunJun_W
+
+Brazilian Portuguese Tra slation - Kauzok
 
 /vm/ (formerly /v/)
-
-## Changelog
-
-*Full changelog included in the .zip*
-
-`1.5.0`
-
-- Bandit
-	- Desperado
-		- Now persists between respawns on the same stage.
-		
-	- Added Standoff from Risk of Rain Returns as a selectable Revolver Passive.
-		- Gain +20% damage on kill for 15s. Stacks up to 5 times.
-		- Currently looking for an icon artist!
-		
-		*Damage bonus is lower than in Returns due to 2Bandit having backstab along with cooldowns being shorter compared to 1/Returns.*
-	
-- Items
-	- Hunter's Harpoon
-		- Now uses the Risk of Rain Returns version.
-			- Gain 125% movement speed for 1s (+1s) on kill. Stacks up to 25s.
-			
-	- Razor Wire
-		- Increased stack damage from 160% (+40%) -> 160% (+80%).

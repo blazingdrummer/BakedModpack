@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2074175404
+CRC: 722631446
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5efd8b91837f9f17081b6e97fd09faec
+    Hash: ac3aa3b1601305abb39eccc903587a3b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 215d342c41234137087e30125667fccb
+    Hash: 81399ae40e319b9880287c37c1d7aa67
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -46,11 +46,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1788389205, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 296141222, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 2137989374, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
 - Class: 114
@@ -66,12 +64,6 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1480773730, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 1783796254, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
-  Script: {fileID: 1533710874, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
-  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 161585894, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 1790887305, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
@@ -80,13 +72,21 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 768908969, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 678291247, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  Script: {fileID: 488236779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 298587437, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 488236779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  Script: {fileID: 678291247, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 1395413934, guid: da77c7bbf69f66ab2145560542327715, type: 3}
+- Class: 114
+  Script: {fileID: 2137989374, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1783796254, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1533710874, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: adb84e30e02715445aeb9959894e3b4d, type: 3}
 - Class: 114
@@ -274,6 +274,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/texCrosshair2.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Icons/texNemMercKnife.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Indicator/texEngiShield.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/fbxNemMercMastery.fbx
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/VFX/matNemmercGash.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Indicator/texRampBanditSlash.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/NemMercScepterSpecial.asset
@@ -298,6 +299,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Indicator/texEngiTrail.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/EntityStates.NemMerc.NemAssaulter.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Icons/texNemMercVestige.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Icons/texNemMercMastery.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/NemMercBody.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/EntityStates.NemMerc.ShadowStep.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/ss2.skin.nemmerc.mastery.asset
@@ -307,6 +309,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/texNemMercShotgunN.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/texRing.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/NemmercArmature_Sprint.anim
+- Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/texture/texNemMercMasteryNormal.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Icons/nemMercIcon.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/NemMercBlink.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/VFX/matNemMercFlash.mat
@@ -328,6 +331,9 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/PreDashEffect.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/PoseMeshes/fbxNemmercIconRenderPose.fbx
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/matNemMercShotgun.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/texture/texNemMercMasteryWeaponNormal.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/matNemMercMastery.mat
+- Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/NemMercMasteryShotgun.mesh
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/ss2.skin.nemmerc.nemesisskin.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/Clone/escCloneScepter.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/VFX/texMercSwipeMask.png
@@ -347,6 +353,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/texNemMercD.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/NemmercArmature_RunR.anim
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/VFX/WhirlwindSlashTEMP.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/texture/texNemMercMasteryDiffuse.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/VFX/NemmercAssaulterEffect.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/texNemMercKnifeE.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/Clone/sdCloneDash.asset
@@ -371,6 +378,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Indicator/texChevronPlayer.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/PoseMeshes/fbxNemmercHoloPose3.fbx
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/Clone/ClonePositionIndicator.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/texture/texNemMercMasteryEmission.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/texNemMercKnifeN.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/escSlide.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/HologramPositionIndicator.prefab
@@ -379,7 +387,9 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Indicator/texOmniShockwave2Mask.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/NemMercSecondaryFamily.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Indicator/texUICorner2.png
+- Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/matNemMercMasteryWeapon.mat
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/Clone/NemMercCloneMaster.prefab
+- Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/texture/texNemMercMasteryWeaponDiffuse.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/nidrsNemMercenary.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Indicator/mdlVFXDonut3.asset
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Indicator/texEngiShieldBlurred.png
@@ -391,7 +401,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/maskNemMercE.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/texNemMercKnifeD.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Skills/NemMercHologram.prefab
-- Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Nemmerc.fbx
+- Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/NemmercOld.fbx
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/VFX/NemMercWhirlwind.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/VFX/HitsparkNemmercKnife.prefab
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/sdNemMercGrandMastery.asset
@@ -443,15 +453,15 @@ Assets:
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/texNemMercShotgunE.png
 - Assets/Starstorm2/AssetStorm/Base/Characters/NemMercenary/Indicator/texArrow.png
 Dependencies:
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2equipments
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2interactables
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2dev
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2equipments
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2interactables
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared

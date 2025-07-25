@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 490380316
+CRC: 2112442852
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: db38a8a65653d1d8b347f188e8c1e5f8
+    Hash: f263e505fe423491bdf38ffa82e148f7
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 90f38bd65767d84af9aeea6dc0fc97b8
+    Hash: 29f68a8a5a7c7317863a2f36efdd57e8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -52,15 +52,13 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 816898038, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 1788389205, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
-  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 649313124, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1788389205, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 296141222, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 2137989374, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
 - Class: 114
@@ -78,14 +76,6 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1480773730, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 1783796254, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
-  Script: {fileID: 1533710874, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
-  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
-  Script: {fileID: 1080798252, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 161585894, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 1093966913, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
@@ -100,7 +90,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 768908969, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 678291247, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  Script: {fileID: 1080798252, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 488236779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 1245112779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -110,23 +102,25 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 1741964061, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
 - Class: 114
-  Script: {fileID: 488236779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
-  Script: {fileID: 2011550347, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  Script: {fileID: 678291247, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 802830678, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
+  Script: {fileID: 2011550347, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
   Script: {fileID: 1395413934, guid: da77c7bbf69f66ab2145560542327715, type: 3}
+- Class: 114
+  Script: {fileID: 2137989374, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 1044368294, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 1213012214, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: 1297475563, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
 - Class: 114
-  Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
+  Script: {fileID: 1783796254, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 170120512, guid: 3ff99aa2a19071810a63a4e9dbf06a54, type: 3}
+  Script: {fileID: 1533710874, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 1873157448, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -156,6 +150,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -98529514, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
 - Class: 114
+  Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 9d95381666eaf794fb82249aa651f89c, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7196d6464f5113d409b3ae0adc2a4995, type: 3}
@@ -163,8 +159,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: a2841cc64bacd3b46b3c88d5679386a4, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b16ec21745a4ff749ab8fe525a582aff, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 256774a77b234b64b96705b9ec322bcb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: dedf01982fc4eba48a203644ec71b78a, type: 3}
 - Class: 114
@@ -199,8 +193,6 @@ ClassTypes:
   Script: {fileID: -354346302, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 422384671, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
-  Script: {fileID: 1468520491, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -1080326186, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -376,8 +368,6 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -565067572, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 451251496, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-- Class: 114
   Script: {fileID: -2029622596, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 1391837873, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
@@ -421,8 +411,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 035fc43d15ecf9e4fa82f345607129eb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8577aced8c5464a488c5ef8182ea0b80, type: 3}
-- Class: 114
-  Script: {fileID: -806885394, guid: 67dfb1fdfb2b407222eda8e23ac8b724, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: cdcd9fcea6c670a43a197ac87bec4faa, type: 3}
 - Class: 114
@@ -526,7 +514,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemHuntress2/mdlHuntress.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Items/ScavengersFortune/texIconBuffWealth.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/Orders/sdOrRecover.asset
-- Assets/Starstorm2/AssetStorm/InDev/Items/VoidRock/VoidRockInteractable.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Items/Augury/QFX/Imagy VFX/VFX_Resources/Materials/Lightning
   Splash/P_Cast Sphere.mat
 - Assets/Starstorm2/AssetStorm/InDev/Items/VoidRock/mdlIcoRockM.asset
@@ -535,12 +522,10 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/Armor.mesh
 - Assets/Starstorm2/AssetStorm/InDev/Items/StrangeCan/texStrangeCan.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/Skills/KnightSwingEffectSmall.prefab
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/texIconBuffChirrSlow.png
 - Assets/Starstorm2/AssetStorm/InDev/Interactables/ShrineEthereal/matEthTPFire.mat
 - Assets/Starstorm2/AssetStorm/InDev/Elites/AffixVoid/matEliteVioletPickup.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg2/VFX/matCyborg2Muzzleflash2.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/matCopyLoaderTrailImpact.mat
-- Assets/Starstorm2/AssetStorm/InDev/Elites/AffixEmpyrean/Empyrean.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Agarthan/nemlemtemptex.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/MULE/Skills/matCopyDebris1.mat
 - Assets/Starstorm2/AssetStorm/InDev/Items/StrangeCan/StrangeCan.asset
@@ -561,11 +546,9 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Items/VoidRock/matVoidRock.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg/matRockborg.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/MULE/Skills/MULEWaveGhost.prefab
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/ChirrDartGhost.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg/Skills/BorgTeleGhost2.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Drones/NemCaptainHealingWard2.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Elites/EliteKinetic/PickupEliteKinetic.prefab
-- Assets/Starstorm2/AssetStorm/InDev/Elites/AffixEmpyrean/AffixEmpyrean.asset
 - Assets/Starstorm2/AssetStorm/InDev/Elites/ElitePurple/ElitePurpleEquipment.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/MULE/Skills/matCopyVoidRaidCrabDustHugeSphere.mat
 - Assets/Starstorm2/AssetStorm/InDev/Interactables/ShrineEthereal/matEthTPLaser.mat
@@ -619,7 +602,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/Orders/sdOrDroneStrikeTriple.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg2/Skills/escLastPrism.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg2/Cyborg2Display.prefab
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Junk/ChirrDisplay.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemHuntress2/matCopyCritImpactHeavy.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/KnightClothTex.png
 - Assets/Starstorm2/AssetStorm/InDev/Items/Augury/QFX/Imagy VFX/VFX_Resources/Materials/Lightning
@@ -637,7 +619,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Items/Augury/matAugurySphereOpaque.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Model/Anim/ClipsOld/Anim/Clips/CharacterSelect/animChirrCharSelect.anim
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemHuntress/NemHuntressBody.prefab
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/texIconCrosshairChirrTargetCrosshair.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/Orders/sdOrDroneStrikeFrost.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/Orders/sdOrHeal.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Model/Anim/Clips/Armature_animChirrSecondaryCharge.anim
@@ -645,6 +626,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg2/survivorCyborg2.asset
 - Assets/Starstorm2/AssetStorm/InDev/Items/Augury/Augury base.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/Cllothes.mesh
+- Assets/Starstorm2/AssetStorm/InDev/Characters/Agarthan/NemLem.fbx
 - Assets/Starstorm2/AssetStorm/InDev/Characters/MULE/Skills/MULESlam.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/Skills/escKnightLeapSlashInit.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg/CyborgBody.prefab
@@ -662,7 +644,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/Skills/sdKnightSpin.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg/texCyorg.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg/Hitstun.anim
-- Assets/Starstorm2/AssetStorm/InDev/Interactables/VoidRock/ShrineVoidStarter.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/MULE/Skills/escMULESpinStart.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Agarthan/mdlAgarthan.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Model/Anim/ClipsOld/Anim/Clips/Misc/animChirrAscending.anim
@@ -735,7 +716,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/sfNemCaptainPrimary.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemHuntress2/matCopyCritImpactShockwave.mat
 - Assets/Starstorm2/AssetStorm/InDev/Items/WonderHerbs/WonderHerbs.asset
-- Assets/Starstorm2/AssetStorm/InDev/Items/VoidRock/VoidRock.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/Orders/sdOrReduce.asset
 - Assets/Starstorm2/AssetStorm/InDev/Items/StrangeCan/matStrangeCan.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg2/Skills/EntityStates.Cyborg2.FireMagnetBall.asset
@@ -802,7 +782,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Elites/AffixVoid/curveVoidPulse.asset
 - Assets/Starstorm2/AssetStorm/InDev/Items/RelicOfEchelon/texEchelonBuffThick.png
 - Assets/Starstorm2/AssetStorm/InDev/Interactables/ShrineEthereal/matEthExplosion.mat
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Junk/texChirrDiffuse14222.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemBandit/matNemBandit.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Exploder/avatarExploder.asset
 - Assets/Starstorm2/AssetStorm/InDev/Items/Augury/QFX/Imagy VFX/VFX_Resources/Textures/Noise/T_Noise_4.png
@@ -823,7 +802,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Items/Augury/matAugurySphereTranslucent.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemHuntress2/Skills/Projectiles/HuntressM2FlightLoop.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/MULE/Skills/escMULEAirSlam.asset
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Junk/ChirrBody.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/Orders/escOrderManaReduction.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemHuntress2/survivorNemHuntress2.asset
 - Assets/Starstorm2/AssetStorm/InDev/Items/HottestSauce/ss2.item.hottestsauce.asset
@@ -881,7 +859,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg/ascend.anim
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg2/VFX/matCyborgBall.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Drones/matHealingAura.mat
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/meshChirrDart.mesh
 - Assets/Starstorm2/AssetStorm/InDev/Items/ErraticGadget/texIconErraticGadgetUnlock.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg2/physmatBouncy.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Model/Anim/Clips/Armature_animChirrJumping.anim
@@ -905,7 +882,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Lunar/Artillery/texLunarGolemDiffuse.jpeg
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/matKnightBodyShield.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/MULE/Skills/escMULESpin.asset
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/texIconBuffChirrAlly.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg2/Projectiles/matTrapDust.mat
 - Assets/Starstorm2/AssetStorm/InDev/UI/texEngiTrail.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/Skills/sdKnightPrimarySword.asset
@@ -952,9 +928,9 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/MULE/bdHiddenSpeed5.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/matCopyAreaIndicatorRim.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemHuntress/Skills/NemHuntressFireExplosiveArrow.asset
+- Assets/Starstorm2/AssetStorm/InDev/Characters/Agarthan/Skills/escAgarthanSpit.asset
 - Assets/Starstorm2/AssetStorm/InDev/Items/Augury/QFX/Imagy VFX/VFX_Resources/Materials/Lightning
   Splash/P_Distortion.mat
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/texRampChirrGrass.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/texVoidSurvivorCorruptionGauge.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg/meshBorgOLD2.mesh
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Model/Anim/ClipsOld/Anim/Clips/Movement/animChirrSprint.anim
@@ -967,7 +943,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/bdKnightCharged.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Model/Anim/Clips/Armature_animChirrSprint.anim
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/Orders/sfNemCaptainHand.asset
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Junk/texChirrDiffuse.png
 - Assets/Starstorm2/AssetStorm/InDev/Elites/EliteKinetic/texRampKinetic.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Exploder/animExploderIdle.anim
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemBandit/Skills/skillOctocamoTest.asset
@@ -1023,6 +998,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/texIconKnightRecolorA.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg2/Projectiles/matMagnetBallLightning.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/T_WhipCane_C.png
+- Assets/Starstorm2/AssetStorm/InDev/Interactables/ShrineEthereal/Cylinder 1.mesh
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/VFX/TracerChirrTrishot.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemHuntress2/Skills/Projectiles/NemHuntressExplosiveArrowProjectile.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Interactables/ShrineEthereal/texRampGreenElectricBlurTransparent.png
@@ -1062,7 +1038,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Equipments/DivineRight/animDivineRight.controller
 - Assets/Starstorm2/AssetStorm/InDev/Items/Augury/QFX/Imagy VFX/VFX_Resources/Materials/Lightning
   Splash/P_CenterGlow Black.mat
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Junk/ChirrMesh.mesh
+- Assets/Starstorm2/AssetStorm/InDev/Items/GildedAmulet/GildedAmulet.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg/RestIdle.anim
 - Assets/Starstorm2/AssetStorm/InDev/Elites/AffixVoid/texIconBuffAffixVoid.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Exploder/texExploder_em.png
@@ -1094,6 +1070,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/MULE/LooseAnims/muleAscend.anim
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemHuntress2/CritsparkMini.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Trader/enterSit.anim
+- Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Drones/texOmniExplosion1Mask.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/matChirrGrass.mat
 - Assets/Starstorm2/AssetStorm/InDev/Items/RelicOfEchelon/texEchelonBuffFinal.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg/matBorg.mat
@@ -1257,7 +1234,6 @@ Assets:
   Healing Variant.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Trader/escTraderBagBase.asset
 - Assets/Starstorm2/AssetStorm/InDev/Elites/EliteKinetic/texRampEliteKinetic.png
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/texIconBuffChirrFly.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Model/Anim/Clips/Armature_animChirr1Idle.anim
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Drones/Orders/NemCaptainDronestrikeImpact.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/Skills/escKnightLeapSlash2.asset
@@ -1311,7 +1287,6 @@ Assets:
   (4).png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/matChirr.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/matKnightBuffOverlay.mat
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/VFX/ChirrBefriendIndicator.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Exploder/meshExploder.mesh
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/KLNMAAvatar.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/Orders/sdOrDroneStrike.asset
@@ -1358,7 +1333,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/MULE/LooseAnims/muleCSSanim.anim
 - Assets/Starstorm2/AssetStorm/InDev/Elites/ElitePurple/bdElitePurple.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Trader/sit.anim
-- Assets/Starstorm2/AssetStorm/InDev/Elites/AffixVoid/matEliteVoidOverlay.mat
 - Assets/Starstorm2/AssetStorm/InDev/Elites/EliteKinetic/texRampPurple 1.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Exploder/animExploder.controller
 - Assets/Starstorm2/AssetStorm/InDev/Items/DormantFungus/VFX/matDungusFootstep.mat
@@ -1423,7 +1397,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Drones/Orders/escExit.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/ChirrSiphonEffect.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Characters/MULE/Skills/escMULEJump.asset
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/ChirrEnemyIndicator.prefab
 - Assets/Starstorm2/AssetStorm/InDev/Items/RelicOfEchelon/texEchelonBuffColorAdjusted.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Model/Anim/ClipsOld/Anim/Clips/Secondary/animChirrSecondary.anim
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemHuntress/Materials/matHuntressGlaive.mat
@@ -1494,7 +1467,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemHuntress/Materials/matHuntressSwipe.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg/Special11.anim
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Knight/KnightSwordEm.png
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/texIconCrosshairChirrBefriendCrosshair.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/Orders/escSetupDronestrike.asset
 - Assets/Starstorm2/AssetStorm/InDev/Items/Augury/Augury/detailSmokeaugury.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Agarthan/fbxAgarthan.fbx
@@ -1530,7 +1502,6 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/escMachinePistol.asset
 - Assets/Starstorm2/AssetStorm/InDev/Elites/ElitePurple/edPurple.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg2/Skills/Cyborg2Secondary.asset
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Junk/meshChirr.mesh
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg/Skills/CyborgSkillFamilyPrimary.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Drones/Orders/matNemCaptainFrostDronestrikeAreaIndicator.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg2/BuffCyborgTeleporter.asset
@@ -1557,7 +1528,7 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Cyborg/matSteamborg.mat
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/Orders/orderIcRestoreMana.png
 - Assets/Starstorm2/AssetStorm/InDev/Elites/ElitePurple/texRampCloth.png
-- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Junk/texChirrDiffusePainted.png
+- Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/texChirrDiffusePainted.png
 - Assets/Starstorm2/AssetStorm/InDev/Characters/Chirr/Model/Anim/Clips/Armature_animChirrAimPitch.anim
 - Assets/Starstorm2/AssetStorm/InDev/Items/Augury/QFX/Imagy VFX/VFX_Resources/Shaders/Distortion/IFX_SphericalDistortion.shader
 - Assets/Starstorm2/AssetStorm/InDev/Items/RelicOfEchelon/texEchelonBuff.png
@@ -1585,18 +1556,19 @@ Assets:
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemCaptain/Skills/Orders/sdOrFrostStrike.asset
 - Assets/Starstorm2/AssetStorm/InDev/Characters/NemBandit/Skills/escnBanRevolver.asset
 Dependencies:
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2equipments
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2events
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2interactables
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2monsters
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmercenary
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
-- D:/ror2modstuff/Starstorm2UnityProject/Starstorm2Again/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2vanilla
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/msuassets
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2base
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2chirr
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2equipments
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2events
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2executioner2
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2interactables
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2items
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2main
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2monsters
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemcommando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmando
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2nemmercenary
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2shared
+- C:/Users/natep/Documents/GitHub/Starstorm2/SS2-Project/ThunderKit/AssetBundleStaging/ss2vanilla

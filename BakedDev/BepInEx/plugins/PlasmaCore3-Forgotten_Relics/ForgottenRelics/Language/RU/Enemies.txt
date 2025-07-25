@@ -4,7 +4,7 @@
 		"SANCTUMWISP_BODY_NAME": "Сгусток святилища",
 		"SANCTUMWISP_BODY_LORE": "СкороТМ",
 		
-		"BRASSMONOLITH_BODY_NAME": "Колокольня",
+		"BRASSMONOLITH_BODY_NAME": "Медный монолит",
 		"BRASSMONOLITH_BODY_SUBTITLE": "Непоколебимый наблюдатель",
         "BRASSMONOLITH_BODY_LORE": "<style=cMono>\r\n
 		Аудиотранскрипция завершена по эхо-сигналам. Назначение общих токенов.</style>\r\n
@@ -48,7 +48,7 @@
 		"FROSTWISP_BODY_LORE": "СкороТМ",
 		
         "UNLOCKABLE_LOG_SANCTUMWISP": "Запись о монстре: Сгусток святилища",
-        "UNLOCKABLE_LOG_BRASSMONOLITH": "Запись о монстре: Колокольня",
+        "UNLOCKABLE_LOG_BRASSMONOLITH": "Запись о монстре: Медный монолит",
         "UNLOCKABLE_LOG_COILGOLEM": "Запись о монстре: Кольцевой голем",
         "UNLOCKABLE_LOG_FROSTWISP": "Запись о монстре: Морозный сгусток"
 	}

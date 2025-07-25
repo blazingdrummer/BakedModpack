@@ -1,6 +1,6 @@
 {
     "name": "VanillaVoid",
-    "version_number": "1.5.8",
+    "version_number": "1.5.13",
     "website_url": "https://github.com/Zenithrium/vanillaVoid",
     "description": "Adds more void variants for vanilla items, and tweaks and expands upon some void content.",
     "dependencies": [
