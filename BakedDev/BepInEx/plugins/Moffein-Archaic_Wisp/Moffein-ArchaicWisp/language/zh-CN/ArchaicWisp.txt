@@ -1,7 +1,0 @@
-{
-	strings:
-	{
-	"MOFFEIN_ARCHWISP_BODY_NAME" : "远古幽魂",
-	"UNLOCKABLE_LOG_MOFFEIN_MOFFEIN_ARCHWISP" : "怪物日志：远古幽魂"
-	}
-}

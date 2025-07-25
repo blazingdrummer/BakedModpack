@@ -1,9 +1,0 @@
-{
-  "name": "SpawnPointMover",
-  "version_number": "1.0.1",
-  "website_url": "https://github.com/DestroyedClone/PoseHelper/tree/master/SpawnPointMover",
-  "description": "SOTV Patch | Moves the spawnpoint on Commencement to Mithrix's arena when his boss fight starts, for 'respawn' users. Only host needs it.",
-  "dependencies": [
-    "bbepis-BepInExPack-5.4.1902"
-  ]
-}
