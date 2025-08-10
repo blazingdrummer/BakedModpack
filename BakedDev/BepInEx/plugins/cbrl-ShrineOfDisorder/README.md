@@ -2,17 +2,23 @@
 
 Modifies the Shrine of Order behavior for more fun and less pain.
 
-By default, this mod will make the Shrine of Order randomize items per-stack instead of per-tier. This means you will still have the same number of unique stacks after using the shrine, instead of one stack per item tier, meaning the shrine is not necessarily a death sentence any longer.
+By default, this mod will make the Shrine of Order randomize items per-stack instead of per-tier.
+This means you will still have the same number of unique stacks after using the shrine, instead of
+one stack per item tier, meaning the shrine is not necessarily a death sentence any longer.
 
-The Shrine of Order will now also have the ability to spawn on every map, giving more opportunities to use it.
+The Shrine of Order will now also have the ability to spawn on every map, giving more opportunities
+to use it.
 
-Configuration options are available for most features, such as the shrine behavior, shrine spawn chance, whether the shrine can spawn on all maps, and whether to randomize special items (e.g. lunar, void, boss).
+Configuration options are available for most features, such as the shrine behavior, shrine spawn
+chance, whether the shrine can spawn on all maps, and whether to randomize special items (e.g.
+lunar, void, boss).
 
 ## Configuration
 
 ### Behavior
 
-The following options modify the behavior of shrine effect, as well as where and how often it can spawn.
+The following options modify the behavior of shrine effect, as well as where and how often it can
+spawn.
 
 #### `ShrineBehavior`
 
@@ -27,13 +33,16 @@ Defaults to `RandomizeEachStack`.
 
 #### `OnlyObtainedItems`
 
-When determining which items to give the player, only consider the items that they have in their inventory as potential candidates.
+When determining which items to give the player, only consider the items that they have in their
+inventory as potential candidates.
 
 Disabled by default.
 
 #### `PreserveStackCount`
 
-If using the `RandomizeEachStack` behavior, enabling this option will preserve the number of unique stacks a player has in their inventory. If disabled, the same item could be randomly selected for different stacks, effectively merging them.
+If using the `RandomizeEachStack` behavior, enabling this option will preserve the number of unique
+stacks a player has in their inventory. If disabled, the same item could be randomly selected for
+different stacks, effectively merging them.
 
 Enabled by default.
 
@@ -45,17 +54,23 @@ Enabled by default.
 
 #### `ShrineSpawnMultiplier`
 
-A multiplier on the shrine's spawn weight. Higher values will increase the chance for the shrine to spawn, and decrease the chance for other shrines to spawn.
+A multiplier on the shrine's spawn weight. Higher values will increase the chance for the shrine to
+spawn, and decrease the chance for other shrines to spawn.
 
 ### Items
 
-Each of the options under the "Items" category will allow or disallow certain item tiers to be considered when randomizing items. The available options are as follows:
+Each of the options under the "Items" category will allow or disallow certain item tiers to be
+considered when randomizing items. The available options are as follows:
 - `LunarItems` - Allows lunar items to be randomized if enabled.
 - `VoidItems` - Allows void items to be randomized if enabled.
 - `BossItems` - Allows boss items to be randomized if enabled.
 - `VoidBossItems` - Allows void boss items to be randomized if enabled.
 
 ## Changelog
+
+**1.1.5**
+- Update dependencies to latest versions
+- Removed the use of deprecated ItemIndex methods
 
 **1.1.4**
 - Fixed a bug causing items to disappear from the inventory when using the shrine if they belong to a tier that is disabled in the configuration

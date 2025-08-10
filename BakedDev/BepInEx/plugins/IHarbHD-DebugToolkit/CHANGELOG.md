@@ -1,6 +1,110 @@
 
 ## Changelog ##
 
+### 3.20 ###
+
+* **3.20.0**
+    * Console changes:
+        * **THE CONSOLE IS ENABLED BY DEFAULT.** There is no need to do `Ctrl+Alt+~` after launch anymore.
+        * We have added `Page Up` as an additional key to toggle the console window if you can't figure out which key does it for your language. Configurable and can be turned off.
+    * Added `delay`: Execute a set of commands after a period of time.
+    * Added `stop_timer`: Pause/unpause the run timer. Only works for "Stage" and "TimedIntermission" stages and can be used to lock the difficulty. This only pauses the stopwatch and not the game physics, for the latter use `time_scale 0`.
+    * Added optional explicit "enable" argument for toggle commands. Useful for macros that require deterministic results, e.g., `god 1; no_enemies 1`. Affects the following commands:
+        * `god`
+        * `buddha`
+        * `noclip`
+        * `no_enemies`
+        * `lock_exp`
+
+### 3.19 ###
+
+* **3.19.3**
+    * Holding the arrow key in the console window for smooth scrolling now works as expected for all time scales. However, when time is frozen it requires a new key press to cycle to the next/previous command.
+
+* **3.19.2**
+    * Fixed `force_family_event`: Update hooks for 1.3.7 and modify the command to only apply its hooks once.
+
+* **3.19.1**
+    * Fixed `spawn_ai`: Fixes NRE when explicitly using -1/None for the elite argument.
+
+* **3.19.0**
+    * Added `hurt`: Damage yourself or another target.
+    * Added `heal`: Heal yourself or another target.
+    * Added `list_survivor`
+    * Updated `spawn_ai`: Prints a message if the selected elite is from a disabled expansion.
+    * Updated `give_dot`: Adds an explicit duration for Lunar Ruin and also prints a message if a selected DoT does not have one.
+
+### 3.18 ###
+
+* **3.18.3**
+    * Fixed `give_money`: Properly grants War Bonds buff stacks when given a positive amount of gold.
+
+* **3.18.2**
+    * Fixed explicit simulacrum waves from crashing when `next_boss` is not set.
+
+* **3.18.1**
+    * Updated `noclip`: Apply its hooks once per session to prevent stutter when toggling the command.
+    * Updated `next_boss`: Also apply its hooks once per session. Futhermore, the next boss state does not persist between runs anymore if it is not consumed in the current run.
+    * Items, equipment, and survivors are blocked internally by ror2 if the relevant expansion is currently disabled. A message is shown in such cases. Affects `give_item`, `remove_item_stacks`, `give_equip`, and `spawn_as`.
+    * Updated `set_artifact`: Also ignores expansion-locked artifacts.
+    * Fixed `dump_stats`: Report correct attack speed base value while also removing level stat values that are most likely pointless, e.g., levelCrit.
+    * Various fixes for `dt_bind`:
+        * Binds with overlapping sets of keys are not triggered at the same time, e.g., "x" and "x+y". Key binds can now be a combination of only a set of specific modifiers ("left shift", "left ctrl", "left alt", and their "right" equivalent ones) and a single other key.
+        * Key combos are now treated as invariants; "x+y" and "y+x" are not unique combinations anymore.
+        * Fixes the command sometimes overwriting an existing macro if another macro had been previously deleted.
+        * The orange command hint now appears above the command when typing it. This also applies to `dt_bind_delete`.
+    * Added a section in the README for when to use quotes in command arguments. Read about it at "Command Parsing".
+
+* **3.18.0**
+    * Updated `spawn_interactable` : Interactables with collision do not clip the player into the ground or spawn under their feet.
+    * Updated `respawn` : Now places the player at the closest ground node instead of back at the spawn point.
+    * Updated `remove_buff` : Correctly reports how many stacks are removed since negative stacks are not possible anymore. A related note in the README has also been removed.
+    * Updated `dt_bind` : Key names with a space are parsed correctly, e.g. "page down". Key combinations are now also possible, e.g. "left shift+x".
+    * Various updates to the permission system:
+        * `perm_enable` can parse integers as bool.
+        * The functionality for `perm_mod` has been implemented.
+        * Permission registration is more robust to errors and now only considers server commands. The `say` command from vanilla has been whitelisted so users can still use the chat.
+
+### 3.17 ###
+
+* **3.17.0**
+    * Updated `add_portal` and `spawn_portal`: Adds the green portal.
+    * Updated `set_artifact`: The enable argument is now optional for individual artifacts and will toggle their state if not supplied. It is still required for "all" artifacts.
+    * Updated `dump_stats`: Fixes stat values rounding down to integers.
+    * Updated `dump_state`: Fixes the command executing outside of a run and the equipment cooldown not scaling with cooldown-related items.
+    * Fixed cheat ConVars not getting unlocked.
+    * Fixed autocompletion not working when pressing tab during a run.
+    * Fixed `help` and `find` from vanilla not printing any output. Let us know if there are more such commands you frequently rely on.
+    * Fixed `no_enemies` not preventing enemies from spawning from Halcyon Shrines and the event trigger on Prime Meridian.
+    * Fixed an NRE on stages that have no interactable categories or when they contain a non-interactable spawn card.
+    * Fixed an NRE for item giving commands when the target argument is invalid.
+    * Fixed the wording in the object not found message.
+
+### 3.16 ###
+
+* **3.16.2**
+    * Updated to work with Seekers of the Storm update.
+    * Fixed a bug with autocompletion where if the parameter were a number, e.g. "01", the dropdown would match that with the language text instead of its catalog index.
+
+* **3.16.1**
+    * Fixes macros not working in Photomode
+
+* **3.16.0**
+    * Added `list_scene`
+    * Updated `next_stage`: Adds partial and case-insensitive name matching and also supports the stage language names. Filters out offline scenes from the autocompletion as they are invalid inputs.
+    * Fixed throwing an error when an expansion-locked stage was used for `next_stage` and `set_scene`. A friendly message is printed instead.
+
+### 3.15 ###
+
+* **3.15.0**
+    * Updated project for the Devotion Update. Fixes `create_potential` that was broken because of it.
+    * Added the keyword `devotion` for the target of item commands to modify the player's devotion inventory.
+    * Updated `noclip`: Allows toggling the setting while dead and it does not disable itself when changing scenes.
+    * Updated `set_artifact`: Fixes disabling all artifacts not removing the Kin display.
+    * Updated `post_sound_event`: Now works client-side and also accepts either an event name or event ID.
+    * The console now prints a message if a server command is used offline, e.g., on the main menu.
+    * Enabled/disabled toggling messages are now color-coded green/red.
+
 ### 3.14 ###
 
 * **3.14.0**

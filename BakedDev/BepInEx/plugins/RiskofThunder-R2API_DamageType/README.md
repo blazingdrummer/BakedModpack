@@ -17,10 +17,35 @@ This is done via the DamageAPI class, which is used for reserving DamageTypes an
 * BlastAttack
 * OverlapAttack
 * DotController.DotStack
+* CrocoDamageTypeController
 
 ## Related Pages
 
 ## Changelog
+
+### '1.1.7'
+* Changed bounds exception to just log error to not completely break mods that already try to use not registered damage types.
+
+### '1.1.6'
+* Changed bounds check and minimum damage type value to make it easier to notice when using unregistered damage type.
+
+### '1.1.5'
+* Fixed an issue where `FireProjectileInfo.damageTypeOverride` wasn't applied to a projectile if it only had ModdedDamageType set.
+
+### '1.1.4'
+* Fixed an issue where removing vanilla damage type with `a &= ~b` would also remove all modded damage types.
+
+### '1.1.3'
+* Internal rewrite for easier support in the future.
+
+### '1.1.2'
+* More fixes for SOTS DLC2 Release.
+
+### '1.1.1'
+* Initial fixes for SOTS DLC2 Release.
+
+### '1.1.0'
+* CrocoDamageTypeController support added,allowing better implementations of alt passives for Acrid.
 
 ### '1.0.4'
 * Memory optimization

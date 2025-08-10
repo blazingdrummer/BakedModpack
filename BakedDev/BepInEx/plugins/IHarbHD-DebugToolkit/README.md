@@ -11,7 +11,9 @@ Track update progress, get support and suggest new features over at the [DebugTo
 Some vanilla console functions you might not know:
 
 * The console can be opened with `ctrl+alt+~`.
-* `help {command}` may be used to get help for a specific command
+  * **DebugToolkit automatically enables the console so there is no need to do this.** In fact doing this would lock the console and you would have to press the combination to unlock it again. Just press `~` to toggle the window.
+  * We have also added `Page Up` as an alternative to the default key since the latter is language dependent. Configurable.
+* `help {command}` may be used to get help for a specific command.
 * `find {term}` can be used to find commands with that term.
 * `max_messages {nr}` changes how much scroll back the console has. We auto change this to 100 for you if it's on default.
 
@@ -37,9 +39,13 @@ You may contact us at any time through [issues on GitHub](https://github.com/har
 
 ## COMMANDS ##
 
+Command Parsing:
+- Multiple commands can be combined with `;`.
+- Only alphanumeric characters and the symbols `._-:` are allowed. Any other character requires being surrounded by quotes in order to be parsed literally. Both `"` and `'` work, while `\"` and `\'` also work when nesting quotes.
+
 Verbiage:
 - The brackets encapsulating arguments mean `{needed}`, `(choose one)`, and `[optional]`.
-- If an optional argument has a default value, it will be indicated with `:`. Any preceeding optional arguments from the one entered become necessary, but empty double quotes can be used as a placeholder for the default value. If an optional argument is required from a dedicated server, it will be preceeded by `*`.
+- If an optional argument has a default value, it will be indicated with `:`. Any preceeding optional arguments from the one entered become necessary, but empty double quotes (`""`) can be used as a placeholder for the default value. If an optional argument is required from a dedicated server, it will be preceeded by `*`.
 - Player, body, AI, item, equipment, team, elite, interactable, and director card values can be declared by either their ID, or their string name. The latter can be written in freeform and it will be matched to the first result that contains the string. See the related `list_` commands for options and which result would take precedence if there are multiple matches.
 
 Commands:
@@ -48,19 +54,23 @@ Commands:
 * **force_family_event** - Forces a Family Event to happen in the next stage, takes no arguments. `force_family_event`
 * **next_boss** - Sets the next teleporter/simulacrum boss to the specified boss. Get a list of potential boss with `list_directorcards`. `next_boss {director_card} [count:1] [elite:None]`
 * **fixed_time** - Sets the time that has progressed in the run. Affects difficulty. `fixed_time [time]`. If no time is supplied, prints the current time to console.
+* **stop_timer** - Pause/unpause the run timer. `pause_timer [enable (0|1)]`. If no argument is supplied, toggles the current state. Only works for "Stage" and "TimedIntermission" stages.
 * **next_wave** - Advance to the next Simulacrum wave. `next_wave`
 * **force_wave** - Set the next wave prefab. `force_wave [wave_prefab]`. If no input is supplied, prints all available options and clears any previous selection.
 * **run_set_waves_cleared** - Set the Simulacrum waves cleared. Must be positive. `set_run_waves_cleared {wave}`
-* **add_portal** - Add a portal to the current Teleporter on completion. `add_portal {portal ('blue'|'celestial'|'gold'|'void'|'all')}`.
+* **add_portal** - Add a portal to the current Teleporter on completion. `add_portal {portal ('blue'|'celestial'|'gold'|'green'|'void'|'all')}`.
 * **charge_zone** - Set the charge of all active holdout zones. `charge_zone {charge}`. The value is a float between 0 and 100.
 * **seed** - Set the seed for all next runs this session. `seed [new_seed]`. Use `0` to specify the game should generate its own seed. If used without argument, it's equivalent to the vanilla `run_get_seed`.
-* **set_artifact** - Enable/disable an Artifact. `set_artifact {artifact (artifact|'all')} {enable (0|1)}`
+* **set_artifact** - Enable/disable an Artifact. `set_artifact {artifact (artifact|'all')} [enable (0|1)]`. If enable isn't supplied, it will toggle the artifact's current state. However, it is required when using "all".
 * **kill_all** - Kills all members of a specified team. `kill_all [team:Monster]`.
 * **true_kill** - Truly kill a player, ignoring revival effects. `true_kill *[player:<self>]`
 * **respawn** - Respawn a player at the map spawnpoint. `respawn *[player:<self>]`
+* **hurt** - Deal generic damage to a target. `hurt {amount} *[target (player|'pinged'):<self>]*`
+* **heal** - Heal a target. `heal {amount} *[target (player|'pinged'):<self>]*`
 * **teleport_on_cursor** -  Teleport you to where your cursor is currently aiming at. `teleport_on_cursor`
 * **time_scale** -  Sets the timescale of the game. 0.5 would mean everything happens at half speed. `time_scale [time_scale]`. If no argument is supplied, gives the current timescale.
-* **post_sound_event** - Post a sound event to the AkSoundEngine (WWise) by its event name: `post_sound_event {event_name}`
+* **post_sound_event** - Post a sound event to the AkSoundEngine (WWise) either by its event name or event ID. `post_sound_event {sound_event (event_name|event_id)}`
+* **delay** - Execute any commands after a delay in seconds. `delay {delay} {<consolecommands separated by ;>}`
 
 List Commands:
 
@@ -78,7 +88,9 @@ List Commands:
 * **list_equip** - List all Equipment, their language invariants, and if they are in the current drop pool.
 * **list_interactables/list_interactibles** List all Interactables.
 * **list_directorcards** List all Director Cards. Mainly used for the `next_boss` command.
+* **list_scene** List all Scenes, their language invariants, and if are they an offline scene.
 * **list_skins** List all Body Skins and the language invariant of the current one in use.
+* **list_survivor** List all Survivors and their body/ai names.
 
 Dump Commands:
 
@@ -98,20 +110,18 @@ Buff Commands:
 * **remove_dot_stacks** - Removes all stacks of a DoT effect from a character: `remove_dot_stacks {dot} *[target (player|'pinged'):<self>]`
 * **remove_all_dots** - Removes all DoT effects from a character: `remove_all_dot *[target (player|'pinged'):<self>]`
 
-***Note:*** _The game does not protect against negative buff stacks, which can lead to unintended behaviors. Gaining a timed buff gives a permanent stack which is taken away upon expiration._ `give_buff bleed 5 10; remove_buff_stacks bleed` _will lead to -5 bleed stacks when the timed buff expires. Having a DoT active is also similar to a timed buff._
-
 Item Commands:
 
-* **give_item** - Give an item directly to a target's inventory. A negative amount is an alias for `remove_item`: `give_item {item} [count:1] *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
-* **random_items** - Generate random items from the available item tiers. `random_items {count} [droptable (droptable|'all'):'all'] *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
-* **give_equip** - Give an equipment directly to a target's inventory: `give_equip {(equip|'random')} *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
+* **give_item** - Give an item directly to a target's inventory. A negative amount is an alias for `remove_item`: `give_item {item} [count:1] *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'|'devotion'):<self>]`
+* **random_items** - Generate random items from the available item tiers. `random_items {count} [droptable (droptable|'all'):'all'] *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'|'devotion'):<self>]`
+* **give_equip** - Give an equipment directly to a target's inventory: `give_equip {(equip|'random')} *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'|'devotion'):<self>]`
 * **give_money** - Gives the desired player/team money. A negative amount can remove that many without underflowing. `give_money {amount} [target ('all'|player):'all']`
 * **give_lunar** - Gives the specified amount of lunar coins to the issuing player. A negative count may be specified to remove that many. `give_lunar [amount:1]`
-* **remove_item** - Removes an item from a target's inventory. A negative amount is an alias for `give_item`: `remove_item {item} [count:1] *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
-* **remove_item_stacks** - Removes all item stacks from a target's inventory. `remove_item_stacks {item} *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
-* **remove_all_items** - Removes all items from a target's inventory. `remove_all_items *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
-* **remove_equip** - Sets the equipment of a target to 'None'. `remove_equip *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
-* **restock_equip** - Restock charges for the current equipment. `restock_equip [count:1] *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'):<self>]`
+* **remove_item** - Removes an item from a target's inventory. A negative amount is an alias for `give_item`: `remove_item {item} [count:1] *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'|'devotion'):<self>]`
+* **remove_item_stacks** - Removes all item stacks from a target's inventory. `remove_item_stacks {item} *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'|'devotion'):<self>]`
+* **remove_all_items** - Removes all items from a target's inventory. `remove_all_items *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'|'devotion'):<self>]`
+* **remove_equip** - Sets the equipment of a target to 'None'. `remove_equip *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'|'devotion'):<self>]`
+* **restock_equip** - Restock charges for the current equipment. `restock_equip [count:1] *[target (player|'pinged'|'evolution'|'simulacrum'|'voidfields'|'devotion'):<self>]`
 * **create_pickup** - Creates a pickup in front of a player. Pickups are items, equipment, or coins. When the pickup is an item or equipment, the search argument 'item' or 'equip' may be specified to only search that list. `create_pickup {object (item|equip|'lunarcoin'|'voidcoin')} [search ('item'|'equip'|'both'):'both'] *[player:<self>]`
 * **create_potential** - Creates a potential in front of a player. The first item tier defined in the droptable decides the color of the droplet and what items will be available with the Artifact of Command. `create_potential [droptable (droptable|'all'):'all'] [count:3] *[player:<self>]`
 
@@ -120,7 +130,7 @@ Item Commands:
 Spawn Commands:
 
 * **spawn_interactable/spawn_interactible** - Spawns an interactible in front of the player. `(spawn_interactable|spawn_interactible) {interactable}`
-* **spawn_portal** - Spawns a portal in front of the player. `spawn_portal {portal ('artifact'|'blue'|'celestial'|'deepvoid'|'gold'|'null'|'void')}`.
+* **spawn_portal** - Spawns a portal in front of the player. `spawn_portal {portal ('artifact'|'blue'|'celestial'|'deepvoid'|'gold'|'green'|'null'|'void')}`.
 * **spawn_ai** - Spawn an AI. `spawn_ai {ai} [count:1] [elite:None] [braindead (0|1):0/false] [team:Monster]`.
 * **spawn_as** - Spawn as a new character. `spawn_as {body} *[player:<self>]`
 * **spawn_body** - Spawns a CharacterBody with no AI, inventory, or team alliance: `spawn_body {body}`
@@ -128,19 +138,19 @@ Spawn Commands:
 
 Profile Commands:
 
-* **prevent_profile_writing** - Prevent saving the user profile to avoid bogus data. Enable before doing something and keep it until the end of the session. `prevent_profile_writing [flag (0|1)]`. If no argument is supplied, prints the current state. Disabled by default.
+* **prevent_profile_writing** - Prevent saving the user profile to avoid bogus data. Enable before doing something and keep it until the end of the session. `prevent_profile_writing [enable (0|1)]`. If no argument is supplied, prints the current state. Disabled by default.
 
 Cheat Commands:
 
-* **no_enemies** - Toggles enemy spawns.
-* **god** - Toggles HealthComponent.TakeDamage for all players. AKA: you can't take damage.
-* **buddha** / **budha** / **buda** / **budda** - Turns damage taken `NonLethal` for all players. AKA: you can't die.
-* **lock_exp** - Prevents EXP gain for the player team.
-* **noclip** - Toggles noclip. Allow you to fly and going through objects. Sprinting will double the speed.
+* **no_enemies** - Prevents enemy spawns. `no_enemies [enable (0|1)]`. If no argument is supplied, toggles the current state.
+* **god** - Prevents players from taking any damage. `god [enable (0|1)]`. If no argument is supplied, toggles the current state.
+* **buddha** / **budha** / **buda** / **budda** - Turns damage taken `NonLethal` for all players. AKA: you can't die. `buddha [enable (0|1)]`. If no argument is supplied, toggles the current state.
+* **lock_exp** - Prevents EXP gain for the player team. `lock_exp [enable (0|1)]`. If no argument is supplied, toggles the current state.
+* **noclip** - Toggles noclip. Allow you to fly and going through objects. Sprinting will double the speed. `noclip [enable (0|1)]`. If no argument is supplied, toggles the current state.
 
 Bind Commands:
 
-* **dt_bind** - Bind a key to execute specific commands. `dt_bind {key} {<consolecommands seperated by ;>}`
+* **dt_bind** - Bind a key to execute specific commands. `dt_bind {key} [<consolecommands separated by ;>]`. See [here](https://docs.unity3d.com/Manual/class-InputManager.html) for a list of possible key names. Alt, Ctrl, and Shift can also be used for key combinations, e.g. `"left shift+left ctrl+x"`. If no commands are provided, it prints information about the key.
 * **dt_bind_delete** Remove a custom bind. `dt_bind_delete {key}`
 * **dt_bind_reload** Reload the macro system from file. `dt_bind_reload` 
 

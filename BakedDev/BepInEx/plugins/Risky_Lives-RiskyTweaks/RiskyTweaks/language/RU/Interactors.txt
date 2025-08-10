@@ -1,0 +1,10 @@
+{
+	strings:
+	{
+		"SHRINE_COMBAT_END_TRIAL_RISKYMOD": "<style=cShrine>Святилище Битвы награждает вас предметом </style>{0}",
+
+		"MOON_PILLAR_COMPLETE_RISKYMOD" : "<color=#c6d5ff>{0} награждает вас предметом </color>{1}",
+
+		"VOID_SIGNAL_COMPLETE_RISKYMOD" : "<style=cWorldEvent>Сигнал Абсолютной Пустоты награждает вас предметом </style>{0}"
+	}
+}

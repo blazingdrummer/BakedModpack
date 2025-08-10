@@ -1,0 +1,12 @@
+{
+  "name": "RiskyTweaks",
+  "version_number": "1.7.0",
+  "website_url": "https://github.com/Moffein/RiskyTweaks",
+  "description": "Vanilla-compatible tweaks to basegame content. Some are server-side, some are client-side. Every feature can be toggled in the config!",
+  "dependencies": [
+	"bbepis-BepInExPack-5.4.2120",
+	"RiskofThunder-HookGenPatcher-1.2.8",
+    "RiskofThunder-R2API_Core-5.1.3",
+	"Risky_Lives-RiskyFixes-1.7.1"
+  ]
+}

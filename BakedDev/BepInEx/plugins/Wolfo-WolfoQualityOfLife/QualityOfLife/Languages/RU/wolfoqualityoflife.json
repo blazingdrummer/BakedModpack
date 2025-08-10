@@ -1,0 +1,135 @@
+{
+	"strings":
+	{
+		        "REMINDER_PORTAL_LUNAR": "Пройдите через <style=cIsLunar>синий портал</style>",    
+				"REMINDER_PORTAL_GOLD": "Пройдите через <color=#FFE880>золотой портал</color>",
+                "REMINDER_PORTAL_MS": "Пройдите через <color=#7CFEF3>Божественный портал</color>",
+				"REMINDER_PORTAL_ARTIFACT": "Пройдите через <style=cDeath>портал-артефакт</style>",
+                
+				"REMINDER_PORTAL_NULL": "Пройдите через <style=cIsVoid>пустой портал</style>",
+                "REMINDER_PORTAL_VOID": "Пройдите через <style=cIsVoid>портал Пустоты</style>",
+                "REMINDER_PORTAL_GREEN": "Пройдите через <color=#7CFE7C>зелёный портал</color>",
+		
+		
+			"GAME_RESULT_LIMBOWIN": "В покое..",
+			"GAME_RESULT_VOIDWIN": "Глубже и глубже..",
+			"GAME_RESULT_ESCAPEFAILED": "Побег не удался..",
+		
+			"REBIRTH_ENDING_CHAT": "Ты родишься заново.",
+		
+		
+		    "OBJECTIVE_CHARGE_HALCSHRINE": "Зарядить <color=#FFE880>Святилище безмятежности</color> ({0}%)",
+            "OBJECTIVE_KILL_HALCSHRINE": "Победить <color=#FFE880>Защитника</color>",
+			
+			"OBJECTIVE_ARTIFACT_TRIAL": "Завершить \n<style=cArtifact>Испытание {0}</style>",
+			"OBJECTIVE_GLASS_YOURSELF": "<color=#7CFEF3>Уничтожьте</color> себя",
+			"OBJECTIVE_DESERT_ELDERS": "Изучите потайную комнату",
+		
+		
+		
+			"SHRINE_CHANCE_SUCCESS_MESSAGE_UPGRADE_2P": "<style=cShrine>Вы возлагаете дары на святилище и получаете награду (Удача)!</color>",
+            "SHRINE_CHANCE_SUCCESS_MESSAGE_UPGRADE": "<style=cShrine>{0} возлагает дары на святилище и вознаграждается (Удача)!</color>",
+
+            "SHRINE_CHANCE_SUCCESS_MESSAGE_DOLL_2P": "<style=cShrine>Ваша кукла удачи сработала!</color>",
+            "SHRINE_CHANCE_SUCCESS_MESSAGE_DOLL": "<style=cShrine>Кукла удачи у {0} сработала!</color>",
+
+            
+			"REMINDER_COUNT": " ({0}/{1})",
+            "REMINDER_KEY": "Откройте <style=cisDamage>заржавевший сейф</style>",
+            "REMINDER_KEY_MANY": "Откройте <style=cisDamage>заржавевший сейф</style> ({0}/{0})",
+
+            "REMINDER_KEYVOID": "Откройте <color=#FF9EEC>покрытый коркой сейф</color>",
+            "REMINDER_KEYVOID_MANY": "Откройте <color=#FF9EEC>покрытый коркой сейф</color> ({0}/{0})",
+
+            "REMINDER_FREECHEST": "Найдите терминал с <style=cIsHealing>доставкой</style>",
+            "REMINDER_FREECHEST_MANY": "Найдите терминал с <style=cIsHealing>доставкой</style> ({0}/{0})",
+
+            "REMINDER_SALESTAR": "Воспользуйтесь <style=cIsUtility>Выгодной звездой</style>",
+			
+            "REMINDER_FREECHESTVOID": "Найдите и используйте <style=cIsVoid>потерянную батарею</style>",
+			"REMINDER_NEWT": "Найдите и используйте <style=cIsLunar>Алтарь тритонов</style)",  
+			"REMINDER_SECRET_GEODE": "Разбейте <color=#FFE880>Златитановую жеоду</color> ({0}/{1})",
+           
+		
+		
+		
+			"ITEM_TREASURECACHECONSUMED_NAME": "Ржавый ключ (использовано)",
+			"ITEM_TREASURECACHECONSUMED_DESC": "Использованный ключ, напоминающий что предмет из сейфа был найден.",
+			
+			"ITEM_TREASURECACHEVOIDCONSUMED_NAME": "Покрытый коркой (использовано)",
+			"ITEM_TREASURECACHEVOIDCONSUMED_DESC": "Использованный ключ? Напоминает, что предмет из сейфа был найден.",
+			
+			"ITEM_EXTRASTATSONLEVELUP_CONSUMED_NAME": "Благословение чёток.",
+			"ITEM_EXTRASTATSONLEVELUP_CONSUMED_PICKUP": "Ваши чётки благословили ваши параметры. (Missing Overlay)",
+			"ITEM_EXTRASTATSONLEVELUP_CONSUMED_DESC": "Ваши чётки благословили ваши параметры. (Missing Overlay)",
+			
+			"OVERLAY_EXTRASTATSONLEVELUP_CONSUMED_PICKUP": "Ваши чётки благословили вас на +{0} уровня",
+			"OVERLAY_EXTRASTATSONLEVELUP_CONSUMED_DESC": "Ваши чётки благословили вас на +{0} уровня, увеличив <style=cIsHealing>максимальный запас здоровья</style> на <style=cIsHealing>+{1}</style>, <style=cIsHealing>регенерацию здоровья</style> на <style=cIsHealing>+{2} ОЗ/сек.</style> и <style=cIsDamage>урон</style> на <style=cIsDamage>+{3}</style>.",
+			
+
+			"INVENTORY_KILLER": "Предметы вашего убийцы",
+			"INVENTORY_MONSTER": "Предметы врагов",
+			
+			 "ITEM_LOSS_GENERIC_2P": "<style=cEvent>Вы избаавились от {1}</style>",
+				"ITEM_LOSS_GENERIC": "<style=cEvent>{0} избаваился от {1}</style>",
+		
+			 "ITEM_LOSS_CAULDRON_2P": "<style=cEvent>Вы перековали {1}</style>",
+				"ITEM_LOSS_CAULDRON": "<style=cEvent>{0} перековал {1}</style>",
+		
+			  "ITEM_LOSS_CLEANSING_2P": "<style=cShrine>Вы очистили себя от {1}</style>",
+				 "ITEM_LOSS_CLEANSING": "<style=cShrine>{0} очистил себя от {1}</style>",
+		
+		
+			 "ITEM_LOSS_SCRAP_2P": "<style=cEvent>Вы переработали {1}</style>",
+				"ITEM_LOSS_SCRAP": "<style=cEvent>{0} переработал {1}</style>",
+			
+			"ITEM_USE_ELIXIR": "<style=cEvent>Вы выпили <color=#FFFFFF>Эликсир силы</color></style>",
+			"ITEM_USE_WATCH": "<style=cEvent>Вы сломали ваши <color=#FFFFFF>Изысканные часы</color></style>",
+			"ITEM_USE_VV_VOIDWATCH": "<style=cEvent>{0} не успел...</style>",
+
+			"ITEM_TRANSFORM_EGO": "<style=cEvent><color=#458CFF>{0}</color> поглотил <color=#{1}>{2}</color></style>",
+			"ITEM_TRANSFORM_VOID": "<style=cEvent><style=cIsVoid>Пустота</style> улучшила <color=#{0}>{1} в <color=#{2}>{3}</style>",
+ 
+		
+		
+			"DEATH_DOT_FRACTURE_2P": "{1} сокрушил вас.",
+            "DEATH_DOT_FRACTURE": "{1} сокрушил {0}.",
+
+            "DEATH_DOT_GENERIC_2P": "{1} стал причиной вашей медленной смерти.",
+            "DEATH_DOT_GENERIC": "{1} стал причиной медленной смерти для {0}.",
+
+            "DEATH_VOID_FOG_2P": "Вы утонули в пустоте.",
+            "DEATH_VOID_FOG": "{0} утонул в пустоте.",
+
+            "DEATH_VOID_EXPLODE_2P": "{1} задержал вас.",
+            "DEATH_VOID_EXPLODE": "{1} задержал {0}.",
+
+            "DEATH_TWISTED_2P": "{1} исказил вас.",
+            "DEATH_TWISTED": "{1} исказил {0}.",
+
+            "DEATH_FALL_DAMAGE_2P": "Вы покорились гравитации.",
+            "DEATH_FALL_DAMAGE": "{0} покорился гравитации.",
+
+            "DEATH_FRIENDLY_SUICIDE_2P": "Вы убили себя.",
+            "DEATH_FRIENDLY_SUICIDE": "{0} убил сам себя.",
+
+            "DEATH_FRIENDLY_2P": "Вас предал {1}.",
+            "DEATH_FRIENDLY": "{0} был предан {1}.",
+
+			"DEATH_LAVA_2P": "Вы расплавились.",
+            "DEATH_LAVA": "{0} расплавился.",
+
+            "DEATH_ECHO_2P": "Эхо {1} убило вас.",
+            "DEATH_ECHO": "Эхо {1} убило {0}.",
+			
+            "DEATH_GLASS_2P": "{1} разбил вас.",
+            "DEATH_GLASS": "{1} разбил вас {0}.",
+
+            "DEATH_GENERIC_2P": "{1} убил вас.",
+            "DEATH_GENERIC": "{1} убил {0}.",
+
+            "DEATH_DAMAGE": " ({0} урона получено)</style>"
+		
+
+	}
+}

@@ -1,4 +1,0 @@
-RoR2 BepInExPack specific changes :
-  -  Fix a softlock related to Artifact of Metamorphosis with custom survivors that are locked behind custom expansions.
-  -  Remove an unnecessary vanilla log line whenever expose is applied via the damage type.
-  -  Fix NonLethal damage still killing when you have 1 max hp.

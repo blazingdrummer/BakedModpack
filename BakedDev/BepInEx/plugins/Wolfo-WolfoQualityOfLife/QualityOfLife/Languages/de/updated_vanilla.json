@@ -1,0 +1,11 @@
+{
+	"strings":
+	{
+			"CHEST2_NAME": "Große Kiste",
+            "VOIDCOINBARREL_NAME": "Stengel",
+            "GAME_RESULT_LIMBOWIN": "In Frieden..",
+            "LUNARWISP_BODY_NAME": "Mondchimäre Wisch",
+            "LUNARGOLEM_BODY_NAME": "Mondchimäre Golem",
+            "LUNAREXPLODER_BODY_NAME": "Mondchimäre Sprengkapsel",
+	}
+}

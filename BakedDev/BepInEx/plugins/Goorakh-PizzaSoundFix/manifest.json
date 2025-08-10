@@ -1,0 +1,12 @@
+﻿{
+	"name": "PizzaSoundFix",
+	"authorName": "Gorakh",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/Goorakh/RoR2_PizzaSoundFix",
+	"description": "Fixes Mithrix Pizza attack sound playing too early. Clientside.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.2117",
+		"RiskofThunder-HookGenPatcher-1.2.4",
+		"RiskofThunder-R2API_Core-5.1.1"
+	]
+}

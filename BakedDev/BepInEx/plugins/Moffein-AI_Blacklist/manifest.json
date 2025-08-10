@@ -1,10 +1,10 @@
 {
   "name": "AI_Blacklist",
-  "version_number": "1.6.2",
+  "version_number": "1.6.4",
   "website_url": "https://github.com/Moffein/AI_Blacklist",
   "description": "Lets you blacklist items from Monsters, Vengeance Doppelgangers, Scavengers, and Mithrix. Server-Side and Vanilla-Compatible.",
   "dependencies": [
-    "bbepis-BepInExPack-5.4.9",
-    "RiskofThunder-HookGenPatcher-1.2.3"
+    "bbepis-BepInExPack-5.4.2117",
+    "RiskofThunder-HookGenPatcher-1.2.4"
   ]
 }

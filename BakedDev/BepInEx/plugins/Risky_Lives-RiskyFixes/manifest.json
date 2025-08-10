@@ -1,0 +1,11 @@
+{
+  "name": "RiskyFixes",
+  "version_number": "1.7.3",
+  "website_url": "https://github.com/Moffein/RiskyFixes",
+  "description": "Vanilla-compatible fixes to basegame content. Some are server-side, some are client-side.",
+  "dependencies": [
+    "RiskofThunder-R2API_Core-5.1.5",
+	"bbepis-BepInExPack-5.4.2117",
+	"RiskofThunder-HookGenPatcher-1.2.8"
+  ]
+}

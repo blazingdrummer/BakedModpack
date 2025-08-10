@@ -16,12 +16,24 @@ Finally, ItemAPI includes the ability to add new ItemTags to the game, which can
 
 ## Related Pages
 
-A detailed tutorial on how to make custom items using ItewmAPI can be found [here](https://risk-of-thunder.github.io/R2Wiki/Mod-Creation/Assets/Items/)
+A detailed tutorial on how to make custom items using ItemAPI can be found [here](https://risk-of-thunder.github.io/R2Wiki/Mod-Creation/Assets/Items/)
 
 ## Changelog
 
+### '1.0.7'
+* Ensure followerPrefabAddress is never null.
+
+### '1.0.6'
+* Add support for followerPrefabAddress and pickupModelReference, also use GenerateRuntimeValuesAsync inside AddingItemDisplayRulesToCharacterModels
+
+### '1.0.5'
+* Fix for 1.3.9 game patch.
+
+### '1.0.4'
+* Make sure `ItemDef` never have a null `tags` array.
+
 ### '1.0.3'
-* Add missing `BepInDependency` to `R2API.ContentManagement`
+* Add missing `BepInDependency` to `R2API.ContentManagement`.
 
 ### '1.0.2'
 * Fix the NuGet package which had a dependency on a non-existent version of `R2API.Core`.

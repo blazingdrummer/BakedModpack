@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4043138392	Play_cointoss			\Default Work Unit\Play_cointoss	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	954824125	cointoss	C:\Users\alex\Documents\WwiseProjects\coin\.cache\Windows\SFX\cointoss_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\cointoss		12333
+

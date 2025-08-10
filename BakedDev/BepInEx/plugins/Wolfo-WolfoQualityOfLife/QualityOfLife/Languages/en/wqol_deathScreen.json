@@ -1,0 +1,60 @@
+{
+	"strings":
+	{
+	
+			"STAT_MOST_KILLED": "Most Killed Monster: <color=#FFFF7F>{0}</color>",
+			"STAT_MOST_HURTBY": "Most Hurt By: <color=#FFFF7F>{0}</color>",
+			"STAT_MOST_FOUNDITEM": "Most Found Item: <color=#FFFF7F>{0}</color>",
+			"STAT_MOST_USEDEQUIP": "Most Used Equipment: <color=#FFFF7F>{0}</color>",
+			"STAT_MOST_MVPDRONE": "Strongest Minion: <color=#FFFF7F>{0}</color>",
+
+
+			"STAT_AMOUNT_KILLED": "<color=#FFFF7F>Killed {0}</color>",
+			"STAT_AMOUNT_HURTBY": "<color=#FFFF7F>{0} Damage Taken</color>",
+			"STAT_AMOUNT_FOUNDITEM": "<color=#FFFF7F>{0}x</color>",
+			"STAT_AMOUNT_USEDEQUIP": "<color=#FFFF7F>{0} activations</color>",
+			"STAT_AMOUNT_MVPDRONE": "<color=#FFFF7F>{0} Damage Dealt</color>",
+
+			"STAT_EXTRAHEADER": "Additional Information",
+			"STAT_DETAILS": "Detailed Breakdown",
+
+			"STAT_MINION_DAMAGETAKEN": "Minion Damage Taken",
+			"STAT_MINION_HEALTHHEALED": "Minion Healing Recieved",
+			"STAT_MINION_DEATH": "Drone Deaths",
+
+			"STAT_SCRAPPED_ITEMS": "Items Scrapped",
+			"STAT_SCRAPPED_DRONES": "Drones Scrapped",
+
+			"STAT_MISSED_CHEST": "Chests Left Behind",
+			"STAT_MISSED_DRONE": "Drones Left Behind",	
+			"STAT_MISSED_SHRINECHANCE": "Shrine of Chance Drops",
+
+			"STAT_TIMESJUMPED": "Times Jumped",
+			"STAT_SPENT_LUNARCOIN": "Lunar Coins Spent",
+			"STAT_SPENT_VOIDSTUFF": "Void Transformations",
+			
+			
+			"STAT_SPENT_VOIDCOIN": "Void Markers Spent",
+			"STAT_BUFFS_RECIEVED": "Buffs Recieved",
+			"STAT_SKILLS_USED": "Skill Activations",
+			
+			"STAT_DAMAGE_DOT": "Damage Over Time Inflicted",
+			"STAT_DAMAGE_BLOCKED": "Damage Blocked",
+			"STAT_TELEPORTERTIME": "Time Spent Charging Zones",
+	
+			"RUN_RECAP": "Run Recap",
+			"LATEST_WAVE": "Last Wave: ",
+			"TOTALDAMAGE_PERCENTTIP": "<color=#FFFF7F>{0}%</color> of Total damage dealt.",
+	
+	
+			"INVENTORY_DEVOTION": "Devotion Collection",
+			"INVENTORY_DEVOTIONDRONE": "Devotion & Drone Collection",
+			"INVENTORY_DRONES": "Drone Collection",
+			
+			"INVENTORY_KILLER": "Killers Items",
+			"INVENTORY_MONSTER": "Monsters Items",
+			
+	 
+	 
+	}
+}

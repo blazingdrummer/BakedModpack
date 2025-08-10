@@ -23,7 +23,7 @@
             <remarks>(LEVEL - 1)</remarks>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseHealthAdd">
-            <summary>Added to base health.</summary> <remarks>MAX_HEALTH ~ (BASE_HEALTH + baseHealthAdd + levelHealthAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (HEALTH_MULT + healthMultAdd)</remarks>
+            <summary>Added to base health.</summary> <remarks>MAX_HEALTH ~ (BASE_HEALTH + baseHealthAdd + levelHealthAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (HEALTH_MULT + healthMultAdd) * healthTotalMult</remarks>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.levelHealthAdd">
             <summary>Multiplied by character level and added to base health.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseHealthAdd"/>
@@ -31,8 +31,11 @@
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.healthMultAdd">
             <summary>Added to the direct multiplier to base health.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseHealthAdd"/>
         </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.healthTotalMult">
+            <summary>Base health is multiplied by this number. Multiply this value by your multiplier.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseHealthAdd"/>
+        </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseShieldAdd">
-            <summary>Added to base shield.</summary> <remarks>MAX_SHIELD ~ (BASE_SHIELD + baseShieldAdd + levelShieldAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (SHIELD_MULT + shieldMultAdd)</remarks>remarks>
+            <summary>Added to base shield.</summary> <remarks>MAX_SHIELD ~ (BASE_SHIELD + baseShieldAdd + levelShieldAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (SHIELD_MULT + shieldMultAdd) * shieldTotalMult</remarks>remarks>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.levelShieldAdd">
             <summary>Multiplied by level and added to base shield.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseShieldAdd"/>
@@ -40,8 +43,11 @@
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.shieldMultAdd">
             <summary>Added to the direct multiplier to shields.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseShieldAdd"/>
         </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.shieldTotalMult">
+            <summary>Base shield is multiplied by this number. Multiply this value by your multiplier.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseShieldAdd"/>
+        </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseRegenAdd">
-            <summary>Added to base health regen.</summary> <remarks>HEALTH_REGEN ~ (BASE_REGEN + baseRegenAdd + levelRegenAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (REGEN_MULT + regenMultAdd)</remarks>
+            <summary>Added to base health regen.</summary> <remarks>HEALTH_REGEN ~ (BASE_REGEN + baseRegenAdd + levelRegenAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (REGEN_MULT + regenMultAdd) * regenTotalMult</remarks>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.levelRegenAdd">
             <summary>Multiplied by level and added to base health regen.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseRegenAdd"/>
@@ -49,14 +55,20 @@
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.regenMultAdd">
             <summary>Added to the direct multiplier to base health regen.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseRegenAdd"/>
         </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.regenTotalMult">
+            <summary>Base health regen is multiplied by this number. Multiply this value by your multiplier.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseRegenAdd"/>
+        </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseMoveSpeedAdd">
-            <summary>Added to base move speed.</summary> <remarks>MOVE_SPEED ~ (BASE_MOVE_SPEED + baseMoveSpeedAdd + levelMoveSpeedAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (MOVE_SPEED_MULT + moveSpeedMultAdd) / (MOVE_SPEED_REDUCTION_MULT + moveSpeedReductionMultAdd)</remarks>
+            <summary>Added to base move speed.</summary> <remarks>MOVE_SPEED ~ (BASE_MOVE_SPEED + baseMoveSpeedAdd + levelMoveSpeedAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (MOVE_SPEED_MULT + moveSpeedMultAdd) * moveSpeedTotalMult / (MOVE_SPEED_REDUCTION_MULT + moveSpeedReductionMultAdd)</remarks>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.levelMoveSpeedAdd">
             <summary>Multiplied by level and added to base move speed.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseMoveSpeedAdd"/>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.moveSpeedMultAdd">
             <summary>Added to the direct multiplier to move speed.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseMoveSpeedAdd"/>
+        </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.moveSpeedTotalMult">
+            <summary>Base move speed is multiplied by this number. Multiply this value by your multiplier.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseMoveSpeedAdd"/>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.moveSpeedReductionMultAdd">
             <summary>Added reduction multiplier to move speed.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseMoveSpeedAdd"/>
@@ -68,7 +80,7 @@
             <summary>Amount of Root effects currently applied.</summary> <remarks>MOVE_SPEED ~ (moveSpeedRootCount > 0) ? 0 : MOVE_SPEED</remarks>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseJumpPowerAdd">
-            <summary>Added to base jump power.</summary> <remarks>JUMP_POWER ~ (BASE_JUMP_POWER + baseJumpPowerAdd + levelJumpPowerAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (JUMP_POWER_MULT + jumpPowerMultAdd)</remarks>
+            <summary>Added to base jump power.</summary> <remarks>JUMP_POWER ~ (BASE_JUMP_POWER + baseJumpPowerAdd + levelJumpPowerAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (JUMP_POWER_MULT + jumpPowerMultAdd) * jumpPowerTotalMult</remarks>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.levelJumpPowerAdd">
             <summary>Multiplied by level and added to base jump power.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseJumpPowerAdd"/>
@@ -76,8 +88,11 @@
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.jumpPowerMultAdd">
             <summary>Added to the direct multiplier to jump power.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseJumpPowerAdd"/>
         </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.jumpPowerTotalMult">
+            <summary>Base jump power is multiplied by this number. Multiply this value by your multiplier.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseJumpPowerAdd"/>
+        </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseDamageAdd">
-            <summary>Added to base damage.</summary> <remarks>DAMAGE ~ (BASE_DAMAGE + baseDamageAdd + levelDamageAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (DAMAGE_MULT + damageMultAdd)</remarks>
+            <summary>Added to base damage.</summary> <remarks>DAMAGE ~ (BASE_DAMAGE + baseDamageAdd + levelDamageAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (DAMAGE_MULT + damageMultAdd) * damageTotalMult</remarks>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.levelDamageAdd">
             <summary>Multiplied by level and added to base damage.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseDamageAdd"/>
@@ -85,8 +100,11 @@
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.damageMultAdd">
             <summary>Added to the direct multiplier to base damage.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseDamageAdd"/>
         </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.damageTotalMult">
+            <summary>Base damage is multiplied by this number. Multiply this value by your multiplier.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseDamageAdd"/>
+        </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseAttackSpeedAdd">
-            <summary>Added to attack speed.</summary> <remarks>ATTACK_SPEED ~ (BASE_ATTACK_SPEED + baseAttackSpeedAdd + levelAttackkSpeedAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (ATTACK_SPEED_MULT + attackSpeedMultAdd) / (ATTACK_SPEED_REDUCTION_MULT + attackSpeedReductionMultAdd)</remarks>
+            <summary>Added to attack speed.</summary> <remarks>ATTACK_SPEED ~ (BASE_ATTACK_SPEED + baseAttackSpeedAdd + levelAttackkSpeedAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * (ATTACK_SPEED_MULT + attackSpeedMultAdd) * attackSpeedTotalMult / (ATTACK_SPEED_REDUCTION_MULT + attackSpeedReductionMultAdd)</remarks>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.levelAttackSpeedAdd">
             <summary>Multiplied by level and added to attack speed.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseAttackSpeedAdd"/>
@@ -94,26 +112,47 @@
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.attackSpeedMultAdd">
             <summary>Added to the direct multiplier to attack speed.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseAttackSpeedAdd"/>
         </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.attackSpeedTotalMult">
+            <summary>Base attack speed is multiplied by this number. Multiply this value by your multiplier.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseAttackSpeedAdd"/>
+        </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.attackSpeedReductionMultAdd">
             <summary>Added reduction multiplier to attack speed.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseAttackSpeedAdd"/>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.critAdd">
-            <summary>Added to crit chance.</summary> <remarks>CRIT_CHANCE ~ BASE_CRIT_CHANCE + critAdd + levelCritAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/></remarks>
+            <summary>Added to crit chance.</summary> <remarks>CRIT_CHANCE ~ (BASE_CRIT_CHANCE + critAdd + levelCritAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * critTotalMult</remarks>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.levelCritAdd">
             <summary>Multiplied by level and added to crit chance.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.critAdd"/>
         </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.critTotalMult">
+            <summary>Crit chance is multiplied by this number. Multiply this value by your multiplier.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.critAdd"/>
+        </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.critDamageMultAdd">
-            <summary>Added to the direct multiplier to crit damage.</summary> <remarks>CRIT_DAMAGE ~ DAMAGE * (BASE_CRIT_MULT + critDamageMultAdd) </remarks>
+            <summary>Added to the direct multiplier to crit damage.</summary> <remarks>CRIT_DAMAGE ~ DAMAGE * (BASE_CRIT_MULT + critDamageMultAdd) * critDamageTotalMult</remarks>
+        </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.critDamageTotalMult">
+            <summary>Crit damage is multiplied by this number. Multiply this value by your multiplier.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.critDamageMultAdd"/>
+        </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.bleedChanceAdd">
+            <summary>Added to bleed chance.</summary> <remarks>BLEED_CHANCE ~ (BASE_BLEED_CHANCE + bleedChanceAdd) * bleedChanceMult</remarks>
+        </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.bleedChanceMult">
+            <summary>Bleed chance is multiplied by this number. Multiply this value by your multiplier.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.bleedChanceAdd"/>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.armorAdd">
-            <summary>Added to armor.</summary> <remarks>ARMOR ~ BASE_ARMOR + armorAdd + levelArmorAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/></remarks>
+            <summary>Added to armor.</summary> <remarks>ARMOR ~ (BASE_ARMOR + armorAdd + levelArmorAdd * <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs._levelMultiplier"/>) * armorTotalMult</remarks>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.levelArmorAdd">
             <summary>Multiplied by level and added to armor.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.armorAdd"/>
         </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.armorTotalMult">
+            <summary>Armor is multiplied by this number. Multiply this value by your multiplier.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.armorAdd"/>
+        </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseCurseAdd">
-            <summary> Added to Curse Penalty.</summary> <remarks><inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseHealthAdd"/> / (BASE_CURSE_PENALTY + baseCurseAdd)</remarks>
+            <summary> Added to Curse Penalty.</summary> <remarks><inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseHealthAdd"/> / ((BASE_CURSE_PENALTY + baseCurseAdd) * curseTotalMult)</remarks>
+        </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.curseTotalMult">
+            <summary>Curse penalty is multiplied by this number. Multiply this value by your multiplier.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.baseCurseAdd"/>
         </member>
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.cooldownReductionAdd">
             <summary>Added to flat cooldown reduction.</summary> <remarks>COOLDOWN ~ BASE_COOLDOWN * (BASE_COOLDOWN_MULT + cooldownMultAdd) - (BASE_FLAT_REDUCTION + cooldownReductionAdd)</remarks>

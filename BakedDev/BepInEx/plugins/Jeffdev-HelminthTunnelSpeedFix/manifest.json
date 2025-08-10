@@ -1,0 +1,11 @@
+﻿{
+	"name": "HelminthTunnelSpeedFix",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Fixes the Helminth Hatchery speed tunnels not working for CHEF/Void Fiend/others.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.2109",
+		"RiskofThunder-HookGenPatcher-1.2.3",
+		"RiskofThunder-R2API_Core-5.1.5"
+	]
+}

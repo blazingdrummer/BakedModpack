@@ -1,0 +1,19 @@
+{
+    "name": "WolfFixes",
+    "version_number": "1.1.17",
+    "website_url": "https://github.com/WolfoIsBestWolf/ror2-WolfFixes",
+    "description": "Yet another fix mod. Fixes of all variety. Some gameplay, visual, audio, item descriptions, client fixes.",
+    "dependencies": [
+		"RiskofThunder-R2API_Prefab-1.0.4",
+		"RiskofThunder-R2API_Language-1.0.1",
+		"RiskofThunder-R2API_Networking-1.0.3",
+		"Jeffdev-HelminthTunnelSpeedFix-1.0.0",
+		"score-MiscFixes-1.3.3",
+		"Wolfo-DLCSpawnPoolFixer-1.3.0",
+		"Goorakh-VFiX-1.0.3",
+		"Goorakh-PizzaSoundFix-1.0.0",
+		"LordVGames-GildedChunkSpamFix-1.0.1",
+		"Moffein-FixGenesisLoopConsoleSpam-1.0.0",
+		"viliger-RestoreGrandparentRock-1.0.0"
+    ]
+}

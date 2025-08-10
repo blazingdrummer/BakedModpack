@@ -53,6 +53,7 @@ If you want to change the config
 ![contact](https://i.imgur.com/gPBrPrQ.png)
 
 ## Changelog
+- 1.13.14 Updated dependecies
 - 1.13.13 Changed how money related stuff is handled with ShareSuite, since it was still causing issues in certain scenarios. Using ShareSuite's provided method to add money now.
 - 1.13.12 Added option to drop items directly into the players inventory (AddItemsDirectlyToInventory). If ShareSuite is used, ShareSuite still has its own setting for this (ShareSuiteItemSharingEnabled) which if set to false also drops items directly into the corresponding player's inventory. If set to true, it drops on the floor and ShareSuite's rules apply.
 - 1.13.11 Accidentally left out some code for the Bazaar breaking the display items with last patch, especially in multiplayer. Oops.

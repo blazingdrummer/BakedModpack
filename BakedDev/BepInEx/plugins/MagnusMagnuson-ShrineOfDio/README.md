@@ -1,4 +1,5 @@
 
+
 # ShrineOfDio
 
 [Host only required for functionality, but descriptions might not be correct for clients if they don't have the mod]
@@ -9,8 +10,7 @@ Depending on the setting in the config, you can pay with gold or offer a Dio's B
 
 ## Features
 - Each Stage spawns with a Shrine of Dio
-- Resurrect fallen teammates on use
-	- Player is chosen randomly
+- Resurrect random fallen teammates on use
 - Choose via config whether you want to resurrect using gold or an offering of Dio's Best Friend
 	- The gold cost can be adjusted in the config as well
 	- The cost scales with difficulty (like everything else), but not with repeated usages
@@ -32,6 +32,11 @@ Therefore it's recommended that everyone has the mod installed to avoid confusio
 
 ## Installation
 
+### Mod Manager (recommended)
+Install via a mod manager like [r2modman](https://thunderstore.io/package/ebkr/r2modman/) for easy installation.
+
+### Manual 
+- If you prefer to not use a mod manager you can install the mod manually
 - Install [BepInEx Mod Pack](https://thunderstore.io/package/bbepis/BepInExPack/)
 - Copy 'ShrineOfDio.dll' into your Risk of Rain 2\BepInEx\plugins folder
 - Run the game once and close it out to create a config file
@@ -39,10 +44,13 @@ Therefore it's recommended that everyone has the mod installed to avoid confusio
 - Open the config and adjust to your liking
 
 ## Contact
-![contact](https://i.imgur.com/gPBrPrQ.png)
+You can message me on the Risk of Rain 2 Modding Discord server. My name is Magnus (magnus.jpg)
 
 
 ## Changelog
+- 1.6.6 Fixed bug that wouldn't allow Captain to hack multiple targets within one terminals range (Thanks TrippyOwl for the report)
+- 1.6.5 Forgot to remove some debug stuff.
+- 1.6.4 Update for DLC. Added Tab Inspection description. Included bug fix from [mwxmmy/ShrineOfDio](https://thunderstore.io/package/mwxmmy/ShrineOfDio/)
 - 1.6.1 Removed text from manifest file.
 - 1.6.0 Update for recent patch
 - 1.5.1 Added Enigmatic Thunder Version in correspondig zip.

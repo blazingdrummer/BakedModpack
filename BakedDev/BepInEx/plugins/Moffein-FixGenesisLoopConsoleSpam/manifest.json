@@ -1,0 +1,10 @@
+{
+    "name": "FixGenesisLoopConsoleSpam",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/Moffein/FixGenesisLoopConsoleSpam",
+    "description": "Fixes console spam from Genesis Loop when playing with certain custom skins and survivors. Client-side and Vanilla-compatible!",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1905",
+		"RiskofThunder-HookGenPatcher-1.2.3"
+    ]
+}

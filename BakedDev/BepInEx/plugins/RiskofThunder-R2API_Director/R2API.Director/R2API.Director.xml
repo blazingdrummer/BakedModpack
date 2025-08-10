@@ -12,7 +12,7 @@
         </member>
         <member name="T:R2API.AddressableDCCSPool.PoolEntry">
             <summary>
-            Represents a version of <see cref="T:RoR2.DccsPool.PoolEntry"/> that uses <see cref="T:R2API.AddressableDirectorCardCategorySelection"/> for representing a pool entry
+            Represents a version of <see cref="T:RoR2.DccsPool.PoolEntry"/> that can use either a <see cref="T:R2API.AddressableDirectorCardCategorySelection"/> for representing a pool entry, or a <see cref="T:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection"/> for representing a family entr.
             </summary>
         </member>
         <member name="T:R2API.AddressableDCCSPool.ConditionalPoolEntry">
@@ -41,6 +41,51 @@
         <member name="T:R2API.AddressableDirectorCardCategorySelection.Category">
             <summary>
             Represents a category of spawn cards
+            </summary>
+        </member>
+        <member name="T:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection">
+            <summary>
+            <inheritdoc cref="T:R2API.AddressReferencedAssets.AddressReferencedAsset`1"/>
+            <br>T is <see cref="T:RoR2.FamilyDirectorCardCategorySelection"/></br>
+            </summary>
+        </member>
+        <member name="M:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection)~System.Boolean">
+            <summary>
+            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection"/> to a boolean value
+            <br>Allows you to keep using the unity Syntax for checking if an object exists.</br>
+            </summary>
+        </member>
+        <member name="M:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection)~RoR2.FamilyDirectorCardCategorySelection">
+            <summary>
+            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection"/> to it's currently loaded <see cref="!:Asset"/> value
+            </summary>
+        </member>
+        <member name="M:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection.op_Implicit(System.String)~R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection">
+            <summary>
+            Operator for encapsulating a <see cref="T:System.String"/> inside an <see cref="T:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection"/>
+            </summary>
+        </member>
+        <member name="M:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection.op_Implicit(RoR2.FamilyDirectorCardCategorySelection)~R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection">
+            <summary>
+            Operator for encapsulating an <see cref="T:RoR2.FamilyDirectorCardCategorySelection"/> inside an <see cref="T:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection"/>
+            </summary>
+        </member>
+        <member name="M:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection.#ctor">
+            <summary>
+            <inheritdoc cref="M:R2API.AddressReferencedAssets.AddressReferencedAsset`1.#ctor"/>
+            <br>T is <see cref="T:RoR2.FamilyDirectorCardCategorySelection"/></br>
+            </summary>
+        </member>
+        <member name="M:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection.#ctor(RoR2.FamilyDirectorCardCategorySelection)">
+            <summary>
+            <inheritdoc cref="M:R2API.AddressReferencedAssets.AddressReferencedAsset`1.#ctor(`0)"/>
+            <br>T is <see cref="T:RoR2.FamilyDirectorCardCategorySelection"/></br>
+            </summary>
+        </member>
+        <member name="M:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection.#ctor(System.String)">
+            <summary>
+            <inheritdoc cref="M:R2API.AddressReferencedAssets.AddressReferencedAsset`1.#ctor(System.String)"/>
+            <br>T is <see cref="T:RoR2.FamilyDirectorCardCategorySelection"/></br>
             </summary>
         </member>
         <member name="T:R2API.DirectorAPI">
@@ -112,6 +157,19 @@
              so they are only added to the pool of choice if the DLC1 expansion is enabled.
              Note : This category is only here if the stage has DLC content, which is not guaranted.
              </para>
+             </summary>
+        </member>
+        <member name="E:R2API.DirectorAPI.MixEnemiesDccsActions">
+             <summary>
+             <para>
+             Event used to interact with DCCS of MixEnemy artifact (Artifact of Dissonance).
+             </para>
+            
+             <para>
+             First parameter is the <see cref="T:RoR2.DirectorCardCategorySelection"/>,
+             it is used by DirectorAPI to replace default <see cref="T:RoR2.DirectorCardCategorySelection"/> of MixEnemy artifact.
+             </para>
+            
              </summary>
         </member>
         <member name="E:R2API.DirectorAPI.InteractableActions">
@@ -369,13 +427,104 @@
         </member>
         <member name="F:R2API.DirectorAPI.Stage.VoidLocus">
             <summary>
-            External / Internal Name : Void Locus / voidraid
+            External / Internal Name : Void Locus / voidstage
             </summary>
         </member>
         <member name="F:R2API.DirectorAPI.Stage.ThePlanetarium">
             <summary>
-            External / Internal Name : The Planetarium / voidstage
+            External / Internal Name : The Planetarium / voidraid
             </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.Stage.VerdantFalls">
+            <summary>
+            External / Internal Name : Verdant Falls / lakes
+            </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.Stage.ViscousFalls">
+            <summary>
+            External / Internal Name : Viscous Falls / lakesnight
+            </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.Stage.ArtifactReliquary_AphelianSanctuary_Theme">
+            <summary>
+            External / Internal Name : Hidden Realm: Bulwark's Ambry / artifactworld01
+            </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.Stage.ArtifactReliquary_AbandonedAqueduct_Theme">
+            <summary>
+            External / Internal Name : Hidden Realm: Bulwark's Ambry / artifactworld02
+            </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.Stage.ArtifactReliquary_ScorchedAcres_Theme">
+            <summary>
+            External / Internal Name : Hidden Realm: Bulwark's Ambry / artifactworld03
+            </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.Stage.ShatteredAbodes">
+            <summary>
+            External / Internal Name : Shattered Abodes / village
+            </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.Stage.DisturbedImpact">
+            <summary>
+            External / Internal Name : Disturbed Impact / villagenight
+            </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.Stage.ReformedAltar">
+            <summary>
+            External / Internal Name : Reformed Altar / lemuriantemple
+            </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.Stage.TreebornColony">
+            <summary>
+            External / Internal Name : Treeborn Colony / habitat
+            </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.Stage.GoldenDieback">
+            <summary>
+            External / Internal Name : Golden Dieback / habitatfall
+            </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.Stage.HelminthHatchery">
+            <summary>
+            External / Internal Name : Helminth Hatchery / helminthroost
+            </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.Stage.PrimeMeridian">
+            <summary>
+            External / Internal Name : Prime Meridian / meridian
+            </summary>
+        </member>
+        <member name="T:R2API.DirectorAPI.StageSerde">
+            <summary>
+            A structure that acts as a workaround for Unity's inability to properly serialize enums with underlying types other than <see cref="T:System.Int32"/>.
+            It stores the enum value as an Int64 for serialization purposes.
+            </summary>
+        </member>
+        <member name="F:R2API.DirectorAPI.StageSerde.Value">
+            <summary>
+            The serialized value of the stage, stored as an <see cref="T:System.Int64"/>.
+            </summary>
+        </member>
+        <member name="M:R2API.DirectorAPI.StageSerde.#ctor(System.Int64)">
+            <summary>
+            Initializes a new instance of the <see cref="T:R2API.DirectorAPI.StageSerde"/> struct with a specified value.
+            </summary>
+            <param name="value">The stage value as an <see cref="T:System.Int64"/>.</param>
+        </member>
+        <member name="M:R2API.DirectorAPI.StageSerde.op_Implicit(R2API.DirectorAPI.Stage)~R2API.DirectorAPI.StageSerde">
+            <summary>
+            Implicitly converts a <see cref="T:R2API.DirectorAPI.Stage"/> enum value to a <see cref="T:R2API.DirectorAPI.StageSerde"/> struct.
+            </summary>
+            <param name="enumValue">The <see cref="T:R2API.DirectorAPI.Stage"/> enum value to convert.</param>
+            <returns>A <see cref="T:R2API.DirectorAPI.StageSerde"/> instance with the corresponding <see cref="T:System.Int64"/> value.</returns>
+        </member>
+        <member name="M:R2API.DirectorAPI.StageSerde.op_Implicit(R2API.DirectorAPI.StageSerde)~R2API.DirectorAPI.Stage">
+            <summary>
+            Implicitly converts a <see cref="T:R2API.DirectorAPI.StageSerde"/> struct to a <see cref="T:R2API.DirectorAPI.Stage"/> enum value.
+            </summary>
+            <param name="stageSerde">The <see cref="T:R2API.DirectorAPI.StageSerde"/> instance to convert.</param>
+            <returns>The corresponding <see cref="T:R2API.DirectorAPI.Stage"/> enum value.</returns>
         </member>
         <member name="M:R2API.DirectorAPI.ParseInternalStageName(System.String)">
             <summary>
@@ -828,7 +977,7 @@
             If a valid (non null) predicate is provided the monster will only be removed from the given DirectorCardCategorySelection if the predicate return true.
             </summary>
             <param name="monsterName">The name of the monster card to remove</param>
-            <param name="removeFromFamilies">Whether or not it the monster should be removed from familiy DCCSs</param>
+            <param name="removeFromFamilies">Whether or not it the monster should be removed from family DCCSs</param>
             <param name="predicate">If a valid (non null) predicate is provided the monster will only be removed from the given DirectorCardCategorySelection if the predicate return true.</param>
             <param name="stage">The stage to remove on</param>
             <param name="customStageName">The name of the custom stage</param>

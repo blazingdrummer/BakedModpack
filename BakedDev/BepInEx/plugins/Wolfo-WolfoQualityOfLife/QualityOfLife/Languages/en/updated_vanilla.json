@@ -1,0 +1,109 @@
+{
+	"strings":
+	{
+	 
+			"VOID_SUPPRESSOR_DESCRIPTION": "Eradicate the shown item from existence, preventing it from appearing again for the current run. Existing copies of the item will be scrapped instantly.",
+		
+		
+            "BAZAAR_SEER_SNOWYFOREST": "<style=cWorldEvent>You dream of campfires and ice.</style>",
+            "BAZAAR_SEER_SHIPGRAVEYARD": "<style=cWorldEvent>You dream of misled signals.</style>",
+            "BAZAAR_SEER_DAMPCAVESIMPLE": "<style=cWorldEvent>You dream of tectonic fire.</style>",
+
+            "MONSTER_PICKUP_2P": "<style=cWorldEvent>You scavenged for {1}{2}</color>",
+            "PLAYER_DEATH_QUOTE_33_2P": "You are not OK from this encounter.",
+            "PLAYER_DEATH_QUOTE_33": "{0} is not OK from this encounter.",
+  
+            "LOCKEDTREEBOT_CONTEXT": "Repair the survivor",
+            "LOCKEDMAGE_NAME": "Frozen Survivor",
+		
+		
+			"PRIMEMERIDIANHEAD_BODY_NAME": "Head of the Colossus",
+			"LUNAR_CHIMERA": "Lunar Chimera",
+			"LUNARGOLEM_BODY_NAME": "Lunar Chimera Golem",
+			"LUNARWISP_BODY_NAME": "Lunar Chimera Wisp",
+			"LUNAREXPLODER_BODY_NAME": "Lunar Chimera Exploder",
+			"ACIDLARVA_BODY_NAME": "Acid Larva",
+			"UNLOCKABLE_LOG_LUNARWISP": "Monster Log: Lunar Chimera Golem",
+			"UNLOCKABLE_LOG_LUNARGOLEM": "Monster Log: Lunar Chimera Wisp",
+			"UNLOCKABLE_LOG_LUNAREXPLODER": "Monster Log: Lunar Chimera Exploder",
+			"UNLOCKABLE_LOG_ACIDLARVA": "Monster Log: Acid Larva",
+			"UNLOCKABLE_LOG_GUP": "Monster Log: Gup, Geep, Gip",
+	
+
+ 		    "FAMILY_PARENT": "<style=cWorldEvent>[WARNING] A familial bond is being interrupted..</style>",			
+			
+			"ARTIFACT_COMMAND_CUBE_INTERACTION_PROMPT": "Choose",
+			
+			"FROG_NAME": "Glass Frog",
+			"FROG_CONTEXT": "Pet the glass frog",
+			"PET_FROG": "<style=cIsLunar>{0} pet the glass frog.</style>", 
+			"PET_FROG_2P": "<style=cIsLunar>You pet the glass frog.</style>", 
+		
+			"DRONE_MEGA_CONTEXT": "Repair TC-280", 		
+			
+			"MAP_GOLDSHORES_SUBTITLE": "Soulful Cage",
+			"MAP_ARTIFACTWORLD_SUBTITLE": "Elements of Creation",
+		
+			"INFINITETOWER_SUDDEN_DEATH": "<style=cWorldEvent>[WARNING] The Focus begins to falter..</style>",
+            "INFINITETOWER_OBJECTIVE_AWAITINGACTIVATION": "Activate the <style=cIsVoid>Focus</style>",
+            "INFINITETOWER_OBJECTIVE_TRAVEL": "Follow the <style=cIsVoid>Focus</style>",
+            "INFINITETOWER_OBJECTIVE_PORTAL": "Advance through the <style=cIsVoid>Infinite Portal</style>",
+ 
+ 
+			
+			"EQUIPMENT_AFFIXVOID_NAME": "Voidborne Curiosity",
+            "EQUIPMENT_AFFIXVOID_PICKUP": "Lose your aspect of self.",
+            "EQUIPMENT_AFFIXVOID_DESC": "Increases <style=cIsHealing>maximum health</style> by <style=cIsHealing>50%</style> and decrease <style=cIsDamage>base damage</style> by <style=cIsDamage>30%</style>. <style=cIsDamage>Collapse</style> enemies on hit and <style=cIsHealing>block</style> incoming damage once every <style=cIsUtility>15 seconds</style>. ",
+		
+
+			"STATNAME_TOTALLUNARPURCHASES": "Lunar Purchases",
+			"STATNAME_HIGHESTLUNARPURCHASES": "Most Lunar Purchases",
+			"STATNAME_HIGHESTBLOODPURCHASES": "Most Blood Purchases",
+		
+			"OBJECTIVE_GOLDSHORES_ACTIVATE_BEACONS": "Rebuild the <style=cGold>Halcyon Beacons</color> ({0}/{1})",
+
+            "OBJECTIVE_CLEAR_ARENA": "Activate all <style=cIsVoid>Cell Vents</style> ({0}/{1})",
+            "OBJECTIVE_ARENA_CHARGE_CELL": "Breach the <style=cIsVoid>Cell</style> ({0}%)",
+ 
+            "OBJECTIVE_REBIRTH_OUTRO_SHRINE_1": "Approach the <color=#7CFE7C>Shrine</color>",
+            "OBJECTIVE_REBIRTH_OUTRO_SHRINE_2": "Be <color=#7CFE7C>Reborn</color> or Linger",
+			"OBJECTIVE_MERIDIAN_REACH_ARENA": "Ascend to the <color=#7CFE7C>Prime Meridian</color>",
+		
+	
+			"ITEM_SCRAPWHITE_PICKUP": "Does nothing. Prioritized when used with <color=#FAFAFA>3D Printers</color>.",
+            "ITEM_SCRAPGREEN_PICKUP": "Does nothing. Prioritized when used with <style=cIsHealing>Large 3D Printers</style>.",
+            "ITEM_SCRAPRED_PICKUP": "Does nothing. Prioritized when used with <style=cIsHealth>Mili-Tech 3D Printers</style>.",
+            "ITEM_SCRAPYELLOW_PICKUP": "Does nothing. Prioritized when used with <style=cIsTierBoss>Overgrown 3D Printers.</style>.",
+
+            "ITEM_SCRAPWHITE_DESC": "Does nothing. Prioritized when used with <color=#FAFAFA>3D Printers</color> and Cauldrons.",
+            "ITEM_SCRAPGREEN_DESC": "Does nothing. Prioritized when used with <style=cIsHealing>Large 3D Printers</style> and Cauldrons.",
+            "ITEM_SCRAPRED_DESC": "Does nothing. Prioritized when used with <style=cIsHealth>Mili-Tech 3D Printers</style> and Cauldrons.",
+            "ITEM_SCRAPYELLOW_DESC": "Does nothing. Prioritized when used with <style=cIsTierBoss>Overgrown 3D Printers</style>.",
+
+
+            "ITEM_TONICAFFLICTION_DESC": "<color=#FF7F7F>Reduce ALL stats by -5% </color><style=cStack>(-5% per stack)</style><color=#FF7F7F> when not under the effects of Spinel Tonic</color>.",
+            "EQUIPMENT_QUESTVOLATILEBATTERY_DESC": "Falling below <style=cIsHealth>50% health</style> causes this to explode in a large radius dealing <style=cIsDamage>300% the carriers maximum health as damage</style>. Consumed on usage.",
+			
+            "EQUIPMENT_AFFIXRED_DESC": "Attacks <style=cIsDamage>ignite</style> enemies dealing <style=cIsDamage>50%</style> TOTAL damage over time. Leave behind a <style=cIsDamage>fire trail</style> dealing damage on contact.",
+			
+            "EQUIPMENT_AFFIXBLUE_DESC": "All attacks leave a <style=cIsDamage>lightning orb</style> which explodes after <style=cIsUtility>1.5s</style> dealing <style=cIsDamage>50%</style> TOTAL damage. Convert <style=cIsHealing>50%</style> of your <style=cIsHealing>health</style> into <style=cIsHealing>shields</style>.",
+			
+            "EQUIPMENT_AFFIXWHITE_DESC": "<style=cIsUtility>Slow</style> enemies on hit for <style=cIsUtility>-80% movement speed</style> for <style=cIsUtility>1.5s</style>. <style=cDeath>On death</style> leave an <style=cIsDamage>ice explosion</style> <style=cIsUtility>freezing</style> enemies for <style=cIsUtility>1.5s</style>.",
+			
+            "EQUIPMENT_AFFIXPOISON_DESC": "Enemies hit will have their <style=cIsHealing>healing disabled</style> for <style=cIsUtility>8s</style>. Periodically shoot out 3 <style=cIsDamage>spike clusters</style> dealing <style=cIsDamage>100%</style> base damage. <style=cDeath>On death</style> leave a <style=cIsDamage>Malachite Urchin</style> lasting <style=cIsUtility>20s</style>.",
+			
+            "EQUIPMENT_AFFIXHAUNTED_DESC": "<style=cIsUtility>Slow</style> enemies on hit for <style=cIsUtility>-80% movement speed</style> for <style=cIsUtility>3s</style>. <style=cIsUtility>Cloak</style> all allies in a large radius.",
+			
+            "EQUIPMENT_AFFIXLUNAR_DESC": "Increases <style=cIsHealing>maximum health</style> by <style=cIsHealing>25%</style> and <style=cIsUtility>movement speed</style> by <style=cIsUtility>30%</style>. \nConvert all <style=cIsHealing>health</style> into <style=cIsHealing>regenerating shields</style>. \n<style=cIsDamage>Cripple</style> enemies on hit for <style=cIsUtility>4s</style> reducing <style=cIsUtility>movement speed</style> by <style=cIsUtility>100%</style> and <style=cIsDamage>armor</style> by <style=cIsDamage>20</style>. \nPeriodically shoot out 4 orbs dealing <style=cIsDamage>30%</style> base damage when attacking.",
+
+            "EQUIPMENT_AFFIXEARTH_DESC": "<style=cIsHealing>Heal</style> a nearby hurt ally for <style=cIsHealing>120%</style> of your <style=cIsDamage>base damage</style> per second. <style=cDeath>On death</style> leave a <style=cIsHealing>Healing Core</style> which will <style=cIsHealing>heal</style> all nearby creatures after <style=cIsHealing>3s</style> ",
+
+
+			"EQUIPMENT_AFFIXAURELIONITE_DESC": "On hit, enemies will drop <style=cIsUtility>nuggets</style> worth <style=cIsUtility>$8</style>. <style=cIsUtility>Scales over time.</style> Upon activation or every <style=cIsDamage>12s</style>, launch a <style=cIsDamage>eruption</style> dealing <style=cIsDamage>15% damage</style> then <style=cIsDamage>150% damage.</style>",
+				
+          
+			"EQUIPMENT_AFFIXBEAD_DESC": "Buff <style=cIsHealing>5 nearby allies</style> in a <style=cIsHealing>35m</style> radius, increasing their <style=cIsHealing>armor</style> by <style=cIsHealing>300</style>. After buffed allies are hurt <style=cIsHealing>10</style> times, fire a homing lunar spike dealing <style=cIsDamage>100% damage</style> and inflicting <style=cIsDamage>Lunar Ruin</style>. Recharges after 10s.", 
+			"EQUIPMENT_AFFIXBEAD_DESC_LGT": "Buff <style=cIsHealing>5 nearby allies</style> in a <style=cIsHealing>35m</style> radius, increasing their <style=cIsHealing>armor</style> by <style=cIsHealing>300</style>. After buffed allies are hurt <style=cIsHealing>5</style> times, fire a homing lunar spike dealing <style=cIsDamage>100% damage</style> and <style=cIsDamage>disables all skills</style> for 5s.", 
+
+	}
+}

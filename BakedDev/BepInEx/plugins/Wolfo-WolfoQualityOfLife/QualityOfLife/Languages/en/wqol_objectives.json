@@ -1,0 +1,47 @@
+{
+	"strings":
+	{
+			"REMINDER_PORTAL_LUNAR": "Proceed through the <style=cIsLunar>Blue Portal</style>",    
+			"REMINDER_PORTAL_GOLD": "Proceed through the <style=cGold>Gold Portal</color>",
+            "REMINDER_PORTAL_MS": "Proceed through the <style=cMysterySpace>Celestial Portal</color>",
+			"REMINDER_PORTAL_ARTIFACT": "Proceed through the <style=cDeath>Artifact Portal</style>",
+                
+			"REMINDER_PORTAL_NULL": "Proceed through the <style=cIsVoid>Null Portal</style>",
+            "REMINDER_PORTAL_VOID": "Proceed through the <style=cIsVoid>Void Portal</style>",
+            "REMINDER_PORTAL_GREEN": "Proceed through the <style=cRebirth>Green Portal</color>",
+				 
+			  
+			
+
+		    "OBJECTIVE_CHARGE_HALCSHRINE": "Charge the <style=cGold>Halcyon Shrine</color> ({0}%)",
+            "OBJECTIVE_KILL_HALCSHRINE": "Defeat the <style=cGold>Guardian</color>",
+			
+			"OBJECTIVE_ARTIFACT_TRIAL": "Complete the \n<style=cArtifact>Trial of {0}</style>",
+			"OBJECTIVE_GLASS_YOURSELF": "<style=cMysterySpace>Obliterate</color> yourself from existence",
+			"OBJECTIVE_DESERT_ELDERS": "Explore the hidden chamber",
+		
+		
+ 
+			"REMINDER_COUNT": " ({0}/{1})",
+            "REMINDER_KEY": "Unlock the <style=cIsDamage>Rusty Lockbox</style>",
+            "REMINDER_KEY_MANY": "Unlock the <style=cisDamage>Rusty Lockboxes</style> ({0}/{0})",
+
+            "REMINDER_KEYVOID": "Unlock the <color=#FF9EEC>Encrusted Lockbox</color>",
+            "REMINDER_KEYVOID_MANY": "Unlock the <color=#FF9EEC>Encrusted Lockboxes</color> ({0}/{0})",
+
+            "REMINDER_FREECHEST": "Collect free <style=cIsHealing>delivery</style>",
+            "REMINDER_FREECHEST_MANY": "Collect free <style=cIsHealing>deliveries</style> ({0}/{0})",
+
+            "REMINDER_SALESTAR": "Make use of <style=cIsUtility>Sale Star</style>",
+			
+			"REMINDER_REGENSCRAP": "Make use of <style=cIsHealing>Regenerating Scrap</style>", 
+			
+            "REMINDER_FREECHESTVOID": "Find and activate the <style=cIsVoid>Lost Battery</style>",
+			
+			"REMINDER_SECRET_GEODE": "Crack the <style=cGold>Aurelionite Geodes</color> ({0}/{1})",
+           
+			"REMINDER_NEWT": "Find and activate a\n<style=cIsLunar>Newt Altar</style>",  
+		  
+	 
+	}
+}

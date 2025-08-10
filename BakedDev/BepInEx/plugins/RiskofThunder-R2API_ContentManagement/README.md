@@ -19,9 +19,31 @@ R2API.ContentManaged is used for mods that would like to have R2API handle the c
 * A ContentAddition class that can be used for adding ContentPieces using the ContentManager, the class comes with error checking functionality which will inform the mod creator if something is wrong with their content piece (IE: An artifact def that does not have icons. (Causes exceptions at runtime));
     * While ItemDefs, EquipmentDefs and EliteDefs can be added by ContentAddition, it is heavily recommended to use the Items and Elites modules respectively.
 
-## Related Pages
-
 ## Changelog
+
+### '1.0.10'
+* Enhances modded Game Mode support
+    * `ContentAddition.AddGameMode()` now takes an additional `gameModeDescription` argument instead of requiring modders to add the component themselves.
+    * Now sorts modded game modes separately, so there's no need to add an `x` to the beginning of Game Mode prefabs
+
+### '1.0.9'
+* Adds better support for modded Game Modes
+    * Adds fixes for modded Game Modes not showing up in the multiplayer menu
+    * Adds sorting for Game Modes to display them in the proper order (modded modes after vanilla)
+    * Adds automatic button addition to the "Alternate GameModes" screen
+    * Adds custom component for additional Game Mode info
+
+### '1.0.8'
+* Adds additional null checks to the ItemRelationshipProvider content.
+
+### '1.0.7'
+* Adds ItemRelationshipProviders to the ContentPack as intended.
+
+### '1.0.6'
+* Fix SystemInitializer infinite loop.
+
+### '1.0.5'
+* Initial fixes for SOTS DLC2 Release.
 
 ### '1.0.4'
 * Fix content getting erroneously attributed to R2API's contentpack.

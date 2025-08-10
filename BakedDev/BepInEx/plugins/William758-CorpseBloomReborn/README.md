@@ -40,17 +40,7 @@ Use r2modman or place inside of Risk of Rain 2/Bepinex/Plugins/
 
 ## Changelog:
 
-v1.2.2 - ReserveBuff is now hidden. Aegis now effects reserve usage rate.
-
-v1.2.1 - Fixed RestoreRejuvBehavior applying to ExportMult instead of AbsorbMult.
-
-v1.2.0 - Updated for latest game version. Now only uses HookGenPatcher. ReserveBars for allies.
-
-v1.1.1 - Fixed Eclipse artifact reducing healing twice.
-
-v1.1.0 - Anniversary Update. Increased reserve amount. Healing now goes into reserve first by default.
-
-v1.0.0 - Initial Release.
+v1.3.0 - Updated for SotS.
 
 ## Credits:
 

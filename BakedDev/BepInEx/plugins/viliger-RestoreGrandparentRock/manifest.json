@@ -1,0 +1,9 @@
+{
+    "name": "RestoreGrandparentRock",
+    "version_number": "1.0.0",
+    "website_url": "https://i.kym-cdn.com/photos/images/newsfeed/001/157/013/b97.jpg",
+    "description": "Randy Bobandy broke my gamandy. Restore Grandparent's rock projectile ghost.",
+    "dependencies": [
+	    "bbepis-BepInExPack-5.4.2102"
+    ]
+}

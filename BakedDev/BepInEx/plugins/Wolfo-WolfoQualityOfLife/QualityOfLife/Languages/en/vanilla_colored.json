@@ -1,0 +1,23 @@
+{
+	"strings":
+	{
+
+			"INFINITETOWER_SUDDEN_DEATH": "<style=cWorldEvent>[WARNING] The Focus begins to falter..</style>",
+            "INFINITETOWER_OBJECTIVE_AWAITINGACTIVATION": "Activate the <style=cIsVoid>Focus</style>",
+            "INFINITETOWER_OBJECTIVE_TRAVEL": "Follow the <style=cIsVoid>Focus</style>",
+            "INFINITETOWER_OBJECTIVE_PORTAL": "Advance through the <style=cIsVoid>Infinite Portal</style>",
+ 
+  
+			"OBJECTIVE_GOLDSHORES_ACTIVATE_BEACONS": "Rebuild the <style=cGold>Halcyon Beacons</color> ({0}/{1})",
+
+            "OBJECTIVE_CLEAR_ARENA": "Activate all <style=cIsVoid>Cell Vents</style> ({0}/{1})",
+            "OBJECTIVE_ARENA_CHARGE_CELL": "Breach the <style=cIsVoid>Cell</style> ({0}%)",
+ 
+            "OBJECTIVE_REBIRTH_OUTRO_SHRINE_1": "Approach the <style=cRebirth>Shrine</color>",
+            "OBJECTIVE_REBIRTH_OUTRO_SHRINE_2": "Be <style=cRebirth>Reborn</color> or Linger",
+			"OBJECTIVE_MERIDIAN_REACH_ARENA": "Ascend to the <style=cRebirth>Prime Meridian</color>",
+		
+	
+	 
+	}
+}

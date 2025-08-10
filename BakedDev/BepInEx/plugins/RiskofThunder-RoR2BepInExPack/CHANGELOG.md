@@ -1,3 +1,104 @@
+-   **1.33.0**
+
+    Add a new namespace called `GameAssetPathsBetter`, and mark the older one, `GameAssetPaths`, as obsolete. This change fixes some issues with how the class paths were previously structured, specifically that the `/` separator was not always consistently respected.
+
+-   **1.32.0**
+
+    -   Add some `System.Reflection` safety by hooking `Assembly.GeExportedtTypes` and catching all potential `ReflectionTypeLoadException`
+
+-   **1.31.0**
+
+    -   Fix a nullref exception on MatchBr in HarmonyILManipulator hooks.
+
+-   **1.30.0**
+
+    -   Fix the intellisense performance for `GameAssetPaths`.
+
+-   **1.29.0**
+
+    -   Add a class that stores game asset paths called `GameAssetPaths`.
+	-   Fix SaferSearchableAttribute for 1.3.9
+	-   Fix LegacyResourcesDetours for 1.3.9
+
+-   **1.28.0**
+
+    -   Make DMD methods show their IL Lines in stacktraces.
+
+-   **1.27.0**
+
+    -   FixedConditionalWeakTable: Implement Dictionary methods & interfaces.
+
+-   **1.26.0**
+
+    -   Appends the exception to the error message of "Failed at InvokeHandler, probably malformed packet!", allowing for better and easier debugging.
+
+-   **1.25.0**
+
+    -   Fix lobby compatibility for DLC2 with additional difficulties.
+
+-   **1.24.2**
+
+    -   Properly log harmony patches.
+
+-   **1.24.1**
+
+    -   Fix `SaferSearchableAttribute` not working due to the game cctor firing before the hook has the chance to apply.
+
+-   **1.24.0**
+
+    -   Remove the `FixFrameRateDependantLogic` fix as it's now fixed by the new game patch.
+
+-   **1.23.0**
+
+    -   Re-add `SaferSearchableAttribute`.
+
+-   **1.22.0**
+
+    -   Continue the FixFrameRateDependantLogic experimentation. Better compat with mods hooking the same methods.
+
+-   **1.21.0**
+
+    -   Fix ConVar not getting scanned since the SOTS DLC2 Release patch.
+    -   Continue the FixFrameRateDependantLogic experimentation. AI behaving weirdly should be fixed. Should also have better compat with mods that hooked HealthBar.Update and PlayerCharacterMasterController.Update methods.
+
+-   **1.20.0**
+
+    -   Add an optional fix that attempts to revert the changes made by Gearbox, which made most of the game's logic dependent on frame rate. To activate the fix, you need to run the game with this version at least once, exit the game and activate the new configuration option that is generated.
+
+-   **1.19.0**
+
+    -   Fix `SearchableAttribute` not working properly for assemblies other than `RoR2.dll`.
+
+-   **1.18.0**
+
+    -   Fix `SystemInitializerAttribute` not working for assemblies other than `RoR2.dll`.
+    -   `FrankenMonoPrintStackOverflowException` works again.
+
+-   **1.17.0**
+
+    -   Initial update for DLC 2 Release.
+	-   This package now also contains the Newtonsoft.Json.dll that have been removed this game update, just for back compat purposes.
+
+-   **1.16.0**
+
+    -   A better fix for a crash when exiting the game with some mods.
+
+-   **1.15.0**
+
+    -   Fix a crash when exiting the game with some mods.
+
+-   **1.14.0**
+
+    -   Fix HasEffectiveAuthority for host players.
+
+-   **1.13.0**
+
+    -   Better fix for stack overflow exception that does not require a native dll.
+
+-   **1.12.0**
+
+    -   Make frankenmono actually print stack overflow exception to the console instead of just closing.
+
 -   **1.11.0**
 
     -   Fix dedicated servers with more than 4 max players not working.

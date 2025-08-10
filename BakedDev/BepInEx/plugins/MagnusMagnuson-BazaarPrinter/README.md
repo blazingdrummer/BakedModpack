@@ -30,6 +30,7 @@ If you want to change the config
 ![contact](https://i.imgur.com/gPBrPrQ.png)
 
 ## Changelog
+- 0.3.1 Updated dependencies
 - 0.3.0 Update for recent patch
 - 0.2.4 Changed a hook entry point to avoid false reports
 - 0.2.3 Added Network Compatibility Level

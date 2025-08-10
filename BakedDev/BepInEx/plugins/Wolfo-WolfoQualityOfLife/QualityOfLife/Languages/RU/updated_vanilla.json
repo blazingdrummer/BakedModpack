@@ -1,0 +1,88 @@
+{
+	"strings":
+	{
+			"EQUIPMENT_AFFIXVOID_NAME": "Пусторождённое любопытство",
+            "EQUIPMENT_AFFIXVOID_PICKUP": "Потеряйте своё воплощение.",
+            "EQUIPMENT_AFFIXVOID_DESC": "Увеливает <style=cIsHealing>максимальный запас здоровья</style> на <style=cIsHealing>50%</style> и уменьшает <style=cIsDamage>общий урон</style> на <style=cIsDamage>30%</style>. <style=cIsDamage>Сваливает</style> врагов при ударе и <style=cIsHealing>блокирует</style> входящий урон каждые <style=cIsUtility>15 сек</style>. ",
+		
+		
+			"LUNAR_CHIMERA": "Лунная химера",
+			"LUNARGOLEM_BODY_NAME": "Лунный голем-химера",
+			"LUNARWISP_BODY_NAME": "Лунный сгусток-химера",
+			"LUNAREXPLODER_BODY_NAME": "Лунный подрывник-химера",
+		
+		"GOLEM_SUFFIX": "{0} Golem",
+			"WISP_SUFFIX": "{0} Wisp",
+			"EXPLODER_SUFFIX": "{0} Exploder",
+			"ACID_PREFIX": "Acid {0}",
+		
+	
+		
+		
+			"ACIDLARVA_BODY_NAME": "Кислотная личинка",
+		
+		
+			"STATNAME_TOTALLUNARPURCHASES": "Всего лунных покупок",
+			"STATNAME_HIGHESTLUNARPURCHASES": "Максимум лунных покупок",
+			"STATNAME_HIGHESTBLOODPURCHASES": "Максимум кровавых покупок",
+		
+			"OBJECTIVE_GOLDSHORES_ACTIVATE_BEACONS": "Восстановите <color=#FFE880>безмятежные маяки</color> ({0}/{1})",
+
+
+
+            "OBJECTIVE_CLEAR_ARENA": "Активировать все <style=cIsVoid>клапаны камер</style> ({0}/{1})",
+            "OBJECTIVE_ARENA_CHARGE_CELL": "Прорыв <style=cIsVoid>клетки</style> ({0}%)",
+ 
+            "OBJECTIVE_REBIRTH_OUTRO_SHRINE_1": "Подойдите к <color=#7CFE7C>святилищу</color>",
+            "OBJECTIVE_REBIRTH_OUTRO_SHRINE_2": "<color=#7CFE7C>Переродитесь</color> или останьтесь",
+		
+		
+		
+			"MULTISHOP_LARGE_TERMINAL_NAME": "Необычный многомагазинный терминал",
+            "MULTISHOP_LARGE_TERMINAL_CONTEXT": "Открыть терминал",
+            "MULTISHOP_EQUIPMENT_TERMINAL_NAME": "Многомагазинный терминал со снаряжением",
+            "MULTISHOP_EQUIPMENT_TERMINAL_CONTEXT": "Открыть терминал",
+            "DUPLICATOR_LARGE_NAME": "Необычный 3D-принтер",
+            "DUPLICATOR_LARGE_CONTEXT": "Использовать необычный 3D-принтер",
+			
+
+            "FREECHEST_TERMINAL_NAME": "Терминал с доставкой",
+            "FREECHEST_TERMINAL_CONTEXT": "Получить доставку.",
+		
+		
+		
+		
+			"ITEM_SCRAPWHITE_PICKUP": "Ничего не делает. Получает приоритет при использовании с <color=#FAFAFA>3D-принтерами</color>.",
+            "ITEM_SCRAPGREEN_PICKUP": "Ничего не делает. Получает приоритет при использовании с <style=cIsHealing>необычными 3D-принтерами</style>.",
+            "ITEM_SCRAPRED_PICKUP": "Ничего не делает. Получает приоритет при использовании с <style=cIsHealth>3D-принтерами военной техники</style>.",
+            "ITEM_SCRAPYELLOW_PICKUP": "Ничего не делает. Получает приоритет при использовании с <style=cIsTierBoss>заросшими 3D-принтерами.</style>.",
+
+            "ITEM_SCRAPWHITE_DESC": "Ничего не делает. Получает приоритет при использовании с <color=#FAFAFA>3D-принтерами</color> and Котлами.",
+            "ITEM_SCRAPGREEN_DESC": "Ничего не делает. Получает приоритет при использовании с <style=cIsHealing>необычными 3D-принтерами</style> and Котлами.",
+            "ITEM_SCRAPRED_DESC": "Ничего не делает. Получает приоритет при использовании с <style=cIsHealth>3D-принтерами военной техники</style> and Котлами.",
+            "ITEM_SCRAPYELLOW_DESC": "Ничего не делает. Получает приоритет при использовании с <style=cIsTierBoss>заросшими 3D-принтерами</style>.",
+
+
+            "ITEM_TONICAFFLICTION_DESC": "<color=#FF7F7F>Снижает ВСЕ параметры на -5% </color><style=cStack>(-5% за шт.)</style><color=#FF7F7F> пока персонаж не находится под эффектом Шпинельный тоника</color>.",
+            "EQUIPMENT_QUESTVOLATILEBATTERY_DESC": "Падение ниже <style=cIsHealth>50% здоровья</style> вызывает взрыв в большом радиусе, наносящий <style=cIsDamage>урон в размере 300% от вашего максимального запаса здоровья</style>. Расходуется при взрыве.",
+			
+            "EQUIPMENT_AFFIXRED_DESC": "Ваши атаки <style=cIsDamage>поджигают</style> врагов, нанося <style=cIsDamage>50%</style> ОБЩЕГО урона в течение определённого времени. Оставляет за собой <style=cIsDamage>огненный след</style>, наносящий урон при прикосновении.",
+			
+            "EQUIPMENT_AFFIXBLUE_DESC": "Ваши атаки оставляют <style=cIsDamage>шаровые молнии</style>, взрывающиеся через <style=cIsUtility>1,5 сек.</style>, нанося <style=cIsDamage>50%</style> ОБЩЕГО урона. Превращает <style=cIsHealing>50%</style> вашего <style=cIsHealing>максимального запаса здоровья</style> в <style=cIsHealing>щит</style>.",
+			
+            "EQUIPMENT_AFFIXWHITE_DESC": "<style=cIsUtility>Замедляет</style> врага при атаке на <style=cIsUtility>-80% скорости движения</style> в течение <style=cIsUtility>1,5 сек</style>. <style=cDeath>При вашей смерти</style> оставляет <style=cIsDamage>ледяной взрыв</style>, который <style=cIsUtility>замораживает</style> врагов на <style=cIsUtility>1,5 сек</style>.",
+			
+            "EQUIPMENT_AFFIXPOISON_DESC": "Враги, получившие урон от ваших атак <style=cIsHealing>не смогут исцеляться</style> в течение <style=cIsUtility>8 сек</style>. Периодически выпускает 3 <style=cIsDamage>кластера шипов</style>, которые наносят <style=cIsDamage>100%</style> базового урона. <style=cDeath>При вашей смерти</style> оставляет <style=cIsDamage>Малахитового ёжа</style> на <style=cIsUtility>20 сек</style>.",
+			
+            "EQUIPMENT_AFFIXHAUNTED_DESC": "<style=cIsUtility>Замедляет</style> врага при атаке на <style=cIsUtility>-80% скорости движения</style> в течение <style=cIsUtility>3 сек</style>. <style=cIsUtility>Маскирует</style> всех союзников в большом радиусе.",
+			
+            "EQUIPMENT_AFFIXLUNAR_DESC": "Увеличивает <style=cIsHealing>максимальный запас здоровья</style> на <style=cIsHealing>25%</style> и <style=cIsUtility>скорость движения</style> на <style=cIsUtility>30%</style>. \n<style=cIsHealing>Преобразует</style> все единицы здоровья в <style=cIsHealing>регенерирующие щиты</style>. \n Наносит <style=cIsDamage>увечье</style> врагам при атаке, в течение <style=cIsUtility>4 сек.</style> уменьшая <style=cIsUtility>скорость движения</style> на <style=cIsUtility>100%</style> и <style=cIsDamage>броню</style> на <style=cIsDamage>20</style>. \nПериодически выпускает 4 шара, наносящих <style=cIsDamage>30%</style> базового урона при атаке.",
+
+            "EQUIPMENT_AFFIXEARTH_DESC": "<style=cIsHealing>Исцеляет</style> ближайшего союзника на <style=cIsHealing>120%</style> вашего <style=cIsDamage>базового урона</style> в секунду. <style=cDeath>При вашей смерти</style> оставляет <style=cIsHealing>Исцеляющее ядро</style>, которое <style=cIsHealing>исцелит</style> всех существ на <style=cIsHealing>80 ед.</style> здоровья.",
+
+            "EQUIPMENT_AFFIXAURELIONITE_DESC": "Каждые <style=cIsHealing>20</style> секунд создаёт щит, повышающий броню на <style=cIsHealing>60</style> <style=cStack>(+0,1 за золото)</style> в течение <style=cIsHealing>5</style> секунд.",
+			
+            "EQUIPMENT_AFFIXBEAD_DESC": "Ближайшие союзники отражают урон, нанося <style=cIsDamage>2,5% максимального запаса здоровья жертвы</style> в виде урона."
+
+	}
+}

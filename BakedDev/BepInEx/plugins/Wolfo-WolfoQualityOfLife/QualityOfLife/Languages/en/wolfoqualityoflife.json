@@ -1,0 +1,261 @@
+{
+	"strings":
+	{
+	
+			"STAT_MOST_KILLED": "Most Killed Monster: <color=#FFFF7F>{0}</color>",
+			"STAT_MOST_HURTBY": "Most Hurt By: <color=#FFFF7F>{0}</color>",
+			"STAT_MOST_FOUNDITEM": "Most Found Item: <color=#FFFF7F>{0}</color>",
+			"STAT_MOST_USEDEQUIP": "Most Used Equipment: <color=#FFFF7F>{0}</color>",
+
+
+			"STAT_AMOUNT_KILLED": "<color=#FFFF7F>Killed {0}</color>",
+			"STAT_AMOUNT_HURTBY": "<color=#FFFF7F>{0} Damage Taken</color>",
+			"STAT_AMOUNT_FOUNDITEM": "<color=#FFFF7F>{0}x</color>",
+			"STAT_AMOUNT_USEDEQUIP": "<color=#FFFF7F>{0} activations</color>",
+
+			"STAT_EXTRAHEADER": "Additional Information",
+			"STAT_DETAILS": "Detailed Breakdown",
+
+			"STAT_MINION_DAMAGETAKEN": "Minion Damage Taken",
+			"STAT_MINION_HEALTHHEALED": "Minion Healing Recieved",
+			"STAT_MINION_DEATH": "Drone Deaths",
+
+			"STAT_SCRAPPED_ITEMS": "Items Scrapped",
+			"STAT_SCRAPPED_DRONES": "Drones Scrapped",
+
+			"STAT_MISSED_CHEST": "Chests Left Behind",
+			"STAT_MISSED_DRONE": "Drones Left Behind",	
+			"STAT_MISSED_SHRINECHANCE": "Shrine of Chance Drops",
+
+			"STAT_TIMESJUMPED": "Times Jumped",
+			"STAT_SPENT_LUNARCOIN": "Lunar Coins Spent",
+			"STAT_SPENT_VOIDSTUFF": "Void Transformations",
+			
+			
+			"STAT_SPENT_VOIDCOIN": "Void Markers Spent",
+			"STAT_BUFFS_RECIEVED": "Buffs Recieved",
+			"STAT_SKILLS_USED": "Skill Activations",
+			
+			"STAT_DAMAGE_DOT": "Damage Over Time Inflicted",
+			"STAT_DAMAGE_BLOCKED": "Damage Blocked",
+			"STAT_TELEPORTERTIME": "Time Spent Charging Zones",
+	
+			"RUN_RECAP": "Run Recap",
+			"LATEST_WAVE": "Last Wave: ",
+	
+	
+			"INVENTORY_DEVOTION": "Devotion Collection",
+			"INVENTORY_DEVOTIONDRONE": "Devotion & Drone Collection",
+			"INVENTORY_DRONES": "Drone Collection",
+			
+			"INVENTORY_KILLER": "Killers Items",
+			"INVENTORY_MONSTER": "Monsters Items",
+			
+	
+			"DEVOTED_LEMURIAN_DEATH_2P": "<style=cDeath>You lost a devotee. Your pack loses {1}{2}</style>",
+			"DEVOTED_LEMURIAN_DEATH": "<style=cDeath>{0} lost a devotee. Their pack loses {1}{2}</style>",
+			
+			"ITEM_LOSS_EGG_2P": "<style=cEvent>You offer your devotees {1}</style>",
+			"ITEM_LOSS_EGG": "<style=cEvent>{0} offers their devotees {1}</style>",
+			 
+	
+			"VultureEggBody":"Vulture Eggs",
+			"VagrantTrackingBomb":"Vagrant Charge",
+			"ScavSackProjectile":"Thqwib",
+			"ScorchlingBombProjectile":"Worm Bomb",
+			"MiniGeodeBody":"False Geode",
+			"LunarWispTrackingBomb":"Tracking Bomb",
+			"GravekeeperTrackingFireball":"Volatile Wispling",
+			"BirdsharkBody":"Bird Shark",
+			"BeetleWard":"Beetle Juicer",
+			"BeadProjectileTrackingBomb":"Twisted Shard",
+			"AltarSkeletonBody":"Follower of N'kuhana",
+
+			
+			"SKILL_VOIDFIEND_CORRUPT_M1":"Fire a short-range beam for <style=cisDamage>2000% damage per second.</style>",
+			"SKILL_VOIDFIEND_CORRUPT_M2":"Fire a an arcing plasma bomb for <style=cisDamage>1100% damage.</style>",
+			"SKILL_VOIDFIEND_CORRUPT_M3":"<style=cIsUtility>Disappear</style> into the Void, <style=cIsUtility>cleansing all debuffs</style> while moving at a <style=cIsUtility>fast forward angle.</style>",
+			"SKILL_VOIDFIEND_CORRUPT_M4":"Crush <style=cIsHealth>25% maximum health</style> to gain <style=cIsVoid>25% Corruption.</style>",
+
+			"CHEF_BOOSTED_FORMAT": "Boosted {0}",
+			"VOIDFIEND_BOOSTED_FORMAT": "『Co??rupted】{0}",
+			"SKIN_CROCO_BLIGHT": "Blighted",
+		
+		
+
+			"PORTAL_DESTINATION_CONTEXT": "Reject being Reborn",
+			"PLAYER_PING_PLAYER": "<style=cIsUtility>{0} says hello to: {1}.</style>",
+ 
+
+			"SHRINE_REVIVE_USE_MESSAGE": "<style=cShrine>Lost life will be reshapen.</color>",
+			
+			"SHRINE_REVIVE_MESSAGE_DEAD_YOUAND": "<style<style=cShrine>You{0} had your bodies reshapen.</color>",
+			"SHRINE_REVIVE_MESSAGE_DEAD_YOU": "<style=cShrine>Your body was reshapen.</color>",
+			"SHRINE_REVIVE_MESSAGE_DEAD": "<style=cShrine>{0} had their body reshapen.</color>",
+ 
+			"ITEM_REVIVE_MESSAGE": "<style=cIsLunar>{0} revived using their {1}</color>",
+			"ITEM_REVIVE_MESSAGE_TEAM": "<style=cIsLunar>{0} revived fallen team members using {1}</color>",
+			"ITEM_REVIVE_MESSAGE_ALL": "NOTIN <style=cIsLunar>{0} revived themselves and fallen team members, using {1}</color>",
+
+ 
+			"REBIRTH_ENDING_CHAT_ITEM_2P": "You will be born anew with {0}.",	
+		
+					 "ITEM_LOSS_USED_2P": "<style=cEvent>You used {1}</style>",
+				"ITEM_LOSS_USED": "<style=cEvent>{0} used {1}</style>",
+
+			"ITEM_USED_STAR": "<style=cEvent>{0} used <color=#77FF16>Sale Star</color> on: <style=cIsDamage>{1}</style>",
+		 "ITEM_USED_STAR_2P": "<style=cEvent>You used <color=#77FF16>Sale Star</color> on: <style=cIsDamage>{1}</style>",
+	
+			"ITEM_RECYCLED_GLOBAL": "<style=cEvent><color=#{2}>{0}</color> was recycled into <color=#{2}>{1}</color></style>",
+		
+		
+			"ARTIFACT_COMMAND_CUBE_PINK_NAME": "Pink Command Essence",
+		
+		"REMINDER_NEWT": "Find and activate a\n<style=cIsLunar>Newt Altar</style>",  
+		 
+		
+		
+			"MULTISHOP_LARGE_TERMINAL_NAME": "Large Multishop Terminal",
+            "MULTISHOP_LARGE_TERMINAL_CONTEXT": "NOTINOpen terminal",
+            "MULTISHOP_EQUIPMENT_TERMINAL_NAME": "Equipment Shop Terminal",
+            "MULTISHOP_EQUIPMENT_TERMINAL_CONTEXT": "NOTINOpen terminal",
+            "DUPLICATOR_LARGE_NAME": "Large 3D Printer",
+            "DUPLICATOR_LARGE_CONTEXT": "Use Large 3D Printer",
+
+
+            "FREECHEST_TERMINAL_NAME": "Shipping Terminal",
+            "FREECHEST_TERMINAL_CONTEXT": "Accept delivery.",
+		
+			"GAME_RESULT_LIMBOWIN": "At Peace..",
+			"GAME_RESULT_VOIDWIN": "Deeper, yet Deeper..",
+			"GAME_RESULT_ESCAPEFAILED": "Failed Escape..",
+		
+			
+
+
+		    "REMINDER_PORTAL_LUNAR": "Proceed through the <style=cIsLunar>Blue Portal</style>",    
+			"REMINDER_PORTAL_GOLD": "Proceed through the <style=cGold>Gold Portal</color>",
+            "REMINDER_PORTAL_MS": "Proceed through the <style=cMysterySpace>Celestial Portal</color>",
+			"REMINDER_PORTAL_ARTIFACT": "Proceed through the <style=cDeath>Artifact Portal</style>",
+                
+			"REMINDER_PORTAL_NULL": "Proceed through the <style=cIsVoid>Null Portal</style>",
+            "REMINDER_PORTAL_VOID": "Proceed through the <style=cIsVoid>Void Portal</style>",
+            "REMINDER_PORTAL_GREEN": "Proceed through the <style=cRebirth>Green Portal</color>",
+				 
+			
+		    "OBJECTIVE_CHARGE_HALCSHRINE": "Charge the <style=cGold>Halcyon Shrine</color> ({0}%)",
+            "OBJECTIVE_CHARGE_HALCSHRINE_NOPERCENT": "Charge the <style=cGold>Halcyon Shrine</color>",
+            "OBJECTIVE_KILL_HALCSHRINE": "Defeat the <style=cGold>Guardian</color>",
+			
+			"OBJECTIVE_ARTIFACT_TRIAL": "Complete the \n<style=cArtifact>Trial of {0}</style>",
+			"OBJECTIVE_GLASS_YOURSELF": "<style=cMysterySpace>Obliterate</color> yourself from existence",
+			"OBJECTIVE_DESERT_ELDERS": "Explore the hidden chamber",
+		
+		
+ 
+			"REMINDER_COUNT": " ({0}/{1})",
+            "REMINDER_KEY": "Unlock the <style=cIsDamage>Rusty Lockbox</style>",
+            "REMINDER_KEY_MANY": "Unlock the <style=cisDamage>Rusty Lockboxes</style> ({0}/{0})",
+
+            "REMINDER_KEYVOID": "Unlock the <color=#FF9EEC>Encrusted Lockbox</color>",
+            "REMINDER_KEYVOID_MANY": "Unlock the <color=#FF9EEC>Encrusted Lockboxes</color> ({0}/{0})",
+
+            "REMINDER_FREECHEST": "Collect free <style=cIsHealing>delivery</style>",
+            "REMINDER_FREECHEST_MANY": "Collect free <style=cIsHealing>deliveries</style> ({0}/{0})",
+
+            "REMINDER_SALESTAR": "Make use of <style=cIsUtility>Sale Star</style>",
+			
+			"REMINDER_REGENSCRAP": "Make use of <style=cIsHealing>Regenerating Scrap</style>", 
+			
+            "REMINDER_FREECHESTVOID": "Find and activate the <style=cIsVoid>Lost Battery</style>",
+			
+			"REMINDER_SECRET_GEODE": "Crack the <style=cGold>Aurelionite Geodes</color> ({0}/{1})",
+           
+
+			"ITEM_TREASURECACHECONSUMED_NAME": "Rusted Key (Consumed)",
+			"ITEM_TREASURECACHECONSUMED_DESC": "A spent key to remember an item well earned.",
+			
+			"ITEM_TREASURECACHEVOIDCONSUMED_NAME": "Encrusted Key (Consumed)",
+			"ITEM_TREASURECACHEVOIDCONSUMED_DESC": "A spent key? To remember an item well earned.",
+			
+			"ITEM_EXTRASTATSONLEVELUP_CONSUMED_NAME": "Prayer Beads Blessing",
+			"ITEM_EXTRASTATSONLEVELUP_CONSUMED_PICKUP": "Your Prayer Beads have blessed your stats. (Missing Overlay)",
+			"ITEM_EXTRASTATSONLEVELUP_CONSUMED_DESC": "Prayer Beads have blessed this body. (Missing Overlay)",
+			
+			"OVERLAY_EXTRASTATSONLEVELUP_CONSUMED_PICKUP": "Your Prayer Beads have blessed you with +{0} levels",
+			"OVERLAY_EXTRASTATSONLEVELUP_CONSUMED_DESC": "Prayer Beads have blessed this body with <style=cIsUtility>+{0} levels</style>, increasing <style=cIsHealing>max health</style> by <style=cIsHealing>{1}</style>, <style=cIsHealing>regeneration</style> by <style=cIsHealing>{2} hp/s</style> and <style=cIsDamage>damage</style> by <style=cIsDamage>{3}</style>.",
+			"OVERLAY_EXTRASTATSONLEVELUP_DESC": "Your Prayer Beads have blessed you with <style=cIsUtility>+{0} levels</style>, increasing <style=cIsHealing>max health</style> by <style=cIsHealing>{1}</style>, <style=cIsHealing>regeneration</style> by <style=cIsHealing>{2} hp/s</style> and <style=cIsDamage>damage</style> by <style=cIsDamage>{3}</style>.",
+			
+
+			
+			 "ITEM_LOSS_GENERIC_2P": "<style=cEvent>You got rid of {1}</style>",
+				"ITEM_LOSS_GENERIC": "<style=cEvent>{0} got rid of {1}</style>",
+		
+			 "ITEM_LOSS_CAULDRON_2P": "<style=cEvent>You reforged {1}</style>",
+				"ITEM_LOSS_CAULDRON": "<style=cEvent>{0} reforged {1}</style>",
+		
+			  "ITEM_LOSS_CLEANSING_2P": "<style=cShrine>You have cleansed yourself of {1}</style>",
+				 "ITEM_LOSS_CLEANSING": "<style=cShrine>{0} has cleansed themselves of {1}</style>",
+		
+			 "ITEM_LOSS_SCRAP_2P": "<style=cEvent>You scrapped {1}</style>",
+				"ITEM_LOSS_SCRAP": "<style=cEvent>{0} scrapped {1}</style>",
+	
+			"ITEM_LOSS_LOST_2P": "<style=cEvent>You lost {1}</style>",
+				"ITEM_LOSS_LOST": "<style=cEvent>{0} lost {1}</style>",
+		 
+		 
+
+			"ITEM_USE_ELIXIR": "<style=cEvent>You drank a <color=#FFFFFF>Power Elixir</color></style>",
+			"ITEM_USE_ELIXIR_1P": "<style=cEvent>{0} drank a <color=#FFFFFF>Power Elixir</color></style>",
+			"ITEM_USE_WATCH": "<style=cEvent>You broke your <color=#FFFFFF>Delicate Watches</color></style>",
+			"ITEM_USE_WATCH_1P": "<style=cEvent>{0} broke their <color=#FFFFFF>Delicate Watches</color></style>",
+			"ITEM_USE_VV_VOIDWATCH": "<style=cEvent>{0} ran out of time...</style>",
+			"ITEM_USE_VV_VOIDWATCH_1P": "<style=cEvent>{1}'s {0} ran out of time...</style>",
+
+			"ITEM_TRANSFORM_EGO": "<style=cEvent><color=#458CFF>{0}</color> assimilated <color=#{1}>{2}</color></style>",
+			"ITEM_TRANSFORM_VOID": "<style=cEvent><style=cIsVoid>The Void</style> upgraded <color=#{0}>{1} into <color=#{2}>{3}</style>",
+			
+			"DEATH_DOT_FRACTURE_2P": "You were collapsed by {1}.",
+            "DEATH_DOT_FRACTURE": "{0} was collapsed by {1}.",
+
+            "DEATH_DOT_GENERIC_2P": "You slowly died to {1}.",
+            "DEATH_DOT_GENERIC": "{0} slowly died to {1}.",
+
+            "DEATH_VOID_FOG_2P": "You drowned in the void.",
+            "DEATH_VOID_FOG": "{0} drowned in the void.",
+
+            "DEATH_VOID_EXPLODE_2P": "You were detained by {1}.",
+            "DEATH_VOID_EXPLODE": "{0} was detained by {1}.",
+
+            "DEATH_FALL_DAMAGE_2P": "You succumbed to gravity.",
+            "DEATH_FALL_DAMAGE": "{0} succumbed to gravity.",
+
+            "DEATH_FRIENDLY_SUICIDE_2P": "You were killed by yourself.",
+            "DEATH_FRIENDLY_SUICIDE": "{0} was killed by themselves.",
+
+            "DEATH_FRIENDLY_2P": "You were betrayed by {1}.",
+            "DEATH_FRIENDLY": "{0} was betrayed by {1}.",
+
+			"DEATH_LAVA_2P": "You were melted.",
+            "DEATH_LAVA": "{0} was melted.",
+
+            "DEATH_ECHO_2P": "Echoes of {1} killed you.",
+            "DEATH_ECHO": "Echoes of {1} killed {0}.",
+			
+            "DEATH_GLASS_2P": "You were shattered by {1}.",
+            "DEATH_GLASS": "{0} was shattered by {1}.",
+
+            "DEATH_GENERIC_2P": "You were killed by {1}.",
+            "DEATH_GENERIC": "{0} was killed by {1}.",
+
+            "DEATH_DAMAGE": " ({0} damage taken)</style>",
+ 
+			"WIN_FORMAT_WIN":"<style=cIsHealing><sprite name=\"CloudLeft\" tint=1> {0} <sprite name=\"CloudRight\" tint=1></color>",
+			"WIN_FORMAT_FAIL":"<style=cDeath><sprite name=\"Skull\" tint=1> {0} <sprite name=\"Skull\" tint=1></style>",
+			"WIN_FORMAT_MS":"<style=cLunarObjective><sprite name=\"CloudLeft\" tint=1> {0} <sprite name=\"CloudRight\" tint=1></color>",
+			"WIN_FORMAT_VOID":"<style=cIsVoid><sprite name=\"CloudLeft\" tint=1> {0} <sprite name=\"CloudRight\" tint=1></color>",
+			"WIN_FORMAT_REBIRTH":"<style=cRebirth><sprite name=\"CloudLeft\" tint=1> {0} <sprite name=\"CloudRight\" tint=1></color>",
+			
+	 
+	}
+}

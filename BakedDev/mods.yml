@@ -1,45 +1,46 @@
 - manifestVersion: 1
-  name: RiskofThunder-BepInEx_GUI
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/BepInEx_GUI/
-  displayName: BepInEx_GUI
-  description: Graphical User Interface meant to replace the regular console host
-    that is used by BepInEx when the config setting is enabled.
+  name: score-MiscFixes
+  authorName: score
+  websiteUrl: https://thunderstore.io/package/score/MiscFixes/
+  displayName: MiscFixes
+  description: Fixes some bugs
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 3
-    minor: 0
-    patch: 3
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-BepInEx_GUI\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-FixPluginTypesSerialization
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/FixPluginTypesSerialization/
-  displayName: FixPluginTypesSerialization
-  description: Fix custom Serializable structs and such not properly getting
-    deserialized by Unity.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
+  installedAtTime: 1753574572985
   loaders: []
   dependencies: []
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 3
+    minor: 5
+    patch: 0
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-FixPluginTypesSerialization\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\score-MiscFixes\icon.png
+- manifestVersion: 1
+  name: pseudopulse-SeekersPatcher
+  authorName: pseudopulse
+  websiteUrl: https://thunderstore.io/package/pseudopulse/SeekersPatcher/
+  displayName: SeekersPatcher
+  description: Patches ROR2 to add redirects for things that were changed in
+    SOTS-related updates.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574573002
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 8
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\pseudopulse-SeekersPatcher\icon.png
 - manifestVersion: 1
   name: RiskofThunder-RoR2BepInExPack
   authorName: RiskofThunder
@@ -51,16 +52,61 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574573019
   loaders: []
   dependencies: []
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 11
+    minor: 33
     patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-RoR2BepInExPack\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-FixPluginTypesSerialization
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/FixPluginTypesSerialization/
+  displayName: FixPluginTypesSerialization
+  description: Fix custom Serializable structs and such not properly getting
+    deserialized by Unity.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574573040
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-FixPluginTypesSerialization\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-BepInEx_GUI
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/BepInEx_GUI/
+  displayName: BepInEx_GUI
+  description: Graphical User Interface meant to replace the regular console host
+    that is used by BepInEx when the config setting is enabled.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574573061
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-BepInEx_GUI\icon.png
 - manifestVersion: 1
   name: bbepis-BepInExPack
   authorName: bbepis
@@ -71,19 +117,22 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574573107
   loaders: []
   dependencies:
-    - RiskofThunder-RoR2BepInExPack-1.9.0
-    - RiskofThunder-FixPluginTypesSerialization-1.0.3
     - RiskofThunder-BepInEx_GUI-3.0.1
+    - RiskofThunder-FixPluginTypesSerialization-1.0.3
+    - RiskofThunder-RoR2BepInExPack-1.9.0
+    - pseudopulse-SeekersPatcher-1.3.7
+    - score-MiscFixes-1.3.8
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 5
     minor: 4
-    patch: 2113
+    patch: 2120
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\bbepis-BepInExPack\5.4.2113\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\bbepis-BepInExPack\5.4.2120\icon.png
 - manifestVersion: 1
   name: RiskofThunder-HookGenPatcher
   authorName: RiskofThunder
@@ -94,6 +143,7 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574576098
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.1801
@@ -102,53 +152,9 @@
   versionNumber:
     major: 1
     minor: 2
-    patch: 3
+    patch: 9
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-HookGenPatcher\icon.png
-- manifestVersion: 1
-  name: tristanmcpherson-R2API
-  authorName: tristanmcpherson
-  websiteUrl: https://thunderstore.io/package/tristanmcpherson/R2API/
-  displayName: R2API
-  description: A modding API for Risk of Rain 2
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - RiskofThunder-R2API_ContentManagement-1.0.1
-    - RiskofThunder-R2API_Networking-1.0.2
-    - RiskofThunder-R2API_RecalculateStats-1.2.0
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_DamageType-1.0.4
-    - RiskofThunder-R2API_Difficulty-1.1.1
-    - RiskofThunder-R2API_Orb-1.0.1
-    - RiskofThunder-R2API_LobbyConfig-1.0.1
-    - RiskofThunder-R2API_Language-1.0.1
-    - RiskofThunder-R2API_Dot-1.0.1
-    - RiskofThunder-R2API_Deployable-1.0.1
-    - RiskofThunder-R2API_CommandHelper-1.0.1
-    - RiskofThunder-R2API_ArtifactCode-1.0.1
-    - RiskofThunder-R2API_Director-1.1.1
-    - RiskofThunder-R2API_Unlockable-1.0.2
-    - RiskofThunder-R2API_TempVisualEffect-1.0.2
-    - RiskofThunder-R2API_Sound-1.0.2
-    - RiskofThunder-R2API_Prefab-1.0.3
-    - RiskofThunder-R2API_Loadout-1.0.2
-    - RiskofThunder-R2API_Items-1.0.3
-    - RiskofThunder-R2API_Elites-1.0.2
-    - RiskofThunder-R2API_SceneAsset-1.1.1
-    - RiskofThunder-R2API_Core-5.0.10
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 5
-    minor: 0
-    patch: 5
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\tristanmcpherson-R2API\icon.png
 - manifestVersion: 1
   name: RiskofThunder-R2API_Core
   authorName: RiskofThunder
@@ -159,111 +165,19 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574576151
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2109
+    - bbepis-BepInExPack-5.4.2120
+    - RiskofThunder-HookGenPatcher-1.2.9
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 5
-    minor: 0
-    patch: 12
+    minor: 1
+    patch: 6
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Core\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_Networking
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Networking/
-  displayName: R2API_Networking
-  description: Networking API around the Unity UNet Low Level API (LLAPI)
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2103
-    - RiskofThunder-R2API_Core-5.0.3
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Networking\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_ContentManagement
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_ContentManagement/
-  displayName: R2API_ContentManagement
-  description: API for adding content to the game
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.11
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 4
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_ContentManagement\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_Prefab
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Prefab/
-  displayName: R2API_Prefab
-  description: API for Prefab creation, networking and duplication
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - RiskofThunder-R2API_ContentManagement-1.0.1
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 3
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Prefab\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_Language
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Language/
-  displayName: R2API_Language
-  description: API for modifying the language localisation of the game
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Language\icon.png
 - manifestVersion: 1
   name: RiskofThunder-R2API_Skins
   authorName: RiskofThunder
@@ -275,17 +189,18 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574576193
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
     - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.11
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.5
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 0
+    minor: 2
+    patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Skins\icon.png
 - manifestVersion: 1
@@ -298,163 +213,20 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574576234
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
     - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.10
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.2
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 3
+    patch: 4
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Addressables\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_SceneAsset
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_SceneAsset/
-  displayName: R2API_SceneAsset
-  description: API for retrieving assets that live exclusively in game scenes
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.12
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_SceneAsset\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_Elites
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Elites/
-  displayName: R2API_Elites
-  description: API for adding custom elite types
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.10
-    - RiskofThunder-R2API_ContentManagement-1.0.2
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 3
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Elites\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_Items
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Items/
-  displayName: R2API_Items
-  description: API for adding custom items
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - RiskofThunder-R2API_ContentManagement-1.0.1
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 3
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Items\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_Loadout
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Loadout/
-  displayName: R2API_Loadout
-  description: API for registering skills, skins and entity states
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - RiskofThunder-R2API_ContentManagement-1.0.1
-    - RiskofThunder-R2API_Skins-1.0.0
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Loadout\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_Sound
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Sound/
-  displayName: R2API_Sound
-  description: API for adding custom sounds or musics
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - RiskofThunder-R2API_ContentManagement-1.0.1
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Sound\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_TempVisualEffect
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_TempVisualEffect/
-  displayName: R2API_TempVisualEffect
-  description: API for adding custom temporary visual effects for characters.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - RiskofThunder-R2API_ContentManagement-1.0.1
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_TempVisualEffect\icon.png
 - manifestVersion: 1
   name: RiskofThunder-R2API_Unlockable
   authorName: RiskofThunder
@@ -465,12 +237,13 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574576274
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - RiskofThunder-R2API_ContentManagement-1.0.1
     - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
     - RiskofThunder-R2API_Core-5.0.8
+    - RiskofThunder-R2API_ContentManagement-1.0.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
@@ -479,6 +252,325 @@
     patch: 2
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Unlockable\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_TempVisualEffect
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_TempVisualEffect/
+  displayName: R2API_TempVisualEffect
+  description: API for adding custom temporary visual effects for characters.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574576322
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.1
+    - RiskofThunder-R2API_ContentManagement-1.0.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_TempVisualEffect\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Sound
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Sound/
+  displayName: R2API_Sound
+  description: API for adding custom sounds or musics
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574576371
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.1
+    - RiskofThunder-R2API_ContentManagement-1.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Sound\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_SceneAsset
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_SceneAsset/
+  displayName: R2API_SceneAsset
+  description: API for retrieving assets that live exclusively in game scenes
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574576419
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.0.12
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_SceneAsset\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_RecalculateStats
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_RecalculateStats/
+  displayName: R2API_RecalculateStats
+  description: API for manipulating Character Stats
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574576464
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_RecalculateStats\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Prefab
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Prefab/
+  displayName: R2API_Prefab
+  description: API for Prefab creation, networking and duplication
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1754791551906
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.6
+    - RiskofThunder-R2API_ContentManagement-1.0.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Prefab\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Orb
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Orb/
+  displayName: R2API_Orb
+  description: API for creation and management of custom Orb types.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574576568
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Orb\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Networking
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Networking/
+  displayName: R2API_Networking
+  description: Networking API around the Unity UNet Low Level API (LLAPI)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574576617
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Networking\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_LobbyConfig
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_LobbyConfig/
+  displayName: R2API_LobbyConfig
+  description: API for modifying the in-game lobby rules
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574576669
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_LobbyConfig\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Loadout
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Loadout/
+  displayName: R2API_Loadout
+  description: API for registering skills, skins and entity states
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574576723
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.0.8
+    - RiskofThunder-R2API_ContentManagement-1.0.1
+    - RiskofThunder-R2API_Skins-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Loadout\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Language
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Language/
+  displayName: R2API_Language
+  description: API for modifying the language localisation of the game
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574576780
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Language\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Items
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Items/
+  displayName: R2API_Items
+  description: API for adding custom items
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574576835
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.5
+    - RiskofThunder-R2API_ContentManagement-1.0.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 7
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Items\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Elites
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Elites/
+  displayName: R2API_Elites
+  description: API for adding custom elite types
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574576893
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.3
+    - RiskofThunder-R2API_ContentManagement-1.0.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 7
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Elites\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Dot
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Dot/
+  displayName: R2API_Dot
+  description: API for adding custom damage over time effects
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574576952
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Dot\icon.png
 - manifestVersion: 1
   name: RiskofThunder-R2API_Director
   authorName: RiskofThunder
@@ -490,158 +582,21 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574577012
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
     - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.10
-    - RiskofThunder-R2API_Addressables-1.0.0
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.5
+    - RiskofThunder-R2API_Addressables-1.0.4
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 1
-    patch: 0
+    minor: 3
+    patch: 5
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Director\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_ArtifactCode
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_ArtifactCode/
-  displayName: R2API_ArtifactCode
-  description: API for making Artifact Codes
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_ArtifactCode\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_CommandHelper
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_CommandHelper/
-  displayName: R2API_CommandHelper
-  description: API for registering console commands
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_CommandHelper\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_Deployable
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Deployable/
-  displayName: R2API_Deployable
-  description: API for adding custom deployables
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Deployable\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_Dot
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Dot/
-  displayName: R2API_Dot
-  description: API for adding custom damage over time effects
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Dot\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_LobbyConfig
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_LobbyConfig/
-  displayName: R2API_LobbyConfig
-  description: API for modifying the in-game lobby rules
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_LobbyConfig\icon.png
-- manifestVersion: 1
-  name: RiskofThunder-R2API_Orb
-  authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Orb/
-  displayName: R2API_Orb
-  description: API for creation and management of custom Orb types.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.8
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Orb\icon.png
 - manifestVersion: 1
   name: RiskofThunder-R2API_Difficulty
   authorName: RiskofThunder
@@ -652,10 +607,11 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574577075
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
     - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
     - RiskofThunder-R2API_Core-5.0.10
   incompatibilities: []
   optionalDependencies: []
@@ -666,6 +622,30 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Difficulty\icon.png
 - manifestVersion: 1
+  name: RiskofThunder-R2API_Deployable
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Deployable/
+  displayName: R2API_Deployable
+  description: API for adding custom deployables
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574577140
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Deployable\icon.png
+- manifestVersion: 1
   name: RiskofThunder-R2API_DamageType
   authorName: RiskofThunder
   websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_DamageType/
@@ -675,56 +655,83 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574577210
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - RiskofThunder-R2API_Core-5.0.6
     - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 7
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_DamageType\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_ContentManagement
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_ContentManagement/
+  displayName: R2API_ContentManagement
+  description: API for adding content to the game
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753574577279
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.5
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 4
+    patch: 10
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_DamageType\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_ContentManagement\icon.png
 - manifestVersion: 1
-  name: RiskofThunder-R2API_RecalculateStats
+  name: RiskofThunder-R2API_CommandHelper
   authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_RecalculateStats/
-  displayName: R2API_RecalculateStats
-  description: API for manipulating Character Stats
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_CommandHelper/
+  displayName: R2API_CommandHelper
+  description: API for registering console commands
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574577349
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
     - bbepis-BepInExPack-5.4.2109
-    - RiskofThunder-R2API_Core-5.0.11
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 3
-    patch: 0
+    minor: 0
+    patch: 2
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_RecalculateStats\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_CommandHelper\icon.png
 - manifestVersion: 1
-  name: RiskofThunder-R2API_Colors
+  name: RiskofThunder-R2API_ArtifactCode
   authorName: RiskofThunder
-  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Colors/
-  displayName: R2API_Colors
-  description: API for registering Colors to the game
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_ArtifactCode/
+  displayName: R2API_ArtifactCode
+  description: API for making Artifact Codes
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574577424
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
     - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
     - RiskofThunder-R2API_Core-5.0.8
   incompatibilities: []
   optionalDependencies: []
@@ -733,29 +740,52 @@
     minor: 0
     patch: 1
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Colors\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_ArtifactCode\icon.png
 - manifestVersion: 1
-  name: Moffein-FixDamageTrailNullref
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/FixDamageTrailNullref/
-  displayName: FixDamageTrailNullref
-  description: Fixes nullref spam from Archaic Wisp projectiles.
+  name: tristanmcpherson-R2API
+  authorName: tristanmcpherson
+  websiteUrl: https://thunderstore.io/package/tristanmcpherson/R2API/
+  displayName: R2API
+  description: A modding API for Risk of Rain 2
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753574577500
   loaders: []
   dependencies:
+    - bbepis-BepInExPack-5.4.2109
     - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.1905
+    - RiskofThunder-R2API_ArtifactCode-1.0.1
+    - RiskofThunder-R2API_CommandHelper-1.0.1
+    - RiskofThunder-R2API_ContentManagement-1.0.1
+    - RiskofThunder-R2API_Core-5.0.10
+    - RiskofThunder-R2API_DamageType-1.0.4
+    - RiskofThunder-R2API_Deployable-1.0.1
+    - RiskofThunder-R2API_Difficulty-1.1.1
+    - RiskofThunder-R2API_Director-1.1.1
+    - RiskofThunder-R2API_Dot-1.0.1
+    - RiskofThunder-R2API_Elites-1.0.2
+    - RiskofThunder-R2API_Items-1.0.3
+    - RiskofThunder-R2API_Language-1.0.1
+    - RiskofThunder-R2API_Loadout-1.0.2
+    - RiskofThunder-R2API_LobbyConfig-1.0.1
+    - RiskofThunder-R2API_Networking-1.0.2
+    - RiskofThunder-R2API_Orb-1.0.1
+    - RiskofThunder-R2API_Prefab-1.0.3
+    - RiskofThunder-R2API_RecalculateStats-1.2.0
+    - RiskofThunder-R2API_SceneAsset-1.1.1
+    - RiskofThunder-R2API_Sound-1.0.2
+    - RiskofThunder-R2API_TempVisualEffect-1.0.2
+    - RiskofThunder-R2API_Unlockable-1.0.2
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
+    major: 5
     minor: 0
-    patch: 0
+    patch: 5
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-FixDamageTrailNullref\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\tristanmcpherson-R2API\icon.png
 - manifestVersion: 1
   name: IHarbHD-DebugToolkit
   authorName: IHarbHD
@@ -766,21 +796,47 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753575016759
   loaders: []
   dependencies:
-    - RiskofThunder-R2API_Networking-1.0.2
-    - RiskofThunder-R2API_Prefab-1.0.3
-    - bbepis-BepInExPack-5.4.2113
-    - RiskofThunder-R2API_Core-5.0.11
-    - RiskofThunder-R2API_ContentManagement-1.0.4
+    - bbepis-BepInExPack-5.4.2120
+    - RiskofThunder-R2API_Core-5.1.5
+    - RiskofThunder-R2API_ContentManagement-1.0.10
+    - RiskofThunder-R2API_Networking-1.0.3
+    - RiskofThunder-R2API_Prefab-1.0.4
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 14
+    minor: 20
     patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\IHarbHD-DebugToolkit\icon.png
+- manifestVersion: 1
+  name: FunkFrog-and-Sipondo-ShareSuite
+  authorName: FunkFrog-and-Sipondo
+  websiteUrl: https://thunderstore.io/package/FunkFrog-and-Sipondo/ShareSuite/
+  displayName: ShareSuite
+  description: Share gear between members of your party - Highly Balanced -
+    Completely Customisable
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753575206742
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2114
+    - tristanmcpherson-R2API-5.0.5
+    - RiskofThunder-HookGenPatcher-1.2.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 9
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\FunkFrog-and-Sipondo-ShareSuite\icon.png
 - manifestVersion: 1
   name: Rune580-Risk_Of_Options
   authorName: Rune580
@@ -791,178 +847,10 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753575595236
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-5.4.1905
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 7
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Rune580-Risk_Of_Options\icon.png
-- manifestVersion: 1
-  name: KingEnderBrine-ScrollableLobbyUI
-  authorName: KingEnderBrine
-  websiteUrl: https://thunderstore.io/package/KingEnderBrine/ScrollableLobbyUI/
-  displayName: ScrollableLobbyUI
-  description: Adds scrolling to lobby UI (skills, loadout, character select, difficulty)
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - RiskofThunder-HookGenPatcher-1.2.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 8
-    patch: 0
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\KingEnderBrine-ScrollableLobbyUI\icon.png
-- manifestVersion: 1
-  name: KingEnderBrine-LobbySkinsFix
-  authorName: KingEnderBrine
-  websiteUrl: https://thunderstore.io/package/KingEnderBrine/LobbySkinsFix/
-  displayName: LobbySkinsFix
-  description: Fixes issues with switching to modded skin and back to vanilla in lobby
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.2108
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\KingEnderBrine-LobbySkinsFix\icon.png
-- manifestVersion: 1
-  name: Moffein-ArtificerPrimaryRangeFix
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/ArtificerPrimaryRangeFix/
-  displayName: ArtificerPrimaryRangeFix
-  description: Fixes Artificer primary projectiles disappearing at long range.
-    Server-Side and Vanilla-Compatible!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.1905
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-ArtificerPrimaryRangeFix\icon.png
-- manifestVersion: 1
-  name: Moffein-GiantParticleFix
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/GiantParticleFix/
-  displayName: GiantParticleFix
-  description: Fixes posion particles being giant on certain modded characters.
-    Client-Side and Vanilla-Compatible!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.1905
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-GiantParticleFix\icon.png
-- manifestVersion: 1
-  name: TeamMoonstorm-MoonstormSharedUtils
-  authorName: TeamMoonstorm
-  websiteUrl: https://thunderstore.io/package/TeamMoonstorm/MoonstormSharedUtils/
-  displayName: MoonstormSharedUtils
-  description: An API focused with the intention of working in an editor
-    enviroment using ThunderKit, MSU is a modular API system designed for ease
-    of use and simplicity.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-R2API_RecalculateStats-1.2.0
-    - RiskofThunder-R2API_DamageType-1.0.4
-    - RiskofThunder-R2API_CommandHelper-1.0.1
-    - RiskofThunder-R2API_ArtifactCode-1.0.1
-    - RiskofThunder-R2API_Colors-1.0.1
-    - RiskofThunder-R2API_Core-5.0.10
-    - RiskofThunder-R2API_ContentManagement-1.0.2
-    - RiskofThunder-R2API_Elites-1.0.3
-    - Rune580-Risk_Of_Options-2.6.1
-    - RiskofThunder-R2API_Director-2.1.0
-    - RiskofThunder-R2API_Addressables-1.0.2
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 6
-    patch: 3
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TeamMoonstorm-MoonstormSharedUtils\icon.png
-- manifestVersion: 1
-  name: prodzpod-RealerCheatUnlocks
-  authorName: prodzpod
-  websiteUrl: https://thunderstore.io/package/prodzpod/RealerCheatUnlocks/
-  displayName: RealerCheatUnlocks
-  description: Right-click unlockables to unlock/relock them. AFFECTS STEAM/EGS
-    ACHIEVEMENTS!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2103
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 3
-  enabled: false
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\prodzpod-RealerCheatUnlocks\1.0.3\icon.png
-- manifestVersion: 1
-  name: XoXFaby-BetterUI
-  authorName: XoXFaby
-  websiteUrl: https://thunderstore.io/package/XoXFaby/BetterUI/
-  displayName: BetterUI
-  description: Looking for translators! Various UI improvements like ordered items
-    with multiple ways of sorting, DPSMeter, Item Counters, Skill/Equipment/Item
-    Information, Command/Scrapper counters and other improvements, customizable
-    StatsDisplay, and much more.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.19
+    - bbepis-BepInExPack-5.4.2113
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
@@ -970,7 +858,78 @@
     minor: 8
     patch: 4
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\XoXFaby-BetterUI\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Rune580-Risk_Of_Options\icon.png
+- manifestVersion: 1
+  name: DropPod-LookingGlass
+  authorName: DropPod
+  websiteUrl: https://thunderstore.io/package/DropPod/LookingGlass/
+  displayName: LookingGlass
+  description: A QoL UI mod that exposes statistics for items and the player,
+    adjusts the size and features of command and scrapper menus, and much more.
+    Fully open source and compatible with RiskUI!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1754791547047
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2113
+    - Rune580-Risk_Of_Options-2.7.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 13
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\DropPod-LookingGlass\icon.png
+- manifestVersion: 1
+  name: Bubbet-NetworkedTimedBuffs
+  authorName: Bubbet
+  websiteUrl: https://thunderstore.io/package/Bubbet/NetworkedTimedBuffs/
+  displayName: NetworkedTimedBuffs
+  description: Networks the timed buffs, so clients are aware of the timers.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753575616467
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1902
+    - RiskofThunder-R2API_Networking-1.0.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Bubbet-NetworkedTimedBuffs\icon.png
+- manifestVersion: 1
+  name: KingEnderBrine-ProperSave
+  authorName: KingEnderBrine
+  websiteUrl: https://thunderstore.io/package/KingEnderBrine/ProperSave/
+  displayName: ProperSave
+  description: Saves your progress at the start of the stage so you can load later
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753575814073
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+    - RiskofThunder-HookGenPatcher-1.2.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 12
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\KingEnderBrine-ProperSave\icon.png
 - manifestVersion: 1
   name: rainyuu-Pingprovements
   authorName: rainyuu
@@ -982,6 +941,7 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753576342153
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.9
@@ -995,148 +955,56 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\rainyuu-Pingprovements\icon.png
 - manifestVersion: 1
-  name: JohnEdwa-RTAutoSprintEx
-  authorName: JohnEdwa
-  websiteUrl: https://thunderstore.io/package/JohnEdwa/RTAutoSprintEx/
+  name: Dragonyck-RTAutoSprintEx
+  authorName: Dragonyck
+  websiteUrl: https://thunderstore.io/package/Dragonyck/RTAutoSprintEx/
   displayName: RTAutoSprintEx
-  description: RTAutoSprint fixed and enhanced with more features. Sprint
-    automatically, but only when you would be allowed to do so in the first
-    place.
+  description: RTAutoSprint fully fixed and enhanced with more features for SOTS.
+    Sprint automatically, but only when you would be allowed to do so in the
+    first place.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753576834983
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-5.4.1801
-    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-HookGenPatcher-1.2.4
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 1
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\JohnEdwa-RTAutoSprintEx\icon.png
-- manifestVersion: 1
-  name: duckduckgreyduck-HuntressBuffULTIMATE
-  authorName: duckduckgreyduck
-  websiteUrl: https://thunderstore.io/package/duckduckgreyduck/HuntressBuffULTIMATE/
-  displayName: HuntressBuffULTIMATE
-  description: The ULTIMATE buff to Huntress! Extra config! agile movement speed
-    sprint autosprint run nerf buff energy drink items survivors of the void
-    fast speedrun hunterness
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.2103
-    - RiskofThunder-R2API_Language-1.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\duckduckgreyduck-HuntressBuffULTIMATE\icon.png
-- manifestVersion: 1
-  name: VarnaScelestus-Ephemeral_Coins
-  authorName: VarnaScelestus
-  websiteUrl: https://thunderstore.io/package/VarnaScelestus/Ephemeral_Coins/
-  displayName: Ephemeral_Coins
-  description: Lunar Coins become a per-run currency via artifact. Seperate
-    configs for drop chance, BTB costs, etc.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-4.0.11
-    - bbepis-BepInExPack-5.4.1900
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 3
+    minor: 2
     patch: 3
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\VarnaScelestus-Ephemeral_Coins\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Dragonyck-RTAutoSprintEx\icon.png
 - manifestVersion: 1
-  name: dan8991iel-LunarCoinShareOnPickup
-  authorName: dan8991iel
-  websiteUrl: https://thunderstore.io/package/dan8991iel/LunarCoinShareOnPickup/
-  displayName: LunarCoinShareOnPickup
-  description: When one player in the lobby picks up a lunar coin, each player in
-    the lobby will receive one. No more hate and envy against the person who
-    grabs them the quickest. Change Lunar Coin shared and unshared amount via
-    config.
+  name: mwmw-SimpleLunarCoins
+  authorName: mwmw
+  websiteUrl: https://thunderstore.io/package/mwmw/SimpleLunarCoins/
+  displayName: SimpleLunarCoins
+  description: Provides simple customisation of the lunar coins behaviour, capable
+    of turning them into a per-run currency through BepInEx config. Includes
+    Risk of Options support.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753576909204
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-4.0.11
-    - bbepis-BepInExPack-5.4.1900
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 4
-    minor: 2
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\dan8991iel-LunarCoinShareOnPickup\icon.png
-- manifestVersion: 1
-  name: FunkFrog-and-Sipondo-ShareSuite
-  authorName: FunkFrog-and-Sipondo
-  websiteUrl: https://thunderstore.io/package/FunkFrog-and-Sipondo/ShareSuite/
-  displayName: ShareSuite
-  description: Share gear between members of your party - Highly Balanced -
-    Completely Customisable
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
+    - bbepis-BepInExPack-5.4.2108
     - RiskofThunder-HookGenPatcher-1.2.3
-    - tristanmcpherson-R2API-5.0.5
-    - bbepis-BepInExPack-5.4.2113
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 8
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\FunkFrog-and-Sipondo-ShareSuite\icon.png
-- manifestVersion: 1
-  name: MagnusMagnuson-ShrineOfDio
-  authorName: MagnusMagnuson
-  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/ShrineOfDio/
-  displayName: ShrineOfDio
-  description: Resurrect fallen teammates. Spawns a Shrine of Dio on every stage
-    (replaces the Shrine of the Woods).
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-4.0.11
-    - bbepis-BepInExPack-5.4.1901
+    - RiskofThunder-R2API_Core-5.1.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 6
-    patch: 1
+    minor: 2
+    patch: 5
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-ShrineOfDio\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\mwmw-SimpleLunarCoins\icon.png
 - manifestVersion: 1
   name: MagnusMagnuson-BiggerBazaar
   authorName: MagnusMagnuson
@@ -1148,18 +1016,196 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753577085651
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-4.4.1
-    - bbepis-BepInExPack-5.4.2103
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-R2API_Core-5.1.5
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 13
-    patch: 13
+    patch: 14
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-BiggerBazaar\icon.png
+- manifestVersion: 1
+  name: MagnusMagnuson-ShrineOfDio
+  authorName: MagnusMagnuson
+  websiteUrl: https://thunderstore.io/package/MagnusMagnuson/ShrineOfDio/
+  displayName: ShrineOfDio
+  description: Resurrect fallen teammates. Spawns a Shrine of Dio on every stage
+    (replaces the Shrine of the Woods).
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753577185343
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-R2API_Core-5.1.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 6
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-ShrineOfDio\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_ProcType
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_ProcType/
+  displayName: R2API_ProcType
+  description: API for registering proc types
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753577428911
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2113
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_ProcType\icon.png
+- manifestVersion: 1
+  name: Moffein-DefenseMatrixManager
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/DefenseMatrixManager/
+  displayName: DefenseMatrixManager
+  description: Library that allows for mods to add entities that can block hitscan
+    attacks on a per-team basis.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753577429027
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-HookGenPatcher-1.2.4
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-DefenseMatrixManager\icon.png
+- manifestVersion: 1
+  name: Moffein-AssistManager
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/AssistManager/
+  displayName: AssistManager
+  description: Allows certain on-kill effects to trigger off of kill assists.
+    Server-side and Vanilla-compatible.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753577429167
+  loaders: []
+  dependencies:
+    - RiskofThunder-R2API_Core-5.1.3
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-R2API_DamageType-1.1.4
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-AssistManager\icon.png
+- manifestVersion: 1
+  name: Risky_Lives-RiskyFixes
+  authorName: Risky_Lives
+  websiteUrl: https://thunderstore.io/package/Risky_Lives/RiskyFixes/
+  displayName: RiskyFixes
+  description: Vanilla-compatible fixes to basegame content. Some are server-side,
+    some are client-side.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1754791559856
+  loaders: []
+  dependencies:
+    - RiskofThunder-R2API_Core-5.1.5
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-HookGenPatcher-1.2.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 7
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyFixes\icon.png
+- manifestVersion: 1
+  name: Risky_Lives-RiskyTweaks
+  authorName: Risky_Lives
+  websiteUrl: https://thunderstore.io/package/Risky_Lives/RiskyTweaks/
+  displayName: RiskyTweaks
+  description: Vanilla-compatible tweaks to basegame content. Some are
+    server-side, some are client-side. Every feature can be toggled in the
+    config!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753577429480
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2120
+    - RiskofThunder-HookGenPatcher-1.2.8
+    - RiskofThunder-R2API_Core-5.1.3
+    - Risky_Lives-RiskyFixes-1.7.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 7
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyTweaks\icon.png
+- manifestVersion: 1
+  name: Moffein-EliteReworks
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/EliteReworks/
+  displayName: EliteReworks
+  description: Reduces Elite bulletsponge and makes their abilities more impactful.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753577429600
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2120
+    - RiskofThunder-R2API_Core-5.1.5
+    - RiskofThunder-R2API_RecalculateStats-1.6.0
+    - RiskofThunder-R2API_Prefab-1.0.4
+    - RiskofThunder-R2API_Sound-1.0.3
+    - RiskofThunder-R2API_DamageType-1.1.7
+    - RiskofThunder-R2API_Elites-1.0.7
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 15
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-EliteReworks\icon.png
 - manifestVersion: 1
   name: Risky_Lives-RiskyMod
   authorName: Risky_Lives
@@ -1171,40 +1217,31 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1754791586696
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.4.1
+    - Moffein-EliteReworks-1.15.0
+    - Risky_Lives-RiskyTweaks-1.7.0
+    - Risky_Lives-RiskyFixes-1.7.1
+    - Moffein-AssistManager-1.4.0
+    - Moffein-DefenseMatrixManager-1.0.3
+    - bbepis-BepInExPack-5.4.2120
+    - RiskofThunder-HookGenPatcher-1.2.8
+    - RiskofThunder-R2API_Core-5.1.5
+    - RiskofThunder-R2API_RecalculateStats-1.5.0
+    - RiskofThunder-R2API_Prefab-1.0.4
+    - RiskofThunder-R2API_Items-1.0.5
+    - RiskofThunder-R2API_Sound-1.0.3
+    - RiskofThunder-R2API_DamageType-1.1.7
+    - RiskofThunder-R2API_ProcType-1.0.2
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
-    minor: 5
-    patch: 14
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyMod\icon.png
-- manifestVersion: 1
-  name: Moffein-EliteReworks
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/EliteReworks/
-  displayName: EliteReworks
-  description: Reduces Elite bulletsponge and makes their abilities more impactful.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1903
-    - tristanmcpherson-R2API-4.4.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 9
+    major: 2
+    minor: 6
     patch: 2
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-EliteReworks\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyMod\icon.png
 - manifestVersion: 1
   name: Faustvii-QoLChests
   authorName: Faustvii
@@ -1216,152 +1253,82 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753577725484
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.1902
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-HookGenPatcher-1.2.5
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 8
+    minor: 2
+    patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Faustvii-QoLChests\icon.png
 - manifestVersion: 1
-  name: KingEnderBrine-ProperSave
-  authorName: KingEnderBrine
-  websiteUrl: https://thunderstore.io/package/KingEnderBrine/ProperSave/
-  displayName: ProperSave
-  description: Saves your progress at the start of the stage so you can load later
+  name: viliger-RestoreGrandparentRock
+  authorName: viliger
+  websiteUrl: https://thunderstore.io/package/viliger/RestoreGrandparentRock/
+  displayName: RestoreGrandparentRock
+  description: Randy Bobandy broke my gamandy. Restore Grandparent's rock projectile ghost.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753577948783
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.1905
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 9
-    patch: 0
-  enabled: false
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\KingEnderBrine-ProperSave\2.9.0\icon.png
-- manifestVersion: 1
-  name: Wolfo-WolfoQualityOfLife
-  authorName: Wolfo
-  websiteUrl: https://thunderstore.io/package/Wolfo/WolfoQualityOfLife/
-  displayName: WolfoQualityOfLife
-  description: That one mod that gives Oni Merc a red sword and effects. Updates
-    Acrid Blight and REX vines too. Visual and Information Quality of Life for
-    the game.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - RiskofThunder-HookGenPatcher-1.2.1
-    - tristanmcpherson-R2API-5.0.5
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 5
-    patch: 8
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-WolfoQualityOfLife\icon.png
-- manifestVersion: 1
-  name: Wolfo-LittleGameplayTweaks
-  authorName: Wolfo
-  websiteUrl: https://thunderstore.io/package/Wolfo/LittleGameplayTweaks/
-  displayName: LittleGameplayTweaks
-  description: More enemy variety.  Prismatic Trials+.  Slightly Faster
-    Interactables, and some more.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - RiskofThunder-HookGenPatcher-1.2.1
-    - tristanmcpherson-R2API-5.0.5
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 5
-    patch: 9
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-LittleGameplayTweaks\icon.png
-- manifestVersion: 1
-  name: Wolfo-SimulacrumAdditions
-  authorName: Wolfo
-  websiteUrl: https://thunderstore.io/package/Wolfo/SimulacrumAdditions/
-  displayName: SimulacrumAdditions
-  description: Large content addition to Simulacrum. Adds 60+ Augments, makes
-    Simulacrum beatable, 2 Simulacrum Artifacts, recolor skins for reaching wave
-    50 and a lot of extras for the gamemode.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - RiskofThunder-HookGenPatcher-1.2.1
-    - tristanmcpherson-R2API-5.0.5
-    - Wolfo-VanillaArtifactsPlus-2.5.2
-    - Wolfo-WolfoAlternateSkins-1.2.0
+    - bbepis-BepInExPack-5.4.2102
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 9
-    patch: 2
+    minor: 0
+    patch: 0
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-SimulacrumAdditions\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\viliger-RestoreGrandparentRock\icon.png
 - manifestVersion: 1
-  name: Wolfo-VanillaArtifactsPlus
-  authorName: Wolfo
-  websiteUrl: https://thunderstore.io/package/Wolfo/VanillaArtifactsPlus/
-  displayName: VanillaArtifactsPlus
-  description: Updates a lot of vanilla Artifacts to make them more interesting.
+  name: Moffein-FixGenesisLoopConsoleSpam
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/FixGenesisLoopConsoleSpam/
+  displayName: FixGenesisLoopConsoleSpam
+  description: Fixes console spam from Genesis Loop when playing with certain
+    custom skins and survivors. Client-side and Vanilla-compatible!
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753577948948
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - RiskofThunder-HookGenPatcher-1.2.1
-    - tristanmcpherson-R2API-5.0.5
+    - bbepis-BepInExPack-5.4.1905
+    - RiskofThunder-HookGenPatcher-1.2.3
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 2
-    minor: 5
-    patch: 2
+    major: 1
+    minor: 0
+    patch: 0
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-VanillaArtifactsPlus\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-FixGenesisLoopConsoleSpam\icon.png
 - manifestVersion: 1
-  name: TheRealElysium-WaxQuailMultiJump
-  authorName: TheRealElysium
-  websiteUrl: https://thunderstore.io/package/TheRealElysium/WaxQuailMultiJump/
-  displayName: WaxQuailMultiJump
-  description: Makes Wax Quail apply to feather jumps.
+  name: LordVGames-GildedChunkSpamFix
+  authorName: LordVGames
+  websiteUrl: https://thunderstore.io/package/LordVGames/GildedChunkSpamFix/
+  displayName: GildedChunkSpamFix
+  description: Fixes gilded drones/monsters spawning game-crashing amounts of
+    gilded chunks. Server-side and vanilla compatible.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753577949130
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-2.0.0
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-HookGenPatcher-1.2.5
+    - RiskofThunder-R2API_Core-5.1.5
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
@@ -1369,22 +1336,23 @@
     minor: 0
     patch: 1
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TheRealElysium-WaxQuailMultiJump\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\LordVGames-GildedChunkSpamFix\icon.png
 - manifestVersion: 1
-  name: TeaBoneJones-IncreaseHuntressRange
-  authorName: TeaBoneJones
-  websiteUrl: https://thunderstore.io/package/TeaBoneJones/IncreaseHuntressRange/
-  displayName: IncreaseHuntressRange
-  description: Increase the range of Huntress every time you level up. Or turn on
-    God Mode and increase the range to encompass the whole map.
+  name: Goorakh-PizzaSoundFix
+  authorName: Goorakh
+  websiteUrl: https://thunderstore.io/package/Goorakh/PizzaSoundFix/
+  displayName: PizzaSoundFix
+  description: Fixes Mithrix Pizza attack sound playing too early. Clientside.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753577949311
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-2.0.0
-    - tristanmcpherson-R2API-2.0.10
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-HookGenPatcher-1.2.4
+    - RiskofThunder-R2API_Core-5.1.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
@@ -1392,7 +1360,191 @@
     minor: 0
     patch: 0
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TeaBoneJones-IncreaseHuntressRange\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Goorakh-PizzaSoundFix\icon.png
+- manifestVersion: 1
+  name: Goorakh-VFiX
+  authorName: Goorakh
+  websiteUrl: https://thunderstore.io/package/Goorakh/VFiX/
+  displayName: VFiX
+  description: Fixes various visual and audio issues introduced by Seekers of the
+    Storm. Clientside.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753577949484
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-HookGenPatcher-1.2.5
+    - RiskofThunder-R2API_Core-5.1.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Goorakh-VFiX\icon.png
+- manifestVersion: 1
+  name: Wolfo-DLCSpawnPoolFixer
+  authorName: Wolfo
+  websiteUrl: https://thunderstore.io/package/Wolfo/DLCSpawnPoolFixer/
+  displayName: DLCSpawnPoolFixer
+  description: "[ServerSide] Fixes issues related to: Improper spawnpools, Radar
+    Towers not spawning. Re-Adds SotV replacing some enemies in some spawn
+    pools."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753577949689
+  loaders: []
+  dependencies:
+    - Wolfo-WolfFixes-1.1.14
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 4
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-DLCSpawnPoolFixer\icon.png
+- manifestVersion: 1
+  name: Jeffdev-HelminthTunnelSpeedFix
+  authorName: Jeffdev
+  websiteUrl: https://thunderstore.io/package/Jeffdev/HelminthTunnelSpeedFix/
+  displayName: HelminthTunnelSpeedFix
+  description: Fixes the Helminth Hatchery speed tunnels not working for CHEF/Void
+    Fiend/others.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753577949866
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Jeffdev-HelminthTunnelSpeedFix\icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Colors
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Colors/
+  displayName: R2API_Colors
+  description: API for registering Colors to the game
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753577950080
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.1.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Colors\icon.png
+- manifestVersion: 1
+  name: Wolfo-WolfFixes
+  authorName: Wolfo
+  websiteUrl: https://thunderstore.io/package/Wolfo/WolfFixes/
+  displayName: WolfFixes
+  description: Yet another fix mod. Fixes of all variety. Some gameplay, visual,
+    audio, item descriptions, client fixes.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1754791610823
+  loaders: []
+  dependencies:
+    - RiskofThunder-R2API_Prefab-1.0.4
+    - RiskofThunder-R2API_Language-1.0.1
+    - RiskofThunder-R2API_Networking-1.0.3
+    - Jeffdev-HelminthTunnelSpeedFix-1.0.0
+    - score-MiscFixes-1.3.3
+    - Wolfo-DLCSpawnPoolFixer-1.3.0
+    - Goorakh-VFiX-1.0.3
+    - Goorakh-PizzaSoundFix-1.0.0
+    - LordVGames-GildedChunkSpamFix-1.0.1
+    - Moffein-FixGenesisLoopConsoleSpam-1.0.0
+    - viliger-RestoreGrandparentRock-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 17
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-WolfFixes\icon.png
+- manifestVersion: 1
+  name: Wolfo-WolfoQualityOfLife
+  authorName: Wolfo
+  websiteUrl: https://thunderstore.io/package/Wolfo/WolfoQualityOfLife/
+  displayName: WolfoQualityOfLife
+  description: "[Client-Side]: Adds colored effects to Mercenary Skins and Blight
+    Acrid, Unique ping icons for everything, Reminders to do stuff,
+    Informational chat messages (death, losing items), expanded Death Screen,
+    and like a lot of things."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1754791629475
+  loaders: []
+  dependencies:
+    - Wolfo-WolfFixes-1.0.0
+    - Rune580-Risk_Of_Options-2.8.2
+    - tristanmcpherson-R2API-5.0.5
+    - RiskofThunder-R2API_Colors-1.0.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 4
+    minor: 3
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\Wolfo-WolfoQualityOfLife\4.3.1\icon.png
+- manifestVersion: 1
+  name: Wolfo-WolfoQoL_OptionalExtras
+  authorName: Wolfo
+  websiteUrl: https://thunderstore.io/package/Wolfo/WolfoQoL_OptionalExtras/
+  displayName: WolfoQoL_OptionalExtras
+  description: "[RequiredByAllPlayers] Adds more buff icons to track certain
+    things. Adds Consumed Keys and Prayer Beads"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753577950703
+  loaders: []
+  dependencies:
+    - Wolfo-WolfoQualityOfLife-4.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 4
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-WolfoQoL_OptionalExtras\icon.png
 - manifestVersion: 1
   name: HIFU-HuntressAutoaimFix
   authorName: HIFU
@@ -1404,18 +1556,44 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753579231588
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - Rune580-Risk_Of_Options-2.5.3
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-HookGenPatcher-1.2.4
+    - Rune580-Risk_Of_Options-2.8.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 3
+    minor: 2
+    patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\HIFU-HuntressAutoaimFix\icon.png
+- manifestVersion: 1
+  name: Moffein-AI_Blacklist
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/AI_Blacklist/
+  displayName: AI_Blacklist
+  description: Lets you blacklist items from Monsters, Vengeance Doppelgangers,
+    Scavengers, and Mithrix. Server-Side and Vanilla-Compatible.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753581792610
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-HookGenPatcher-1.2.4
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 4
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-AI_Blacklist\icon.png
 - manifestVersion: 1
   name: Moffein-EnigmaBlacklist
   authorName: Moffein
@@ -1427,41 +1605,19 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753580364795
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.1902
+    - bbepis-BepInExPack-5.4.2116
+    - RiskofThunder-HookGenPatcher-1.2.4
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 3
+    patch: 4
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-EnigmaBlacklist\icon.png
-- manifestVersion: 1
-  name: Moffein-Lunar_Wisp_Falloff
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/Lunar_Wisp_Falloff/
-  displayName: Lunar_Wisp_Falloff
-  description: Enables damage falloff on Lunar Wisp hitscan attacks. Server-side
-    and Vanilla-Compatible.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - RiskofThunder-HookGenPatcher-1.2.3
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Lunar_Wisp_Falloff\icon.png
 - manifestVersion: 1
   name: Moffein-GestureEnigma
   authorName: Moffein
@@ -1473,11 +1629,62 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753580393956
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-4.0.11
-    - bbepis-BepInExPack-5.4.1902
-    - Moffein-EnigmaBlacklist-1.0.3
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-R2API_Language-1.0.1
+    - Moffein-EnigmaBlacklist-1.0.4
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-GestureEnigma\icon.png
+- manifestVersion: 1
+  name: Moffein-NoBazaarKickout
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/NoBazaarKickout/
+  displayName: NoBazaarKickout
+  description: Prevents the Newt from kicking you out of the bazaar. Server-side
+    and vanilla compatible.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753580502233
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-HookGenPatcher-1.2.4
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-NoBazaarKickout\icon.png
+- manifestVersion: 1
+  name: Moffein-NetworkedPrayerBeads
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/NetworkedPrayerBeads/
+  displayName: NetworkedPrayerBeads
+  description: Fixes Prayer Bead stats being desynced. Everyone needs the mod.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1753580910260
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-HookGenPatcher-1.2.5
+    - RiskofThunder-R2API_Core-5.1.3
+    - RiskofThunder-R2API_Items-1.0.4
+    - RiskofThunder-R2API_RecalculateStats-1.4.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
@@ -1485,29 +1692,7 @@
     minor: 0
     patch: 1
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-GestureEnigma\icon.png
-- manifestVersion: 1
-  name: William758-CorpseBloomReborn
-  authorName: William758
-  websiteUrl: https://thunderstore.io/package/William758/CorpseBloomReborn/
-  displayName: CorpseBloomReborn
-  description: CorpseBloom Adjustment, Highly Configurable!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.1903
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\William758-CorpseBloomReborn\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-NetworkedPrayerBeads\icon.png
 - manifestVersion: 1
   name: MagnusMagnuson-BazaarPrinter
   authorName: MagnusMagnuson
@@ -1518,16 +1703,17 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753581003521
   loaders: []
   dependencies:
-    - tristanmcpherson-R2API-4.0.11
-    - bbepis-BepInExPack-5.4.1901
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-R2API_Core-5.1.5
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 3
-    patch: 0
+    patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\MagnusMagnuson-BazaarPrinter\icon.png
 - manifestVersion: 1
@@ -1540,17 +1726,18 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753581323214
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - RiskofThunder-HookGenPatcher-1.2.1
-    - tristanmcpherson-R2API-4.0.11
+    - bbepis-BepInExPack-5.4.2120
+    - tristanmcpherson-R2API-5.0.5
+    - RiskofThunder-HookGenPatcher-1.2.9
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 4
+    patch: 5
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\cbrl-ShrineOfDisorder\icon.png
 - manifestVersion: 1
@@ -1564,6 +1751,7 @@
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753581441513
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.1902
@@ -1576,811 +1764,49 @@
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\DestroyedClone-SpawnPointMover\icon.png
 - manifestVersion: 1
-  name: Moffein-BetterCommandArtifact
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/BetterCommandArtifact/
-  displayName: BetterCommandArtifact
-  description: Updated verison of boops BetterCommandArtifact that fixes a few
-    bugs with it. Server-side and Vanilla-compatible!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.1902
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 3
-    patch: 0
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-BetterCommandArtifact\icon.png
-- manifestVersion: 1
-  name: Moffein-MoreSacrificeInteractables
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/MoreSacrificeInteractables/
-  displayName: MoreSacrificeInteractables
-  description: Allows Equipment Barrels, Lunar Pods, and Void Cradles to spawn
-    while Sacrifice is enabled. Server-Side and Vanilla-Compatible!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.1905
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-MoreSacrificeInteractables\icon.png
-- manifestVersion: 1
-  name: Moffein-AI_Blacklist
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/AI_Blacklist/
-  displayName: AI_Blacklist
-  description: Lets you blacklist items from Monsters, Vengeance Doppelgangers,
-    Scavengers, and Mithrix. Server-Side and Vanilla-Compatible.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - RiskofThunder-HookGenPatcher-1.2.3
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 6
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-AI_Blacklist\icon.png
-- manifestVersion: 1
-  name: KingEnderBrine-RandomCharacterSelection
-  authorName: KingEnderBrine
-  websiteUrl: https://thunderstore.io/package/KingEnderBrine/RandomCharacterSelection/
-  displayName: RandomCharacterSelection
-  description: Adds buttons to pick a random character and random loadout
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.1903
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 4
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\KingEnderBrine-RandomCharacterSelection\icon.png
-- manifestVersion: 1
-  name: KingEnderBrine-LoadoutMetamorphosis
-  authorName: KingEnderBrine
-  websiteUrl: https://thunderstore.io/package/KingEnderBrine/LoadoutMetamorphosis/
-  displayName: LoadoutMetamorphosis
-  description: Metamorphosis artifact now also randomize loadout
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1903
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 0
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\KingEnderBrine-LoadoutMetamorphosis\icon.png
-- manifestVersion: 1
-  name: KingEnderBrine-PartialMetamorphosis
-  authorName: KingEnderBrine
-  websiteUrl: https://thunderstore.io/package/KingEnderBrine/PartialMetamorphosis/
-  displayName: PartialMetamorphosis
-  description: Allows Metamorphosis artifact to be applied only on those who selected it
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.1903
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 3
-    patch: 0
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\KingEnderBrine-PartialMetamorphosis\icon.png
-- manifestVersion: 1
-  name: prodzpod-AchievementPins
-  authorName: prodzpod
-  websiteUrl: https://thunderstore.io/package/prodzpod/AchievementPins/
-  displayName: AchievementPins
-  description: Pin your achievement to the side in game.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.2103
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\prodzpod-AchievementPins\icon.png
-- manifestVersion: 1
-  name: Moffein-Clay_Men
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/Clay_Men/
-  displayName: Clay_Men
-  description: Adds the unused Clay Man to spawn pool.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1903
-    - tristanmcpherson-R2API-4.4.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 5
-    patch: 5
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Clay_Men\icon.png
-- manifestVersion: 1
-  name: Gnome-ChefMod
-  authorName: Gnome
-  websiteUrl: https://thunderstore.io/package/Gnome/ChefMod/
-  displayName: ChefMod
-  description: Adds the CHEF robot from RoR1 as a survivor. Multiplayer-compatible!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.4.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 2
-    patch: 8
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Gnome-ChefMod\icon.png
-- manifestVersion: 1
-  name: Paladin_Alliance-PaladinMod
-  authorName: Paladin_Alliance
-  websiteUrl: https://thunderstore.io/package/Paladin_Alliance/PaladinMod/
-  displayName: PaladinMod
-  description: Adds Paladin, a fully fleshed out custom survivor (models by Zenta
-    and SkeletorChampion).
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.3.21
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 6
-    patch: 3
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Paladin_Alliance-PaladinMod\icon.png
-- manifestVersion: 1
-  name: Moffein-PaladinHealthTweak
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/PaladinHealthTweak/
-  displayName: PaladinHealthTweak
-  description: Changes Paladin's level health scaling from +40% to +30% and sprint
-    multiplier from 1.6 to 1.45 to match other survivors.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - Paladin_Alliance-PaladinMod-1.5.10
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-PaladinHealthTweak\icon.png
-- manifestVersion: 1
-  name: EnforcerGang-Enforcer
-  authorName: EnforcerGang
-  websiteUrl: https://thunderstore.io/package/EnforcerGang/Enforcer/
-  displayName: Enforcer
-  description: Adds the Enforcer from Risk of Rain 1 as a fully fleshed out
-    playable survivor.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - RiskofThunder-R2API_Unlockable-1.0.0
-    - RiskofThunder-R2API_RecalculateStats-1.0.0
-    - RiskofThunder-R2API_Director-1.0.0
-    - RiskofThunder-R2API_DamageType-1.0.0
-    - RiskofThunder-R2API_Prefab-1.0.1
-    - RiskofThunder-R2API_Core-5.0.3
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 3
-    minor: 8
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-Enforcer\icon.png
-- manifestVersion: 1
-  name: EnforcerGang-HAND_OVERCLOCKED
-  authorName: EnforcerGang
-  websiteUrl: https://thunderstore.io/package/EnforcerGang/HAND_OVERCLOCKED/
-  displayName: HAND_OVERCLOCKED
-  description: Adds HAN-D, the classic robot janitor from Risk of Rain 1.
-    Multiplayer-compatible!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.4.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 4
-    patch: 5
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-HAND_OVERCLOCKED\icon.png
-- manifestVersion: 1
-  name: EnforcerGang-MinerUnearthed
-  authorName: EnforcerGang
-  websiteUrl: https://thunderstore.io/package/EnforcerGang/MinerUnearthed/
-  displayName: MinerUnearthed
-  description: Adds the Miner from Risk of Rain 1. | translation updates
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.4.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 9
-    patch: 10
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-MinerUnearthed\icon.png
-- manifestVersion: 1
-  name: Moffein-Heretic
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/Heretic/
-  displayName: Heretic
-  description: Adds the Heretic as a selectable survivor with stats balanced
-    around the base cast. Grab all 4 Heresy items to power up!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.4.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Heretic\icon.png
-- manifestVersion: 1
-  name: EnforcerGang-SniperClassic
-  authorName: EnforcerGang
-  websiteUrl: https://thunderstore.io/package/EnforcerGang/SniperClassic/
-  displayName: SniperClassic
-  description: Adds the Sniper from Risk of Rain 1 along with his Spotter drone.
-    Multiplayer-compatible!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - tristanmcpherson-R2API-4.4.1
-    - bbepis-BepInExPack-5.4.2103
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 5
-    patch: 7
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-SniperClassic\icon.png
-- manifestVersion: 1
-  name: EnforcerGang-Rocket
-  authorName: EnforcerGang
-  websiteUrl: https://thunderstore.io/package/EnforcerGang/Rocket/
-  displayName: Rocket
-  description: Shoot feet, get kills. Multiplayer-compatible!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.4.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 9
-    patch: 10
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\EnforcerGang-Rocket\icon.png
-- manifestVersion: 1
-  name: TheTimesweeper-Tesla_Trooper
-  authorName: TheTimesweeper
-  websiteUrl: https://thunderstore.io/package/TheTimesweeper/Tesla_Trooper/
-  displayName: Tesla_Trooper
-  description: Make it glow. Adds two new survivors, Tesla Trooper and Desolator,
-    based on Red Alert 2, themed around RoR2.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.2101
-    - RiskofThunder-R2API_Unlockable-1.0.0
-    - RiskofThunder-R2API_RecalculateStats-1.0.0
-    - RiskofThunder-R2API_Dot-1.0.0
-    - RiskofThunder-R2API_Deployable-1.0.0
-    - RiskofThunder-R2API_DamageType-1.0.0
-    - RiskofThunder-R2API_Colors-1.0.0
-    - RiskofThunder-R2API_Prefab-1.0.1
-    - RiskofThunder-R2API_Core-5.0.3
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 1
-    patch: 6
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TheTimesweeper-Tesla_Trooper\icon.png
-- manifestVersion: 1
-  name: rob_gaming-Driver
-  authorName: rob_gaming
-  websiteUrl: https://thunderstore.io/package/rob_gaming/Driver/
-  displayName: Driver
-  description: Adds the Driver, a mostly grounded survivor focused on simple
-    gunplay. New skin!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-5.0.5
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 4
-    patch: 3
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\rob_gaming-Driver\icon.png
-- manifestVersion: 1
-  name: Moffein-Joker_Mode
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/Joker_Mode/
-  displayName: Joker_Mode
-  description: Adds a Special skill to Void Fiend to make him go Joker Mode.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.4.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Joker_Mode\icon.png
-- manifestVersion: 1
-  name: Moffein-BlightedElites
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/BlightedElites/
-  displayName: BlightedElites
-  description: Brings back Blighted Elites from RoR1.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1905
-    - tristanmcpherson-R2API-4.4.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 8
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-BlightedElites\icon.png
-- manifestVersion: 1
-  name: Moffein-Archaic_Wisp
-  authorName: Moffein
-  websiteUrl: https://thunderstore.io/package/Moffein/Archaic_Wisp/
-  displayName: Archaic_Wisp
-  description: Adds the unused Archaic Wisp enemy to spawn pool.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1903
-    - tristanmcpherson-R2API-4.4.1
-    - Moffein-FixDamageTrailNullref-1.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 4
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Archaic_Wisp\icon.png
-- manifestVersion: 1
-  name: TheTimesweeper-Regigigas
-  authorName: TheTimesweeper
-  websiteUrl: https://thunderstore.io/package/TheTimesweeper/Regigigas/
-  displayName: Regigigas
-  description: Adds a new boss to the game, Regigigas. Fully compatible with
-    multiplayer! Includes playable and ror2-fitting versions in config. |
-    Originally by rob, fixed by me, now maintained by rob again
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.2101
-    - tristanmcpherson-R2API-5.0.5
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 4
-    patch: 10
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TheTimesweeper-Regigigas\icon.png
-- manifestVersion: 1
-  name: Nuxlar-CoolerMithrix
-  authorName: Nuxlar
-  websiteUrl: https://thunderstore.io/package/Nuxlar/CoolerMithrix/
-  displayName: CoolerMithrix
-  description: Brings back the throne and makes the arena cooler. Configurable
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.2103
-    - RiskofThunder-HookGenPatcher-1.2.3
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Nuxlar-CoolerMithrix\icon.png
-- manifestVersion: 1
-  name: HIFU-LunarConstruct
-  authorName: HIFU
-  websiteUrl: https://thunderstore.io/package/HIFU/LunarConstruct/
-  displayName: LunarConstruct
-  description: Spices up Commencement by adding a fodder enemy. Requires Survivors
-    of The Void to function.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - RiskofThunder-R2API_Language-1.0.1
-    - RiskofThunder-R2API_Prefab-1.0.3
-    - bbepis-BepInExPack-5.4.2113
-    - RiskofThunder-R2API_ContentManagement-1.0.2
-    - RiskofThunder-R2API_Director-2.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 3
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\HIFU-LunarConstruct\icon.png
-- manifestVersion: 1
-  name: amogus_lovers-StandaloneAncientScepter
-  authorName: amogus_lovers
-  websiteUrl: https://thunderstore.io/package/amogus_lovers/StandaloneAncientScepter/
-  displayName: StandaloneAncientScepter
-  description: 1.1.33 - Pre-Rewrite Triage | A full port of ThinkInvisible's
-    Ancient Scepter, complete with a custom model, item displays, and no extra
-    dependencies.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.2103
-    - RiskofThunder-R2API_Orb-1.0.0
-    - RiskofThunder-R2API_Language-1.0.0
-    - RiskofThunder-R2API_DamageType-1.0.0
-    - RiskofThunder-R2API_Items-1.0.1
-    - RiskofThunder-R2API_Prefab-1.0.1
-    - RiskofThunder-R2API_ContentManagement-1.0.1
-    - RiskofThunder-R2API_Core-5.0.4
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 33
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\amogus_lovers-StandaloneAncientScepter\icon.png
-- manifestVersion: 1
-  name: William758-ZetAspects
+  name: William758-CorpseBloomReborn
   authorName: William758
-  websiteUrl: https://thunderstore.io/package/William758/ZetAspects/
-  displayName: ZetAspects
-  description: Stackable elite aspects with new effects. Highly Configurable.
+  websiteUrl: https://thunderstore.io/package/William758/CorpseBloomReborn/
+  displayName: CorpseBloomReborn
+  description: CorpseBloom Adjustment, Highly Configurable!
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753583111112
   loaders: []
   dependencies:
-    - RiskofThunder-HookGenPatcher-1.2.3
-    - bbepis-BepInExPack-5.4.1903
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 7
-    patch: 35
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\William758-ZetAspects\icon.png
-- manifestVersion: 1
-  name: TeamMoonstorm-Starstorm2
-  authorName: TeamMoonstorm
-  websiteUrl: https://thunderstore.io/package/TeamMoonstorm/Starstorm2/
-  displayName: Starstorm2
-  description: A general content mod adapting Risk of Rain 1's Starstorm
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - KingEnderBrine-ScrollableLobbyUI-1.7.6
-    - RiskofThunder-R2API_Networking-1.0.2
-    - KingEnderBrine-LobbySkinsFix-1.2.1
-    - RiskofThunder-R2API_Dot-1.0.1
-    - RiskofThunder-R2API_Deployable-1.0.1
-    - RiskofThunder-R2API_TempVisualEffect-1.0.2
-    - RiskofThunder-R2API_Prefab-1.0.3
-    - RiskofThunder-R2API_Difficulty-1.1.2
-    - TeamMoonstorm-MoonstormSharedUtils-1.6.3
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 6
-    patch: 7
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\TeamMoonstorm-Starstorm2\icon.png
-- manifestVersion: 1
-  name: Zenithrium-VanillaVoid
-  authorName: Zenithrium
-  websiteUrl: https://thunderstore.io/package/Zenithrium/VanillaVoid/
-  displayName: VanillaVoid
-  description: Adds more void variants for vanilla items, and tweaks and expands
-    upon some void content.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.2103
-    - RiskofThunder-R2API_ContentManagement-1.0.1
-    - RiskofThunder-R2API_RecalculateStats-1.2.0
-    - RiskofThunder-R2API_Language-1.0.1
-    - RiskofThunder-R2API_Director-1.1.1
-    - RiskofThunder-R2API_Prefab-1.0.3
-    - RiskofThunder-R2API_Items-1.0.3
-    - RiskofThunder-R2API_Core-5.0.10
+    - bbepis-BepInExPack-5.4.2117
+    - RiskofThunder-HookGenPatcher-1.2.4
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 5
-    patch: 13
+    minor: 3
+    patch: 0
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Zenithrium-VanillaVoid\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\William758-CorpseBloomReborn\icon.png
 - manifestVersion: 1
-  name: Skell-GoldenCoastPlus
-  authorName: Skell
-  websiteUrl: https://thunderstore.io/package/Skell/GoldenCoastPlus/
-  displayName: GoldenCoastPlus
-  description: Adds some things to Golden Coast in the hopes of making it a more
-    interesting and fun environment to visit.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.1801
-    - tristanmcpherson-R2API-4.3.5
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 6
-    patch: 5
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Skell-GoldenCoastPlus\icon.png
-- manifestVersion: 1
-  name: PlasmaCore3-Forgotten_Relics
-  authorName: PlasmaCore3
-  websiteUrl: https://thunderstore.io/package/PlasmaCore3/Forgotten_Relics/
-  displayName: Forgotten_Relics
-  description: Realms left to time. A content pack focused on maps and monsters
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.2103
-    - RiskofThunder-R2API_Sound-1.0.0
-    - RiskofThunder-R2API_Prefab-1.0.0
-    - RiskofThunder-R2API_Networking-1.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 24
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\PlasmaCore3-Forgotten_Relics\icon.png
-- manifestVersion: 1
-  name: prodzpod-RecoveredAndReformed
+  name: prodzpod-RealerCheatUnlocks
   authorName: prodzpod
-  websiteUrl: https://thunderstore.io/package/prodzpod/RecoveredAndReformed/
-  displayName: RecoveredAndReformed
-  description: Brings back cut enemies and rebalances them. also does some family
-    event stuff. Highly Configurable.
+  websiteUrl: https://thunderstore.io/package/prodzpod/RealerCheatUnlocks/
+  displayName: RealerCheatUnlocks
+  description: Right-click unlockables to unlock/relock them. AFFECTS STEAM/EGS
+    ACHIEVEMENTS!
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
+  installedAtTime: 1753582381370
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.2103
-    - RiskofThunder-R2API_Language-1.0.0
-    - RiskofThunder-R2API_Director-1.0.0
     - RiskofThunder-HookGenPatcher-1.2.3
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 2
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\prodzpod-RecoveredAndReformed\icon.png
-- manifestVersion: 1
-  name: JaceDaDorito-FogboundLagoon
-  authorName: JaceDaDorito
-  websiteUrl: https://thunderstore.io/package/JaceDaDorito/FogboundLagoon/
-  displayName: FogboundLagoon
-  description: I can't even see my reflection in the water... only those
-    mysterious crimson lights...
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.2110
-    - RiskofThunder-HookGenPatcher-1.2.3
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 3
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\JaceDaDorito-FogboundLagoon\icon.png
-- manifestVersion: 1
-  name: Wolfo-WolfoAlternateSkins
-  authorName: Wolfo
-  websiteUrl: https://thunderstore.io/package/Wolfo/WolfoAlternateSkins/
-  displayName: WolfoAlternateSkins
-  description: Adds 30+ skin recolors for vanilla characters and 30+ skin recolors
-    for modded characters. A lot of them based on RoR:Returns palettes. Unlocked
-    by beating alt endings or Simulacrum wave 50. Subsidiary of Simulacrum
-    Additions.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - bbepis-BepInExPack-5.4.9
-    - RiskofThunder-HookGenPatcher-1.2.1
-    - tristanmcpherson-R2API-5.0.5
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 6
-    patch: 1
-  enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-WolfoAlternateSkins\icon.png
+    minor: 0
+    patch: 4
+  enabled: false
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\prodzpod-RealerCheatUnlocks\1.0.4\icon.png

@@ -4,11 +4,108 @@
         <name>R2API.Skins</name>
     </assembly>
     <members>
+        <member name="T:R2API.SkinLightReplacement">
+            <summary>
+            Static class utilized for implementing Light Replacements for a Model
+            </summary>
+        </member>
+        <member name="M:R2API.SkinLightReplacement.AddLightReplacement(RoR2.SkinDef,R2API.LightReplacement[])">
+            <summary>
+            Adds new LightReplacements that will be applied to a SkinDef
+            </summary>
+            <param name="targetSkinDef">The skin def which will apply the light replacements.</param>
+            <param name="lightReplacements">The light replacements for the skin.</param>
+            <returns>true if the light replacement was added succesfully, false otherwise.</returns>
+        </member>
+        <member name="T:R2API.LightReplacement">
+            <summary>
+            Struct that represents a LightReplacement for a Skin
+            </summary>
+        </member>
+        <member name="T:R2API.SkinDefParamsInfo">
+            <summary>
+            A container struct for all SkinDef and SkinDefParams data.
+            Use this to set skinDef values, then call CreateNewSkinDef().
+            Leave SkinDefParams null to create one automatically with the given arrays.
+            If SkinDefParams is not null, the arrays will be ignored and the SkinDefParams fields will take priority.
+            </summary>
+        </member>
+        <member name="F:R2API.SkinDefParamsInfo.Name">
+            <summary> Unity's internal name. Don't use spaces, cannot be null. </summary>
+        </member>
+        <member name="F:R2API.SkinDefParamsInfo.NameToken">
+            <summary> NameToken used for localization, or the user visible name if not found. Don't use spaces, cannot be null. </summary>
+        </member>
+        <member name="F:R2API.SkinDefParamsInfo.Icon">
+            <summary> Icon associated with the skin. </summary>
+        </member>
+        <member name="F:R2API.SkinDefParamsInfo.UnlockableDef">
+            <summary> UnlockableDef associated with the skin. </summary>
+        </member>
+        <member name="F:R2API.SkinDefParamsInfo.RootObject">
+            <summary> Root CharacterModel object. </summary>
+        </member>
+        <member name="F:R2API.SkinDefParamsInfo.BaseSkins">
+            <summary> The skins which will be applied before this one. </summary>
+        </member>
+        <member name="F:R2API.SkinDefParamsInfo.SkinDefParams">
+            <summary> Leave null to create this automatically. </summary>
+        </member>
+        <member name="F:R2API.SkinDefParamsInfo.RendererInfos">
+            <summary> Used when SkinDefParams is null. </summary>
+        </member>
+        <member name="F:R2API.SkinDefParamsInfo.MeshReplacements">
+            <summary> Used when SkinDefParams is null. </summary>
+        </member>
+        <member name="F:R2API.SkinDefParamsInfo.GameObjectActivations">
+            <summary> Used when SkinDefParams is null. </summary>
+        </member>
+        <member name="F:R2API.SkinDefParamsInfo.ProjectileGhostReplacements">
+            <summary> Used when SkinDefParams is null. </summary>
+        </member>
+        <member name="F:R2API.SkinDefParamsInfo.MinionSkinReplacements">
+            <summary> Used when SkinDefParams is null. </summary>
+        </member>
         <member name="T:R2API.SkinDefInfo">
             <summary>
-            A container struct for all SkinDef parameters.
-            Use this to set skinDef values, then call CreateNewSkinDef().
+            Use <see cref="T:R2API.SkinDefParamsInfo"/> instead
             </summary>
+        </member>
+        <member name="F:R2API.SkinDefInfo.BaseSkins">
+            <summary> Use <see cref="F:R2API.SkinDefParamsInfo.BaseSkins"/> instead </summary>
+        </member>
+        <member name="F:R2API.SkinDefInfo.Icon">
+            <summary> Use <see cref="F:R2API.SkinDefParamsInfo.Icon"/> instead  </summary>
+        </member>
+        <member name="F:R2API.SkinDefInfo.NameToken">
+            <summary> Use <see cref="F:R2API.SkinDefParamsInfo.NameToken"/> instead  </summary>
+        </member>
+        <member name="F:R2API.SkinDefInfo.UnlockableDef">
+            <summary> Use <see cref="F:R2API.SkinDefParamsInfo.UnlockableDef"/> instead  </summary>
+        </member>
+        <member name="F:R2API.SkinDefInfo.RootObject">
+            <summary> Use <see cref="F:R2API.SkinDefParamsInfo.RootObject"/> instead  </summary>
+        </member>
+        <member name="F:R2API.SkinDefInfo.RendererInfos">
+            <summary> Use <see cref="F:R2API.SkinDefParamsInfo.RendererInfos"/> instead  </summary>
+        </member>
+        <member name="F:R2API.SkinDefInfo.MeshReplacements">
+            <summary> Use <see cref="F:R2API.SkinDefParamsInfo.MeshReplacements"/> instead  </summary>
+        </member>
+        <member name="F:R2API.SkinDefInfo.GameObjectActivations">
+            <summary> Use <see cref="F:R2API.SkinDefParamsInfo.GameObjectActivations"/> instead  </summary>
+        </member>
+        <member name="F:R2API.SkinDefInfo.ProjectileGhostReplacements">
+            <summary> Use <see cref="F:R2API.SkinDefParamsInfo.ProjectileGhostReplacements"/> instead  </summary>
+        </member>
+        <member name="F:R2API.SkinDefInfo.MinionSkinReplacements">
+            <summary> Use <see cref="F:R2API.SkinDefParamsInfo.MinionSkinReplacements"/> instead  </summary>
+        </member>
+        <member name="F:R2API.SkinDefInfo.Name">
+            <summary> Use <see cref="F:R2API.SkinDefParamsInfo.Name"/> instead  </summary>
+        </member>
+        <member name="M:R2API.SkinDefInfo.op_Implicit(R2API.SkinDefInfo)~R2API.SkinDefParamsInfo">
+            <summary> Converts to <see cref="T:R2API.SkinDefParamsInfo"/> </summary>
         </member>
         <member name="T:R2API.SkinIDRS">
             <summary>
@@ -23,6 +120,52 @@
             <param name="skinDef"></param>
             <param name="ruleSet"></param>
             <returns>True if added succesfully, false otherwise</returns>
+        </member>
+        <member name="M:R2API.SkinIDRS.AddGroupOverride(RoR2.SkinDef,UnityEngine.Object,RoR2.DisplayRuleGroup)">
+            <summary>
+            Adds a displayRuleGroup override for ItemDef/EquipmentDef. If there was no IDRS for the skin, a clone of the IDRS from CharacterModel from a body prefab will be taken as base.
+            </summary>
+            <param name="skinDef"></param>
+            <param name="keyAsset">ItemDef/EquipmentDef</param>
+            <param name="displayRuleGroup"></param>
+            <returns></returns>
+        </member>
+        <member name="M:R2API.Skins.CreateNewSkinDef(R2API.SkinDefParamsInfo)">
+            <summary>
+            Creates a new SkinDef from a SkinDefInfo.
+            </summary>
+            <param name="skin">Will be used to populate the SkinDef</param>
+            <returns>The new SkinDef</returns>
+        </member>
+        <member name="M:R2API.Skins.CreateNewSkinDef(R2API.SkinDefInfo)">
+            <summary>
+            Use <see cref="M:R2API.Skins.CreateNewSkinDef(R2API.SkinDefParamsInfo)"/> instead
+            </summary>
+        </member>
+        <member name="M:R2API.Skins.AddSkinToCharacter(UnityEngine.GameObject,R2API.SkinDefParamsInfo)">
+            <summary>
+            Adds a skin to the body prefab for a character.
+            Will attempt to create a default skin if one is not present.
+            Must be called during plugin Awake or OnEnable. If called afterwards the new skins must be added to bodycatalog manually.
+            </summary>
+            <param name="bodyPrefab">The body to add the skin to</param>
+            <param name="skin">The SkinDefInfo for the skin to add</param>
+            <returns>True if successful</returns>
+        </member>
+        <member name="M:R2API.Skins.AddSkinToCharacter(UnityEngine.GameObject,R2API.SkinDefInfo)">
+            <summary>
+            Use <see cref="M:R2API.Skins.AddSkinToCharacter(UnityEngine.GameObject,R2API.SkinDefParamsInfo)"/> instead
+            </summary>
+        </member>
+        <member name="M:R2API.Skins.AddSkinToCharacter(UnityEngine.GameObject,RoR2.SkinDef)">
+            <summary>
+            Adds a skin to the body prefab for a character.
+            Will attempt to create a default skin if one is not present.
+            Must be called during plugin Awake or OnEnable. If called afterwards the new skins must be added to bodycatalog manually.
+            </summary>
+            <param name="bodyPrefab">The body to add the skin to</param>
+            <param name="skin">The SkinDef to add</param>
+            <returns>True if successful</returns>
         </member>
         <member name="M:R2API.Skins.CreateSkinIcon(UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color)">
             <summary>
@@ -43,36 +186,7 @@
             <param name="bottom">The color of the bottom portion</param>
             <param name="left">The color of the left portion</param>
             <param name="line">The color of the dividing lines</param>
-            <returns></returns>
-        </member>
-        <member name="M:R2API.Skins.CreateNewSkinDef(R2API.SkinDefInfo)">
-            <summary>
-            Creates a new SkinDef from a SkinDefInfo.
-            Note that this prevents null-refs by disabling SkinDef awake while the SkinDef is being created.
-            The things that occur during awake are performed when first applied to a character instead.
-            </summary>
-            <param name="skin"></param>
-            <returns></returns>
-        </member>
-        <member name="M:R2API.Skins.AddSkinToCharacter(UnityEngine.GameObject,R2API.SkinDefInfo)">
-            <summary>
-            Adds a skin to the body prefab for a character.
-            Will attempt to create a default skin if one is not present.
-            Must be called during plugin Awake or OnEnable. If called afterwards the new skins must be added to bodycatalog manually.
-            </summary>
-            <param name="bodyPrefab">The body to add the skin to</param>
-            <param name="skin">The SkinDefInfo for the skin to add</param>
-            <returns>True if successful</returns>
-        </member>
-        <member name="M:R2API.Skins.AddSkinToCharacter(UnityEngine.GameObject,RoR2.SkinDef)">
-            <summary>
-            Adds a skin to the body prefab for a character.
-            Will attempt to create a default skin if one is not present.
-            Must be called during plugin Awake or OnEnable. If called afterwards the new skins must be added to bodycatalog manually.
-            </summary>
-            <param name="bodyPrefab">The body to add the skin to</param>
-            <param name="skin">The SkinDef to add</param>
-            <returns>True if successful</returns>
+            <returns>The icon sprite</returns>
         </member>
         <member name="F:R2API.Skins.PluginVersion">
             <summary>

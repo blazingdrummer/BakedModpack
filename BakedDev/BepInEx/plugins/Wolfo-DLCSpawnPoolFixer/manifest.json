@@ -1,0 +1,11 @@
+{
+    "name": "DLCSpawnPoolFixer",
+    "version_number": "1.3.4",
+    "website_url": "https://github.com/WolfoIsBestWolf/ror2-WolfFixes",
+    "description": "[ServerSide] Fixes issues related to: Improper spawnpools, Radar Towers not spawning. Re-Adds SotV replacing some enemies in some spawn pools.",
+    "dependencies": [
+		"Wolfo-WolfFixes-1.1.14",
+		"bbepis-BepInExPack-5.4.9",
+		"RiskofThunder-HookGenPatcher-1.2.1"
+    ]
+}

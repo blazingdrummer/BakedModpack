@@ -124,6 +124,15 @@
             <param name="gameModePrefab">The GameModePrefab to add.</param>
             <returns>true if valid and added, false if one of the requirements is not met</returns>
         </member>
+        <member name="M:R2API.ContentAddition.AddGameMode(UnityEngine.GameObject,System.String)">
+            <summary>
+            Adds a GameModePrefab to your Mod's ContentPack
+            <para>GameModePrefab requires a Run component.</para>
+            </summary>
+            <param name="gameModePrefab">The GameModePrefab to add.</param>
+            <param name="gameModeDescription">The description that shows up when hovering over the menu button.</param>
+            <returns>true if valid and added, false if one of the requirements is not met</returns>
+        </member>
         <member name="M:R2API.ContentAddition.AddNetworkedObject(UnityEngine.GameObject)">
             <summary>
             Adds a NetworkedObject prefab to your Mod's ContentPack
@@ -325,6 +334,16 @@
             <param name="entityStateType">The State's StateType</param>
             <param name="wasAdded">wether or not the state type was succesfully added or not</param>
             <returns>A SerializableEntityStateType, the StateType will be null if wasAdded is false.</returns>
+        </member>
+        <member name="T:R2API.GameModeFixes">
+            <summary>
+            Class for adding better modded GameMode support.
+            </summary>
+        </member>
+        <member name="T:R2API.GameModeInfo">
+            <summary>
+            Component to attach to your GameMode prefab. buttonHoverDescription is the only current attribute.
+            </summary>
         </member>
         <member name="M:R2API.ScriptableObjects.R2APISerializableContentPack.GetOrCreateContentPack">
             <summary>

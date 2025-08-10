@@ -1,10 +1,22 @@
 {
   "name": "RiskyMod",
-  "version_number": "1.5.14",
+  "version_number": "2.6.2",
   "website_url": "https://github.com/Moffein/RiskyMod",
   "description": "A full game rebalance that aims to bring the game closer to RoR1. Highly configurable!",
   "dependencies": [
-    "bbepis-BepInExPack-5.4.1905",
-	"tristanmcpherson-R2API-4.4.1"
+	"Moffein-EliteReworks-1.15.0",
+	"Risky_Lives-RiskyTweaks-1.7.0",
+	"Risky_Lives-RiskyFixes-1.7.1",
+	"Moffein-AssistManager-1.4.0",
+	"Moffein-DefenseMatrixManager-1.0.3",
+    "bbepis-BepInExPack-5.4.2120",
+	"RiskofThunder-HookGenPatcher-1.2.8",
+	"RiskofThunder-R2API_Core-5.1.5",
+	"RiskofThunder-R2API_RecalculateStats-1.5.0",
+	"RiskofThunder-R2API_Prefab-1.0.4",
+	"RiskofThunder-R2API_Items-1.0.5",
+	"RiskofThunder-R2API_Sound-1.0.3",
+	"RiskofThunder-R2API_DamageType-1.1.7",
+	"RiskofThunder-R2API_ProcType-1.0.2"
   ]
 }

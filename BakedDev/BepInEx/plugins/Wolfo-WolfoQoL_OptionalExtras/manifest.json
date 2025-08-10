@@ -1,0 +1,9 @@
+{
+    "name": "WolfoQoL_OptionalExtras",
+    "version_number": "4.0.2",
+    "website_url": "https://github.com/WolfoIsBestWolf/ror2-WolfoQualityoLlife",
+    "description": "[RequiredByAllPlayers] Adds more buff icons to track certain things. Adds Consumed Keys and Prayer Beads",
+    "dependencies": [
+		"Wolfo-WolfoQualityOfLife-4.0.0"
+    ]
+}

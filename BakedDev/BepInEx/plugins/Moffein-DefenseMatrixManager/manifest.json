@@ -1,0 +1,10 @@
+{
+    "name": "DefenseMatrixManager",
+    "version_number": "1.0.3",
+    "website_url": "https://github.com/moffein/DefenseMatrixManager",
+    "description": "Library that allows for mods to add entities that can block hitscan attacks on a per-team basis.",
+    "dependencies": [
+    "bbepis-BepInExPack-5.4.2117",
+	"RiskofThunder-HookGenPatcher-1.2.4"
+    ]
+}

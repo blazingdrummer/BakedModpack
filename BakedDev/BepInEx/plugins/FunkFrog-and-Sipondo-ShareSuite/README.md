@@ -11,9 +11,11 @@ Multiplayer RoR2 games should be fast-paced wacky fun. Often times, though, play
 
 ShareSuite is a mod with a multitude of systems designed around sharing the things you gather throughout a run, be it items, money, experience, equipment, or otherwise. Check out the "Features" section for more information!
 
-|    Most Recent Update - 2.8.1    |
+|    Most Recent Update - 2.9.0    |
 |:--------------------------------:|
-| Fix bug with items not disappearing for clients |
+| Update mod to function with latest update |
+| NOTE: There are still known issues with this version. |
+| We will be releasing a follow-up patch soon! |
 
 *If you'd like more info about this update, check the changelog at the bottom of the page!*
 
@@ -205,7 +207,13 @@ ShareSuite is a mod with a multitude of systems designed around sharing the thin
 
 [![Build](https://img.shields.io/travis/com/FunkFrog/RoR2SharedItems?label=Build&style=flat-square)](https://travis-ci.com/FunkFrog/RoR2SharedItems)[![Latest commit to Master](https://img.shields.io/github/last-commit/FunkFrog/RoR2SharedItems/master?label=Latest%20Commit%20%28master%29&style=flat-square)](https://github.com/FunkFrog/RoR2SharedItems)[![Latest commit to Dev](https://img.shields.io/github/last-commit/FunkFrog/RoR2SharedItems/dev?label=Latest%20Commit%20%28dev%29&style=flat-square)](https://github.com/FunkFrog/RoR2SharedItems/tree/dev)
 
-### `2.8.1 (Current Release)`
+### `2.9.0 (Current Release)`
+- Update mod to function with latest update 
+- NOTE: There are still known issues with this version. 
+	- We will be releasing a follow-up patch soon!
+	- Please report any new bugs on our GitHub and/or the Discord! Thank you!
+
+### `2.8.1`
 - Fix bug with items not disappearing for clients
 
 ### `2.8.0`
@@ -248,9 +256,6 @@ ShareSuite is a mod with a multitude of systems designed around sharing the thin
 ### `2.4.0`
 - Introduces a new Sacrifice fix to fix poor drop rates with larger groups of people
   - Thanks to raeon for the PR!
-
-### `2.3.0`
-- Fixed a bug where scrapper wouldn't output the correct amount of scrap
 
 **Looking for the changelogs for versions older then 5 prior? [Click here!](https://github.com/FunkFrog/RoR2SharedItems/blob/master/PreviousVersions.md)**
 

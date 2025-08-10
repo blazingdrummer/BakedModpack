@@ -1,8 +1,0 @@
-{
-	strings:
-	{
-	"MOFFEIN_CLAY_BODY_NAME" : "Clay Man",
-	"MOFFEIN_CLAY_BODY_LORE" : "Quick with his sword and quicker with his feet; the agility of these clay 'people' is unexpected with a form so roughly shaped.\n\nWhen faced with one of the few creatures here which I feel some humanity in, my aloneness closes in. Why do they have clay pots on their heads? Could it be protection from this cruel reality, or maybe just to hide the scars from this brutal planet.",
-	"UNLOCKABLE_LOG_MOFFEIN_CLAY_BODY" : "Monster Log: Clay Man"
-	}
-}

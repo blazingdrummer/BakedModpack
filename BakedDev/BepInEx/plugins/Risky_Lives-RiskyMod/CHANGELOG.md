@@ -1,3 +1,845 @@
+`2.6.2`
+
+- Fixed EclipseRevamped softdependency string?
+
+`2.6.1`
+
+- Reduced large holdout bonus from +12.5% to +10% (up to a maximum of +80%) to account for surface area scaling.
+
+`2.6.0`
+
+- Teleporter size scales for large lobbies. (5+ players)
+	- +12.5% per extra player, up to a maximum of +100% size (12 players).
+	
+- Void Seed limit is increased by 1 per loop, up to a maximum of 3 total.
+
+	*Bringing back some of the chaos of Vanilla's Void Seeds.*
+	
+- Champion Freeze Execute
+	- Lowered threshold from 15% to 10%
+	
+	*This was making Dunestriders and Vagrants too easy to counter. This is the number used for CHEF's Alt Special execute in Returns.*
+	
+- Artificer
+	- Disabled Ion Surge Utility by default. (Existing config unaffected)
+	- Disabled Utility (Snapfreeze) Self-Knockback by default. (Existing config unaffected)
+	
+	*Noticed these mesh pretty poorly with Artificer skill mods, as they all are balanced around her base skill/mobility distribution. These can still be re-enabled in the config.*
+
+`2.5.11`
+
+- If Proc Chains are disabled, Will o Wisp and Shatterspleen no longer have falloff.
+
+`2.5.10`
+
+- Fixed certain item changes not having a public access modifier for mod compatibility.
+
+`2.5.9`
+
+- Teleporter Expand after Boss is no longer disabled in Eclipse if EclipseRevamped is installed.
+
+`2.5.8`
+
+- Fixed Arrow Rain slowonhit being broken due to SotS.
+
+`2.5.7`
+
+- Fixed Loader's Magnetic Pylon not having a network check on force applied.
+- Made some setup stuff async.
+- Increased Blind Pest spawncost from 15 -> 20
+
+`2.5.6`
+
+- Replaced custom PrioritizePlayers hook with newly-added Vanilla one.
+
+`2.5.5`
+
+- Reverted 2.5.4
+
+`2.5.4`
+
+- Replaced all occurrences of OnLoad with OnLoadFinished due to MemOp update.
+
+`2.5.3`
+
+- Fixed Beetle Guard/Queen asset paths.
+
+`2.5.2`
+
+- Updated for MemOp.
+	- Some sounds may currently broken. Install the patcher mod that loads all sounds into memory once that exists.
+
+`2.5.1`
+
+- True OSP now gives priority to the standalone plugin.
+
+`2.5.0`
+
+*This update has a lot of internal system refactors. Let me know if anything borke.*
+
+- Removed all references to LegacyResourcesAPI. This is purely an internal change, but necessary for futureproofing.
+
+- True OSP
+	- Major refactoring of code to fix edge cases.
+	
+- Transcendence
+	- No longer shieldgates under any circumstance. (Removed config)
+	- Now just uses Vanilla OSP rules.
+	
+	*Necessary change because the special cases for it were making the True OSP and Shieldgating code unworkable.*
+	
+- Scorch Worm
+	- Fixed damage nerf not working.
+
+`2.4.6`
+
+- RiskyMod's DLC spawnpool fix is now disabled if DLCSpawnpoolFixer is installed, since that mod does a better job of fixing it.
+
+`2.4.5`
+
+- Removed DontAllowPastMaxStocks flag from custom skills since some mod is making this prevent stock increasing items from working.
+
+`2.4.4`
+
+- Wake of Vultures
+	- Fixed RiskyMod Perfected aspect not giving health/speed boosts.
+	
+- Allies
+	- Added Regigigas-specific code to SuperAttackResist.
+		- AoE Attack damage is reduced 1/3 against drones, as was originally intended by Rob.
+		- Attack damage is now capped at 90% of the drone's max health, so that Counter doesn't unconditionally instakill every single ally on your team.
+
+`2.4.3`
+
+- Fixed CHEF Frost not interacting with RiskyMod boss freeze execute.
+
+`2.4.2`
+
+- Fixed a nullref from enabling Behemoth changes in the config. Let me know if any other config options are broken.
+
+`2.4.1`
+
+- Fixed Lepton Daisy spawning its heal ward on Meridian regardless of whether you actually have the item.
+
+`2.4.0`
+
+- SotS Phase 3
+	- Removed Bolstering Lantern and Antlers buffs since they got buffed in the basegame.
+	
+- Artificer
+	- Nanobomb gravity removal is now disabled by default in the config. Existing configs unaffected.
+	
+- Seeker
+	- Unseen Hand scales damage instead of healing. (Formerly RiskySeeker)
+	- Meditate no longer self-revives.
+	
+	*A free self-revive on a character with tons of built-in healing and barrier is insane.*
+
+`2.3.2`
+
+- Items
+	- Bolstering Lantern
+		- Max stacks 4 (+2) -> 3 (+2)
+		- Attack speed buff increased from 10% -> 12%
+		
+		*Stack behavior was only marginally better than taking Syringes (on a specific conditional, 20% vs 15%). This should help widen that gap (24% vs 15%).*
+		
+	- Elusive Antlers
+		- Max buffs per stack increased from +1 -> +2
+		
+		*First stack is good, future stacks are worse than just taking Hooves. This should fix that.*
+
+- Spawnpools
+	- Helminth Hatchery
+		- Added Lunar Golems.
+
+`2.3.1`
+
+- Fixed spawnpools for latest update.
+	- Might be slightly scuffed since the spawncard system changed significantly.
+	
+- "Fixed" lack of SotV monster replacements.
+	- This is a hacky fix that just removes the replaced monster in favor of leaving the DLC one, and will result in a smaller spawnpool if playing without SotV. (Yes, DLC1)
+		- This option can be toggled in the config, and will be removed once this is fixed in the basegame or some other mod that can be depended on.
+		
+	- Rallypoint Delta
+		- Removed Wisps since Pests exist.
+		
+	- Siren's Call
+		- Removed Beetles since Larvae exist.
+		
+	- Stadia Jungle
+		- Removed Elder Lemurians since Gups exist.
+		
+- Tweaked Spawnpools
+	- Sky Meadow
+		- Re-enabled Lesser Wisps.
+		
+	- Abyssal Depths
+		- Removed Gups
+		
+	- Helminth Hatchery
+		- Removed Gups
+
+	*Gave it some thought and I realized I actually hate fighting these things and they spawn on way too many maps.*
+
+`2.3.0`
+
+- Updated for SotS Part 2.
+	- Bolstering Lantern
+		- Reverted attack speed nerf from 7.5% -> 10%
+		
+	- Unstable Transmitter
+		- Increased barrier gain from 35% -> 100%.
+		
+		*At risk of being too similar to Elixirs. Probably won't figure something out later.*
+		
+	- Breaching Fin
+		- Increased damage bonus from +10% -> +15%
+		
+	- War Bonds
+		- Reverted cost nerf from 50 -> 25.
+		
+	- Growth Nectar
+		- Increased stat bonus from 4% -> 5%
+		
+	*I don't like this update's item/void changes at all.*
+	
+- Items
+	- Lepton Daisy
+		- Now spawns a healing ward on Meridian.
+	
+- Spawnpools
+	- Currently disabled due to the new update.
+
+`2.2.21`
+
+- Fixed Arrow Rain bug from 2.2.20
+
+`2.2.20`
+
+- Fixed a bunch of modded damagetypes not working.
+	- Captain Taser Spread
+	- Huntress Arrow Rain pulldown.
+	- MUL-T M2 knockdown.
+	
+- Acrid
+	- Updated Contagion to have better cross-mod compatibility.
+
+`2.2.19`
+
+- Fixed missing DamageAPI damagetype.
+
+`2.2.18`
+
+- Combat Director Multiplier is now disabled if DirectorReworkPlus is loaded.
+- Added "Some Config Notes" section to readme.
+
+`2.2.17`
+
+- Allies
+	- Inferno Drone compat.
+	
+- Added Skill Icons for: (Thanks Glad!)
+	- Suppressive Barrage
+	- Lightning Round
+	- Contagion
+
+`2.2.16`
+
+- Updated AssistManager compat.
+- Updated R2API DamageType version to fix Standoff not working.
+
+`2.2.15`
+
+- Removed War Bonds proc coefficient.
+- Updated EliteReworks dependency version.
+
+`2.2.14`
+
+- Fixed Wake of Vultures causing a TakeDamage nullref due to the new update.
+
+`2.2.13`
+
+- Commando
+	- Fixed Suppressive Fire consuming all charges when pressed.
+
+`2.2.12`
+
+- Fixed ModifyFinalDamage hook.
+
+`2.2.11`
+
+- Fixed for latest update and added DamageSource support.
+
+*Untested beyond fixing startup errors, let me know if there's anything broken.*
+
+`2.2.10`
+
+- Removed Runic Lens proc coefficient.
+
+`2.2.9`
+
+- Fixed shieldgate config not working.
+
+`2.2.8`
+
+- Fixed Golems not being added to Viscous Falls
+
+`2.2.7`
+
+- Fixed startup error from 2.2.6 due to the Disturbed Impact Minibosses director category having a different naming convention from all other maps.
+
+`2.2.6`
+
+- Fixed 2.2.5 spawnpool changes not applying.
+
+`2.2.5`
+
+- Spawnpools
+	- Disturbed Impact
+		- Added Stone Golems
+		- Restricted to Stage 4+:
+			- Elder Lemurians
+			- Parents
+			- Grandparents
+			
+	- Viscous Falls
+		- Added Stone Golems
+		- Restricted to Stage 4+:
+			- Elder Lemurians
+			- Parents
+			- Gups
+			- Void Reavers
+			
+	*This is aimed towards mods that add these to the Stage 1 pool.*
+
+`2.2.4`
+
+- Recompiled for latest update.
+
+`2.2.3`
+
+- Added RU TL (Thanks inkyarev!)
+- Fixed Contagion Special damage being listed as 8x100% instead of 6x100%
+
+`2.2.2`
+
+- Shield Gating
+	- All Champion (boss enemies) attacks now ignore shieldgating.
+	- Reduced iframe duration from 0.1s -> 1 frame
+	
+	*With modded bosses becoming a thing, it was becoming unsustainable to keep adding special cases for specific attacks. Additionally, Shield Gating was added before SotV, and Opal and Safer Spaces being easily-obtainable makes it a bit excessive.*
+
+`2.1.1`
+
+- Artificer
+	- Ice Wall
+		- Now defends against Vagrant Novas.
+
+- Engineer
+	- Bubble Shield
+		- Fixed Vagrant Novas bypassing shield.
+
+`2.1.0`
+
+- Engineer
+	- Pressure Mines
+		- Force increased from 600 -> 4000
+		
+	- Bubble Shield
+		- No longer blocks allied attacks.
+		- Neutralizes all ranged attacks, both from outside the bubble and inside the bubble.
+		- Projectiles no longer explode when neutralized.
+		
+		*Using the same Defense Matrix system as Arti's Ice Wall and Cyborg.*
+
+`2.0.14`
+
+- MinionMeld support for Microbots changes and Megadrone Repair.
+
+`2.0.13`
+
+- Removed extra space from Ignition Tank description.
+- Fixed Safer Spaces cooldown change not being applied.
+- Fixed Moon holdout size changes not being applied.
+
+`2.0.12`
+
+- PT-BR fix
+
+`2.0.11`
+
+- Added missing configs for Ignition Tank/Laser Scope
+
+`2.0.10`
+
+- Gold Scaling
+	- Exposed option: Scale to Combat Director Multiplier (Default: True)
+		- Divides gold gain by the combat director multiplier in the config.
+		
+		*This was lumped into the Gold Scaling Tweaks config option, but is now toggleable.*
+	
+	- New option: Scale to Combat Director Multiplier - Stage 1 (Default: False)
+		- Makes the above option not apply on Stage 1 if set to False.
+		
+		*Felt Stage 1 gold rewards were too low, while I'm happy with the scaling past Stage 1.*
+	
+
+`2.0.9`
+
+- Chronobauble now uses RecalculateStatsAPI's attackSpeedReductionMult.
+	- Raw reduction is unchanged, though the way it stacks with other mods might change a bit.
+- Added German translation. (Thanks tymmey!)
+
+`2.0.8`
+
+- Actually uploaded the updated dll this time.
+
+`2.0.7`
+
+- Fixed Void Fiend not getting corruption-on-kill.
+- Acrid
+	- Fixed Scepter not working.
+	- No longer overrides StandaloneAncientScepter's scepter skill.
+
+`2.0.6`
+
+- Loader
+	- Removed Utility Scepter Barrier fix since it works by default now.
+
+`2.0.5`
+
+- Bandit
+	- Rack em Up
+		- Fixed sounds and animations not playing online.
+		- Reduced recoil 32%
+		- Recoil now scales downwards based on attack speed.
+	
+- Moved Wiki folder into the same directory as the DLL so that r2modman doesn't mess up its directory structure.
+
+`2.0.4`
+
+- Moved Void Fiend Trespass Move Speed Scaling tweak to RiskyTweaks.
+
+`2.0.3`
+
+- Fixed Phase Lightning skilldef being unregistered, potentially causing syncing issues in multiplayer.
+
+`2.0.2`
+
+- Added missing config for Shrapnel Barrage.
+- Added configs to replace Phase Round/Suppressive Fire with Phase Lightning/Shrapnel Barrage (Disabled by default)
+
+`2.0.1`
+
+- Fixed Persistent Desperado.
+
+`2.0.0`
+
+- Fixed for the DLC2 update. Haven't had much time to test, so let me know if anything is broken since the mod went through heavy structural changes.
+
+- Split the mod into 3 mods
+	- RiskyMod
+		- Main gameplay rework.
+		
+	- RiskyTweaks
+		- Vanilla-Compatible gameplay tweaks.
+		- RiskyMod will read Captain/Bandit autofire settings from here.
+		
+	- RiskyFixes
+		- Vanilla-Compatible fixes for basegame content.
+		
+- Made RiskyMod-exclusive functionality public for other devs to use.
+	- AssistManager provides a common point for devs to add kill assist support.
+	- DefenseMatrixManager allows devs to create team-specific barriers that block hitscan attacks.
+	
+- Moved all documentation to the Thunderstore Wiki.
+	- A copy of all wiki pages can be found in the mod .zip as well, in case you want to view it offline.
+	
+- Survivors
+	- Commando
+		- Phase Round reverted to vanilla behavior.
+			- Damage increased from 300% -> 450%
+			- Hitbox size increased by 100%
+			
+		- New Secondary: Phase Lightning
+			- Same effect as old Phase Round rework.
+			- 450% damage, zaps nearby enemies for 150% damage.
+			
+		- Suppressive Fire reverted to vanilla behavior.
+			- Falloff removed.
+			- Damage increased from 100% -> 120%
+			- Shots increased from 6 -> 8
+			- Fire rate increased 25%
+			
+		- New Special: Shrapnel Barrage
+			- Same effect as old Suppressive Fire rework.
+			- 6x120% damage, with a small AoE.
+			- Now counts as a single instance of damage (old code was super jank), and has clientside hitreg.
+			- Scepter: Reduced shot count from 18 -> 12
+			
+		*Vanilla versions of the skills are now selectable alongside the reworked ones.*
+		
+	- Huntress
+		- Blink
+			- Reduced cooldown from 6s -> 5s
+
+	- Mercenary
+		- Blinding Assault
+			- Increased damage from 300% -> 450%
+			
+		*Alt shift was just outright better in most scenarios.*
+		
+	- Artificer
+		- Fire Bolt
+			- Reduced damage from 360% -> 300%
+			
+		- Charged Nano-Spear
+			- Increased damage from 1200% -> 1600%
+
+	- Acrid
+		- Completely rewrote module, starting from scratch. All changes will be listed here, including ones that were in the old module.
+		- Buffed Caustic Leap Acid proc coefficient from 0.1 -> 0.7
+		- Frenzied Leap
+			- Lowered cooldown from 10s -> 6s
+			- Lowered CDR from 2s -> 1s
+			
+		- New Alt Passive: Contagion
+			- Reduce base damage by 20%.
+				- This is the value the old rework used.
+			- Each skill applies a different damage over time effect.
+				- Primary: Poison on third hit.
+				- Secondary: Blight
+				- Utility: Blight
+				- Special: Infects enemies for 6x100% damage, can trigger item effects.
+					- 0.5 Proc Coefficient
+			- Poison and Blight spread to 1 nearby enemy on kill.
+				
+		*Gameplay rework is now a selectable passive that exists alongside the Vanilla passives. Let me know if it has any compatibility issues with other Acrid passives.*
+		
+	- Captain 
+		- Beacon Rework
+			- Hack Beacons now use Vanilla behavior by default. (100% price reduction, does not recharge)
+			- Beacons with cooldowns disabled now say "Permanent" at the start of their description.
+			
+	- Bandit
+		- Passive description now mentions "Mini Critical Strikes" to communicate the 1.5x crit multiplier better.
+		- Lights Out Scepter
+			- Reduced damage from 2x1200% -> 2x900%
+	
+- Items
+	- Common
+		- Cautious Slug
+			- Removed changes.
+		
+	- Uncommon
+		- Squid Polyp/Old War Stealthkit
+			- Minimum proc chance is now 5%.
+			- Proc chance maxes out when damage is 75% of your health.
+		
+			*Stealthkit procs were way too rare. Polyp doesn't need the buff, but I'm changing it to be consistent and it's capped at 3 squid turrets anyways.*
+		
+		- Ignition Tank
+			- Now gives a passive 5% chance to ignite for 50% TOTAL damage.
+				- Is affected by the burn damage amplication.
+			
+	- Legendary
+		- Brilliant Behemoth
+			- Disabled changes by default, since stacking is only a problem in modded lobbies where you can get a ton.
+	
+		- Frost Relic
+			- Reduced damage from 1200% (+600%) -> 1200% (+400%)
+			- Reduced max range from 24m -> 18m (Vanilla)
+			
+			*Item is already really easy to maintain due to proccing off of assists and the kill requirement for max range being lower.*
+			
+		- Laser Scope
+			- Now gives a passive 5% crit chance.
+		
+- Equipment
+	- Foreign Fruit
+		- Removed changes.
+		
+- Enemies
+	- False Son
+		- Added Shield Gate ignore to melee attacks.
+			- Not sure what all of the attacks in the code correspond to, so this list will be subject to change.
+
+	- Mithrix
+		- Sprint Bash now ignores Shield Gating.
+
+	- Wandering Vagrant
+		- Barrage
+			- Increased minimum falloff damage from 25% -> 50%
+			
+		- Tracking Bomb
+			- Increased minimum falloff damage from 25% -> 50%
+			
+		*This boss was pretty harmless outside of its death nova.*
+
+	- Blind Pest
+		- Disabled "Miss First Shot" feature since this mod already nerfs their damage.
+		
+	- Child
+		- Reduced projectile damage from 84 -> 56
+		- Increased minimum falloff damage from 25% -> 50%
+		
+		*Falloff damage is roughly the same, max damage is lower (but still very high all things considered).*
+		
+	- Scorch Worm
+		- Reduced health from 580 -> 480
+		- Reduced Lava Bomb damage by 20%.
+		
+		*Vanilla damage is roughly on par with a Mushrum, except the hitbox is over 30% bigger, so the damage was reduced here with that in mind.*
+
+- Spawnpools
+	- Siphoned Forest
+		- Bisons can now spawn on stage 1.
+	
+	- Sirens Call
+		- Fixed Overloading Worm getting added to Stadia Jungle instead.
+		
+	- Sky Meadow
+		- Removed Gups.
+
+`1.7.5`
+
+- Fixed Bandit crit multiplier still being lowered even when Backstab Passive isn't selected.
+
+`1.7.4`
+
+- Bandit Backstab Rework now only applies if he has the Backstab Passive Bodyflag.
+
+	*Attempt at compatibility with DOOM skills. Untested.*
+
+`1.7.3`
+
+- Fixed Desperado giving 2 kill tokens when Bandit changes are disabled.
+- Added some extra internal checks to survivor config stuff to hopefully reduce the likelihood of similar issues.
+
+`1.7.2`
+
+- Updated CN TL.
+
+`1.7.1`
+
+- Fixed Bandolier changes making Railgunner's Snipe hit the int limit when picking up an ammopack while scoped.
+
+`1.7.0`
+
+- Fixes
+	- Integrated some external fixes. These auto disable if the standalone mod is installed.
+		- WormCritFix - https://thunderstore.io/package/Nuxlar/WormCritFix/
+			- Tied to Magma Worm settings in Monsters config.
+		- DetectionFix - https://thunderstore.io/package/Nuxlar/DetectionFix/
+
+- Hunter's Harpoon
+	- Increased duration from 1s (+1s) -> 1.5s (+1s)
+
+`1.6.12`
+
+- Beetle
+	- Reduced vertical hitbox size from 200% -> 100% so it doesn't extend way above them.
+
+`1.6.11`
+
+- Bandit
+	 - Fixed typo in Rack em Up description.
+
+`1.6.10`
+
+- Symbiotic Scorpion
+	- Fixed self-proc on self-damage.
+
+`1.6.9`
+
+- Allies
+	- DroneMeld Regen Scaling is now disabled by default. (Existing config unaffected)
+	
+- Items
+	- Berzerker's Pauldron
+		- Increased boost per stack from +12% -> +15%
+		- Increased buff duration from 4s -> 6s
+		
+- Assists
+	- Now counts Vanilla's On-Multikill effects. (ex. Berzerker's Pauldron, and any other modded items that rely on the same trigger)
+
+`1.6.8`
+
+- Defense Nucleus
+	- Fixed damage/health being set lower than vanilla. (300% -> 400%, Vanilla description is ***bonus*** 300% which caused the confusion)
+	- Increased scaling per stack from +150% -> +200%
+	- Fixed HP/Stat bonuses not being applied if "Remove Ally Scaling" config option is disabled, along with some other fixes for potential weirdness when using non-default config options.
+	- Fixed Distract On Hit only working if changes to the item were disabled.
+
+`1.6.7`
+
+- Fixed Mithrix Pizza Cutter getting stopped by Shield Gating due to the earlier Mithrix/Allies tweaks. (The code used to be tightly tied together at one point)
+
+`1.6.6`
+
+- Mithrix Prioritizes Players
+	- Added extra check to make sure he's not attempting to target dead players.
+
+`1.6.5`
+
+- Captain
+	- Vulcan Shotgun
+		- Attack Speed Pellet Scaling can now be toggled separately from Primary Changes, and can be changed in-game via Risk of Options.
+
+`1.6.4`
+	
+- Allies
+	- Gunner Turret
+		- Teleport to Player
+			- Added separate config option for Mithrix fight. (Enabled by default)
+			
+		*These seem to be in a state I'm happy with now, aside from Mithrix's AI being unable to reliably hit them.*
+		
+	- TC280
+		- Fixed full regen time being set to 30s instead of 40s due to some leftover code.
+		
+- Moon
+	- Fixed Void Team enemies not being killed at the start of the bossfight.
+	
+	*Only relevant with Origination/Vengeance Void Team*
+
+- Enemies
+	- Mithrix
+		- Added Config: Immune to Freeze (Disabled by default)
+		- Re-enabled "Prioritize Players" by default.
+			- Existing config unaffected.
+		
+		*After much experimentation, came to the overall conclusion that it's better to leave Prioritize Players on.*
+		
+- Small Holdout Charging
+	- Tweaked how hook is applied, should work with PillarRevive now.
+	
+- Run Scaling
+	- Linear Scaling (Disabled by default)
+		- Fixed playercount not affecting scaling rate.
+		- Added Config: Swap to Exponential Lategame (Disabled by default)
+		
+- Artificer
+	- Changing Utility Self Knockback setting now also updates the skill description to match.
+
+- Added Config: Freeze Executes Bosses: Nerf Freeze Globally (Disabled by default)
+	- This makes the 15% execute threshold apply to all enemies, instead of just bosses.
+	
+- Fixed startup warning text related to Captain's Beacons/Warbanner during startup.
+
+`1.6.3`
+
+- Allies
+	- DroneMeld HP Regen scaling can now be toggled in the config.
+		- By default, HP Regen scales with max HP. Disabling this option makes it so that extra DroneMeld stacks don't scale HP regen with max HP.
+
+- Gunner Turret
+	- Reduced health from 480 -> 400, increased armor from 0 -> 20
+		- No actual change in effective HP, just making it like this so it's cleanly 2x Vanilla HP/Armor.
+	- Now takes 2x damage from Mithrix.
+	- Reduced range from 120m -> 90m
+		- Still higher than Vanilla (60m)
+	
+	*Played a bunch of runs against Mithrix, and it turns out that he can't even hit these most of the time. When he did land perfect hits, they'd only do a pitiful amount of damage since these were balanced around tanking hordes, rather than singular enemies. 2x damage from Mithrix means they have "Vanilla" survivability against Mithrix specifically.*
+	
+- Squid Polyp
+	- Reduced health from 480 -> 400, increased armor from 0 -> 20
+		- No actual change in effective HP.
+	- Now takes 2x damage from Mithrix.
+	
+	*Same reason as Gunner Turrets, Mithrix has a really hard time hitting targets that stand completely still.*
+	
+- Imp
+	- Re-enabled after-attack strafe that they do in Vanilla.
+	
+	*Turning this back on since it's an intentional bit of flair that they're supposed to do, though it doesn't seem to actually change much.*
+
+`1.6.2`
+
+- Gunner Turret
+	- Reduced health from 500 -> 480
+	- Reduced armor from 20 -> 0
+	- Increased full health regen time from 30s -> 40s to match other drones.
+	
+	*Planning to make a lot of small incremental tweaks to these until they end up in a good spot. Previous version seemed too tanky against Mithrix, though part of that was due to him constantly missing his attacks against them.*
+	
+- Delicate Watch
+	- Increased damage from 10% (+10%) -> 15% (+15%)
+
+`1.6.1`
+
+- Wetland Aspect
+	- Moved Geep category from Miniboss to BasicMonster.
+
+`1.6.0`
+
+- Fixed for Devotion update.
+
+- Items
+	- Singularity Band
+		- Increased damage from 150% (+90%) -> 200% (+120%)
+
+- Allies
+	- Gunner Turret
+		- Increased health from 300 -> 500
+		- Removed AOE resist, option is no longer available.
+		
+		*AoE resist put these in a weird state where they'd be able to facetank multiple Elder Lemurians at the same time, but would die quickly to beetles. New HP value is between their old HP and their effective HP with AoE Resist (1200). Will be keeping my eye on this to see if more changes are necessary.*
+		
+- Mithrix
+	- Disabled "Force Target Players" by default since this changed his AI a bit too much in certain situations. (ex. he wouldn't focus Gunner Turrets/Engi Turrets at all despite being able to kill them)
+		 - Existing config unaffected.
+	- Allies no longer resist Mithrix's attacks.
+
+
+- Spawnpools
+	- Wetland Aspect
+		- Gups are now locked to post-loop.
+		- Geeps now spawn pre-loop.
+
+`1.5.19`
+
+- Fixed cyclic dependency error with SS2 compatibility stuff.
+- Undid namespace rename.
+
+`1.5.18`
+
+- Attempted to revert SS2 compatibility stuff due to it causing the mod to fail to load.
+
+`1.5.17`
+
+- Added extra nullcheck to Happiest Mask.
+- Ally Resistances
+	- Superattack resistance reduced from -75% -> -50%
+	- Turret AoE resistance is now an option in the config. I recommend disabling it if using DroneMeld.
+	
+- SS2 Official Compatibility: Attempted to fix bug where Gunner Turrets (and TC280s?) could be infinitely rebought when scrapping them via a drone scrapper.
+
+- (REVERTED) For Devs:
+	- Renamed entitystate namespace from RiskyMod to RiskyModStates to prevent some name collisions. I don't think there's any mods that rely on this, but if there are, this'll be a breaking change.
+
+`1.5.16`
+
+- Fixed startup nullref with REX selfdamagetweaks.
+
+`1.5.15`
+
+- REX
+	- All self-damage is now affected by armor and other defense items.
+	
+		*This is inconsistent across his skills in Vanilla. (Seed Barrage bypasses armor, Bramble Volley and Tangling Growth don't)*
+
+- Acrid
+	- Leap hitbox
+		- Reduced collision detection radius from 4.5m -> 4m to reduce instances of unintended collisions.
+	
+	- Leap Air Control
+		- Disabled by default now (existing config unaffected)
+		
+		*This was causing him to lose a lot of momentum/distance due to air control kicking in.*
+
 `1.5.14`
 
 - Commando
@@ -8,7 +850,7 @@
 	- Blast
 		- Fixed EntityState not being registered. (Will fix sound/anim not playing online)
 		 
-	- Specials(existing config unaffected)
+	- Specials (existing config unaffected)
 		- Host Grace Period: 0.5s -> 0.25s
 		- Client Grace Period: 1s -> 0.5s
 
