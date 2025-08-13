@@ -8,6 +8,11 @@ For feature suggestions or bug reports go [here](https://github.com/Faustvii/R2M
 
 ## Changelog
 
+### 1.2.2
+
+- Fixed Gilded Coast not having highlights
+- Fixed Prime Meridian not having highlights
+
 ### 1.2.1
 
 - Fixed a compatability issue with Hunk

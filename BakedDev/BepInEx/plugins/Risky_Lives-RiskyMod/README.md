@@ -24,6 +24,7 @@ This mod is compatible with nearly all content mods. The only things that will c
 	
 - Optional Dependencies
 	- EliteReworks, included since RiskyMod is designed with it in mind.
+	- LinearDamage
 	
 ## Some Config Notes
 

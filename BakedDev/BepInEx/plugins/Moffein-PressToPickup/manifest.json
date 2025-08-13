@@ -1,0 +1,9 @@
+{
+    "name": "PressToPickup",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/Moffein/PressToPickup",
+    "description": "Makes all players have to press E to pick up items. Server-Side and Vanilla-Compatible!",
+    "dependencies": [
+		"RiskofThunder-HookGenPatcher-1.2.3"
+    ]
+}

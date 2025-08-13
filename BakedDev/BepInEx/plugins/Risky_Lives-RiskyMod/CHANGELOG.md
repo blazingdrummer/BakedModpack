@@ -1,3 +1,33 @@
+`2.7.2`
+
+- Gunner Drone/Missile Drone
+	- [Mod Compatibility] Fixed autofire triggering on all bodies that clone these drones.
+
+`2.7.1`
+
+- Added LinearDamage to the dependencies list, as it was designed with RiskyMod in mind.
+	- This is a technically a softdependency and you can choose to disable it if you want.
+
+`2.7.0`
+
+- Moved hooks to SneedHooks.
+
+- Enemies
+	- Bighorn Bison
+		- Increased base damage from 12 -> 15
+
+	- Magma Worm
+		- Increased base damage from 10 -> 15
+		- Removed falloff from fireballs.
+		
+		*These have been very weak ever since SotV changed burn damage to scale off of the initial hit damage, rather than being a fixed duration.*
+		
+	- Mithrix
+		- Increased health from 1000 -> 1200
+		- Now resists AtkSpd/MoveSpd slow by 50%
+		
+		*His health was nerfed from 1400 to 1000 in an undocumented change during SotV. New health is 1200, which is a halfway point between the two. Debuff resistance is due to debuff spam in modded causing him to become almost harmless in some MP scenarios.*
+
 `2.6.2`
 
 - Fixed EclipseRevamped softdependency string?

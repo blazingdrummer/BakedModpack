@@ -1137,18 +1137,19 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1754791559856
+  installedAtTime: 1754886890275
   loaders: []
   dependencies:
     - RiskofThunder-R2API_Core-5.1.5
-    - bbepis-BepInExPack-5.4.2117
+    - bbepis-BepInExPack-5.4.2120
     - RiskofThunder-HookGenPatcher-1.2.8
+    - Risky_Lives-SneedHooks-1.0.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 7
-    patch: 3
+    minor: 8
+    patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyFixes\icon.png
 - manifestVersion: 1
@@ -1217,12 +1218,14 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1754791586696
+  installedAtTime: 1755049551213
   loaders: []
   dependencies:
     - Moffein-EliteReworks-1.15.0
+    - Risky_Lives-SneedHooks-1.0.0
     - Risky_Lives-RiskyTweaks-1.7.0
-    - Risky_Lives-RiskyFixes-1.7.1
+    - Risky_Lives-RiskyFixes-1.8.0
+    - Risky_Lives-LinearDamage-1.0.0
     - Moffein-AssistManager-1.4.0
     - Moffein-DefenseMatrixManager-1.0.3
     - bbepis-BepInExPack-5.4.2120
@@ -1238,7 +1241,7 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 6
+    minor: 7
     patch: 2
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyMod\icon.png
@@ -1253,7 +1256,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1753577725484
+  installedAtTime: 1754886903905
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.2117
@@ -1263,7 +1266,7 @@
   versionNumber:
     major: 1
     minor: 2
-    patch: 1
+    patch: 2
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Faustvii-QoLChests\icon.png
 - manifestVersion: 1
@@ -1521,7 +1524,7 @@
     minor: 3
     patch: 1
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\Wolfo-WolfoQualityOfLife\4.3.1\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Wolfo-WolfoQualityOfLife\icon.png
 - manifestVersion: 1
   name: Wolfo-WolfoQoL_OptionalExtras
   authorName: Wolfo
@@ -1810,3 +1813,75 @@
     patch: 4
   enabled: false
   icon: E:\Mods\r2modman\RiskOfRain2\cache\prodzpod-RealerCheatUnlocks\1.0.4\icon.png
+- manifestVersion: 1
+  name: Risky_Lives-SneedHooks
+  authorName: Risky_Lives
+  websiteUrl: https://thunderstore.io/package/Risky_Lives/SneedHooks/
+  displayName: SneedHooks
+  description: Hooks for my mods.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1754886890062
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2120
+    - RiskofThunder-HookGenPatcher-1.2.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-SneedHooks\icon.png
+- manifestVersion: 1
+  name: Risky_Lives-LinearDamage
+  authorName: Risky_Lives
+  websiteUrl: https://thunderstore.io/package/Risky_Lives/LinearDamage/
+  displayName: LinearDamage
+  description: Makes most vanilla damage amplification effects linear instead of
+    multiplicative. Server-side and Vanilla-compatible.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1755049550640
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2120
+    - RiskofThunder-HookGenPatcher-1.2.9
+    - RiskofThunder-R2API_Core-5.1.6
+    - RiskofThunder-R2API_RecalculateStats-1.6.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-LinearDamage\icon.png
+- manifestVersion: 1
+  name: Moffein-PressToPickup
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/PressToPickup/
+  displayName: PressToPickup
+  description: Makes all players have to press E to pick up items. Server-Side and
+    Vanilla-Compatible!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1755055313086
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\Moffein-PressToPickup\1.0.1\icon.png

@@ -30,12 +30,18 @@ needs testing:
 - I think Huntress autoaim can replace the range buff in its config now
     - can check in real-time with RiskOfOptions
 - https://thunderstore.io/package/MagnusMagnuson/ItemExchangeNotifier/
-    - pretty sure this is covered by sharesuite
-- https://thunderstore.io/package/MagnusMagnuson/ScannerPlusOne/
-- WolfoQoL prints chat messages when printing?
+    - pretty sure this is covered by sharesuite/wolfo
+    - WolfoQoL prints chat messages when printing?
 
 deprecated:
 - https://thunderstore.io/package/TheRealElysium/WaxQuailMultiJump/
+
 ---
+
 - should ShrineOfOrder spawn on all maps?
     - can change multiplier for spawn rate
+- halcyon shrine doesn't drain gold
+    - maybe nerf to appear less? it's a lot of item choice regardless, Moffein mod available
+    - this would affect green portal path tho... need to learn about it
+- still want boss fights for red items (Direseeker, etc)
+    - I think Moffein had another one?

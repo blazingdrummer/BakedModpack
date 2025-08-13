@@ -1,0 +1,12 @@
+{
+  "name": "LinearDamage",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/Moffein/LinearDamage",
+  "description": "Makes most vanilla damage amplification effects linear instead of multiplicative. Server-side and Vanilla-compatible.",
+  "dependencies": [
+	"bbepis-BepInExPack-5.4.2120",
+	"RiskofThunder-HookGenPatcher-1.2.9",
+	"RiskofThunder-R2API_Core-5.1.6",
+	"RiskofThunder-R2API_RecalculateStats-1.6.0"
+  ]
+}

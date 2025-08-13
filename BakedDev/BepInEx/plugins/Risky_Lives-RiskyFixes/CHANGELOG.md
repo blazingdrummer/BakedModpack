@@ -1,3 +1,7 @@
+`1.8.0`
+
+- Fin Reproc and Lunar Ruin hook now use SneedHooks.
+
 `1.7.3`
 
 - Fixed Lunar Ruin hook.
