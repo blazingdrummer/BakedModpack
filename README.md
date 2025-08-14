@@ -23,7 +23,6 @@ maybe:
 - https://thunderstore.io/package/Moffein/Ancient_Wisp/
 - https://thunderstore.io/package/Moffein/BetterCommandArtifact/
 - https://thunderstore.io/package/Moffein/MoreSacrificeInteractables/
-- https://thunderstore.io/package/prodzpod/AchievementPins/
 - https://thunderstore.io/package/Moffein/BossKillTimer/
 - AncientScepter
 - https://thunderstore.io/package/Risky_Sleeps/ClassicItemsReturns/
@@ -53,5 +52,5 @@ deprecated:
 - halcyon shrine doesn't drain gold
     - maybe nerf to appear less? it's a lot of item choice regardless, Moffein mod available
     - this would affect green portal path tho... need to learn about it
-- still want boss fights for red items (Direseeker, etc)
-    - I think Moffein had another one?
+- https://thunderstore.io/package/prodzpod/AchievementPins/
+    - doesn't hide properly when config-ed to only show on tab
