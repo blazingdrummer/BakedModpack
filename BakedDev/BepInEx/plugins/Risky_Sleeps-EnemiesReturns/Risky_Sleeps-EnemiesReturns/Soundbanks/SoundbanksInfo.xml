@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="544410841" Type="User" Language="SFX" Hash="{8DAD7C0E-11CE-0D9A-E3B5-1DDB77171717}">
+			<ShortName>EnemiesReturnsMusic</ShortName>
+			<Path>EnemiesReturnsMusic.bnk</Path>
+			<Media>
+				<File Id="130669168" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Judgement\Music\musicUnknown.wav</ShortName>
+					<Path>Media/130669168.wem</Path>
+					<CachePath>SFX/Judgement/Music/musicUnknown_FFAC0C2C.wem</CachePath>
+					<PrefetchSize>4144</PrefetchSize>
+				</File>
+				<File Id="162767345" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Judgement\Music\Tristan Clark - The Origin.wav</ShortName>
+					<Path>Media/162767345.wem</Path>
+					<CachePath>SFX/Judgement/Music/Tristan Clark - The Origin_FFAC0C2C.wem</CachePath>
+					<PrefetchSize>4456</PrefetchSize>
+				</File>
+				<File Id="541140653" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Judgement\Music\musicUnknownBoss.wav</ShortName>
+					<Path>Media/541140653.wem</Path>
+					<CachePath>SFX/Judgement/Music/musicUnknownBoss_FFAC0C2C.wem</CachePath>
+					<PrefetchSize>3424</PrefetchSize>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="379940483" Name="ER_Pause_Music">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="89505537"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3811162539" Id="3446177699"/>
+									<MediaRefs>
+										<MediaRef Id="541140653"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3811162539" Id="3446177696"/>
+									<MediaRefs>
+										<MediaRef Id="162767345"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3811162539" Id="3892723418"/>
+									<MediaRefs>
+										<MediaRef Id="130669168"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3242498343" Name="ER_Play_Music_System">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="89505537"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3811162539" Id="3446177699"/>
+									<MediaRefs>
+										<MediaRef Id="541140653"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3811162539" Id="3446177696"/>
+									<MediaRefs>
+										<MediaRef Id="162767345"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3811162539" Id="3892723418"/>
+									<MediaRefs>
+										<MediaRef Id="130669168"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3267458963" Name="ER_Stop_Music">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="89505537"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3811162539" Id="3446177699"/>
+									<MediaRefs>
+										<MediaRef Id="541140653"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3811162539" Id="3446177696"/>
+									<MediaRefs>
+										<MediaRef Id="162767345"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3811162539" Id="3892723418"/>
+									<MediaRefs>
+										<MediaRef Id="130669168"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1717703444" Name="ER_Unpause_Music">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="89505537"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3811162539" Id="3446177699"/>
+									<MediaRefs>
+										<MediaRef Id="541140653"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3811162539" Id="3446177696"/>
+									<MediaRefs>
+										<MediaRef Id="162767345"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3811162539" Id="3892723418"/>
+									<MediaRefs>
+										<MediaRef Id="130669168"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="playerHealth"/>
+				<GameParameter Id="3729143042" Name="Volume_MSX"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="792781730" Name="Music_system">
+					<States>
+						<State Id="89505537" Name="Gameplay"/>
+						<State Id="580146960" Name="Bossfight"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="778026301" Name="SecretLevel"/>
+						<State Id="2607556080" Name="Menu"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3811162539" Name="OutOfTime_gameplaySondChoice">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="3446177696" Name="Arraign_bossTrackP2"/>
+						<State Id="3446177699" Name="Arraign_bossTrackP1"/>
+						<State Id="3892723418" Name="Arraign_mainTrack"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9E01FDCE-E3E7-3DF3-3AAF-4CD36F04615D}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="playerHealth"/>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+				<GameParameter Id="3695994288" Name="Volume_Master"/>
+				<GameParameter Id="3729143042" Name="Volume_MSX"/>
+				<GameParameter Id="4234729638" Name="ER_Ifrit_Pillar_Fire_Volume"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="549431000" Name="bossStatus">
+					<States>
+						<State Id="655265632" Name="alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2044049779" Name="dead"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="792781730" Name="Music_system">
+					<States>
+						<State Id="89505537" Name="Gameplay"/>
+						<State Id="580146960" Name="Bossfight"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="778026301" Name="SecretLevel"/>
+						<State Id="2607556080" Name="Menu"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3811162539" Name="OutOfTime_gameplaySondChoice">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="3446177696" Name="Arraign_bossTrackP2"/>
+						<State Id="3446177699" Name="Arraign_bossTrackP1"/>
+						<State Id="3892723418" Name="Arraign_mainTrack"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="2455320596" Type="User" Language="SFX" Hash="{C95814BA-8796-707C-6AE1-FB15FBB3D601}">
+			<ShortName>EnemiesReturnsSounds</ShortName>
+			<Path>EnemiesReturnsSounds.bnk</Path>
+			<Media>
+				<File Id="3844319" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\WeaponThrow\spear_loop.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/WeaponThrow/spear_loop_FFAC0C2C.wem</CachePath>
+				</File>
+				<File Id="4103259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Swift\wGolemB_Shoot_2.wav</ShortName>
+					<CachePath>SFX/Swift/wGolemB_Shoot_2_D9952F02.wem</CachePath>
+				</File>
+				<File Id="16712587" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Scout\death.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Scout/death_D9952F02.wem</CachePath>
+				</File>
+				<File Id="24122210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\Light\light_5.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/Light/light_5_D9952F02.wem</CachePath>
+				</File>
+				<File Id="31326868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Storm\Shaman_Windshear_01.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Storm/Shaman_Windshear_01_D9952F02.wem</CachePath>
+				</File>
+				<File Id="33025982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\ThreeHitCombo\charge.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/ThreeHitCombo/charge_D9952F02.wem</CachePath>
+				</File>
+				<File Id="49154136" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\Steps\wow\mFootHugeGiantDirtE.wav</ShortName>
+					<CachePath>SFX/Colossus/Steps/wow/mFootHugeGiantDirtE_D9952F02.wem</CachePath>
+				</File>
+				<File Id="50837913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\mDeathImpactGiantSnowA.wav</ShortName>
+					<CachePath>SFX/Colossus/mDeathImpactGiantSnowA_D9952F02.wem</CachePath>
+				</File>
+				<File Id="55789865" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\LeftRighSwing\mWooshMedium1.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/LeftRighSwing/mWooshMedium1_D9952F02.wem</CachePath>
+				</File>
+				<File Id="61355974" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\hit-3-40697.wav</ShortName>
+					<CachePath>SFX/Ifrit/hit-3-40697_1F326F18.wem</CachePath>
+				</File>
+				<File Id="63293688" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>you_shall_not_pass.wav</ShortName>
+					<CachePath>SFX/you_shall_not_pass_20164B1B.wem</CachePath>
+				</File>
+				<File Id="64576330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\Cutscene\water_thud.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/Cutscene/water_thud_D9952F02.wem</CachePath>
+				</File>
+				<File Id="70830560" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\Stomp\step_mimic_3.wav</ShortName>
+					<CachePath>SFX/Colossus/Stomp/step_mimic_3_D9952F02.wem</CachePath>
+				</File>
+				<File Id="78227651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shaman\shaman_summon_projectile_no_voice.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shaman/shaman_summon_projectile_no_voice_D9952F02.wem</CachePath>
+				</File>
+				<File Id="83661797" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\Cutscene\sword_transform.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/Cutscene/sword_transform_D9952F02.wem</CachePath>
+				</File>
+				<File Id="88037240" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\wLizardGHit.wav</ShortName>
+					<CachePath>SFX/Ifrit/wLizardGHit_D9952F02.wem</CachePath>
+				</File>
+				<File Id="105619789" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\ThreeHitCombo\mWooshLarge1_no_metal.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/ThreeHitCombo/mWooshLarge1_no_metal_D9952F02.wem</CachePath>
+				</File>
+				<File Id="106230718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Swift\wGolemB_Spawn.wav</ShortName>
+					<CachePath>SFX/Swift/wGolemB_Spawn_D9952F02.wem</CachePath>
+				</File>
+				<File Id="108281566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shaman\Engineer_no01.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shaman/Engineer_no01_D9952F02.wem</CachePath>
+				</File>
+				<File Id="128039397" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shaman\HauntImpact3.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shaman/HauntImpact3_D9952F02.wem</CachePath>
+				</File>
+				<File Id="129875282" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shaman\shaman_death.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shaman/shaman_death_D9952F02.wem</CachePath>
+				</File>
+				<File Id="130592068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shrine\shrine_success.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shrine/shrine_success_D9952F02.wem</CachePath>
+				</File>
+				<File Id="136396131" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\ThreeHitCombo\mWooshLarge2.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/ThreeHitCombo/mWooshLarge2_D9952F02.wem</CachePath>
+				</File>
+				<File Id="143513538" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\Steps\wow\mFootHugeGiantDirtA.wav</ShortName>
+					<CachePath>SFX/Colossus/Steps/wow/mFootHugeGiantDirtA_D9952F02.wem</CachePath>
+				</File>
+				<File Id="146195984" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>wMacG_Death.wav</ShortName>
+					<CachePath>SFX/wMacG_Death_D9952F02.wem</CachePath>
+				</File>
+				<File Id="147474012" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Archer\ArrowHitB.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Archer/ArrowHitB_D9952F02.wem</CachePath>
+				</File>
+				<File Id="150878353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\PreCastFireLow.wav</ShortName>
+					<CachePath>SFX/Ifrit/PreCastFireLow_FFAC0C2C.wem</CachePath>
+				</File>
+				<File Id="152242903" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\Clap\clap_test.wav</ShortName>
+					<CachePath>SFX/Colossus/Clap/clap_test_D9952F02.wem</CachePath>
+				</File>
+				<File Id="156262781" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\LeftRighSwing\mWooshMedium2.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/LeftRighSwing/mWooshMedium2_D9952F02.wem</CachePath>
+				</File>
+				<File Id="159983631" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\ThreeHitCombo\mWooshLarge3.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/ThreeHitCombo/mWooshLarge3_D9952F02.wem</CachePath>
+				</File>
+				<File Id="163560732" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\ThreeHitCombo\explosion.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/ThreeHitCombo/explosion_D9952F02.wem</CachePath>
+				</File>
+				<File Id="170019500" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\WeaponThrow\sword_charge.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/WeaponThrow/sword_charge_D9952F02.wem</CachePath>
+				</File>
+				<File Id="171166393" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Archer\ArrowHitC.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Archer/ArrowHitC_D9952F02.wem</CachePath>
+				</File>
+				<File Id="172902234" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spitter\Laugh\laugh_4.wav</ShortName>
+					<CachePath>SFX/Spitter/Laugh/laugh_4_D9952F02.wem</CachePath>
+				</File>
+				<File Id="179243949" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shaman\HauntImpact2.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shaman/HauntImpact2_D9952F02.wem</CachePath>
+				</File>
+				<File Id="204662139" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\clock_attack_spawn.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/clock_attack_spawn_D9952F02.wem</CachePath>
+				</File>
+				<File Id="231295798" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\Beam\beamend.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/Beam/beamend_D9952F02.wem</CachePath>
+				</File>
+				<File Id="237368593" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\Cutscene\initial_fighting.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/Cutscene/initial_fighting_D9952F02.wem</CachePath>
+				</File>
+				<File Id="237938261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>wSpitterSpawn.wav</ShortName>
+					<CachePath>SFX/wSpitterSpawn_D9952F02.wem</CachePath>
+				</File>
+				<File Id="247038726" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Archer\preparearrow.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Archer/preparearrow_D9952F02.wem</CachePath>
+				</File>
+				<File Id="259684146" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\SkyLaser\death.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/SkyLaser/death_D9952F02.wem</CachePath>
+				</File>
+				<File Id="264263352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\wArtiShoot4_2.wav</ShortName>
+					<CachePath>SFX/Ifrit/wArtiShoot4_2_FFAC0C2C.wem</CachePath>
+				</File>
+				<File Id="287318356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\Death\wGolemGDeath.wav</ShortName>
+					<CachePath>SFX/Colossus/Death/wGolemGDeath_D9952F02.wem</CachePath>
+				</File>
+				<File Id="294903960" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>wSpitterShoot1_cut.wav</ShortName>
+					<CachePath>SFX/wSpitterShoot1_cut_D9952F02.wem</CachePath>
+				</File>
+				<File Id="301760297" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\remove_sword.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/remove_sword_D9952F02.wem</CachePath>
+				</File>
+				<File Id="302757301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\Steps\wow\mFootHugeGiantDirtB.wav</ShortName>
+					<CachePath>SFX/Colossus/Steps/wow/mFootHugeGiantDirtB_D9952F02.wem</CachePath>
+				</File>
+				<File Id="304481895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MountainGiantAttackA.wav</ShortName>
+					<CachePath>SFX/MountainGiantAttackA_D9952F02.wem</CachePath>
+				</File>
+				<File Id="312368820" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\ThreeHitCombo\mWooshLarge2_no_armor.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/ThreeHitCombo/mWooshLarge2_no_armor_D9952F02.wem</CachePath>
+				</File>
+				<File Id="316040690" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\charge.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/charge_D9952F02.wem</CachePath>
+				</File>
+				<File Id="321445580" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\CRANK.WAV</ShortName>
+					<CachePath>SFX/MechanicalSpider/CRANK_82B5161B.wem</CachePath>
+				</File>
+				<File Id="321725216" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Scout\spawn.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Scout/spawn_D9952F02.wem</CachePath>
+				</File>
+				<File Id="322597722" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\Light\light_2.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/Light/light_2_D9952F02.wem</CachePath>
+				</File>
+				<File Id="332821166" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\incoming_leap.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/incoming_leap_D9952F02.wem</CachePath>
+				</File>
+				<File Id="343903326" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shaman\shaman_summon_pushback_no_voice.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shaman/shaman_summon_pushback_no_voice_D9952F02.wem</CachePath>
+				</File>
+				<File Id="350476053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shrine\lynx_retreat.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shrine/lynx_retreat_D9952F02.wem</CachePath>
+				</File>
+				<File Id="356148722" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spitter\Laugh\laugh_5.wav</ShortName>
+					<CachePath>SFX/Spitter/Laugh/laugh_5_D9952F02.wem</CachePath>
+				</File>
+				<File Id="365420939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\SkyLaser\alive_loop.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/SkyLaser/alive_loop_FFAC0C2C.wem</CachePath>
+				</File>
+				<File Id="408531612" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Totem\mDeathImpactGiantDirtA.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Totem/mDeathImpactGiantDirtA_D9952F02.wem</CachePath>
+				</File>
+				<File Id="420363145" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\supernatural-explosion-104295.wav</ShortName>
+					<CachePath>SFX/Ifrit/supernatural-explosion-104295_D9952F02.wem</CachePath>
+				</File>
+				<File Id="440510476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shrine\shrine_failure.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shrine/shrine_failure_D9952F02.wem</CachePath>
+				</File>
+				<File Id="442060706" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\projectile_fly_loop.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/projectile_fly_loop_FFAC0C2C.wem</CachePath>
+				</File>
+				<File Id="442216035" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spitter\Laugh\laugh_3.wav</ShortName>
+					<CachePath>SFX/Spitter/Laugh/laugh_3_D9952F02.wem</CachePath>
+				</File>
+				<File Id="449360130" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ArcherBug\wMac_Death.wav</ShortName>
+					<CachePath>SFX/ArcherBug/wMac_Death_D9952F02.wem</CachePath>
+				</File>
+				<File Id="460928661" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\Dance\GOGOGO.wav</ShortName>
+					<CachePath>SFX/Colossus/Dance/GOGOGO_05361ED9.wem</CachePath>
+				</File>
+				<File Id="460937275" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\wSpiderSpawn.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/wSpiderSpawn_D9952F02.wem</CachePath>
+				</File>
+				<File Id="462821773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Scout\attack.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Scout/attack_D9952F02.wem</CachePath>
+				</File>
+				<File Id="470213146" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\wWurmRoar.wav</ShortName>
+					<CachePath>SFX/Ifrit/wWurmRoar_D9952F02.wem</CachePath>
+				</File>
+				<File Id="483116788" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\breathe_in.wav</ShortName>
+					<CachePath>SFX/Ifrit/breathe_in_A008DBFD.wem</CachePath>
+				</File>
+				<File Id="488650691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\ThreeHitCombo\mWooshLarge1.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/ThreeHitCombo/mWooshLarge1_D9952F02.wem</CachePath>
+				</File>
+				<File Id="498316796" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Archer\arrowflightloop.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Archer/arrowflightloop_FFAC0C2C.wem</CachePath>
+				</File>
+				<File Id="498890753" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ArcherBug\wMacG_Spawn.wav</ShortName>
+					<CachePath>SFX/ArcherBug/wMacG_Spawn_D9952F02.wem</CachePath>
+				</File>
+				<File Id="501723475" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\mStoneGolemDeathA.wav</ShortName>
+					<CachePath>SFX/Ifrit/mStoneGolemDeathA_D9952F02.wem</CachePath>
+				</File>
+				<File Id="503777156" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\Light\light_4.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/Light/light_4_D9952F02.wem</CachePath>
+				</File>
+				<File Id="519983423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\LeftRighSwing\mWooshMedium1_no_armor.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/LeftRighSwing/mWooshMedium1_no_armor_D9952F02.wem</CachePath>
+				</File>
+				<File Id="520764054" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Totem\summontribe.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Totem/summontribe_D9952F02.wem</CachePath>
+				</File>
+				<File Id="534119104" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Totem\sexual_energy.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Totem/sexual_energy_20164B1B.wem</CachePath>
+				</File>
+				<File Id="537004202" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\Flamestrike.wav</ShortName>
+					<CachePath>SFX/Ifrit/Flamestrike_ABA4BC7E.wem</CachePath>
+				</File>
+				<File Id="556054288" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\firerocks\FireCast3.wav</ShortName>
+					<CachePath>SFX/Ifrit/firerocks/FireCast3_D9952F02.wem</CachePath>
+				</File>
+				<File Id="557799477" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Swift\wGolemB_Death.wav</ShortName>
+					<CachePath>SFX/Swift/wGolemB_Death_D9952F02.wem</CachePath>
+				</File>
+				<File Id="558140598" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\Barrage\charged-laser-7125.wav</ShortName>
+					<CachePath>SFX/Colossus/Barrage/charged-laser-7125_D9952F02.wem</CachePath>
+				</File>
+				<File Id="568118791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\wLizardGDeath.wav</ShortName>
+					<CachePath>SFX/Ifrit/wLizardGDeath_D9952F02.wem</CachePath>
+				</File>
+				<File Id="572350902" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\weapon_throw.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/weapon_throw_D9952F02.wem</CachePath>
+				</File>
+				<File Id="573791956" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ArcherBug\Buck Bumble Main Theme [w8FQ-N0zb2U].wav</ShortName>
+					<CachePath>SFX/ArcherBug/Buck Bumble Main Theme [w8FQ-N0zb2U]_20164B1B.wem</CachePath>
+				</File>
+				<File Id="574035771" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\sword_projectile_loop.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/sword_projectile_loop_FFAC0C2C.wem</CachePath>
+				</File>
+				<File Id="581770494" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\LeftRighSwing\mWooshMedium3.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/LeftRighSwing/mWooshMedium3_D9952F02.wem</CachePath>
+				</File>
+				<File Id="581936619" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Hunter\spawn.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Hunter/spawn_DADFBC6F.wem</CachePath>
+				</File>
+				<File Id="594453083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shrine\shrine_use.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shrine/shrine_use_D9952F02.wem</CachePath>
+				</File>
+				<File Id="607553832" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\Beam\beamstart.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/Beam/beamstart_D9952F02.wem</CachePath>
+				</File>
+				<File Id="611589564" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\se_s00536_removing_sword_from_ground.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/se_s00536_removing_sword_from_ground_D9952F02.wem</CachePath>
+				</File>
+				<File Id="616738106" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Totem\groundpound.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Totem/groundpound_D9952F02.wem</CachePath>
+				</File>
+				<File Id="631139128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Archer\death.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Archer/death_D9952F02.wem</CachePath>
+				</File>
+				<File Id="634819283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Storm\storm_release.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Storm/storm_release_D9952F02.wem</CachePath>
+				</File>
+				<File Id="637072144" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Hunter\mWooshMedium2.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Hunter/mWooshMedium2_F000D318.wem</CachePath>
+				</File>
+				<File Id="644961460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shaman\NatureImpact.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shaman/NatureImpact_D9952F02.wem</CachePath>
+				</File>
+				<File Id="645895879" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Totem\shamansummon.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Totem/shamansummon_0775BA28.wem</CachePath>
+				</File>
+				<File Id="654962324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Totem\summonstorms.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Totem/summonstorms_D9952F02.wem</CachePath>
+				</File>
+				<File Id="670225552" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\wPlasma.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/wPlasma_D9952F02.wem</CachePath>
+				</File>
+				<File Id="670484975" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\LeftRighSwing\mWooshMedium3_no_armor.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/LeftRighSwing/mWooshMedium3_no_armor_D9952F02.wem</CachePath>
+				</File>
+				<File Id="674101317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\ThreeHitCombo\mWooshLarge3_no_armor.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/ThreeHitCombo/mWooshLarge3_no_armor_D9952F02.wem</CachePath>
+				</File>
+				<File Id="678592564" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\death_normal.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/death_normal_D9952F02.wem</CachePath>
+				</File>
+				<File Id="684460965" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Trap\452570__kyles__branch-breaking-forest-twig-snap-crunch.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Trap/452570__kyles__branch-breaking-forest-twig-snap-crunch_D9952F02.wem</CachePath>
+				</File>
+				<File Id="692839050" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Hunter\ExecuteTarget.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Hunter/ExecuteTarget_D9952F02.wem</CachePath>
+				</File>
+				<File Id="703680545" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\se_common_break.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/se_common_break_D9952F02.wem</CachePath>
+				</File>
+				<File Id="703754591" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\wDroneDeath.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/wDroneDeath_D9952F02.wem</CachePath>
+				</File>
+				<File Id="717345710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Totem\mElementalEarthAggroA.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Totem/mElementalEarthAggroA_D9952F02.wem</CachePath>
+				</File>
+				<File Id="720604510" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\Steps\wow\mFootHugeGiantDirtC.wav</ShortName>
+					<CachePath>SFX/Colossus/Steps/wow/mFootHugeGiantDirtC_D9952F02.wem</CachePath>
+				</File>
+				<File Id="738621265" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\alive_loop.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/alive_loop_FFAC0C2C.wem</CachePath>
+				</File>
+				<File Id="740622718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\wGolemT_Death.wav</ShortName>
+					<CachePath>SFX/Ifrit/wGolemT_Death_D9952F02.wem</CachePath>
+				</File>
+				<File Id="743141241" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\LeftRighSwing\mWooshMedium2_no_armor.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/LeftRighSwing/mWooshMedium2_no_armor_D9952F02.wem</CachePath>
+				</File>
+				<File Id="746885925" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\wWormRoar.wav</ShortName>
+					<CachePath>SFX/Ifrit/wWormRoar_D9952F02.wem</CachePath>
+				</File>
+				<File Id="748123111" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\wLightning.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/wLightning_D9952F02.wem</CachePath>
+				</File>
+				<File Id="748362137" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\door_closing.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/door_closing_D9952F02.wem</CachePath>
+				</File>
+				<File Id="756705487" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\WeaponThrow\spear_charge.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/WeaponThrow/spear_charge_D9952F02.wem</CachePath>
+				</File>
+				<File Id="757388376" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spitter\Laugh\laugh_1.wav</ShortName>
+					<CachePath>SFX/Spitter/Laugh/laugh_1_D9952F02.wem</CachePath>
+				</File>
+				<File Id="776462330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\mDeathImpactGiantGrassA.wav</ShortName>
+					<CachePath>SFX/Ifrit/mDeathImpactGiantGrassA_D9952F02.wem</CachePath>
+				</File>
+				<File Id="786800572" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Hunter\death.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Hunter/death_8626D2CE.wem</CachePath>
+				</File>
+				<File Id="803857263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\Death\death1.wav</ShortName>
+					<CachePath>SFX/Colossus/Death/death1_D9952F02.wem</CachePath>
+				</File>
+				<File Id="806740436" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\MountainGiantAggro.wav</ShortName>
+					<CachePath>SFX/Colossus/MountainGiantAggro_D9952F02.wem</CachePath>
+				</File>
+				<File Id="821461000" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_spitter_spit_windup.wav</ShortName>
+					<CachePath>SFX/sfx_spitter_spit_windup_4E796C50.wem</CachePath>
+				</File>
+				<File Id="823053918" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\breath_in_fireball.wav</ShortName>
+					<CachePath>SFX/Ifrit/breath_in_fireball_A4C7F8ED.wem</CachePath>
+				</File>
+				<File Id="825382782" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shaman\LightningBoltImpact.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shaman/LightningBoltImpact_549A7953.wem</CachePath>
+				</File>
+				<File Id="828788037" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\firerocks\FireCast1.wav</ShortName>
+					<CachePath>SFX/Ifrit/firerocks/FireCast1_D9952F02.wem</CachePath>
+				</File>
+				<File Id="831893569" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Swift\wGolemB_Shoot_1.wav</ShortName>
+					<CachePath>SFX/Swift/wGolemB_Shoot_1_D9952F02.wem</CachePath>
+				</File>
+				<File Id="838090976" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Totem\death.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Totem/death_D9952F02.wem</CachePath>
+				</File>
+				<File Id="847151097" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>wLizardShoot1_silence.wav</ShortName>
+					<CachePath>SFX/wLizardShoot1_silence_D9952F02.wem</CachePath>
+				</File>
+				<File Id="859465449" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\DynamiteExplode.wav</ShortName>
+					<CachePath>SFX/Ifrit/DynamiteExplode_D9952F02.wem</CachePath>
+				</File>
+				<File Id="860858375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\item_fist_spawn.wav</ShortName>
+					<CachePath>SFX/Colossus/item_fist_spawn_D9952F02.wem</CachePath>
+				</File>
+				<File Id="865931013" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\Light\light_3.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/Light/light_3_D9952F02.wem</CachePath>
+				</File>
+				<File Id="870425413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shaman\shaman_slide_whistle.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shaman/shaman_slide_whistle_D9952F02.wem</CachePath>
+				</File>
+				<File Id="872315187" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shaman\PreCastShadowMagicLow.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shaman/PreCastShadowMagicLow_FFAC0C2C.wem</CachePath>
+				</File>
+				<File Id="883247386" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\GO_CreatureSpellPortalLarge_Stand_01.wav</ShortName>
+					<CachePath>SFX/Ifrit/GO_CreatureSpellPortalLarge_Stand_01_672087F5.wem</CachePath>
+				</File>
+				<File Id="884217374" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shaman\shaman_spawn_no_voice.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shaman/shaman_spawn_no_voice_D9952F02.wem</CachePath>
+				</File>
+				<File Id="899198744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Judgement\Arraign\Beam\beamnotreallyloop.wav</ShortName>
+					<CachePath>SFX/Judgement/Arraign/Beam/beamnotreallyloop_D9952F02.wem</CachePath>
+				</File>
+				<File Id="904550696" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\Steps\wow\mFootHugeGiantDirtD.wav</ShortName>
+					<CachePath>SFX/Colossus/Steps/wow/mFootHugeGiantDirtD_D9952F02.wem</CachePath>
+				</File>
+				<File Id="922813275" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\wCommandoSlide.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/wCommandoSlide_D9952F02.wem</CachePath>
+				</File>
+				<File Id="941453457" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Totem\spawn.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Totem/spawn_D9952F02.wem</CachePath>
+				</File>
+				<File Id="970849178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\Light\light_1.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/Light/light_1_D9952F02.wem</CachePath>
+				</File>
+				<File Id="975510839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colossus\Barrage\mStoneGolemAttack2A.wav</ShortName>
+					<CachePath>SFX/Colossus/Barrage/mStoneGolemAttack2A_D9952F02.wem</CachePath>
+				</File>
+				<File Id="980764921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Archer\spawn.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Archer/spawn_04F847D8.wem</CachePath>
+				</File>
+				<File Id="982490257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spitter\Laugh\laugh_2.wav</ShortName>
+					<CachePath>SFX/Spitter/Laugh/laugh_2_D9952F02.wem</CachePath>
+				</File>
+				<File Id="994391422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\door_opening.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/door_opening_D9952F02.wem</CachePath>
+				</File>
+				<File Id="994954310" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\Light\light_6.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/Light/light_6_D9952F02.wem</CachePath>
+				</File>
+				<File Id="1005605552" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\laser_hit.wav</ShortName>
+					<CachePath>SFX/MechanicalSpider/laser_hit_D9952F02.wem</CachePath>
+				</File>
+				<File Id="1019158565" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ArcherBug\wMacG_Shoot.wav</ShortName>
+					<CachePath>SFX/ArcherBug/wMacG_Shoot_CC99C25A.wem</CachePath>
+				</File>
+				<File Id="1024383268" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ifrit\firerocks\FireCast2.wav</ShortName>
+					<CachePath>SFX/Ifrit/firerocks/FireCast2_D9952F02.wem</CachePath>
+				</File>
+				<File Id="1025509273" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>wSpitterHit.wav</ShortName>
+					<CachePath>SFX/wSpitterHit_D9952F02.wem</CachePath>
+				</File>
+				<File Id="1027150312" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Archer\firearrow.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Archer/firearrow_D9952F02.wem</CachePath>
+				</File>
+				<File Id="1034112484" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Shaman\HauntImpact1.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Shaman/HauntImpact1_D9952F02.wem</CachePath>
+				</File>
+				<File Id="1038567060" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MechanicalSpider\CRANK.WAV</ShortName>
+					<CachePath>SFX/MechanicalSpider/CRANK_5CFD8381.wem</CachePath>
+				</File>
+				<File Id="1051465202" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Storm\KrakkenWhirlwind.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Storm/KrakkenWhirlwind_FFAC0C2C.wem</CachePath>
+				</File>
+				<File Id="1053352509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Archer\ArrowHitA.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Archer/ArrowHitA_D9952F02.wem</CachePath>
+				</File>
+				<File Id="1054836079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LynxTribe\Totem\unburrow.wav</ShortName>
+					<CachePath>SFX/LynxTribe/Totem/unburrow_D9952F02.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4140574820" Name="ER_Archer_Arrow_FlightLoop_Play">
+					<MediaRefs>
+						<MediaRef Id="498316796"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2618157918" Name="ER_Archer_Arrow_FlightLoop_Stop">
+					<MediaRefs>
+						<MediaRef Id="498316796"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1399286871" Name="ER_Archer_ArrowImpact_Play">
+					<MediaRefs>
+						<MediaRef Id="147474012"/>
+						<MediaRef Id="171166393"/>
+						<MediaRef Id="1053352509"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1523050406" Name="ER_Archer_Death_Play">
+					<MediaRefs>
+						<MediaRef Id="631139128"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2653451101" Name="ER_Archer_FireArrow_Play">
+					<MediaRefs>
+						<MediaRef Id="247038726"/>
+						<MediaRef Id="1027150312"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2487644442" Name="ER_Archer_PrepareArrow_Play">
+					<MediaRefs>
+						<MediaRef Id="247038726"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4084780819" Name="ER_Archer_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="980764921"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2431428734" Name="ER_ArcherBug_BuckBumble_Play">
+					<MediaRefs>
+						<MediaRef Id="573791956"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3469321536" Name="ER_ArcherBug_BuckBumble_Stop">
+					<MediaRefs>
+						<MediaRef Id="573791956"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1129513156" Name="ER_ArcherBug_Death_Play">
+					<MediaRefs>
+						<MediaRef Id="449360130"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1806411173" Name="ER_ArcherBug_Shoot_Play">
+					<MediaRefs>
+						<MediaRef Id="1019158565"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="772387461" Name="ER_ArcherBug_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="498890753"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2637604531" Name="ER_Arraign_ArmorBreak_Play">
+					<MediaRefs>
+						<MediaRef Id="703680545"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2261586241" Name="ER_Arraign_BeamEnd_Play">
+					<MediaRefs>
+						<MediaRef Id="231295798"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2395503796" Name="ER_Arraign_BeamLoop_Play">
+					<MediaRefs>
+						<MediaRef Id="899198744"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4099509390" Name="ER_Arraign_BeamLoop_Stop">
+					<MediaRefs>
+						<MediaRef Id="899198744"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="643368148" Name="ER_Arraign_BeamStart_Play">
+					<MediaRefs>
+						<MediaRef Id="607553832"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="178951563" Name="ER_Arraign_ClockAttack_Play">
+					<MediaRefs>
+						<MediaRef Id="204662139"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3034311786" Name="ER_Arraign_Leap_Incoming_Play">
+					<MediaRefs>
+						<MediaRef Id="332821166"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="358869221" Name="ER_Arraign_Leap_RemoveSword_Play">
+					<MediaRefs>
+						<MediaRef Id="301760297"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="646480283" Name="ER_Arraign_LeftRightSwingP1_Play">
+					<MediaRefs>
+						<MediaRef Id="55789865"/>
+						<MediaRef Id="156262781"/>
+						<MediaRef Id="581770494"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="767220458" Name="ER_Arraign_LeftRightSwingP2_Play">
+					<MediaRefs>
+						<MediaRef Id="519983423"/>
+						<MediaRef Id="670484975"/>
+						<MediaRef Id="743141241"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3638767595" Name="ER_Arraign_Lightning_Play">
+					<MediaRefs>
+						<MediaRef Id="748123111"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3526336223" Name="ER_Arraign_Remove_Sword_Play">
+					<MediaRefs>
+						<MediaRef Id="611589564"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2909419781" Name="ER_Arraign_SpearThrow_Charge_Play">
+					<MediaRefs>
+						<MediaRef Id="756705487"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2691441839" Name="ER_Arraign_SpearThrowProjectileLoop_Play">
+					<MediaRefs>
+						<MediaRef Id="3844319"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1155681965" Name="ER_Arraign_SpearThrowProjectileLoop_Stop">
+					<MediaRefs>
+						<MediaRef Id="3844319"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3407913445" Name="ER_Arraign_SwordThrow_Charge_Play">
+					<MediaRefs>
+						<MediaRef Id="170019500"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3318859761" Name="ER_Arraign_SwordThrow_Throw_Play">
+					<MediaRefs>
+						<MediaRef Id="572350902"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1945520079" Name="ER_Arraign_SwordThrowProjectileLoop_Play">
+					<MediaRefs>
+						<MediaRef Id="574035771"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="368183501" Name="ER_Arraign_SwordThrowProjectileLoop_Stop">
+					<MediaRefs>
+						<MediaRef Id="574035771"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4117952348" Name="ER_Arraign_ThreeHitComboCharge_Play">
+					<MediaRefs>
+						<MediaRef Id="33025982"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="473042953" Name="ER_Arraign_ThreeHitComboExplosion_Play">
+					<MediaRefs>
+						<MediaRef Id="163560732"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1895898611" Name="ER_Arraign_ThreeHitComboSwingP1_Play">
+					<MediaRefs>
+						<MediaRef Id="136396131"/>
+						<MediaRef Id="159983631"/>
+						<MediaRef Id="488650691"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1432036354" Name="ER_Arraign_ThreeHitComboSwingP2_Play">
+					<MediaRefs>
+						<MediaRef Id="105619789"/>
+						<MediaRef Id="312368820"/>
+						<MediaRef Id="674101317"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3007851780" Name="ER_Colossus_ArmsSpread_Play">
+					<MediaRefs>
+						<MediaRef Id="304481895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1326506361" Name="ER_Colossus_Barrage_Charge_Play">
+					<MediaRefs>
+						<MediaRef Id="558140598"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1842161212" Name="ER_Colossus_Barrage_Move_Play">
+					<MediaRefs>
+						<MediaRef Id="975510839"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1634317626" Name="ER_Colossus_Clap_Play">
+					<MediaRefs>
+						<MediaRef Id="152242903"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="126755245" Name="ER_Colossus_Death1_Play">
+					<MediaRefs>
+						<MediaRef Id="803857263"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3705976840" Name="ER_Colossus_Death2_Play">
+					<MediaRefs>
+						<MediaRef Id="287318356"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1577139982" Name="ER_Colossus_GOGOGO_Play">
+					<MediaRefs>
+						<MediaRef Id="460928661"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2578679280" Name="ER_Colossus_GOGOGO_Stop">
+					<MediaRefs>
+						<MediaRef Id="460928661"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2916987077" Name="ER_Colossus_Landing_Play">
+					<MediaRefs>
+						<MediaRef Id="50837913"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2177429057" Name="ER_Colossus_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="806740436"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3638537078" Name="ER_Colossus_Step_Play">
+					<MediaRefs>
+						<MediaRef Id="49154136"/>
+						<MediaRef Id="143513538"/>
+						<MediaRef Id="302757301"/>
+						<MediaRef Id="720604510"/>
+						<MediaRef Id="904550696"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1096033807" Name="ER_Colossus_Stomp_Play">
+					<MediaRefs>
+						<MediaRef Id="70830560"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1448742039" Name="ER_Hunter_Death_Play">
+					<MediaRefs>
+						<MediaRef Id="786800572"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="132027498" Name="ER_Hunter_FireLunge_Play">
+					<MediaRefs>
+						<MediaRef Id="692839050"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2598139123" Name="ER_Hunter_PrepareLunge_Play">
+					<MediaRefs>
+						<MediaRef Id="637072144"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3527327526" Name="ER_Hunter_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="581936619"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2494226757" Name="ER_Ifrit_BreathIn_Charge_Play">
+					<MediaRefs>
+						<MediaRef Id="483116788"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="356285252" Name="ER_Ifrit_BreathIn_Fireball_Play">
+					<MediaRefs>
+						<MediaRef Id="823053918"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2541841397" Name="ER_Ifrit_Death_Play">
+					<MediaRefs>
+						<MediaRef Id="568118791"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="640236253" Name="ER_Ifrit_FireBreath_Play">
+					<MediaRefs>
+						<MediaRef Id="264263352"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2825975115" Name="ER_Ifrit_FireBreath_Stop">
+					<MediaRefs>
+						<MediaRef Id="264263352"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3106799068" Name="ER_Ifrit_Hellzone_Rock_Play">
+					<MediaRefs>
+						<MediaRef Id="556054288"/>
+						<MediaRef Id="828788037"/>
+						<MediaRef Id="1024383268"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3113630670" Name="ER_Ifrit_Hellzone_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="537004202"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3585132518" Name="ER_Ifrit_Hit_Play">
+					<MediaRefs>
+						<MediaRef Id="88037240"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4072980516" Name="ER_Ifrit_Landing_Play">
+					<MediaRefs>
+						<MediaRef Id="776462330"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2969285294" Name="ER_Ifrit_Pillar_Death_Play">
+					<MediaRefs>
+						<MediaRef Id="740622718"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="449302751" Name="ER_Ifrit_Pillar_Explosion_Play">
+					<MediaRefs>
+						<MediaRef Id="420363145"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3882493686" Name="ER_Ifrit_Pillar_Fire_Play">
+					<MediaRefs>
+						<MediaRef Id="150878353"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="359640200" Name="ER_Ifrit_Pillar_Fire_Stop">
+					<MediaRefs>
+						<MediaRef Id="150878353"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2536263147" Name="ER_Ifrit_Pillar_Killed_By_Player_Play">
+					<MediaRefs>
+						<MediaRef Id="61355974"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2631389563" Name="ER_Ifrit_Pillar_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="501723475"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1573136605" Name="ER_IFrit_Portal_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="883247386"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2530527096" Name="ER_Ifrit_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="470213146"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3783872740" Name="ER_Ifrit_SummonPillar_Play">
+					<MediaRefs>
+						<MediaRef Id="746885925"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1374011305" Name="ER_Ifrit_Volcano_Play">
+					<MediaRefs>
+						<MediaRef Id="859465449"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4026633723" Name="ER_JudgementOutro_Fighting_Play">
+					<MediaRefs>
+						<MediaRef Id="237368593"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="295358722" Name="ER_JudgementOutro_SwordTransform_Play">
+					<MediaRefs>
+						<MediaRef Id="83661797"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3361576492" Name="ER_JudgementOutro_Water_Thud_Play">
+					<MediaRefs>
+						<MediaRef Id="64576330"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="706660289" Name="ER_Knurl_Fist_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="860858375"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="922185807" Name="ER_Lynx_Escape_Effect_Play">
+					<MediaRefs>
+						<MediaRef Id="350476053"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1412189178" Name="ER_Lynx_Shrine_Failure_Play">
+					<MediaRefs>
+						<MediaRef Id="440510476"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1800383315" Name="ER_Lynx_Shrine_Success_Play">
+					<MediaRefs>
+						<MediaRef Id="130592068"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="822457895" Name="ER_Lynx_Shrine_Use_Play">
+					<MediaRefs>
+						<MediaRef Id="594453083"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1844671114" Name="ER_Lynx_Storm_Alive_Loop_Play">
+					<MediaRefs>
+						<MediaRef Id="1051465202"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3248873140" Name="ER_Lynx_Storm_Alive_Loop_Stop">
+					<MediaRefs>
+						<MediaRef Id="1051465202"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3819002396" Name="ER_Lynx_Storm_Release">
+					<MediaRefs>
+						<MediaRef Id="634819283"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3969796767" Name="ER_Lynx_Storm_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="31326868"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="984775628" Name="ER_LynxTrap_SnapTwig_Play">
+					<MediaRefs>
+						<MediaRef Id="684460965"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="237855403" Name="ER_Scout_Attack_Play">
+					<MediaRefs>
+						<MediaRef Id="462821773"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="109221969" Name="ER_Scout_Death_Play">
+					<MediaRefs>
+						<MediaRef Id="16712587"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2564471964" Name="ER_Scout_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="321725216"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3450403083" Name="ER_Shaman_Death_Play">
+					<MediaRefs>
+						<MediaRef Id="129875282"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="180733679" Name="ER_Shaman_Emote_NOPE">
+					<MediaRefs>
+						<MediaRef Id="108281566"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1186935406" Name="ER_Shaman_Emote_Slide_Whistle_Play">
+					<MediaRefs>
+						<MediaRef Id="870425413"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4025739421" Name="ER_Shaman_FireProjectiles_Play">
+					<MediaRefs>
+						<MediaRef Id="644961460"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1125251614" Name="ER_Shaman_FirePushBack_Play">
+					<MediaRefs>
+						<MediaRef Id="825382782"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3776641472" Name="ER_Shaman_Projectile_Flight_Loop_Play">
+					<MediaRefs>
+						<MediaRef Id="872315187"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2120003650" Name="ER_Shaman_Projectile_Flight_Loop_Stop">
+					<MediaRefs>
+						<MediaRef Id="872315187"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2873782747" Name="ER_Shaman_Projectile_Impact_Play">
+					<MediaRefs>
+						<MediaRef Id="128039397"/>
+						<MediaRef Id="179243949"/>
+						<MediaRef Id="1034112484"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2208884523" Name="ER_Shaman_Spawn_No_Voice_Play">
+					<MediaRefs>
+						<MediaRef Id="884217374"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="795297721" Name="ER_Shaman_SummonProjectiles_No_Voice_Play">
+					<MediaRefs>
+						<MediaRef Id="78227651"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3222163674" Name="ER_Shaman_SummonProjectiles_Stop">
+					<MediaRefs>
+						<MediaRef Id="78227651"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1377994190" Name="ER_Shaman_SummonPushBack_No_Voice_Play">
+					<MediaRefs>
+						<MediaRef Id="343903326"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3590259664" Name="ER_ShamanTookTheDrug_Play">
+					<MediaRefs>
+						<MediaRef Id="63293688"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1938741618" Name="ER_ShamanTookTheDrug_Stop">
+					<MediaRefs>
+						<MediaRef Id="63293688"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3857282311" Name="ER_SkyLaser_Alive_Loop_Play">
+					<MediaRefs>
+						<MediaRef Id="365420939"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2592524373" Name="ER_SkyLaser_Alive_Loop_Stop">
+					<MediaRefs>
+						<MediaRef Id="365420939"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2077057673" Name="ER_SkyLaser_Death_Play">
+					<MediaRefs>
+						<MediaRef Id="259684146"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="239321720" Name="ER_Spider_Alive_Loop_Play">
+					<MediaRefs>
+						<MediaRef Id="738621265"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2611769034" Name="ER_Spider_Alive_Loop_Stop">
+					<MediaRefs>
+						<MediaRef Id="738621265"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3076628253" Name="ER_Spider_Dash_Drone_Play">
+					<MediaRefs>
+						<MediaRef Id="922813275"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3303183540" Name="ER_Spider_Dash_Play">
+					<MediaRefs>
+						<MediaRef Id="922813275"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="566543293" Name="ER_Spider_Death_Drone_Play">
+					<MediaRefs>
+						<MediaRef Id="703754591"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1791559020" Name="ER_Spider_Death_Normal_Play">
+					<MediaRefs>
+						<MediaRef Id="678592564"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2301719574" Name="ER_Spider_Fire_Charge_Drone_Play">
+					<MediaRefs>
+						<MediaRef Id="316040690"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2329509315" Name="ER_Spider_Fire_Charge_Play">
+					<MediaRefs>
+						<MediaRef Id="316040690"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="855656465" Name="ER_Spider_Fire_Drone_Play">
+					<MediaRefs>
+						<MediaRef Id="670225552"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3289796256" Name="ER_Spider_Fire_Play">
+					<MediaRefs>
+						<MediaRef Id="670225552"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4119502039" Name="ER_Spider_Hatch_Close_Play">
+					<MediaRefs>
+						<MediaRef Id="748362137"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1123607787" Name="ER_Spider_Hatch_Open_Play">
+					<MediaRefs>
+						<MediaRef Id="994391422"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3207386569" Name="ER_Spider_Light_Flicker_Play">
+					<MediaRefs>
+						<MediaRef Id="24122210"/>
+						<MediaRef Id="322597722"/>
+						<MediaRef Id="503777156"/>
+						<MediaRef Id="865931013"/>
+						<MediaRef Id="970849178"/>
+						<MediaRef Id="994954310"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2682871661" Name="ER_Spider_Projectile_Hit_Play">
+					<MediaRefs>
+						<MediaRef Id="1005605552"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2826993484" Name="ER_Spider_Projectile_Loop_Play">
+					<MediaRefs>
+						<MediaRef Id="442060706"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="501810774" Name="ER_Spider_Projectile_Loop_Stop">
+					<MediaRefs>
+						<MediaRef Id="442060706"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3127446933" Name="ER_Spider_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="460937275"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3837069491" Name="ER_Spider_Squeaky_Play">
+					<MediaRefs>
+						<MediaRef Id="321445580"/>
+						<MediaRef Id="1038567060"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="145988903" Name="ER_Spiiter_Spit_Play">
+					<MediaRefs>
+						<MediaRef Id="294903960"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2742481896" Name="ER_Spitter_Bite_Play">
+					<MediaRefs>
+						<MediaRef Id="847151097"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1528892635" Name="ER_Spitter_Charge_Spit_Play">
+					<MediaRefs>
+						<MediaRef Id="821461000"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="703349658" Name="ER_Spitter_Death_Play">
+					<MediaRefs>
+						<MediaRef Id="146195984"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2664208377" Name="ER_Spitter_Hit_Play">
+					<MediaRefs>
+						<MediaRef Id="1025509273"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="573818545" Name="ER_Spitter_Laugh_Play">
+					<MediaRefs>
+						<MediaRef Id="172902234"/>
+						<MediaRef Id="356148722"/>
+						<MediaRef Id="442216035"/>
+						<MediaRef Id="757388376"/>
+						<MediaRef Id="982490257"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1825336935" Name="ER_Spitter_Laugh_Stop">
+					<MediaRefs>
+						<MediaRef Id="172902234"/>
+						<MediaRef Id="356148722"/>
+						<MediaRef Id="442216035"/>
+						<MediaRef Id="757388376"/>
+						<MediaRef Id="982490257"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2064376367" Name="ER_Spitter_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="237938261"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="704930148" Name="ER_Swift_Death_PLay">
+					<MediaRefs>
+						<MediaRef Id="557799477"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3544666161" Name="ER_Swift_GroundImpact_Play">
+					<MediaRefs>
+						<MediaRef Id="4103259"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2011814231" Name="ER_Swift_PrepAttack_Play">
+					<MediaRefs>
+						<MediaRef Id="831893569"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2394273957" Name="ER_Swift_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="106230718"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1997966905" Name="ER_Totem_Burrow_Play">
+					<MediaRefs>
+						<MediaRef Id="717345710"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1179805266" Name="ER_Totem_Death_Play">
+					<MediaRefs>
+						<MediaRef Id="838090976"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2025115999" Name="ER_Totem_Groundpound_Play">
+					<MediaRefs>
+						<MediaRef Id="616738106"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3400012187" Name="ER_Totem_Landing_PLay">
+					<MediaRefs>
+						<MediaRef Id="408531612"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2192373533" Name="ER_Totem_SexYes_Play">
+					<MediaRefs>
+						<MediaRef Id="534119104"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="83248267" Name="ER_Totem_SexYes_Stop">
+					<MediaRefs>
+						<MediaRef Id="534119104"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3943649165" Name="ER_Totem_ShamanSpawn_Play">
+					<MediaRefs>
+						<MediaRef Id="645895879"/>
+						<MediaRef Id="941453457"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1345412391" Name="ER_Totem_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="941453457"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3721181403" Name="ER_Totem_SummonStorms_Play">
+					<MediaRefs>
+						<MediaRef Id="654962324"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2271628797" Name="ER_Totem_SummonTribe_Play">
+					<MediaRefs>
+						<MediaRef Id="520764054"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1378646446" Name="ER_Totem_Unburrow_Play">
+					<MediaRefs>
+						<MediaRef Id="1054836079"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+				<GameParameter Id="4234729638" Name="ER_Ifrit_Pillar_Fire_Volume"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1BE0F0AA-18CB-A3C1-C45F-AA398578A4D2}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,10 @@
+{
+	strings:
+	{
+		"ENGI_SPECIAL_MECHSPIDER_NAME" : "Mechanical Spider",
+		"ENGI_SPECIAL_MECHSPIDER_DESCRIPTION" : "Place a <style=cIsUtility>Mechanical Spider</style> that <style=cIsUtility>inherits all your items</style>. Fires a blaster for <style=cIsDamage>2x250% damage</style>. Can place up to 2.",
+		
+		"ENGI_SPECIAL_MECHSPIDER_SCEPTER_NAME" : "Mechanical Spider Mk. 2",
+		"ENGI_SPECIAL_MECHSPIDER_SCEPTER_DESCRIPTION" : "Place a <style=cIsUtility>Mechanical Spider</style> that <style=cIsUtility>inherits all your items</style>. Fires a blaster for <style=cIsDamage>2x250% damage</style>. Can place up to 2.\n<color=#d299ff>SCEPTER: All stats are boosted by 30%.</color>"
+	}
+}

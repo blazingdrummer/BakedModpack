@@ -1,0 +1,9 @@
+{
+	strings:
+	{
+	"MOFFEIN_ANCIENTWISP_BODY_NAME" : "远古巨型幽魂",
+	"MOFFEIN_ANCIENTWISP_BODY_SUBTITLE" : "放逐与枷锁",
+	"MOFFEIN_ANCIENTWISP_BODY_LORE" : "这会是小型幽魂的头目吗？ 或许这个远古巨型幽魂就是一直以来在背后骚扰我的火焰面具的傀儡师，或者它也是一个更伟大的恶魔装置……？\n\n紫色火焰散发出的热量是极端的。凶猛的闪电柱威胁着我的西装，或者更糟，把我变成一个起泡的外壳。是什么助长了这些暴力、燃烧的幽灵？",
+	"UNLOCKABLE_LOG_MOFFEIN_ANCIENTWISP" : "怪物日志：远古巨型幽魂"
+	}
+}

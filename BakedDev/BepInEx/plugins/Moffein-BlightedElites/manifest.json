@@ -1,0 +1,13 @@
+{
+    "name": "BlightedElites",
+    "version_number": "1.2.1",
+    "website_url": "https://github.com/Moffein/BlightedElites",
+    "description": "Brings back Blighted Elites from RoR1.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2117",
+	    "RiskofThunder-R2API_Core-5.1.1",
+	    "RiskofThunder-R2API_Prefab-1.0.4",
+		"RiskofThunder-R2API_Sound-1.0.3",
+		"RiskofThunder-R2API_Elites-1.0.4"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+	strings:
+	{
+	"MOFFEIN_ARCHWISP_BODY_NAME" : "Архаичный сгусток",
+	"UNLOCKABLE_LOG_MOFFEIN_MOFFEIN_ARCHWISP" : "Запись о монстре: Архаичный сгусток"
+	}
+}

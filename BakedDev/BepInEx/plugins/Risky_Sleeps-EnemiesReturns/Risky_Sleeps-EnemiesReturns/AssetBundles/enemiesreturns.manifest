@@ -1,0 +1,305 @@
+ManifestFileVersion: 0
+CRC: 4219245138
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c0f51ca5761e3b9993e47ba24f5d6fee
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1e4ff3002e973fbcae92bb97ee575769
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9d76838d4eb84a843946ffe23f105e73, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f5977bd6c20ab174fbe262d0dca4dd79, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a63d8f0e5bab0ea408d508511acc02cc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e033f306031bd44eac5298049bea03e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 79dd9c96ec8b6844996b20df046de70e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 576d24d7d73f24648ace6029ded1cc0c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cdbe357aa5515ec4893aa206698a3c61, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe3dcbfdd6f599f48b10f4c6ee52d48e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: adb84e30e02715445aeb9959894e3b4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 28a0a4ada57bc324ba9a21033f9b5001, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 156375ae28c15164c92c3f41f085273e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 13b0d702e7d1c1149815ef11e773bc24, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae0a4f976ec1e8d49a651230057e1b21, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 57db74414cc0d7147a6934f96ce44e80, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c37794d6cbae3024388905322557e48a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: EnemiesReturns
+  ClassName: EnemiesReturns.EditorHelpers.OurChildLocator/NameTransformPair
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.BoolParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.ColorParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.FloatParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.GradingModeParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Spline
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.SplineParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.TextureParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.TonemapperParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Vector4Parameter
+Assets:
+- Assets/Enemies/ArcherBug/stadiajungle/matArcherBugWingStadiaJungle.mat
+- Assets/Enemies/ArcherBug/animArcherBug.controller
+- Assets/Enemies/LynxTribe/Shrine/LynxShrinePrefab.prefab
+- Assets/Items/PartyHat/matPartyHat.mat
+- Assets/Enemies/LynxTribe/Shaman/ShamanTeleportEffectIn.prefab
+- Assets/Enemies/LynxTribe/Shaman/texLynxShamanAllyIcon.png
+- Assets/Enemies/LynxTribe/Shaman/texRampLynxShamanProjectileImpact.png
+- Assets/Enemies/LynxTribe/Totem/TotemSummonStormOrb.prefab
+- Assets/Enemies/MechanicalSpider/Materials/matMechanicalSpiderMinion.mat
+- Assets/Enemies/Spitter/SpitterBody.prefab
+- Assets/Enemies/Ifrit/Hellzone/IfritHellzoneVolcanoEffect.prefab
+- Assets/Enemies/LynxTribe/Shaman/LynxShamanMaster.prefab
+- Assets/Enemies/LynxTribe/Scout/LynxScoutClawEffectRight.prefab
+- Assets/Enemies/LynxTribe/Shaman/ShamanMask.prefab
+- Assets/Enemies/Swift/SwiftChargeDiveEffect.prefab
+- Assets/Enemies/LynxTribe/Totem/Materials/matMossPlant.mat
+- Assets/Enemies/Colossus/ColossalCurl/texColossalKnurlIcon.png
+- Assets/Enemies/Colossus/ColossalCurl/matFistItemDisplay.mat
+- Assets/Enemies/LynxTribe/Scout/LynxScoutMaster.prefab
+- Assets/Enemies/LynxTribe/Scout/LynxScoutClawEffectLeft.prefab
+- Assets/Enemies/LynxTribe/matLynxWeapon.mat
+- Assets/Enemies/Ifrit/acdPortalPP.asset
+- Assets/Enemies/MechanicalSpider/MechanicalSpiderDroneMaster.prefab
+- Assets/Enemies/LynxTribe/Totem/texLynxTotemIcon.png
+- Assets/Enemies/LynxTribe/Hunter/Materials/MatLynxHunterMask.mat
+- Assets/Enemies/LynxTribe/Storm/StormMaster.prefab
+- Assets/Enemies/LynxTribe/Scout/LynxScoutBody.prefab
+- Assets/Enemies/Spitter/Normal/matSpitterGuts.mat
+- Assets/Enemies/Ifrit/Materials/matMane.mat
+- Assets/Enemies/LynxTribe/Totem/acdLynxTotemEyeGlowGroundpound.asset
+- Assets/Enemies/Colossus/matColossus.mat
+- Assets/Enemies/LynxTribe/Hunter/LynxHunterAllyBody.prefab
+- Assets/Enemies/Colossus/matColossusGrassy.mat
+- Assets/Enemies/LynxTribe/Shaman/acdShamanSummonProjectilesScaling.asset
+- Assets/Enemies/ArcherBug/Materials/mat3DArcherBug.mat
+- Assets/Enemies/LynxTribe/Archer/Material/matLynxArcherMask.mat
+- Assets/Enemies/MechanicalSpider/Drone/MechanicalSpiderBroken.prefab
+- Assets/Enemies/LynxTribe/Shaman/texLynxShamanIcon.png
+- Assets/Enemies/LynxTribe/Shaman/ShamanTrackingProjectile.prefab
+- Assets/Enemies/ArcherBug/Textures/BugBodyNormal.png
+- Assets/Enemies/Spitter/Sulfur/matSpitterSulfurTeeth.mat
+- Assets/Enemies/Spitter/Lakes/matSpitterLakes.mat
+- Assets/Enemies/LynxTribe/Totem/acdLynxTotemFirewall.asset
+- Assets/Enemies/Colossus/matColossusSnowy.mat
+- Assets/Enemies/Colossus/matColossusSandy.mat
+- Assets/Enemies/LynxTribe/Totem/acdLynxTotemEyeGlowSummonStorm.asset
+- Assets/Enemies/LynxTribe/Totem/acdLynxTotemSummonStormStaffEffectScale.asset
+- Assets/Enemies/Ifrit/Item/IfritItem.prefab
+- Assets/Enemies/Colossus/ColossalCurl/FistProjectile/ColossalKnurlFistProjectile.prefab
+- Assets/Enemies/Spitter/Depths/matSpitterDepthsTeeth.mat
+- Assets/Enemies/LynxTribe/matLynxBody.mat
+- Assets/Enemies/Colossus/texGolemAllyIcon.png
+- Assets/Enemies/LynxTribe/Archer/LynxArcherAllyMaster.prefab
+- Assets/Enemies/MechanicalSpider/acdSpiderDash.asset
+- Assets/Enemies/ArcherBug/stadiajungle/matArcherBugBodyStadiaJungle.mat
+- Assets/Enemies/LynxTribe/Scout/LynxScoutAllyBody.prefab
+- Assets/Enemies/Swift/SwiftBody.prefab
+- Assets/Enemies/LynxTribe/Storm/StormBody.prefab
+- Assets/Enemies/LynxTribe/Shrine/LynxTribeRetreatEffect.prefab
+- Assets/Enemies/LynxTribe/Totem/TotemEyeGlowSummonStorm.prefab
+- Assets/Enemies/LynxTribe/Archer/LynxArcherMaster.prefab
+- Assets/Enemies/MechanicalSpider/Materials/matMechanicalSpiderGrassy.mat
+- Assets/Enemies/LynxTribe/Totem/LynxFetish/texLynxFetishIcon.png
+- Assets/Enemies/ArcherBug/Materials/mat3DArcherBugWings.mat
+- Assets/Enemies/Colossus/ColossusMaster.prefab
+- Assets/Enemies/Colossus/matColossusSMBHead.mat
+- Assets/Enemies/LynxTribe/Hunter/LynxHunterAllyMaster.prefab
+- Assets/Enemies/LynxTribe/Totem/TotemSingleStoneParticle.prefab
+- Assets/Enemies/MechanicalSpider/MechanicalSpiderBody.prefab
+- Assets/Enemies/LynxTribe/Shrine/Materials/matLynxShamanMaskSunburn.mat
+- Assets/Enemies/LynxTribe/Shrine/Materials/matLynxPole.mat
+- Assets/Enemies/MechanicalSpider/MechanicalSpiderMaster.prefab
+- Assets/Enemies/Spitter/Depths/matSpitterDepths.mat
+- Assets/Enemies/Spitter/SpitterMaster.prefab
+- Assets/Enemies/Spitter/Lakes/matSpitterGutsLakes.mat
+- Assets/Enemies/LynxTribe/Shaman/Materials/matLynxShamanMask.mat
+- Assets/Enemies/Ifrit/Pillar/acdFireballFallCurve.asset
+- Assets/Enemies/Colossus/matColossusSkyMeadow.mat
+- Assets/Enemies/LynxTribe/Totem/TotemEyeGlowSummonTribe.prefab
+- Assets/Enemies/LynxTribe/Totem/LynxTotemGroundpoundProjectile.prefab
+- Assets/Enemies/LynxTribe/Shaman/texReducedHealingBuff.png
+- Assets/Enemies/LynxTribe/Shaman/LynxShamanPushBackSummon.prefab
+- Assets/Enemies/LynxTribe/Totem/LynxTotemMaster.prefab
+- Assets/Enemies/LynxTribe/Hunter/texLynxHunterAllyIcon.png
+- Assets/Enemies/Ifrit/Pillar/matIfritPillarLava.mat
+- Assets/Enemies/LynxTribe/Totem/LynxTotemFireWallProjectile.prefab
+- Assets/Enemies/LynxTribe/Shrine/LynxShrinePrefab3.prefab
+- Assets/Enemies/LynxTribe/Hunter/LynxHunterAttackEffect.prefab
+- Assets/Enemies/LynxTribe/Totem/LynxFetish/texLynxShamanBuff.png
+- Assets/Enemies/Colossus/ColossusBody.prefab
+- Assets/Enemies/Swift/Materials/matSwift.mat
+- Assets/Enemies/LynxTribe/Shrine/Materials/MatLynxScoutMaskSunburn.mat
+- Assets/Enemies/LynxTribe/Totem/Materials/matVines.mat
+- Assets/Enemies/LynxTribe/Shaman/ShamanTeleportEffectOut.prefab
+- Assets/Enemies/Colossus/ColossalCurl/FistProjectile/matFist.mat
+- Assets/Enemies/LynxTribe/LynxSpawnParticles.prefab
+- Assets/Enemies/Ifrit/IfritSpawnPortal.prefab
+- Assets/Enemies/Spitter/Sulfur/matSpitterGutsSulfur.mat
+- Assets/Enemies/ArcherBug/ArcherBugMaster.prefab
+- Assets/Enemies/ArcherBug/ArcherBugBody.prefab
+- Assets/Enemies/LynxTribe/matLynxBodyAlly.mat
+- Assets/Enemies/ArcherBug/Textures/BugBody2Emission.png
+- Assets/Enemies/MechanicalSpider/Materials/matMechanicalSpiderSnowy.mat
+- Assets/Enemies/MechanicalSpider/Materials/matMechanicalSpider.mat
+- Assets/Enemies/LynxTribe/Scout/LynxScoutAllyMaster.prefab
+- Assets/Items/PartyHat/ReturnsPartyHat.prefab
+- Assets/Enemies/Ifrit/Pillar/adcIfritPylonLightIntencityCurve.asset
+- Assets/acdLinearCurve.asset
+- Assets/Enemies/LynxTribe/Totem/LynxFetish/PickupLynxFetish.prefab
+- Assets/Enemies/MechanicalSpider/texMechanicalSpiderAllyIcon.png
+- Assets/Enemies/Spitter/Normal/matSpitterTeeth.mat
+- Assets/Enemies/LynxTribe/Shaman/ShamanSummonStormParticle.prefab
+- Assets/Enemies/Spitter/Depths/matSpitterGutsDepths.mat
+- Assets/Enemies/Ifrit/Hellzone/IfritHellzonePillarProjectileGhost.prefab
+- Assets/Enemies/Ifrit/IfritMaster.prefab
+- Assets/Enemies/Ifrit/Hellzone/IfritHellzonePillarProjectile.prefab
+- Assets/Enemies/Ifrit/Pillar/acdPillarPP.asset
+- Assets/Enemies/MechanicalSpider/MechanicalSpiderDroneBody.prefab
+- Assets/Enemies/Colossus/texColossusIcon.png
+- Assets/Enemies/LynxTribe/Scout/texLynxScoutIcon.png
+- Assets/Enemies/MechanicalSpider/texMechanicalSpiderEnemyIcon.png
+- Assets/Enemies/Ifrit/Pillar/texIconPillarEnemy.png
+- Assets/Enemies/LynxTribe/Archer/ArrowProjectileGhost.prefab
+- Assets/Enemies/LynxTribe/Archer/texLynxArcherIcon.png
+- Assets/Enemies/Colossus/matFlag.mat
+- Assets/Enemies/LynxTribe/Shaman/LynxShamanProjectileImpactEffect.prefab
+- Assets/Enemies/ArcherBug/texArcherBugIcon.png
+- Assets/Enemies/Swift/Materials/matSwiftRallypoint.mat
+- Assets/Enemies/Spitter/texSpitterIcon.png
+- Assets/Enemies/Ifrit/Hellzone/texLavaCrackRound.png
+- Assets/Enemies/LynxTribe/Shrine/Materials/MatLynxHunterMaskSunburn.mat
+- Assets/Enemies/LynxTribe/Totem/LynxFetish/texLynxArcherBuff.png
+- Assets/Enemies/LynxTribe/Shrine/LynxShrinePrefab2.prefab
+- Assets/Enemies/Colossus/matColossusEye.mat
+- Assets/Enemies/Spitter/Sulfur/matSpitterSulfur.mat
+- Assets/Enemies/LynxTribe/Totem/LynxFetish/texLynxScoutBuff.png
+- Assets/Enemies/Spitter/Normal/matSpitter.mat
+- Assets/Enemies/Ifrit/IfritManeFireParticle.prefab
+- Assets/Enemies/Ifrit/Pillar/acdTeamIndicatorOverallCurve.asset
+- Assets/Enemies/Ifrit/Pillar/texIconPillarAlly.png
+- Assets/Enemies/Spitter/Lakes/matSpitterLakesTeeth.mat
+- Assets/Enemies/LynxTribe/Shaman/LynxShamanBody.prefab
+- Assets/Enemies/LynxTribe/Shaman/texReducedHealingBuffColored.png
+- Assets/Enemies/ArcherBug/stadiajungle/ArcherBug_stadiajungle.prefab
+- Assets/Enemies/LynxTribe/Shaman/LynxShamanAllyBody.prefab
+- Assets/Enemies/ArcherBug/Textures/BugWingNormalMap.png
+- Assets/Enemies/LynxTribe/Totem/TotemEyeGlowGroundpound.prefab
+- Assets/Enemies/LynxTribe/Archer/ArrowProjectile.prefab
+- Assets/Enemies/LynxTribe/Trap/LynxTrapPrefab.prefab
+- Assets/Enemies/Colossus/ColossalCurl/FistProjectile/ColossalKnurlFistProjectileGhost.prefab
+- Assets/Enemies/LynxTribe/Totem/TotemShakeParticles.prefab
+- Assets/Enemies/LynxTribe/Totem/LynxTotemBody.prefab
+- Assets/Enemies/LynxTribe/Totem/LynxFetish/texLynxHunterBuff.png
+- Assets/Enemies/Ifrit/IfritBody.prefab
+- Assets/Enemies/LynxTribe/Shrine/Materials/matLynxArcherMaskSunburn.mat
+- Assets/Enemies/Swift/SwiftMaster.prefab
+- Assets/Enemies/Ifrit/Hellzone/mdlIcoRockM.asset
+- Assets/Enemies/Ifrit/Pillar/IfritPylonMaster.prefab
+- Assets/Enemies/Swift/texSwiftIcon.png
+- Assets/Enemies/LynxTribe/Hunter/LynxHunterSpearTipEffect.prefab
+- Assets/Enemies/LynxTribe/Shaman/LynxShamanAllyMaster.prefab
+- Assets/Enemies/LynxTribe/Totem/Materials/matMoss.mat
+- Assets/Enemies/LynxTribe/Totem/Materials/matTotem.mat
+- Assets/Enemies/Ifrit/Pillar/IfritPylonBody.prefab
+- Assets/Enemies/LynxTribe/Archer/LynxArcherAllyBody.prefab
+- Assets/Enemies/ArcherBug/Textures/BugWing.png
+- Assets/Enemies/Colossus/matColossusSMBBody.mat
+- Assets/Enemies/Swift/acdSwiftPrint.asset
+- Assets/Enemies/LynxTribe/Scout/texLynxScoutAllyIcon.png
+- Assets/Enemies/ArcherBug/Textures/BugBody2.png
+- Assets/Enemies/ArcherBug/Bug.fbx
+- Assets/Enemies/LynxTribe/Totem/LynxFetish/Materials/texLynxFetish.mat
+- Assets/Enemies/Ifrit/Pillar/matIfritPillarLineRenderer.mat
+- Assets/Enemies/LynxTribe/Shaman/LynxShamanPushBackExplosion.prefab
+- Assets/Enemies/Ifrit/Materials/matIfrit.mat
+- Assets/Enemies/Ifrit/Item/texIconIfritItem.png
+- Assets/Enemies/Colossus/ColossalCurl/PickupColossalCurl.prefab
+- Assets/Enemies/LynxTribe/Totem/acdLynxTotemEyeGlowSummonTribe.asset
+- Assets/Enemies/Ifrit/texIconIfritBody.png
+- Assets/Enemies/LynxTribe/Archer/LynxArcherBody.prefab
+- Assets/Enemies/Colossus/LaserBarrageLightIntencity.asset
+- Assets/Enemies/LynxTribe/Scout/Materials/MatLynxScoutMask.mat
+- Assets/Enemies/LynxTribe/Hunter/LynxHunterMaster.prefab
+- Assets/Enemies/LynxTribe/Totem/Materials/matLynxTotemPlant.mat
+- Assets/Enemies/LynxTribe/Hunter/texLynxHunterIcon.png
+- Assets/Enemies/LynxTribe/Hunter/LynxHunterBody.prefab
+- Assets/Enemies/LynxTribe/Archer/texArcherAllyIcon.png
+Dependencies: []

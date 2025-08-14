@@ -1,0 +1,10 @@
+{
+    "name": "ArtificerPrimaryVfx",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/Moffein/ArtificerPrimaryVfx",
+    "description": "Artificer's gauntlets play a sound and VFX when regaining primary stocks. Client-Side and Vanilla-Compatible!",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1905",
+		"RiskofThunder-HookGenPatcher-1.2.5"
+    ]
+}

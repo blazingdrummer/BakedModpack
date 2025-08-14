@@ -1,0 +1,263 @@
+{
+  "strings": {
+    "ENEMIES_RETURNS_SPITTER_BODY_NAME": "Spitter",
+    "ENEMIES_RETURNS_SPITTER_BODY_LORE": "Field Notes:\n\nAlas, another hostile creature. This one's nature certainly betrays its precocious appearance. It even seems to be vexed by my retaliation. What a petulant fellow.\n\nHis snapping maw hurls orange bile. The acidic mucus must be detonated by the gnashing teeth- conceivably similar to our picric acid. Fascinating, how could this have arisen?\n\nPost-mortem I was also able to discover the source of the creature's impressive flexibility. Aside from the skull, mandible, and teeth, the skeleton is highly cartilaginous!",
+    "ENEMIES_RETURNS_SPITTER_BITE_NAME": "Bite",
+    "ENEMIES_RETURNS_SPITTER_BITE_DESCRIPTION": "Bite enemies in melee range.",
+    "ENEMIES_RETURNS_SPITTER_NORMAL_SPIT_NAME": "Spit",
+    "ENEMIES_RETURNS_SPITTER_NORMAL_SPIT_DESCRIPTION": "Fire a fast projectile.",
+    "ENEMIES_RETURNS_SPITTER_CHARGED_SPIT_NAME": "Charged Spit",
+    "ENEMIES_RETURNS_SPITTER_CHARGED_SPIT_DESCRIPTION": "Charge a slow projectile that leaves a puddle of poison on hit.",
+    "ENEMIES_RETURNS_UNLOCKABLE_LOG_SPITTER": "Monster Log: Spitter",
+
+    "ENEMIES_RETURNS_COLOSSUS_BODY_NAME": "Colossus",
+    "ENEMIES_RETURNS_COLOSSUS_BODY_LORE": "Field Notes:\n\nA low groaning, lasting for a few days at least. From the relative safety of my drop pod I watched as a mountain rose to its knees, pushing itself up with arms of stone and dirt and twine.\n\nThe Colossus appears as a cousin of the Rock Golem and share many similarities, from its red gaze to its stocky stature. Around its feet many smaller golems rose, joining it. In what possible ways could conventional weapons help me?\n\nI've begun to find a dark humor in the absolute overkill that I face. This is simply ridiculous.",
+    "ENEMIES_RETURNS_COLOSSUS_BODY_SUBTITLE": "Giant Stone Guardian",
+    "ENEMIES_RETURNS_COLOSSUS_STOMP_NAME": "Stomp",
+    "ENEMIES_RETURNS_COLOSSUS_STOMP_DESCRIPTION": "Stomp nearby enemies, sending shock waves all around.",
+    "ENEMIES_RETURNS_COLOSSUS_STONE_CLAP_NAME": "Rock Clap",
+    "ENEMIES_RETURNS_COLOSSUS_STONE_CLAP_DESCRIPTION": "Spread arms, while stones rise from the ground, then make a sudden clap, forcing stones to fly around and hit nearby targets.",
+    "ENEMIES_RETURNS_COLOSSUS_LASER_BARRAGE_NAME": "Laser Barrage",
+    "ENEMIES_RETURNS_COLOSSUS_LASER_BARRAGE_DESCRIPTION": "Take a stance, preparing to fire. After a short period rain a devastating barrage of projectiles.",
+    "ENEMIES_RETURNS_UNLOCKABLE_LOG_COLOSSUS": "Monster Log: Colossus",
+    "ENEMIES_RETURNS_COLOSSUS_HEAD_LASER_NAME": "Giant Laser",
+    "ENEMIES_RETURNS_COLOSSUS_HEAD_LASER_DESCRIPTION": "Take a stance, preparing to fire. After a short period fire a giant laser, sweeping left to right multiple times.",
+
+    "ENEMIES_RETURNS_ITEM_COLOSSAL_KNURL_NAME": "Colossal Fist",
+    "ENEMIES_RETURNS_ITEM_COLOSSAL_KNURL_PICKUP": "Chance on hit to summon a giant fist.",
+    "ENEMIES_RETURNS_ITEM_COLOSSAL_KNURL_DESCRIPTION": "<style=cIsDamage>{0}</style> chance on hit to summon a <style=cIsDamage>Colossal Fist</style> that deals <style=cIsDamage>{1}</style><style=cStack>(+{2} per stack)</style> TOTAL damage.",
+    "ENEMIES_RETURNS_ITEM_COLOSSAL_KNURL_LORE": "Destination: 6542, Fractured Rock, Unknown\n\nDate: 7/22/2056\n\nThere is obviously some essence left in this hunk; the Knurl is still attracting nearby earth and dirt, trying to reconstruct itself. Perhaps I can use this to my advantage; a self-repairing chunk of earth could serve as a good shield.",
+
+    "ENEMIES_RETURNS_IFRIT_BODY_NAME": "Ifrit",
+    "ENEMIES_RETURNS_IFRIT_BODY_SUBTITLE": "Scion of the Infernal King",
+    "ENEMIES_RETURNS_IFRIT_BODY_LORE": "Field Notes:\n\nCould this be..? Tales I never believed recounted a horrible beast, fire incarnate. Scourder of another solar system, the Ifrit nearly wiped out an entire space colony before being chained and launched into the great black void. Supposedly the flaming jets that accompanied his roars could be seen for days as he drifted outwards.\n\nGreat towers, what must have been the containment structure, prevented his escape even on this forsaken plane. The only explanation I have for my surviving this legendary encounter is his many years drifting in space and having been fettered in this unforgiving, frozen wasteland.",
+    "ENEMIES_RETURNS_IFRIT_SUMMON_PYLON_NAME": "Summon Pillars",
+    "ENEMIES_RETURNS_IFRIT_SUMMON_PYLON_DESCRIPTION": "Summon multiple pillars in nearby locations. Pillars take some time to charge and once fully charged deal devastating damage to surrounding enemies and burning them.",
+    "ENEMIES_RETURNS_IFRIT_HELLZONE_NAME": "Hellzone",
+    "ENEMIES_RETURNS_IFRIT_HELLZONE_DESCRIPTION": "Fire a giant fireball that leaves a crater on impact. After a few moments molten rocks shoot into the sky that burn enemies.",
+    "ENEMIES_RETURNS_IFRIT_FLAME_CHARGE_NAME": "Flame Charge",
+    "ENEMIES_RETURNS_IFRIT_FLAME_CHARGE_DESCRIPTION": "Charge forward, burning everything in its path, leaving burn trail behind.",
+    "ENEMIES_RETURNS_UNLOCKABLE_LOG_IFRIT": "Monster Log: Ifrit",
+    "ENEMIES_RETURNS_IFRIT_SMASH_NAME": "Smash",
+    "ENEMIES_RETURNS_IFRIT_SMASH_DESCRIPTION": "Smash in front dealing damage and knocking enemies back.",
+
+    "ENEMIES_RETURNS_IFRIT_PYLON_BODY_NAME": "Fiery Pillar",
+
+    "ENEMIES_RETURNS_ITEM_SPAWN_PILLAR_ON_CHAMPION_KILL_NAME": "Infernal Lantern",
+    "ENEMIES_RETURNS_ITEM_SPAWN_PILLAR_ON_CHAMPION_KILL_PICKUP": "Upon large or elite monster kill summon a fiery pillar.",
+    "ENEMIES_RETURNS_SPAWN_PILLAR_ON_CHAMPION_KILL_DESCRIPTION": "<style=cIsDamage>Killing large monsters</style> spawns a <style=cIsDamage>fiery pillar</style>. After <style=cIsUtility>{0}s</style> pillar <style=cIsDamage>explodes</style> dealing <style=cIsDamage>{1}</style><style=cStack>(+{2} per stack)</style> base damage in <style=cIsDamage>{3}m</style> radius. <style=cIsDamage>Killing elite monsters</style> has <style=cIsDamage>{4}</style> chance to cause the same effect.",
+    "ENEMIES_RETURNS_ITEM_SPAWN_PILLAR_ON_CHAMPION_KILL_LORE": "Destination: Lot Z, Auction House, Unknown\n\nDate: 4/10/2056\n\nWhen I finally took the beast down, I tore the lantern off the tower it summoned, hoping for it to help on this journey. I've felt a strange power since obtaining it... while I feel stronger, I feel like I am no longer alone.",
+
+    "ENEMIES_RETURNS_MECHANICAL_SPIDER_BODY_LORE": "Field Notes:\n\nThe malware of our age! These mechanical parasites were probably lurking on the ship before the crash. Pirates will use these bugs to collect especially valuable cargo, redirect transmission signals, or even hijack ships. Spiders can be programmed with all kinds of malicious objectives. \n\nIn general they are quite difficult to find and eradicate on large vessels, but now that they're loose they seem to be able to operate outside their software. They have retained their defense capabilities, and are risky to engage. Though, I wonder, how long will they continue to run without access to an electrical grid?",
+    "ENEMIES_RETURNS_MECHANICAL_SPIDER_BODY_NAME": "Mechanical Spider",
+    "ENEMIES_RETURNS_UNLOCKABLE_LOG_MECHANICAL_SPIDER": "Monster Log: Mechanical Spider",
+    "ENEMIES_RETURNS_MECHANICAL_SPIDER_INTERACTABLE_NAME": "Broken Mechanical Spider",
+    "ENEMIES_RETURNS_MECHANICAL_SPIDER_INTERACTABLE_DESCRIPTION": "A broken mechanical spider. With a few know-hows and gold it will switch sides and help the survivor.",
+    "ENEMIES_RETURNS_MECHANICAL_SPIDER_CONTEXT": "Repair Mechanical Spider",
+    "ENEMIES_RETURNS_MECHANICAL_SPIDER_DOUBLE_SHOT_NAME": "Double Shot",
+    "ENEMIES_RETURNS_MECHANICAL_SPIDER_DOUBLE_SHOT_DESCRIPTION": "Open a hatch, charge the gun and shoot two fast projectiles.",
+    "ENEMIES_RETURNS_MECHANICAL_SPIDER_DASH_NAME": "Dash",
+    "ENEMIES_RETURNS_MECHANICAL_SPIDER_DASH_DESCRIPTION": "Dash a short distance.",
+
+    "ENEMIES_RETURNS_FAMILY_LYNX_TRIBE": "<style=cWorldEvent>[WARNING] You feel like you are being watched..</style>",
+
+    "ENEMIES_RETURNS_LYNX_ARCHER_BODY_NAME": "Lynx Archer",
+    "ENEMIES_RETURNS_LYNX_ARCHER_SHOT_NAME": "Shot",
+    "ENEMIES_RETURNS_LYNX_ARCHER_SHOT_DESCRIPTION": "Shoot a single arrow.",
+
+    "ENEMIES_RETURNS_LYNX_HUNTER_BODY_NAME": "Lynx Hunter",
+    "ENEMIES_RETURNS_LYNX_HUNTER_STAB_NAME": "Lunge",
+    "ENEMIES_RETURNS_LYNX_HUNTER_STAB_DESCRIPTION": "Lunge forward after charging the attack for a few moments.",
+
+    "ENEMIES_RETURNS_LYNX_SHRINE_CONTEXT": "Steal the item",
+    "ENEMIES_RETURNS_LYNX_SHRINE_NAME": "Lynx Shrine",
+    "ENEMIES_RETURNS_LYNX_SHRINE_NAME_WITH_ITEM": "{0} ({1})",
+    "ENEMIES_RETURNS_LYNX_SHRINE_DESCRIPTION": "Attempt to steal sacred Lynx Tribe item. However the Lynx Tribe won't give it without a fight and will try to take it back.'",
+    "ENEMIES_RETURNS_LYNX_SHRINE_LORE": "LORE",
+    "ENEMIES_RETURNS_LYNX_SHRINE_INTERACT": "<style=cShrine>{0} is trying to steal {1} from the Lynx Tribe. ({2}s.)</style>",
+    "ENEMIES_RETURNS_LYNX_SHRINE_INTERACT_2P": "<style=cShrine>The Lynx Tribe has come to take {1} back. Hurry! ({2}s.)</style>",
+    "ENEMIES_RETURNS_LYNX_SHRINE_INTERACT_SUCCESS": "<style=cShrine>{0} has successfully stolen {1} from the Lynx Tribe.</style>",
+    "ENEMIES_RETURNS_LYNX_SHRINE_INTERACT_SUCCESS_2P": "<style=cShrine>You successfully stolen {1} from the Lynx Tribe.</style>",
+    "ENEMIES_RETURNS_LYNX_SHRINE_INTERACT_FAILURE": "<style=cShrine>{0} has failed to steal {1} from the Lynx Tribe.</style>",
+    "ENEMIES_RETURNS_LYNX_SHRINE_INTERACT_FAILURE_2P": "<style=cShrine>The Lynx Tribe retreats with {1}...</style>",
+
+    "ENEMIES_RETURNS_LYNX_SCOUT_BODY_NAME": "Lynx Scout",
+    "ENEMIES_RETURNS_LYNX_SCOUT_DOUBLE_SLASH_NAME": "Double Slash",
+    "ENEMIES_RETURNS_LYNX_SCOUT_DOUBLE_SLASH_DESCRIPTION": "Attack with two sequential slashes.",
+
+    "ENEMIES_RETURNS_LYNX_SHAMAN_BODY_NAME": "Lynx Shaman",
+    "ENEMIES_RETURNS_LYNX_SHAMAN_BODY_LORE": "<style=cMono>\r\n$ Transcribing image... done.\r\n$ Resolving... done.\r\n$ Outputting text strings... done.\r\nComplete!\r\n</style>\r\n\r\nThis is the logbook entry of D. Furthen, naturalist for the UES [Redacted] in conjunction with the UES Research and Documentation of Outer Life. I am joined by my good friend Tharson, who is keeping me safe through this journey.\r\n\r\n---------------------\r\n\r\nWhile conducting research on the local fauna and plantlife, Tharson overhead distant chanting. After approaching the source of the commotion we discovered that a tribe of cat-like creatures were preforming what appeared to be a ritual.\r\nAs we watched their prayers, a larger creature appeared, sporting a larger mask and wielding a Staff.\r\nWith a wave of the Staff, fire erupted from the ground as the chanting got louder. A group of other creatures appeared, carrying a Worker Beetle.\r\nWhen they carried the Beetle towards a statue which held several masks, the larger creature once again waved the Staff and the Beetle let out a screech before laying still.\r\nA firey orb appeared in front of the Beetle and flew towards the larger creature's staff before being absorbed.\r\nTaking this as a sign to leave, Tharson and I left quietly before returning to our expedition.\r\n\r\nI will describe its properties below. I have assigned their common name as \u2018Lynx Shaman\u2019.\r\n\r\n\u2022 Sporting a larger body, it is presumed the Shaman is a leader of this tribe, although the tribe does follow a loose hierarchy.\r\n\r\n\u2022 The staff it carries appears to have magical properties. I will attempt to gather a sample at a later date.\r\n\r\n\u2022 Its mask is unique compared to the other tribe members, further adding to the theory it may be a leader of sort.\r\n\r\n\u2022 Tharson has been advised not to engage with a tribe, even if a member appears to be alone.",
+    "ENEMIES_RETURNS_UNLOCKABLE_LOG_LYNX_SHAMAN": "Monster Log: Lynx Shaman",
+    "ENEMIES_RETURNS_LYNX_SHAMAN_SUMMON_PROJECTILES_NAME": "N'kuhana's Wrath",
+    "ENEMIES_RETURNS_LYNX_SHAMAN_SUMMON_PROJECTILES_DESCRIPTION": "Summon 5 seeking projectiles that apply healing debuff on hit.",
+    "ENEMIES_RETURNS_LYNX_SHAMAN_PUSH_BACK_NAME": "Push Back",
+    "ENEMIES_RETURNS_LYNX_SHAMAN_PUSH_BACK_DESCRIPTION": "Push away enemies in close range.",
+    "ENEMIES_RETURNS_LYNX_SHAMAN_TELEPORT_NAME": "Teleport",
+    "ENEMIES_RETURNS_LYNX_SHAMAN_TELEPORT_DESCRIPTION": "Teleport to a random location.",
+    "ENEMIES_RETURNS_LYNX_SHAMAN_SUMMON_STORM_NAME": "Summon Tornado",
+    "ENEMIES_RETURNS_LYNX_SHAMAN_SUMMON_STORM_DESCRIPTION": "Summon a tornado that chases targets around.",
+
+    "ENEMIES_RETURNS_LYNX_STORM_BODY_NAME": "Lynx Tornado",
+
+    "ENEMIES_RETURNS_LYNX_TOTEM_BODY_NAME": "Lynx Totem",
+    "ENEMIES_RETURNS_LYNX_TITEM_BODY_SUBTITLE": "N'Kuhana's Faithful",
+    "ENEMIES_RETURNS_LYNX_TOTEM_BODY_LORE": "Field Notes:\n\nTravelling through the fungal caverns, I kept seeing out of place rubble that trailed to nowhere. With no buildings in sight, I was shocked to see a brick wall in the distance.\n\nLittle cat-like creatures with masks and weaponry danced around the structure, and I could hear them laugh with one another. They appeared to be practicing some kind of worship, though the structure looked unlike anything I've seen on this planet.\n\nMore of them crawled out from the dirt nearby, but strangely I haven't seen any evidence of them resting or hiding in the soil prior to that. Luckily they were distracted - I don't know that I could take on a horde of that size, no matter how small they were.",
+    "ENEMIES_RETURNS_UNLOCKABLE_LOG_LYNX_TOTEM": "Monster Log: Lynx Totem",
+    "ENEMIES_RETURNS_LYNX_TOTEM_SUMMON_TRIBE_NAME": "Summon Tribe",
+    "ENEMIES_RETURNS_LYNX_TOTEM_SUMMON_TRIBE_DESCRIPTION": "Summon Lynx Tribesmen to fight.",
+    "ENEMIES_RETURNS_LYNX_TOTEM_SUMMON_STORMS_NAME": "Summon Tornadoes",
+    "ENEMIES_RETURNS_LYNX_TOTEM_SUMMON_STORMS_DESCRIPTION": "Summon multiple tornados to chase targets around.",
+    "ENEMIES_RETURNS_LYNX_TOTEM_GROUNDPOUND_NAME": "Groundpound",
+    "ENEMIES_RETURNS_LYNX_TOTEM_GROUNDPOUND_DESCRIPTION": "Smash into the ground, attacking nearby enemies and knocking them up.",
+    "ENEMIES_RETURNS_LYNX_TOTEM_BURROW_NAME": "Burrow",
+    "ENEMIES_RETURNS_LYNX_TOTEM_BURROW_DESCRIPTION": "Burrow into the ground, enabling the use of other skills. Use again to unburrow.",
+
+    "ENEMIES_RETURNS_ITEM_LYNX_FETISH_NAME": "Lynx Fetish",
+    "ENEMIES_RETURNS_ITEM_LYNX_FETISH_PICKUP": "Recruit Lynx Tribe members.",
+    "ENEMIES_RETURNS_ITEM_LYNX_FETISH_DESCRIPTION": "Every 15 seconds <style=cIsUtility>summon Lynx Tribesman</style> with bonus <style=cIsDamage>{0}<style=cStack>(+{1} after 4th stack)</style> damage</style> and <style=cIsHealth>{2}<style=cStack>(+{3} after 4th stack)</style> health</style>. Can have up to <style=cIsUtility>1<style=cStack>(+1 per stack, up to 4)</style></style>. Each <style=cIsUtility>Lynx Tribesman</style> provides unique <style=cIsUtility>buff</style> in <style=cIsUtility>{4}m</style> around them.\r\n<style=cIsDamage>Lynx Archer</style> increases <style=cIsDamage>damage by {5}</style>.\r\n<style=cIsHealing>Lynx Hunter</style> increases <style=cIsHealing>armor by {6}</style>.\r\n<style=cIsUtility>Lynx Scout</style> increases <style=cIsUtility>attack and movement speed by {7}</style>.\r\n<style=cIsHealth>Lynx Shaman</style> increases <style=cIsHealth>damage done by special abilities by {8}</style>.",
+    "ENEMIES_RETURNS_ITEM_LYNX_FETISH_LORE": "<style=cMono>FIELDTECH Sound-To-Text Translator (v1.6.8a)\r\n# Awaiting input... done.\r\n# Reading sound for text... done.\r\n# Transcribing data... done.\r\n# Translating sound... done. [6 exceptions raised]\r\nComplete: outputting results.</style>\r\n\r\nWe hold this Relic to high regard, there once was many, now there are few.\r\nWe worshiped the balance [REDACTED] brought to the world. When [REDACTED] called, we answered.\r\nWe brought [REDACTED] gifts, relics of our tribes. Some brought weapons, some brought food, some brought toys, crafted from string and cloth.\r\nOne day, another appears. [The Hero] speaks urgently, ushering us to a structure made from stones and sparks.\r\nWe lost contact with [REDACTED], lost homes, lost relics, lost our way.\r\nWe hold this Relic to high regard for this reason.\r\n\r\n<style=cMono>Translation Errors:<\/style>\r\n# [The Hero] could not be fully translated.\r\n# Details on [REDACTED] are only available to Crew with Red-Level Clearance.",
+
+    "ENEMIES_RETURNS_ARCHERBUG_BODY_NAME": "Archer Bug",
+    "ENEMIES_RETURNS_ARCHERBUG_BODY_LORE": "<style=cMono>\r\n$ Transcribing image... done.\r\n$ Resolving... done.\r\n$ Outputting text strings... done.\r\nComplete!\r\n</style>\r\n\r\nThis is the logbook entry of D. Furthen, naturalist for the UES [Redacted] in conjunction with the UES Research and Documentation of Outer Life. I am joined by my good friend Tharson, who is keeping me safe through this journey.\r\n\r\n---------------------\r\n\r\nWhile exploring a forest, cataloguing its incredibly large trees, Tharson and I were attacked by a swarm of large insects. We had walked blindly into their nest.\r\nThankfully, we managed to escape through a clearing through the tress. Tharson is OK from this encounter.\r\n\r\nI will describe its properties below. I have assigned their common name as \u2018Archer Bug\u2019.\r\n\r\n\u2022 Large, wasp-like creatures. Their eyes glow a sickly green, as well as what I assume to be a cavity below their abdomen.\r\n\r\n\u2022 Capable of firing a caustic substance which can melt through metal.\r\n\r\n\u2022 Capable of flight using their wings. Considering their large size, it facinates me that their wings can support their bodies.\r\n\r\n\u2022 When observed, Archer Bugs are highly territorial, anything within 2 miles of a nest are swarmed by the these pests.\r\n\r\n\u2022 Although this is purely speculation, I believe there to be a queen of the hive. However, we lack the evidence to support my theory. (Doccumentation is highly prioritized)\r\n\r\n\u2022 Deathly afraid of fire. By making a campfire, we were able to ward off these pests from our camp.\r\n\r\n\u2022 Unlike most creatures of this facinating planet, these insects like to migrate to other areas of this planet. Reports from Rallypoint Gamma show the Archer Bugs tend to gravitate towards warmer enviroments.\r\n\r\n\u2022 Lastly, we have begun to notice that Archer Bugs tend to antagonise Worker Beetle parties, hurling their toxic bile at them before the beetles quickly retreat underground.\r\n\r\n\u2022 (Note, create report on Beetle rivalry.)",
+    "ENEMIES_RETURNS_UNLOCKABLE_LOG_ARCHERBUG": "Monster Log: Archer Bug",
+
+    "ENEMIES_RETURNS_ARCHERBUG_CAUSTIC_SPIT_NAME": "Caustic Spit",
+    "ENEMIES_RETURNS_ARCHERBUG_CAUSTIC_SPIT_DESCRIPTION": "Fire 3 projectiles in a wide arc.",
+
+    "ENEMIES_RETURNS_JUDGEMENT_PILE_OF_DIRT_NAME": "???",
+    "ENEMIES_RETURNS_JUDGEMENT_PILE_OF_DIRT_CONTEXT": "Inspect",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ITEM_TRADABLEROCK_NAME": "Prototype Construct",
+    "ENEMIES_RETURNS_JUDGEMENT_ITEM_TRADABLEROCK_PICKUP": "Not useful to me..",
+    "ENEMIES_RETURNS_JUDGEMENT_ITEM_TRADABLEROCK_DESC": "A low hum comes from within. Not useful to me.",
+    "ENEMIES_RETURNS_JUDGEMENT_ITEM_TRADABLEROCK_LORE": "LORE HERE",
+
+    "ENEMIES_RETURNS_JUDGEMENT_NEWT_TRADE_OFFER": "<color=#c6d5ff>Newt: Shape, come close.</color>",
+    "ENEMIES_RETURNS_JUDGEMENT_NEWT_TRADE_CONTEXT": "Trade",
+    "ENEMIES_RETURNS_JUDGEMENT_NEWT_SUCCESSFUL_TRADE": "<color=#c6d5ff>Newt: Good. Take, delicate shape.</color>",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ITEM_LUNARFLOWER_NAME": "A Brother's Promise",
+    "ENEMIES_RETURNS_JUDGEMENT_ITEM_LUNARFLOWER_PICKUP": "It looks very fragile.",
+    "ENEMIES_RETURNS_JUDGEMENT_ITEM_LUNARFLOWER_DESC": "It looks very fragile.",
+    "ENEMIES_RETURNS_JUDGEMENT_ITEM_LUNARFLOWER_LORE": "LORE HERE",
+
+    "ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_MITHRIX_HAMMER_NAME": "His Resentment",
+    "ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_MITHRIX_HAMMER_PICKUP": "\"Brother... Perhaps... We will get it right... Next time...\"",
+    "ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_MITHRIX_HAMMER_DESC": "A single swing can shatter any kind of defence..",
+    "ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_MITHRIX_HAMMER_LORE": "LORE HERE",
+
+    "ENEMIES_RETURNS_JUDGEMENT_BROKEN_TELEPORTER_NAME": "Promethean Teleporter",
+    "ENEMIES_RETURNS_JUDGEMENT_BROKEN_TELEPORTER_CONTEXT": "Activate it..?",
+
+    "ENEMIES_RETURNS_JUDGEMENT_PORTAL_NAME": "Timeless Portal",
+    "ENEMIES_RETURNS_JUDGEMENT_PORTAL_CONTEXT": "Enter Timeless Portal",
+    "ENEMIES_RETURNS_JUDGEMENT_PORTAL_OPEN": "<style=cWorldEvent>Judgement awaits..</style>",
+
+    "ENEMIES_RETURNS_JUDGEMENT_MAP_OUT_OF_TIME_NAME": "???",
+    "ENEMIES_RETURNS_JUDGEMENT_MAP_OUT_OF_TIME_SUBTITLE": "Somewhere in Time",
+
+    "ENEMIES_RETURNS_JUDGEMENT_OBJECTIVE": "Survive <color=#00ffe9>The Judgement</color>",
+
+    "ENEMIES_RETURNS_JUDGEMENT_WAVES_INTERACTABLE_NAME": "???",
+    "ENEMIES_RETURNS_JUDGEMENT_WAVES_INTERACTABLE_CONTEXT": "Bond with the beyond",
+
+    "ENEMIES_RETURNS_JUDGEMENT_OPTION_PICKUP_HEADER": "<color=#00ffe9>The enemy evolves...</color>",
+    "ENEMIES_RETURNS_JUDGEMENT_OPTION_SELECTED": "<style=cWorldEvent><color=white>{0}</color> has chosen {1}<style=cStack>({2})</style>.</style>",
+    "ENEMIES_RETURNS_JUDGEMENT_OPTION_SELECTED_2P": "<style=cWorldEvent>You have chosen {1}<style=cStack>({2})</style>.</style>",
+
+    "ENEMIES_RETURNS_JUDGEMENT_AEONIAN_SUBTITLE": "<sprite name=\"CloudLeft\" tint=1>Quiescent Ultimatum<sprite name=\"CloudRight\" tint=1>",
+    "ENEMIES_RETURNS_JUDGEMENT_ELITE_MODIFIER_AEONIAN": "Aeonian {0}",
+    "ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_AFFIXAEONIAN_NAME": "Arraign's Decree",
+    "ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_AFFIXAEONIAN_PICKUP": "Become an aspect of judgement.",
+    "ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_AFFIXAEONIAN_DESC": "Allows the owner to shatter any kind of <style=cWorldEvent>defense</style>, to ignore <style=cIsDamage>attack speed</style> and <style=cIsUtility>movement speed</style> reduction effects, and to <style=cIsHealing>reduce</style> duration of <style=cIsUtility>stun</style> and <style=cIsUtility>freeze</style> by {0}.",
+    "ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_AFFIXAEONIAN_LORE": "LORE HERE",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_BODY_NAME": "Arraign",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_BODY_SUBTITLE": "The Judge",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_BODY_NAME": "Arraign",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_BODY_SUBTITLE": "The Judge",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPAWN_P1_1": "You have gotten this far...",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPAWN_P1_2": "Candidate, prevail. Or fall victim to my judgement.",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DIALOGUE_FORMAT": "<color=#c6d5ff><size=120%>Arraign: {0}</color></size>",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_1": "Show me what you're made of.",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_2": "Bring it on!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_3": "Candidate, demonstrate!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_4": "Candidate, endure!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_5": "Interesting choice.",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_6": "Astounding resilience...",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_7": "Powerful being...",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_8": "Fair contender...",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_9": "Step up your strength!",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPAWN_P2_1": "You are unlike anything that I have witnessed before..",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPAWN_P2_2": "That strength.. That power..",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPAWN_P2_3": "We are not done yet. I shall not hold back!",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_1": "Candidate, invigorate!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_2": "Aggravate!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_3": "Do it!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_4": "Enrage!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_5": "Behold!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_6": "Come on!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_7": "Show me more!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_8": "Don't hold back!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_9": "Unfolding strength!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_10": "Reveal your potential!",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_11": "Show me your power!",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_NANOMACHINES": "Nanomachines, candidate.",
+
+    "ENEMIES_RETURNS_JUDGEMENT_GAME_RESULT": "Survived The Judgement!",
+
+    "ENEMIES_RETURNS_JUDGEMENT_SKIN_ANOINTED_NAME": "Anointed",
+    "ENEMIES_RETURNS_JUDGEMENT_ACHIEVEMENT_SURVIVE_JUDGEMENT_DESC": "Survive The Judgement",
+
+    "ENEMIES_RETURNS_JUDGEMENT_MITHRIX_LUNAR_FLOWER_COMMENT": "HOW... HOW DID YOU GET THIS..?",
+
+    "ENEMIES_RETURNS_JUDGEMENT_BROKEN_TELEPORTER_SPAWNED": "<style=cWorldEvent>Strange pedestal rises from the ground...</style>",
+    "ENEMIES_RETURNS_JUDGEMENT_HAMMER_DROP": "<style=cWorldEvent>The King leaves a trophy behind...</style>",
+
+    "ENEMIES_RETURNS_JUDGEMENT_OUTRO": "..and so they triumphed, bequeathing the sovereignty.",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_THREE_HIT_COMBO_NAME": "Tribunal Sword: Three-Step Execution",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_THREE_HIT_COMBO_DESC": "Take a stance and then deliver 3 fast swings, third swing ending in explosions.",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARAIGN_RIGHTLEFTSWING_NAME": "Blade of Accusation",
+    "ENEMIES_RETURNS_JUDGEMENT_ARAIGN_RIGHTLEFTSWING_DESC": "Perform rapid weapon sweeps.",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SWORD_BEAM_NAME": "Brilliant Glory",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SWORD_BEAM_DESCRIPTION": "Charge an attack for a few seconds and deliver devastating laser from both ends of your weapon, while rotating in place.",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SKYDROP_NAME": "Deliverance",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SKYDROP_DESC": "Jump high into the air and land on top of a target.",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_WEAPONTHROW_NAME": "Strike Out at the Unrighteous",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_WEAPONTHROW_DESC": "Throw a weapon to ground your target.",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_LIGHTNING_NAME": "His Shining Radiance",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_LIGHTNING_DESC": "Summon lightning strikes around target.",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DASH_LEAP_NAME": "Adjudication",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DASH_LEAP_DESC": "Leap forward, leaving trail of lightning and ending in explosion upon landing.",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPEARTHROW_NAME": "Pierce Through the Heart of Evil",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPEARTHROW_DESC": "Throw a very fast spear at air target.",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_CLOCKATTACK_NAME": "Roaring Verdict",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_CLOCKATTACK_DESC": "",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SKYLASER_NAME": "Summon Sky Laser",
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SKYLASER_DESC": "",
+
+    "ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SKYLASER_BODY": "Heavenly Pressure of Judgement",
+
+    "ENEMIES_RETURNS_SWIFT_BODY_NAME": "Swift",
+    "ENEMIES_RETURNS_SWIFT_BODY_LORE": "Field Notes:\n\nThese flying stones manage to stay airborne despite their shale armor. Like a thousand darts thrown from the sun, they dive so swiftly toward me that their beaks slam into the ground.\n\nI've yet to see a surface that they cannot puncture, and I'm shocked that their beaks never seem worn. Their predictive aim is troubling, and they seem to know where I'm headed before I do.\n\nI've witnessed packs of these strange birds circling like vultures in the distant sky, though I've never witnessed any of them scavenging for food. Attempts to fashion their armor into new blades have resulted in nothing but chips in my knife.",
+    "ENEMIES_RETURNS_SWIFT_DIVE_NAME": "Dive",
+    "ENEMIES_RETURNS_SWIFT_DIVE_DESCRIPTION": "Prepare for a few moment and take a rapid dive toward aim direction.",
+    "ENEMIES_RETURNS_UNLOCKABLE_LOG_SWIFT": "Monster Log: Swift"
+  }
+}

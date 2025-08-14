@@ -1,0 +1,822 @@
+ManifestFileVersion: 0
+CRC: 3452298972
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a89e3656da1d2784fbd0d6aec88af797
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 870d8652b2ed6ca801fb374b4135815c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1788389205, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 296141222, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1790887305, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 422384671, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1297580292, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 678291247, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1872616690, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+- Class: 114
+  Script: {fileID: 1783796254, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1051052972, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 488236779, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1143142494, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ed2b685d80106b84cbd88a5822b37d4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d79c2bb317db938468f04d84ef6b3413, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2265e59d3dfc30a4bac2fd46f22eb6c4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9cb0cc83ee0477843b1dad9a592c572f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 018866a416b2b0e4bb7efd8beb06deb7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d21dcc2386d650c4597f3633c75a1f98, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b3fb9e0a5ac5db04cb3d59d0de54355c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 21bf7f712d84d26478ebe6a299f21738, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9dce825ba78c4c7488688c5330e3f416, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a0a64876d6e401b40a893e6aa5f2fee9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b3f6bc89640549408c2a4c5f9a7d0f9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5d680e1a4e5b2fa4688b34024f0c50f7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc6a0891d35d765469760af863212b4b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fde0d25a170598d46a0b9dc16b4527a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 098b7d8900a891c4e9a5e213d2568a86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1cb7e9e120078f43bce4f0b1be547a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 40b924e2dad56384a8df2a1e111bb675, type: 3}
+- Class: 114
+  Script: {fileID: 1392865457, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -448437679, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -46258121, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1357070253, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1783169300, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1102028033, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1067940895, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -197296741, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 953270592, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1277448904, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1077198318, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -2096938146, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1530905962, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 161585894, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -380008858, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1548199047, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -226763392, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1558202198, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1284260368, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1616264595, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 924743675, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -335047464, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -960361785, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1653386690, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -585069481, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1161602148, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1512808244, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1144835783, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 733712478, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -875252823, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1480773730, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1495945701, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1620867292, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1777312123, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 298587437, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1399583993, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -365436499, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -801810430, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 649313124, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 871971028, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1294804675, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -202159943, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1792105662, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1549848242, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -966267668, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1609196686, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -359660931, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1512185436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 682687671, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1284244208, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1479993534, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1006468269, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1437645409, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -573374155, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 2011550347, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1387411909, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1578512655, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1699741063, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1864444436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1533710874, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -103623725, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1213012214, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1985007777, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1918207524, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1977880532, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -609359282, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1390580703, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1630511094, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1640616833, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1175172885, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 288573216, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -432102721, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1781481484, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1848696948, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -848926067, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -317677761, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -270136354, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -899414464, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1819008361, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1952984350, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1839950351, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 717380117, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 2011136271, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -952978839, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -460905027, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -794597441, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 116179522, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 952828898, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -565067572, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1391837873, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1627637702, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 306635731, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 986234029, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1348642413, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -315171339, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1895344032, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1873157448, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 816898038, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1267797097, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c5fde0d176fd9df439ed7d95d3f76859, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a16748d9461eae46a725db9776d5390, type: 3}
+- Class: 114
+  Script: {fileID: -1568778350, guid: 050936fea8909af15a3fd3b64da1ff83, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ab6668a8fd7e7724aa218fa6426fe8e5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 43d3099172a7bd942b6cf942f72ee5b6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f82c02025cb052d42b142d7d764b9287, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: adb84e30e02715445aeb9959894e3b4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9b77c5407dc277943b591ade9e6b18c5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+- Class: 319
+  Script: {instanceID: 0}
+- Class: 320
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: EnemiesReturns
+  ClassName: EnemiesReturns.Behaviors.ConditionalGenericSkillOverride/ConditionalSkillInfo
+- AssemblyName: HGUnityUtils
+  ClassName: HG.BlendableTypes.BlendableBool
+- AssemblyName: HGUnityUtils
+  ClassName: HG.BlendableTypes.BlendableFloat
+- AssemblyName: HGUnityUtils
+  ClassName: HG.BlendableTypes.BlendableVector3
+- AssemblyName: RoR2
+  ClassName: ChildLocator/NameTransformPair
+- AssemblyName: RoR2
+  ClassName: EntityStates.SerializableEntityStateType
+- AssemblyName: RoR2
+  ClassName: RoR2.AssetReferenceScene
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterCameraParamsData
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterFlightParameters
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterGravityParameters
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterModel/LightInfo
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterModel/RendererInfo
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterSpeech.SimpleCombatSpeechDriver/SpeechCategory
+- AssemblyName: RoR2
+  ClassName: RoR2.CharacterSpeech.SimpleCombatSpeechDriver/SpeechInfo
+- AssemblyName: RoR2
+  ClassName: RoR2.DamageReportUnityEvent
+- AssemblyName: RoR2
+  ClassName: RoR2.DamageTypeCombo
+- AssemblyName: RoR2
+  ClassName: RoR2.GenericInteraction/InteractorUnityEvent
+- AssemblyName: RoR2
+  ClassName: RoR2.GivePickupsOnStart/ItemInfo
+- AssemblyName: RoR2
+  ClassName: RoR2.MageElement
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/Link
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/LinkListIndex
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/Node
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/NodeIndex
+- AssemblyName: RoR2
+  ClassName: RoR2.PickupIndex
+- AssemblyName: RoR2
+  ClassName: RoR2.PickupPickerController/PickupIndexUnityEvent
+- AssemblyName: RoR2
+  ClassName: RoR2.SerializableLoadout
+- AssemblyName: RoR2
+  ClassName: RoR2.SkillLocator/PassiveSkill
+- AssemblyName: RoR2
+  ClassName: RoR2.Skills.SkillFamily/Variant
+- AssemblyName: RoR2
+  ClassName: SerializableBitArray
+- AssemblyName: RoR2
+  ClassName: Wave
+- AssemblyName: Unity.Addressables
+  ClassName: UnityEngine.AddressableAssets.AssetReferenceGameObject
+- AssemblyName: Unity.Addressables
+  ClassName: UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.Avatar]
+- AssemblyName: Unity.Addressables
+  ClassName: UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.GameObject]
+- AssemblyName: Unity.Addressables
+  ClassName: UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.Material]
+- AssemblyName: Unity.Addressables
+  ClassName: UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.RuntimeAnimatorController]
+- AssemblyName: Unity.Addressables
+  ClassName: UnityEngine.AddressableAssets.AssetReferenceTexture
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.AmbientOcclusionModeParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.AmbientOcclusionQualityParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.BoolParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.ColorParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.FloatParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.GradingModeParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Spline
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.SplineParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.TextureParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.TonemapperParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Vector2Parameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.Vector4Parameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.VignetteModeParameter
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FaceInfo_Legacy
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FontAssetCreationSettings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.KerningTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontFeatureTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphValueRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.MarkerList
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.TimelineAsset/EditorSettings
+- AssemblyName: Unity.Timeline
+  ClassName: UnityEngine.Timeline.TimelineClip
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent`1[UnityEngine.GameObject]
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+- AssemblyName: com.unity.multiplayer-hlapi.Runtime
+  ClassName: UnityEngine.Networking.NetworkHash128
+- AssemblyName: com.unity.multiplayer-hlapi.Runtime
+  ClassName: UnityEngine.Networking.NetworkSceneId
+Assets:
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/3HitComboP2/acdSlash3P2.asset
+- Assets/EnemiesReturns/Assets/outoftime/Numbers/texGetFckdLmao.png
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/PortalJudgement/matJudgementParticles.mat
+- Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/MegaTeleporter/BrokenTeleporterInteractable.prefab
+- Assets/EnemiesReturns/Assets/judgementoutro/matDebugBlack.mat
+- Assets/EnemiesReturns/Assets/outoftime/TeamAreaIndicatorDebug.prefab
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Masks/texGlowSoftCenterMask.png
+- Assets/EnemiesReturns/Assets/outoftime/Items/TradableRock/Textures/Bake.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/3HitComboP2/sfArraign3HitComboP2Family.asset
+- Assets/EnemiesReturns/Assets/outoftime/Equipment/MirthixHammer/texIconPickupMithrixHammer.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/Textures/texArraignClothRipped.png
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Textures/matCrystalsMain.mat
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/Materials/Cloth.mat
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Armature_Armature_Phase2TransformBegin.anim
+- Assets/EnemiesReturns/Assets/outoftime/Elites/Aeonian/ArraignCrown.fbx
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/BodySkyLaser/matArraignLightningCylinderSkyLaser.mat
+- Assets/EnemiesReturns/Assets/judgementoutro/HGCreditNameLabel.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/LeftRightSwing/sfArraignLeftRightSkillP2Family.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/DashAttack/acdMoveSpeed.asset
+- Assets/EnemiesReturns/Assets/outoftime/Items/TradableRock/texIconPickupTradableRock.png
+- Assets/EnemiesReturns/Assets/outoftime/Items/LunarFlower/LunarFlower.asset
+- Assets/EnemiesReturns/Assets/outoftime/Items/TradableRock/Materials/matLunarKey.mat
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/ArraignHauntBody.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/ArraignP1SpeechController.prefab
+- Packages/com.unity.postprocessing/PostProcessing/Gizmos/PostProcessLayer.png
+- Assets/EnemiesReturns/Assets/outoftime/Items/TradableRock/Models/lunarKey.fbx
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Ramps/texRampTeleporterLunar.png
+- Assets/EnemiesReturns/Assets/outoftime/Equipment/MirthixHammer/Models/equipBrotherWeaponAnimation.fbx
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignP2Master.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignP2Body.prefab
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Ramps/texRampLightning2.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/acdMithrixDash.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Materials/matShrineBase.mat
+- Assets/EnemiesReturns/Assets/judgementoutro/JudgementOutroControllerTimeline.playable
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SkyDrop/sdArraignSkyDrop.asset
+- Assets/EnemiesReturns/Assets/judgementoutro/SpearRotateActual.anim
+- Assets/EnemiesReturns/Assets/outoftime/Materials/texTeamAreaIndicatorEnemy.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/ArraignP1Master.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/WeaponThrow/sfArraignWeaponThrow.asset
+- Assets/EnemiesReturns/Assets/judgementoutro/AnimatedSpear.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SwordBeam/sdArraignSwordBeam.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/DashAttack/sdArraignDashAttackP2.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/ClockAttack/sdArraignaHauntClockAttack.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignP2SpeechController.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Numbers/JohnFuckingNumbers.mat
+- Assets/EnemiesReturns/Assets/outoftime/Items/TradableRock/texIconPickupTradableRock_ORIG.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SwordBeam/ArraignBeamPushbackEffectNoMuzzleParticles.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/cscArraignP2.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/zFireHomingOrbs/sdArraignFireHomingOrbs.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/Materials/Single_Color_Texture_Weapon.mat
+- Assets/EnemiesReturns/Assets/outoftime/Elites/Aeonian/texAffixAeonianIcon.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/LightningStrikes/matArraignLightningCylinder.mat
+- Assets/EnemiesReturns/Assets/judgementoutro/animArraignCutscene.controller
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/ClockAttack/sfArraignHauntClockAttack.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/SkyDrop/sfArraignSkyDropP2Family.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/MegaTeleporter/MegaTeleporterPrefab.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/BodySkyLaser/sfArraignHauntSkyLaser.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/cscArraignHaunt.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/SkyDrop/sdArraignSkyDropP2.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/FireHomingOrbs/sdArraignFireHomingOrbs.asset
+- Assets/EnemiesReturns/Assets/outoftime/Buffs/bdImmuneToAllDamageExceptHammer.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/FireHomingOrbs/sfArraignFireHomingOrbs.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/3HitComboP2/LanceStapEffect.prefab
+- Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/LightningStrikes/ArraignPreLightningProjectile.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/WeaponThrow/ArraignSwordProjectileDoTZone.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/LightningStrikes/sdArraignLightningStrikes.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/WeaponThrow/ArraignSwordProjectile.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Elites/Aeonian/matAeonianPickup.mat
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/3HitComboP2/acdSlash2P2.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SwordBeam/ArraignBeamPushbackEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/BodySkyLaser/SkyLaserMaster.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Materials/matCrystalsDistortion.mat
+- Assets/EnemiesReturns/Assets/outoftime/Buffs/texImmuneToHammer.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SkyDrop/sfArraignSkyDropFamily.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SwordBeam/PPBeamActual.asset
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/donut1Mesh.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/Armature_HomingOrbYaw.anim
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/WeaponThrow/SwordProjectileGhost.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/WeaponThrow/sfArraignSpearThrowFamily.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/amArraignUpperBody.mask
+- Assets/StubbedShaders/RoR2/Deferred/HGSnowTopped.shader
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/3HitComboP2/sdArraign3HitComboP2.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Armature_Armature_Phase2TransformEnd.anim
+- Assets/EnemiesReturns/Assets/outoftime/Elites/Aeonian/texRampAeonianElite.png
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/MegaTeleporter/Models/MegaLunarTeleporter.fbx
+- Assets/EnemiesReturns/Assets/outoftime/Elites/Aeonian/DisplayAeonian.prefab
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/LunarTeleporterProngCollision.asset
+- Assets/StubbedShaders/RoR2/UI/HGUIAnimateAlpha.shader
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/ThreeHitCombo/acdSlash2.asset
+- Assets/EnemiesReturns/Assets/outoftime/Buffs/bdImmuneToHammer.asset
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/donut2Mesh.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/animBase.controller
+- Assets/EnemiesReturns/Assets/outoftime/Equipment/MirthixHammer/MithrixHammerController.prefab
+- Assets/EnemiesReturns/Assets/judgementoutro/SkipVoteOverlay.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/LightningStrikes/sfArraignLightningStrikesFamily.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/3HitComboP2/acdSlash1P2.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/MegaTeleporter/Models/MegaLunarTeleporterArmature_ProngSummon.anim
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Materials/matWavesInteractableLightning.mat
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Textures/texJudgeShrine.png
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/texMysteryIcon.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/ccpStandardTall.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/JudgementInteractable.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Textures/Waves_2_N.png
+- Assets/EnemiesReturns/Assets/outoftime/CameraAnimation/ForcedCameraTimeline.playable
+- Assets/StubbedShaders/RoR2/FX/HGCloudRemap.shader
+- Assets/EnemiesReturns/Assets/outoftime/Equipment/MirthixHammer/MithrixHammer.asset
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Clouds/texCloudDifferenceBW2.png
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Materials/matRingEffect.mat
+- Assets/EnemiesReturns/Assets/outoftime/Items/HiddenAnointed/HiddenAnointed.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/PortalJudgement/matJudgementPortalCenter.mat
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Masks/texLightning3Mask.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/zFireHomingOrbs/sfArraignFireHomingOrbs.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/LightningStrikes/ArraignPreLightningProjectileGhost.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SkyDrop/ArraignDashImpactEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/dtJudgementMonsterTier1.asset
+- Assets/EnemiesReturns/Assets/outoftime/Endings/SurviveJudgement/SurviveJudgement.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/WeaponThrow/animSword.controller
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/PileOfDirt/PileOfDirtInteractable.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/PortalJudgement/PortalJudgement.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/LightningStrikes/ArraignLightningProjectile.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Elites/Aeonian/EliteIcon_good.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/Textures/single_color_texture_glow.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SwordBeam/sfArraignSwordBeam.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/MegaTeleporter/PPFlowerBrokenTeleporter.asset
+- Assets/StubbedShaders/RoR2/FX/HGIntersectionCloudRemap.shader
+- Assets/EnemiesReturns/Assets/outoftime/texAnointedSkinIcon.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SwordBeam/ArraignPreBeamGroundIndicator.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/ArmorBreak/PPBreak.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Textures/texRockSnow.png
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Clouds/texCloudOrganicNormal.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/ThreeHitCombo/sfArraign3HitComboFamily.asset
+- Assets/EnemiesReturns/Assets/judgementoutro/enemiesreturns_judgementoutro.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/animArraignP2.controller
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Textures/ShrineProngs.png
+- Assets/StubbedShaders/RoR2/Deferred/HGStandard.shader
+- Assets/EnemiesReturns/Assets/judgementoutro/EnemiesReturnsCreditsAdditions.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SwordBeam/BeamPostProccess.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Models/JudgeShrine.fbx
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SwordBeam/PPBeam.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/BodySkyLaser/matArraignLightningCylinderSmallSkyLaser.mat
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/PortalJudgement/matJudgementPortalEdge.mat
+- Assets/EnemiesReturns/Assets/outoftime/Elites/Aeonian/bdAeonian.asset
+- Assets/EnemiesReturns/Assets/outoftime/dtJudgementMonsterTier2.asset
+- Assets/EnemiesReturns/Assets/outoftime/Items/LunarFlower/PickupLunarFlower.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Textures/ShrineProngsNormal.png
+- Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/LightningStrikes/matArraignLightningCylinderSmall.mat
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/donut8Mesh.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/WeaponThrow/SpearProjectileGhost.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Elites/Aeonian/texRampAeonianElite2.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/Armature_HomingOrbYawHalf.anim
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/WeaponThrow/sdArraignSpearThrow.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/BodySkyLaser/sdArraignHauntSkyLaser.asset
+- Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/LeftRightSwings/sdArraignRightLeftSwing.asset
+- Assets/EnemiesReturns/Assets/outoftime/Equipment/MirthixHammer/animMithrixHammerEffect.controller
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Textures/texJudgeShrineNormal.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/ArmorBreak/ArraignArmorBreakEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Items/HiddenAnointed/texMithrixHammerIcon_OLD.png
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/mdlCrispyEdgeRing.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/DashAttack/sfArraignDashAttackP2Family.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/texArraignP2Icon.png
+- Assets/EnemiesReturns/Assets/judgementoutro/texUIBottomUpFade.png
+- Assets/EnemiesReturns/Assets/outoftime/Numbers/texDamageNumbers_good.png
+- Assets/EnemiesReturns/Assets/outoftime/Numbers/SomebodyGettingFucked.mat
+- Assets/EnemiesReturns/Assets/outoftime/Items/LunarFlower/Models/itemJudgeAccess.fbx
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/ClockAttack/ArraignPreClockAttackProjectile.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Numbers/texDamageNumbers.png
+- Assets/EnemiesReturns/Assets/judgementoutro/ppOutroFont.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/MegaTeleporter/Models/TeleporterVessel.fbx
+- Assets/EnemiesReturns/Assets/outoftime/Endings/SurviveJudgement/texSwordEndingIcon.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/Armature_Armature_Phase2TransformBeginLoop.anim
+- Assets/EnemiesReturns/Assets/outoftime/Items/TradableRock/PickupTradableRock.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/WeaponThrow/sdArraignSwordThrow.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Models/mdlPeeble.fbx
+- Assets/EnemiesReturns/Assets/outoftime/Elites/Aeonian/EliteAeonian.asset
+- Assets/EnemiesReturns/RandomStuff/OutofTime/texTradableRockIcon.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/ArraignHauntMaster.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/ClockAttack/ClockZoneEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/ThreeHitCombo/acdPreSlashMaterialAlpha.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/LeftRightSwings/sfArraignLeftRightSkillFamily.asset
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Ramps/texRampLightning.png
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Clouds/texCloudSkulls.png
+- Assets/EnemiesReturns/Assets/outoftime/Equipment/MirthixHammer/Models/equipBrotherWeapon.fbx
+- Assets/StubbedShaders/RoR2/FX/HGDamageNumber.shader
+- Assets/EnemiesReturns/Assets/outoftime/dtJudgementMonsterTier3.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/WaterSplashEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Clouds/texCloudOrganic1.png
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/PortalJudgement/texNoise.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/WeaponThrow/lsdArraignSpearProjectile.asset
+- Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+- Assets/EnemiesReturns/Assets/judgementoutro/mdlArraignSpear.controller
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/BodySkyLaser/ppLocalSkyLaserBody.asset
+- Assets/EnemiesReturns/Assets/outoftime/Items/TradableRock/Textures/LunarKeyNormal.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/ThreeHitCombo/acdSlash3.asset
+- Assets/EnemiesReturns/Assets/outoftime/Materials/matTeamIndicator.mat
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Masks/texVagrantTentacleMask.png
+- Assets/EnemiesReturns/Assets/judgementoutro/babooey.png
+- Assets/EnemiesReturns/Assets/judgementoutro/animSpear.controller
+- Assets/EnemiesReturns/Assets/outoftime/Items/TradableRock/TradableRock.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/ArmorBreak/PPFlash.asset
+- Assets/EnemiesReturns/Assets/outoftime/Equipment/MirthixHammer/PickupMithrixHammer.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/WeaponThrow/mdlArraignSword.fbx
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/WeaponThrow/SprintEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/ArraignP1Body.prefab
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/donut4Mesh.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/MegaTeleporter/animMegaTeleporter.controller
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/LaserChargeParticles.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/animArraignP1.controller
+- Assets/StubbedShaders/RoR2/FX/HGDistortion.shader
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/LightningStrikes/ArraignLightningEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SkyDrop/ArraignDashSecondExplosionEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/WeaponThrow/lsdArraighSwordProjectile.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/ClockAttack/ArraighClockAttackProjectile.prefab
+- Assets/EnemiesReturns/Assets/outoftime/MiscPrefabs/LimboTotem.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Nodes/GroundNodeGroup.asset
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Clouds/texCloudCrackedIceInverted.png
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/MegaTeleporter/Models/Armature_Rise.anim
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Cylinder.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/ThreeHitCombo/sdArraign3HitCombo.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SkyDrop/DropPositionEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/BodySkyLaser/cscSkyLaser.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/Textures/single_color_texture.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/amFireHomingOrb.mask
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/Slide/sdArraignSlide.asset
+- Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+- Assets/EnemiesReturns/Assets/outoftime/Elites/Aeonian/PickupEliteAeonian.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/BodySkyLaser/SkyLaserBodySpawnEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/WeaponThrow/mdlArraignSpear.fbx
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/WeaponThrow/ArraignSpearProjectile.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/ClockAttack/ArraignClockLightningEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/dtJudgementMonsterTierBoss.asset
+- Assets/EnemiesReturns/Assets/outoftime/Items/LunarFlower/texIconPickupLunarFlower.png
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Textures/texJudgmentShrineRockNormal.png
+- Assets/EnemiesReturns/Assets/outoftime/Items/LunarFlower/texIconPickupLunarFlower_ORIG.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/Slide/sfArraignSlideFamily.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/ThreeHitCombo/ArraignSlash3Wave.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/texArraignP1Icon.png
+- Assets/EnemiesReturns/Assets/outoftime/Elites/Aeonian/EliteAeonianEquipment.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/IdleToChargingEffect
+  Profile.asset
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Clouds/texCloudCrackedIce.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/mdlArraign.fbx
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Textures/matInteractableActiveBeam.mat
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Clouds/texCloudLightning1.png
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Clouds/texCloudOrganic2.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/LeftRightSwing/sdArraignRightLeftSwingP2.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/SkyDrop/ArraignRemoveSwordEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/BodySkyLaser/SkyLaserBody.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Equipment/MirthixHammer/MithrixHammerSwingEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Textures/texJudgeShrineEmission.png
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/BazaarUpgradeMesh.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/ArraignHaunt/ClockAttack/ArraignPreClockProjectileGhost.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P2/Skills/WeaponThrow/animSword.controller
+- Assets/EnemiesReturns/Assets/outoftime/Items/LunarFlower/Material/matCrispyEdgeRing.mat
+- Assets/EnemiesReturns/Assets/outoftime/Nodes/AirNodeGroup.asset
+- Assets/EnemiesReturns/Assets/outoftime/Equipment/MirthixHammer/mithrix_hammer_icon.png
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Materials/matShrineProngsBake.mat
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Masks/texAlphaGradientMask.png
+- Assets/EnemiesReturns/Assets/outoftime/enemiesreturns_outoftime.asset
+- Assets/EnemiesReturns/Assets/outoftime/Endings/SurviveJudgement/matUIIconJudgement.mat
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/amHomingOrb.mask
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/DashAttack/sfArraignDashAttack.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Materials/matShrine.mat
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Ramps/texUIIconRamp.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/ThreeHitCombo/acdSlash1.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/PortalJudgement/PPJudgementPortal.asset
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/Ramps/texRampHelfire.png
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/JudgementInteractable/Textures/texJudgmentShrineRock.png
+- Assets/EnemiesReturns/Assets/outoftime/ItemTierDefs/HiddenInLogbook.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/Skills/DashAttack/sdArraignDashAttack.asset
+- Assets/EnemiesReturns/Assets/outoftime/StolenAssets/donut5Mesh.asset
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/PortalJudgement/texRampJudgementPortal.png
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/ArmorBreak/ArraignArmorBreakNoPPEffect.prefab
+- Assets/EnemiesReturns/Assets/outoftime/Interactables/MegaTeleporter/animMegaTeleporterVessel.controller
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/P1/cscArraignP1.asset
+- Assets/EnemiesReturns/Assets/outoftime/Enemies/Arraign/Materials/Single_Color_Texture.mat
+- Assets/EnemiesReturns/Assets/outoftime/Elites/Aeonian/texIconPickupEliteAeonianEquipment.png
+Dependencies: []

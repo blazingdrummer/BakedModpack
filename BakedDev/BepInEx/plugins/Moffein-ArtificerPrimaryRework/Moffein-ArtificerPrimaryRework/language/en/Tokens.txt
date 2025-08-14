@@ -1,0 +1,7 @@
+{
+	strings:
+	{
+		"MAGE_PRIMARY_FIRE_DESCRIPTION_MOFFEINARTIFICERPRIMARYREWORK" : "<style=cIsDamage>Ignite</style>. Fire a bolt for <style=cIsDamage>4x70% damage</style>. Hold up to 4.",
+		"MAGE_PRIMARY_LIGHTNING_DESCRIPTION_MOFFEINARTIFICERPRIMARYREWORK" : "Fire a bolt that <style=cIsUtility>slows</style> and zaps enemies for <style=cIsDamage>4x85% damage</style>. Hold up to 4.",
+	}
+}

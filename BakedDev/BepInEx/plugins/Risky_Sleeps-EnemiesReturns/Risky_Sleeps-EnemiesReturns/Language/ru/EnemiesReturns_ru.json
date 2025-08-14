@@ -1,0 +1,263 @@
+{
+	"strings": {
+		"ENEMIES_RETURNS_SPITTER_BODY_NAME": "Плевальщик",
+		"ENEMIES_RETURNS_SPITTER_BODY_LORE": "Полевые заметки:\n\nУвы, ещё одно враждебное существо. Выглядит солидно, а ведёт себя как обидчивый ребёнок. По-моему, его раздражает тот факт, что я могу постоять за себя. Вздорная тварь.\n\nОн плюётся оранжевой желчью, которая, по всей видимости, детонирует при контакте с зубами, что похоже на действие пикриновой кислоты. Поразительно. Как он развил такой механизм? \n\nПри осмотре трупа мне удалось обнаружить источник удивительной гибкости этого существа: помимо черепа, челюсти и зубов, в его скелете полно хрящей!",
+		"ENEMIES_RETURNS_SPITTER_BITE_NAME": "Укус",
+		"ENEMIES_RETURNS_SPITTER_BITE_DESCRIPTION": "Кусает врагов в ближнем бою.",
+		"ENEMIES_RETURNS_SPITTER_NORMAL_SPIT_NAME": "Плевок",
+		"ENEMIES_RETURNS_SPITTER_NORMAL_SPIT_DESCRIPTION": "Выплевывает быстрый снаряд.",
+		"ENEMIES_RETURNS_SPITTER_CHARGED_SPIT_NAME": "Заряженный плевок",
+		"ENEMIES_RETURNS_SPITTER_CHARGED_SPIT_DESCRIPTION": "Заряжает медленный снаряд, который оставляет ядовитую лужу при поражении.",
+		"ENEMIES_RETURNS_UNLOCKABLE_LOG_SPITTER": "Запись о монстре: Плевальщик",
+
+		"ENEMIES_RETURNS_COLOSSUS_BODY_NAME": "Колосс",
+		"ENEMIES_RETURNS_COLOSSUS_BODY_LORE": "Полевые заметки:\n\nЕщё находясь в своей относительно безопасной десантной капсуле, я видел, как гора встаёт на ноги, подталкивая себя руками из камня, земли и корней. Этот колосс издаёт низкий стон, который раздаётся по округе как минимум пару дней.\n\nОн имеет много общего с каменными големами, начиная с огромного роста и заканчивая красными глазами. К нему присоединилось множество менее крупных големов, которые поднялись возле его ног. Разве обычное оружие позволит справиться с таким громадным чудовищем?\n\nЯ даже начал находить в этой неравной борьбе какой-то извращённый юмор. Серьёзно, это уже чересчур.",
+		"ENEMIES_RETURNS_COLOSSUS_BODY_SUBTITLE": "Гигантский каменный страж",
+		"ENEMIES_RETURNS_COLOSSUS_STOMP_NAME": "Топот",
+		"ENEMIES_RETURNS_COLOSSUS_STOMP_DESCRIPTION": "Топчит ближайших врагов, отправляя ударные волны вокруг.",
+		"ENEMIES_RETURNS_COLOSSUS_STONE_CLAP_NAME": "Каменный хлопок",
+		"ENEMIES_RETURNS_COLOSSUS_STONE_CLAP_DESCRIPTION": "Раздвигает руки, поднимая камни из земли, затем производит резкий хлопок, отправляя камни в ближайшие цели.",
+		"ENEMIES_RETURNS_COLOSSUS_LASER_BARRAGE_NAME": "Лазерный огонь",
+		"ENEMIES_RETURNS_COLOSSUS_LASER_BARRAGE_DESCRIPTION": "Занимает стойку, готовясь к огню. Затем выпускает заградительный огонь из лазеров.",
+		"ENEMIES_RETURNS_UNLOCKABLE_LOG_COLOSSUS": "Запись о монстре: Колосс",
+		"ENEMIES_RETURNS_COLOSSUS_HEAD_LASER_NAME": "Огромный лазер",
+		"ENEMIES_RETURNS_COLOSSUS_HEAD_LASER_DESCRIPTION": "Занимает стойку, готовясь к огню. Затем разряжает лазер, водя им из одной стороны в другую.",
+
+		"ENEMIES_RETURNS_ITEM_COLOSSAL_KNURL_NAME": "Колоссальная кисть",
+		"ENEMIES_RETURNS_ITEM_COLOSSAL_KNURL_PICKUP": "Шанс призвать огромный кулак при попадании.",
+		"ENEMIES_RETURNS_ITEM_COLOSSAL_KNURL_DESCRIPTION": "<style=cIsDamage>{0}</style> шанс при попадании призвать <style=cIsDamage>кулак Колосса</style> который нанесет <style=cIsDamage>{1}</style><style=cStack>(+{2} за штуку)</style> ОБЩЕГО урона.",
+		"ENEMIES_RETURNS_ITEM_COLOSSAL_KNURL_LORE": "Направление: 6542, Расколотая скала, Неизвестно\n\nДата: 22.07.2056\n\nВ этой шишке явно осталась какая-то сущность. Она притягивает землю, пытаясь собрать себя заново. Возможно, я смогу извлечь из этого пользу. Самовосстанавливающийся кусок земли может служить неплохим щитом.",
+
+		"ENEMIES_RETURNS_IFRIT_BODY_NAME": "Ифрит",
+		"ENEMIES_RETURNS_IFRIT_BODY_SUBTITLE": "Отпрыск адского короля",
+		"ENEMIES_RETURNS_IFRIT_BODY_LORE": "Полевые заметки:\n\nПоверить не могу... Это существо, чудовищное воплощение огня (всегда думал, что это сказки) — Ифрит. Он прибыл из другой солнечной системы, едва не уничтожил целую космическую колонию, был усмирён, скован цепями и отправлен в бескрайнюю пустоту. Говорят, вспышки огня, сопровождаемые его яростным рёвом, были видны в небе ещё несколько дней.\n\nОгромные башни, которые, вероятно, построили для удержания этого монстра, не дают ему освободиться. Думаю, мне удалось одолеть его лишь благодаря тому, что сначала его годами носило по ледяному космосу, а потом он оказался заперт в этой суровой промёрзшей пустыне.",
+		"ENEMIES_RETURNS_IFRIT_SUMMON_PYLON_NAME": "Призвать колонны",
+		"ENEMIES_RETURNS_IFRIT_SUMMON_PYLON_DESCRIPTION": "Призывает несколько колон рядом. Колонны заряжяются некоторое время и после полной зарядки взрываются, нанося серьезный урон близлежайшим врагам и поджигает их.",
+		"ENEMIES_RETURNS_IFRIT_HELLZONE_NAME": "Адская зона",
+		"ENEMIES_RETURNS_IFRIT_HELLZONE_DESCRIPTION": "Выстреливает гиганский огненный шар, который оставляет кратер при соприкосновении. Через несколько мгновений раскаленные камни выстреливают в небо, поджигая врагов.",
+		"ENEMIES_RETURNS_IFRIT_FLAME_CHARGE_NAME": "Огненный рывок",
+		"ENEMIES_RETURNS_IFRIT_FLAME_CHARGE_DESCRIPTION": "Рвется вперед, поджигая все на своем пути и оставляет горящий след за собой",
+		"ENEMIES_RETURNS_UNLOCKABLE_LOG_IFRIT": "Запись о монстре: Ифрит",
+		"ENEMIES_RETURNS_IFRIT_SMASH_NAME": "Разром",
+		"ENEMIES_RETURNS_IFRIT_SMASH_DESCRIPTION": "Громит впереди себя, нанося урон и отталкивая врагов назад.",
+
+		"ENEMIES_RETURNS_IFRIT_PYLON_BODY_NAME": "Пылающая колонна",
+
+		"ENEMIES_RETURNS_ITEM_SPAWN_PILLAR_ON_CHAMPION_KILL_NAME": "Адовый фонарь",
+		"ENEMIES_RETURNS_ITEM_SPAWN_PILLAR_ON_CHAMPION_KILL_PICKUP": "При убистве большого или элитного монстра призывает пылающую колонну.",
+		"ENEMIES_RETURNS_SPAWN_PILLAR_ON_CHAMPION_KILL_DESCRIPTION": "<style=cIsDamage>Убийство большого монстра</style> призывает <style=cIsDamage>пылающую колонну</style>. Через <style=cIsUtility>{0}с</style> колонна <style=cIsDamage>взрывается</style> нанося <style=cIsDamage>{1}</style><style=cStack>(+{2} за штуку)</style> базового урона в <style=cIsDamage>{3}м</style> вокруг. <style=cIsDamage>Убийство элитного монстра</style> имеет <style=cIsDamage>{4}</style> шанс вызвать этот эффект.",
+		"ENEMIES_RETURNS_ITEM_SPAWN_PILLAR_ON_CHAMPION_KILL_LORE": "Направление: Площадка Z, Аукционный дом, Неизвестно\n\nDate: 10.04.2056\n\nУбив зверя, я оторвал фонарь с башни которую он призвал, надеясь, что он поможет мне в пути. С тех пор я постоянно ощущаю некую силу... Я чувствую себя сильнее, но в то же время ощущаю рядом некое присутствие...",
+
+		"ENEMIES_RETURNS_MECHANICAL_SPIDER_BODY_LORE": "Полевые заметки:\n\nНастоящий вирус нашей эпохи! Эти механические паразиты, вероятно, прятались на корабле ещё до крушения. Пираты используют этих созданий для сбора особо ценных грузов, перенаправления сигналов или даже захвата кораблей. Пауков можно запрограммировать на множество вредоносных задач.\n\nНа больших судах их довольно трудно обнаружить и истребить. Но, похоже, оказавшись в новых условиях, они вышли за рамки стандартных алгоритмов. Они сохранили свои оборонительные функции, и сражаться с ними рискованно. Только вот интересно, как долго они будут работать без доступа к электросети?",
+		"ENEMIES_RETURNS_MECHANICAL_SPIDER_BODY_NAME": "Механический паук",
+		"ENEMIES_RETURNS_UNLOCKABLE_LOG_MECHANICAL_SPIDER": "Запись о монстре: Механический паук",
+		"ENEMIES_RETURNS_MECHANICAL_SPIDER_INTERACTABLE_NAME": "Сломанный механический паук",
+		"ENEMIES_RETURNS_MECHANICAL_SPIDER_INTERACTABLE_DESCRIPTION": "Сломанный механический паук. При помощи нехитрых приспособлений и золота он сменит сторону и поможет выжившему.",
+		"ENEMIES_RETURNS_MECHANICAL_SPIDER_CONTEXT": "Починить механического паука",
+		"ENEMIES_RETURNS_MECHANICAL_SPIDER_DOUBLE_SHOT_NAME": "Двойной выстрел",
+		"ENEMIES_RETURNS_MECHANICAL_SPIDER_DOUBLE_SHOT_DESCRIPTION": "Открывает люк, заряжает оружие и выстреливает два быстрых заряда.",
+		"ENEMIES_RETURNS_MECHANICAL_SPIDER_DASH_NAME": "Рывок",
+		"ENEMIES_RETURNS_MECHANICAL_SPIDER_DASH_DESCRIPTION": "Перемещает на короткую дистанцию.",
+
+		"ENEMIES_RETURNS_FAMILY_LYNX_TRIBE": "<style=cWorldEvent>[ВНИМАНИЕ] Вы чувствуете что за вами следят..</style>",
+
+		"ENEMIES_RETURNS_LYNX_ARCHER_BODY_NAME": "Лучник рыси",
+		"ENEMIES_RETURNS_LYNX_ARCHER_SHOT_NAME": "Выстрел",
+		"ENEMIES_RETURNS_LYNX_ARCHER_SHOT_DESCRIPTION": "Выпускает одну стрелу.",
+
+		"ENEMIES_RETURNS_LYNX_HUNTER_BODY_NAME": "Охотник рыси",
+		"ENEMIES_RETURNS_LYNX_HUNTER_STAB_NAME": "Выпад",
+		"ENEMIES_RETURNS_LYNX_HUNTER_STAB_DESCRIPTION": "После небольшой подготовки атакует вперед.",
+
+		"ENEMIES_RETURNS_LYNX_SHRINE_CONTEXT": "Украсть предмет",
+		"ENEMIES_RETURNS_LYNX_SHRINE_NAME": "Святилище рыси",
+		"ENEMIES_RETURNS_LYNX_SHRINE_NAME_WITH_ITEM": "{0} ({1})",
+		"ENEMIES_RETURNS_LYNX_SHRINE_DESCRIPTION": "Попытаться украсть предмет у Племени рыси. Но Племя рыси не отдаст предмет без боя и попытается забрать его.'",
+		"ENEMIES_RETURNS_LYNX_SHRINE_LORE": "LORE",
+		"ENEMIES_RETURNS_LYNX_SHRINE_INTERACT": "<style=cShrine>{0} пытается украть {1} у Племени рыси. ({2} сек.)</style>",
+		"ENEMIES_RETURNS_LYNX_SHRINE_INTERACT_2P": "<style=cShrine>Племя рыси пришло забрать {1} с собой. Поторопитесь! ({2} сек.)</style>",
+		"ENEMIES_RETURNS_LYNX_SHRINE_INTERACT_SUCCESS": "<style=cShrine>{0} успешно украл {1} у Племени рыси.</style>",
+		"ENEMIES_RETURNS_LYNX_SHRINE_INTERACT_SUCCESS_2P": "<style=cShrine>Вы успешно украли {1} у Племени рыси.</style>",
+		"ENEMIES_RETURNS_LYNX_SHRINE_INTERACT_FAILURE": "<style=cShrine>{0} не удалось украсть {1} у Племени рыси.</style>",
+		"ENEMIES_RETURNS_LYNX_SHRINE_INTERACT_FAILURE_2P": "<style=cShrine>Племя рыси отступило и забрало {1} с собой...</style>",
+
+		"ENEMIES_RETURNS_LYNX_SCOUT_BODY_NAME": "Следопыт рыси",
+		"ENEMIES_RETURNS_LYNX_SCOUT_DOUBLE_SLASH_NAME": "Двойной порез",
+		"ENEMIES_RETURNS_LYNX_SCOUT_DOUBLE_SLASH_DESCRIPTION": "Атакует двумя порезами один за другим.",
+
+		"ENEMIES_RETURNS_LYNX_SHAMAN_BODY_NAME": "Шаман рыси",
+		"ENEMIES_RETURNS_LYNX_SHAMAN_BODY_LORE": "<style=cMono>\r\n$ Расшифровка изображения... завершено.\r\n$ Подведение итогов... завершено.\r\n$ Вывод текстовых строк... завершено.\r\nУспешно!\r\n</style>\r\n\r\nЭто запись в журнале Д. Фёртена, натуралиста UES [Удалено] в сотрудничестве с центром исследования и документации внеземной жизни UES. Ко мне присоединился друг Тарсон, обеспечивающий мою безопасность во время путешествия.\r\n\r\n---------------------\r\n\r\nВ процессе исследования местной флоры и фауны, Тарсон услышал удаленное пение. Подойдя к источнику шума мы увидели племя кошкоподобных существ которые проводили что-то похожее на ритуал.\r\nЧерез некоторое время появилось существо большего размера, с большой маской и носящее Посох.\r\nВзмахнув Посохом, существо призвало огонь из земли, а пение стало громче. Вышла группа других существ, неся на себе жука-работника.\r\nКак только они поднесли жука к статуе, на которой было несколько масок, большее существо опять взмахнуло Посохом и жук издал крик, после чего перестал шевелиться.\r\nОгненый шан появился перед жуком и полетел к Посоху перед тем как пропал в нем.\r\nПолучив это как сигнал уйти, Тарсон и я тихонько покинули их ритуал и вернулись к нашему путешествию.\r\n\r\nЯ дал им название \u2018Шаман рыси\u2019. Далее следует его подробное описание.\r\n\r\n\u2022 Обладая большим телом, предполагаю что шаман - лидер племени, хотя племя все же имеет какую-то простую иерархию.\r\n\r\n\u2022 Посох обладает магическими свойствами. В будущем я попробую собрать его образец.\r\n\r\n\u2022 Маска шамана уникальная, по сравнению с масками других членов племени. Это подтверждает теорию что шаман является лидером или чем-то подобным.\r\n\r\n\u2022 Тарсону было указано не вступать в контакт с племенем, даже если он встретит одинокого, с виду, члена племени.",
+		"ENEMIES_RETURNS_UNLOCKABLE_LOG_LYNX_SHAMAN": "Запись о монстре: Шаман рыси",
+		"ENEMIES_RETURNS_LYNX_SHAMAN_SUMMON_PROJECTILES_NAME": "Гнев Н'куханы'",
+		"ENEMIES_RETURNS_LYNX_SHAMAN_SUMMON_PROJECTILES_DESCRIPTION": "Призывает 5 снарядов, которые самонаводятся на врагов и уменьшают входящее лечение при попадании.",
+		"ENEMIES_RETURNS_LYNX_SHAMAN_PUSH_BACK_NAME": "Растолкать",
+		"ENEMIES_RETURNS_LYNX_SHAMAN_PUSH_BACK_DESCRIPTION": "Отталкивает рядом находящихся врагов.",
+		"ENEMIES_RETURNS_LYNX_SHAMAN_TELEPORT_NAME": "Телепорт",
+		"ENEMIES_RETURNS_LYNX_SHAMAN_TELEPORT_DESCRIPTION": "Телепортирует на случайную позицию.",
+		"ENEMIES_RETURNS_LYNX_SHAMAN_SUMMON_STORM_NAME": "Призвать торнадо",
+		"ENEMIES_RETURNS_LYNX_SHAMAN_SUMMON_STORM_DESCRIPTION": "Призывает торнадо которое преследует врагов.",
+
+		"ENEMIES_RETURNS_LYNX_STORM_BODY_NAME": "Торнадо племени рыси",
+
+		"ENEMIES_RETURNS_LYNX_TOTEM_BODY_NAME": "Тотем рыси",
+		"ENEMIES_RETURNS_LYNX_TITEM_BODY_SUBTITLE": "Адепт Н'куханы",
+		"ENEMIES_RETURNS_LYNX_TOTEM_BODY_LORE": "Полевые заметки:\n\nПутешествуя по грибным пещерам, я то и дело натыкался на разбросанные камни, которые вели в никуда. Никаких построек рядом не было, поэтому я сильно удивился, когда увидел вдалеке кирпичную стену.\n\nВокруг неё плясали похожие на кошек мелкие существа с оружием и в масках. Я слышал, как они смеются. По всей видимости, они кому-то поклонялись, но на этой планете мне ещё не встречались подобные строения.\n\nВнезапно из-под земли начали выползать новые зверьки, хотя до этого я не замечал никаких следов того, что они скрываются под ногами. К счастью, в тот момент им было не до меня: сомневаюсь, что я бы справился с такой ордой, какими бы мелкими ни были эти создания.",
+		"ENEMIES_RETURNS_UNLOCKABLE_LOG_LYNX_TOTEM": "Запись о монстре: Тотем рыси",
+		"ENEMIES_RETURNS_LYNX_TOTEM_SUMMON_TRIBE_NAME": "Призвать племя",
+		"ENEMIES_RETURNS_LYNX_TOTEM_SUMMON_TRIBE_DESCRIPTION": "Призывает членов Племени рыси в битву.",
+		"ENEMIES_RETURNS_LYNX_TOTEM_SUMMON_STORMS_NAME": "Призвать торнадо",
+		"ENEMIES_RETURNS_LYNX_TOTEM_SUMMON_STORMS_DESCRIPTION": "Призывает несколько торнадо которые преследуют врагов.",
+		"ENEMIES_RETURNS_LYNX_TOTEM_GROUNDPOUND_NAME": "Удар по земле",
+		"ENEMIES_RETURNS_LYNX_TOTEM_GROUNDPOUND_DESCRIPTION": "Ударяет по земле, атакуя рядомнаходящихся врагов, подкидывая их в воздух.",
+		"ENEMIES_RETURNS_LYNX_TOTEM_BURROW_NAME": "Закопаться",
+		"ENEMIES_RETURNS_LYNX_TOTEM_BURROW_DESCRIPTION": "Закапывает в землю, позволяя использовать другие навыки. Используйте еще раз для того чтобы выкопаться.",
+
+		"ENEMIES_RETURNS_ITEM_LYNX_FETISH_NAME": "Фетиш рыси",
+		"ENEMIES_RETURNS_ITEM_LYNX_FETISH_PICKUP": "Призывает членов Племени рыси.",
+		"ENEMIES_RETURNS_ITEM_LYNX_FETISH_DESCRIPTION": "Каждые 15 секунд <style=cIsUtility>призывает члена Племени рыси</style> с дополнительным <style=cIsDamage>{0}<style=cStack>(+{1} после 4 штук)</style> урона</style> и <style=cIsHealth>{2}<style=cStack>(+{3} после 4 штук)</style> здоровья</style>. Одновременно можно призвать <style=cIsUtility>1<style=cStack>(+1 за штуку, до 4 включительно)</style></style>. Каждый <style=cIsUtility>член Племени рыси</style> предоставляет уникальный <style=cIsUtility>бафф</style> в <style=cIsUtility>{4}м</style> вокруг их.\r\n<style=cIsDamage>Лучник рыси</style> увеличивает <style=cIsDamage>урон на {5}</style>.\r\n<style=cIsHealing>Охотник рыси</style> увеличивает <style=cIsHealing>броню на {6}</style>.\r\n<style=cIsUtility>Следопыт рыси</style> увеличивает <style=cIsUtility>скорость передвижения и атаки на {7}</style>.\r\n<style=cIsHealth>Шаман рыси</style> увеличивает <style=cIsHealth>урон наносимый специальными способностями на {8}</style>.",
+		"ENEMIES_RETURNS_ITEM_LYNX_FETISH_LORE": "<style=cMono>Преобразователь звука в текст «FIELDTECH» (версия v1.6.8a)\r\n# Ожидание ввода... завершено.\r\n# Считывание звука... завершено.\r\n# Расшифровка данных... завершено.\r\n# Перевод звука... завершено. [найдено 6 несоответствий]\r\nУспешно: отображение результатов.</style>\r\n\r\nМы отдаем этой Реликвии уважение, раньше их было много, теперь их нет.\r\nМы поклонялись балансу [Удалено] приносило миру. Когда [Удалено] звало, мы отвечали на зов.\r\nМы приносили [Удалено] дань, реликвии нашего племени. Кто-то приносил оружие, кто-то приносил еду, кто-то приносил игрушки, из ниток и ткани.\r\nВ один момент, появился другой. [Герой] говорил быстро, ведя нас в здание сделанное из камня и искр.\r\nМы потеряли связь с [Удалено], потеряли дома, потеряли реликвии, потеряли наш жизненный путь.\r\nИ по этой причине мы отдаем уважение этой Реликвии.\r\n\r\n<style=cMono>Ошибки перевода:</style>\r\n# [Герой] — не может быть полностью переведено.\r\n# Информация по [Удалено] доступна только членам экипажа с уровнем доступа Красный и выше.",
+
+		"ENEMIES_RETURNS_ARCHERBUG_BODY_NAME": "Жук-стрелок",
+		"ENEMIES_RETURNS_ARCHERBUG_BODY_LORE": "<style=cMono>\r\n$ Расшифровка изображения... завершено.\r\n$ Подведение итогов... завершено.\r\n$ Вывод текстовых строк... завершено.\r\nУспешно!\r\n</style>\r\n\r\nЭто запись в журнале Д. Фёртена, натуралиста UES [Удалено] в сотрудничестве с центром исследования и документации внеземной жизни UES. Ко мне присоединился друг Тарсон, обеспечивающий мою безопасность во время путешествия.\r\n\r\n---------------------\r\n\r\nИсследуя лес (и наблюдая по настоящему огромные деревья) Тарсон и я были атакованы роем больших насекомых, мы незаметили как мы забрели в их гнездо.\r\nК счастью мы смогли убежать через поляну между деревьями. Тарсон в целости и сохранности.\r\n\r\nДалее следует их описание. Я дал им название \u2018Жуки-стрелки\u2019.\r\n\r\n\u2022 Большие существа, похожие на ос. Их глаза и некая полость под животом светятся слизным зеленым цветом.\r\n\r\n\u2022 Могут запускать кислотную субстанцию которая проедает метал.\r\n\r\n\u2022 Способны летать используя крылья. С учетом их больших тел, удивительно что эти крылья могут поддержать их размер.\r\n\r\n\u2022 Жуки крайне территориальны, атакуют все что приближается на 2 мили к их гнезду.\r\n\r\n\u2022 Это всего лишь предположение, но я думаю что в гнезде есть королева. Но у меня нет доказательств этой теории (приоритет — задокументировать это).\r\n\r\n\u2022 Они боятся огня. Разведя костер мы смогли отогнать этих вредителей от нашего лагеря.\r\n\r\n\u2022 В отличии от большинства созданий этой удивительной планеты, эти насекомые регулярно мигрируют в другие места планеты. Доклады из места сбора Гамма сообщают что эти насекомые предпочитают теплый климат.\r\n\r\n\u2022 Наконец, мы замечаем что жуки-стрелки атакуют отряды жуков-работников, стреляя в них токсичной желчью, заставляя жуков-работников отступать под землю.\r\n\r\n\u2022 (Заметка: написать отчет по конкуренции с жуками-работниками.)",
+		"ENEMIES_RETURNS_UNLOCKABLE_LOG_ARCHERBUG": "Запись о монстре: Жук-стрелок",
+
+		"ENEMIES_RETURNS_ARCHERBUG_CAUSTIC_SPIT_NAME": "Кислотный плевок",
+		"ENEMIES_RETURNS_ARCHERBUG_CAUSTIC_SPIT_DESCRIPTION": "Запускает 3 снаряда по широкой дуге.",
+
+		"ENEMIES_RETURNS_JUDGEMENT_PILE_OF_DIRT_NAME": "???",
+		"ENEMIES_RETURNS_JUDGEMENT_PILE_OF_DIRT_CONTEXT": "Осмотреть",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ITEM_TRADABLEROCK_NAME": "Конструкция-прототип",
+		"ENEMIES_RETURNS_JUDGEMENT_ITEM_TRADABLEROCK_PICKUP": "Выглядит бесполезной...",
+		"ENEMIES_RETURNS_JUDGEMENT_ITEM_TRADABLEROCK_DESC": "Изнутри слышен гул. Бесполезна для меня.",
+		"ENEMIES_RETURNS_JUDGEMENT_ITEM_TRADABLEROCK_LORE": "LORE HERE",
+
+		"ENEMIES_RETURNS_JUDGEMENT_NEWT_TRADE_OFFER": "<color=#c6d5ff>Тритон: Форма, подойди ближе.</color>",
+		"ENEMIES_RETURNS_JUDGEMENT_NEWT_TRADE_CONTEXT": "Обменять",
+		"ENEMIES_RETURNS_JUDGEMENT_NEWT_SUCCESSFUL_TRADE": "<color=#c6d5ff>Тритон: Хорошо. Возьми, изящная форма.</color>",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ITEM_LUNARFLOWER_NAME": "Братское обещание",
+		"ENEMIES_RETURNS_JUDGEMENT_ITEM_LUNARFLOWER_PICKUP": "Выглядит очень хрупким.",
+		"ENEMIES_RETURNS_JUDGEMENT_ITEM_LUNARFLOWER_DESC": "Выглядит очень хрупким.",
+		"ENEMIES_RETURNS_JUDGEMENT_ITEM_LUNARFLOWER_LORE": "LORE HERE",
+
+		"ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_MITHRIX_HAMMER_NAME": "Его обида",
+		"ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_MITHRIX_HAMMER_PICKUP": "\"Брат... Возможно... В следующий раз... Всё будет иначе...\"",
+		"ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_MITHRIX_HAMMER_DESC": "Одного взмаха достаточно чтобы сломать любую защиту...",
+		"ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_MITHRIX_HAMMER_LORE": "LORE HERE",
+
+		"ENEMIES_RETURNS_JUDGEMENT_BROKEN_TELEPORTER_NAME": "Прометеев телепорт",
+		"ENEMIES_RETURNS_JUDGEMENT_BROKEN_TELEPORTER_CONTEXT": "Активировать..?",
+
+		"ENEMIES_RETURNS_JUDGEMENT_PORTAL_NAME": "Вневременной портал",
+		"ENEMIES_RETURNS_JUDGEMENT_PORTAL_CONTEXT": "Войти во вневременной портал",
+		"ENEMIES_RETURNS_JUDGEMENT_PORTAL_OPEN": "<style=cWorldEvent>Правосудие ждет...</style>",
+
+		"ENEMIES_RETURNS_JUDGEMENT_MAP_OUT_OF_TIME_NAME": "???",
+		"ENEMIES_RETURNS_JUDGEMENT_MAP_OUT_OF_TIME_SUBTITLE": "Где-то во времени",
+
+		"ENEMIES_RETURNS_JUDGEMENT_OBJECTIVE": "Переживите <color=#00ffe9>Правосудие</color>",
+
+		"ENEMIES_RETURNS_JUDGEMENT_WAVES_INTERACTABLE_NAME": "???",
+		"ENEMIES_RETURNS_JUDGEMENT_WAVES_INTERACTABLE_CONTEXT": "Прикоснуться к другой стороне",
+
+		"ENEMIES_RETURNS_JUDGEMENT_OPTION_PICKUP_HEADER": "<color=#00ffe9>Враг эволюционирует...</color>",
+		"ENEMIES_RETURNS_JUDGEMENT_OPTION_SELECTED": "<style=cWorldEvent><color=white>{0}</color> выбрал(а) {1}<style=cStack>({2})</style>.</style>",
+		"ENEMIES_RETURNS_JUDGEMENT_OPTION_SELECTED_2P": "<style=cWorldEvent>Вы выбрали {1}<style=cStack>({2})</style>.</style>",
+
+		"ENEMIES_RETURNS_JUDGEMENT_AEONIAN_SUBTITLE": "<sprite name=\"CloudLeft\" tint=1>Спокойный ультиматум<sprite name=\"CloudRight\" tint=1>",
+		"ENEMIES_RETURNS_JUDGEMENT_ELITE_MODIFIER_AEONIAN": "Вечный {0}",
+		"ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_AFFIXAEONIAN_NAME": "Указ Эррейна",
+		"ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_AFFIXAEONIAN_PICKUP": "Станьте воплощением правосудия.",
+		"ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_AFFIXAEONIAN_DESC": "Позволяет владельцу проломить любую <style=cWorldEvent>защиту </style>, игнорировать уменьшение <style=cIsDamage>скорости атаки</style> и <style=cIsUtility>скорости передвижения</style>, и <style=cIsHealing>уменьшает</style> длительность эффектов <style=cIsUtility>оглушения</style> и <style=cIsUtility>заморозки</style> на {0}.",
+		"ENEMIES_RETURNS_JUDGEMENT_EQUIPMENT_AFFIXAEONIAN_LORE": "LORE HERE",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_BODY_NAME": "Эррейн",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_BODY_SUBTITLE": "Судья",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_BODY_NAME": "Эррейн",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_BODY_SUBTITLE": "Судья",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPAWN_P1_1": "Вы зашли так далеко...",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPAWN_P1_2": "Кандидат, превалируйте. Или падите перед моим правосудием.",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DIALOGUE_FORMAT": "<color=#c6d5ff><size=120%>Эррейн: {0}</color></size>",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_1": "Покажите мне из чего вы сделаны.",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_2": "Давайте же!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_3": "Кандидат, демонстрируйте!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_4": "Кандидат, переживите!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_5": "Интересный выбор.",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_6": "Невиданная стойкость...",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_7": "Сильная жизнь...",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_8": "Честный претендент...",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DAMAGEDEALT_9": "Усильте свои атаки!",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPAWN_P2_1": "Вы не похожи ни на что, что я встречал ранее...",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPAWN_P2_2": "Эта сила... Эта мощь...",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPAWN_P2_3": "Мы еще не закончили. Я не буду сдерживаться!",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_1": "Кандитат, взбодритесь!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_2": "Обостритесь!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_3": "Атакуйте!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_4": "Обозлитесь!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_5": "Увидьте!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_6": "Давайте!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_7": "Покажите мне больше!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_8": "Не сдерживайтесь!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_9": "Невиданная сила!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_10": "Не скрывайте свой потенциал!",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP2_DAMAGEDEALT_11": "Покажите мне свою силу!",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_NANOMACHINES": "Наномашины, кандидат.",
+
+		"ENEMIES_RETURNS_JUDGEMENT_GAME_RESULT": "Пережили Правосудие!",
+
+		"ENEMIES_RETURNS_JUDGEMENT_SKIN_ANOINTED_NAME": "Помазанный",
+		"ENEMIES_RETURNS_JUDGEMENT_ACHIEVEMENT_SURVIVE_JUDGEMENT_DESC": "Выживите Правосудие",
+
+		"ENEMIES_RETURNS_JUDGEMENT_MITHRIX_LUNAR_FLOWER_COMMENT": "ГДЕ... ГДЕ ТЫ ВЗЯЛ ЕГО..?",
+
+		"ENEMIES_RETURNS_JUDGEMENT_BROKEN_TELEPORTER_SPAWNED": "<style=cWorldEvent>Загадочный пьедестал поднялся из земли...</style>",
+		"ENEMIES_RETURNS_JUDGEMENT_HAMMER_DROP": "<style=cWorldEvent>Король оставил трофей...</style>",
+
+		"ENEMIES_RETURNS_JUDGEMENT_OUTRO": "...и они взяли вверх, унаследовав суверинитет.",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_THREE_HIT_COMBO_NAME": "Меч трибунала: Казнь в три шага",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_THREE_HIT_COMBO_DESC": "Занимает стойку и выполняет три быстрых взмаха, третий заканчивается взрывом.",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARAIGN_RIGHTLEFTSWING_NAME": "Клинок обвинения",
+		"ENEMIES_RETURNS_JUDGEMENT_ARAIGN_RIGHTLEFTSWING_DESC": "Выполняет быстрые взмахи.",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SWORD_BEAM_NAME": "Блестящее великолепие",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SWORD_BEAM_DESCRIPTION": "Заряжает атаку несколько секунд и вызывает разрушающий лазер из обоих концов оружия, крутясь вокруг своей оси.",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SKYDROP_NAME": "Освобождение",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SKYDROP_DESC": "Прыгает высоко в небо и приземляется на цель.",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_WEAPONTHROW_NAME": "Удар по неправедным",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_WEAPONTHROW_DESC": "Кидает оружие во врага с целью его приземлить.",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_LIGHTNING_NAME": "Его светящееся сияние",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGNP1_LIGHTNING_DESC": "Призывает удары молнии вокруг цели.",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DASH_LEAP_NAME": "Решение",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_DASH_LEAP_DESC": "Прыгает вперед, оставляя цепь молний сзади и взрывается при приземлении.",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPEARTHROW_NAME": "Проткнуть через сердце зла",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SPEARTHROW_DESC": "Кидает быстрое копье по воздушной цели.",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_CLOCKATTACK_NAME": "Ревущий вердикт",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_CLOCKATTACK_DESC": "",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SKYLASER_NAME": "Призвать небесный лазер",
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SKYLASER_DESC": "",
+
+		"ENEMIES_RETURNS_JUDGEMENT_ARRAIGN_SKYLASER_BODY": "Райское давление правосудия",
+
+		"ENEMIES_RETURNS_SWIFT_BODY_NAME": "Свифт",
+		"ENEMIES_RETURNS_SWIFT_BODY_LORE": "Полевые заметки:\n\nЭти летающие булыжники умудряются зависать в воздухе, несмотря на плотную броню. Подобно тысячам стрел, они стремительно врезаются клювами в землю рядом со мной.\n\nДо сих пор я не встречал поверхности, которую они не смогли бы проткнуть, и при этом их клювы выглядят не повреждёнными. Кроме того, меня беспокоит их умение предугадывать движения, что позволяет им точно направлять атаки.\n\nЯ своими глазами видел, как стаи этих странных птиц кружат высоко над землёй, будто стервятники, но не замечал, чтобы кто-то из них покушался на падаль. Любые попытки сделать из их панцирей новые лезвия оставляют лишь сколы и вмятины на моём ноже.",
+		"ENEMIES_RETURNS_SWIFT_DIVE_NAME": "Пикировать",
+		"ENEMIES_RETURNS_SWIFT_DIVE_DESCRIPTION": "Пикирует в направлении прицеливания.",
+		"ENEMIES_RETURNS_UNLOCKABLE_LOG_SWIFT": "Запись о монстре: Свифт"
+	}
+}

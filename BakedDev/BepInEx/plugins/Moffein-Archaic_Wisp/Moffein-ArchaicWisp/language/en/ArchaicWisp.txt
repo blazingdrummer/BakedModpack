@@ -1,0 +1,7 @@
+{
+	strings:
+	{
+	"MOFFEIN_ARCHWISP_BODY_NAME" : "Archaic Wisp",
+	"UNLOCKABLE_LOG_MOFFEIN_MOFFEIN_ARCHWISP" : "Monster Log: Archaic Wisp"
+	}
+}

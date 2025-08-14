@@ -1,0 +1,15 @@
+{
+    "name": "Engi_Mechanical_Spider_Skill",
+    "version_number": "1.1.1",
+    "website_url": "https://github.com/Moffein/EngiMechSpiders",
+    "description": "Adds a Special skill to Engineer that allows him to deploy Mechanical Spiders. Requires EnemiesReturns with Mechanical Spiders enabled.",
+    "dependencies": [
+    "bbepis-BepInExPack-5.4.2117",
+	"RiskofThunder-HookGenPatcher-1.2.5",
+	"RiskofThunder-R2API_Core-5.1.2",
+	"RiskofThunder-R2API_ContentManagement-1.0.6",
+	"RiskofThunder-R2API_Items-1.0.4",
+	"RiskofThunder-R2API_RecalculateStats-1.4.0",
+	"Risky_Sleeps-EnemiesReturns-0.3.8"
+    ]
+}

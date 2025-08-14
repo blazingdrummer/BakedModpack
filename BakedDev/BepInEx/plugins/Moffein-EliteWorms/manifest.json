@@ -1,0 +1,9 @@
+{
+    "name": "EliteWorms",
+    "version_number": "1.0.3",
+    "website_url": "https://github.com/Moffein/EliteWorms",
+    "description": "Removes Elite restrictions from Magma Worms and Overloading Worms. Server-side and Vanilla-compatible.",
+    "dependencies": [
+    "bbepis-BepInExPack-5.4.1905"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+	strings:
+	{
+	"MOFFEIN_ANCIENTWISP_BODY_NAME" : "Espírito Ancião",
+	"MOFFEIN_ANCIENTWISP_BODY_SUBTITLE" : "Banido e Acorrentado",
+	"MOFFEIN_ANCIENTWISP_BODY_LORE" : "Poderia ser esse o arquiteto de todos os espíritos menores? Talvez esse Espírito Ancião seja o marionetista por trás dessas máscaras de fogo que me perseguiram até agora, ou ele pode ser um fantoche diabólico de algo ainda maior..?\n\nO calor que exala dessas chamas púrpuras é insano. Colunas de estrondosos relâmpagos estão ameaçando causar um curto-circuito no meu traje, ou pior, me transformar em uma casca empolada. Qual será o combustível para essas violentas e flamejantes aparições?",
+	"UNLOCKABLE_LOG_MOFFEIN_ANCIENTWISP" : "Registro de Monstro: Espírito Ancião"
+	}
+}

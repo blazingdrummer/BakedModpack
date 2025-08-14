@@ -1,0 +1,12 @@
+{
+	strings:
+	{
+		"DIRESEEKER_BOSS_BODY_NAME": "深渊利莫里亚长者",
+		"DIRESEEKER_BOSS_BODY_SUBTITLE": "追杀",
+		"DIRESEEKER_BOSS_BODY_OUTRO_FLAVOR": "..所以它离开了，寻找新的猎物。",
+		"DIRESEEKER_SPAWN_WARNING": "<style=cWorldEvent>你听到远处的隆隆声..</style>",
+		"DIRESEEKER_SPAWN_BEGIN": "<style=cWorldEvent>隆隆声越来越大。</style>",
+		"DIRESEEKER_BOSS_BODY_LORE" : "传说讲述了曾经在琼泥V地下兵营中游荡的怪物。\n\n被最勇敢的幸存者和最讨厌的怪物恐惧，这头巨大的野兽是无与伦比的。它披着血红色的鳞片，被地狱之火淬炼。它有燃烧的黄色眼睛，强烈的眩光让最大的生物都死在了他们的轨道上。它散发着阴燃的气息，热得足以在瞬间熔化金属。\n\n只有一次被一个足以杀死普罗维登斯本人的幸存者拦住，人们相信这只野兽终于遇到了它的对手。\n\n<style=cIsHealth>直到它再次露出恐怖的脸庞。</style>",
+		"UNLOCKABLE_LOG_DIRESEEKER_BOSS_BODY" : "怪物日志：深渊利莫里亚长者"
+	}
+}

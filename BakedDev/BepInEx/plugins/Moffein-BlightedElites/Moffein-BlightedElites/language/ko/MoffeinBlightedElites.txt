@@ -1,0 +1,11 @@
+{
+	strings:
+	{
+	"ELITE_MODIFIER_BLIGHTED_MOFFEIN" : "황폐화 {0}",
+	"ELITE_MODIFIER_BLIGHTED_MOFFEIN_SUBTITLENAMETOKEN" : "환상",
+	
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_NAME" : "보루의 배신",
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_DESC" : "무작위 <style=cIsDamage>엘리트 버프</style>를 <style=cIsDamage>2</style>개 얻습니다. 활성화 하여 <style=cIsDamage>버프를 다시 굴립니다</style>.",
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_PICKUP" : "부패의 한 측면이 됩니다..",
+	}
+}

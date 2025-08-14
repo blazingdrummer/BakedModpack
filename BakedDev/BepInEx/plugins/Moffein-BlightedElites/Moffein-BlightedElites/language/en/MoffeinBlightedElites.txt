@@ -1,0 +1,11 @@
+{
+	strings:
+	{
+	"ELITE_MODIFIER_BLIGHTED_MOFFEIN" : "Blighted {0}",
+	"ELITE_MODIFIER_BLIGHTED_MOFFEIN_SUBTITLENAMETOKEN" : "Phantasm",
+	
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_NAME" : "Betrayal of the Bulwark",
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_DESC" : "Gain <style=cIsDamage>2</style> random <style=cIsDamage>elite buffs</style>. Activate to <style=cIsDamage>reroll your buffs</style>.",
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_PICKUP" : "Become an aspect of decay.",
+	}
+}

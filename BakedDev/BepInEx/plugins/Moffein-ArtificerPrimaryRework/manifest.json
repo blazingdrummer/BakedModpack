@@ -1,0 +1,13 @@
+{
+    "name": "ArtificerPrimaryRework",
+    "version_number": "1.0.4",
+    "website_url": "https://github.com/Moffein/ArtificerPrimaryRework",
+    "description": "Reworks Artificer primaries to have fixed cooldown and scale hitcount with attack speed instead, along with other changes. Everyone needs the mod.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2120",
+		"RiskofThunder-HookGenPatcher-1.2.5",
+		"RiskofThunder-R2API_ContentManagement-1.0.10",
+		"RiskofThunder-R2API_Prefab-1.0.4",
+		"RiskofThunder-R2API_DamageType-1.1.7"
+    ]
+}

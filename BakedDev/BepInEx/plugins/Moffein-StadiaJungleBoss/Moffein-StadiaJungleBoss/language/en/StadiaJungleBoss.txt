@@ -1,0 +1,9 @@
+{
+	strings:
+	{
+		"STADIAJUNGLEBOSS_SPAWN_WARNING" : "<style=cWorldEvent>You notice roots twisting and turning..</style>",
+		"STADIAJUNGLEBOSS_SPAWN_BEGIN" : "<style=cWorldEvent>The ground begins to tremble.</style>",
+		"STADIAJUNGLEBOSS_BODY_NAME" : "Sundering Worm",
+		"STADIAJUNGLEBOSS_BODY_SUBTITLE" : "Catalyst of Growth",
+	}
+}

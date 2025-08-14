@@ -1,0 +1,14 @@
+{
+	strings:
+	{
+		"MOFFEINHERETIC_PASSIVE_DESCRIPTION" : "Еретик <style=cIsUtility>движется быстрее</style> и способна <style=cIsUtility>дважды взмахнуть крыльями</style>, чтобы прыгнуть.",
+		"MOFFEINHERETIC_STATBONUSITEM_NAME" : "Метка ереси",
+		"MOFFEINHERETIC_STATBONUSITEM_PICKUP" : "Получите заметную прибавку к характеристикам... <color=#FF7F7F>Но ваш запас здоровья будет со временем иссякать..</color>",
+		"MOFFEINHERETIC_STATBONUSITEM_DESC" : "Увеличивает <style=cIsHealing>запас здоровья</style> на <style=cIsHealing>400%</style>, а <style=cIsDamage>наносимый урон</style> - на <style=cIsDamage>50%</style>. Уменьшает <style=cIsHealing>исходное восстановление здоровья</style> до <style=cIsHealing>-6 ОЗ/с</style>.",
+		"MOFFEINHERETIC_SKILL_LUNAR_SECONDARY_REPLACEMENT_DESCRIPTION" : "Заряжает шар из лезвий, периодически наносящий <style=cIsDamage>175% урона</style>. Шар взрывается после небольшой задержки, <style=cIsDamage>приковывая к земле</style> всех поражённых врагов и нанося им <style=cIsDamage>700% урона</style>.",
+		"MOFFEINHERETIC_SKILL_LUNAR_SPECIAL_REPLACEMENT_DESCRIPTION" : "Нанесение урона накладывает на цели заряды <style=cIsDamage>Погибели</style>. При нажатии, вы <style=cIsDamage>взорвёте все наложенные заряды Погибели</style>, вне зависимости от расстояния между вами. Взрыв наносит <style=cIsDamage>300% урона</style>, а заряды <style=cIsDamage>Погибели</style> - по <style=cIsDamage>120% урона</style> каждый.",
+		
+		"ACHIEVEMENT_MOFFEINHERETICUNLOCK_NAME" : "Неортодоксальное воскрешение",
+		"ACHIEVEMENT_MOFFEINHERETICUNLOCK_DESCRIPTION" : "Играя за секретного выжившего, покиньте Луну."
+	}
+}

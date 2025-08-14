@@ -1,0 +1,12 @@
+{
+	strings:
+	{
+		"DIRESEEKER_BOSS_BODY_NAME": "Caçador Atroz",
+		"DIRESEEKER_BOSS_BODY_SUBTITLE": "Rastreia e Mata",
+		"DIRESEEKER_BOSS_BODY_OUTRO_FLAVOR": "... e então ele partiu, em busca de uma nova presa.",
+		"DIRESEEKER_SPAWN_WARNING": "<style=cWorldEvent>Você ouve um barulho distante...</style>",
+		"DIRESEEKER_SPAWN_BEGIN": "<style=cWorldEvent>O som do barulho se intensifica.</style>",
+		"DIRESEEKER_BOSS_BODY_LORE" : "Lendas contam de uma besta monstruosa que percorria o subterrâneo de Petrichor V.\n\nTemido pelos sobreviventes mais corajosos e pelos monstros mais assustadores, a enorme besta era inigualável. Ela tinha escamas vermelhas como o sangue e banhadas pelo próprio fogo do inferno. Ela tinha olhos amarelos flamejantes, com um brilho tão intenso que fazia a maior das criaturas morrer em sua própria trilha. Ela tinha um bafo fumegante, quente o suficiente para derreter qualquer metal em um instante.\n\nEla foi parada uma única vez por um sobrevivente forte o bastante para matar o próprio Providência sozinho, acredita-se que a besta finalmente encontrou um oponente à altura.\n\n<style=cIsHealth>Até dar as caras novamente.</style>",
+		"UNLOCKABLE_LOG_DIRESEEKER_BOSS_BODY" : "Registro de Monstro: Caçador Atroz"
+	}
+}

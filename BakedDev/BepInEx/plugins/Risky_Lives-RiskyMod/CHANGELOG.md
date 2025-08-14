@@ -1,3 +1,7 @@
+`2.7.3`
+
+- Added a nullcheck to GlobalContagionTracker
+
 `2.7.2`
 
 - Gunner Drone/Missile Drone

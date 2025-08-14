@@ -1,0 +1,12 @@
+{
+	strings:
+	{
+		"DIRESEEKER_BOSS_BODY_NAME":"Chercheur Sinistre",
+		"DIRESEEKER_BOSS_BODY_SUBTITLE": "Pister et Tuer",
+		"DIRESEEKER_BOSS_BODY_OUTRO_FLAVOR": "...et ainsi, il partit, à la recherche de nouvelles proies.",
+		"DIRESEEKER_SPAWN_WARNING": "<style=cWorldEvent>Vous entendez un grondement lointain...</style>",
+		"DIRESEEKER_SPAWN_BEGIN": "<style=cWorldEvent>Le grondement devient fort.</style>",
+		"DIRESEEKER_BOSS_BODY_LORE" : "Les légendes racontent l'histoire d'une bête monstrueuse qui errait autrefois dans les casernes souterraines de Petrichor V.\n\nRedoutée par les survivants les plus courageux et les monstres les plus redoutables, la bête massive était inégalée. Elle portait des écailles rouge sang, trempées dans le feu de l'enfer. Ses yeux jaunes brûlants avaient un regard si intense qu'il faisait stopper net les plus grandes créatures. Elle avait un souffle brûlant, assez chaud pour faire fondre le métal en un instant.\n\nSeule une fois arrêtée par un survivant assez fort pour tuer Providence lui-même, on pensait que la bête avait enfin trouvé son adversaire à sa mesure.\n\n<style=cIsHealth>Jusqu'à ce qu'elle montre à nouveau son visage terrifiant.</style>",
+		"UNLOCKABLE_LOG_DIRESEEKER_BOSS_BODY" : "Journal de Monstre : Chercheur Sinistre"
+	}
+}

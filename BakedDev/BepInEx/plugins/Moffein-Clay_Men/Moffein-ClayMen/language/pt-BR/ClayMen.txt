@@ -1,0 +1,8 @@
+{
+	strings:
+	{
+	"MOFFEIN_CLAY_BODY_NAME" : "Homem de Barro",
+	"MOFFEIN_CLAY_BODY_LORE" : "Rápidos com a espada e mais ainda com os pés, a agilidade dessas “pessoas” de barro não condiz com suas formas toscas. \n\nQuando me deparo com uma das poucas criaturas aqui nas quais sinto alguma humanidade, minha solidão se intensifica. Por que eles têm potes de barro na cabeça? Seria para se proteger dessa realidade cruel, ou talvez apenas para esconder as cicatrizes deste planeta brutal...?.",
+	"UNLOCKABLE_LOG_MOFFEIN_CLAY_BODY" : "Registro de Monstro: Homem de Barro"
+	}
+}

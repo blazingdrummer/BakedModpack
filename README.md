@@ -2,6 +2,8 @@ wolfo
 moffein
 kingenderbrine
 magnusmagnusson
+enforcergang
+starstorm 2
 
 maybe:
 - https://thunderstore.io/package/Moffein/TooManyFriends/
@@ -12,7 +14,6 @@ maybe:
 - https://thunderstore.io/package/Wolfo/LittleGameplayTweaks/
 - https://thunderstore.io/package/Wolfo/WLoopWeather/
 - https://thunderstore.io/package/Moffein/StadiaJungleBoss/
-- https://thunderstore.io/package/Moffein/BellTowerNerf/
 - https://thunderstore.io/package/Moffein/FixGenesisLoopConsoleSpam/
 - https://thunderstore.io/package/Moffein/EliteWorms/
 - https://thunderstore.io/package/Moffein/Archaic_Wisp/
@@ -23,8 +24,14 @@ maybe:
 - https://thunderstore.io/package/Moffein/BetterCommandArtifact/
 - https://thunderstore.io/package/Moffein/MoreSacrificeInteractables/
 - https://thunderstore.io/package/prodzpod/AchievementPins/
+- https://thunderstore.io/package/Moffein/BossKillTimer/
 - AncientScepter
-- GiantAmethyst (cd reset)
+- https://thunderstore.io/package/Risky_Sleeps/ClassicItemsReturns/
+- ZetAspects
+- Stages
+    - https://thunderstore.io/package/JaceDaDorito/FogboundLagoon/
+    - https://thunderstore.io/package/viliger/RemoteVillage/
+    - https://thunderstore.io/package/viliger/Catacombs/
 
 needs testing:
 - I think Huntress autoaim can replace the range buff in its config now
@@ -32,6 +39,9 @@ needs testing:
 - https://thunderstore.io/package/MagnusMagnuson/ItemExchangeNotifier/
     - pretty sure this is covered by sharesuite/wolfo
     - WolfoQoL prints chat messages when printing?
+- False Son Fight
+    - https://thunderstore.io/package/Moffein/FalseSonLaserLock/
+    - https://thunderstore.io/package/Moffein/FuckPrimeDevastator/
 
 deprecated:
 - https://thunderstore.io/package/TheRealElysium/WaxQuailMultiJump/

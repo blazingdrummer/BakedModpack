@@ -1,0 +1,11 @@
+{
+	strings:
+	{
+	"ELITE_MODIFIER_BLIGHTED_MOFFEIN" : "枯萎的 {0}",
+	"ELITE_MODIFIER_BLIGHTED_MOFFEIN_SUBTITLENAMETOKEN" : "幻象",
+	
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_NAME" : "堡垒的背叛",
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_DESC" : "获得 <style=cIsDamage>2</style> 个随机 <style=cIsDamage>精英效果</style>。 使用后 <style=cIsDamage>重新随机</style>。",
+	"EQUIPMENT_AFFIXBLIGHTED_MOFFEIN_PICKUP" : "成为破败的象征",
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Ancient_Wisp",
+  "version_number": "1.6.10",
+  "website_url": "https://github.com/Moffein/AncientWisp",
+  "description": "Adds the unused Ancient Wisp boss to spawn pool.",
+  "dependencies": [
+    "RiskofThunder-R2API_RecalculateStats-1.4.0",
+    "RiskofThunder-R2API_Director-2.1.3",
+    "RiskofThunder-R2API_Prefab-1.0.4",
+    "RiskofThunder-R2API_Sound-1.0.3",
+    "RiskofThunder-R2API_Core-5.1.1",
+	"bbepis-BepInExPack-5.4.2120"
+  ]
+}
