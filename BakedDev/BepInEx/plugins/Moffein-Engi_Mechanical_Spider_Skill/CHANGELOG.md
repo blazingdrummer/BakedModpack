@@ -1,3 +1,7 @@
+`1.1.2`
+
+- Fixed damage modifier being applied globally.
+
 `1.1.1`
 
 - Changed how damage modifier is applied for better mod compatibility.

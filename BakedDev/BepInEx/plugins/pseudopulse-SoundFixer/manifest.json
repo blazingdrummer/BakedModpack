@@ -1,0 +1,10 @@
+{
+	"name": "SoundFixer",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Fixes some mods lacking audio due to the recent memop changes.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.9",
+		"RiskofThunder-HookGenPatcher-1.2.1"
+	]
+}

@@ -171,7 +171,7 @@
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedBuffDef.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedBuffDef)~RoR2.BuffDef">
             <summary>
-            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedBuffDef"/> to it's currently loaded <see cref="!:Asset"/> value
+            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedBuffDef"/> to it's currently loaded <see cref="P:R2API.AddressReferencedAssets.AddressReferencedAsset`1.Asset"/> value
             </summary>
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedBuffDef.op_Implicit(System.String)~R2API.AddressReferencedAssets.AddressReferencedBuffDef">
@@ -217,7 +217,7 @@
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedEliteDef.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedEliteDef)~RoR2.EliteDef">
             <summary>
-            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedEliteDef"/> to it's currently loaded <see cref="!:Asset"/> value
+            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedEliteDef"/> to it's currently loaded <see cref="P:R2API.AddressReferencedAssets.AddressReferencedAsset`1.Asset"/> value
             </summary>
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedEliteDef.op_Implicit(System.String)~R2API.AddressReferencedAssets.AddressReferencedEliteDef">
@@ -263,7 +263,7 @@
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedEquipmentDef)~RoR2.EquipmentDef">
             <summary>
-            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedEquipmentDef"/> to it's currently loaded <see cref="!:Asset"/> value
+            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedEquipmentDef"/> to it's currently loaded <see cref="P:R2API.AddressReferencedAssets.AddressReferencedAsset`1.Asset"/> value
             </summary>
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedEquipmentDef.op_Implicit(System.String)~R2API.AddressReferencedAssets.AddressReferencedEquipmentDef">
@@ -309,7 +309,7 @@
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedExpansionDef.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedExpansionDef)~RoR2.ExpansionManagement.ExpansionDef">
             <summary>
-            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedExpansionDef"/> to it's currently loaded <see cref="!:Asset"/> value
+            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedExpansionDef"/> to it's currently loaded <see cref="P:R2API.AddressReferencedAssets.AddressReferencedAsset`1.Asset"/> value
             </summary>
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedExpansionDef.op_Implicit(System.String)~R2API.AddressReferencedAssets.AddressReferencedExpansionDef">
@@ -355,7 +355,7 @@
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedItemDef.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedItemDef)~RoR2.ItemDef">
             <summary>
-            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedItemDef"/> to it's currently loaded <see cref="!:Asset"/> value
+            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedItemDef"/> to it's currently loaded <see cref="P:R2API.AddressReferencedAssets.AddressReferencedAsset`1.Asset"/> value
             </summary>
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedItemDef.op_Implicit(System.String)~R2API.AddressReferencedAssets.AddressReferencedItemDef">
@@ -400,7 +400,7 @@
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedPrefab.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedPrefab)~UnityEngine.GameObject">
             <summary>
-            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedPrefab"/> to it's currently loaded <see cref="!:Asset"/> value
+            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedPrefab"/> to it's currently loaded <see cref="P:R2API.AddressReferencedAssets.AddressReferencedAsset`1.Asset"/> value
             </summary>
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedPrefab.op_Implicit(System.String)~R2API.AddressReferencedAssets.AddressReferencedPrefab">
@@ -445,7 +445,7 @@
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedSpawnCard.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedSpawnCard)~RoR2.SpawnCard">
             <summary>
-            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedSpawnCard"/> to it's currently loaded <see cref="!:Asset"/> value
+            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedSpawnCard"/> to it's currently loaded <see cref="P:R2API.AddressReferencedAssets.AddressReferencedAsset`1.Asset"/> value
             </summary>
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedSpawnCard.op_Implicit(System.String)~R2API.AddressReferencedAssets.AddressReferencedSpawnCard">
@@ -491,7 +491,7 @@
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedUnlockableDef)~RoR2.UnlockableDef">
             <summary>
-            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedUnlockableDef"/> to it's currently loaded <see cref="!:Asset"/> value
+            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedUnlockableDef"/> to it's currently loaded <see cref="P:R2API.AddressReferencedAssets.AddressReferencedAsset`1.Asset"/> value
             </summary>
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedUnlockableDef.op_Implicit(System.String)~R2API.AddressReferencedAssets.AddressReferencedUnlockableDef">

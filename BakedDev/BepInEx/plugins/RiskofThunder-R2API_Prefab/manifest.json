@@ -2,7 +2,7 @@
   "namespace": "RiskofThunder",
   "name": "R2API_Prefab",
   "description": "API for Prefab creation, networking and duplication",
-  "version_number": "1.1.0",
+  "version_number": "1.1.1",
   "dependencies": [
     "bbepis-BepInExPack-5.4.2109",
     "RiskofThunder-HookGenPatcher-1.2.3",

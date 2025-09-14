@@ -1,6 +1,6 @@
 {
   "name": "RiskyMod",
-  "version_number": "2.7.3",
+  "version_number": "2.8.1",
   "website_url": "https://github.com/Moffein/RiskyMod",
   "description": "A full game rebalance that aims to bring the game closer to RoR1. Highly configurable!",
   "dependencies": [
@@ -19,6 +19,7 @@
 	"RiskofThunder-R2API_Items-1.0.5",
 	"RiskofThunder-R2API_Sound-1.0.3",
 	"RiskofThunder-R2API_DamageType-1.1.7",
-	"RiskofThunder-R2API_ProcType-1.0.2"
+	"RiskofThunder-R2API_ProcType-1.0.2",
+	"pseudopulse-SoundFixer-1.0.0"
   ]
 }

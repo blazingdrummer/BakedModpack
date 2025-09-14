@@ -1,0 +1,12 @@
+{
+  "name": "RiskyMithrix",
+  "version_number": "1.2.1",
+  "website_url": "https://github.com/Moffein/RiskyMithrix",
+  "description": "A mod that aims to buff Mithrix in a vanilla-like way.",
+  "dependencies": [
+	"bbepis-BepInExPack-5.4.2120",
+	"RiskofThunder-HookGenPatcher-1.2.9",
+	"RiskofThunder-R2API_Core-5.1.6",
+	"RiskofThunder-R2API_Prefab-1.1.1"
+  ]
+}

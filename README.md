@@ -41,6 +41,7 @@ needs testing:
 - False Son Fight
     - https://thunderstore.io/package/Moffein/FalseSonLaserLock/
     - https://thunderstore.io/package/Moffein/FuckPrimeDevastator/
+- discovered pickups might not be working
 
 deprecated:
 - https://thunderstore.io/package/TheRealElysium/WaxQuailMultiJump/

@@ -1,3 +1,85 @@
+`2.8.1`
+
+- Lunar Golem (Sky Meadow)
+	- Fixed AI being set to player team.
+
+`2.8.0`
+
+- Configs
+	- Fixed incorrect config categories on the following items. **This will reset your selected option on these.**
+		- Unstable Transmitter
+		- Breaching Fin
+
+- Shield Gating
+	- Disabled by default now. (Existing config unaffected)
+	- New Config Option: Disable if Guardian's Heart (ClassicItemsReturns) is enabled. (Default: True)
+	
+	*Pretty much just moving this to Guardian's Heart so that it's locked behind a Green item instead of a White.*
+
+- False Son
+	- Stats
+		- Reduced health from 180 (+54) -> 160 (+48)
+		
+		*Mainly aimed at adjusting the Growth curve since it currently is a lot easier to build growth in this mod compared to Vanilla. This is compensated by an armor buff for Tampered Heart.*
+		
+	- Growth
+		- Cost increased by 60%
+		
+		*Most health items in this mod are buffed, so spikes are way faster to build compared to Vanilla. With the reduced health + increased Growth cost, it now takes 2 Steaks to get 2 Spikes once again, though it still is a bit faster than Vanilla.*
+		
+	- Tampered Heart
+		- Increased armor per held spike from +2.5 -> +5
+		
+		*Compensating for lower health. At full spikes, effective HP is roughly the same, and spikes in general will have a larger impact on tankiness.*
+		
+		- Reduced regen from +2.5 flat regen -> 0.5 level-scaled regen
+		
+		*Being able to get +10hp/s (3 slugs worth) of regen earlygame by simply firing off all secondary stocks was too much. New regen makes him have a bit more regen than standard melee characters. At level 20, this breaks even with the flat regen, and beyond that it will be slightly higher.*
+		
+	- Laser of the Father
+		- Reduced charge duration from 2s -> 1.5s
+		- Increased fire rate to reduce total state time from 4s -> 3s
+		- Removed falloff.
+		
+		*This has fallen by the wayside ever since Laser Burst got buffed. Lowering the time it takes to cast should help it fit into his skill flow a bit better.*
+		
+- Gunner Turret
+	- Now TPs based on Teleporter position instead of Player position, and doesn't TP if it is already within the radius.
+	
+- Items
+	- Leeching Seed
+		- Reduced healing from 2% (+1%) of damage dealt -> 1% (+1%)
+		
+		*This was singlehandedly the best healing item in the game. Should still be pretty strong, just that now the first stack is the same as other stacks.*
+		
+	- Noxious Thorn
+		- Removed range scaling, increased base radius from 20m -> 25m.
+		
+		*Same deal as Ukulele and other range scaling items in the mod.*
+		
+	- Squid Polyp
+		- Added extra config options.
+			- CannotCopy ItemTag (Default: False)
+				- Blacklists the item from minions if True.
+				
+			- Minion Squid Limit (Default: -1)
+				- Limits the amount of Squids minions such as Engi Turrets can spawn.
+				- -1 = Same as player.
+		
+- Enemies
+	- Lunar Golem (Stage 5)
+		- Now uses Lunar team.
+
+`2.7.5`
+
+- Blacklisted the following buffs from Noxious Thorn:
+	- RiskyMod Acrid Epidemic
+	- RiskyMod Freeze
+
+`2.7.4`
+
+- Mithrix stuff disables if RiskyMithrix is installed.
+
 `2.7.3`
 
 - Added a nullcheck to GlobalContagionTracker

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4219245138
+CRC: 3772572557
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c0f51ca5761e3b9993e47ba24f5d6fee
+    Hash: a86fc009f2027d0b24c1c37c4de5cb08
   TypeTreeHash:
     serializedVersion: 2
     Hash: 1e4ff3002e973fbcae92bb97ee575769
@@ -153,6 +153,7 @@ Assets:
 - Assets/Enemies/LynxTribe/Archer/Material/matLynxArcherMask.mat
 - Assets/Enemies/MechanicalSpider/Drone/MechanicalSpiderBroken.prefab
 - Assets/Enemies/LynxTribe/Shaman/texLynxShamanIcon.png
+- Assets/Enemies/SandCrab/SandCrabBody.prefab
 - Assets/Enemies/LynxTribe/Shaman/ShamanTrackingProjectile.prefab
 - Assets/Enemies/ArcherBug/Textures/BugBodyNormal.png
 - Assets/Enemies/Spitter/Sulfur/matSpitterSulfurTeeth.mat
@@ -177,7 +178,9 @@ Assets:
 - Assets/Enemies/LynxTribe/Totem/TotemEyeGlowSummonStorm.prefab
 - Assets/Enemies/LynxTribe/Archer/LynxArcherMaster.prefab
 - Assets/Enemies/MechanicalSpider/Materials/matMechanicalSpiderGrassy.mat
+- Assets/Enemies/SandCrab/SandCrabMaster.prefab
 - Assets/Enemies/LynxTribe/Totem/LynxFetish/texLynxFetishIcon.png
+- Assets/Enemies/SandCrab/Materials/mat3DSandCrabDefault.mat
 - Assets/Enemies/ArcherBug/Materials/mat3DArcherBugWings.mat
 - Assets/Enemies/Colossus/ColossusMaster.prefab
 - Assets/Enemies/Colossus/matColossusSMBHead.mat
@@ -223,6 +226,7 @@ Assets:
 - Assets/Items/PartyHat/ReturnsPartyHat.prefab
 - Assets/Enemies/Ifrit/Pillar/adcIfritPylonLightIntencityCurve.asset
 - Assets/acdLinearCurve.asset
+- Assets/Enemies/SandCrab/Textures/BaseCrab.png
 - Assets/Enemies/LynxTribe/Totem/LynxFetish/PickupLynxFetish.prefab
 - Assets/Enemies/MechanicalSpider/texMechanicalSpiderAllyIcon.png
 - Assets/Enemies/Spitter/Normal/matSpitterTeeth.mat
@@ -231,6 +235,7 @@ Assets:
 - Assets/Enemies/Ifrit/Hellzone/IfritHellzonePillarProjectileGhost.prefab
 - Assets/Enemies/Ifrit/IfritMaster.prefab
 - Assets/Enemies/Ifrit/Hellzone/IfritHellzonePillarProjectile.prefab
+- Assets/Enemies/SandCrab/Textures/CrabEmission.png
 - Assets/Enemies/Ifrit/Pillar/acdPillarPP.asset
 - Assets/Enemies/MechanicalSpider/MechanicalSpiderDroneBody.prefab
 - Assets/Enemies/Colossus/texColossusIcon.png
@@ -296,8 +301,10 @@ Assets:
 - Assets/Enemies/Ifrit/texIconIfritBody.png
 - Assets/Enemies/LynxTribe/Archer/LynxArcherBody.prefab
 - Assets/Enemies/Colossus/LaserBarrageLightIntencity.asset
-- Assets/Enemies/LynxTribe/Scout/Materials/MatLynxScoutMask.mat
+- Assets/Enemies/SandCrab/animSandCrab.controller
 - Assets/Enemies/LynxTribe/Hunter/LynxHunterMaster.prefab
+- Assets/Enemies/LynxTribe/Scout/Materials/MatLynxScoutMask.mat
+- Assets/Enemies/SandCrab/Textures/CrabNormals2.png
 - Assets/Enemies/LynxTribe/Totem/Materials/matLynxTotemPlant.mat
 - Assets/Enemies/LynxTribe/Hunter/texLynxHunterIcon.png
 - Assets/Enemies/LynxTribe/Hunter/LynxHunterBody.prefab

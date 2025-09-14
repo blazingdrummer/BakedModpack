@@ -1,6 +1,6 @@
 {
     "name": "Engi_Mechanical_Spider_Skill",
-    "version_number": "1.1.1",
+    "version_number": "1.1.2",
     "website_url": "https://github.com/Moffein/EngiMechSpiders",
     "description": "Adds a Special skill to Engineer that allows him to deploy Mechanical Spiders. Requires EnemiesReturns with Mechanical Spiders enabled.",
     "dependencies": [

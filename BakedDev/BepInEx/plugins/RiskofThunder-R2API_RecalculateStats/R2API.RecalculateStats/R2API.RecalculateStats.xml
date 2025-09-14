@@ -178,6 +178,12 @@
         <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.levelMultAdd">
             <summary>Added to the direct multiplier to level scaling.</summary> <inheritdoc cref="F:R2API.RecalculateStatsAPI.StatHookEventArgs.levelFlatAdd"/>
         </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.jumpCountAdd">
+            <summary>Added to max jump count.</summary> <remarks>JUMP_COUNT ~ (BASE_JUMP_COUNT + jumpCountAdd) * jumpCountMult</remarks>
+        </member>
+        <member name="F:R2API.RecalculateStatsAPI.StatHookEventArgs.jumpCountMult">
+            <summary>Jump count is multiplied by this number.</summary> <remarks>JUMP_COUNT ~ (BASE_JUMP_COUNT + jumpCountAdd) * jumpCountMult</remarks>
+        </member>
         <member name="T:R2API.RecalculateStatsAPI.StatHookEventHandler">
             <summary>
             Used as the delegate type for the GetStatCoefficients event.

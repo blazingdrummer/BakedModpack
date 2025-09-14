@@ -1,6 +1,6 @@
 ﻿{
 	"name": "SimpleLunarCoins",
-	"version_number": "1.2.5",
+	"version_number": "1.2.6",
 	"website_url": "https://github.com/mwoiii/simple-lunar-coins",
 	"description": "Provides simple customisation of the lunar coins behaviour, capable of turning them into a per-run currency through BepInEx config. Includes Risk of Options support.",
 	"dependencies": [

@@ -24,3 +24,7 @@ automatically picked up alongside a emitting a custom effect.
 
 * ***Reset Coins Each Run***: Each player starts a run with the amount of coins specified in 'Starting Coins'.
     * Bear in mind that using 'Reset Coins Each Run' will (currently) permanently overwrite the lunar coins of each player in the run.
+
+# Contact
+Discord: miyowi
+[Ko-fi](https://ko-fi.com/miyowi)

@@ -141,7 +141,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1753574573107
+  installedAtTime: 1755572382385
   loaders: []
   dependencies:
     - RiskofThunder-BepInEx_GUI-3.0.1
@@ -154,9 +154,9 @@
   versionNumber:
     major: 5
     minor: 4
-    patch: 2120
+    patch: 2121
   enabled: true
-  icon: E:\Mods\r2modman\RiskOfRain2\cache\bbepis-BepInExPack\5.4.2120\icon.png
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\bbepis-BepInExPack\5.4.2121\icon.png
 - manifestVersion: 1
   name: RiskofThunder-HookGenPatcher
   authorName: RiskofThunder
@@ -213,17 +213,17 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1753574576193
+  installedAtTime: 1757184411689
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-5.4.2109
     - RiskofThunder-HookGenPatcher-1.2.3
-    - RiskofThunder-R2API_Core-5.1.5
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.1.6
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 2
+    minor: 3
     patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Skins\icon.png
@@ -237,18 +237,18 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1753574576234
+  installedAtTime: 1757184417289
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-5.4.2109
     - RiskofThunder-HookGenPatcher-1.2.3
-    - RiskofThunder-R2API_Core-5.1.2
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.1.6
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 4
+    minor: 1
+    patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Addressables\icon.png
 - manifestVersion: 1
@@ -360,18 +360,18 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1753574576464
+  installedAtTime: 1755831521875
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.2109
     - RiskofThunder-HookGenPatcher-1.2.3
-    - RiskofThunder-R2API_Core-5.1.5
+    - RiskofThunder-R2API_Core-5.1.6
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 6
-    patch: 0
+    patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_RecalculateStats\icon.png
 - manifestVersion: 1
@@ -384,7 +384,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1754791551906
+  installedAtTime: 1755831537339
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.2109
@@ -396,7 +396,7 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 0
+    patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Prefab\icon.png
 - manifestVersion: 1
@@ -581,18 +581,18 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1753574576952
+  installedAtTime: 1757184423632
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-5.4.2109
     - RiskofThunder-HookGenPatcher-1.2.3
-    - RiskofThunder-R2API_Core-5.1.5
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.1.6
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 4
+    minor: 1
+    patch: 0
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\RiskofThunder-R2API_Dot\icon.png
 - manifestVersion: 1
@@ -895,7 +895,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1754791547047
+  installedAtTime: 1755317593516
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.2113
@@ -905,7 +905,7 @@
   versionNumber:
     major: 1
     minor: 13
-    patch: 0
+    patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\DropPod-LookingGlass\icon.png
 - manifestVersion: 1
@@ -1015,18 +1015,18 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1753576909204
+  installedAtTime: 1757819136532
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-5.4.2108
     - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2108
     - RiskofThunder-R2API_Core-5.1.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 2
-    patch: 5
+    patch: 6
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\mwmw-SimpleLunarCoins\icon.png
 - manifestVersion: 1
@@ -1242,31 +1242,32 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1755141500487
+  installedAtTime: 1757819198555
   loaders: []
   dependencies:
-    - Moffein-EliteReworks-1.15.0
-    - Risky_Lives-SneedHooks-1.0.0
-    - Risky_Lives-RiskyTweaks-1.7.0
-    - Risky_Lives-RiskyFixes-1.8.0
-    - Risky_Lives-LinearDamage-1.0.0
-    - Moffein-AssistManager-1.4.0
-    - Moffein-DefenseMatrixManager-1.0.3
-    - bbepis-BepInExPack-5.4.2120
-    - RiskofThunder-HookGenPatcher-1.2.8
-    - RiskofThunder-R2API_Core-5.1.5
-    - RiskofThunder-R2API_RecalculateStats-1.5.0
-    - RiskofThunder-R2API_Prefab-1.0.4
-    - RiskofThunder-R2API_Items-1.0.5
     - RiskofThunder-R2API_Sound-1.0.3
+    - RiskofThunder-R2API_Prefab-1.0.4
+    - Moffein-AssistManager-1.4.0
+    - RiskofThunder-R2API_RecalculateStats-1.5.0
+    - RiskofThunder-R2API_Core-5.1.5
     - RiskofThunder-R2API_DamageType-1.1.7
     - RiskofThunder-R2API_ProcType-1.0.2
+    - Moffein-DefenseMatrixManager-1.0.3
+    - RiskofThunder-HookGenPatcher-1.2.8
+    - RiskofThunder-R2API_Items-1.0.5
+    - pseudopulse-SoundFixer-1.0.0
+    - bbepis-BepInExPack-5.4.2120
+    - Moffein-EliteReworks-1.15.0
+    - Risky_Lives-RiskyTweaks-1.7.0
+    - Risky_Lives-SneedHooks-1.0.0
+    - Risky_Lives-RiskyFixes-1.8.0
+    - Risky_Lives-LinearDamage-1.0.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 7
-    patch: 3
+    minor: 8
+    patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-RiskyMod\icon.png
 - manifestVersion: 1
@@ -1847,19 +1848,20 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1755049550640
+  installedAtTime: 1755409389198
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.2120
     - RiskofThunder-HookGenPatcher-1.2.9
     - RiskofThunder-R2API_Core-5.1.6
     - RiskofThunder-R2API_RecalculateStats-1.6.0
+    - Risky_Lives-SneedHooks-1.0.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 0
+    patch: 1
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Lives-LinearDamage\icon.png
 - manifestVersion: 1
@@ -2390,30 +2392,30 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1755146748801
+  installedAtTime: 1757184617187
   loaders: []
   dependencies:
-    - bbepis-BepInExPack-5.4.2120
-    - RiskofThunder-HookGenPatcher-1.2.4
-    - viliger-RestoreGrandparentRock-1.0.0
-    - RiskofThunder-R2API_Prefab-1.0.4
-    - RiskofThunder-R2API_Deployable-1.0.1
-    - RiskofThunder-R2API_Director-2.3.5
-    - RiskofThunder-R2API_Elites-1.0.7
-    - RiskofThunder-R2API_ProcType-1.0.2
-    - RiskofThunder-R2API_Networking-1.0.3
-    - RiskofThunder-R2API_DamageType-1.1.7
-    - RiskofThunder-R2API_TempVisualEffect-1.0.3
     - RiskofThunder-R2API_Orb-1.0.1
-    - RiskofThunder-R2API_RecalculateStats-1.6.0
+    - RiskofThunder-R2API_Deployable-1.0.1
+    - RiskofThunder-HookGenPatcher-1.2.4
     - RiskofThunder-R2API_Sound-1.0.3
+    - RiskofThunder-R2API_Prefab-1.0.4
+    - viliger-RestoreGrandparentRock-1.0.0
     - JaceDaDorito-LocationsOfPrecipitation-1.1.2
+    - RiskofThunder-R2API_TempVisualEffect-1.0.3
+    - RiskofThunder-R2API_Networking-1.0.3
+    - RiskofThunder-R2API_Elites-1.0.7
+    - RiskofThunder-R2API_DamageType-1.1.7
+    - RiskofThunder-R2API_ProcType-1.0.2
+    - RiskofThunder-R2API_Director-2.3.5
+    - RiskofThunder-R2API_RecalculateStats-1.6.0
+    - bbepis-BepInExPack-5.4.2120
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 6
-    patch: 4
+    patch: 6
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Sleeps-EnemiesReturns\icon.png
 - manifestVersion: 1
@@ -2427,21 +2429,93 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1755146795831
+  installedAtTime: 1757184694508
   loaders: []
   dependencies:
     - bbepis-BepInExPack-5.4.2117
-    - RiskofThunder-HookGenPatcher-1.2.5
-    - RiskofThunder-R2API_Core-5.1.2
+    - RiskofThunder-R2API_RecalculateStats-1.4.0
     - RiskofThunder-R2API_ContentManagement-1.0.6
     - RiskofThunder-R2API_Items-1.0.4
-    - RiskofThunder-R2API_RecalculateStats-1.4.0
+    - RiskofThunder-R2API_Core-5.1.2
+    - RiskofThunder-HookGenPatcher-1.2.5
     - Risky_Sleeps-EnemiesReturns-0.3.8
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 1
+    patch: 2
   enabled: true
   icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-Engi_Mechanical_Spider_Skill\icon.png
+- manifestVersion: 1
+  name: Moffein-BetterCommandArtifact
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/BetterCommandArtifact/
+  displayName: BetterCommandArtifact
+  description: Updated verison of boops BetterCommandArtifact that fixes a few
+    bugs with it. Server-side and Vanilla-compatible!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1755573031810
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2120
+    - RiskofThunder-HookGenPatcher-1.2.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Moffein-BetterCommandArtifact\icon.png
+- manifestVersion: 1
+  name: Risky_Lives-RiskyMithrix
+  authorName: Risky_Lives
+  websiteUrl: https://thunderstore.io/package/Risky_Lives/RiskyMithrix/
+  displayName: RiskyMithrix
+  description: A mod that aims to buff Mithrix in a vanilla-like way.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1757819253012
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2120
+    - RiskofThunder-HookGenPatcher-1.2.9
+    - RiskofThunder-R2API_Core-5.1.6
+    - RiskofThunder-R2API_Prefab-1.1.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\cache\Risky_Lives-RiskyMithrix\1.2.1\icon.png
+- manifestVersion: 1
+  name: pseudopulse-SoundFixer
+  authorName: pseudopulse
+  websiteUrl: https://thunderstore.io/package/pseudopulse/SoundFixer/
+  displayName: SoundFixer
+  description: Fixes some mods lacking audio due to the recent memop changes.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1757819198118
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\pseudopulse-SoundFixer\icon.png

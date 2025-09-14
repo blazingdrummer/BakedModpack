@@ -1,3 +1,6 @@
+## 1.2.6
+- README changes
+
 ## 1.2.5
 - You know the drill
 

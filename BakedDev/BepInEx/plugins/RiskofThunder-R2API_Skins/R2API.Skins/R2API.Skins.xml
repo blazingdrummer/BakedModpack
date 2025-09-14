@@ -4,24 +4,6 @@
         <name>R2API.Skins</name>
     </assembly>
     <members>
-        <member name="T:R2API.SkinLightReplacement">
-            <summary>
-            Static class utilized for implementing Light Replacements for a Model
-            </summary>
-        </member>
-        <member name="M:R2API.SkinLightReplacement.AddLightReplacement(RoR2.SkinDef,R2API.LightReplacement[])">
-            <summary>
-            Adds new LightReplacements that will be applied to a SkinDef
-            </summary>
-            <param name="targetSkinDef">The skin def which will apply the light replacements.</param>
-            <param name="lightReplacements">The light replacements for the skin.</param>
-            <returns>true if the light replacement was added succesfully, false otherwise.</returns>
-        </member>
-        <member name="T:R2API.LightReplacement">
-            <summary>
-            Struct that represents a LightReplacement for a Skin
-            </summary>
-        </member>
         <member name="T:R2API.SkinDefParamsInfo">
             <summary>
             A container struct for all SkinDef and SkinDefParams data.
@@ -191,6 +173,406 @@
         <member name="F:R2API.Skins.PluginVersion">
             <summary>
             Version of the plugin, should be matching with the thunderstore package.
+            </summary>
+        </member>
+        <member name="F:R2API.SkinSkillVariants.RendererInfoSkillVariant.renderer">
+            <summary>
+            Use this if you are creating <see cref="T:R2API.SkinSkillVariantsDef"/>.
+            Otherwise use <see cref="M:R2API.SkinSkillVariants.AddRenderInfoSkillVariant(RoR2.SkinDefParams,System.String,R2API.SkinSkillVariants.RendererInfoSkillVariant)"/>.
+            </summary>
+        </member>
+        <member name="F:R2API.SkinSkillVariants.MeshReplacementSkillVariant.renderer">
+            <summary>
+            Use this if you are creating <see cref="T:R2API.SkinSkillVariantsDef"/>.
+            Otherwise use <see cref="M:R2API.SkinSkillVariants.AddMeshReplacementSkillVariant(RoR2.SkinDefParams,System.String,R2API.SkinSkillVariants.MeshReplacementSkillVariant)"/>.
+            </summary>
+        </member>
+        <member name="F:R2API.SkinSkillVariants.LightInfoSkillVariant.originalLight">
+            <summary>
+            Use this if you are creating <see cref="T:R2API.SkinSkillVariantsDef"/>.
+            Otherwise use <see cref="M:R2API.SkinSkillVariants.AddLightInfoSkillVariant(RoR2.SkinDefParams,System.String,R2API.SkinSkillVariants.LightInfoSkillVariant)"/>.
+            </summary>
+        </member>
+        <member name="F:R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant.projectilePrefab">
+            <summary>
+            Use this if you are creating <see cref="T:R2API.SkinSkillVariantsDef"/>.
+            Otherwise use <see cref="M:R2API.SkinSkillVariants.AddProjectileGhostReplacementSkillVariant(RoR2.SkinDefParams,UnityEngine.GameObject,R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant)"/>.
+            </summary>
+        </member>
+        <member name="F:R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant.minionBodyPrefab">
+            <summary>
+            Use this if you are creating <see cref="T:R2API.SkinSkillVariantsDef"/>.
+            Otherwise use <see cref="M:R2API.SkinSkillVariants.AddMinionSkinReplacementSkillVariant(RoR2.SkinDefParams,UnityEngine.GameObject,R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant)"/>.
+            </summary>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddRenderInfoSkillVariant(RoR2.SkinDef,System.String,R2API.SkinSkillVariants.RendererInfoSkillVariant)">
+            <summary>
+            Finds the renderer by its name and adds RendererInfoSkillVariant to it.
+            </summary>
+            <param name="skinDef">SkinDef for RendererInfoSkillVariant to apply to.</param>
+            <param name="rendererName">Name filter to find needed RendererInfo.</param>
+            <param name="rendererInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddRenderInfoSkillVariant(RoR2.SkinDefParams,System.String,R2API.SkinSkillVariants.RendererInfoSkillVariant)">
+            <summary>
+            Finds the renderer by its name and adds RendererInfoSkillVariant to it.
+            </summary>
+            <param name="skinDefParams">SkinDefParams for RendererInfoSkillVariant to apply to.</param>
+            <param name="rendererName">Name filter to find needed RendererInfo.</param>
+            <param name="rendererInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddRenderInfoSkillVariant(RoR2.ModelSkinController,System.String,R2API.SkinSkillVariants.RendererInfoSkillVariant)">
+            <summary>
+            Finds the renderer by its name and adds RendererInfoSkillVariant to it.
+            RendererInfoSkillVariant added with ModelSkinController will apply to all skins and have lower priority.
+            </summary>
+            <param name="modelSkinController">ModelSkinController for RendererInfoSkillVariant to apply to.</param>
+            <param name="rendererName">Name filter to find needed RendererInfo.</param>
+            <param name="rendererInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddRenderInfoSkillVariant(RoR2.SkinDef,System.Int32,R2API.SkinSkillVariants.RendererInfoSkillVariant)">
+            <summary>
+            Finds the renderer by its index and adds RendererInfoSkillVariant to it.
+            </summary>
+            <param name="skinDef">SkinDef for RendererInfoSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed RendererInfo.</param>
+            <param name="rendererInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddRenderInfoSkillVariant(RoR2.SkinDefParams,System.Int32,R2API.SkinSkillVariants.RendererInfoSkillVariant)">
+            <summary>
+            Finds the renderer by its index and adds RendererInfoSkillVariant to it.
+            </summary>
+            <param name="skinDefParams">SkinDefParams for RendererInfoSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed RendererInfo.</param>
+            <param name="rendererInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddRenderInfoSkillVariant(RoR2.ModelSkinController,System.Int32,R2API.SkinSkillVariants.RendererInfoSkillVariant)">
+            <summary>
+            Finds the renderer by its index and adds RendererInfoSkillVariant to it.
+            RendererInfoSkillVariant added with ModelSkinController will apply to all skins and have lower priority.
+            </summary>
+            <param name="modelSkinController">ModelSkinController for RendererInfoSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed RendererInfo.</param>
+            <param name="rendererInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddSkillVariant(RoR2.CharacterModel.RendererInfo@,R2API.SkinSkillVariants.RendererInfoSkillVariant)">
+            <summary>
+            Directly adds RendererInfoSkillVariant to RendererInfo.
+            Please don't use it unless you know what you are doing.
+            </summary>
+            <param name="rendererInfo">The RendererInfo itself.</param>
+            <param name="rendererInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMeshReplacementSkillVariant(RoR2.SkinDef,System.String,R2API.SkinSkillVariants.MeshReplacementSkillVariant)">
+            <summary>
+            Finds the mesh replacement by its name and adds MeshReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDef">SkinDef for MeshReplacementSkillVariant to apply to.</param>
+            <param name="meshRendererName">Name filter to find needed MeshReplacement.</param>
+            <param name="meshReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMeshReplacementSkillVariant(RoR2.SkinDefParams,System.String,R2API.SkinSkillVariants.MeshReplacementSkillVariant)">
+            <summary>
+            Finds the mesh replacement by its name and adds MeshReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDefParams">SkinDefParams for MeshReplacementSkillVariant to apply to.</param>
+            <param name="meshRendererName">Name filter to find needed MeshReplacement.</param>
+            <param name="meshReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMeshReplacementSkillVariant(RoR2.ModelSkinController,System.String,R2API.SkinSkillVariants.MeshReplacementSkillVariant)">
+            <summary>
+            Finds the mesh replacement by its name and adds MeshReplacementSkillVariant to it.
+            MeshReplacementSkillVariant added with ModelSkinController will apply to all skins and have lower priority.
+            </summary>
+            <param name="modelSkinController">ModelSkinController for MeshReplacementSkillVariant to apply to.</param>
+            <param name="meshRendererName">Name filter to find needed MeshReplacement.</param>
+            <param name="meshReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMeshReplacementSkillVariant(RoR2.SkinDef,System.Int32,R2API.SkinSkillVariants.MeshReplacementSkillVariant)">
+            <summary>
+            Finds the mesh replacement by its index and adds MeshReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDef">SkinDef for MeshReplacementSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed MeshReplacement.</param>
+            <param name="meshReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMeshReplacementSkillVariant(RoR2.SkinDefParams,System.Int32,R2API.SkinSkillVariants.MeshReplacementSkillVariant)">
+            <summary>
+            Finds the mesh replacement by its index and adds MeshReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDefParams">SkinDefParams for MeshReplacementSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed MeshReplacement.</param>
+            <param name="meshReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMeshReplacementSkillVariant(RoR2.ModelSkinController,System.Int32,R2API.SkinSkillVariants.MeshReplacementSkillVariant)">
+            <summary>
+            Finds the mesh replacement by its index and adds MeshReplacementSkillVariant to it.
+            MeshReplacementSkillVariant added with ModelSkinController will apply to all skins and have lower priority.
+            </summary>
+            <param name="modelSkinController">ModelSkinController for MeshReplacementSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed MeshReplacement.</param>
+            <param name="meshReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddSkillVariant(RoR2.SkinDefParams.MeshReplacement@,R2API.SkinSkillVariants.MeshReplacementSkillVariant)">
+            <summary>
+            Directly adds MeshReplacementSkillVariant to MeshReplacement.
+            Please don't use it unless you know what you are doing.
+            </summary>
+            <param name="meshReplacement">The MeshReplacement itself.</param>
+            <param name="meshReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddLightInfoSkillVariant(RoR2.SkinDef,System.String,R2API.SkinSkillVariants.LightInfoSkillVariant)">
+            <summary>
+            Finds the light by its name and adds LightInfoSkillVariant to it.
+            </summary>
+            <param name="skinDef">SkinDef for LightInfoSkillVariant to apply to.</param>
+            <param name="lightName">Name filter to find needed LightInfo.</param>
+            <param name="lightInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddLightInfoSkillVariant(RoR2.SkinDefParams,System.String,R2API.SkinSkillVariants.LightInfoSkillVariant)">
+            <summary>
+            Finds the light by its name and adds LightInfoSkillVariant to it.
+            </summary>
+            <param name="skinDefParams">SkinDefParams for LightInfoSkillVariant to apply to.</param>
+            <param name="lightName">Name filter to find needed LightInfo.</param>
+            <param name="lightInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddLightInfoSkillVariant(RoR2.ModelSkinController,System.String,R2API.SkinSkillVariants.LightInfoSkillVariant)">
+            <summary>
+            Finds the light by its name and adds LightInfoSkillVariant to it.
+            LightInfoSkillVariant added with ModelSkinController will apply to all skins and have lower priority.
+            </summary>
+            <param name="modelSkinController">ModelSkinController for LightInfoSkillVariant to apply to.</param>
+            <param name="lightName">Name filter to find needed LightInfo.</param>
+            <param name="lightInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddLightInfoSkillVariant(RoR2.SkinDef,System.Int32,R2API.SkinSkillVariants.LightInfoSkillVariant)">
+            <summary>
+            Finds the light by its index and adds LightInfoSkillVariant to it.
+            </summary>
+            <param name="skinDef">SkinDef for LightInfoSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed LightInfo.</param>
+            <param name="lightInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddLightInfoSkillVariant(RoR2.SkinDefParams,System.Int32,R2API.SkinSkillVariants.LightInfoSkillVariant)">
+            <summary>
+            Finds the light by its index and adds LightInfoSkillVariant to it.
+            </summary>
+            <param name="skinDefParams">SkinDefParams for LightInfoSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed LightInfo.</param>
+            <param name="lightInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddLightInfoSkillVariant(RoR2.ModelSkinController,System.Int32,R2API.SkinSkillVariants.LightInfoSkillVariant)">
+            <summary>
+            Finds the light by its index and adds LightInfoSkillVariant to it.
+            LightInfoSkillVariant added with ModelSkinController will apply to all skins and have lower priority.
+            </summary>
+            <param name="modelSkinController">ModelSkinController for LightInfoSkillVariant to apply to.</param>
+            <param name="index">Name filter to find needed LightInfo.</param>
+            <param name="lightInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddSkillVariant(RoR2.CharacterModel.LightInfo@,R2API.SkinSkillVariants.LightInfoSkillVariant)">
+            <summary>
+            Directly adds LightInfoSkillVariant to LightInfo.
+            Please don't use it unless you know what you are doing.
+            </summary>
+            <param name="lightInfo">The LightInfo itself.</param>
+            <param name="lightInfoSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddProjectileGhostReplacementSkillVariant(RoR2.SkinDef,System.String,R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant)">
+            <summary>
+            Finds the projectile ghost replacement by its name and adds ProjectileGhostReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDef">SkinDef for ProjectileGhostReplacementSkillVariant to apply to.</param>
+            <param name="projectileName">Name filter to find needed ProjectileGhostReplacement.</param>
+            <param name="projectileGhostReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddProjectileGhostReplacementSkillVariant(RoR2.SkinDefParams,System.String,R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant)">
+            <summary>
+            Finds the projectile ghost replacement by its name and adds ProjectileGhostReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDefParams">SkinDefParams for ProjectileGhostReplacementSkillVariant to apply to.</param>
+            <param name="projectileName">Name filter to find needed ProjectileGhostReplacement.</param>
+            <param name="projectileGhostReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddProjectileGhostReplacementSkillVariant(RoR2.ModelSkinController,System.String,R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant)">
+            <summary>
+            Finds the projectile ghost replacement by its name and adds ProjectileGhostReplacementSkillVariant to it.
+            ProjectileGhostReplacementSkillVariant added with ModelSkinController will apply to all skins and have lower priority.
+            </summary>
+            <param name="modelSkinController">ModelSkinController for ProjectileGhostReplacementSkillVariant to apply to.</param>
+            <param name="projectileName">Name filter to find needed ProjectileGhostReplacement.</param>
+            <param name="projectileGhostReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddProjectileGhostReplacementSkillVariant(RoR2.SkinDef,UnityEngine.GameObject,R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant)">
+            <summary>
+            Finds the projectile ghost replacement by its projectile prefab and adds ProjectileGhostReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDef">SkinDef for ProjectileGhostReplacementSkillVariant to apply to.</param>
+            <param name="projectilePrefab">Prefab filter to find needed ProjectileGhostReplacement.</param>
+            <param name="projectileGhostReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddProjectileGhostReplacementSkillVariant(RoR2.SkinDefParams,UnityEngine.GameObject,R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant)">
+            <summary>
+            Finds the projectile ghost replacement by its projectile prefab and adds ProjectileGhostReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDefParams">SkinDefParams for ProjectileGhostReplacementSkillVariant to apply to.</param>
+            <param name="projectilePrefab">Prefab filter to find needed ProjectileGhostReplacement.</param>
+            <param name="projectileGhostReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddProjectileGhostReplacementSkillVariant(RoR2.ModelSkinController,UnityEngine.GameObject,R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant)">
+            <summary>
+            Finds the projectile ghost replacement by its projectile prefab and adds ProjectileGhostReplacementSkillVariant to it.
+            ProjectileGhostReplacementSkillVariant added with ModelSkinController will apply to all skins and have lower priority.
+            </summary>
+            <param name="modelSkinController">ModelSkinController for ProjectileGhostReplacementSkillVariant to apply to.</param>
+            <param name="projectilePrefab">Prefab filter to find needed ProjectileGhostReplacement.</param>
+            <param name="projectileGhostReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddProjectileGhostReplacementSkillVariant(RoR2.SkinDef,System.Int32,R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant)">
+            <summary>
+            Finds the projectile ghost replacement by its index and adds ProjectileGhostReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDef">SkinDef for ProjectileGhostReplacementSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed ProjectileGhostReplacement.</param>
+            <param name="projectileGhostReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddProjectileGhostReplacementSkillVariant(RoR2.SkinDefParams,System.Int32,R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant)">
+            <summary>
+            Finds the projectile ghost replacement by its index and adds ProjectileGhostReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDefParams">SkinDefParams for ProjectileGhostReplacementSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed ProjectileGhostReplacement.</param>
+            <param name="projectileGhostReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddProjectileGhostReplacementSkillVariant(RoR2.ModelSkinController,System.Int32,R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant)">
+            <summary>
+            Finds the projectile ghost replacement by its index and adds ProjectileGhostReplacementSkillVariant to it.
+            ProjectileGhostReplacementSkillVariant added with ModelSkinController will apply to all skins and have lower priority.
+            </summary>
+            <param name="modelSkinController">ModelSkinController for ProjectileGhostReplacementSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed ProjectileGhostReplacement.</param>
+            <param name="projectileGhostReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddSkillVariant(RoR2.SkinDefParams.ProjectileGhostReplacement@,R2API.SkinSkillVariants.ProjectileGhostReplacementSkillVariant)">
+            <summary>
+            Directly adds ProjectileGhostReplacementSkillVariant to ProjectileGhostReplacement.
+            Please don't use it unless you know what you are doing.
+            </summary>
+            <param name="projectileGhostReplacement">The ProjectileGhostReplacement itself.</param>
+            <param name="projectileGhostReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMinionSkinReplacementSkillVariant(RoR2.SkinDef,System.String,R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant)">
+            <summary>
+            Finds the minion skill replacement by its name and adds MinionSkinReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDef">SkinDef for MinionSkinReplacementSkillVariant to apply to.</param>
+            <param name="minionBodyName">Name filter to find needed MinionSkinReplacement.</param>
+            <param name="minionSkinReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMinionSkinReplacementSkillVariant(RoR2.SkinDefParams,System.String,R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant)">
+            <summary>
+            Finds the minion skill replacement by its name and adds MinionSkinReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDefParams">SkinDefParams for MinionSkinReplacementSkillVariant to apply to.</param>
+            <param name="minionBodyName">Name filter to find needed MinionSkinReplacement.</param>
+            <param name="minionSkinReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMinionSkinReplacementSkillVariant(RoR2.ModelSkinController,System.String,R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant)">
+            <summary>
+            Finds the minion skill replacement by its name and adds MinionSkinReplacementSkillVariant to it.
+            MinionSkinReplacementSkillVariant added with ModelSkinController will apply to all skins and have lower priority.
+            </summary>
+            <param name="modelSkinController">ModelSkinController for ProjectileGhostReplacementSkillVariant to apply to.</param>
+            <param name="minionBodyName">Name filter to find needed MinionSkinReplacement.</param>
+            <param name="minionSkinReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMinionSkinReplacementSkillVariant(RoR2.SkinDef,UnityEngine.GameObject,R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant)">
+            <summary>
+            Finds the minion skill replacement by its minion body prefab and adds MinionSkinReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDef">SkinDef for MinionSkinReplacementSkillVariant to apply to.</param>
+            <param name="minionBodyPrefab">Prefab filter to find needed MinionSkinReplacement.</param>
+            <param name="minionSkinReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMinionSkinReplacementSkillVariant(RoR2.SkinDefParams,UnityEngine.GameObject,R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant)">
+            <summary>
+            Finds the minion skill replacement by its minion body prefab and adds MinionSkinReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDefParams">SkinDefParams for MinionSkinReplacementSkillVariant to apply to.</param>
+            <param name="minionBodyPrefab">Prefab filter to find needed MinionSkinReplacement.</param>
+            <param name="minionSkinReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMinionSkinReplacementSkillVariant(RoR2.ModelSkinController,UnityEngine.GameObject,R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant)">
+            <summary>
+            Finds the minion skill replacement by its minion body prefab and adds MinionSkinReplacementSkillVariant to it.
+            MinionSkinReplacementSkillVariant added with ModelSkinController will apply to all skins and have lower priority.
+            </summary>
+            <param name="modelSkinController">ModelSkinController for ProjectileGhostReplacementSkillVariant to apply to.</param>
+            <param name="minionBodyPrefab">Prefab filter to find needed MinionSkinReplacement.</param>
+            <param name="minionSkinReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMinionSkinReplacementSkillVariant(RoR2.SkinDef,System.Int32,R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant)">
+            <summary>
+            Finds the minion skill replacement by its index and adds MinionSkinReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDef">SkinDef for MinionSkinReplacementSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed MinionSkinReplacement.</param>
+            <param name="minionSkinReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMinionSkinReplacementSkillVariant(RoR2.SkinDefParams,System.Int32,R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant)">
+            <summary>
+            Finds the minion skill replacement by its index and adds MinionSkinReplacementSkillVariant to it.
+            </summary>
+            <param name="skinDefParams">SkinDefParams for MinionSkinReplacementSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed MinionSkinReplacement.</param>
+            <param name="minionSkinReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddMinionSkinReplacementSkillVariant(RoR2.ModelSkinController,System.Int32,R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant)">
+            <summary>
+            Finds the minion skill replacement by its index and adds MinionSkinReplacementSkillVariant to it.
+            MinionSkinReplacementSkillVariant added with ModelSkinController will apply to all skins and have lower priority.
+            </summary>
+            <param name="modelSkinController">ModelSkinController for ProjectileGhostReplacementSkillVariant to apply to.</param>
+            <param name="index">Index filter to find needed MinionSkinReplacement.</param>
+            <param name="minionSkinReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.AddSkillVariant(RoR2.SkinDefParams.MinionSkinReplacement@,R2API.SkinSkillVariants.MinionSkinReplacementSkillVariant)">
+            <summary>
+            Directly adds MinionSkinReplacementSkillVariant to MinionSkinReplacement.
+            Please don't use it unless you know what you are doing.
+            </summary>
+            <param name="minionSkinReplacement">The MinionSkinReplacement itself.</param>
+            <param name="minionSkinReplacementSkillVariant">Info struct.</param>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.SetSkillVariants(RoR2.CharacterModel.RendererInfo@,System.Object[])">
+            <summary>
+            Directly sets RendererInfoSkillVariant array to RendererInfo.
+            Please don't use it unless you know what you are doing.
+            </summary>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.SetSkillVariants(RoR2.SkinDefParams.MeshReplacement@,System.Object[])">
+            <summary>
+            Directly sets MeshReplacementSkillVariant array to MeshReplacement.
+            Please don't use it unless you know what you are doing.
+            </summary>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.SetSkillVariants(RoR2.CharacterModel.LightInfo@,System.Object[])">
+            <summary>
+            Directly sets LightInfoSkillVariant array to LightInfo.
+            Please don't use it unless you know what you are doing.
+            </summary>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.SetSkillVariants(RoR2.SkinDefParams.ProjectileGhostReplacement@,System.Object[])">
+            <summary>
+            Directly sets ProjectileGhostReplacementSkillVariant array to ProjectileGhostReplacement.
+            Please don't use it unless you know what you are doing.
+            </summary>
+        </member>
+        <member name="M:R2API.SkinSkillVariants.SetSkillVariants(RoR2.SkinDefParams.MinionSkinReplacement@,System.Object[])">
+            <summary>
+            Directly sets MinionSkinReplacementSkillVariant array to MinionSkinReplacement.
+            Please don't use it unless you know what you are doing.
             </summary>
         </member>
         <member name="T:R2API.SkinVFX">

@@ -61,7 +61,7 @@
 		- 100 -> 250 -> 400, etc.
 		
 - Leeching Seed
-	- Heal for 1hp and 2% (+1%) of the damage dealt.
+	- Heal for 1hp and 1% (+1%) of the damage dealt.
 	
 - Predatory Instincts
 	- **(RiskyTweaks)** New stacks refresh buff duration.
@@ -106,6 +106,9 @@
 - Will o' the Wisp
 	- Removed radius scaling, base radius increased from 12m -> 16m
 	- Removed proc coefficient.
+	
+- Noxious Thorn
+	- Removed range scaling, increased base range from 20m -> 25m
 
 ## Tweaks
 
