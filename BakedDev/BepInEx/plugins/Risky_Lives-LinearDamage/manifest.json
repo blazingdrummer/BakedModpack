@@ -1,6 +1,6 @@
 {
   "name": "LinearDamage",
-  "version_number": "1.0.1",
+  "version_number": "1.0.2",
   "website_url": "https://github.com/Moffein/LinearDamage",
   "description": "Makes most vanilla damage amplification effects linear instead of multiplicative. Server-side and Vanilla-compatible.",
   "dependencies": [

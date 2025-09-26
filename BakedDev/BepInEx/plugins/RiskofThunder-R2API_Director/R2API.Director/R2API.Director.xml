@@ -28,7 +28,7 @@
         </member>
         <member name="T:R2API.AddressableDirectorCard">
             <summary>
-            Represents a <see cref="T:RoR2.DirectorCard"/> that can be created from using <see cref="!:"/>
+            Represents a <see cref="T:RoR2.DirectorCard"/> that can be created from using <see cref="T:R2API.AddressReferencedAssets.AddressReferencedSpawnCard"/>
             </summary>
         </member>
         <member name="T:R2API.AddressableDirectorCardCategorySelection">
@@ -57,7 +57,7 @@
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection.op_Implicit(R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection)~RoR2.FamilyDirectorCardCategorySelection">
             <summary>
-            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection"/> to it's currently loaded <see cref="!:Asset"/> value
+            Operator for casting <see cref="T:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection"/> to it's currently loaded <see cref="P:R2API.AddressReferencedAssets.AddressReferencedAsset`1.Asset"/> value
             </summary>
         </member>
         <member name="M:R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection.op_Implicit(System.String)~R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection">

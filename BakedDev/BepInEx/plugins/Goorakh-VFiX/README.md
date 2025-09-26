@@ -1,6 +1,6 @@
 # VFiX
 
-Fixes various visual and audio issues introduced by Seekers of the Storm. Clientside.
+Fixes various visual and audio issues. Clientside.
 
 ### Timings
 Fixes most cases of effects randomly disappearing before they're supposed to end.

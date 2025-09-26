@@ -1,6 +1,10 @@
+`1.0.2`
+
+- Fixed Chronic Expansion changes causing Curse to not work.
+
 `1.0.1`
 
-- Remembered to add SneedHooks dependency.
+- Added SneedHooks to dependencies.
 
 `1.0.0`
 

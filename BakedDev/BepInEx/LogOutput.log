@@ -247,8 +247,8 @@ RoR2.Console:.cctor()
 [Info   :   BepInEx] Loading [R2API.Difficulty 1.1.2]
 [Debug  :RoR2BepInExPack] OnHook R2API.DifficultyAPI.GetExtendedDifficultyDef added by assembly: R2API.Difficulty.dll for: RoR2.DifficultyCatalog.GetDifficultyDef
 [Debug  :RoR2BepInExPack] OnHook R2API.DifficultyAPI.InitialiseRuleBookAndFinalizeList added by assembly: R2API.Difficulty.dll for: RoR2.RuleDef.FromDifficulty
-[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Director-2.3.5
-[Info   :   BepInEx] Loading [R2API.Director 2.3.5]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Director-2.3.6
+[Info   :   BepInEx] Loading [R2API.Director 2.3.6]
 [Debug  :RoR2BepInExPack] OnHook R2API.DirectorAPI.ApplyChangesOnStart added by assembly: R2API.Director.dll for: RoR2.ClassicStageInfo.Start
 [Debug  :RoR2BepInExPack] ILHook R2API.DirectorAPI.SwapVanillaDccsWithOurs modifier by assembly: R2API.Director.dll for: RoR2.ClassicStageInfo.HandleMixEnemyArtifact
 [Debug  :RoR2BepInExPack] OnHook R2API.DirectorAPI.InitStageEnumToSceneDefs added by assembly: R2API.Director.dll for: RoR2.SceneCatalog.Init
@@ -312,16 +312,16 @@ RoR2.Console:.cctor()
 [Info   :   BepInEx] Loading [R2API.TempVisualEffect 1.0.3]
 [Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Unlockable-1.0.2
 [Info   :   BepInEx] Loading [R2API.Unlockable 1.0.2]
-[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Core-5.1.6
-[Info   :   BepInEx] Loading [R2API 5.1.6]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Core-5.1.7
+[Info   :   BepInEx] Loading [R2API 5.1.7]
 [Debug  :RoR2BepInExPack] OnHook R2API.R2API.CheckIfUsedOnRightGameVersion added by assembly: R2API.Core.dll for: RoR2.RoR2Application.Awake
 [Info   :   BepInEx] TS Manifest: cbrl-ShrineOfDisorder-1.1.5
 [Info   :   BepInEx] Loading [ShrineOfDisorder 1.0.0]
 [Debug  :RoR2BepInExPack] OnHook ShrineOfDisorder.ShrineOfDisorder.Run_Start added by assembly: ShrineOfDisorder.dll for: RoR2.Run.Start
 [Debug  :RoR2BepInExPack] OnHook ShrineOfDisorder.ShrineOfDisorder.<Awake>b__10_0 added by assembly: ShrineOfDisorder.dll for: RoR2.Inventory.ShrineRestackInventory
 [Info   :ShrineOfDisorder] Awake done.
-[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Addressables-1.1.1
-[Info   :   BepInEx] Loading [R2API.Addressables 1.1.1]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Addressables-1.1.2
+[Info   :   BepInEx] Loading [R2API.Addressables 1.1.2]
 [Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Colors-1.0.3
 [Info   :   BepInEx] Loading [R2API.Colors 1.0.3]
 [Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_ProcType-1.0.2
@@ -662,6 +662,10 @@ RoR2.Console:.cctor()
 [Info   :   BepInEx] TS Manifest: Moffein-FixGenesisLoopConsoleSpam-1.0.0
 [Info   :   BepInEx] Loading [FixGenesisLoopConsoleSpam 1.0.0]
 [Debug  :RoR2BepInExPack] OnHook FixGenesisLoopConsoleSpam.FixGenesisLoopConsoleSpam.BaseVagrantNovaItemState_OnEnter added by assembly: FixGenesisLoopConsoleSpam.dll for: EntityStates.VagrantNovaItem.BaseVagrantNovaItemState.OnEnter
+[Info   :   BepInEx] TS Manifest: Moffein-FuckPrimeDevastator-1.0.0
+[Info   :   BepInEx] Loading [FuckPrimeDevastator 1.0.0]
+[Debug  :RoR2BepInExPack] ILHook FuckPrimeDevastator.FuckPrimeDevastatorPlugin.PrimeDevastatorChainOrb_OnArrival modifier by assembly: FuckPrimeDevastator.dll for: RoR2.Orbs.PrimeDevastatorChainOrb.OnArrival
+[Debug  :RoR2BepInExPack] OnHook FuckPrimeDevastator.FuckPrimeDevastatorPlugin.PrimeDevastatorChainOrb_OnArrival1 added by assembly: FuckPrimeDevastator.dll for: RoR2.Orbs.PrimeDevastatorChainOrb.OnArrival
 [Info   :   BepInEx] TS Manifest: Moffein-GestureEnigma-1.0.2
 [Info   :   BepInEx] Loading [GestureEnigma 1.0.2]
 [Debug  :RoR2BepInExPack] ILHook GestureEnigma.Class1+<>c.<Awake>b__1_0 modifier by assembly: GestureEnigma.dll for: RoR2.EquipmentSlot.MyFixedUpdate
@@ -695,8 +699,8 @@ RoR2.Console:.cctor()
 [Info   :   BepInEx] TS Manifest: Moffein-PressToPickup-1.0.1
 [Info   :   BepInEx] Loading [PressToPickup 1.0.0]
 [Debug  :RoR2BepInExPack] OnHook PressToPickup.Plugin+<>c.<Awake>b__0_0 added by assembly: PressToPickup.dll for: RoR2.GenericPickupController.OnTriggerStay
-[Info   :   BepInEx] TS Manifest: Risky_Lives-LinearDamage-1.0.1
-[Info   :   BepInEx] Loading [LinearDamage 1.0.0]
+[Info   :   BepInEx] TS Manifest: Risky_Lives-LinearDamage-1.0.2
+[Info   :   BepInEx] Loading [LinearDamage 1.0.2]
 [Debug  :RoR2BepInExPack] ILHook LinearDamage.Tweaks.Items.APRounds.RemoveVanilla modifier by assembly: LinearDamage.dll for: RoR2.HealthComponent.TakeDamageProcess
 [Debug  :RoR2BepInExPack] ILHook LinearDamage.Tweaks.Items.ChronicExpansion.RemoveVanilla modifier by assembly: LinearDamage.dll for: RoR2.CharacterBody.RecalculateStats
 [Debug  :RoR2BepInExPack] ILHook LinearDamage.Tweaks.Items.DeathMark.RemoveVanilla modifier by assembly: LinearDamage.dll for: RoR2.HealthComponent.TakeDamageProcess
@@ -1104,13 +1108,6 @@ RoR2.Console:.cctor()
 [Info   :   BepInEx] Loading [Pingprovements 1.7.0]
 [Debug  :RoR2BepInExPack] OnHook Pingprovements.PingerController.SetCurrentPing added by assembly: Pingprovements.dll for: RoR2.PingerController.SetCurrentPing
 [Debug  :RoR2BepInExPack] OnHook Pingprovements.PingIndicator.Update added by assembly: Pingprovements.dll for: RoR2.UI.PingIndicator.Update
-[Info   :   BepInEx] TS Manifest: EnforcerGang-Direseeker-1.5.0
-[Info   :   BepInEx] Loading [Direseeker 1.5.0]
-[Info   :R2API.ContentManagement] Created a SerializableContentPack for mod com.rob.Direseeker
-[Info   : Unity Log] Can't add 'NetworkIdentity' to DireseekerButton because a 'NetworkIdentity' is already added to the game object!
-[Debug  :RoR2BepInExPack] OnHook DireseekerMod.Modules.Tokens.fixme added by assembly: Direseeker.dll for: RoR2.Language.SetFolders
-[Debug  :RoR2BepInExPack] OnHook R2API.PrefabAPI.SetProperAssetIdForDelayedPrefabs added by assembly: R2API.Prefab.dll for: RoR2.Networking.NetworkManagerSystem.OnStartClient
-[Debug  :RoR2BepInExPack] OnHook DireseekerMod.Modules.Hooks.<ApplyHooks>b__1_0 added by assembly: Direseeker.dll for: RoR2.SceneDirector.Start
 [Info   :   BepInEx] TS Manifest: William758-CorpseBloomReborn-1.3.0
 [Info   :   BepInEx] Loading [CorpseBloomReborn 1.3.0]
 [Debug  :RoR2BepInExPack] OnHook TPDespair.CorpseBloomReborn.ReserveManager+<>c.<RecalculateReserveHook>b__15_0 added by assembly: CorpseBloomReborn.dll for: RoR2.CharacterBody.RecalculateStats
@@ -1160,9 +1157,9 @@ RoR2.Console:.cctor()
 [Debug  :RoR2BepInExPack] OnHook InteractableSpawnHooks.ClassicStageInfoStart added by assembly: QoLChests.dll for: RoR2.ClassicStageInfo.Start
 [Info   :   BepInEx] TS Manifest: Goorakh-PizzaSoundFix-1.0.0
 [Info   :   BepInEx] Loading [PizzaSoundFix 1.0.0]
-[Message:PizzaSoundFix] Initialized in 2ms
-[Info   :   BepInEx] TS Manifest: Goorakh-VFiX-1.0.5
-[Info   :   BepInEx] Loading [VFiX 1.0.5]
+[Message:PizzaSoundFix] Initialized in 3ms
+[Info   :   BepInEx] TS Manifest: Goorakh-VFiX-1.0.6
+[Info   :   BepInEx] Loading [VFiX 1.0.6]
 [Debug  :RoR2BepInExPack] OnHook VFiX.ChestZipper.ChestZipperFix.ChestBehavior_Awake added by assembly: VFiX.dll for: RoR2.ChestBehavior.Awake
 [Debug  :RoR2BepInExPack] OnHook VFiX.ChestZipper.ChestZipperFix.Opened_OnEnter added by assembly: VFiX.dll for: EntityStates.Barrel.Opened.OnEnter
 [Debug  :RoR2BepInExPack] ILHook VFiX.PooledEffectCleanup.EffectPoolPreventInUsePoolClearFix.EffectManager_UnloadOutdatedPools modifier by assembly: VFiX.dll for: RoR2.EffectManager.UnloadOutdatedPools
@@ -1170,7 +1167,7 @@ RoR2.Console:.cctor()
 [Debug  :RoR2BepInExPack] OnHook VFiX.PooledEffectCleanup.PooledEffectCleanupSoundFix.EffectPool_PreDestroyObject added by assembly: VFiX.dll for: RoR2.EffectPool.PreDestroyObject
 [Debug  :RoR2BepInExPack] OnHook VFiX.PooledEffectParent.PooledEffectParentFix.EffectManager_GetPooledEffect_GameObject_Vector3_Quaternion_Transform added by assembly: VFiX.dll for: RoR2.EffectManager.GetPooledEffect
 [Debug  :RoR2BepInExPack] OnHook VFiX.PooledEffectParent.PooledEffectParentFix.EffectManagerHelper_OnReturnToPool added by assembly: VFiX.dll for: RoR2.EffectManagerHelper.OnReturnToPool
-[Message:      VFiX] Initialized in 41ms
+[Message:      VFiX] Initialized in 48ms
 [Info   :   BepInEx] TS Manifest: HIFU-HuntressAutoaimFix-1.2.0
 [Info   :   BepInEx] Loading [HuntressAutoaimFix 1.2.0]
 [Debug  :RoR2BepInExPack] OnHook HuntressAutoaimFix.Main.HuntressTracker_SearchForTarget added by assembly: HuntressAutoaimFix.dll for: RoR2.HuntressTracker.SearchForTarget
@@ -1437,7 +1434,6 @@ RoR2.Console:.cctor()
 [Info   :     R2API] com.Moffein.ViendStanceChangeSkill;1.2.1
 [Info   :     R2API] com.RiskyLives.RiskyMithrix;1.2.1
 [Info   :     R2API] com.RiskyLives.RiskyMod;2.8.1
-[Info   :     R2API] com.rob.Direseeker;1.5.0
 [Info   :     R2API] com.Viliger.EnemiesReturns;0.6.6
 [Info   :     R2API] Wolfo.WolfoQoL_Server;4.0.0
 [Debug  :RoR2BepInExPack] OnHook SpawnPointMover.Main.Phase1_OnEnter added by assembly: SpawnPointMover.dll for: EntityStates.Missions.BrotherEncounter.Phase1.OnEnter
@@ -1777,7 +1773,6 @@ RoR2.Console:.cctor()
 [Info   : Unity Log] Soundbank 2279537123 loaded. 59 remaining
 [Info   : Unity Log] Soundbank 2023888034 loaded. 58 remaining
 [Info   : Unity Log] Soundbank 3180914867 loaded. 57 remaining
-[Debug  :RoR2BepInExPack] Not scanning R2API.Utils.EmbeddedResources for ConVars due to it containing delegate pointer field(s)
 [Info   : Unity Log] Soundbank 3843131111 loaded. 56 remaining
 [Info   : Unity Log] Soundbank 499416135 loaded. 55 remaining
 [Info   : Unity Log] Soundbank 1566663610 loaded. 54 remaining
@@ -1835,6 +1830,7 @@ RoR2.Console:.cctor()
 [Info   : Unity Log] Soundbank 99581196 loaded. 2 remaining
 [Info   : Unity Log] Soundbank 1181293851 loaded. 1 remaining
 [Info   : Unity Log] Soundbank 966522488 loaded. 0 remaining
+[Debug  :RoR2BepInExPack] Not scanning R2API.Utils.EmbeddedResources for ConVars due to it containing delegate pointer field(s)
 [Info   : Unity Log] "usesocialiconflag" is not a recognized ConCommand or ConVar.
 [Info   : Unity Log] Setting current language to "en"
 [Info   : Unity Log] Begin Shader Loading
@@ -1957,7 +1953,7 @@ RoR2.Console:.cctor()
 [Info   : Unity Log] loaded a shader!:  Hidden/UnderWaterFog / 472da7a0e387cf14abf12a99c96998fd
 [Info   : Unity Log] loaded a shader!:  TranslucentImage/DownTent / e4abd95960ed75f4a9f59cac7c40bd9d
 [Info   : Unity Log] End Shader Loading
-[Info   :R2API.ContentManagement] Generating a total of 15 ContentPacks...
+[Info   :R2API.ContentManagement] Generating a total of 14 ContentPacks...
 [Warning: Unity Log] Failed to assign Items.LemurianHarness: Asset "LemurianHarness" not found.
 [Warning: Unity Log] Failed to assign Items.NegateAttack: Asset "NegateAttack" not found.
 [Warning: Unity Log] Failed to assign Items.LowerHealthHigherDamage: Asset "LowerHealthHigherDamage" not found.
@@ -1970,38 +1966,38 @@ RoR2.Console:.cctor()
 [Info   :EnemiesReturns] Added bank : EnemiesReturnsInit
 [Info   :EnemiesReturns] Added bank : EnemiesReturnsMusic
 [Info   :EnemiesReturns] Added bank : EnemiesReturnsSounds
-[Info   :EnemiesReturns] Soundbanks loaded in 0.0077862
-[Info   :EnemiesReturns] Asset bundle E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Sleeps-EnemiesReturns\Risky_Sleeps-EnemiesReturns\AssetBundles\enemiesreturns loaded in 0.6514113
-[Info   :EnemiesReturns] Materials swapped in 0.0023589
+[Info   :EnemiesReturns] Soundbanks loaded in 0.0582135
+[Info   :EnemiesReturns] Asset bundle E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Sleeps-EnemiesReturns\Risky_Sleeps-EnemiesReturns\AssetBundles\enemiesreturns loaded in 0.6707113
+[Info   :EnemiesReturns] Materials swapped in 0.0024705
 [Warning: Unity Log] Could not find scene with name "loadingbasic".
 [Warning: Unity Log] Could not find scene with name "splash".
 [Warning: Unity Log] Could not find scene with name "splash".
 [Warning: Unity Log] Could not find scene with name "splash".
 [Warning: Unity Log] Could not find scene with name "splash".
 [Warning: Unity Log] EffectManager: Killing all pools
-[Info   :EnemiesReturns] Icons loaded in 0.0001606
+[Info   :EnemiesReturns] Icons loaded in 0.0001689
 [Warning: Unity Log] Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
 [Warning: Unity Log] Could not find scene with name "splash".
-[Info   :EnemiesReturns] Asset bundle E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Sleeps-EnemiesReturns\Risky_Sleeps-EnemiesReturns\AssetBundles\enemiesreturnsstagesassets loaded in 0.0479046
+[Info   :EnemiesReturns] Asset bundle E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Sleeps-EnemiesReturns\Risky_Sleeps-EnemiesReturns\AssetBundles\enemiesreturnsstagesassets loaded in 0.0479171
 [Info   :EnemiesReturns] Couldn't find replacement shader for particles/standard unlit in dictionary.
 [Info   :EnemiesReturns] Couldn't find replacement shader for standard in dictionary.
 [Info   :EnemiesReturns] Couldn't find replacement shader for gui/text shader in dictionary.
 [Info   :EnemiesReturns] Couldn't find replacement shader for textmeshpro/mobile/distance field in dictionary.
 [Info   :EnemiesReturns] Couldn't find replacement shader for textmeshpro/distance field in dictionary.
-[Info   :EnemiesReturns] Materials swapped in 0.0006569
+[Info   :EnemiesReturns] Materials swapped in 0.000665
 [Info   : Unity Log] <color=green>Triggered MusicController</color>
-[Info   :EnemiesReturns] Asset bundle E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Sleeps-EnemiesReturns\Risky_Sleeps-EnemiesReturns\AssetBundles\enemiesreturnsstagesscenes loaded in 0.0181683
+[Info   :EnemiesReturns] Asset bundle E:\Mods\r2modman\RiskOfRain2\profiles\BakedDev\BepInEx\plugins\Risky_Sleeps-EnemiesReturns\Risky_Sleeps-EnemiesReturns\AssetBundles\enemiesreturnsstagesscenes loaded in 0.0182235
 [Info   :R2API.ContentManagement] Created a SerializableContentPack for mod com.Viliger.EnemiesReturns
 [Debug  :RoR2BepInExPack] OnHook R2API.TempVisualEffectAPI.UpdateAllHook added by assembly: R2API.TempVisualEffect.dll for: RoR2.CharacterBody.UpdateAllTemporaryVisualEffects
 [Message:R2API.TempVisualEffect] Added new TemporaryVisualEffect: R2API.TempVisualEffectAPI+TemporaryVisualEffectInfo
-[Info   :EnemiesReturns] Characters created in 0.5620897
-[Info   :EnemiesReturns] Total loading time: 4.6241011
+[Info   :EnemiesReturns] Characters created in 0.5133036
+[Info   :EnemiesReturns] Total loading time: 4.509035
 [Warning: Unity Log] Could not find scene with name "intro".
 [Warning: Unity Log] Could not find scene with name "intro".
 [Warning: Unity Log] Could not find scene with name "intro".
 [Warning: Unity Log] Could not find scene with name "intro".
-[Warning: Unity Log] Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 13)
-[Warning: Unity Log] Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 13)
+[Warning: Unity Log] Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 14)
+[Warning: Unity Log] Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 14)
 [Warning: Unity Log] EffectManager: Killing all pools
 [Warning: Unity Log] Failed to assign Buffs.Deafened: Asset "bdDeafened" not found.
 [Warning: Unity Log] Failed to assign Items.SummonedEcho: Asset "SummonedEcho" not found.
@@ -2028,37 +2024,6 @@ visual_ShieldDelayPink (BuffDef)
 visual_SprintArmor (BuffDef)
 [Debug  :R2API.ContentManagement] Content added from iHarbHD.DebugToolkit:
 DebugToolKitComponentsNetworked (GameObject)
-[Debug  :R2API.ContentManagement] Content added from com.rob.Direseeker:
-DireseekerBossBody (GameObject)
-DireseekerBossMaster (GameObject)
-DireseekerBossFireball (GameObject)
-DireseekerBossGroundFireball (GameObject)
-BossEncounter (GameObject)
-DireseekerBossBody (GameObject)
-DireseekerBossFireball (GameObject)
-DireseekerBossFireTrail (GameObject)
-DireseekerBossGroundFireball (GameObject)
-DireseekerBossMaster (GameObject)
-DireseekerButton (GameObject)
-DireseekerEncounter (GameObject)
-FlamePillarPredictionEffect (GameObject)
- (SkillDef)
- (SkillDef)
- (SkillDef)
- (SkillDef)
- (SkillFamily)
- (SkillFamily)
- (SkillFamily)
- (SkillFamily)
-FlamePillarPredictionEffect (EffectDef)
-DireseekerMod.States.ChargeUltraFireball (RuntimeType)
-DireseekerMod.States.Enrage (RuntimeType)
-DireseekerMod.States.FireUltraFireball (RuntimeType)
-DireseekerMod.States.FlamePillar (RuntimeType)
-DireseekerMod.States.FlamePillars (RuntimeType)
-DireseekerMod.States.Flamethrower (RuntimeType)
-DireseekerMod.States.Missions.DireseekerEncounter.Listening (RuntimeType)
-DireseekerMod.States.SpawnState (RuntimeType)
 [Debug  :R2API.ContentManagement] Content added from com.RiskyLives.RiskyMod:
 RiskyModArrowRainProjectile (GameObject)
 RiskyModArrowRainScepterProjectile (GameObject)
@@ -2224,15 +2189,23 @@ Perish Song (BuffDef)
 [Debug  :RoR2BepInExPack] OnHook WolfoQoL_Server.BuffTimers.FeatherClient added by assembly: WolfoQoL_Server.dll for: RoR2.CharacterBody.ReadBuffs
 [Info   : Unity Log] ApplyEntityStateConfiguration(EntityStates.FalseSon.TheTamperedHeart (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/29c92114-c663-4a75-98dc-1291d47d44eb.xml
-[Info   : Unity Log] stream.Length=276798
+[Info   : Unity Log] stream.Length=283712
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/e8e99ebd-9550-473c-a3ba-715886ef788b.xml
 [Info   : Unity Log] stream.Length=304155
 [Debug  :AchievementPins] Adding Achievements...
-[Debug  :AchievementPins] Achievements: 137
+[Debug  :AchievementPins] Achievements: 118
 [Warning: Unity Log] RiskyTweaks: Skipping AllyRegen because RiskyMod is loaded.
 [Warning: Unity Log] WwiseUnity: Bank item_lunar_focusedConverence failed to load (AK_BankAlreadyLoaded)
 [Info   : Unity Log] This command requires a network or game session.
 [Warning: Unity Log] Network message MsgType.Highest + 22 is unregistered.
+[Info   : Unity Log] loading RunReport /RunReports/History/be4bc577-1bb6-47bc-a086-8a6c1e07e468.xml
+[Info   : Unity Log] loading RunReport /RunReports/History/70703d45-af35-4937-86a8-c8ec854b653c.xml
+[Info   : Unity Log] loading RunReport /RunReports/History/9eaf0521-3dbc-4334-9d1c-be7be1f2c61a.xml
+[Info   : Unity Log] loading RunReport /RunReports/History/414dcbcf-ad9a-4b81-9544-54bbfc768a57.xml
+[Info   : Unity Log] loading RunReport /RunReports/History/77696612-8b04-46a6-b838-5348d8b31ced.xml
+[Info   : Unity Log] loading RunReport /RunReports/History/125c3b43-b88c-4590-925d-17b4ebb56c4b.xml
+[Info   : Unity Log] loading RunReport /RunReports/History/827655b7-bf49-4439-9a5b-0de673f9c224.xml
+[Info   : Unity Log] loading RunReport /RunReports/History/583301fe-7cc4-4ff5-88ed-02f4aea75373.xml
 [Info   : Unity Log] loading RunReport /RunReports/History/823975ab-4af2-4071-b83a-bcdce617e915.xml
 [Info   : Unity Log] loading RunReport /RunReports/History/8aa6b538-d33c-4246-9e59-3e073c983825.xml
 [Info   : Unity Log] loading RunReport /RunReports/History/26645114-5d4e-452d-8f9b-ffd35c554655.xml
@@ -2252,8 +2225,6 @@ Perish Song (BuffDef)
 [Info   : Unity Log] loading RunReport /RunReports/History/b4adf385-1754-44a7-8167-f58480a237e4.xml
 [Info   : Unity Log] loading RunReport /RunReports/History/503a98ee-7ea8-4033-96b6-8ffe0b58f66a.xml
 [Info   : Unity Log] Setting offline scene to title
-[Warning: Unity Log] Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
-[Warning: Unity Log] Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
 [Warning: Unity Log] EffectManager: Killing all pools
 [Warning: Unity Log] InputSourceFilter.Refresh: Null eventSystem on SettingsPanelTitle(Clone)
 [Warning: Unity Log] InputSourceFilter.Refresh: Null eventSystem on FooterContainer
@@ -2306,3 +2277,30 @@ Highly recommended you set the controller up manually. Cloning from body prefab.
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Invalid Layer Index '-1'
+[Info   : Unity Log] Saved file "29c92114-c663-4a75-98dc-1291d47d44eb.xml" (283712 bytes)
+[Debug  :RoR2BepInExPack] OnHook BetterCommandArtifact.BetterCommandArtifact.SetOptions removed by assembly: ArtifactPlugin.dll for: RoR2.PickupPickerController.SetOptionsFromPickupForCommandArtifact
+[Debug  :RoR2BepInExPack] OnHook R2API.DifficultyAPI.GetExtendedDifficultyDef removed by assembly: R2API.Difficulty.dll for: RoR2.DifficultyCatalog.GetDifficultyDef
+[Debug  :RoR2BepInExPack] OnHook R2API.DifficultyAPI.InitialiseRuleBookAndFinalizeList removed by assembly: R2API.Difficulty.dll for: RoR2.RuleDef.FromDifficulty
+[Debug  :RoR2BepInExPack] OnHook R2API.DirectorAPI.ApplyChangesOnStart removed by assembly: R2API.Director.dll for: RoR2.ClassicStageInfo.Start
+[Debug  :RoR2BepInExPack] OnHook R2API.DirectorAPI.InitStageEnumToSceneDefs removed by assembly: R2API.Director.dll for: RoR2.SceneCatalog.Init
+[Debug  :RoR2BepInExPack] OnHook R2API.LanguageAPI.Language_GetLocalizedStringByToken removed by assembly: R2API.Language.dll for: RoR2.Language.GetLocalizedStringByToken
+[Debug  :RoR2BepInExPack] OnHook R2API.LanguageAPI.Language_TokenIsRegistered removed by assembly: R2API.Language.dll for: RoR2.Language.TokenIsRegistered
+[Debug  :RoR2BepInExPack] OnHook R2API.SkinIDRS.SetCustomIDRS removed by assembly: R2API.Skins.dll for: RoR2.ModelSkinController.ApplySkin
+[Debug  :RoR2BepInExPack] OnHook R2API.SkinVFX.ApplyModifier removed by assembly: R2API.Skins.dll for: RoR2.EffectComponent.Start
+[Debug  :RoR2BepInExPack] OnHook R2API.SkinVFX.ApplyReplacement removed by assembly: R2API.Skins.dll for: RoR2.EffectManager.SpawnEffect
+[Debug  :RoR2BepInExPack] OnHook R2API.SkinVFX.ModifyGenericMelee removed by assembly: R2API.Skins.dll for: EntityStates.BasicMeleeAttack.BeginMeleeAttackEffect
+[Debug  :RoR2BepInExPack] OnHook R2API.SkinSkillVariants.MeshReplacementTemplate_ctor removed by assembly: R2API.Skins.dll for: RoR2.SkinDef+MeshReplacementTemplate..ctor
+[Debug  :RoR2BepInExPack] OnHook R2API.SkinSkillVariants.GhostReplacementTemplate_ctor removed by assembly: R2API.Skins.dll for: RoR2.SkinDef+GhostReplacementTemplate..ctor
+[Debug  :RoR2BepInExPack] OnHook R2API.SkinSkillVariants.LightReplacementTemplate_ctor removed by assembly: R2API.Skins.dll for: RoR2.SkinDef+LightReplacementTemplate..ctor
+[Debug  :RoR2BepInExPack] OnHook R2API.SkinSkillVariants.MinionSkinTemplate_ctor removed by assembly: R2API.Skins.dll for: RoR2.SkinDef+MinionSkinTemplate..ctor
+[Debug  :RoR2BepInExPack] OnHook R2API.SoundAPI+Music.EnableCustomMusicSystems removed by assembly: R2API.Sound.dll for: RoR2.MusicController.StartIntroMusic
+[Debug  :RoR2BepInExPack] OnHook R2API.SoundAPI+Music.IsGameMusicBankInUse removed by assembly: R2API.Sound.dll for: RoR2.MusicController.UpdateState
+[Error  : Unity Log] NullReferenceException
+Stack trace:
+UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) (at <a20b3695b7ce4017b7981f9d06962bd1>:0)
+UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) (at <a20b3695b7ce4017b7981f9d06962bd1>:0)
+UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent) (at <a20b3695b7ce4017b7981f9d06962bd1>:0)
+RoR2.UI.ViewableTag.Refresh () (at <c0d9c70405a04cceacc72f65157d1ebd>:0)
+RoR2.UI.ViewableTag.OnDisable () (at <c0d9c70405a04cceacc72f65157d1ebd>:0)
+
+[Info   :FixPluginTypesSerialization] Restored original AssemblyNames list

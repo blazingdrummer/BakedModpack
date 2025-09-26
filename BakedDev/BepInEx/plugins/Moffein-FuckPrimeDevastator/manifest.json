@@ -1,0 +1,10 @@
+{
+    "name": "FuckPrimeDevastator",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "False Son's Prime Devastator applies 5 stacks of Lunar Ruin instead of Skill Disable. Server-side and Vanilla-compatible.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2117",
+		"RiskofThunder-HookGenPatcher-1.2.5"
+    ]
+}
