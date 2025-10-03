@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3772572557
+CRC: 3548975393
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a86fc009f2027d0b24c1c37c4de5cb08
+    Hash: 7b73e0317650de5bd726ca44b11c8ab7
   TypeTreeHash:
     serializedVersion: 2
     Hash: 1e4ff3002e973fbcae92bb97ee575769
@@ -117,6 +117,7 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Enemies/ArcherBug/stadiajungle/matArcherBugWingStadiaJungle.mat
 - Assets/Enemies/ArcherBug/animArcherBug.controller
+- Assets/Enemies/SandCrab/Textures/texSPSpheremoss.png
 - Assets/Enemies/LynxTribe/Shrine/LynxShrinePrefab.prefab
 - Assets/Items/PartyHat/matPartyHat.mat
 - Assets/Enemies/LynxTribe/Shaman/ShamanTeleportEffectIn.prefab
@@ -131,6 +132,7 @@ Assets:
 - Assets/Enemies/LynxTribe/Shaman/ShamanMask.prefab
 - Assets/Enemies/Swift/SwiftChargeDiveEffect.prefab
 - Assets/Enemies/LynxTribe/Totem/Materials/matMossPlant.mat
+- Assets/Enemies/SandCrab/acdSandCrabBubbleWobbleY.asset
 - Assets/Enemies/Colossus/ColossalCurl/texColossalKnurlIcon.png
 - Assets/Enemies/Colossus/ColossalCurl/matFistItemDisplay.mat
 - Assets/Enemies/LynxTribe/Scout/LynxScoutMaster.prefab
@@ -148,6 +150,7 @@ Assets:
 - Assets/Enemies/Colossus/matColossus.mat
 - Assets/Enemies/LynxTribe/Hunter/LynxHunterAllyBody.prefab
 - Assets/Enemies/Colossus/matColossusGrassy.mat
+- Assets/Enemies/SandCrab/acdSandCrabBubbleInitialScale.asset
 - Assets/Enemies/LynxTribe/Shaman/acdShamanSummonProjectilesScaling.asset
 - Assets/Enemies/ArcherBug/Materials/mat3DArcherBug.mat
 - Assets/Enemies/LynxTribe/Archer/Material/matLynxArcherMask.mat
@@ -155,6 +158,7 @@ Assets:
 - Assets/Enemies/LynxTribe/Shaman/texLynxShamanIcon.png
 - Assets/Enemies/SandCrab/SandCrabBody.prefab
 - Assets/Enemies/LynxTribe/Shaman/ShamanTrackingProjectile.prefab
+- Assets/Enemies/SandCrab/acdSandCrabBubbleWobbleXZ.asset
 - Assets/Enemies/ArcherBug/Textures/BugBodyNormal.png
 - Assets/Enemies/Spitter/Sulfur/matSpitterSulfurTeeth.mat
 - Assets/Enemies/Spitter/Lakes/matSpitterLakes.mat
@@ -189,6 +193,7 @@ Assets:
 - Assets/Enemies/MechanicalSpider/MechanicalSpiderBody.prefab
 - Assets/Enemies/LynxTribe/Shrine/Materials/matLynxShamanMaskSunburn.mat
 - Assets/Enemies/LynxTribe/Shrine/Materials/matLynxPole.mat
+- Assets/Enemies/SandCrab/acdSandCrabBubbleSpeed.asset
 - Assets/Enemies/MechanicalSpider/MechanicalSpiderMaster.prefab
 - Assets/Enemies/Spitter/Depths/matSpitterDepths.mat
 - Assets/Enemies/Spitter/SpitterMaster.prefab
@@ -196,9 +201,11 @@ Assets:
 - Assets/Enemies/LynxTribe/Shaman/Materials/matLynxShamanMask.mat
 - Assets/Enemies/Ifrit/Pillar/acdFireballFallCurve.asset
 - Assets/Enemies/Colossus/matColossusSkyMeadow.mat
+- Assets/Enemies/SandCrab/SandCrabBubbleImpactEffect.prefab
 - Assets/Enemies/LynxTribe/Totem/TotemEyeGlowSummonTribe.prefab
 - Assets/Enemies/LynxTribe/Totem/LynxTotemGroundpoundProjectile.prefab
 - Assets/Enemies/LynxTribe/Shaman/texReducedHealingBuff.png
+- Assets/Enemies/SandCrab/Materials/mat3DSandCrabSulfur.mat
 - Assets/Enemies/LynxTribe/Shaman/LynxShamanPushBackSummon.prefab
 - Assets/Enemies/LynxTribe/Totem/LynxTotemMaster.prefab
 - Assets/Enemies/LynxTribe/Hunter/texLynxHunterAllyIcon.png
@@ -211,6 +218,7 @@ Assets:
 - Assets/Enemies/Swift/Materials/matSwift.mat
 - Assets/Enemies/LynxTribe/Shrine/Materials/MatLynxScoutMaskSunburn.mat
 - Assets/Enemies/LynxTribe/Totem/Materials/matVines.mat
+- Assets/Enemies/SandCrab/Materials/mat3DSandCrabSandy.mat
 - Assets/Enemies/LynxTribe/Shaman/ShamanTeleportEffectOut.prefab
 - Assets/Enemies/Colossus/ColossalCurl/FistProjectile/matFist.mat
 - Assets/Enemies/LynxTribe/LynxSpawnParticles.prefab
@@ -244,6 +252,7 @@ Assets:
 - Assets/Enemies/Ifrit/Pillar/texIconPillarEnemy.png
 - Assets/Enemies/LynxTribe/Archer/ArrowProjectileGhost.prefab
 - Assets/Enemies/LynxTribe/Archer/texLynxArcherIcon.png
+- Assets/Enemies/SandCrab/texSandCrabIcon.png
 - Assets/Enemies/Colossus/matFlag.mat
 - Assets/Enemies/LynxTribe/Shaman/LynxShamanProjectileImpactEffect.prefab
 - Assets/Enemies/ArcherBug/texArcherBugIcon.png
@@ -268,6 +277,7 @@ Assets:
 - Assets/Enemies/ArcherBug/Textures/BugWingNormalMap.png
 - Assets/Enemies/LynxTribe/Totem/TotemEyeGlowGroundpound.prefab
 - Assets/Enemies/LynxTribe/Archer/ArrowProjectile.prefab
+- Assets/Enemies/SandCrab/SandCrabBubbleGhost.prefab
 - Assets/Enemies/LynxTribe/Trap/LynxTrapPrefab.prefab
 - Assets/Enemies/Colossus/ColossalCurl/FistProjectile/ColossalKnurlFistProjectileGhost.prefab
 - Assets/Enemies/LynxTribe/Totem/TotemShakeParticles.prefab
@@ -276,13 +286,15 @@ Assets:
 - Assets/Enemies/Ifrit/IfritBody.prefab
 - Assets/Enemies/LynxTribe/Shrine/Materials/matLynxArcherMaskSunburn.mat
 - Assets/Enemies/Swift/SwiftMaster.prefab
+- Assets/Enemies/SandCrab/SandCrabBubbleProjectile.prefab
 - Assets/Enemies/Ifrit/Hellzone/mdlIcoRockM.asset
 - Assets/Enemies/Ifrit/Pillar/IfritPylonMaster.prefab
 - Assets/Enemies/Swift/texSwiftIcon.png
 - Assets/Enemies/LynxTribe/Hunter/LynxHunterSpearTipEffect.prefab
 - Assets/Enemies/LynxTribe/Shaman/LynxShamanAllyMaster.prefab
-- Assets/Enemies/LynxTribe/Totem/Materials/matMoss.mat
+- Assets/Enemies/SandCrab/Materials/mat3DSandCrabGrassy.mat
 - Assets/Enemies/LynxTribe/Totem/Materials/matTotem.mat
+- Assets/Enemies/LynxTribe/Totem/Materials/matMoss.mat
 - Assets/Enemies/Ifrit/Pillar/IfritPylonBody.prefab
 - Assets/Enemies/LynxTribe/Archer/LynxArcherAllyBody.prefab
 - Assets/Enemies/ArcherBug/Textures/BugWing.png
@@ -305,6 +317,7 @@ Assets:
 - Assets/Enemies/LynxTribe/Hunter/LynxHunterMaster.prefab
 - Assets/Enemies/LynxTribe/Scout/Materials/MatLynxScoutMask.mat
 - Assets/Enemies/SandCrab/Textures/CrabNormals2.png
+- Assets/Enemies/SandCrab/Textures/texSPSphereNrm.png
 - Assets/Enemies/LynxTribe/Totem/Materials/matLynxTotemPlant.mat
 - Assets/Enemies/LynxTribe/Hunter/texLynxHunterIcon.png
 - Assets/Enemies/LynxTribe/Hunter/LynxHunterBody.prefab

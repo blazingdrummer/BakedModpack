@@ -16,12 +16,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	368183501	ER_Arraign_SwordThrowProjectileLoop_Stop			\Default Work Unit\Sounds\Judgement\Arraign\WeaponThrow\ER_Arraign_SwordThrowProjectileLoop_Stop	
 	449302751	ER_Ifrit_Pillar_Explosion_Play			\Default Work Unit\Sounds\Ifrit\Pillar\ER_Ifrit_Pillar_Explosion_Play	
 	473042953	ER_Arraign_ThreeHitComboExplosion_Play			\Default Work Unit\Sounds\Judgement\Arraign\ThreeHitCombo\ER_Arraign_ThreeHitComboExplosion_Play	
+	492524099	ER_SandCrab_Melee_Hold_Play			\Default Work Unit\Sounds\SandCrab\Melee\ER_SandCrab_Melee_Hold_Play	
 	501810774	ER_Spider_Projectile_Loop_Stop			\Default Work Unit\Sounds\Mechanical Spider\ER_Spider_Projectile_Loop_Stop	
+	559867643	ER_SandCrab_FireBubblesPrep_Play			\Default Work Unit\Sounds\SandCrab\ER_SandCrab_FireBubblesPrep_Play	
 	566543293	ER_Spider_Death_Drone_Play			\Default Work Unit\Sounds\Mechanical Spider\ER_Spider_Death_Drone_Play	
 	573818545	ER_Spitter_Laugh_Play			\Default Work Unit\Sounds\Spiiter\ER_Spitter_Laugh_Play	
 	640236253	ER_Ifrit_FireBreath_Play			\Default Work Unit\Sounds\Ifrit\ER_Ifrit_FireBreath_Play	
 	643368148	ER_Arraign_BeamStart_Play			\Default Work Unit\Sounds\Judgement\Arraign\Beam\ER_Arraign_BeamStart_Play	
 	646480283	ER_Arraign_LeftRightSwingP1_Play			\Default Work Unit\Sounds\Judgement\Arraign\ER_Arraign_LeftRightSwingP1_Play	
+	696926639	ER_SandCrab_Bubbles_FlightLoop_Play			\Default Work Unit\Sounds\SandCrab\Bubbles\ER_SandCrab_Bubbles_FlightLoop_Play	
 	703349658	ER_Spitter_Death_Play			\Default Work Unit\Sounds\Spiiter\ER_Spitter_Death_Play	
 	704930148	ER_Swift_Death_PLay			\Default Work Unit\Sounds\Swift\ER_Swift_Death_PLay	
 	706660289	ER_Knurl_Fist_Spawn_Play			\Default Work Unit\Sounds\Colossus\Item\ER_Knurl_Fist_Spawn_Play	
@@ -47,6 +50,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1399286871	ER_Archer_ArrowImpact_Play			\Default Work Unit\Sounds\LynxTribe\Archer\ER_Archer_ArrowImpact_Play	
 	1412189178	ER_Lynx_Shrine_Failure_Play			\Default Work Unit\Sounds\LynxTribe\Shrine\ER_Lynx_Shrine_Failure_Play	
 	1432036354	ER_Arraign_ThreeHitComboSwingP2_Play			\Default Work Unit\Sounds\Judgement\Arraign\ThreeHitCombo\ER_Arraign_ThreeHitComboSwingP2_Play	
+	1446003772	ER_SandCrab_FireBubbles_Play			\Default Work Unit\Sounds\SandCrab\ER_SandCrab_FireBubbles_Play	
 	1448742039	ER_Hunter_Death_Play			\Default Work Unit\Sounds\LynxTribe\Hunter\ER_Hunter_Death_Play	
 	1523050406	ER_Archer_Death_Play			\Default Work Unit\Sounds\LynxTribe\Archer\ER_Archer_Death_Play	
 	1528892635	ER_Spitter_Charge_Spit_Play			\Default Work Unit\Sounds\Spiiter\ER_Spitter_Charge_Spit_Play	
@@ -69,10 +73,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	2064376367	ER_Spitter_Spawn_Play			\Default Work Unit\Sounds\Spiiter\ER_Spitter_Spawn_Play	
 	2077057673	ER_SkyLaser_Death_Play			\Default Work Unit\Sounds\Judgement\Arraign\SkyLaser\ER_SkyLaser_Death_Play	
 	2120003650	ER_Shaman_Projectile_Flight_Loop_Stop			\Default Work Unit\Sounds\LynxTribe\Shaman\ER_Shaman_Projectile_Flight_Loop_Stop	
+	2155124673	ER_SandCrab_Death_Play			\Default Work Unit\Sounds\SandCrab\ER_SandCrab_Death_Play	
 	2177429057	ER_Colossus_Spawn_Play			\Default Work Unit\Sounds\Colossus\ER_Colossus_Spawn_Play	
 	2192373533	ER_Totem_SexYes_Play			\Default Work Unit\Sounds\LynxTribe\Totem\ER_Totem_SexYes_Play	
 	2205873296	ER_Swift_WingFlap_Play			\Default Work Unit\Sounds\Swift\ER_Swift_WingFlap_Play	
 	2208884523	ER_Shaman_Spawn_No_Voice_Play			\Default Work Unit\Sounds\LynxTribe\Shaman\ER_Shaman_Spawn_No_Voice_Play	
+	2212077544	ER_SandCrab_Melee_Start_Play			\Default Work Unit\Sounds\SandCrab\Melee\ER_SandCrab_Melee_Start_Play	
+	2223706892	ER_SandCrab_Spawn_Play			\Default Work Unit\Sounds\SandCrab\ER_SandCrab_Spawn_Play	
 	2248360025	ER_Swift_AttackGroundImpact_Play			\Default Work Unit\Sounds\Swift\ER_Swift_AttackGroundImpact_Play	
 	2261586241	ER_Arraign_BeamEnd_Play			\Default Work Unit\Sounds\Judgement\Arraign\Beam\ER_Arraign_BeamEnd_Play	
 	2271628797	ER_Totem_SummonTribe_Play			\Default Work Unit\Sounds\LynxTribe\Totem\ER_Totem_SummonTribe_Play	
@@ -99,6 +106,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2682871661	ER_Spider_Projectile_Hit_Play			\Default Work Unit\Sounds\Mechanical Spider\ER_Spider_Projectile_Hit_Play	
 	2691441839	ER_Arraign_SpearThrowProjectileLoop_Play			\Default Work Unit\Sounds\Judgement\Arraign\WeaponThrow\ER_Arraign_SpearThrowProjectileLoop_Play	
 	2742481896	ER_Spitter_Bite_Play			\Default Work Unit\Sounds\Spiiter\ER_Spitter_Bite_Play	
+	2807491849	ER_SandCrab_Melee_Hold_Stop			\Default Work Unit\Sounds\SandCrab\Melee\ER_SandCrab_Melee_Hold_Stop	
 	2825975115	ER_Ifrit_FireBreath_Stop			\Default Work Unit\Sounds\Ifrit\ER_Ifrit_FireBreath_Stop	
 	2826993484	ER_Spider_Projectile_Loop_Play			\Default Work Unit\Sounds\Mechanical Spider\ER_Spider_Projectile_Loop_Play	
 	2873782747	ER_Shaman_Projectile_Impact_Play			\Default Work Unit\Sounds\LynxTribe\Shaman\ER_Shaman_Projectile_Impact_Play	
@@ -114,6 +122,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3207386569	ER_Spider_Light_Flicker_Play			\Default Work Unit\Sounds\Mechanical Spider\Drone\ER_Spider_Light_Flicker_Play	
 	3222163674	ER_Shaman_SummonProjectiles_Stop			\Default Work Unit\Sounds\LynxTribe\Shaman\ER_Shaman_SummonProjectiles_Stop	
 	3248873140	ER_Lynx_Storm_Alive_Loop_Stop			\Default Work Unit\Sounds\LynxTribe\Storm\ER_Lynx_Storm_Alive_Loop_Stop	
+	3261717184	ER_SandCrab_Bubbles_Spawn_Play			\Default Work Unit\Sounds\SandCrab\Bubbles\ER_SandCrab_Bubbles_Spawn_Play	
 	3289796256	ER_Spider_Fire_Play			\Default Work Unit\Sounds\Mechanical Spider\ER_Spider_Fire_Play	
 	3303183540	ER_Spider_Dash_Play			\Default Work Unit\Sounds\Mechanical Spider\ER_Spider_Dash_Play	
 	3318859761	ER_Arraign_SwordThrow_Throw_Play			\Default Work Unit\Sounds\Judgement\Arraign\WeaponThrow\ER_Arraign_SwordThrow_Throw_Play	
@@ -121,7 +130,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3394875942	ER_Swift_Death_GroundImpact_Play			\Default Work Unit\Sounds\Swift\ER_Swift_Death_GroundImpact_Play	
 	3400012187	ER_Totem_Landing_PLay			\Default Work Unit\Sounds\LynxTribe\Totem\ER_Totem_Landing_PLay	
 	3407913445	ER_Arraign_SwordThrow_Charge_Play			\Default Work Unit\Sounds\Judgement\Arraign\WeaponThrow\ER_Arraign_SwordThrow_Charge_Play	
+	3422590193	ER_SandCrab_Footstep_Play			\Default Work Unit\Sounds\SandCrab\ER_SandCrab_Footstep_Play	
 	3450403083	ER_Shaman_Death_Play			\Default Work Unit\Sounds\LynxTribe\Shaman\ER_Shaman_Death_Play	
+	3456134061	ER_SandCrab_Bubbles_FlightLoop_Stop			\Default Work Unit\Sounds\SandCrab\Bubbles\ER_SandCrab_Bubbles_FlightLoop_Stop	
 	3469321536	ER_ArcherBug_BuckBumble_Stop			\Default Work Unit\Sounds\Archer Bug\ER_ArcherBug_BuckBumble_Stop	
 	3526336223	ER_Arraign_Remove_Sword_Play			\Default Work Unit\Sounds\Judgement\Arraign\ER_Arraign_Remove_Sword_Play	
 	3527327526	ER_Hunter_Spawn_Play			\Default Work Unit\Sounds\LynxTribe\Hunter\ER_Hunter_Spawn_Play	
@@ -129,8 +140,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	3590259664	ER_ShamanTookTheDrug_Play			\Default Work Unit\Sounds\LynxTribe\Shaman\ER_ShamanTookTheDrug_Play	
 	3638537078	ER_Colossus_Step_Play			\Default Work Unit\Sounds\Colossus\ER_Colossus_Step_Play	
 	3638767595	ER_Arraign_Lightning_Play			\Default Work Unit\Sounds\Judgement\Arraign\ER_Arraign_Lightning_Play	
+	3643098010	ER_SandCrab_Melee_Fire_Play			\Default Work Unit\Sounds\SandCrab\Melee\ER_SandCrab_Melee_Fire_Play	
 	3683371454	ER_Swift_AttackGroundEject_Play			\Default Work Unit\Sounds\Swift\ER_Swift_AttackGroundEject_Play	
 	3705976840	ER_Colossus_Death2_Play			\Default Work Unit\Sounds\Colossus\ER_Colossus_Death2_Play	
+	3719835069	ER_SandCrab_Bubbles_Death_Play			\Default Work Unit\Sounds\SandCrab\Bubbles\ER_SandCrab_Bubbles_Death_Play	
 	3721181403	ER_Totem_SummonStorms_Play			\Default Work Unit\Sounds\LynxTribe\Totem\ER_Totem_SummonStorms_Play	
 	3776641472	ER_Shaman_Projectile_Flight_Loop_Play			\Default Work Unit\Sounds\LynxTribe\Shaman\ER_Shaman_Projectile_Flight_Loop_Play	
 	3783872740	ER_Ifrit_SummonPillar_Play			\Default Work Unit\Sounds\Ifrit\ER_Ifrit_SummonPillar_Play	
@@ -156,12 +169,14 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3844319	Arraign_SpearThrow_Loop	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Judgement\Arraign\WeaponThrow\spear_loop_FFAC0C2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Judgement\Arraign\WeaponThrow\Arraign_SpearThrow_Loop		30558
 	4103259	Swift_AttackGroundEject	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Swift\wGolemB_Shoot_2_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Swift\Random Pitch\Swift_AttackGroundEject		6463
+	4667547	SandCrab_Bubble_Pop	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\BubblePop_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\Random Pitch\SandCrab_Bubble_Pop		1040
 	16712587	Scout_Death	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Scout\death_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Scout\Scout_Death		41465
 	24122210	four	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\Light\light_5_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Random Pitch\Spider_Light_Flicker\four		30386
 	31326868	Storm_Spawn	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Storm\Shaman_Windshear_01_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Storm\Storm_Spawn		25650
 	33025982	Arraign_ThreeHitComb_Charge	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Judgement\Arraign\ThreeHitCombo\charge_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Judgement\Arraign\Arraign_ThreeHitComb_Charge		13241
 	49154136	mFootHugeGiantDirtE	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Colossus\Steps\wow\mFootHugeGiantDirtE_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Colossus\Random Pitch\Colossus_Step\mFootHugeGiantDirtE		5439
 	50837913	Colossus_Land	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Colossus\mDeathImpactGiantSnowA_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Colossus\Colossus_Land		10544
+	55134679	SandCrab_Death	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\crabdeath_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\SandCrab_Death		26668
 	55789865	Swing1	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Judgement\Arraign\LeftRighSwing\mWooshMedium1_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Judgement\Arraign\Random Pitch\Arraign_LeftRightSwingP1\Swing1		7227
 	61355974	Pillar_Killed_By_Player	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Ifrit\hit-3-40697_1F326F18.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Ifrit\Pillar\Pillar_Killed_By_Player		13791
 	63293688	ShamanTookTheDrug	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\you_shall_not_pass_20164B1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Shaman\ShamanTookTheDrug		1616197
@@ -200,22 +215,28 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	264164089	Swift_DeathGroundImpact	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Swift\fall_impact_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Swift\Random Pitch\Swift_DeathGroundImpact		16654
 	264263352	Ifrit_Breathe_Fire	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Ifrit\wArtiShoot4_2_FFAC0C2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Ifrit\Ifrit_Breathe_Fire		50507
 	287318356	Colossus_Death2	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Colossus\Death\wGolemGDeath_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Colossus\Colossus_Death2		29212
+	288865629	bubbles 15	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\bubbles 15_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\Random Pitch\SandCrab_Bubble_Blow\bubbles 15		10541
 	294903960	Spitter_Spit	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\wSpitterShoot1_cut_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Spitter\Random Pitch\Spitter_Spit		11580
 	301760297	Arraign_Leap_RemoveSword	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Judgement\Arraign\remove_sword_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Judgement\Arraign\SkyLeap\Arraign_Leap_RemoveSword		44847
 	302757301	mFootHugeGiantDirtB	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Colossus\Steps\wow\mFootHugeGiantDirtB_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Colossus\Random Pitch\Colossus_Step\mFootHugeGiantDirtB		5998
 	304481895	Colossus_Arms_Spread	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MountainGiantAttackA_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Colossus\Clap\Colossus_Arms_Spread		17192
 	312368820	Swing2	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Judgement\Arraign\ThreeHitCombo\mWooshLarge2_no_armor_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Judgement\Arraign\Random Pitch\Arraign_ThreeHitComboP2\Swing2		5707
+	314097255	SandCrab_Step_03	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\CrabFootSteps3_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\Random Pitch\SandCrab_Footstep\SandCrab_Step_03		4001
 	316040690	Spider_Fire_Charge_Drone	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\charge_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Spider_Fire_Charge_Drone		13461
+	320063894	bubbles 16	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\bubbles 16_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\Random Pitch\SandCrab_Bubble_Blow\bubbles 16		2968
 	321445580	two	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\CRANK_82B5161B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Random Pitch\Spider_Squeaky\two		2331
 	321725216	Scout_Spawn	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Scout\spawn_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Scout\Scout_Spawn		26523
 	322597722	three	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\Light\light_2_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Random Pitch\Spider_Light_Flicker\three		7228
+	325602607	SandCrab_Step_02	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\CrabFootSteps2_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\Random Pitch\SandCrab_Footstep\SandCrab_Step_02		1896
 	332821166	Arraign_Leap_Incoming	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Judgement\Arraign\incoming_leap_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Judgement\Arraign\SkyLeap\Arraign_Leap_Incoming		26350
 	343903326	Shaman_SummonPushBackNoVoice	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Shaman\shaman_summon_pushback_no_voice_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Shaman\Shaman_SummonPushBackNoVoice		14174
 	350476053	Lynx_Retreat	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Shrine\lynx_retreat_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Shrine\Random Pitch\Lynx_Retreat		25447
 	356148722	laugh_5	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Spitter\Laugh\laugh_5_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Spitter\Spitter_Laugh\laugh_5		19910
+	363185352	SandCrab_Melee_Fire	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\snip\snip_fire_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\SandCrab_Melee_Fire		7164
 	365420939	SkyLaser_Alive_Loop	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Judgement\Arraign\SkyLaser\alive_loop_FFAC0C2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Judgement\Arraign\SkyLaser\SkyLaser_Alive_Loop		440895
 	408531612	Totem_Land	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Totem\mDeathImpactGiantDirtA_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Totem\Totem_Land		9150
 	420363145	Pillar_Explosion	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Ifrit\supernatural-explosion-104295_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Ifrit\Pillar\Pillar_Explosion		21213
+	430061715	SandCrab_Step_04	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\CrabFootSteps4_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\Random Pitch\SandCrab_Footstep\SandCrab_Step_04		1982
 	440510476	Shrine_Failure	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Shrine\shrine_failure_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Shrine\Shrine_Failure		7129
 	442060706	Spitter_Projectile_Loop	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\projectile_fly_loop_FFAC0C2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Spitter_Projectile_Loop		78894
 	442216035	laugh_3	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Spitter\Laugh\laugh_3_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Spitter\Spitter_Laugh\laugh_3		21480
@@ -225,11 +246,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	462821773	Scout_Attack	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Scout\attack_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Scout\Random Pitch\Scout_Attack		16481
 	470213146	Ifrit_Spawn	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Ifrit\wWurmRoar_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Ifrit\Ifrit_Spawn		45582
 	483116788	Ifrit_BreatheIn_Charge	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Ifrit\breathe_in_A008DBFD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Ifrit\Ifrit_BreatheIn_Charge		17534
+	486572730	SandCrab_Bubble_FlightLoop	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\bubble_flight_loop_FFAC0C2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\Random Pitch\SandCrab_Bubble_FlightLoop		83969
 	488650691	Swing1	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Judgement\Arraign\ThreeHitCombo\mWooshLarge1_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Judgement\Arraign\Random Pitch\Arraign_ThreeHitComboP1\Swing1		6928
 	498316796	Archer_ArrowLoop	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Archer\arrowflightloop_FFAC0C2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Archer\Archer_ArrowLoop		31646
 	498890753	ArcherBug_Spawn	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\ArcherBug\wMacG_Spawn_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\ArcherBug\ArcherBug_Spawn		16172
 	501723475	Pillar_Spawn	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Ifrit\mStoneGolemDeathA_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Ifrit\Pillar\Random Pitch\Pillar_Spawn		18780
 	503777156	one	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\Light\light_4_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Random Pitch\Spider_Light_Flicker\one		13064
+	513220108	bubbles 6	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\bubbles 6_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\Random Pitch\SandCrab_Bubble_Blow\bubbles 6		9945
 	519983423	Swing1	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Judgement\Arraign\LeftRighSwing\mWooshMedium1_no_armor_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Judgement\Arraign\Random Pitch\Arraign_LeftRightSwingP2\Swing1		4759
 	520764054	Totem_SummonTribe	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Totem\summontribe_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Totem\Totem_SummonTribe		25810
 	534119104	Totem_SexYes	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Totem\sexual_energy_20164B1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Totem\Totem_SexYes		100287
@@ -250,10 +273,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	631139128	Archer_Death	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Archer\death_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Archer\Archer_Death		15576
 	634819283	Storm_Release	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Storm\storm_release_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Storm\Storm_Release		17671
 	637072144	Hunter_PrepareLunge	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Hunter\mWooshMedium2_F000D318.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Hunter\Hunter_PrepareLunge		7087
+	644497817	SandCrab_FireBubblesPrep	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\crab_bubble_attack_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\SandCrab_FireBubblesPrep		11579
 	644961460	Shaman_FireProjectiles	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Shaman\NatureImpact_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Shaman\Random Pitch\Shaman_FireProjectiles		8053
 	645895879	Totem_Shaman_Summon	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Totem\shamansummon_0775BA28.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Totem\Totem_Shaman_Summon		49886
 	654962324	Totem_SummonStorm	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Totem\summonstorms_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Totem\Totem_SummonStorm		50279
 	670225552	Spider_Shoot	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\wPlasma_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Random Pitch\Spider_Shoot		10278
+	670443779	SandCrab_Melee_Hold	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\snip\hold_snip_FFAC0C2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\SandCrab_Melee_Hold		4052
 	670484975	Swing3	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Judgement\Arraign\LeftRighSwing\mWooshMedium3_no_armor_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Judgement\Arraign\Random Pitch\Arraign_LeftRightSwingP2\Swing3		5702
 	674101317	Swing3	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Judgement\Arraign\ThreeHitCombo\mWooshLarge3_no_armor_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Judgement\Arraign\Random Pitch\Arraign_ThreeHitComboP2\Swing3		5457
 	678592564	Spider_Death_Normal	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\death_normal_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Spider_Death_Normal		19003
@@ -261,6 +286,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	692839050	Hunter_FireLunge	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Hunter\ExecuteTarget_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Hunter\Hunter_FireLunge		12872
 	703680545	Arraign_ArmorBreak	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Judgement\Arraign\se_common_break_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Judgement\Arraign\Arraign_ArmorBreak		34103
 	703754591	Spider_Death_Drone	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\wDroneDeath_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Spider_Death_Drone		15505
+	712741687	bubbles3	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\bubbles3_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\Random Pitch\SandCrab_Bubble_Blow\bubbles3		5459
 	717345710	Totem_Burrow	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Totem\mElementalEarthAggroA_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Totem\Totem_Burrow		18005
 	720604510	mFootHugeGiantDirtC	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Colossus\Steps\wow\mFootHugeGiantDirtC_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Colossus\Random Pitch\Colossus_Step\mFootHugeGiantDirtC		5089
 	738621265	Spider_Alive_Loop	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\alive_loop_FFAC0C2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Spider_Alive_Loop		44651
@@ -277,11 +303,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	806740436	Colossus_Spawn	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Colossus\MountainGiantAggro_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Colossus\Colossus_Spawn		28350
 	821461000	Spitter_Charge_Spit	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\sfx_spitter_spit_windup_4E796C50.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Spitter\Random Pitch\Spitter_Charge_Spit		14764
 	823053918	Ifrit_BreathIn_Fireball	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Ifrit\breath_in_fireball_A4C7F8ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Ifrit\Ifrit_BreathIn_Fireball		16582
+	825232422	blowingbubbles1	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\blowingbubbles1_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\Random Pitch\SandCrab_Bubble_Blow\blowingbubbles1		5374
 	825382782	Shaman_FirePushBack	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Shaman\LightningBoltImpact_549A7953.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Shaman\Random Pitch\Shaman_FirePushBack		12113
 	828788037	Rock3	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Ifrit\firerocks\FireCast1_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Ifrit\Random Pitch\Ifrit_Hellzone_Rock\Rock3		15507
 	831893569	Swift_PrepAttack	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Swift\wGolemB_Shoot_1_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Swift\Swift_PrepAttack		22373
 	838090976	Totem_Death	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Totem\death_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Totem\Totem_Death		42128
 	847151097	Spitter_Bite	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\wLizardShoot1_silence_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Spitter\Random Pitch\Spitter_Bite		10265
+	851580757	bubbles 7	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\bubbles 7_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\Random Pitch\SandCrab_Bubble_Blow\bubbles 7		13838
+	852199911	SandCrab_Step_01	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\CrabFootSteps1_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\Random Pitch\SandCrab_Footstep\SandCrab_Step_01		1268
 	859465449	Ifrit_Volcano_Spawn	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Ifrit\DynamiteExplode_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Ifrit\Random Pitch\Ifrit_Volcano_Spawn		16324
 	860858375	Fist_Spawn	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Colossus\item_fist_spawn_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Colossus\Random Pitch\Item\Fist_Spawn		22658
 	865931013	six	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\Light\light_3_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Random Pitch\Spider_Light_Flicker\six		6191
@@ -294,6 +323,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	908440825	Flap1	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Swift\Wings\flap1_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Swift\Random Pitch\Swift_WingFlap\Flap1		3857
 	922813275	Spider_Dash	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\wCommandoSlide_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Random Pitch\Spider_Dash		8704
 	941453457	Totem_Spawn	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Totem\spawn_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Totem\Totem_Spawn		56605
+	944514061	SandCrab_Spawn	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\wCrabSpawn_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\SandCrab_Spawn		11804
 	945917530	Swift_AttackGroundImpact	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Swift\wGolemB_Hit_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Swift\Random Pitch\Swift_AttackGroundImpact		7033
 	970849178	two	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\Light\light_1_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Random Pitch\Spider_Light_Flicker\two		7467
 	975510839	Colossus_Barrage_Body	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Colossus\Barrage\mStoneGolemAttack2A_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Colossus\Barrage\Colossus_Barrage_Body		19353
@@ -303,9 +333,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	994954310	five	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\Light\light_6_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Random Pitch\Spider_Light_Flicker\five		9485
 	1005605552	Spider_Projectile_Hit	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\laser_hit_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Random Pitch\Spider_Projectile_Hit		15726
 	1019158565	ArcherBug_Shoot	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\ArcherBug\wMacG_Shoot_CC99C25A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\ArcherBug\Random Pitch\ArcherBug_Shoot		13905
+	1023406500	SandCrab_Melee_Start	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\snip\charge_snip_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\SandCrab_Melee_Start		14297
 	1024383268	Rock2	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\Ifrit\firerocks\FireCast2_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Ifrit\Random Pitch\Ifrit_Hellzone_Rock\Rock2		18179
 	1025509273	Spitter_Hit	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\wSpitterHit_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Spitter\Spitter_Hit		6023
 	1027150312	Archer_FireArrow	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Archer\firearrow_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Archer\Archer_FireArrow		3279
+	1033596437	SandCrab_FireBubbles	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\SandCrab\start_fire_bubbles_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Sand Crab\SandCrab_FireBubbles		22930
 	1034112484	Impact_01	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Shaman\HauntImpact1_D9952F02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Shaman\Random Pitch\Shaman_Projectile_Impact\Impact_01		17909
 	1038567060	one	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\MechanicalSpider\CRANK_5CFD8381.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\MechanicalSpider\Random Pitch\Spider_Squeaky\one		2027
 	1051465202	Storm_Alive_Loop	F:\Projects\RoR2\RoR2_EnemiesReturns\EnemiesReturnsWwise\.cache\Windows\SFX\LynxTribe\Storm\KrakkenWhirlwind_FFAC0C2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\LynxTribe\Storm\Storm_Alive_Loop		44725

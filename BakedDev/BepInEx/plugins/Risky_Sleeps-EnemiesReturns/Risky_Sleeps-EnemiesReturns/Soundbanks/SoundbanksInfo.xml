@@ -212,7 +212,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2455320596" Type="User" Language="SFX" Hash="{C95814BA-8796-707C-6AE1-FB15FBB3D601}">
+		<SoundBank Id="2455320596" Type="User" Language="SFX" Hash="{5F241949-50F1-C5FE-EBEB-167013A185B7}">
 			<ShortName>EnemiesReturnsSounds</ShortName>
 			<Path>EnemiesReturnsSounds.bnk</Path>
 			<Media>
@@ -224,9 +224,17 @@
 					<ShortName>Swift\wGolemB_Shoot_2.wav</ShortName>
 					<CachePath>SFX/Swift/wGolemB_Shoot_2_D9952F02.wem</CachePath>
 				</File>
+				<File Id="4667547" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\BubblePop.wav</ShortName>
+					<CachePath>SFX/SandCrab/BubblePop_D9952F02.wem</CachePath>
+				</File>
 				<File Id="16712587" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LynxTribe\Scout\death.wav</ShortName>
 					<CachePath>SFX/LynxTribe/Scout/death_D9952F02.wem</CachePath>
+				</File>
+				<File Id="17130526" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\Rabid.wav</ShortName>
+					<CachePath>SFX/SandCrab/Rabid_D9952F02.wem</CachePath>
 				</File>
 				<File Id="24122210" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MechanicalSpider\Light\light_5.wav</ShortName>
@@ -348,6 +356,10 @@
 					<ShortName>LynxTribe\Archer\ArrowHitC.wav</ShortName>
 					<CachePath>SFX/LynxTribe/Archer/ArrowHitC_D9952F02.wem</CachePath>
 				</File>
+				<File Id="171395394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Swift\dive_loop.wav</ShortName>
+					<CachePath>SFX/Swift/dive_loop_FFAC0C2C.wem</CachePath>
+				</File>
 				<File Id="172902234" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spitter\Laugh\laugh_4.wav</ShortName>
 					<CachePath>SFX/Spitter/Laugh/laugh_4_D9952F02.wem</CachePath>
@@ -355,6 +367,10 @@
 				<File Id="179243949" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LynxTribe\Shaman\HauntImpact2.wav</ShortName>
 					<CachePath>SFX/LynxTribe/Shaman/HauntImpact2_D9952F02.wem</CachePath>
+				</File>
+				<File Id="188390281" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Swift\Wings\flap2.wav</ShortName>
+					<CachePath>SFX/Swift/Wings/flap2_D9952F02.wem</CachePath>
 				</File>
 				<File Id="204662139" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Judgement\Arraign\clock_attack_spawn.wav</ShortName>
@@ -380,6 +396,10 @@
 					<ShortName>Judgement\Arraign\SkyLaser\death.wav</ShortName>
 					<CachePath>SFX/Judgement/Arraign/SkyLaser/death_D9952F02.wem</CachePath>
 				</File>
+				<File Id="264164089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Swift\fall_impact.wav</ShortName>
+					<CachePath>SFX/Swift/fall_impact_D9952F02.wem</CachePath>
+				</File>
 				<File Id="264263352" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ifrit\wArtiShoot4_2.wav</ShortName>
 					<CachePath>SFX/Ifrit/wArtiShoot4_2_FFAC0C2C.wem</CachePath>
@@ -387,6 +407,10 @@
 				<File Id="287318356" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Colossus\Death\wGolemGDeath.wav</ShortName>
 					<CachePath>SFX/Colossus/Death/wGolemGDeath_D9952F02.wem</CachePath>
+				</File>
+				<File Id="288865629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\bubbles 15.wav</ShortName>
+					<CachePath>SFX/SandCrab/bubbles 15_D9952F02.wem</CachePath>
 				</File>
 				<File Id="294903960" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>wSpitterShoot1_cut.wav</ShortName>
@@ -408,9 +432,17 @@
 					<ShortName>Judgement\Arraign\ThreeHitCombo\mWooshLarge2_no_armor.wav</ShortName>
 					<CachePath>SFX/Judgement/Arraign/ThreeHitCombo/mWooshLarge2_no_armor_D9952F02.wem</CachePath>
 				</File>
+				<File Id="314097255" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\CrabFootSteps3.wav</ShortName>
+					<CachePath>SFX/SandCrab/CrabFootSteps3_D9952F02.wem</CachePath>
+				</File>
 				<File Id="316040690" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MechanicalSpider\charge.wav</ShortName>
 					<CachePath>SFX/MechanicalSpider/charge_D9952F02.wem</CachePath>
+				</File>
+				<File Id="320063894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\bubbles 16.wav</ShortName>
+					<CachePath>SFX/SandCrab/bubbles 16_D9952F02.wem</CachePath>
 				</File>
 				<File Id="321445580" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MechanicalSpider\CRANK.WAV</ShortName>
@@ -423,6 +455,10 @@
 				<File Id="322597722" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MechanicalSpider\Light\light_2.wav</ShortName>
 					<CachePath>SFX/MechanicalSpider/Light/light_2_D9952F02.wem</CachePath>
+				</File>
+				<File Id="325602607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\CrabFootSteps2.wav</ShortName>
+					<CachePath>SFX/SandCrab/CrabFootSteps2_D9952F02.wem</CachePath>
 				</File>
 				<File Id="332821166" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Judgement\Arraign\incoming_leap.wav</ShortName>
@@ -451,6 +487,10 @@
 				<File Id="420363145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ifrit\supernatural-explosion-104295.wav</ShortName>
 					<CachePath>SFX/Ifrit/supernatural-explosion-104295_D9952F02.wem</CachePath>
+				</File>
+				<File Id="430061715" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\CrabFootSteps4.wav</ShortName>
+					<CachePath>SFX/SandCrab/CrabFootSteps4_D9952F02.wem</CachePath>
 				</File>
 				<File Id="440510476" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LynxTribe\Shrine\shrine_failure.wav</ShortName>
@@ -488,6 +528,10 @@
 					<ShortName>Ifrit\breathe_in.wav</ShortName>
 					<CachePath>SFX/Ifrit/breathe_in_A008DBFD.wem</CachePath>
 				</File>
+				<File Id="486572730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\bubble_flight_loop.wav</ShortName>
+					<CachePath>SFX/SandCrab/bubble_flight_loop_FFAC0C2C.wem</CachePath>
+				</File>
 				<File Id="488650691" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Judgement\Arraign\ThreeHitCombo\mWooshLarge1.wav</ShortName>
 					<CachePath>SFX/Judgement/Arraign/ThreeHitCombo/mWooshLarge1_D9952F02.wem</CachePath>
@@ -507,6 +551,10 @@
 				<File Id="503777156" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MechanicalSpider\Light\light_4.wav</ShortName>
 					<CachePath>SFX/MechanicalSpider/Light/light_4_D9952F02.wem</CachePath>
+				</File>
+				<File Id="513220108" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\bubbles 6.wav</ShortName>
+					<CachePath>SFX/SandCrab/bubbles 6_D9952F02.wem</CachePath>
 				</File>
 				<File Id="519983423" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Judgement\Arraign\LeftRighSwing\mWooshMedium1_no_armor.wav</ShortName>
@@ -632,6 +680,10 @@
 					<ShortName>MechanicalSpider\wDroneDeath.wav</ShortName>
 					<CachePath>SFX/MechanicalSpider/wDroneDeath_D9952F02.wem</CachePath>
 				</File>
+				<File Id="712741687" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\bubbles3.wav</ShortName>
+					<CachePath>SFX/SandCrab/bubbles3_D9952F02.wem</CachePath>
+				</File>
 				<File Id="717345710" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LynxTribe\Totem\mElementalEarthAggroA.wav</ShortName>
 					<CachePath>SFX/LynxTribe/Totem/mElementalEarthAggroA_D9952F02.wem</CachePath>
@@ -696,6 +748,10 @@
 					<ShortName>Ifrit\breath_in_fireball.wav</ShortName>
 					<CachePath>SFX/Ifrit/breath_in_fireball_A4C7F8ED.wem</CachePath>
 				</File>
+				<File Id="825232422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\blowingbubbles1.wav</ShortName>
+					<CachePath>SFX/SandCrab/blowingbubbles1_D9952F02.wem</CachePath>
+				</File>
 				<File Id="825382782" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LynxTribe\Shaman\LightningBoltImpact.wav</ShortName>
 					<CachePath>SFX/LynxTribe/Shaman/LightningBoltImpact_549A7953.wem</CachePath>
@@ -715,6 +771,14 @@
 				<File Id="847151097" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>wLizardShoot1_silence.wav</ShortName>
 					<CachePath>SFX/wLizardShoot1_silence_D9952F02.wem</CachePath>
+				</File>
+				<File Id="851580757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\bubbles 7.wav</ShortName>
+					<CachePath>SFX/SandCrab/bubbles 7_D9952F02.wem</CachePath>
+				</File>
+				<File Id="852199911" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\CrabFootSteps1.wav</ShortName>
+					<CachePath>SFX/SandCrab/CrabFootSteps1_D9952F02.wem</CachePath>
 				</File>
 				<File Id="859465449" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ifrit\DynamiteExplode.wav</ShortName>
@@ -752,6 +816,10 @@
 					<ShortName>Colossus\Steps\wow\mFootHugeGiantDirtD.wav</ShortName>
 					<CachePath>SFX/Colossus/Steps/wow/mFootHugeGiantDirtD_D9952F02.wem</CachePath>
 				</File>
+				<File Id="908440825" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Swift\Wings\flap1.wav</ShortName>
+					<CachePath>SFX/Swift/Wings/flap1_D9952F02.wem</CachePath>
+				</File>
 				<File Id="922813275" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MechanicalSpider\wCommandoSlide.wav</ShortName>
 					<CachePath>SFX/MechanicalSpider/wCommandoSlide_D9952F02.wem</CachePath>
@@ -759,6 +827,14 @@
 				<File Id="941453457" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LynxTribe\Totem\spawn.wav</ShortName>
 					<CachePath>SFX/LynxTribe/Totem/spawn_D9952F02.wem</CachePath>
+				</File>
+				<File Id="944514061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SandCrab\wCrabSpawn.wav</ShortName>
+					<CachePath>SFX/SandCrab/wCrabSpawn_D9952F02.wem</CachePath>
+				</File>
+				<File Id="945917530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Swift\wGolemB_Hit.wav</ShortName>
+					<CachePath>SFX/Swift/wGolemB_Hit_D9952F02.wem</CachePath>
 				</File>
 				<File Id="970849178" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MechanicalSpider\Light\light_1.wav</ShortName>
@@ -1258,6 +1334,49 @@
 						<MediaRef Id="684460965"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3719835069" Name="ER_SandCrab_Bubbles_Death_Play">
+					<MediaRefs>
+						<MediaRef Id="4667547"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="696926639" Name="ER_SandCrab_Bubbles_FlightLoop_Play">
+					<MediaRefs>
+						<MediaRef Id="486572730"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3456134061" Name="ER_SandCrab_Bubbles_FlightLoop_Stop">
+					<MediaRefs>
+						<MediaRef Id="486572730"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3261717184" Name="ER_SandCrab_Bubbles_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="288865629"/>
+						<MediaRef Id="320063894"/>
+						<MediaRef Id="513220108"/>
+						<MediaRef Id="712741687"/>
+						<MediaRef Id="825232422"/>
+						<MediaRef Id="851580757"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1446003772" Name="ER_SandCrab_FireBubbles_Play">
+					<MediaRefs>
+						<MediaRef Id="17130526"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3422590193" Name="ER_SandCrab_Footstep_Play">
+					<MediaRefs>
+						<MediaRef Id="314097255"/>
+						<MediaRef Id="325602607"/>
+						<MediaRef Id="430061715"/>
+						<MediaRef Id="852199911"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2223706892" Name="ER_SandCrab_Spawn_Play">
+					<MediaRefs>
+						<MediaRef Id="944514061"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="237855403" Name="ER_Scout_Attack_Play">
 					<MediaRefs>
 						<MediaRef Id="462821773"/>
@@ -1504,14 +1623,34 @@
 						<MediaRef Id="237938261"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3683371454" Name="ER_Swift_AttackGroundEject_Play">
+					<MediaRefs>
+						<MediaRef Id="4103259"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2248360025" Name="ER_Swift_AttackGroundImpact_Play">
+					<MediaRefs>
+						<MediaRef Id="945917530"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3394875942" Name="ER_Swift_Death_GroundImpact_Play">
+					<MediaRefs>
+						<MediaRef Id="264164089"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="704930148" Name="ER_Swift_Death_PLay">
 					<MediaRefs>
 						<MediaRef Id="557799477"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3544666161" Name="ER_Swift_GroundImpact_Play">
+				<Event Id="1798218692" Name="ER_Swift_DiveLoop_Play">
 					<MediaRefs>
-						<MediaRef Id="4103259"/>
+						<MediaRef Id="171395394"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="275698622" Name="ER_Swift_DiveLoop_Stop">
+					<MediaRefs>
+						<MediaRef Id="171395394"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2011814231" Name="ER_Swift_PrepAttack_Play">
@@ -1522,6 +1661,12 @@
 				<Event Id="2394273957" Name="ER_Swift_Spawn_Play">
 					<MediaRefs>
 						<MediaRef Id="106230718"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2205873296" Name="ER_Swift_WingFlap_Play">
+					<MediaRefs>
+						<MediaRef Id="188390281"/>
+						<MediaRef Id="908440825"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1997966905" Name="ER_Totem_Burrow_Play">
@@ -1587,5 +1732,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1BE0F0AA-18CB-A3C1-C45F-AA398578A4D2}</FileHash>
+	<FileHash>{64D730F0-17FD-2554-78C5-C50FF2C55B72}</FileHash>
 </SoundBanksInfo>

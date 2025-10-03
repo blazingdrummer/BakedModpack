@@ -1,3 +1,8 @@
+`2.8.2`
+
+- False Son
+	- Increased regen per missing spike from +0.5 -> +0.8
+
 `2.8.1`
 
 - Lunar Golem (Sky Meadow)
